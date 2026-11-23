@@ -530,19 +530,22 @@ a.lp-pick:hover .lp-pick-arrow { color: var(--ink); }
 .lp-toc-collapse { padding: 5px; color: var(--muted); }
 .lp-toc-btn:hover, .lp-toc-collapse:hover { background: color-mix(in srgb, var(--ink) 6%, var(--surface)); color: var(--ink); }
 .lp-toc-collapse:focus-visible, .lp-toc-btn:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
-/* the rail: from 960px up it stays beside the article */
+/* the rail: from 960px up it sits beside the article, level with where the text starts (the prose is its positioning box),
+   rides up as the page scrolls, then sticks below the nav */
+.lp-toc-root { display: contents; }
+.lp-prose { position: relative; }
 .lp-toc--rail { display: none; }
 @media (min-width: 960px) {
-  .lp-toc--rail { display: block; position: fixed; z-index: 20; top: calc(var(--nav) + 20px); right: var(--gut); width: 208px; }
-  .lp-toc-panel { max-height: calc(100vh - var(--nav) - 56px); overflow-y: auto; scrollbar-width: thin; }
+  .lp-toc--rail { display: block; position: absolute; top: 0; bottom: 0; left: calc(100% + 32px); width: 208px; }
+  .lp-toc-sticky { position: sticky; top: calc(var(--nav) + 64px); }
+  .lp-toc-panel { max-height: calc(100vh - var(--nav) - 96px); overflow-y: auto; scrollbar-width: thin; }
   .lp-toc-bar { display: none; }
   /* until the window is wide enough to centre the 800px article with the rail beside it, the article moves left */
   .lp-article { margin-inline: 0; max-width: calc(100% - 240px); }
   .lp-prose h2, .lp-prose h3 { scroll-margin-top: calc(var(--nav) + 24px); }
 }
 @media (min-width: 1280px) {
-  /* beside the centred 800px article: its right edge is at 50% + 400px */
-  .lp-toc--rail { left: calc(50% + 416px); right: auto; }
+  .lp-toc--rail { left: calc(100% + 16px); }
   .lp-article { margin-inline: auto; max-width: 800px; }
 }
 .lp-toc-sub a[data-active] { text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }

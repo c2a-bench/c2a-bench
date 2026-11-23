@@ -184,7 +184,8 @@ function TocTree({ groups, active, section, manual, onToggle, onGo }: {
 }
 
 /**
- * Contents. From 960px up a rail stays on screen beside the article (wide screens centre the article, middling ones shift it left); narrower ones get a bar under the nav that shows the
+ * Contents. From 960px up a rail sits beside the article, level with where the text starts, rides up with the page and then stays
+ * on screen (wide screens centre the article, middling ones shift it left); narrower ones get a bar under the nav that shows the
  * section being read, a reading-progress line, and a sheet with the whole list. Either way the section being read is
  * highlighted and its subsections open as you enter it and close as you leave. The rail collapses to one button
  * (remembered on wide screens).
@@ -254,8 +255,9 @@ function TocRail({ items }: { items: TocItem[] }) {
   );
 
   return (
-    <>
+    <div className="lp-toc-root">
       <nav className="lp-toc lp-toc--rail" aria-label="Contents" data-open={open || undefined}>
+        <div className="lp-toc-sticky">
         {open ? (
           <div className="lp-toc-panel">
             <div className="lp-toc-head">
@@ -271,6 +273,7 @@ function TocRail({ items }: { items: TocItem[] }) {
             <List className="size-4" aria-hidden /> Contents
           </button>
         )}
+        </div>
       </nav>
       <div className="lp-toc-bar" data-open={sheet || undefined}>
         <button type="button" className="lp-toc-bar-btn" aria-expanded={sheet} aria-controls="lp-toc-sheet" onClick={() => setSheet((v) => !v)}>
@@ -281,7 +284,7 @@ function TocRail({ items }: { items: TocItem[] }) {
         <div className="lp-toc-bar-progress" aria-hidden><span style={{ transform: `scaleX(${progress})` }} /></div>
         {sheet && <nav className="lp-toc-sheet" id="lp-toc-sheet" aria-label="Contents">{tree}</nav>}
       </div>
-    </>
+    </div>
   );
 }
 
@@ -339,13 +342,13 @@ export default function BlogPost() {
   return (
     <div className="lp min-h-screen">
       <Nav />
-      <TocRail items={items} />
       <main className="lp-wrap" style={{ paddingTop: "calc(var(--nav) + clamp(56px, 9vh, 112px))", paddingBottom: 140 }}>
         <article className="lp-article">
           <div className="caps muted">{postDate(post.date)}</div>
           <h1 style={{ marginTop: 16, fontSize: "clamp(36px, 2.6vw + 22px, 64px)", lineHeight: 1.08 }}>{post.title}</h1>
           <RepoLinks className="muted mt-5" />
           <div className="lp-prose" style={{ marginTop: 40 }}>
+            <TocRail items={items} />
             <Body md={post.body} />
           </div>
         </article>
