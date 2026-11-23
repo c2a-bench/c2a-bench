@@ -130,7 +130,7 @@ function headingsOf(md: string): TocItem[] {
 }
 
 const TOC_KEY = "c2a-blog-toc";
-const WIDE = "(min-width: 1280px)";
+const WIDE = "(min-width: 960px)";
 
 type TocGroup = { head: TocItem; kids: TocItem[] };
 const groupsOf = (items: TocItem[]): TocGroup[] => {
@@ -184,7 +184,7 @@ function TocTree({ groups, active, section, manual, onToggle, onGo }: {
 }
 
 /**
- * Contents. Wide screens dock a rail to the right of the article; narrower ones get a bar under the nav that shows the
+ * Contents. From 960px up a rail stays on screen beside the article (wide screens centre the article, middling ones shift it left); narrower ones get a bar under the nav that shows the
  * section being read, a reading-progress line, and a sheet with the whole list. Either way the section being read is
  * highlighted and its subsections open as you enter it and close as you leave. The rail collapses to one button
  * (remembered on wide screens).

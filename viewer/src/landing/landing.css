@@ -505,9 +505,8 @@ a.lp-pick:hover .lp-pick-arrow { color: var(--ink); }
   .ct-avg-note { margin-left: 0; }
 }
 
-/* ---------- Blog contents: a rail right of the article on wide screens, a bar under the nav below ---------- */
+/* ---------- Blog contents: a rail beside the article from 960px, a bar under the nav below ---------- */
 .lp-prose h2, .lp-prose h3 { scroll-margin-top: calc(var(--nav) + 72px); }
-@media (min-width: 1280px) { .lp-prose h2, .lp-prose h3 { scroll-margin-top: calc(var(--nav) + 24px); } }
 .lp-toc-tree, .lp-toc-sub { list-style: none; margin: 0; padding: 0; }
 .lp-toc-row { display: flex; align-items: flex-start; gap: 4px; }
 .lp-toc-row > a { flex: 1 1 0; min-width: 0; }
@@ -531,15 +530,23 @@ a.lp-pick:hover .lp-pick-arrow { color: var(--ink); }
 .lp-toc-collapse { padding: 5px; color: var(--muted); }
 .lp-toc-btn:hover, .lp-toc-collapse:hover { background: color-mix(in srgb, var(--ink) 6%, var(--surface)); color: var(--ink); }
 .lp-toc-collapse:focus-visible, .lp-toc-btn:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
-/* the rail (wide screens only) */
+/* the rail: from 960px up it stays beside the article */
 .lp-toc--rail { display: none; }
-@media (min-width: 1280px) {
-  /* beside the 800px article: its right edge is at 50% + 400px */
-  .lp-toc--rail { display: block; position: fixed; z-index: 20; top: calc(var(--nav) + 20px); left: calc(50% + 416px); width: 208px; }
+@media (min-width: 960px) {
+  .lp-toc--rail { display: block; position: fixed; z-index: 20; top: calc(var(--nav) + 20px); right: var(--gut); width: 208px; }
   .lp-toc-panel { max-height: calc(100vh - var(--nav) - 56px); overflow-y: auto; scrollbar-width: thin; }
   .lp-toc-bar { display: none; }
+  /* until the window is wide enough to centre the 800px article with the rail beside it, the article moves left */
+  .lp-article { margin-inline: 0; max-width: calc(100% - 240px); }
+  .lp-prose h2, .lp-prose h3 { scroll-margin-top: calc(var(--nav) + 24px); }
 }
-/* the bar (below 1280px): the section being read, a progress line, a sheet with the list */
+@media (min-width: 1280px) {
+  /* beside the centred 800px article: its right edge is at 50% + 400px */
+  .lp-toc--rail { left: calc(50% + 416px); right: auto; }
+  .lp-article { margin-inline: auto; max-width: 800px; }
+}
+.lp-toc-sub a[data-active] { text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+/* the bar (below 960px): the section being read, a progress line, a sheet with the list */
 .lp-toc-bar { position: fixed; z-index: 25; left: 0; right: 0; top: var(--nav); background: var(--bg); border-bottom: 1px solid var(--line); box-shadow: 0 2px 8px rgb(0 0 0 / 0.06); }
 .lp-toc-bar-btn { width: 100%; min-height: 44px; display: flex; align-items: center; gap: 10px; padding: 8px 16px; border: 0; background: transparent; color: var(--ink); font: inherit; font-size: 14px; font-weight: 500; line-height: 1.3; text-align: left; cursor: pointer; }
 .lp-toc-bar-cur { flex: 1 1 0; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
