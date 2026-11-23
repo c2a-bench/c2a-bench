@@ -236,11 +236,11 @@ function Results({ redwood, metas, skyway, skywayMetas, bare, compact, env: fixe
               ? "Share of all Skyway tickets each builder's agents passed."
               : "Share of all Redwood tickets each builder's agent passed, over the six stages. Every agent runs on the same model; only the builder differs.",
             points: sky ? [
-              <><b>Failed builds hurt the overall score.</b> Gemini ranked second on stages where its agent ran, but failed builds dropped it to fourth overall.</>,
-              <><b>Asking the customer for missing details matters.</b> The weakest builder&apos;s agents collected only 48% of the facts that only the customer knew, compared with 61% to 74% for the other builders.</>,
+              <><b>Opus 5.5 builds the best agent, by a wide margin.</b> It passes 67% of tickets, against 40% for DeepSeek.</>,
+              <><b>The difference is what the builder chooses to keep.</b> With over 10,000 docs, nobody reads everything: Opus 5.5 keeps the current rules, DeepSeek throws away too much, and 6.1 Sol keeps too much, old rules included.</>,
             ] : [
-              <><b>Updates separate the builders more than the first build.</b> One builder checked file dates instead of file contents, missed newly added pages, and stayed in last place for three stages.</>,
-              <><b>Testing new limits prevents failures.</b> When a prompt size limit was added in stage 4, two builders missed it completely and failed 21% of the stage, and a third still failed 8% on the same limit.</>,
+              <><b>6.1 Sol builds the best agent, but the others are close behind.</b> It passes 80% of tickets, and five other builders pass between 70% and 78%.</>,
+              <><b>With only a small set of docs, the difference comes from keeping the agent up to date.</b> Every builder can read all the docs, but Sonnet 5.5 missed the pages added later and finished second from last.</>,
             ],
             chart: (
               <>
@@ -263,11 +263,12 @@ function Results({ redwood, metas, skyway, skywayMetas, bare, compact, env: fixe
               ? "Cost is what one build cost the builder, averaged over its architectures."
               : "Cost is what the builder spent on the whole run.",
             points: sky ? [
-              <><b>Spending more to build does not guarantee a better agent.</b> Two builders spent almost the same amount per build and finished 17 percentage points apart.</>,
-              <><b>On a large doc set, build spend starts to matter.</b> Unlike on Redwood, the highest spender finishes first and the lowest spender finishes last.</>,
+              <><b>The best builder spends most of its effort building, not reading.</b> Opus 5.5 puts over half of its work into building the agent; most builders spend about a third just reading.</>,
+              <><b>More time does not buy a better agent.</b> 6.1 Sol builds the fastest and still finishes third.</>,
+              <><b>Carbon is the slowest on almost every design.</b> It spends over half of its work reading and tests very little.</>,
             ] : [
-              <><b>A more expensive build does not mean a better agent.</b> The cheapest builder finishes near the top.</>,
-              <><b>A cheap build can create an expensive agent.</b> Two builders with almost the same score built agents that differ by 3× in model calls per ticket.</>,
+              <><b>A faster or cheaper build is not a worse one.</b> 6.1 Sol is among the quickest and comes first; DeepSeek spends under a dollar and is close behind.</>,
+              <><b>The best builders check their agent before they finish.</b> Opus 5.5 tests more than any other builder; Carbon spends most of its effort reading and comes last.</>,
             ],
             chart: (
               <CostScatter
