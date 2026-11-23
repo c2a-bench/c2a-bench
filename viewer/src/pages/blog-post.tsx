@@ -3,11 +3,11 @@
  * `<!-- figure:<name> -->` draws that landing chart from live data, and
  * `<!-- shot:<file> | <caption> | <link> -->` shows a run-page screenshot from public/blog (light and dark versions).
  */
-import { Suspense, useState, type ReactNode } from "react";
+import { Suspense, useEffect, useMemo, useRef, useState, type ReactNode } from "react";
 import { Link } from "react-router";
 import Markdown, { type Components } from "react-markdown";
 import remarkGfm from "remark-gfm";
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, ChevronsRight, List } from "lucide-react";
 import { Nav, RepoLinks } from "@/landing/nav";
 import { publicAsset } from "@/lib/assets";
 import { POSTS, postDate } from "@/blog/posts";
@@ -98,6 +98,8 @@ function Frame({ kicker, title, note, caption, href, link, right, children }: { 
 
 /** A Markdown link to `#tip` is a hover note, not a link: `[668 test cases](#tip "how it adds up")`. */
 const MD: Components = {
+  h2: ({ children }) => <h2 id={headingId(plain(children))}>{children}</h2>,
+  h3: ({ children }) => <h3 id={headingId(plain(children))}>{children}</h3>,
   a: ({ href, title, children, ...rest }) =>
     href === "#tip" ? (
       <span className="lp-tip" tabIndex={0} data-tip={title ?? ""} aria-label={title ?? undefined}>{children}</span>
@@ -107,6 +109,124 @@ const MD: Components = {
       <a href={href} title={title} {...rest}>{children}</a>
     ),
 };
+
+/** The text of a rendered heading, so the id the page puts on it matches the one the contents list links to. */
+function plain(node: ReactNode): string {
+  if (node == null || typeof node === "boolean") return "";
+  if (typeof node === "string" || typeof node === "number") return String(node);
+  if (Array.isArray(node)) return node.map(plain).join("");
+  if (typeof node === "object" && "props" in node) return plain((node.props as { children?: ReactNode }).children);
+  return "";
+}
+const headingId = (text: string) => text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+
+type TocItem = { id: string; text: string; level: 2 | 3 };
+/** The post's `##` and `###` headings, in order. Inline Markdown (code, bold, links) is reduced to its text. */
+function headingsOf(md: string): TocItem[] {
+  return [...md.matchAll(/^(#{2,3})\s+(.+?)\s*$/gm)].map((m) => {
+    const text = m[2].replace(/`([^`]*)`/g, "$1").replace(/\*+/g, "").replace(/\[([^\]]*)\]\([^)]*\)/g, "$1");
+    return { id: headingId(text), text, level: m[1].length as 2 | 3 };
+  });
+}
+
+const TOC_KEY = "c2a-blog-toc";
+const WIDE = "(min-width: 1280px)";
+
+/**
+ * Contents rail. Wide screens dock it to the right of the article; narrower ones float it as a button that opens a panel.
+ * It highlights the section being read, opens a section's subsections only while you are in it, and collapses to one button
+ * (the choice is remembered on wide screens).
+ */
+function TocRail({ items }: { items: TocItem[] }) {
+  const [open, setOpen] = useState(() => {
+    try {
+      const saved = localStorage.getItem(TOC_KEY);
+      if (saved && matchMedia(WIDE).matches) return saved === "1";
+    } catch { /* storage can be blocked */ }
+    return matchMedia(WIDE).matches;
+  });
+  const [active, setActive] = useState(items[0]?.id ?? "");
+  const raf = useRef(0);
+
+  // The section being read: the last heading that has reached the top of the page.
+  useEffect(() => {
+    const update = () => {
+      raf.current = 0;
+      const line = 120;
+      let current = items[0]?.id ?? "";
+      for (const it of items) {
+        const el = document.getElementById(it.id);
+        if (el && el.getBoundingClientRect().top <= line) current = it.id;
+      }
+      setActive(current);
+    };
+    const onScroll = () => (raf.current ||= requestAnimationFrame(update));
+    update();
+    addEventListener("scroll", onScroll, { passive: true });
+    addEventListener("resize", onScroll);
+    return () => {
+      removeEventListener("scroll", onScroll);
+      removeEventListener("resize", onScroll);
+      cancelAnimationFrame(raf.current);
+    };
+  }, [items]);
+
+  const toggle = (next: boolean) => {
+    setOpen(next);
+    try {
+      if (matchMedia(WIDE).matches) localStorage.setItem(TOC_KEY, next ? "1" : "0");
+    } catch { /* ignore */ }
+  };
+  const go = (id: string) => {
+    const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
+    document.getElementById(id)?.scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "start" });
+    if (!matchMedia(WIDE).matches) setOpen(false);
+  };
+
+  // The section the reader is in: the active h2, or the h2 above the active h3.
+  const section = useMemo(() => {
+    const i = items.findIndex((it) => it.id === active);
+    for (let k = i; k >= 0; k--) if (items[k].level === 2) return items[k].id;
+    return "";
+  }, [items, active]);
+
+  if (!open) {
+    return (
+      <nav className="lp-toc lp-toc--closed" aria-label="Contents">
+        <button type="button" className="lp-toc-btn" onClick={() => toggle(true)} aria-expanded="false" aria-controls="lp-toc-panel">
+          <List className="size-4" aria-hidden /> Contents
+        </button>
+      </nav>
+    );
+  }
+  let parent = "";
+  return (
+    <nav className="lp-toc" aria-label="Contents">
+      <div className="lp-toc-panel" id="lp-toc-panel">
+        <div className="lp-toc-head">
+          <span className="caps muted">Contents</span>
+          <button type="button" className="lp-toc-collapse" onClick={() => toggle(false)} aria-label="Collapse contents" aria-expanded="true" aria-controls="lp-toc-panel">
+            <ChevronsRight className="size-4" aria-hidden />
+          </button>
+        </div>
+        <ol>
+          {items.map((it) => {
+            if (it.level === 2) parent = it.id;
+            if (it.level === 3 && parent !== section) return null;
+            return (
+              <li key={it.id} className={it.level === 3 ? "lp-toc-sub" : undefined}>
+                <a href={`#${it.id}`} data-active={it.id === active || undefined} aria-current={it.id === active ? "location" : undefined}
+                  onClick={(e) => { e.preventDefault(); go(it.id); }}>
+                  {it.text}
+                </a>
+              </li>
+            );
+          })}
+        </ol>
+      </div>
+    </nav>
+  );
+}
 
 /** A landing chart in the post; one that has Skyway Air data too gets a Redwood / Skyway toggle above it. */
 function ChartFigure({ name }: { name: FigureName }) {
@@ -158,9 +278,11 @@ function Body({ md }: { md: string }) {
 
 export default function BlogPost() {
   const post = POSTS[0];
+  const items = useMemo(() => headingsOf(post.body), [post.body]);
   return (
     <div className="lp min-h-screen">
       <Nav />
+      <TocRail items={items} />
       <main className="lp-wrap" style={{ paddingTop: "calc(var(--nav) + clamp(56px, 9vh, 112px))", paddingBottom: 140 }}>
         <article className="lp-article">
           <div className="caps muted">{postDate(post.date)}</div>
