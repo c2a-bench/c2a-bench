@@ -7,7 +7,7 @@ import { Suspense, useEffect, useMemo, useRef, useState, type ReactNode } from "
 import { Link } from "react-router";
 import Markdown, { type Components } from "react-markdown";
 import remarkGfm from "remark-gfm";
-import { ArrowRight, ChevronsRight, List } from "lucide-react";
+import { ArrowRight, ChevronRight, ChevronsRight, List } from "lucide-react";
 import { Nav, RepoLinks } from "@/landing/nav";
 import { publicAsset } from "@/lib/assets";
 import { POSTS, postDate } from "@/blog/posts";
@@ -132,33 +132,91 @@ function headingsOf(md: string): TocItem[] {
 const TOC_KEY = "c2a-blog-toc";
 const WIDE = "(min-width: 1280px)";
 
+type TocGroup = { head: TocItem; kids: TocItem[] };
+const groupsOf = (items: TocItem[]): TocGroup[] => {
+  const groups: TocGroup[] = [];
+  for (const it of items) {
+    if (it.level === 2 || !groups.length) groups.push({ head: it, kids: [] });
+    else groups[groups.length - 1].kids.push(it);
+  }
+  return groups;
+};
+
+/** Every section, with its subsections under it: open for the section being read (or by its chevron), closed otherwise. */
+function TocTree({ groups, active, section, manual, onToggle, onGo }: {
+  groups: TocGroup[]; active: string; section: string; manual: Record<string, boolean>;
+  onToggle: (id: string, open: boolean) => void; onGo: (id: string) => void;
+}) {
+  const link = (it: TocItem, tab: boolean) => (
+    <a href={`#${it.id}`} data-active={it.id === active || undefined} aria-current={it.id === active ? "location" : undefined}
+      tabIndex={tab ? undefined : -1} onClick={(e) => { e.preventDefault(); onGo(it.id); }}>
+      {it.text}
+    </a>
+  );
+  return (
+    <ul className="lp-toc-tree">
+      {groups.map((g) => {
+        const open = manual[g.head.id] ?? g.head.id === section;
+        const subId = `lp-toc-${g.head.id}`;
+        return (
+          <li key={g.head.id} data-section={g.head.id === section || undefined}>
+            <div className="lp-toc-row">
+              {link(g.head, true)}
+              {g.kids.length > 0 && (
+                <button type="button" className="lp-toc-chev" aria-expanded={open} aria-controls={subId}
+                  aria-label={`Subsections of ${g.head.text}`} onClick={() => onToggle(g.head.id, !open)}>
+                  <ChevronRight className="size-3.5" aria-hidden />
+                </button>
+              )}
+            </div>
+            {g.kids.length > 0 && (
+              <div className="lp-toc-subwrap" data-open={open || undefined}>
+                <ul className="lp-toc-sub" id={subId} aria-hidden={!open}>
+                  {g.kids.map((k) => <li key={k.id}>{link(k, open)}</li>)}
+                </ul>
+              </div>
+            )}
+          </li>
+        );
+      })}
+    </ul>
+  );
+}
+
 /**
- * Contents rail. Wide screens dock it to the right of the article; narrower ones float it as a button that opens a panel.
- * It highlights the section being read, opens a section's subsections only while you are in it, and collapses to one button
- * (the choice is remembered on wide screens).
+ * Contents. Wide screens dock a rail to the right of the article; narrower ones get a bar under the nav that shows the
+ * section being read, a reading-progress line, and a sheet with the whole list. Either way the section being read is
+ * highlighted and its subsections open as you enter it and close as you leave. The rail collapses to one button
+ * (remembered on wide screens).
  */
 function TocRail({ items }: { items: TocItem[] }) {
+  const groups = useMemo(() => groupsOf(items), [items]);
   const [open, setOpen] = useState(() => {
     try {
       const saved = localStorage.getItem(TOC_KEY);
       if (saved && matchMedia(WIDE).matches) return saved === "1";
     } catch { /* storage can be blocked */ }
-    return matchMedia(WIDE).matches;
+    return true;
   });
+  const [sheet, setSheet] = useState(false);
   const [active, setActive] = useState(items[0]?.id ?? "");
+  const [progress, setProgress] = useState(0);
+  const [manual, setManual] = useState<Record<string, boolean>>({});
   const raf = useRef(0);
 
   // The section being read: the last heading that has reached the top of the page.
   useEffect(() => {
     const update = () => {
       raf.current = 0;
-      const line = 120;
+      const line = matchMedia(WIDE).matches ? 120 : 160;
       let current = items[0]?.id ?? "";
       for (const it of items) {
         const el = document.getElementById(it.id);
         if (el && el.getBoundingClientRect().top <= line) current = it.id;
       }
       setActive(current);
+      const max = document.documentElement.scrollHeight - innerHeight;
+      setProgress(max > 0 ? Math.min(1, Math.max(0, scrollY / max)) : 0);
     };
     const onScroll = () => (raf.current ||= requestAnimationFrame(update));
     update();
@@ -171,60 +229,59 @@ function TocRail({ items }: { items: TocItem[] }) {
     };
   }, [items]);
 
-  const toggle = (next: boolean) => {
+  const section = useMemo(() => groups.find((g) => g.head.id === active || g.kids.some((k) => k.id === active))?.head.id ?? "", [groups, active]);
+  const current = items.find((it) => it.id === active)?.text ?? "";
+  // Moving to another section lets it decide what is open again.
+  useEffect(() => setManual({}), [section]);
+  useEffect(() => {
+    if (!sheet) return;
+    const esc = (e: KeyboardEvent) => e.key === "Escape" && setSheet(false);
+    addEventListener("keydown", esc);
+    return () => removeEventListener("keydown", esc);
+  }, [sheet]);
+
+  const toggleRail = (next: boolean) => {
     setOpen(next);
-    try {
-      if (matchMedia(WIDE).matches) localStorage.setItem(TOC_KEY, next ? "1" : "0");
-    } catch { /* ignore */ }
+    try { localStorage.setItem(TOC_KEY, next ? "1" : "0"); } catch { /* ignore */ }
   };
   const go = (id: string) => {
     const reduce = matchMedia("(prefers-reduced-motion: reduce)").matches;
     document.getElementById(id)?.scrollIntoView({ behavior: reduce ? "auto" : "smooth", block: "start" });
-    if (!matchMedia(WIDE).matches) setOpen(false);
+    setSheet(false);
   };
+  const tree = (
+    <TocTree groups={groups} active={active} section={section} manual={manual} onToggle={(id, o) => setManual((m) => ({ ...m, [id]: o }))} onGo={go} />
+  );
 
-  // The section the reader is in: the active h2, or the h2 above the active h3.
-  const section = useMemo(() => {
-    const i = items.findIndex((it) => it.id === active);
-    for (let k = i; k >= 0; k--) if (items[k].level === 2) return items[k].id;
-    return "";
-  }, [items, active]);
-
-  if (!open) {
-    return (
-      <nav className="lp-toc lp-toc--closed" aria-label="Contents">
-        <button type="button" className="lp-toc-btn" onClick={() => toggle(true)} aria-expanded="false" aria-controls="lp-toc-panel">
-          <List className="size-4" aria-hidden /> Contents
-        </button>
-      </nav>
-    );
-  }
-  let parent = "";
   return (
-    <nav className="lp-toc" aria-label="Contents">
-      <div className="lp-toc-panel" id="lp-toc-panel">
-        <div className="lp-toc-head">
-          <span className="caps muted">Contents</span>
-          <button type="button" className="lp-toc-collapse" onClick={() => toggle(false)} aria-label="Collapse contents" aria-expanded="true" aria-controls="lp-toc-panel">
-            <ChevronsRight className="size-4" aria-hidden />
+    <>
+      <nav className="lp-toc lp-toc--rail" aria-label="Contents" data-open={open || undefined}>
+        {open ? (
+          <div className="lp-toc-panel">
+            <div className="lp-toc-head">
+              <span className="lp-toc-label">Contents</span>
+              <button type="button" className="lp-toc-collapse" onClick={() => toggleRail(false)} aria-label="Collapse contents" aria-expanded="true">
+                <ChevronsRight className="size-4" aria-hidden />
+              </button>
+            </div>
+            {tree}
+          </div>
+        ) : (
+          <button type="button" className="lp-toc-btn" onClick={() => toggleRail(true)} aria-expanded="false">
+            <List className="size-4" aria-hidden /> Contents
           </button>
-        </div>
-        <ol>
-          {items.map((it) => {
-            if (it.level === 2) parent = it.id;
-            if (it.level === 3 && parent !== section) return null;
-            return (
-              <li key={it.id} className={it.level === 3 ? "lp-toc-sub" : undefined}>
-                <a href={`#${it.id}`} data-active={it.id === active || undefined} aria-current={it.id === active ? "location" : undefined}
-                  onClick={(e) => { e.preventDefault(); go(it.id); }}>
-                  {it.text}
-                </a>
-              </li>
-            );
-          })}
-        </ol>
+        )}
+      </nav>
+      <div className="lp-toc-bar" data-open={sheet || undefined}>
+        <button type="button" className="lp-toc-bar-btn" aria-expanded={sheet} aria-controls="lp-toc-sheet" onClick={() => setSheet((v) => !v)}>
+          <List className="size-4 shrink-0" aria-hidden />
+          <span className="lp-toc-bar-cur">{current}</span>
+          <ChevronRight className="lp-toc-bar-chev size-4 shrink-0" aria-hidden />
+        </button>
+        <div className="lp-toc-bar-progress" aria-hidden><span style={{ transform: `scaleX(${progress})` }} /></div>
+        {sheet && <nav className="lp-toc-sheet" id="lp-toc-sheet" aria-label="Contents">{tree}</nav>}
       </div>
-    </nav>
+    </>
   );
 }
 
