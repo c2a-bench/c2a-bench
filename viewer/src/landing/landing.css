@@ -526,10 +526,10 @@ a.lp-pick:hover .lp-pick-arrow { color: var(--ink); }
 .lp-toc a:focus-visible, .lp-toc-sheet a:focus-visible, .lp-toc button:focus-visible, .lp-toc-sheet button:focus-visible, .lp-toc-bar-btn:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
 .lp-toc-label { font-family: var(--font-mono); font-size: 12.5px; letter-spacing: .02em; text-transform: uppercase; color: var(--muted); }
 .lp-toc-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 8px; }
-.lp-toc-btn, .lp-toc-collapse { display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 999px; font: inherit; font-size: 14px; font-weight: 500; line-height: 1; padding: 9px 14px; cursor: pointer; }
+.lp-toc-collapse { display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--line); background: var(--surface); color: var(--ink); border-radius: 999px; font: inherit; font-size: 14px; font-weight: 500; line-height: 1; padding: 9px 14px; cursor: pointer; }
 .lp-toc-collapse { padding: 5px; color: var(--muted); }
-.lp-toc-btn:hover, .lp-toc-collapse:hover { background: color-mix(in srgb, var(--ink) 6%, var(--surface)); color: var(--ink); }
-.lp-toc-collapse:focus-visible, .lp-toc-btn:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
+.lp-toc-collapse:hover { background: color-mix(in srgb, var(--ink) 6%, var(--surface)); color: var(--ink); }
+.lp-toc-collapse:focus-visible { outline: 2px solid var(--ink); outline-offset: 2px; }
 /* the rail: from 960px up it sits beside the article, level with where the text starts (the prose is its positioning box),
    rides up as the page scrolls, then sticks below the nav */
 .lp-toc-root { display: contents; }
@@ -559,3 +559,16 @@ a.lp-pick:hover .lp-pick-arrow { color: var(--ink); }
 .lp-toc-bar-progress span { display: block; height: 100%; background: var(--ink); transform-origin: 0 50%; }
 .lp-toc-sheet { max-height: min(70dvh, 560px); overflow-y: auto; overscroll-behavior: contain; padding: 4px 16px 14px; border-top: 1px solid var(--line); }
 @media (prefers-reduced-motion: reduce) { .lp-toc a, .lp-toc-chev, .lp-toc-chev svg, .lp-toc-subwrap, .lp-toc-bar-chev { transition: none; } }
+
+/* Hiding the rail slides it off the right edge of the window; a thin tab on that edge brings it back. */
+.lp { overflow-x: clip; }
+.lp-toc-edge { display: none; }
+@media (min-width: 960px) {
+  .lp-toc-sticky { transition: transform .3s ease, visibility 0s; }
+  .lp-toc--rail:not([data-open]) .lp-toc-sticky { transform: translateX(100vw); visibility: hidden; transition: transform .3s ease, visibility 0s .3s; }
+  .lp-toc-edge { display: block; position: fixed; z-index: 20; right: 0; top: calc(var(--nav) + 64px); width: 14px; height: 64px; padding: 0; border: 0; border-radius: 8px 0 0 8px; background: transparent; cursor: pointer; }
+  .lp-toc-edge::before { content: ""; position: absolute; right: 0; top: 50%; width: 3px; height: 40px; margin-top: -20px; border-radius: 2px 0 0 2px; background: var(--muted); opacity: .6; transition: width .15s, opacity .15s; }
+  .lp-toc-edge:hover::before, .lp-toc-edge:focus-visible::before { width: 6px; opacity: 1; background: var(--ink); }
+  .lp-toc-edge:focus-visible { outline: 2px solid var(--ink); outline-offset: -2px; }
+}
+@media (prefers-reduced-motion: reduce) { .lp-toc-sticky, .lp-toc-edge::before { transition: none !important; } }

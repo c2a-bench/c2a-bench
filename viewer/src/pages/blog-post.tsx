@@ -273,23 +273,18 @@ function TocRail({ items }: { items: TocItem[] }) {
     <div className="lp-toc-root">
       <nav className="lp-toc lp-toc--rail" aria-label="Contents" data-open={open || undefined}>
         <div className="lp-toc-sticky">
-        {open ? (
-          <div className="lp-toc-panel">
+          <div className="lp-toc-panel" inert={!open}>
             <div className="lp-toc-head">
               <span className="lp-toc-label">Contents</span>
-              <button type="button" className="lp-toc-collapse" onClick={() => toggleRail(false)} aria-label="Collapse contents" aria-expanded="true">
+              <button type="button" className="lp-toc-collapse" onClick={() => toggleRail(false)} aria-label="Hide contents" aria-expanded={open}>
                 <ChevronsRight className="size-4" aria-hidden />
               </button>
             </div>
             {tree}
           </div>
-        ) : (
-          <button type="button" className="lp-toc-btn" onClick={() => toggleRail(true)} aria-expanded="false">
-            <List className="size-4" aria-hidden /> Contents
-          </button>
-        )}
         </div>
       </nav>
+      {!open && <button type="button" className="lp-toc-edge" onClick={() => toggleRail(true)} aria-label="Show contents" aria-expanded="false" />}
       <div className="lp-toc-bar" data-open={sheet || undefined}>
         <button type="button" className="lp-toc-bar-btn" aria-expanded={sheet} aria-controls="lp-toc-sheet" onClick={() => setSheet((v) => !v)}>
           <List className="size-4 shrink-0" aria-hidden />
