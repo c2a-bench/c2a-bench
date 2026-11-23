@@ -8,7 +8,7 @@ export const POSTS: Post[] = [
     slug: "introducing-c2a",
     title: "C2A: can agents keep up with a business that keeps changing?",
     summary:
-      "668 test cases, seven builder models and six agent architectures: what happens when coding agents build support agents, and then have to keep them up to date as the docs change.",
+      "668 test cases, seven builder models and six agent architectures: what happens when a builder turns a company's docs into a support agent, and then has to keep it up to date as the docs change.",
     date: "2026-11-19",
     body: introducingC2A,
   },

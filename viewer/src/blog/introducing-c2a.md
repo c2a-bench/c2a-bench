@@ -8,8 +8,7 @@ So the question we care about isn't only *whether an agent resolves an issue.*
 It's *can an agent learn a business's context, and keep learning it as that context changes to always resolve the
 customer's issue?*
 
-Since more and more support agents are now written by coding agents rather than by hand, there is a second question
-hiding inside the first: *can an agent build, and then maintain, another agent?*
+There is a second question hiding inside the first. Before an agent can serve customers, someone has to turn a company's scattered knowledge into one: find the few rules that matter among thousands of documents, decide what the agent must ask the customer, capture the policies human agents are required to follow, and set up the tools it works with. In C2A that job belongs to a *builder*, so the question becomes: *can a builder create such an agent, and then keep it correct as the business changes?*
 
 C2A, the Context to Agent Benchmark, is our attempt to measure that. We have measured top models to
 understand how well these models handle the complexity of CX operations while creating and updating
@@ -21,12 +20,11 @@ models, and six agent architectures. All runs, tickets, and transcripts are publ
 
 ## Inside the benchmark
 
-In this benchmark we ask a builder to build a customer support agent for a company and score the builder based on the performance of the customer support agent. Our goal is to evaluate different LLMs for the builder job.
+In this benchmark we ask a builder to build a customer support agent for a company. We then score the builder on how well that agent handles simulated customers: each one contacts support with a real problem, shares some facts only when asked, and behaves the way real customers do (vague, pushy, changing their mind). Our goal is to evaluate different LLMs for the builder job.
 
 1. **Business context.** A company's knowledge is spread across knowledge management systems, CRMs, LMS, email, and
    UCaaS systems. Any one ticket needs several facts that live in different places. This is the builder's starting point. 
-2. **Builder.** A coding agent (Codex, Claude Code, Gemini CLI, or pi) reads the docs and writes a support agent:
-   its prompts, its code, and however it chooses to store the company's knowledge. It must describe what it built in an `ARCHITECTURE.json` that we later check against what the agent actually does.
+2. **Builder.** An LLM working inside a coding-agent harness (Codex, Claude Code, Gemini CLI, or pi) takes the role of a forward deployed engineer. It reads the company's docs and has to work out which rules and context the support agent needs, what the agent must ask the customer, and which policies human agents must follow. It then builds the agent: its prompts, its code, how its tools are set up and orchestrated, and however it chooses to store the company's knowledge. It must describe what it built in an `ARCHITECTURE.json` that we later check against what the agent actually does.
 3. **Support agent.** At test time, the agent no longer has access to the source docs. It runs on a fixed model inside a
    ticket system and relies only on what the builder gave it (its prompts, code and stored knowledge). Its tools are real
    API calls to the ticket system. 
@@ -38,9 +36,15 @@ In this benchmark we ask a builder to build a customer support agent for a compa
 6. **Resolution check.** A ticket counts as resolved only if the support system ends up exactly as expected (right fields,
    right labels, no forbidden writes, protected records untouched).
 
-## The three test environments
-  
-Redwood Inference and Skyway Air represent fictitious companies. A stage is a particular point in time when the builder is asked to build a customer support agent. Between stages the documents get updated and the rules get changed. A test case is a customer support ticket. 
+## The test environments
+
+Business context changes in waves: rules are rewritten, new pages arrive, and old ones are retired—or left behind as look-alike drafts that contradict the current policy. To test how builders hold up under that drift, two of our environments—**Redwood Inference** and **Skyway Air**—play out across six stages. Each stage advances the company's timeline: the underlying docs shift, the builder updates the same agent in place rather than starting from scratch, and we evaluate it on that stage's tickets.
+
+Below is one Skyway Air ticket followed across all six stages, showing how each wave of doc changes flows from the builder's update to the live conversation and outcome.
+
+<!-- figure:ticket -->
+
+A third environment, **Knowledge perturbations**, has no timeline. It works like an ablation: the tickets stay fixed and only the docs change, which isolates the kinds of messy context that are hardest for a builder to handle.
 
 ### Redwood Inference
 
@@ -50,7 +54,7 @@ from [EnterpriseRAG-Bench](https://github.com/onyx-dot-app/EnterpriseRAG-Bench).
 The goal here is to test whether a builder can build a support agent and then keep it working. The builder is free to
 choose how the agent stores and finds its knowledge.
 
-The docs change over six stages. In each stage we add new pages and change some rules: the team that owns leaked API keys changes, and emergency credits are paused. Some new pages are traps, such as an old draft of a policy that looks current. After each change the builder updates the same agent, and we test it again. From stage 3 on, we also make some tickets go wrong on purpose (more on that below). In total there are 290 tickets.
+The changes include a new owner for leaked API keys and a pause on emergency credits. From stage 3 on, we also make some tickets go wrong on purpose (more on that below). In total there are 290 tickets.
 
 ### Skyway Air
 
@@ -71,17 +75,13 @@ across six of them:
 - **Prompts and workflows:** the policies rewritten as a system prompt and step-by-step workflows that the agent
   reads in full for every ticket. It has no search tool at all.
 
-Each of six builders builds all six. The agent can send at most 12,000 tokens in any one call to its model, so it
-can't just read everything at once. Skyway also has six stages. In each one, 3 to 9 rules change, 90 to 190 new docs
-arrive and 40 old ones are retired. Some rules start on a set date, so the agent has to check when the ticket came in.
-In total there are 311 tickets.
+Each of six builders builds all six. The agent can send at most 12,000 tokens in any one call to its model, so it can't just read everything at once. In each stage, 3 to 9 rules change, 90 to 190 new docs arrive and 40 old ones are retired. Some rules start on a set date, so the agent has to check when the ticket came in. In total there are 311 tickets.
 
 ### Knowledge perturbations
 
-Real companies rarely keep their docs tidy. This environment tests how a builder copes when the knowledge is badly
-organized.
+This environment works like an ablation. It keeps the tickets fixed and changes only how the docs are written, so we can see which kind of messy context is hardest for a builder to handle.
 
-We take one set of Redwood Inference docs and write it five ways. We call each version a *pack*:
+We take one set of Redwood Inference docs and write it five ways. We call each version a *pack*. The complete pack is the baseline, and each of the other four changes it in one way:
 
 - **Complete:** every fact the tickets need, written clearly.
 - **Fragmented:** the same facts, but each rule is split across several pages.
@@ -89,18 +89,7 @@ We take one set of Redwood Inference docs and write it five ways. We call each v
 - **Conflicting:** extra pages that disagree with the real policy.
 - **Noisy:** the same facts, buried among many pages that have nothing to do with the tickets.
 
-For each pack the builder starts fresh, and the agent gets the same 67 tickets. Because only the docs change,
-any change in score comes from how the knowledge was organized.
-
-## What a test run looks like
-
-### One ticket, six stages
-
-Here is one ticket from Skyway Air, our airline environment, followed through all six stages. At each stage you see
-the docs change, the builder update the agent, the customer send a message, the agent look things up and act, and whether the
-ticket passed.
-
-<!-- figure:ticket -->
+For each pack the builder starts fresh, and the agent gets the same 67 tickets. Because only the docs change, any difference from the complete pack's score comes from that one kind of mess.
 
 ## How we grade
 
@@ -119,18 +108,6 @@ must not touch, like a customer's API keys, must be unchanged. Even *trying* a f
 
 The check is plain code. A model never votes on pass or fail.
 
-The simulated customer is deliberately difficult. It contacts support following one of 14 behaviors, such as being
-vague, changing their mind, or asking for a person. Some facts only the customer knows, and they share them only if the
-agent asks.
-
-Some tickets go wrong on purpose. Redwood Inference has six stages, numbered 0 to 5. From stage 3 on, we add
-problems that real deployments run into to a few tickets, to see whether the agent copes:
-
-- we stop the agent right after it changes something, then start it again; it must not make the same change twice;
-- we make the files it saved (its notes, pages and indexes) unreadable, so it must still work without them;
-- the support system returns an error the first time the agent tries to update something;
-- in stages 4 and 5, some tickets limit the agent's prompt to about 6,000 tokens.
-
 ### Finding out why a ticket failed
 
 We record everything the agent does. Every call it makes to its underlying model (`gpt-5.6-sol`) is logged: what it asked, what came back,
@@ -145,23 +122,14 @@ We measure more than right or wrong. That reading gives four numbers for every r
 
 - **Rule recall:** of the facts a ticket needed, how many were in the agent's files.
 - **Rule precision:** of the facts the agent kept, how many were the right version, not an outdated or look-alike one.
-- **Customer recall:** of the facts only the customer knew, how many the agent got out of them.
-- **Customer precision:** of the questions the agent asked, how many were about something the ticket depended on.
+- **Customer-fact recall:** of the facts only the customer knows, and shares only if asked, how many the agent got out of them.
+- **Customer-fact precision:** of the questions the agent asked, how many were about a fact the ticket depended on.
 
-We attribute every failure to a cause. Code decides who is to blame:
+We use those four numbers to decide who is to blame for a failed ticket. Code makes the call, in this order:
 
-- **the builder**, if a needed fact never made it into the agent's files;
-- **the agent**, if it had the fact and still got the ticket wrong, or never asked the customer;
-- **harness**, if our own system or the model provider broke. We rerun those tickets.
-
-We verify the builder's description of its agent. The builder must describe its agent in a file, `ARCHITECTURE.json`: its
-tools, how it finds knowledge, and whether it can hand tickets to a person. We compare that with what the agent
-actually did.
-
-Each ticket is labelled by the type of change it tests. A ticket tests a new rule, an old rule that still holds, or an old rule that
-changed. That shows which kind of change breaks an agent.
-
-
+1. **Harness:** if our own system or the model provider broke, nobody is blamed and we rerun the ticket.
+2. **Builder:** if rule recall is below 100%, a fact the ticket needed never made it into the support agent's files.
+3. **Support agent:** otherwise, it had every fact it needed and still failed. The other three numbers show how. Low rule precision means the right rule sat next to an outdated one. Low customer-fact recall or precision means it did not ask the customer, or asked about the wrong things.
 
 ## Where the frontier stands today
 
@@ -176,59 +144,17 @@ on, with Carbon pointing out that there are "over 10,000 files" and Opus 5.5 dec
 46 MB is too slow and costly". From there each builder picks its own shortcut to find the rules, and that shortcut ends
 up deciding what its customer support agent will know.
 
-- DeepSeek decides that some pages are "distractors" and that "Slack [is] mostly noise", and builds the agent only from
-  the policy pages it believes are the real ones.
-- Opus 5.5, while building a knowledge graph, notices that rule sentences in Slack "usually lack a trailing period",
-  pulls out only the lines that look like that, and skips "the remaining Confluence spaces as filler".
-- Carbon calls the docs noisy but still runs every doc through the model, Slack included, which is how it finds a rule
-  about broken bag wheels sitting in a Slack thread.
-- 6.1 Sol keeps all 10,398 docs and links them from a small set of summary notes, so nothing gets thrown away.
+- DeepSeek decides that some pages are "distractors" and that "Slack [is] mostly noise", and builds the agent only from the policy pages it believes are the real ones. Its notes are clean (high rule precision) but miss rules that lived elsewhere (low rule recall).
+- 6.1 Sol keeps all 10,398 docs and links them from a small set of summary notes. Nothing is lost (high rule recall), but every old version of a rule is kept beside the current one (low rule precision).
 
-The builders that skip docs also start guessing about the test. DeepSeek talks about the "hidden tests" in every one of
-its builds, and when two docs disagree it settles the conflict by checking which version the 16 practice tickets agree
-with ("Example-02 clearly expects credit 97 … so $75 wins"), which works only until it reaches a conflict that no
-practice ticket covers and has to guess, sometimes picking the old version.
+So the customer support agent's job is the same in both companies, but the builder's job is not. At a small company, building a customer support agent means reading the docs. At a large one, the builder has to decide what to keep, and that choice shapes how the built agent fails:
 
-So the customer support agent's job is the same in both companies, but the builder's job is not. On a small company
-building a customer support agent means reading the docs, while on a big one it means deciding what to leave out, and
-neither extreme is safe: the builders that skipped docs lost rules their customer support agents needed, while 6.1 Sol,
-which kept everything, gave its customer support agent every old version of the rules as well and left it to pick the
-right one.
+- **High rule recall, low rule precision:** the agent has every rule it needs, but also the outdated and look-alike versions of them, so it may quote a rule that no longer applies.
+- **Low rule recall, high rule precision:** every rule the agent has is current, but some are missing, so when a situation falls outside what it knows it has no rule to apply and may not know how to handle it.
+
+Neither extreme is safe. The builders that skipped docs lost rules their customer support agents needed, while 6.1 Sol, which kept everything, left its customer support agent to pick the right version of each rule.
 
 <!-- figure:failures -->
-
-### The agent has the rule and still misses
-
-In both Redwood Inference and Skyway Air, most failed tickets are caused by the customer support agent. The rule it
-needs is already in its files, but it does not apply it. We found three common causes.
-
-On Skyway Air, the agent often reads only the page about the ticket's topic. For example, a customer's first flight
-lands late and they miss their connecting flight. The agent opens the page about missed connections, but not the page
-about compensation, so it does not pay the compensation the customer is owed.
-
-Also on Skyway Air, the agent reads a rule and then does not follow it when the customer pushes. The rules say that a
-customer asking for a manager is not a reason to hand the ticket to a person. On most of these tickets, the agent opens
-the page with this rule and then hands the ticket over anyway. This depends on the builder. Agents built by GLM,
-DeepSeek and 6.1 Sol hand the ticket over most of the time. Agents built by Opus 5.5 and Carbon rarely do.
-
-In both companies, the agent also guesses instead of asking. Many Skyway Air tickets depend on a detail that only the
-customer knows, such as whether both passengers on a booking flew. In half of these tickets the agent does not ask, and
-uses the booking instead. A booking with two passengers then gets compensation for two, even when one of them did not
-fly. On Redwood Inference, the agent guesses the ticket's priority. It sets it one level too high or too low. The reply
-deadline and the escalation labels depend on the priority, so they are wrong as well.
-
-### How customers behave
-
-What the agent has to ask for depends on the customer. In every ticket, the customer follows one of 14 behaviors, the way
-real customers make support harder. Pick a behavior to see a real exchange from a run, and what it tests.
-
-<!-- figure:behaviours -->
-
-Some behaviors are harder than others. Averaged over every run, tickets where the customer corrects themselves pass 29% of
-the time and those where the customer asks for a person pass 41%, against 66% for a plain customer, and the agent also
-gets fewer of these customers' facts (49% and 58% against 75%).
-
-<!-- figure:customer-types -->
 
 ### Where the builders fail
 
@@ -260,16 +186,7 @@ get most changed-rule tickets right, while the knowledge graphs built by the oth
 right. So the knowledge graph does best on changed rules overall, but this comes from two builders, not from the design
 itself.
 
-The cause is one rule that did not change. Many of these tickets also need the agent to pay compensation for a delay,
-even though the customer did not ask for it. Opus 5.5 and Carbon keep this rule in their graphs, and their agents pay.
-Sonnet 5.5 and DeepSeek leave it out, so their agents pay only what the customer asks for.
-
-GLM and 6.1 Sol keep the rule, but their agents often do not use it, for different reasons. GLM's agent searches the
-graph using the words in the customer's request, such as "hotel" and "receipt", so it never finds the compensation
-rule. The agents built by Opus 5.5 and Carbon ask the graph for a whole topic, such as everything about disruptions, so
-they get the compensation rule without looking for it. 6.1 Sol's agent does find the rule, but it only works on what
-the customer asked for. When that cannot be finished, for example because the customer lost the hotel receipt, it stops
-and does not pay the compensation either.
+The cause is one rule that did not change. Many of these tickets also need the agent to pay compensation for a delay, even though the customer did not ask for it. Opus 5.5 and Carbon keep this rule and their agents pay. Sonnet 5.5 and DeepSeek leave it out. GLM and 6.1 Sol keep it, but their agents rarely use it.
 
 ### Quiet architecture workarounds
 
@@ -306,22 +223,29 @@ They also tell the customer that the request has been sent to the platform team.
 The other three packs have only 20 to 60 docs each, so every builder reads every page. Most of the mess is cleaned up
 by the builder, before the customer support agent ever sees it.
 
-In the fragmented pack, each rule is split across several pages. The builders put the pieces back together when they
-write their notes, so the customer support agents still have almost every rule. DeepSeek is the exception. The customer
-support agent it built for this pack rarely looks up its notes, so it gets many more tickets wrong than the one it built
-for the complete docs.
+In the fragmented pack, each rule is split across several pages. The builders put the pieces back together when they write their notes, so the customer support agents still have almost every rule.
 
 In the conflicting pack, extra pages disagree with the real policy. Most of these pages are marked as old, for example
 as a draft or a first version, so the builder can tell which page is current. Opus 5.5 and DeepSeek leave all of these
 pages out of their notes. 6 Astra keeps all of them, but its customer support agent still uses the current rule. All
 three score about the same as with the complete docs.
 
-In the noisy pack, the extra pages are about topics that have nothing to do with the tickets, so they are easy to skip.
-The small rise in this pack comes from tickets about exporting audit logs. Customer support agents often get these wrong
-even with the complete docs, because they leave the ticket with the support team instead of moving it to the team the
-rule names.
+In the noisy pack, the extra pages are about topics that have nothing to do with the tickets, so they are easy to skip and the score barely moves.
 
 ## How the models behave
+
+### How customers behave
+
+In every ticket, the customer follows one of 14 behaviors, the way
+real customers make support harder. Pick a behavior to see a real exchange from a run, and what it tests.
+
+<!-- figure:behaviours -->
+
+Some behaviors are harder than others. Averaged over every run, tickets where the customer corrects themselves pass 29% of
+the time and those where the customer asks for a person pass 41%, against 66% for a plain customer, and the agent also
+gets fewer of these customers' facts (49% and 58% against 75%).
+
+<!-- figure:customer-types -->
 
 ### Agents act too early on the first message
 
