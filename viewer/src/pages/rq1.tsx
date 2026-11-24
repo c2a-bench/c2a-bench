@@ -41,7 +41,7 @@ function KnowledgeScores({ meta, stages, name, job }: { meta: Meta; stages: numb
   const bars = [
     bar("recall", "Rule recall", VIZ[3], (f) => f.rule_recall),
     bar("precision", "Rule precision", VIZ[1], (f) => f.rule_precision),
-    bar("customer", "Customer recall", VIZ[4], (f) => f.customer_recall),
+    bar("customer", "Customer facts recall", VIZ[4], (f) => f.customer_recall),
   ];
   const rows = graded
     .flatMap((s) => (facts(s)!.rows ?? []).map((x) => ({ ...x, stage: s })))
@@ -61,7 +61,7 @@ function KnowledgeScores({ meta, stages, name, job }: { meta: Meta; stages: numb
                 <th className="py-2 pr-3 font-medium">stage</th>
                 <th className="py-2 pr-3 font-medium">rule recall</th>
                 <th className="py-2 pr-3 font-medium">rule precision</th>
-                <th className="py-2 font-medium">customer recall</th>
+                <th className="py-2 font-medium">customer facts recall</th>
               </tr>
             </thead>
             <tbody>

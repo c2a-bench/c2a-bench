@@ -136,7 +136,7 @@ export const GROUPS = [
   { party: "Builder", group: "Missing knowledge (rule recall)", term: "Rule recall", color: "var(--f-recall)" },
   { party: "Builder", group: "Build spec failure", term: "Build spec failure", color: "var(--f-spec)" },
   { party: "Agent", group: "Wrong end state (database check)", term: "Database check", color: "var(--f-state)" },
-  { party: "Agent", group: "Missing customer info (customer recall)", term: "Customer recall", color: "var(--f-customer)" },
+  { party: "Agent", group: "Missing customer info (customer recall)", term: "Customer facts recall", color: "var(--f-customer)" },
   { party: "Agent", group: "Agent crash", term: "Agent crash", color: "var(--f-crash)" },
 ] as const;
 export type FailureGroup = (typeof GROUPS)[number]["group"];

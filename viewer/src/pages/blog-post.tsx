@@ -43,7 +43,7 @@ const FIGURES: Record<FigureName, { title: string; from: string; caption: string
     title: "Pass rate change on each changed pack",
     from: "Knowledge perturbations",
     caption: "Each bar is one builder's gain or loss on a changed pack against its own complete-docs score; the big number is the typical change. Every builder ran with high reasoning effort.",
-    href: "/#packs",
+    href: "/#context",
   },
 };
 
@@ -66,10 +66,10 @@ const VIEWERS: Record<string, { kicker: string; title: string; caption?: string;
   },
   "customer-types": {
     kicker: "Across every run",
-    title: "Pass rate and customer recall by customer behavior",
-    caption: "Pooled over every Redwood Inference and Skyway Air run. Pass rate is the share of tickets passed; customer recall is the share of the customer's facts the agent got them to share. Switch between them above the chart.",
-    href: "/#environments",
-    link: "See the environments",
+    title: "Pass rate and customer facts recall by customer behavior",
+    caption: "Pooled over every Redwood Inference and Skyway Air run. Pass rate is the share of tickets passed; customer facts recall is the share of the customer's facts the agent got them to share. Switch between them above the chart.",
+    href: "/#context",
+    link: "See it on the home page",
     View: CustomerTypeViewer,
   },
 };
