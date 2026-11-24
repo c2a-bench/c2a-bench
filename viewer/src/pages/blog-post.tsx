@@ -33,6 +33,13 @@ const FIGURES: Record<FigureName, { title: string; from: string; caption: string
     skyway: "Each bar splits a builder's failure reasons over all six architectures it built: warm colours are the builder's fault, blue ones the agent's. Every builder ran with high reasoning effort. Hover a segment for its share.",
     href: "/#failures",
   },
+  rules: {
+    title: "Rules in the agent's files against pass rate",
+    from: "Redwood Inference",
+    caption: "Each mark is one builder's agent at one stage. Recall is the share of needed rules in its files, precision the share of its rules that are current, and F1 combines the two.",
+    skyway: "Each mark is one builder's agent at one stage, over the six architectures. Recall is the share of needed rules in its files, precision the share of its rules that are current, and F1 combines the two.",
+    href: "/#failures",
+  },
   architecture: {
     title: "Share of tickets passed, by architecture",
     from: "Skyway Air",
