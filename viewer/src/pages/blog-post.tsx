@@ -10,7 +10,7 @@ import remarkGfm from "remark-gfm";
 import { ArrowRight, ChevronRight, ChevronsRight, List } from "lucide-react";
 import { Nav, RepoLinks } from "@/landing/nav";
 import { publicAsset } from "@/lib/assets";
-import { POSTS, postDate, type Post } from "@/blog/posts";
+import { POSTS, postDate, readMinutes, type Post } from "@/blog/posts";
 import { NotFound } from "@/pages/not-found";
 import { usePageTitle } from "@/lib/title";
 import { LandingFigure, Seg, type FigureEnv, type FigureName } from "@/pages/home";
@@ -368,6 +368,7 @@ function PostPage({ post }: { post: Post }) {
           <div className="caps muted">
             <time dateTime={post.date}>{postDate(post.date)}</time>
             {post.updated && <> · Updated <time dateTime={post.updated}>{postDate(post.updated)}</time></>}
+            {" · "}{readMinutes(post.body)} min read
           </div>
           <h1 style={{ marginTop: 16, fontSize: "clamp(36px, 2.6vw + 22px, 64px)", lineHeight: 1.08 }}>{post.title}</h1>
           <RepoLinks className="muted mt-5" />

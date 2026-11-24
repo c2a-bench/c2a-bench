@@ -110,7 +110,7 @@ export type MetaStage = {
 };
 /** Failed tickets by who was to blame (lib/failure-types.ts failureSummary). The runs dataset has it on every run. */
 export type FailureSummary = { failed: number; total: number; parties: Record<string, number>; groups: Record<string, number> };
-type LooseMeta = { scores: Record<string, MetaStage>; failure_summary?: FailureSummary };
+type LooseMeta = { scores: Record<string, MetaStage>; failure_summary?: FailureSummary; build_min?: number };
 
 const metaCache = new Map<string, Promise<LooseMeta[]>>();
 /** One promise per set of runs, so React's use() can read it across renders. */

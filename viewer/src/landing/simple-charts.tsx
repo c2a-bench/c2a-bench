@@ -357,7 +357,10 @@ export type CostDot = { label: string; sub?: string; cost: number; rate: number;
 
 /** Pass rate against what the builder spent (log scale: costs span about 100×). Every dot is named; up and to the left is
  *  better. The dashed line is the Pareto frontier; the tint is what it beats (dearer and passing fewer). Hover a dot for its numbers. */
-export function CostScatter({ dots, height = 340, title = "Tickets passed vs what the builder spent on the whole run", axis = "builder cost, log scale", spent = "Builder spent" }: { dots: CostDot[]; height?: number; title?: string; axis?: string; spent?: string }) {
+export function CostScatter({ dots, height = 340, title = "Tickets passed vs what the builder spent on the whole run", axis = "builder cost, log scale", spent = "Builder spent", unit = "usd" }: { dots: CostDot[]; height?: number; title?: string; axis?: string; spent?: string; unit?: "usd" | "hours" }) {
+  // the x value is dollars, or hours for the "Time" view
+  const fmtX = (v: number) => (unit === "hours" ? (v < 1 ? `${Math.round(v * 60)} min` : `${v.toFixed(1)} h`) : `$${v.toFixed(2)}`);
+  const tickX = (t: number) => (unit === "hours" ? (t < 1 ? `${Math.round(t * 60)}m` : `${t}h`) : `$${t < 1 ? t.toFixed(2) : t}`);
   const [ref, w] = useWidth<HTMLDivElement>();
   const h = useHover();
   const m = { l: 44, r: 16, t: 30, b: 40 }; // the top band holds the "better" hint
@@ -374,15 +377,27 @@ export function CostScatter({ dots, height = 340, title = "Tickets passed vs wha
   const yt = Array.from({ length: 11 }, (_, i) => i / 10).filter((v) => v >= yLo - 1e-9 && v <= yHi + 1e-9);
   const front = frontier(dots.map((d) => [d.cost, d.rate] as [number, number]));
   // names sit to the right of the dot (left near the right edge); a name that would overlap one already placed moves down
+  // A name goes right of its dot, else left, else a step up or down on either side; it must not cover another name or
+  // any dot (a name over a neighbour's dot reads as that dot's name).
   const placed: { x0: number; x1: number; y: number }[] = [];
+  const centres = dots.map((d) => ({ cx: x(d.cost), cy: y(d.rate) }));
   const named = [...dots].sort((a, b) => b.rate - a.rate).map((d) => {
     const cx = x(d.cost), cy = y(d.rate);
     const wTxt = d.label.length * 6.6;
-    const right = cx + 12 + wTxt < cw - 4;
-    const x0 = right ? cx + 11 : cx - 11 - wTxt, x1 = x0 + wTxt;
-    let ly = cy + 4;
-    while (placed.some((p) => p.x0 < x1 && x0 < p.x1 && Math.abs(p.y - ly) < 14)) ly += 14;
-    placed.push({ x0, x1, y: ly });
+    const fits = (right: boolean) => (right ? cx + 12 + wTxt < cw - 4 : cx - 12 - wTxt > m.l);
+    const free = (x0: number, x1: number, ly: number) =>
+      !placed.some((p) => p.x0 < x1 && x0 < p.x1 && Math.abs(p.y - ly) < 14) &&
+      !centres.some((c) => (c.cx !== cx || c.cy !== cy) && c.cx + 8 > x0 && c.cx - 8 < x1 && c.cy + 8 > ly - 11 && c.cy - 8 < ly + 3);
+    const tries: [boolean, number][] = [];
+    for (const dy of [0, -14, 14, -28, 28]) for (const right of [true, false]) if (fits(right)) tries.push([right, dy]);
+    let pick = tries.find(([right, dy]) => { const x0 = right ? cx + 11 : cx - 11 - wTxt; return free(x0, x0 + wTxt, cy + 4 + dy); });
+    if (!pick) { // crowded: fall back to stepping down on the side that fits
+      const right = fits(true); const x0 = right ? cx + 11 : cx - 11 - wTxt; let dy = 0;
+      while (!free(x0, x0 + wTxt, cy + 4 + dy) && dy < 140) dy += 14;
+      pick = [right, dy];
+    }
+    const [right, dy] = pick, ly = cy + 4 + dy, x0 = right ? cx + 11 : cx - 11 - wTxt;
+    placed.push({ x0, x1: x0 + wTxt, y: ly });
     return { d, cx, cy, ly, right };
   });
   return (
@@ -391,7 +406,7 @@ export function CostScatter({ dots, height = 340, title = "Tickets passed vs wha
       <div ref={h.ref} className={h.on ? "relative sc-hov" : "relative"} onPointerLeave={h.hide}>
         <div ref={ref} className={narrow ? "sc-swipe" : undefined}>
           {w > 0 && (
-            <svg width={cw} height={height} role="img" aria-label={`Pass rate against builder cost: ${dots.map((d) => `${d.label} ${pct(d.rate)} for $${d.cost.toFixed(2)}`).join("; ")}`}>
+            <svg width={cw} height={height} role="img" aria-label={`Pass rate against builder ${unit === "hours" ? "time" : "cost"}: ${dots.map((d) => `${d.label} ${pct(d.rate)} for ${fmtX(d.cost)}`).join("; ")}`}>
               {yt.map((v) => (
                 <g key={v}>
                   <line x1={m.l} x2={cw - m.r} y1={y(v)} y2={y(v)} stroke="var(--line)" />
@@ -399,7 +414,7 @@ export function CostScatter({ dots, height = 340, title = "Tickets passed vs wha
                 </g>
               ))}
               {xt.map((t) => (
-                <text key={t} x={x(t)} y={height - m.b + 18} textAnchor="middle" fontSize={11} fill="var(--muted)">${t < 1 ? t.toFixed(2) : t}</text>
+                <text key={t} x={x(t)} y={height - m.b + 18} textAnchor="middle" fontSize={11} fill="var(--muted)">{tickX(t)}</text>
               ))}
               <text x={(m.l + cw - m.r) / 2} y={height - 4} textAnchor="middle" fontSize={11} fill="var(--muted)">{axis}</text>
               <text x={m.l} y={14} fontSize={11} fill="var(--muted)">↖ better: more passed for less</text>
@@ -411,7 +426,7 @@ export function CostScatter({ dots, height = 340, title = "Tickets passed vs wha
                     <TipHead>{d.label}</TipHead>
                     {d.sub && <TipLine muted>{d.sub}</TipLine>}
                     <TipLine>Passed <span className="num font-semibold">{pct(d.rate)}</span> of tickets</TipLine>
-                    <TipLine>{spent} <span className="num font-semibold">${d.cost.toFixed(2)}</span></TipLine>
+                    <TipLine>{spent} <span className="num font-semibold">{fmtX(d.cost)}</span></TipLine>
                     {d.tip}
                   </>
                 );
@@ -429,7 +444,7 @@ export function CostScatter({ dots, height = 340, title = "Tickets passed vs wha
         </div>
         <HoverTip tip={h.tip} />
       </div>
-      <p className="label muted mt-2">The tint is what the dashed frontier beats: a builder there cost more and passed fewer tickets than one on the line.</p>
+      <p className="label muted mt-2">The tint is what the dashed frontier beats: a builder there {unit === "hours" ? "took longer" : "cost more"} and passed fewer tickets than one on the line.</p>
       {narrow && <p className="label muted mt-2">Swipe the chart sideways to see all of it.</p>}
     </div>
   );

@@ -176,6 +176,7 @@ function Results({ redwood, metas, skyway, skywayMetas, bare, compact, env: fixe
   const env = fixedEnv ?? ownEnv;
   const setEnv = (e: "redwood" | "skyway") => setEnvRaw(e);
   const [view, setView] = useState<"overall" | "stage">("overall");
+  const [spend, setSpend] = useState<"cost" | "time">("cost");
   const sky = env === "skyway" && skyway?.length && skywayMetas;
   const rows: StageRow[] = sky
     ? [...new Set(skyway.map((j) => shortModel(j.builder.model)))]
@@ -216,6 +217,14 @@ function Results({ redwood, metas, skyway, skywayMetas, bare, compact, env: fixe
         return c.length ? [{ model: r.model, harness: r.harness, color: r.color, shape: r.shape, rate: r.rate, cost: c.reduce((a, x) => a + x, 0) / c.length }] : [];
       })
     : redwood.filter((b) => b.job.cost != null).map((b) => ({ model: b.model, harness: b.harness, ...style(b.model), rate: pooled(b.job), cost: b.job.cost! }));
+  // The same dots against the builder's time in hours: per build (averaged over architectures) on Skyway, the whole run on Redwood.
+  const times = sky
+    ? rows.flatMap((r) => {
+        const t = skyway.flatMap((j, i) => (shortModel(j.builder.model) === r.model && skywayMetas[i]?.build_min ? [skywayMetas[i].build_min! / 60] : []));
+        return t.length ? [{ model: r.model, harness: r.harness, color: r.color, shape: r.shape, rate: r.rate, cost: t.reduce((a, x) => a + x, 0) / t.length }] : [];
+      })
+    : redwood.flatMap((b, i) => (metas[i]?.build_min ? [{ model: b.model, harness: b.harness, ...style(b.model), rate: pooled(b.job), cost: metas[i].build_min! / 60 }] : []));
+  const byTime = spend === "time" && times.length > 1;
   const toggle = skyway?.length ? <Seg value={env} onChange={setEnv} options={[["skyway", "Skyway Air"], ["redwood", "Redwood Inference"]]} /> : undefined;
   return (
     <Sec bare={bare} id="results" className="lp-sec" head={
@@ -259,9 +268,11 @@ function Results({ redwood, metas, skyway, skywayMetas, bare, compact, env: fixe
           }];
           if (costs.length > 1) zig.push({
             title: "What it cost to build",
-            body: sky
-              ? "Cost is what one build cost the builder, averaged over its architectures."
-              : "Cost is what the builder spent on the whole run.",
+            body: byTime
+              ? (sky ? "Time is how long one build took the builder, averaged over its architectures." : "Time is how long the builder took over the whole run.")
+              : sky
+                ? "Cost is what one build cost the builder, averaged over its architectures."
+                : "Cost is what the builder spent on the whole run.",
             points: sky ? [
               <><b>The best builder spends most of its effort building, not reading.</b> Opus 5.5 puts over half of its work into building the agent; most builders spend about a third just reading.</>,
               <><b>More time does not buy a better agent.</b> 6.1 Sol builds the fastest and still finishes third.</>,
@@ -271,10 +282,23 @@ function Results({ redwood, metas, skyway, skywayMetas, bare, compact, env: fixe
               <><b>The best builders check their agent before they finish.</b> Opus 5.5 tests more than any other builder; Carbon spends most of its effort reading and comes last.</>,
             ],
             chart: (
-              <CostScatter
-                dots={costs.map((c) => ({ label: c.model === CONFOUND ? `${c.model} *` : c.model, sub: c.harness, cost: c.cost, rate: c.rate, color: c.color }))}
-                {...(sky ? { title: "Tickets passed vs what the builder spent per build", axis: "builder cost per architecture, log scale", spent: "Builder spent per build" } : {})}
-              />
+              <>
+                {times.length > 1 && <div className="mb-4"><Seg value={spend} onChange={setSpend} options={[["cost", "Cost"], ["time", "Time"]]} /></div>}
+                {byTime ? (
+                  <CostScatter
+                    unit="hours"
+                    dots={times.map((c) => ({ label: c.model === CONFOUND ? `${c.model} *` : c.model, sub: c.harness, cost: c.cost, rate: c.rate, color: c.color }))}
+                    {...(sky
+                      ? { title: "Tickets passed vs how long the builder took per build", axis: "builder's working time per architecture, grading not included (hours, log scale)", spent: "Builder took per build" }
+                      : { title: "Tickets passed vs how long the builder took on the whole run", axis: "builder's working time, grading not included (hours, log scale)", spent: "Builder took" })}
+                  />
+                ) : (
+                  <CostScatter
+                    dots={costs.map((c) => ({ label: c.model === CONFOUND ? `${c.model} *` : c.model, sub: c.harness, cost: c.cost, rate: c.rate, color: c.color }))}
+                    {...(sky ? { title: "Tickets passed vs what the builder spent per build", axis: "builder cost per architecture, log scale", spent: "Builder spent per build" } : {})}
+                  />
+                )}
+              </>
             ),
           });
           return <div className="lp-top"><Zig rows={zig} /></div>;

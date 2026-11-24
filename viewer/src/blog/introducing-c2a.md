@@ -135,17 +135,20 @@ We use those four numbers to decide who is to blame for a failed ticket. Code ma
 
 <!-- figure:results -->
 
-On Redwood Inference the builder starts with 27 docs, and every builder does the same thing first, which is to read all
-of them, so it rarely loses a rule and almost every failed ticket is caused by the customer support agent having the
-rule and using it wrong.
+### Which builder makes the best agent
 
-Skyway Air starts with 10,399 docs, which is far more than any builder can read, and every builder notices this early
-on, with Carbon pointing out that there are "over 10,000 files" and Opus 5.5 deciding that "running the LLM over all
-46 MB is too slow and costly". From there each builder picks its own shortcut to find the rules, and that shortcut ends
-up deciding what its customer support agent will know.
+**At the first build, a good builder keeps the current rules and drops the old ones.** On Skyway Air, Opus 5.5's first
+agent passes 68% of tickets and DeepSeek's 44%, and both stay near there for the rest of the run. With over 10,000 docs
+no builder can read everything, so what it chooses to keep decides what its agent knows. So what separates good builders at the start
+is not how much they read, but what they keep.
 
 - DeepSeek decides that some pages are "distractors" and that "Slack [is] mostly noise", and builds the agent only from the policy pages it believes are the real ones. Its notes are clean (high rule precision) but miss rules that lived elsewhere (low rule recall).
 - 6.1 Sol keeps all 10,398 docs and links them from a small set of summary notes. Nothing is lost (high rule recall), but every old version of a rule is kept beside the current one (low rule precision).
+
+**At the updates, a good builder finds every change.** On Redwood Inference, 6.1 Sol goes from 74% at its first
+build to an average of 82% over the updates, while Sonnet 5.5 falls from 77% to 55% at its first update. A builder that compares the new docs with the ones it
+built from keeps every rule; one that only checks which files have newer dates misses the pages that were added.
+So after the first build, a good builder is one that notices everything that changed.
 
 So the customer support agent's job is the same in both companies, but the builder's job is not. At a small company, building a customer support agent means reading the docs. At a large one, the builder has to decide what to keep, and that choice shapes how the built agent fails:
 
@@ -153,6 +156,20 @@ So the customer support agent's job is the same in both companies, but the build
 - **Low rule recall, high rule precision:** every rule the agent has is current, but some are missing, so when a situation falls outside what it knows it has no rule to apply and may not know how to handle it.
 
 Neither extreme is safe. The builders that skipped docs lost rules their customer support agents needed, while 6.1 Sol, which kept everything, left its customer support agent to pick the right version of each rule.
+
+### What it cost to build
+
+**More time does not buy a better agent.** On Skyway Air, 6.1 Sol builds all six architectures in 9 hours and
+finishes third; Carbon takes 42 hours and finishes fourth. On Redwood Inference, 6.1 Sol takes about 11 minutes per
+stage and comes first, and Carbon about 42 and comes last. A builder can spend hours reading docs, but that only
+helps if what it learns ends up in the agent. So the time a builder spends matters less than what it
+spends it on.
+
+**A good builder spends its effort building the agent and checking it.** Counting their tool calls, most builders
+spend about a third reading, half building and the rest testing. Opus 5.5 puts more than half into building on Skyway
+Air and tests the most on Redwood Inference. Testing the right thing matters most: when stage 4 of Redwood Inference
+limits the prompt size, Sonnet 5.5 tests for it and passes 95%, while Opus 5.5 and GLM lose a fifth of the stage.
+So a good builder's time goes into the agent itself, not into reading.
 
 <!-- figure:failures -->
 

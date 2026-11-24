@@ -20,3 +20,13 @@ export const POSTS: Post[] = [
 ];
 
 export const postDate = (iso: string) => new Date(`${iso}T12:00:00`).toLocaleDateString("en-GB", { day: "numeric", month: "long", year: "numeric" });
+
+/** Minutes to read a post: its words (Markdown marks, links' targets and figure markers left out) at 220 a minute. */
+export const readMinutes = (body: string) => {
+  const text = body
+    .replace(/<!--[\s\S]*?-->/g, " ")
+    .replace(/\[([^\]]*)\]\([^)]*\)/g, "$1")
+    .replace(/[#*_`>~|-]/g, " ");
+  const words = text.split(/\s+/).filter((w) => /[A-Za-z0-9]/.test(w)).length;
+  return Math.max(1, Math.round(words / 220));
+};
