@@ -1,14 +1,19 @@
 import introducingC2A from "./introducing-c2a.md?raw";
+import { FIRST_POST } from "./first";
 
-/** The blog post (one; /blog shows the first). Its body is Markdown (GitHub flavour), rendered by pages/blog-post.tsx. */
-export type Post = { slug: string; title: string; summary: string; date: string; body: string };
+/**
+ * The blog post (one; /blog redirects to the first). Its body is Markdown (GitHub flavour), rendered by pages/blog-post.tsx.
+ * `description` is the search-result snippet (keep it to 160 characters); `updated` is the date of the last real edit, when there is one.
+ */
+export type Post = { slug: string; title: string; summary: string; description: string; date: string; updated?: string; body: string };
 
 export const POSTS: Post[] = [
   {
-    slug: "introducing-c2a",
+    slug: FIRST_POST,
     title: "C2A: can agents keep up with a business that keeps changing?",
     summary:
       "668 test cases, seven builder models and six agent architectures: what happens when a builder turns a company's docs into a support agent, and then has to keep it up to date as the docs change.",
+    description: "668 test cases, seven builder models and six agent architectures: what happens when coding agents build support agents and keep them current as docs change.",
     date: "2026-11-19",
     body: introducingC2A,
   },

@@ -17,7 +17,9 @@ else {
     if (!values["data-only"]) {
       const response = await request(pages), html = await response.text();
       if (!response.ok || !html.includes('id="root"')) throw new Error("Pages did not return the React shell");
-      for (const match of html.matchAll(/(?:src|href)="([^\"]+)"/g)) {
+      // Only the page's own files (scripts, styles, icons, images): canonical/alternate links name pages, not assets.
+      for (const match of html.matchAll(/<(?:script|link|img|source)\b[^>]*?\b(?:src|href)="([^"]+)"[^>]*>/g)) {
+        if (/rel="(?:canonical|alternate)"/.test(match[0])) continue;
         const url = new URL(match[1], pages);
         if (url.origin !== pages.origin || !url.pathname.startsWith(pages.pathname)) throw new Error(`Asset escapes Pages base: ${url}`);
         const res = await request(url, { method: "HEAD" });

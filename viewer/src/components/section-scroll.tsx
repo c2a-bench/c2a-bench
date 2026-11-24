@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router";
 
-/** HashRouter uses the outer hash for routing; section anchors live inside it: /repo/#/#results. */
+/** Scroll to the section a URL names (`/#results`), once it has rendered. */
 export function SectionScroll() {
   const { pathname, hash, key } = useLocation();
   useEffect(() => {

@@ -18,7 +18,7 @@ for (const base of ["/", "/Context2Agent-Benchmark/"]) {
       await writeFile(manifest, JSON.stringify(selection));
       // Build production assets using the real Pages configuration, not Vite dev/preview middleware.
       await run("npm", ["run", "build:pages", "--", "--out-dir", dist], {
-        ...process.env, VITE_BASE_PATH: base, VIEWER_TEST_BUILD: "1", HF_TEST_HUB: server.dataOrigin, DATASET_MANIFEST: manifest,
+        ...process.env, VITE_BASE_PATH: base, SITE_URL: server.pagesUrl, VIEWER_TEST_BUILD: "1", HF_TEST_HUB: server.dataOrigin, DATASET_MANIFEST: manifest,
       });
       const smoke = await run(process.execPath, ["--import", "tsx", "scripts/smoke-pages.ts", "--url", server.pagesUrl, "--manifest", manifest], { ...process.env, VIEWER_TEST_BUILD: "1", HF_TEST_HUB: server.dataOrigin });
       assert.match(smoke, /Pages\/data HTTP checks passed/);
@@ -32,33 +32,62 @@ for (const base of ["/", "/Context2Agent-Benchmark/"]) {
       });
       await page.goto(server.pagesUrl);
       await expect(page.locator(".lp-nav")).toBeVisible();
-      await expect(page.getByRole("link", { name: "Read the blog", exact: true }).first()).toHaveJSProperty("href", `${server.pagesUrl}#/blog`);
+      await expect(page.getByRole("link", { name: "Read the blog", exact: true }).first()).toHaveJSProperty("href", `${server.pagesUrl}blog/introducing-c2a`);
       for (const image of await page.locator("img").all()) {
         await expect(image).toHaveJSProperty("complete", true);
         assert.ok(await image.evaluate((img: HTMLImageElement) => img.naturalWidth > 0), await image.getAttribute("src") || "image");
       }
-      // Direct hash deep links + hard refresh need no server rewrite or custom 404 page.
+      // Crawlers: the home page and the post are real pre-rendered files, with their own head, text and structured data.
+      const raw = async (uri: string) => { const r = await fetch(`${server.pagesUrl}${uri}`); return { status: r.status, text: await r.text() }; };
+      const home = await raw("");
+      assert.match(home.text, /<link rel="canonical" href="[^"]*"/);
+      assert.match(home.text, /<h1>C2A: the Context2Agent Benchmark<\/h1>/);
+      assert.match(home.text, /"@type":"WebSite"/);
+      const post = await raw("blog/introducing-c2a/");
+      assert.equal(post.status, 200);
+      assert.match(post.text, /<title>C2A: can agents keep up/);
+      assert.match(post.text, new RegExp(`<link rel="canonical" href="${server.pagesUrl}blog/introducing-c2a/"`));
+      assert.match(post.text, /"@type":"BlogPosting"/);
+      assert.match(post.text, /<h2>Inside the benchmark<\/h2>/);
+      assert.equal((await raw("blog/introducing-c2a.md")).status, 200);
+      assert.match((await raw("sitemap.xml")).text, new RegExp(`<loc>${server.pagesUrl}blog/introducing-c2a/</loc>`));
+      assert.match((await raw("robots.txt")).text, /Sitemap: /);
+      assert.equal((await raw("llms.txt")).status, 200);
+      // The app takes over at the post's own URL, replaces the pre-rendered text, and sets its title.
+      await page.goto(`${server.pagesUrl}blog/introducing-c2a/`);
+      await expect(page.locator("article h1")).toBeVisible();
+      await expect(page.locator("#static")).toHaveCount(0);
+      await expect(page).toHaveTitle(/^C2A: can agents keep up/);
+      // Old hash links move to the real URL; /blog goes to the post; an unknown path is a real 404 that still shows the app's not-found page.
+      await page.goto(`${server.pagesUrl}#/blog`);
+      await expect(page).toHaveURL(`${server.pagesUrl}blog/introducing-c2a`);
+      await page.goto(`${server.pagesUrl}blog`);
+      await expect(page).toHaveURL(new RegExp(`${server.pagesUrl}blog/introducing-c2a/?$`));
+      assert.equal((await raw("no-such-page")).status, 404);
+      await page.goto(`${server.pagesUrl}no-such-page`);
+      await expect(page.getByText("This page could not be found.")).toBeVisible();
+      // Deep links + hard refresh rely on Pages' 404.html fallback, which is the app shell.
       const codeStage = base === "/" ? 0 : 1;
       if (base !== "/") {
-        await page.goto(`${server.pagesUrl}#/runs/${runKey}/code?v=s0`);
+        await page.goto(`${server.pagesUrl}runs/${runKey}/code?v=s0`);
         await expect(page.getByText("No code files were produced at this stage.")).toBeVisible();
       }
-      await page.goto(`${server.pagesUrl}#/runs/${runKey}/code?v=s${codeStage}&f=agent.py`);
+      await page.goto(`${server.pagesUrl}runs/${runKey}/code?v=s${codeStage}&f=agent.py`);
       await expect(page.locator(".monaco-editor").first()).toBeVisible({ timeout: 30_000 });
       await page.getByRole("button", { name: /other\.py/ }).click();
-      await expect(page).toHaveURL(new RegExp(`#/runs/.+/code\\?v=s${codeStage}&f=other.py`));
+      await expect(page).toHaveURL(new RegExp(`/runs/.+/code\\?v=s${codeStage}&f=other.py`));
       await page.reload();
       await expect(page.locator(".monaco-editor").first()).toBeVisible();
       await expect(page).toHaveURL(/f=other.py/);
-      // Stage changes preserve other query filters inside the router hash.
-      await page.goto(`${server.pagesUrl}#/runs/${runKey}/research/acquisition?stage=0&pick=none`);
+      // Stage changes preserve the other query filters.
+      await page.goto(`${server.pagesUrl}runs/${runKey}/research/acquisition?stage=0&pick=none`);
       await page.locator("#stage-select").click();
       await page.locator('[data-slot="dropdown-menu-radio-item"][data-value="1"]').click();
       await expect(page).toHaveURL(/stage=1&pick=none/);
-      // A blog → landing section link must not clobber the HashRouter route.
-      await page.goto(`${server.pagesUrl}#/blog`);
+      // A blog → landing section link goes to the home page and scrolls to its section.
+      await page.goto(`${server.pagesUrl}blog/introducing-c2a`);
       await page.locator("nav[aria-label=Main]").getByRole("link", { name: "Viewer", exact: true }).click();
-      await expect(page).toHaveURL(/#\/#environments$/);
+      await expect(page).toHaveURL(/#environments$/);
       await expect(page.locator("#environments")).toBeAttached();
       await expect.poll(() => page.locator("#environments").evaluate((el) => Math.abs(el.getBoundingClientRect().top))).toBeLessThan(250);
       assert.ok(server.requests.some((uri) => uri.startsWith(`${base}monaco/vs/`)), "Monaco should load under Pages base");

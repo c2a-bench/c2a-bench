@@ -1,13 +1,15 @@
-// Runs the viewer against a local copy of the two pinned HF datasets (.local-data/{benchmark,runs}; downloaded on first run).
+// Runs the viewer against a local copy of the two pinned HF datasets (<root>/{benchmark,runs}; downloaded on first run).
+// <root> is shared by every checkout and worktree: C2A_LOCAL_DATA, else ~/.cache/c2a-bench/local-data.
 import { createServer } from "node:http";
 import { createReadStream, existsSync, readFileSync, statSync } from "node:fs";
 import { spawn, spawnSync } from "node:child_process";
+import { homedir } from "node:os";
 import path from "node:path";
 
-const root = path.resolve(".local-data");
+const root = path.resolve(process.env.C2A_LOCAL_DATA || path.join(homedir(), ".cache/c2a-bench/local-data"));
 // First run: download the pinned datasets (~1 GB); `npm run dev:local-hf` again resumes an interrupted download.
 if (process.argv.includes("--fetch") || !existsSync(path.join(root, ".done"))) {
-  const r = spawnSync("uv", ["run", "--with", "huggingface_hub", "python3", "scripts/fetch-local-hf.py"], { stdio: "inherit" });
+  const r = spawnSync("uv", ["run", "--with", "huggingface_hub", "python3", "scripts/fetch-local-hf.py"], { stdio: "inherit", env: { ...process.env, C2A_LOCAL_DATA: root } });
   if (r.status !== 0) process.exit(r.status ?? 1);
 }
 const release = JSON.parse(readFileSync("datasets/production.json", "utf8"));

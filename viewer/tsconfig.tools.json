@@ -5,6 +5,7 @@
     "scripts/pages/**/*.ts",
     "scripts/pages-config.ts",
     "scripts/build-pages.ts",
+    "scripts/prerender-static.ts",
     "scripts/verify-hf-release.ts",
     "scripts/dataset-selection.ts",
     "scripts/smoke-pages.ts",

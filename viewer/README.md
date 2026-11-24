@@ -46,7 +46,7 @@ Case-result `grading` is separate from conversation failures and `replayVerdict`
 
 ```bash
 npm ci
-npm run dev:local-hf     # downloads the pinned datasets to .local-data on first run, then serves http://localhost:5199/
+npm run dev:local-hf     # downloads the pinned datasets to ~/.cache/c2a-bench/local-data (shared by all worktrees; set C2A_LOCAL_DATA to move it) on first run, then serves http://localhost:5199/
 ```
 
 Tests (no real data needed): `npm run test:data`, then `npx playwright install chromium && npm run test:pages`
@@ -93,6 +93,20 @@ npm run smoke:pages -- --url https://c2abench.com/
 Settings → Pages → Source → GitHub Actions. Restrict `github-pages` to main, then set repository variable
 `VIEWER_PAGES_ENABLED=true` only when ready. The frontend workflow has no data credentials. It derives
 the repository/custom-domain base, checks public data/CORS, deploys, and records both versions.
+
+### URLs and search engines
+
+The site uses real URLs (`/`, `/blog/introducing-c2a/`, `/runs/...`), not hash routes; old `/#/...` links are moved to them by
+a script in `index.html`. Pages has no rewrites, so `build:pages` ends with `npm run prerender`
+(`scripts/prerender-static.ts`), which writes:
+
+- `index.html` and `blog/<slug>/index.html`: the app shell plus each page's own title, description, canonical, Open Graph tags,
+  JSON-LD and its text as plain HTML (hidden; the app replaces it, and it shows with JavaScript off);
+- `404.html`: the bare app shell, which Pages serves (with a 404 status) for every other route, so deep links to runs still open the app;
+- `sitemap.xml`, `robots.txt`, `llms.txt` and `blog/<slug>.md`.
+
+Set `SITE_URL` to the site's public URL (the deploy workflow does, from Pages) so canonicals and the sitemap name the right host.
+Only the home page and the blog posts are pre-rendered (a new post needs only its entry in `src/blog/posts.ts`).
 
 Rollback means reverting the approved app/release configuration and rebuilding Pages; keep referenced
 HF commits available. Test against the REAL public HF/CDN endpoint after publishing—local fixtures alone

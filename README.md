@@ -127,7 +127,7 @@ Needs Node 20+, [uv](https://docs.astral.sh/uv/).
 ```bash
 cd viewer
 npm ci
-npm run dev:local-hf     # first run downloads ~1 GB of data into viewer/.local-data (git-ignored), then serves
+npm run dev:local-hf     # first run downloads ~1 GB of data into ~/.cache/c2a-bench/local-data (outside the repo, shared by all worktrees; override with C2A_LOCAL_DATA), then serves
 ```
 
 Open http://localhost:5199/. Re-run the same command later; it reuses the download. After a new pin, re-download with

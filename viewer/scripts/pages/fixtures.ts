@@ -1,6 +1,6 @@
 import { spawn } from "node:child_process";
 import { createServer, type Server } from "node:http";
-import { readFile, rm } from "node:fs/promises";
+import { readFile, rm, stat } from "node:fs/promises";
 import { migrate } from "../data/migrate";
 import { pinRelease } from "../data/pin-release";
 import { allFiles } from "../data/migration-io";
@@ -70,15 +70,21 @@ export async function fixtures(root: string, base: string) {
       const uri = new URL(request.url || "/", "http://localhost").pathname;
       requests.push(uri);
       if (!uri.startsWith(base)) throw new Error("outside Pages base");
-      const file = path.resolve(root, decodeURIComponent(uri.slice(base.length) || "index.html"));
+      let file = path.resolve(root, decodeURIComponent(uri.slice(base.length) || "index.html"));
       if (!file.startsWith(root + path.sep)) throw new Error("unsafe path");
+      // Like Pages: a folder serves its index.html, and without the trailing slash it redirects to it.
+      if ((await stat(file).catch(() => null))?.isDirectory()) {
+        if (!uri.endsWith("/")) { response.statusCode = 301; response.setHeader("location", `${uri}/`); response.end(); return; }
+        file = path.join(file, "index.html");
+      }
       const body = await readFile(file);
       response.setHeader("content-type", types[path.extname(file)] || "application/octet-stream");
       response.end(request.method === "HEAD" ? undefined : body);
     } catch {
+      // Like Pages: a missing path answers 404 with the site's own 404.html, which for this app is the shell (client-side routes).
       response.statusCode = 404;
       response.setHeader("content-type", "text/html");
-      response.end("<h1>Pages 404</h1>");
+      response.end(await readFile(path.join(root, "404.html")).catch(() => "<h1>Pages 404</h1>"));
     }
   });
   const pagesOrigin = await listen(pagesServer);

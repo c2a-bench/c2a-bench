@@ -15,4 +15,3 @@
 /datasets/candidate*.json
 __pycache__/
 *.pyc
-/.local-data

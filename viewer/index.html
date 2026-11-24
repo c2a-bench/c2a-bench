@@ -3,26 +3,28 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>C2A: Context2Agent Benchmark</title>
-    <meta name="description" content="Can an AI agent learn and adapt to changing business context to resolve customer issues?" />
+    <title>C2A: Context2Agent Benchmark for AI Customer Support Agents</title>
+    <meta name="description" content="C2A (Context2Agent Benchmark) tests whether AI coding agents can build a customer support agent from company docs, then keep it right as the docs change." />
     <!-- Link previews (Slack, X, LinkedIn…): the README's banner, 1200x675; previews need absolute URLs. -->
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="C2A Bench" />
-    <meta property="og:title" content="C2A: Context2Agent Benchmark" />
-    <meta property="og:description" content="Can an AI agent learn and adapt to changing business context to resolve customer issues?" />
+    <meta property="og:title" content="C2A: Context2Agent Benchmark for AI Customer Support Agents" />
+    <meta property="og:description" content="C2A (Context2Agent Benchmark) tests whether AI coding agents can build a customer support agent from company docs, then keep it right as the docs change." />
     <meta property="og:url" content="https://c2abench.com/" />
     <meta property="og:image" content="https://c2abench.com/og.png" />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="675" />
     <meta property="og:image:alt" content="Introducing C2ABench: newmeasure × Observe.AI" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="C2A: Context2Agent Benchmark" />
-    <meta name="twitter:description" content="Can an AI agent learn and adapt to changing business context to resolve customer issues?" />
+    <meta name="twitter:title" content="C2A: Context2Agent Benchmark for AI Customer Support Agents" />
+    <meta name="twitter:description" content="C2A (Context2Agent Benchmark) tests whether AI coding agents can build a customer support agent from company docs, then keep it right as the docs change." />
     <meta name="twitter:image" content="https://c2abench.com/og.png" />
     <!-- The landing graphs' data: fetched with the page's code, not after it. -->
     <link rel="preload" href="%BASE_URL%landing.json" as="fetch" crossorigin="anonymous" />
     <link rel="icon" href="%BASE_URL%favicon.ico?v=2" sizes="any" />
     <link rel="icon" href="%BASE_URL%favicon.svg?v=2" type="image/svg+xml" />
+    <!-- Old links used the hash router (/#/blog, /#/runs/...): move them to the real URL before the app reads it. -->
+    <script>(()=>{const h=location.hash;if(h.startsWith("#/"))history.replaceState(null,"","%BASE_URL%"+h.slice(2))})()</script>
     <!-- Before first paint: the saved theme (ThemeToggle), else follow the OS. -->
     <script>(()=>{const saved=()=>{try{return localStorage.getItem('theme')}catch{return null}};const s=()=>{const t=saved();document.documentElement.classList.toggle('dark',t?t==='dark':true)};s()})()</script>
   </head>
