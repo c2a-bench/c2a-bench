@@ -236,11 +236,9 @@ function Results({ redwood, metas, skyway, skywayMetas, bare, compact, env: fixe
               ? "Share of all Skyway tickets each builder's agents passed."
               : "Share of all Redwood tickets each builder's agent passed, over the six stages. Every agent runs on the same model; only the builder differs.",
             points: sky ? [
-              <><b>Opus 5.5 builds the best agent.</b> Its agents pass 67% of tickets, against 40% for the weakest builder.</>,
-              <><b>Keeping everything is not the answer.</b> 6.1 Sol keeps nearly every rule, old versions included, and its agents pass only 53%. A good builder keeps the current rule and lets go of the old one.</>,
+              <><b>Opus 5.5 builds the best agent.</b> Its agents pass 67% of tickets, against 40% for the weakest builder. 6.1 Sol keeps every rule, old versions included, and passes only 53%.</>,
             ] : [
-              <><b>6.1 Sol builds the best agent, and five others are close behind.</b> It passes 80% of tickets; five builders pass between 70% and 78%.</>,
-              <><b>With only 27 docs, the difference comes from updates.</b> 6.1 Sol rises from 74% to about 81% over the updates, while Sonnet 5.5 falls from 77% to 55% because it misses the pages that were added.</>,
+              <><b>Testing the right thing is what pays off.</b> When stage 4 adds a prompt size limit, Sonnet 5.5 tests for it and passes 95% of the stage, while Opus 5.5 and GLM miss it and pass 55%.</>,
             ],
             chart: (
               <>
@@ -266,7 +264,6 @@ function Results({ redwood, metas, skyway, skywayMetas, bare, compact, env: fixe
               <><b>6.1 Sol is on the cost frontier in both environments.</b> It keeps the docs and writes only a few summary notes, so it builds quickly and cheaply. The cost shifts to the agent, which reads nearly twice as much per ticket as Opus 5.5&apos;s.</>,
             ] : [
               <><b>6.1 Sol is on the cost frontier in both environments.</b> It builds the best agent here for under $5, and only DeepSeek is cheaper. The cost shifts to the agent, which costs about twice as much to run as Opus 5.5&apos;s.</>,
-              <><b>Testing the right thing is what pays off.</b> When stage 4 adds a prompt size limit, Sonnet 5.5 tests for it and passes 95% of the stage, while Opus 5.5 and GLM miss it and pass 55%.</>,
             ],
             chart: (
               <CostScatter

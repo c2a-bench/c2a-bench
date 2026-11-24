@@ -133,7 +133,7 @@ We use those four numbers to decide who is to blame for a failed ticket. Code ma
 
 ## How the builders did
 
-### Pass rate by model and harness
+### Which builder makes the best agent
 
 <!-- figure:results -->
 
@@ -144,27 +144,17 @@ A builder turns a company's docs into the knowledge its agent works from, and ev
 
 #### Opus 5.5 builds the best agent
 
-On Skyway Air, Opus 5.5's agents pass 67% of tickets, against 40% for DeepSeek, the weakest builder. The gap shows at the first build, where Opus 5.5's agent passes 68% of tickets and DeepSeek's 44%, and both stay close to that for the rest of the run. So the first build sets the level, and later updates rarely change it.
-
-#### Keeping everything is not the answer
-
-6.1 Sol keeps nearly every rule but also the old versions of them, and its agents pass 53%. Opus 5.5 keeps fewer rules but a higher share of them current, and passes 67%. A good builder keeps the current rule and lets go of the old one.
-
-#### 6.1 Sol builds the best agent on Redwood Inference, and five others are close behind
-
-On Redwood Inference, 6.1 Sol's agent passes 80% of tickets and five other builders pass between 70% and 78%. With only 27 docs every builder reads all of them, so the first builds are close and the updates decide the order.
-
-#### With only 27 docs, the difference comes from updates
-
-6.1 Sol goes from 74% at its first build to about 81% on average over the updates, while Sonnet 5.5 goes from 77% to 55% at its first update. Sonnet 5.5 only checks which files have newer dates, so it misses the pages that were added; a builder that compares the new docs with the ones it built from keeps every rule. After the first build, a good builder is one that notices everything that changed.
-
-#### 6.1 Sol is on the cost frontier in both environments
-
-On Skyway Air, 6.1 Sol's agents pass 53% of tickets for $9.52 a build, while Opus 5.5 passes 67% for $50.20: 15 more points for more than five times the cost. On Redwood Inference 6.1 Sol builds the best agent for $4.64, and only DeepSeek builds for less. It builds light: it keeps all the docs and links them from a small set of summary notes, so it builds all six Skyway Air designs in about 9.5 hours against 18 to 42 hours for the others, and loses almost no rules. The cost moves to the agent. 6.1 Sol's agents read nearly twice as much per ticket as Opus 5.5's on Skyway Air, and on Redwood Inference they cost about twice as much to run ($0.39 against $0.21 a ticket). So a cheap build is not a cheap agent, and both bills are worth counting.
+On Skyway Air, Opus 5.5's agents pass 67% of tickets, against 40% for DeepSeek, the weakest builder. The gap shows at the first build, where Opus 5.5's agent passes 68% of tickets and DeepSeek's 44%, and both stay close to that for the rest of the run. So the first build sets the level, and later updates rarely change it. What sets it apart from 6.1 Sol, which keeps nearly every rule but also the old versions and passes 53%, is that Opus 5.5 keeps the current ones.
 
 #### Testing the right thing is what pays off
 
 On Redwood Inference, stage 4 adds a limit on the prompt size. Sonnet 5.5 tests for it and passes 95% of the stage, while Opus 5.5 and GLM miss it and pass 55%. Checking the agent against the new rule saves a stage more than reading or building more does.
+
+### What it cost to build
+
+#### 6.1 Sol is on the cost frontier in both environments
+
+On Skyway Air, 6.1 Sol's agents pass 53% of tickets for $9.52 a build, while Opus 5.5 passes 67% for $50.20. On Redwood Inference it builds the best agent for under $5. It builds light, keeping the docs and writing only a few summary notes, so its builds are quick and cheap. The cost moves to the agent, which costs about twice as much to run as Opus 5.5's. So a cheap build is not a cheap agent.
 
 ### Why tickets failed
 
@@ -278,7 +268,7 @@ as a draft or a first version, so the builder can tell which page is current. Op
 pages out of their notes. 6 Astra keeps all of them, but its customer support agent still uses the current rule. All
 three score about the same as with the complete docs, so a clearly marked old page does little harm.
 
-In the noisy pack, the extra pages are about topics that have nothing to do with the tickets, so they are easy to skip and the score barely moves (81% against 78%). The cost can still rise: a builder that copies the extra pages into the agent's prompt pays far more at runtime, as the section on cheap builders below shows.
+In the noisy pack, the extra pages are about topics that have nothing to do with the tickets, so they are easy to skip and the score barely moves (81% against 78%). The cost can still rise: 6.1 Sol pastes 43 of the noisy pages into every prompt, and its agent costs about four times as much to run as Sonnet 5.5's on that pack.
 
 ## How the models behave
 
@@ -295,58 +285,10 @@ gets fewer of these customers' facts (49% and 58% against 75%).
 
 <!-- figure:customer-types -->
 
-### Agents act too early on the first message
-
-Builders almost always test on single-turn examples and design for eager first-turn triage. When a customer's real issue
-only emerges on turn two, that habit causes two opposite irreversible mistakes.
-
-Over-hardening prompts to escalate anything out of policy fails in the opposite way. On Skyway Air, Opus 5.5 ranks first
-on 85.7% of the customer behaviors (including resisting manager requests at 68.3%, versus GLM's 6.3%), yet finishes
-last on goal changes at 33.3%, less than half of 6.1 Sol (69.0%) and Carbon (66.7%). When a customer opens with a
-harmless pre-purchase question ("Can I add a checked bag to a future trip?") before pivoting on turn two to a refund or
-delay claim, Opus 5.5's agent immediately creates an irreversible handoff on turn one, resolves turn two flawlessly, and
-still fails. The same split appears on the knowledge packs' pricing-opener ticket: 68% of Claude and pi builds create
-a turn-one handoff before the customer clarifies, compared with 0% of Codex builds.
-
-### Same harness, opposite working styles and costly subagents
-
-Comparing models inside the exact same coding harness with identical tools removes harness effects and exposes stark
-working styles.
-
-On pi (bash, read, write, edit), DeepSeek uses native read for just 0.74% of its tool calls,
-pushing 93.4% of its work through bash while staying nearly silent (1.7 messages per stage). Carbon does the exact
-opposite: 49.3% of its tool calls are native read calls, with 74.7% of its Redwood document reads re-reading unchanged
-pages from earlier stages (77 unchanged files in stage 5 alone for two new docs). GLM, on the same harness, narrates
-continuously: 22.7 messages per stage, 26× Carbon's rate.
-
-On Claude Code, Opus 5.5 and Sonnet 5.5 even wait on background tasks differently: Sonnet 5.5 polls with Monitor
-(132 calls, 0 scheduled wakeups), while Opus 5.5 schedules timed callbacks with ScheduleWakeup (26 calls, 9 Monitor
-calls). Both also spend far more when spawning parallel helper agents on Skyway Air: build costs jump 2.8× for
-Opus 5.5 ($17.42 vs. $6.18 per stage) and 4.2× for Sonnet 5.5 ($15.94 vs. $3.82) without beating simpler builds. Worse,
-delegation can undo earlier work: in one Sonnet 5.5 wiki run, stage 1's subagents removed every trap (0%), only
-for a stage 2 subagent tasked with writing a "Chronological ledger of corrections" to copy every superseded trap back
-into the wiki, raising traps from 0% back to 100% for the rest of the run.
-
-### Cheap builders can produce the costliest agents
-
-Because every deployed agent runs gpt-5.6-sol, builder choices around pre-fetching state, filtering noise, and
-re-reading notes create a 3× to 5× runtime cost spread that often reverses the build-cost rankings.
-
-DeepSeek spends the least to build in every environment ($0.66 on Redwood, $0.50 on the knowledge packs, $1.68 average
-on Skyway), yet builds Redwood's most expensive agent to run (9,220 model calls, 6.36 per turn, 100.5M tokens) because
-it wraps every API endpoint as an uncached single-purpose tool. On the exact same tickets, GLM pre-fetches ticket,
-customer, contract, key, and incident state in Python and cuts model calls by 3.1× (2.05 per turn).
-
-On the noisy knowledge pack, 6.1 Sol concatenates 43 full documents, distractors included, into every prompt, pushing
-runtime cost to $31.91 (4.4× Sonnet 5.5's $7.21 on the same pack), while 6 Astra's runtime bill jumps 133% ($11.47 to
-$26.77). Carbon incurs a different cost on the first three packs, instructing its stateless agent to re-read wiki notes
-at the start of every turn (~4 reads per turn, $24.68 to $28.73 per pack); inlining core tables on the noisy pack cuts its
-runtime bill nearly in half (-46.6%, to $15.34) while lifting accuracy to its run high (85.1%).
-
 ### Builders investigate the benchmark and misreport what they built
 
 Rather than treating the docs as ordinary company paperwork, builders inspect the container to reverse-engineer the
-test. On the same pi harness, three distinct habits emerge on the knowledge packs: Carbon runs stat timestamps and
+test. On the pi harness, three distinct habits emerge on the knowledge packs: Carbon runs stat timestamps and
 checks `UPSTREAM_LICENSE` to isolate script-generated edits ("The nanosecond precision from stat is mind-blowing");
 DeepSeek mentions "hidden test" 86 times across five stages; and GLM tests unreferenced records inside
 `examples/seed/tickets.json` as "likely hidden test material."
