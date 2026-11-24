@@ -9,11 +9,11 @@ import { ArrowRight } from "lucide-react";
 import { CONTRIBUTING, Nav, RepoLinks } from "@/landing/nav";
 import { Journey } from "@/landing/journey";
 import { ArchTradeoff, ArchTypes, RecallScatter, type ArchRun, type TicketType, type RecallPoint, type StageRow, type StagePoint } from "@/landing/charts";
-import { CONDITIONS, CONFOUND, ENV, SKYWAY_ARCH, catalog, crashed, harnessName, loadMetas, pooled, shortModel, stagesOf, style, type Builder, type FailureGroup } from "@/landing/data";
+import { CONDITIONS, CONFOUND, ENV, SKYWAY_ARCH, catalog, crashed, harnessName, loadMetas, pooled, shortModel, stagesOf, style, type Builder, type FailureGroup, type Shape } from "@/landing/data";
 import type { JobSummary } from "@/lib/data";
 import { FIRST_POST } from "@/blog/first";
 import { SITE_TITLE, usePageTitle } from "@/lib/title";
-import { BenchmarkBars, ChangePanels, Columns, CostScatter, SlopeChart, StageLines, REASONS, ReasonBars, type ReasonKey, type ReasonRow } from "@/landing/simple-charts";
+import { BenchmarkBars, ChangePanels, Columns, CostScatter, StageLines, REASONS, ReasonBars, type ReasonKey, type ReasonRow } from "@/landing/simple-charts";
 import "@/landing/landing.css";
 
 
@@ -369,7 +369,7 @@ function Failures({ redwood, metas, skyway, skywayMetas, focus, bare, compact, e
           <ReasonBars rows={[{ label: sky ? "All runs" : "All builders", parts: all, bold: true }, ...rows]} focus={focus ? FOCUS_REASON[focus] : null} />
         ) : (() => {
           const zig: ZigRow[] = [{
-            title: "Why tickets failed",
+            title: "Who caused the failures",
             body: "Every failed ticket is traced to a cause, and every cause to the builder or the agent.",
             points: !Object.values(all).some((v) => v > 0) ? [] : sky ? [
               <><b>Large doc sets cause more build failures.</b> With over 10,000 pages, builders lose more rule details before the agent ever sees a ticket.</>,
@@ -422,6 +422,16 @@ function pooledDesigns(arch: ArchRun[], order: string[]): ArchRun[] {
   });
 }
 
+/** One colour and marker per design, borrowed from the builder palette in landing.css. */
+const DESIGN_STYLE: Record<string, { color: string; shape: Shape }> = {
+  "wiki-terminal": { color: "var(--b-gemini)", shape: "square" },
+  "wiki-index": { color: "var(--b-x2)", shape: "diamond" },
+  "graph-query": { color: "var(--b-opus)", shape: "circle" },
+  "prompt-workflows": { color: "var(--b-glm)", shape: "triangle" },
+  "raw-terminal": { color: "var(--b-x1)", shape: "plus" },
+  "raw-index": { color: "var(--b-deepseek)", shape: "cross" },
+};
+
 function Architecture({ runs, metas, bare, compact }: { runs: JobSummary[]; metas: Awaited<ReturnType<typeof loadMetas>>; bare?: boolean; compact?: boolean }) {
   const arch: ArchRun[] = runs.map((j, i) => {
     const st = stagesOf(metas[i]);
@@ -471,13 +481,6 @@ function Architecture({ runs, metas, bare, compact }: { runs: JobSummary[]; meta
                   tip: <div className="muted mt-0.5">{fmt(passed)} of {fmt(total)} tickets · built by {[...new Set(rs.map((r) => r.model))].join(", ")}</div>,
                 };
               });
-              // first and last stage per design
-              const slope = order.map((a) => {
-                const rs = arch.filter((r) => r.arch === a);
-                const first = rs.reduce((x, r) => x + (r.stages[0] ?? 0), 0) / rs.length;
-                const last = rs.reduce((x, r) => x + (r.stages[r.stages.length - 1] ?? 0), 0) / rs.length;
-                return { label: a, sub: rs[0].name, a: first, b: last };
-              });
               const lastStage = Math.max(...arch.map((r) => r.stages.length)) - 1;
               const barsChart = <BenchmarkBars rows={bars} />;
               if (bare) return barsChart;
@@ -487,8 +490,9 @@ function Architecture({ runs, metas, bare, compact }: { runs: JobSummary[]; meta
                     title: "Which design passes most",
                     body: <>The share of Skyway tickets each design passed, combined over the {builders.length} builders. The dashed line is the average.</>,
                     points: [
-                      <><b>Search is not required when the rules fit in prompts.</b> The prompts-and-workflows design scores as well as the knowledge graph and wiki designs.</>,
-                      <><b>Searching raw documents with an index scores lowest.</b> Index search over raw documents finishes last among all six designs.</>,
+                      <><b>Three designs lead, and raw docs + retrieval index trails.</b> The knowledge graph, LLM wiki + terminal and prompts and workflows are within one point of each other (56%), and the last needs no retrieval at all. Raw docs + retrieval index passes 43%. Choose among the leaders on cost and upkeep.</>,
+                      <><b>A terminal beats a retrieval index.</b> On the same docs, the terminal design passes about 10 points more with raw docs and 9 more with a wiki. Try a terminal before building an index.</>,
+                      <><b>A wiki helps a little.</b> With the same retrieval, a wiki passes 3 to 5 points more than raw docs: 56% against 53% with a terminal, 48% against 43% with a retrieval index. The bigger gains are on cost and on changed rules.</>,
                     ],
                     chart: barsChart,
                   },
@@ -496,8 +500,9 @@ function Architecture({ runs, metas, bare, compact }: { runs: JobSummary[]; meta
                     title: "What each design costs",
                     body: <>Pass rate against what a ticket costs the agent, or how long it takes: one mark per design, pooled over the {builders.length} builders that built it. The dashed line is the Pareto frontier.</>,
                     points: [
-                      <><b>Shorter notes keep runtime costs low.</b> Agents that read short wiki notes cost the least per ticket.</>,
-                      <><b>Prompt caching keeps prompt-only designs affordable.</b> Prompt-only agents send a lot of text per ticket, but stay mid-priced because the repeated prompt is cached.</>,
+                      <><b>A wiki makes the agent cheaper to run.</b> Wiki agents cost $0.11 to $0.12 per ticket, less than half the $0.26 to $0.27 of raw docs, because they read short notes. LLM wiki + terminal is on the frontier at every stage.</>,
+                      <><b>Prompt caching keeps prompts and workflows affordable.</b> It sends the most text per ticket, but 91% is the same prompt every call, billed at about a twelfth of the usual price. Without caching it would cost the most.</>,
+                      <><b>The wiki&apos;s saving is paid for up front.</b> Wiki designs cost the builder the most to build, and each update costs about three-quarters of the first build again. For an agent that answers few tickets, that may not pay back.</>,
                     ],
                     note: "Cost is the agent's model spend per ticket; time is the median time to finish a ticket, over the stages where the agent ran.",
                     chart: <ArchTradeoff runs={pooledDesigns(arch, order)} order={order} />,
@@ -505,19 +510,32 @@ function Architecture({ runs, metas, bare, compact }: { runs: JobSummary[]; meta
                   },
                   {
                     title: "Which designs hold up as the docs change",
-                    body: <>Each line joins a design's pass rate at the first stage to the last, after {lastStage} rounds of doc changes. Blue held up or rose; red fell.</>,
+                    body: <>Pass rate for each design at every stage, averaged over the {builders.length} builders that built it, through {lastStage} rounds of doc changes. The shaded band is one standard deviation either side of the average across builders; hover a design to bring it out.</>,
                     points: [
-                      <><b>Most designs improve over time.</b> As builders fix gaps across updates, four of the six designs finish higher in stage 5 than in stage 0.</>,
-                      <><b>One bad prompt rule can break a design.</b> One builder told its knowledge-graph agent to &quot;search once, then act&quot;, and its score dropped by half (53% to 26%).</>,
+                      <><b>Designs hold their score as the docs change.</b> Every design finishes within about five points of where it started, and every one dips at stage 2. The small rises in prompts and workflows and raw docs + terminal come from two builders and are within the stage-to-stage swings.</>,
                     ],
-                    chart: <SlopeChart left="Stage 0" right={`Stage ${lastStage}`} rows={slope} />,
+                    chart: (
+                      <StageLines lines={order.map((a) => {
+                        const rs = arch.filter((r) => r.arch === a);
+                        const n = Math.max(...rs.map((r) => r.stages.length));
+                        const at = (i: number) => rs.map((r) => r.stages[i] ?? 0);
+                        return {
+                          label: rs[0].name, color: (DESIGN_STYLE[a] ?? { color: "var(--b-x3)" }).color, shape: (DESIGN_STYLE[a] ?? { shape: "circle" as Shape }).shape,
+                          values: Array.from({ length: n }, (_, i) => at(i).reduce((x, v) => x + v, 0) / rs.length),
+                          band: Array.from({ length: n }, (_, i) => {
+                            const v = at(i), m = v.reduce((x, y) => x + y, 0) / v.length, sd = Math.sqrt(v.reduce((x, y) => x + (y - m) ** 2, 0) / Math.max(1, v.length - 1));
+                            return [Math.max(0, m - sd), Math.min(1, m + sd)] as [number, number];
+                          }),
+                        };
+                      })} height={380} />
+                    ),
                   },
                   {
                     title: "Which tickets each design gets right",
                     body: "Tickets split by what they test: a rule that is new at that stage, a rule from before that didn't change, or one that changed.",
                     points: [
                       <><b>Changed rules are usually the hardest tickets.</b> Four of the six designs score lower on changed rules than on both new and unchanged rules.</>,
-                      <><b>Compiled notes handle rule changes better than raw documents.</b> Designs that read the raw documents drop 11 to 13 percentage points on changed rules compared with new rules, while graph, wiki, and prompt designs drop 3 to 7 points.</>,
+                      <><b>Compiled notes handle rule changes better than raw documents.</b> Designs that read the raw documents drop 11 to 13 points on changed rules compared with new rules; the graph, wiki and prompt designs drop 3 to 7. A wiki beats raw docs on changed rules by 6 points with a terminal and 13 with a retrieval index.</>,
                     ],
                     chart: <ArchTypes runs={arch} order={order} />,
                   },
@@ -565,8 +583,8 @@ function Packs({ packs, bare }: { packs: Builder[]; bare?: boolean }) {
               title: "How changed docs move the score",
               body: "Each bar shows how one builder's score changed on that version of the docs, compared with its score on the complete docs. The large number is the typical change across builders.",
               points: [
-                <><b>Missing rules cause the biggest drop.</b> When a needed rule is removed, every builder scores lower because agents guess an answer instead of leaving the field alone or handing the ticket off.</>,
-                <><b>Messy docs rarely hurt the score.</b> Split, conflicting, or noisy pages barely change pass rates on average because builders filter out old pages, though builders that copy noisy pages into prompts still pay much more at runtime.</>,
+                <><b>Missing facts cause the biggest drop.</b> With facts removed, agents pass 14 points fewer tickets, in all seven builders, because they guess instead of leaving the field alone or handing the ticket to a person. Gaps in the docs cost more than messy pages.</>,
+                <><b>Contradicting and noisy pages do not hurt.</b> Pass rates stay within a few points of the complete docs (79% and 81% against 78%), as builders leave out old pages and skip unrelated ones. Clearly marked old pages do little harm.</>,
               ],
               note: "Same tickets in every pack; only the docs change.",
               chart: <ChangePanels panels={panels} />,

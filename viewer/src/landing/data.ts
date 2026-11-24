@@ -12,9 +12,9 @@ export const ENV = { redwood: "redwood-inference", packs: "support-agent-knowled
 export const SKYWAY_ARCH: Record<string, string> = {
   "graph-query": "Knowledge graph + graph queries",
   "prompt-workflows": "Prompts and workflows, no retrieval",
-  "raw-index": "Raw docs + index search",
+  "raw-index": "Raw docs + retrieval index",
   "raw-terminal": "Raw docs + terminal tools",
-  "wiki-index": "LLM wiki + index search",
+  "wiki-index": "LLM wiki + retrieval index",
   "wiki-terminal": "LLM wiki + terminal tools",
 };
 
