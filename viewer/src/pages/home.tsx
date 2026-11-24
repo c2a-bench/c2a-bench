@@ -512,7 +512,7 @@ function Architecture({ runs, metas, bare, compact }: { runs: JobSummary[]; meta
                     title: "Which designs hold up as the docs change",
                     body: <>Pass rate for each design at every stage, averaged over the {builders.length} builders that built it, through {lastStage} rounds of doc changes. The shaded band is one standard deviation either side of the average across builders; hover a design to bring it out.</>,
                     points: [
-                      <><b>Designs hold their score as the docs change.</b> Every design finishes within about five points of where it started, and every one dips at stage 2. The small rises in prompts and workflows and raw docs + terminal come from two builders and are within stage-to-stage noise.</>,
+                      <><b>Designs hold their score as the docs change.</b> Every design finishes within about five points of where it started, and every one dips at stage 2. The small rises in prompts and workflows and raw docs + terminal come from two builders and are within the stage-to-stage swings.</>,
                     ],
                     chart: (
                       <StageLines lines={order.map((a) => {
@@ -584,7 +584,7 @@ function Packs({ packs, bare }: { packs: Builder[]; bare?: boolean }) {
               body: "Each bar shows how one builder's score changed on that version of the docs, compared with its score on the complete docs. The large number is the typical change across builders.",
               points: [
                 <><b>Missing facts cause the biggest drop.</b> With facts removed, agents pass 14 points fewer tickets, in all seven builders, because they guess instead of leaving the field alone or handing the ticket to a person. Gaps in the docs cost more than messy pages.</>,
-                <><b>Contradicting and noisy pages do not hurt.</b> Pass rates stay within a few points of the complete docs (79% and 81% against 78%), as builders leave out old pages and skip unrelated ones. Marking an old page as old is enough to keep it from being used.</>,
+                <><b>Contradicting and noisy pages do not hurt.</b> Pass rates stay within a few points of the complete docs (79% and 81% against 78%), as builders leave out old pages and skip unrelated ones. Clearly marked old pages do little harm.</>,
                 <><b>Splitting rules across pages costs a little.</b> About 6 points, almost all from two builders, DeepSeek and Carbon.</>,
               ],
               note: "Same tickets in every pack; only the docs change.",

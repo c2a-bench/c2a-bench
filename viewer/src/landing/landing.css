@@ -507,7 +507,7 @@ a.lp-pick:hover .lp-pick-arrow { color: var(--ink); }
 }
 
 /* ---------- Blog contents: a rail beside the article from 960px, a bar under the nav below ---------- */
-.lp-prose h2, .lp-prose h3, .lp-prose h4 { scroll-margin-top: calc(var(--nav) + 72px); }
+.lp-prose h2, .lp-prose h3 { scroll-margin-top: calc(var(--nav) + 72px); }
 .lp-toc-tree, .lp-toc-sub { list-style: none; margin: 0; padding: 0; }
 .lp-toc-row { display: flex; align-items: flex-start; gap: 4px; }
 .lp-toc-row > a { flex: 1 1 0; min-width: 0; }
@@ -543,7 +543,7 @@ a.lp-pick:hover .lp-pick-arrow { color: var(--ink); }
   .lp-toc-bar { display: none; }
   /* until the window is wide enough to centre the 800px article with the rail beside it, the article moves left */
   .lp-article { margin-inline: 0; max-width: calc(100% - 240px); }
-  .lp-prose h2, .lp-prose h3, .lp-prose h4 { scroll-margin-top: calc(var(--nav) + 24px); }
+  .lp-prose h2, .lp-prose h3 { scroll-margin-top: calc(var(--nav) + 24px); }
 }
 @media (min-width: 1280px) {
   .lp-toc--rail { left: calc(100% + 16px); }

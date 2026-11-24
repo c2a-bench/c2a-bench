@@ -137,6 +137,8 @@ We use those four numbers to decide who is to blame for a failed ticket. Code ma
 
 <!-- figure:results -->
 
+How well a builder does depends on how it handles the size of the company's docs.
+
 On Redwood Inference the builder starts with 27 docs, and every builder does the same thing first, which is to read all
 of them, so it rarely loses a rule and almost every failed ticket is caused by the customer support agent having the
 rule and using it wrong.
@@ -160,7 +162,7 @@ Neither extreme is safe. The builders that skipped docs lost rules their custome
 
 <!-- figure:failures -->
 
-The other failures are caused by the builder, and each builder makes a different mistake.
+Builders also cause failures, and each builder makes a different mistake.
 
 Sonnet 5.5 is the only builder that loses rules on Redwood Inference. It loses them when it updates the agent, not when
 it first builds it. At each new stage it checks which doc files have changed since its last build. This finds the pages
@@ -210,13 +212,13 @@ Prompts and workflows send the most text per ticket, but 91% of it is the same f
 
 #### The wiki's saving is paid for up front
 
-The builder pays for the wiki up front: about $30 per run against about $19 for raw docs. Each update then costs about three-quarters of the first build again, against about a third for raw docs. The extra is earned back after about 80 tickets of the 300 in a Skyway Air run, so a wiki pays off for an agent that answers many tickets, not a few.
+The builder pays for the wiki up front: about $30 per run against about $19 for raw docs. Each update then costs about three-quarters of the first build again, against about a third for raw docs. The extra is earned back after about 80 tickets of the 311 in a Skyway Air run, so a wiki pays off for an agent that answers many tickets, not a few.
 
 ### Which designs hold up as the docs change
 
 #### Designs hold their score as the docs change
 
-Every design finishes within about five points of where it started: LLM wiki + terminal goes from 64% to 62%, the knowledge graph from 60% to 55%. Prompts and workflows and raw docs + terminal end slightly higher, but that is within the stage-to-stage swings: every design dips at stage 2, so a few points between two stages is not a trend. In practice, no design needs to be rebuilt as the docs change. Ticket type is where the designs differ.
+Every design finishes within about five points of where it started: LLM wiki + terminal goes from 64% to 62%, the knowledge graph from 60% to 55%. Prompts and workflows and raw docs + terminal end slightly higher, but that is within the stage-to-stage swings: every design dips at stage 2, so a few points between two stages is not a trend. In practice, updating the agent at each stage was enough to hold the score. Ticket type is where the designs differ.
 
 ### Which tickets each design gets right
 
@@ -249,7 +251,7 @@ audit logs. Since the docs no longer say which team it is, the customer support 
 leave the team on the ticket unchanged, or hand the ticket to a person. Almost every customer support agent chooses a
 team anyway, and the customer support agents of six of the seven builders get none of these tickets right. Across all the tickets, the incomplete pack costs 14 points (from 78% to 64%), and every builder drops. They nearly
 always choose Eng Platform, which is the team from an older version of the rule that the docs say no longer applies.
-They also tell the customer that the request has been sent to the platform team. A gap in the docs costs more than a messy page, because the agent fills it with a guess instead of handing the ticket to a person.
+They also tell the customer that the request has been sent to the platform team. A gap in the docs costs more than a messy page, probably because the agent fills it with a guess instead of handing the ticket to a person.
 
 ### Contradicting and noisy pages do not hurt
 
@@ -259,9 +261,9 @@ by the builder, before the customer support agent ever sees it.
 In the conflicting pack, extra pages disagree with the real policy. Most of these pages are marked as old, for example
 as a draft or a first version, so the builder can tell which page is current. Opus 5.5 and DeepSeek leave all of these
 pages out of their notes. 6 Astra keeps all of them, but its customer support agent still uses the current rule. All
-three score about the same as with the complete docs, so marking an old page as old is enough to keep it from being used.
+three score about the same as with the complete docs, so a clearly marked old page does little harm.
 
-In the noisy pack, the extra pages are about topics that have nothing to do with the tickets, so they are easy to skip and the score barely moves (81% against 78%). Cost per ticket is unchanged, so the agents are not wading through the extra pages.
+In the noisy pack, the extra pages are about topics that have nothing to do with the tickets, so they are easy to skip and the score barely moves (81% against 78%). The cost can still rise: a builder that copies the extra pages into the agent's prompt pays far more at runtime, as the section on cheap builders below shows.
 
 ### Splitting rules across pages costs a little
 
