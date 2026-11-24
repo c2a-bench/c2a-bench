@@ -55,7 +55,7 @@ export const FAILURE_SPEC: Spec[] = [
   {
     party: "Bot",
     group: "Missing customer info (customer recall)",
-    def: "A fact only the customer knows, and the ticket needs, never reached the agent. The Scores by stage page shows customer recall for every ticket.",
+    def: "A fact only the customer knows, and the ticket needs, never reached the agent. The Scores by stage page shows customer facts recall for every ticket.",
     types: [{ type: "Key fact never obtained from the customer", old: ["decisive fact not obtained"], def: "A decisive customer fact for this check was never told in the conversation." }],
   },
   {

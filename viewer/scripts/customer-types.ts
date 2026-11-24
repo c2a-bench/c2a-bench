@@ -1,9 +1,9 @@
-// Pass rate and customer recall per customer behavior, pooled over every published run with customer types
+// Pass rate and customer facts recall per customer behavior, pooled over every published run with customer types
 // (Redwood Inference and Skyway Air; the knowledge packs have none). Plain numbers, no adjustment.
 //
 //   npm run customer-types        # prints the JSON that blog/viewers.tsx (CUSTOMER_TYPES) holds, from the pinned runs
 //
-// Per type: [tickets, attempts, pass %, customer recall %]. Recall is the share of a ticket's customer facts the agent got the
+// Per type: [tickets, attempts, pass %, customer facts recall %]. Recall is the share of a ticket's customer facts the agent got the
 // customer to tell, averaged over attempts that have a recall score.
 import { readFile } from "node:fs/promises";
 import { parseRelease, releaseUrl } from "./data/release";

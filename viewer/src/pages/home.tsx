@@ -13,6 +13,7 @@ import { CONDITIONS, CONFOUND, ENV, SKYWAY_ARCH, catalog, crashed, harnessName, 
 import type { JobSummary } from "@/lib/data";
 import { FIRST_POST } from "@/blog/first";
 import { SITE_TITLE, usePageTitle } from "@/lib/title";
+import { CustomerTypeViewer } from "@/blog/viewers";
 import { BenchmarkBars, ChangePanels, Columns, CostScatter, StageLines, REASONS, ReasonBars, type ReasonKey, type ReasonRow } from "@/landing/simple-charts";
 import "@/landing/landing.css";
 
@@ -548,7 +549,7 @@ function Architecture({ runs, metas, bare, compact }: { runs: JobSummary[]; meta
 
 /** What each change to the docs did: one panel per pack, a bar per builder for the points it gained or lost against its own
  *  R-complete score (so a weak complete-docs build does not skew the rest), and the mean of those changes on top. */
-function Packs({ packs, bare }: { packs: Builder[]; bare?: boolean }) {
+function packPanels(packs: Builder[]) {
   const PANEL: [string, string, string][] = [
     ["Rules split up", "R-fragmented", "The same docs, but some sections are moved word for word onto other pages, so the parts of a rule sit on separate pages. Nothing is added or reworded."],
     ["Facts removed", "R-incomplete", "Some facts the tickets need are deleted from the docs. The agent can't know them, so it should leave those fields alone or hand the ticket to a person rather than guess."],
@@ -562,32 +563,53 @@ function Packs({ packs, bare }: { packs: Builder[]; bare?: boolean }) {
       return !s || crashed({ passed: s.passed ?? 0 }) ? null : (s.passed ?? 0) / (s.total || 1);
     }),
   }));
-  const panels = PANEL.map(([title, term, about], k) => {
+  return PANEL.map(([title, term, about], k) => {
     const deltas = rows.map((r) => ({ label: r.label, base: r.pass[0], v: r.pass[k + 1], d: r.pass[0] == null || r.pass[k + 1] == null ? null : r.pass[k + 1]! - r.pass[0]! }));
     return { title, term, about, rows: deltas };
   });
+}
+
+/** The changed-docs chart on its own, for the blog post. */
+function Packs({ packs }: { packs: Builder[] }) {
+  return <ChangePanels panels={packPanels(packs)} />;
+}
+
+/** The agent's context is the rules in the docs plus the facts only the customer knows. Two views change how scattered each is:
+ *  how the customer behaves (the facts) and how the docs change (the rules). */
+function Context({ packs }: { packs: Builder[] }) {
+  const [view, setView] = useState<"customers" | "docs">("customers");
+  const panels = packPanels(packs);
+  const customers: ZigRow = {
+    title: "How customers behave",
+    body: "Each ticket gives the customer one of 14 behaviors. It changes how the customer shares the facts, never the facts themselves or the right answer. Customer facts recall is the share of the customer's facts the agent got them to share.",
+    points: [
+      <><b>Every customer behavior lowers the pass rate.</b> A plain customer gets 66%; the 13 other behaviors get between 29% and 64%.</>,
+      <><b>Behaviors hide the facts the agent needs.</b> The agent gets 75% of a plain customer&apos;s facts, but only 40% to 50% when the customer changes goal, corrects themselves or answers only what is asked.</>,
+      <><b>Customers who correct themselves are the hardest.</b> Only 29% of those tickets pass, less than half the plain customer&apos;s 66%.</>,
+    ],
+    chart: <CustomerTypeViewer />,
+  };
+  const docs: ZigRow = {
+    title: "How changed docs move the score",
+    body: "Each bar shows how one builder's score changed on that version of the docs, compared with its score on the complete docs. The large number is the typical change across builders.",
+    points: [
+      <><b>Missing facts cause the biggest drop.</b> With facts removed, agents pass about 15 points fewer tickets, in all seven builders, because they guess instead of leaving the field alone or handing the ticket to a person. Gaps in the docs cost more than messy pages.</>,
+      <><b>Contradicting and noisy pages do not hurt.</b> Pass rates stay within a few points of the complete docs (79% and 81% against 78%), as builders leave out old pages and skip unrelated ones. Clearly marked old pages do little harm.</>,
+    ],
+    note: "Same tickets in every pack; only the docs change.",
+    chart: <ChangePanels panels={panels} />,
+    wide: true,
+  };
   return (
-    <Sec bare={bare} id="packs" className="lp-sec lp-alt" head={
-          <SectionHead
-            from="Knowledge perturbations"
-            title="How changed docs move the score"
-          />
-        }>
-        {bare ? <ChangePanels panels={panels} /> : (() => {
-          return (
-            <Zig rows={[{
-              title: "How changed docs move the score",
-              body: "Each bar shows how one builder's score changed on that version of the docs, compared with its score on the complete docs. The large number is the typical change across builders.",
-              points: [
-                <><b>Missing facts cause the biggest drop.</b> With facts removed, agents pass 14 points fewer tickets, in all seven builders, because they guess instead of leaving the field alone or handing the ticket to a person. Gaps in the docs cost more than messy pages.</>,
-                <><b>Contradicting and noisy pages do not hurt.</b> Pass rates stay within a few points of the complete docs (79% and 81% against 78%), as builders leave out old pages and skip unrelated ones. Clearly marked old pages do little harm.</>,
-              ],
-              note: "Same tickets in every pack; only the docs change.",
-              chart: <ChangePanels panels={panels} />,
-              wide: true,
-            }]} />
-          );
-        })()}
+    <Sec id="context" className="lp-sec lp-alt" head={
+      <SectionHead
+        from="Customer behaviors and knowledge packs"
+        title="How scattered context moves the score"
+        lead="A ticket is easy when the agent has the right context: the rules in the docs and the facts only the customer knows. On Skyway Air, agents with both pass 70% of tickets; with a customer fact missing, 35%. Customer behaviors and changed docs change how scattered that context is."
+        right={<Seg value={view} onChange={setView} options={[["customers", "Customer behavior"], ["docs", "Changed docs"]]} />}
+      />
+    }>
+      <Zig rows={[view === "customers" ? customers : docs]} />
     </Sec>
   );
 }
@@ -752,7 +774,7 @@ export function LandingFigure({ name, compact, env = "redwood" }: { name: Figure
   if (name === "results") return <Results bare compact={compact} env={env} redwood={c.redwood} metas={metas} skyway={c.skywayArch} skywayMetas={archMetas} />;
   if (name === "failures") return <Failures bare compact={compact} env={env} redwood={c.redwood} metas={metas} skyway={c.skywayArch} skywayMetas={archMetas} focus={focus} onFocus={setFocus} />;
   if (name === "architecture") return <Architecture bare runs={c.skywayArch} metas={archMetas} />;
-  return <Packs bare packs={c.packs} />;
+  return <Packs packs={c.packs} />;
 }
 
 // ---------------- page ----------------
@@ -765,7 +787,7 @@ function Charts({ redwood, packs, skywayArch, focus, onFocus }: { redwood: Build
       <Results redwood={redwood} metas={metas} skyway={skywayArch} skywayMetas={archMetas} />
       <Failures redwood={redwood} metas={metas} skyway={skywayArch} skywayMetas={archMetas} focus={focus} onFocus={onFocus} />
       <Architecture runs={skywayArch} metas={archMetas} />
-      <Packs packs={packs} />
+      <Context packs={packs} />
     </>
   );
 }
