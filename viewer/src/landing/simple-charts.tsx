@@ -435,7 +435,7 @@ export function CostScatter({ dots, height = 340, title = "Tickets passed vs wha
   );
 }
 
-export type StageLine = { label: string; sub?: string; color: string; shape: Shape; values: (number | null)[]; counts?: string[] };
+export type StageLine = { label: string; sub?: string; color: string; shape: Shape; values: (number | null)[]; counts?: string[]; /** Lower and upper edge at each stage (e.g. mean ± 1 SD across builders), drawn as a shaded band. */ band?: ([number, number] | null)[] };
 
 /** Pass rate at each stage, one line per builder. Hover a point for the builder and stage; the other lines dim. */
 export function StageLines({ lines, height = 340 }: { lines: StageLine[]; height?: number }) {
@@ -443,7 +443,7 @@ export function StageLines({ lines, height = 340 }: { lines: StageLine[]; height
   const h = useHover();
   const m = { l: 40, r: 18, t: 14, b: 34 };
   const n = Math.max(...lines.map((l) => l.values.length));
-  const all = lines.flatMap((l) => l.values.filter((v): v is number => v != null));
+  const all = lines.flatMap((l) => [...l.values.filter((v): v is number => v != null), ...(l.band ?? []).flatMap((b) => b ?? [])]);
   const yLo = Math.max(0, Math.floor(10 * Math.min(...all)) / 10 - 0.1), yHi = Math.min(1, Math.ceil(10 * Math.max(...all)) / 10 + 0.05);
   const x = (i: number) => m.l + (n > 1 ? (i / (n - 1)) * (w - m.l - m.r) : 0);
   const y = (v: number) => m.t + (1 - (v - yLo) / (yHi - yLo)) * (height - m.t - m.b);
@@ -463,11 +463,14 @@ export function StageLines({ lines, height = 340 }: { lines: StageLine[]; height
               {Array.from({ length: n }, (_, i) => <text key={i} x={x(i)} y={height - m.b + 20} textAnchor="middle" fontSize={11} fill="var(--muted)">Stage {i}</text>)}
               {lines.map((l) => (
                 <g key={l.label} className={h.on === l.label ? "sc-item sc-on" : "sc-item"}>
+                  {l.band && l.band.every((b) => b) && (
+                    <path d={`${l.band.map((b, i) => `${i ? "L" : "M"}${x(i)},${y(b![1])}`).join("")}${[...l.band].reverse().map((b, i) => `L${x(l.band!.length - 1 - i)},${y(b![0])}`).join("")}Z`} fill={l.color} fillOpacity={h.on === l.label ? 0.25 : 0} stroke="none" pointerEvents="none" />
+                  )}
                   <path d={l.values.flatMap((v, i) => (v == null ? [] : [`${i ? "L" : "M"}${x(i)},${y(v)}`])).join("")} fill="none" stroke={l.color} strokeWidth={2} />
                   {l.values.map((v, i) => v == null ? null : (
                     <g key={i}
-                      onPointerEnter={(e) => h.show(e, l.label, <><TipHead>{l.label}</TipHead>{l.sub && <TipLine muted>{l.sub}</TipLine>}<TipLine>Stage {i}: <span className="num font-semibold">{pct(v)}</span> passed{l.counts?.[i] ? ` · ${l.counts[i]}` : ""}</TipLine></>)}
-                      onPointerDown={(e) => h.show(e, l.label, <><TipHead>{l.label}</TipHead>{l.sub && <TipLine muted>{l.sub}</TipLine>}<TipLine>Stage {i}: <span className="num font-semibold">{pct(v)}</span> passed{l.counts?.[i] ? ` · ${l.counts[i]}` : ""}</TipLine></>)}>
+                      onPointerEnter={(e) => h.show(e, l.label, <><TipHead>{l.label}</TipHead>{l.sub && <TipLine muted>{l.sub}</TipLine>}<TipLine>Stage {i}: <span className="num font-semibold">{pct(v)}</span> passed{l.counts?.[i] ? ` · ${l.counts[i]}` : ""}</TipLine>{l.band?.[i] && <TipLine muted>Across builders (±1 SD): {pct(l.band[i]![0])} to {pct(l.band[i]![1])}</TipLine>}</>)}
+                      onPointerDown={(e) => h.show(e, l.label, <><TipHead>{l.label}</TipHead>{l.sub && <TipLine muted>{l.sub}</TipLine>}<TipLine>Stage {i}: <span className="num font-semibold">{pct(v)}</span> passed{l.counts?.[i] ? ` · ${l.counts[i]}` : ""}</TipLine>{l.band?.[i] && <TipLine muted>Across builders (±1 SD): {pct(l.band[i]![0])} to {pct(l.band[i]![1])}</TipLine>}</>)}>
                       <circle cx={x(i)} cy={y(v)} r={12} fill="transparent" />
                       <Mark shape={l.shape} x={x(i)} y={y(v)} r={4.5} color={l.color} />
                     </g>

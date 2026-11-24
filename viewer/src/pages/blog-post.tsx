@@ -27,20 +27,20 @@ const FIGURES: Record<FigureName, { title: string; from: string; caption: string
     href: "/#results",
   },
   failures: {
-    title: "Why tickets failed",
+    title: "Failure reasons by builder",
     from: "Redwood Inference",
     caption: "Each bar splits a builder's failure reasons: warm colours are the builder's fault, blue ones the agent's. Every builder ran with high reasoning effort. Hover a segment for its share.",
     skyway: "Each bar splits a builder's failure reasons over all six architectures it built: warm colours are the builder's fault, blue ones the agent's. Every builder ran with high reasoning effort. Hover a segment for its share.",
     href: "/#failures",
   },
   architecture: {
-    title: "Pass rate by architecture",
+    title: "Share of tickets passed, by architecture",
     from: "Skyway Air",
     caption: "Six builders (high reasoning effort), each building all six assigned architectures; each bar pools their runs, and the dashed line is the average. Hover a row for its numbers.",
     href: "/#architecture",
   },
   packs: {
-    title: "How changed docs move the score",
+    title: "Pass rate change on each changed pack",
     from: "Knowledge perturbations",
     caption: "Each bar is one builder's gain or loss on a changed pack against its own complete-docs score; the big number is the typical change. Every builder ran with high reasoning effort.",
     href: "/#packs",
