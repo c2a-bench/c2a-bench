@@ -1,9 +1,10 @@
 import { StrictMode, Suspense } from "react";
 import { createRoot } from "react-dom/client";
-import { HashRouter, Navigate, Route, Routes, useLocation, useParams } from "react-router";
+import { BrowserRouter, Navigate, Route, Routes, useLocation, useParams } from "react-router";
 import { TipRoot } from "@/components/charts";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { NotFound } from "@/pages/not-found";
+import { FIRST_POST } from "@/blog/first";
 import { TopLoader } from "@/components/top-loader";
 import { SectionScroll } from "@/components/section-scroll";
 import { prefetchRun } from "@/lib/data";
@@ -34,8 +35,8 @@ function App() {
   return (
     <Routes>
       <Route path="/" element={<Home />} />
-      <Route path="/blog" element={<Blog />} />
-      <Route path="/blog/:slug" element={<Navigate to="/blog" replace />} />
+      <Route path="/blog" element={<Navigate to={`/blog/${FIRST_POST}`} replace />} />
+      <Route path="/blog/:slug" element={<Blog />} />
       <Route path="/t/:task" element={<TaskRuns />} />
       <Route path="/runs/:job" element={<JobLayout />}>
         <Route index element={<ToResearch />} />
@@ -64,7 +65,7 @@ function App() {
 
 /** Hovering or focusing a link to a run starts loading it (after 80 ms, so moving the mouse across a list does not). */
 let hoverTimer: ReturnType<typeof setTimeout> | undefined;
-const runOf = (t: EventTarget | null) => (t instanceof Element ? t.closest("a[href*='#/runs/']")?.getAttribute("href")?.match(/#\/runs\/([\w.-]+)\/?(\w*)/) : null);
+const runOf = (t: EventTarget | null) => (t instanceof Element ? t.closest("a[href*='/runs/']")?.getAttribute("href")?.match(/\/runs\/([\w.-]+)\/?(\w*)/) : null);
 document.addEventListener("pointerover", (e) => { clearTimeout(hoverTimer); const m = runOf(e.target); if (m) hoverTimer = setTimeout(() => prefetchRun(m[1], m[2]), 80); });
 document.addEventListener("focusin", (e) => { const m = runOf(e.target); if (m) prefetchRun(m[1], m[2]); });
 
@@ -73,7 +74,7 @@ setTimeout(() => { preloadPage("home"); preloadPage("blog"); }, 1500);
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <HashRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL.replace(/\/$/, "")}>
       <SectionScroll />
       <TooltipProvider>
         <Suspense fallback={null}>
@@ -82,6 +83,6 @@ createRoot(document.getElementById("root")!).render(
         <PageTips />
         <TopLoader />
       </TooltipProvider>
-    </HashRouter>
+    </BrowserRouter>
   </StrictMode>,
 );

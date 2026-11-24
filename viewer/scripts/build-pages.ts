@@ -18,7 +18,12 @@ try {
   });
   if (result.error) throw result.error;
   if (result.status !== 0) process.exitCode = result.status ?? 1;
-  else console.log(`GitHub Pages build: base=${base}, benchmark=${urls.benchmark}, runs=${urls.runs}`);
+  else {
+    const pre = spawnSync("npm", ["run", "prerender", "--", ...(values["out-dir"] ? ["--out-dir", values["out-dir"]] : [])], { stdio: "inherit" });
+    if (pre.error) throw pre.error;
+    if (pre.status !== 0) process.exitCode = pre.status ?? 1;
+  }
+  if (!process.exitCode) console.log(`GitHub Pages build: base=${base}, benchmark=${urls.benchmark}, runs=${urls.runs}`);
 } catch (error) {
   console.error(error instanceof Error ? error.message : error);
   process.exitCode = 1;

@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 import { ThemeToggle } from "@/components/theme-toggle";
 import { publicAsset } from "@/lib/assets";
+import { FIRST_POST } from "@/blog/first";
 import "./landing.css";
 
 export const CONTRIBUTING = "https://github.com/c2a-bench/c2a-bench/blob/main/CONTRIBUTING.md";
@@ -8,7 +9,7 @@ export const CONTRIBUTING = "https://github.com/c2a-bench/c2a-bench/blob/main/CO
 const NAV = [
   ["Home", "/"],
   ["Viewer", "/#environments"],
-  ["Blog", "/blog"],
+  ["Blog", `/blog/${FIRST_POST}`],
   ["Submit results", CONTRIBUTING],
 ] as const;
 
@@ -25,8 +26,8 @@ export function Nav({ slotRef, dividerRef, crumbs }: { slotRef?: React.RefObject
         <div className="flex shrink-0 items-center gap-3 whitespace-nowrap">
           {/* Observe.AI wordmark (from peregrine-fullstack's assets), one file per theme. */}
           <a href="https://www.observe.ai/" target="_blank" rel="noreferrer" aria-label="Observe.AI" className="flex items-center">
-            <img src={publicAsset("observe-ai-logo-light.svg")} alt="Observe.AI" className="h-[15px] w-auto dark:hidden sm:h-[17px]" />
-            <img src={publicAsset("observe-ai-logo-dark.svg")} alt="Observe.AI" className="hidden h-[15px] w-auto dark:block sm:h-[17px]" />
+            <img src={publicAsset("observe-ai-logo-light.svg")} alt="Observe.AI" width={364} height={59} className="h-[15px] w-auto dark:hidden sm:h-[17px]" />
+            <img src={publicAsset("observe-ai-logo-dark.svg")} alt="Observe.AI" width={364} height={59} className="hidden h-[15px] w-auto dark:block sm:h-[17px]" />
           </a>
           <span ref={dividerRef} className="h-5 w-px" style={{ background: "var(--line)", opacity: home ? 0 : 1 }} aria-hidden />
           {home ? (
@@ -47,7 +48,7 @@ export function Nav({ slotRef, dividerRef, crumbs }: { slotRef?: React.RefObject
           </nav>
         )}
         <div className="ml-auto flex shrink-0 items-center gap-2 sm:ml-0">
-          {crumbs && <Link to="/blog" className="link mr-2 hidden text-[15px] font-medium md:inline" style={{ textDecorationColor: "transparent" }}>Blog</Link>}
+          {crumbs && <Link to={`/blog/${FIRST_POST}`} className="link mr-2 hidden text-[15px] font-medium md:inline" style={{ textDecorationColor: "transparent" }}>Blog</Link>}
           {/* Landing pages redefine --muted as a text grey, so the toggle's own hover:bg-muted would turn dark and hide its
               icon: here the hover is a light tint of the ink instead. */}
           <a href={GH} target="_blank" rel="noreferrer" aria-label="GitHub" title="GitHub" className="lp-icon-link"><GitHubMark className="size-[18px]" /></a>

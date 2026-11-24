@@ -4,13 +4,15 @@
  * `<!-- shot:<file> | <caption> | <link> -->` shows a run-page screenshot from public/blog (light and dark versions).
  */
 import { Suspense, useEffect, useLayoutEffect, useMemo, useRef, useState, type ReactNode } from "react";
-import { Link } from "react-router";
+import { Link, useParams } from "react-router";
 import Markdown, { type Components } from "react-markdown";
 import remarkGfm from "remark-gfm";
 import { ArrowRight, ChevronRight, ChevronsRight, List } from "lucide-react";
 import { Nav, RepoLinks } from "@/landing/nav";
 import { publicAsset } from "@/lib/assets";
-import { POSTS, postDate } from "@/blog/posts";
+import { POSTS, postDate, type Post } from "@/blog/posts";
+import { NotFound } from "@/pages/not-found";
+import { usePageTitle } from "@/lib/title";
 import { LandingFigure, Seg, type FigureEnv, type FigureName } from "@/pages/home";
 import { TicketViewer, BehaviourViewer, CustomerTypeViewer } from "@/blog/viewers";
 import "@/landing/landing.css";
@@ -107,6 +109,8 @@ const MD: Components = {
       <a href={href} title={title} {...rest}>{children}</a>
     ),
 };
+
+const SHOT_SIZE: Record<string, [number, number]> = { "run-customers": [2112, 1064], "run-stages": [2112, 1058], "run-ticket": [2880, 1720] };
 
 const slug = (text: string) => text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
 
@@ -332,10 +336,11 @@ function Body({ md }: { md: string }) {
     } else if (kind === "figure" && name in FIGURES) {
       out.push(<ChartFigure key={name} name={name as FigureName} />);
     } else if (kind === "shot") {
+      const [width, height] = SHOT_SIZE[name] ?? [2112, 1064]; // the files' own sizes, so the page does not jump as they load
       out.push(
         <Frame key={name} kicker="From a run page" caption={caption} href={href} link="Open this run">
-          <img src={publicAsset(`blog/${name}-light.jpg`)} alt={caption} className="lp-shot dark:hidden" loading="lazy" />
-          <img src={publicAsset(`blog/${name}-dark.jpg`)} alt={caption} className="lp-shot hidden dark:block" loading="lazy" />
+          <img src={publicAsset(`blog/${name}-light.jpg`)} alt={caption} width={width} height={height} className="lp-shot dark:hidden" loading="lazy" />
+          <img src={publicAsset(`blog/${name}-dark.jpg`)} alt={caption} width={width} height={height} className="lp-shot hidden dark:block" loading="lazy" />
         </Frame>,
       );
     }
@@ -347,7 +352,12 @@ function Body({ md }: { md: string }) {
 }
 
 export default function BlogPost() {
-  const post = POSTS[0];
+  const post = POSTS.find((p) => p.slug === useParams().slug);
+  return post ? <PostPage post={post} /> : <NotFound />;
+}
+
+function PostPage({ post }: { post: Post }) {
+  usePageTitle(post.title);
   const prose = useRef<HTMLDivElement>(null);
   const items = useHeadings(prose, post.body);
   return (
@@ -355,7 +365,10 @@ export default function BlogPost() {
       <Nav />
       <main className="lp-wrap" style={{ paddingTop: "calc(var(--nav) + clamp(56px, 9vh, 112px))", paddingBottom: 140 }}>
         <article className="lp-article">
-          <div className="caps muted">{postDate(post.date)}</div>
+          <div className="caps muted">
+            <time dateTime={post.date}>{postDate(post.date)}</time>
+            {post.updated && <> · Updated <time dateTime={post.updated}>{postDate(post.updated)}</time></>}
+          </div>
           <h1 style={{ marginTop: 16, fontSize: "clamp(36px, 2.6vw + 22px, 64px)", lineHeight: 1.08 }}>{post.title}</h1>
           <RepoLinks className="muted mt-5" />
           <div className="lp-prose" style={{ marginTop: 40 }} ref={prose}>

@@ -11,6 +11,8 @@ import { Journey } from "@/landing/journey";
 import { ArchTradeoff, ArchTypes, RecallScatter, type ArchRun, type TicketType, type RecallPoint, type StageRow, type StagePoint } from "@/landing/charts";
 import { CONDITIONS, CONFOUND, ENV, SKYWAY_ARCH, catalog, crashed, harnessName, loadMetas, pooled, shortModel, stagesOf, style, type Builder, type FailureGroup } from "@/landing/data";
 import type { JobSummary } from "@/lib/data";
+import { FIRST_POST } from "@/blog/first";
+import { SITE_TITLE, usePageTitle } from "@/lib/title";
 import { BenchmarkBars, ChangePanels, Columns, CostScatter, SlopeChart, StageLines, REASONS, ReasonBars, type ReasonKey, type ReasonRow } from "@/landing/simple-charts";
 import "@/landing/landing.css";
 
@@ -710,7 +712,7 @@ function Closing({ last, skywayTask }: { last: string | null; skywayTask: string
                 <li className="flex items-center gap-2">
                   <span>Built with</span>
                   <a href="https://newmeasure.ai" target="_blank" rel="noreferrer" className="flex items-center">
-                    <img src={publicAsset("new-measure.png")} alt="New Measure" className="block h-[0.8rem] w-auto -translate-y-[2px] invert dark:invert-0" />
+                    <img src={publicAsset("new-measure.png")} alt="New Measure" width={600} height={87} className="block h-[0.8rem] w-auto -translate-y-[2px] invert dark:invert-0" />
                   </a>
                 </li>
               </ul>
@@ -755,6 +757,7 @@ function Charts({ redwood, packs, skywayArch, focus, onFocus }: { redwood: Build
 }
 
 export default function Home() {
+  usePageTitle(SITE_TITLE);
   const c = use(catalog());
   const [failFocus, setFailFocus] = useState<FailureGroup | null>(null);
   const heroName = useRef<HTMLHeadingElement>(null);
@@ -826,7 +829,7 @@ export default function Home() {
                 </p>
                 <div className="mt-9 flex flex-wrap items-center gap-3">
                   <Link to="/#results" className="btn btn--primary">See the results</Link>
-                  <Link to="/blog" className="btn btn--secondary">Read the blog</Link>
+                  <Link to={`/blog/${FIRST_POST}`} className="btn btn--secondary">Read the blog</Link>
                 </div>
                 <RepoLinks runs={false} className="muted mt-6" />
               </div>

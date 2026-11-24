@@ -1,4 +1,4 @@
-import { parsePath, useParams, useSearchParams } from "react-router";
+import { useParams, useSearchParams } from "react-router";
 
 /** The :job route param (a run key). */
 export function useJob() {
@@ -11,13 +11,9 @@ export function useQuery(): Record<string, string | undefined> {
   return Object.fromEntries(params);
 }
 
-/** Read the live router query, not window.location.search (which is outside a HashRouter route). */
-export function hashSearchParams(hash: string) {
-  return new URLSearchParams(parsePath(hash.replace(/^#/, "") || "/").search ?? "");
-}
-
+/** The live URL query, for event handlers that run outside render (the router has already updated window.location). */
 export function currentSearchParams() {
-  return hashSearchParams(window.location.hash);
+  return new URLSearchParams(window.location.search);
 }
 
 export function useSetQuery() {
