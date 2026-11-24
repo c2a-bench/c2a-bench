@@ -50,7 +50,9 @@ for (const base of ["/", "/Context2Agent-Benchmark/"]) {
       assert.match(post.text, /"@type":"BlogPosting"/);
       assert.match(post.text, /<h2>Inside the benchmark<\/h2>/);
       assert.equal((await raw("blog/introducing-c2a.md")).status, 200);
-      assert.match((await raw("sitemap.xml")).text, new RegExp(`<loc>${server.pagesUrl}blog/introducing-c2a/</loc>`));
+      const sitemap = (await raw("sitemap.xml")).text;
+      assert.match(sitemap, new RegExp(`<loc>${server.pagesUrl}blog/introducing-c2a/</loc>`));
+      for (const [, date] of sitemap.matchAll(/<lastmod>([^<]*)<\/lastmod>/g)) assert.match(date, /^\d{4}-\d{2}-\d{2}$/, "sitemap lastmod must be a date");
       assert.match((await raw("robots.txt")).text, /Sitemap: /);
       assert.equal((await raw("llms.txt")).status, 200);
       // The app takes over at the post's own URL, replaces the pre-rendered text, and sets its title.

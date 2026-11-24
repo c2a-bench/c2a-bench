@@ -66,7 +66,7 @@ const pct = (x: number) => `${Math.round(x * 100)}%`;
 const table = (head: string, rows: [string, number][]) =>
   `<table><thead><tr><th>${head}</th><th>Pass rate</th></tr></thead><tbody>${[...rows].sort((x, y) => y[1] - x[1]).map(([k, v]) => `<tr><td>${esc(k)}</td><td>${pct(v)}</td></tr>`).join("")}</tbody></table>`;
 type Job = Parameters<typeof pooled>[0];
-const landing = JSON.parse(await readFile(path.join(out, "landing.json"), "utf8")) as { index: { updatedAt?: string; tasks: { id: string; name: string; description: string; jobs: Job[] }[] } };
+const landing = JSON.parse(await readFile(path.join(out, "landing.json"), "utf8")) as { index: { tasks: { id: string; name: string; description: string; jobs: Job[] }[] } };
 const jobsOf = (id: string) => (landing.index.tasks.find((t) => t.id === id)?.jobs ?? []) as never;
 const redwood = latestByBuilder(jobsOf("redwood-inference"));
 const byArch = new Map<string, number[]>();
@@ -149,10 +149,12 @@ await write("blog/index.html", `<!doctype html>
 
 // ---- crawler files ----
 
-const day = (iso?: string) => (iso ? `<lastmod>${iso.slice(0, 10)}</lastmod>` : "");
+// The home page changes when a run lands: its date is the newest run id's (ids start with their date). The index's own `updatedAt` is a commit hash.
+const newestRun = landing.index.tasks.flatMap((t) => t.jobs).map((j) => String((j as { id?: string }).id ?? "").slice(0, 10)).filter((d) => /^\d{4}-\d{2}-\d{2}$/.test(d)).sort().pop();
+const day = (iso?: string) => (iso && /^\d{4}-\d{2}-\d{2}/.test(iso) ? `<lastmod>${iso.slice(0, 10)}</lastmod>` : "");
 await write("sitemap.xml", `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url><loc>${site}</loc>${day(landing.index.updatedAt)}</url>
+<url><loc>${site}</loc>${day(newestRun)}</url>
 ${POSTS.map((p) => `<url><loc>${urlOf(p.slug)}</loc>${day(p.updated ?? p.date)}</url>`).join("\n")}
 </urlset>
 `);
