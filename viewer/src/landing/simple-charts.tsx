@@ -2,7 +2,7 @@
  * Plain replacements for the landing charts: bars with the number written on them, sorted, one idea per chart, no
  * hover needed to read them. Shown side by side with the current charts on /draft-charts until approved.
  */
-import { useRef, useState, type ReactNode } from "react";
+import { useEffect, useRef, useState, type ReactNode } from "react";
 import { BuilderLegend, Mark, frontier, useWidth, worseRegion } from "./charts";
 import type { Shape } from "./data";
 
@@ -19,20 +19,41 @@ export type PairRow = { label: string; a: number; b: number };
 type TipData = { x: number; y: number; w: number; body: ReactNode };
 
 /** One tooltip per chart: it shows at once, glides to the item under the pointer, and fades out when the pointer leaves
- *  the chart (not each item), so moving across items does not flicker. The other items dim a little. */
+ *  the chart (not each item), so moving across items does not flicker. On touch screens, swiping scrolls the page
+ *  cleanly without firing hover states, while tapping an item toggles its tooltip. */
 function useHover() {
   const ref = useRef<HTMLDivElement>(null);
   const [tip, setTip] = useState<TipData | null>(null);
   const [on, setOn] = useState<string | null>(null);
-  const show = (e: React.PointerEvent<Element>, key: string, body: ReactNode, follow = false) => {
+  const place = (target: Element, clientX: number, key: string, body: ReactNode, follow = false) => {
     const box = ref.current?.getBoundingClientRect();
     if (!box) return;
-    const el = (e.currentTarget as Element).getBoundingClientRect();
+    const el = target.getBoundingClientRect();
     setOn(key);
-    setTip({ x: follow ? e.clientX - box.left : el.left - box.left + el.width / 2, y: el.top - box.top, w: box.width, body });
+    setTip({ x: follow ? clientX - box.left : el.left - box.left + el.width / 2, y: el.top - box.top, w: box.width, body });
+  };
+  const show = (e: React.PointerEvent<Element>, key: string, body: ReactNode, follow = false) => {
+    if (e.pointerType === "touch") return;
+    place(e.currentTarget as Element, e.clientX, key, body, follow);
+  };
+  const tap = (e: React.MouseEvent<Element>, key: string, body: ReactNode, follow = false) => {
+    if ((e.nativeEvent as PointerEvent).pointerType === "mouse") return;
+    if (on === key) { setOn(null); setTip(null); return; }
+    place(e.currentTarget as Element, e.clientX, key, body, follow);
   };
   const hide = () => { setOn(null); setTip(null); };
-  return { ref, tip, on, show, hide };
+  const leave = (e: React.PointerEvent<Element>) => {
+    if (e.pointerType !== "touch") hide();
+  };
+  useEffect(() => {
+    if (!tip) return;
+    const away = (ev: PointerEvent) => {
+      if (ref.current && !ref.current.contains(ev.target as Node)) { setOn(null); setTip(null); }
+    };
+    document.addEventListener("pointerdown", away, { passive: true });
+    return () => document.removeEventListener("pointerdown", away);
+  }, [tip]);
+  return { ref, tip, on, show, tap, hide, leave };
 }
 
 function HoverTip({ tip }: { tip: TipData | null }) {
@@ -74,7 +95,7 @@ export function Columns({ cols, highlight, height = 320 }: { cols: Col[]; highli
   // On a phone nine long names can't sit under columns: the same data turns sideways, one row per entry.
   if (w > 0 && w < 520) {
     return (
-      <div ref={h.ref} className={h.on ? "relative sc-hov" : "relative"} onPointerLeave={h.hide}>
+      <div ref={h.ref} className={h.on ? "relative sc-hov" : "relative"} onPointerLeave={h.leave}>
         <div ref={ref}>
           <ul className="sc-cl">
             {cols.map((c, i) => {
@@ -87,7 +108,7 @@ export function Columns({ cols, highlight, height = 320 }: { cols: Col[]; highli
                 </>
               );
               return (
-                <li key={c.label} className={h.on === c.label ? "sc-cl-row sc-item sc-on" : "sc-cl-row sc-item"} onPointerDown={(e) => h.show(e, c.label, body)} onPointerEnter={(e) => h.show(e, c.label, body)}>
+                <li key={c.label} className={h.on === c.label ? "sc-cl-row sc-item sc-on" : "sc-cl-row sc-item"} onPointerEnter={(e) => h.show(e, c.label, body)} onClick={(e) => h.tap(e, c.label, body)}>
                   <div className="sc-cl-name"><span className="font-medium">{c.label}</span>{c.sub && <span className="label muted"> {c.sub}</span>}</div>
                   <div className="sc-cl-track">
                     <div className="sc-cl-bar" style={{ width: `${(100 * c.value) / Math.max(...cols.map((x) => x.value), 0.01) * 0.82}%`, background: c.color ?? "var(--ink)" }} />
@@ -103,7 +124,7 @@ export function Columns({ cols, highlight, height = 320 }: { cols: Col[]; highli
     );
   }
   return (
-    <div ref={h.ref} className={h.on ? "relative sc-hov" : "relative"} onPointerLeave={h.hide}>
+    <div ref={h.ref} className={h.on ? "relative sc-hov" : "relative"} onPointerLeave={h.leave}>
       <div ref={ref}>
         {w > 0 && (
           <svg width={w} height={height} role="img" aria-label={`Pass rate, best first: ${cols.map((c, i) => `${i + 1}. ${c.label}${c.sub ? ` (${c.sub})` : ""} ${pct(c.value)}`).join("; ")}`}>
@@ -125,7 +146,7 @@ export function Columns({ cols, highlight, height = 320 }: { cols: Col[]; highli
                 </>
               );
               return (
-                <g key={c.label} className={h.on === c.label ? "sc-item sc-on" : "sc-item"} onPointerEnter={(e) => h.show(e, c.label, body)} onPointerDown={(e) => h.show(e, c.label, body)}>
+                <g key={c.label} className={h.on === c.label ? "sc-item sc-on" : "sc-item"} onPointerEnter={(e) => h.show(e, c.label, body)} onClick={(e) => h.tap(e, c.label, body)}>
                   <rect x={cx - band / 2} y={m.t - 20} width={band} height={height - m.t + 20} fill="transparent" />
                   <rect x={cx - bw / 2} y={y(c.value)} width={bw} height={y(0) - y(c.value)} rx={4} className={hi ? "sc-hi-svg" : undefined} fill={hi ? undefined : c.color ?? "var(--ink)"} />
                   <rect x={cx - bw / 2} y={y(0) - 4} width={bw} height={4} fill={hi ? "var(--action)" : c.color ?? "var(--ink)"} />
@@ -156,7 +177,7 @@ export function Dumbbell({ rows, names }: { rows: { label: string; a: number; b:
         <li className="flex items-center gap-2"><span className="size-3 rounded-full" style={{ border: "2px solid var(--ink)" }} />{names[0]}</li>
         <li className="flex items-center gap-2"><span className="size-3 rounded-full" style={{ background: "var(--ink)" }} />{names[1]}</li>
       </ul>
-      <div ref={h.ref} className={h.on ? "relative sc-hov" : "relative"} onPointerLeave={h.hide}>
+      <div ref={h.ref} className={h.on ? "relative sc-hov" : "relative"} onPointerLeave={h.leave}>
         <ul className="sc-rows mt-4">
           {rows.map((r) => {
             const gap = Math.round(100 * (r.a - r.b));
@@ -169,7 +190,7 @@ export function Dumbbell({ rows, names }: { rows: { label: string; a: number; b:
               </>
             );
             return (
-              <li key={r.label} className={h.on === r.label ? "sc-row sc-item sc-on" : "sc-row sc-item"} onPointerEnter={(e) => h.show(e, r.label, body, true)} onPointerMove={(e) => h.show(e, r.label, body, true)} onPointerDown={(e) => h.show(e, r.label, body, true)}>
+              <li key={r.label} className={h.on === r.label ? "sc-row sc-item sc-on" : "sc-row sc-item"} onPointerEnter={(e) => h.show(e, r.label, body, true)} onPointerMove={(e) => h.show(e, r.label, body, true)} onClick={(e) => h.tap(e, r.label, body, true)}>
                 <div className="sc-name"><span className="font-medium">{r.label}</span></div>
                 <div className="sc-db">
                   <div className="sc-db-axis" />
@@ -220,7 +241,7 @@ export function ReasonBars({ rows, focus }: { rows: ReasonRow[]; focus?: ReasonK
           </div>
         ))}
       </div>
-      <div ref={h.ref} className={h.on ? "relative sc-hov" : "relative"} onPointerLeave={h.hide}>
+      <div ref={h.ref} className={h.on ? "relative sc-hov" : "relative"} onPointerLeave={h.leave}>
         <ul className="sc-rows mt-6">
           {rows.map((row) => {
             const sum = REASONS.reduce((a, r) => a + row.parts[r.key], 0) || 1;
@@ -249,7 +270,7 @@ export function ReasonBars({ rows, focus }: { rows: ReasonRow[]; focus?: ReasonK
                         key={r.key}
                         className={h.on === key ? "sc-seg sc-item sc-on" : "sc-seg sc-item"}
                         onPointerEnter={(e) => h.show(e, key, body)}
-                        onPointerDown={(e) => h.show(e, key, body)}
+                        onClick={(e) => h.tap(e, key, body)}
                         style={{ flexGrow: v, background: r.color, color: r.text, opacity: focus && focus !== r.key ? 0.2 : undefined }}
                       >
                         {v / sum >= 0.07 && <span>{pct(v / sum)}</span>}
@@ -301,10 +322,10 @@ function Panel({ p, max, pts }: { p: Parameters<typeof ChangePanels>[0]["panels"
         </div>
         <div className="num shrink-0 text-[26px] font-semibold leading-none" style={{ color: tone(typ) }}>{pts(typ)}<span className="label muted"> pts</span></div>
       </div>
-      <div ref={h.ref} className={h.on ? "relative sc-hov" : "relative"} onPointerLeave={h.hide}>
+      <div ref={h.ref} className={h.on ? "relative sc-hov" : "relative"} onPointerLeave={h.leave}>
         <ul className="mt-3 grid gap-1.5">
           {[...p.rows].sort((a, b) => (b.d ?? -9) - (a.d ?? -9)).map((r) => {
-            const w = r.d == null ? 0 : (36 * Math.abs(r.d)) / max;
+            const w = r.d == null ? 0 : (30 * Math.abs(r.d)) / max;
             const down = (r.d ?? 0) < 0;
             const body = r.d == null ? (
               <>
@@ -324,7 +345,7 @@ function Panel({ p, max, pts }: { p: Parameters<typeof ChangePanels>[0]["panels"
             );
             const color = down ? "var(--f-recall)" : "var(--f-state)";
             return (
-              <li key={r.label} className={h.on === r.label ? "sc-item sc-on grid grid-cols-[minmax(120px,190px)_1fr] items-center gap-2 text-[13px]" : "sc-item grid grid-cols-[minmax(120px,190px)_1fr] items-center gap-2 text-[13px]"} onPointerEnter={(e) => h.show(e, r.label, body)} onPointerDown={(e) => h.show(e, r.label, body)}>
+              <li key={r.label} className={h.on === r.label ? "sc-item sc-on grid grid-cols-[minmax(136px,48%)_1fr] sm:grid-cols-[minmax(150px,185px)_1fr] items-center gap-2 text-[12px] sm:text-[13px]" : "sc-item grid grid-cols-[minmax(136px,48%)_1fr] sm:grid-cols-[minmax(150px,185px)_1fr] items-center gap-2 text-[12px] sm:text-[13px]"} onPointerEnter={(e) => h.show(e, r.label, body)} onClick={(e) => h.tap(e, r.label, body)}>
                 <span className="truncate">{r.label}</span>
                 <div className="relative h-[18px]">
                   <div className="absolute inset-y-[-3px] left-1/2 w-px" style={{ background: "var(--line)" }} />
@@ -357,80 +378,86 @@ export type CostDot = { label: string; sub?: string; cost: number; rate: number;
 
 /** Pass rate against what the builder spent (log scale: costs span about 100×). Every dot is named; up and to the left is
  *  better. The dashed line is the Pareto frontier; the tint is what it beats (dearer and passing fewer). Hover a dot for its numbers. */
-export function CostScatter({ dots, height = 340, title = "Tickets passed vs what the builder spent on the whole run", axis = "builder cost, log scale", spent = "Builder spent" }: { dots: CostDot[]; height?: number; title?: string; axis?: string; spent?: string }) {
+export function CostScatter({ dots, height = 340, axis = "builder cost, log scale", spent = "Builder spent" }: { dots: CostDot[]; height?: number; axis?: string; spent?: string }) {
   const [ref, w] = useWidth<HTMLDivElement>();
   const h = useHover();
-  const m = { l: 44, r: 16, t: 30, b: 40 }; // the top band holds the "better" hint
+  const narrow = w > 0 && w < 520;
+  const m = { l: 38, r: 20, t: 30, b: 38 }; // the top band holds the "better" hint
   const pos = dots.map((d) => d.cost).filter((c) => c > 0);
   const lo = Math.log10(Math.min(...pos) / 1.5), hi = Math.log10(Math.max(...pos) * 1.5);
-  // on a phone the chart keeps a readable width (names beside the dots) and scrolls sideways in its frame
-  const narrow = w > 0 && w < 520;
-  const cw = narrow ? 640 : w;
-  const x = (v: number) => m.l + ((Math.log10(Math.max(v, 1e-6)) - lo) / (hi - lo)) * (cw - m.l - m.r);
+  const x = (v: number) => m.l + ((Math.log10(Math.max(v, 1e-6)) - lo) / (hi - lo)) * (w - m.l - m.r);
   const yLo = Math.max(0, Math.floor(10 * Math.min(...dots.map((d) => d.rate))) / 10 - 0.1);
   const yHi = Math.min(1, Math.ceil(10 * Math.max(...dots.map((d) => d.rate))) / 10 + 0.05);
   const y = (v: number) => m.t + (1 - (v - yLo) / (yHi - yLo)) * (height - m.t - m.b);
-  const xt = [0.25, 0.5, 1, 2, 4, 8, 16, 32, 64].filter((t) => Math.log10(t) >= lo && Math.log10(t) <= hi);
+  const rawXt = [0.25, 0.5, 1, 2, 4, 8, 16, 32, 64].filter((t) => Math.log10(t) >= lo && Math.log10(t) <= hi);
+  const xt = narrow && rawXt.length > 1 && x(rawXt[1]) - x(rawXt[0]) < 34 ? rawXt.filter((_, i) => i % 2 === 0) : rawXt;
   const yt = Array.from({ length: 11 }, (_, i) => i / 10).filter((v) => v >= yLo - 1e-9 && v <= yHi + 1e-9);
   const front = frontier(dots.map((d) => [d.cost, d.rate] as [number, number]));
-  // names sit to the right of the dot (left near the right edge); a name that would overlap one already placed moves down
+  // Wide: names sit beside the dots. Narrow: numbered 1..N (best pass rate first) with a compact key underneath.
   const placed: { x0: number; x1: number; y: number }[] = [];
-  const named = [...dots].sort((a, b) => b.rate - a.rate).map((d) => {
+  const named = [...dots].sort((a, b) => b.rate - a.rate).map((d, i) => {
+    const tag = narrow ? String(i + 1) : d.label;
     const cx = x(d.cost), cy = y(d.rate);
-    const wTxt = d.label.length * 6.6;
-    const right = cx + 12 + wTxt < cw - 4;
-    const x0 = right ? cx + 11 : cx - 11 - wTxt, x1 = x0 + wTxt;
+    const wTxt = narrow ? tag.length * 7 + 4 : tag.length * 6.6;
+    const right = cx + 12 + wTxt < w - 4;
+    const x0 = right ? cx + 10 : cx - 10 - wTxt, x1 = x0 + wTxt;
     let ly = cy + 4;
     while (placed.some((p) => p.x0 < x1 && x0 < p.x1 && Math.abs(p.y - ly) < 14)) ly += 14;
     placed.push({ x0, x1, y: ly });
-    return { d, cx, cy, ly, right };
+    const body = (
+      <>
+        <TipHead>{d.label}</TipHead>
+        {d.sub && <TipLine muted>{d.sub}</TipLine>}
+        <TipLine>Passed <span className="num font-semibold">{pct(d.rate)}</span> of tickets</TipLine>
+        <TipLine>{spent} <span className="num font-semibold">${d.cost.toFixed(2)}</span></TipLine>
+        {d.tip}
+      </>
+    );
+    return { d, idx: i + 1, tag, cx, cy, ly, right, body };
   });
   return (
     <div>
-      <div className="label muted mb-3">{title}</div>
-      <div ref={h.ref} className={h.on ? "relative sc-hov" : "relative"} onPointerLeave={h.hide}>
-        <div ref={ref} className={narrow ? "sc-swipe" : undefined}>
+      <div ref={h.ref} className={h.on ? "relative sc-hov" : "relative"} onPointerLeave={h.leave}>
+        <div ref={ref}>
           {w > 0 && (
-            <svg width={cw} height={height} role="img" aria-label={`Pass rate against builder cost: ${dots.map((d) => `${d.label} ${pct(d.rate)} for $${d.cost.toFixed(2)}`).join("; ")}`}>
+            <svg width={w} height={height} role="img" aria-label={`Pass rate against builder cost: ${dots.map((d) => `${d.label} ${pct(d.rate)} for $${d.cost.toFixed(2)}`).join("; ")}`}>
               {yt.map((v) => (
                 <g key={v}>
-                  <line x1={m.l} x2={cw - m.r} y1={y(v)} y2={y(v)} stroke="var(--line)" />
+                  <line x1={m.l} x2={w - m.r} y1={y(v)} y2={y(v)} stroke="var(--line)" />
                   <text x={m.l - 8} y={y(v) + 4} textAnchor="end" fontSize={11} fill="var(--muted)">{Math.round(v * 100)}%</text>
                 </g>
               ))}
               {xt.map((t) => (
                 <text key={t} x={x(t)} y={height - m.b + 18} textAnchor="middle" fontSize={11} fill="var(--muted)">${t < 1 ? t.toFixed(2) : t}</text>
               ))}
-              <text x={(m.l + cw - m.r) / 2} y={height - 4} textAnchor="middle" fontSize={11} fill="var(--muted)">{axis}</text>
+              <text x={(m.l + w - m.r) / 2} y={height - 4} textAnchor="middle" fontSize={11} fill="var(--muted)">{axis}</text>
               <text x={m.l} y={14} fontSize={11} fill="var(--muted)">↖ better: more passed for less</text>
-              <path d={worseRegion(front, x, y, cw - m.r, height - m.b)} fill="var(--ink)" opacity={0.12} />
+              <path d={worseRegion(front, x, y, w - m.r, height - m.b)} fill="var(--ink)" opacity={0.12} />
               <path d={front.map(([fx, fy], i) => `${i ? "L" : "M"}${x(fx)},${y(fy)}`).join("")} fill="none" stroke="var(--ink)" strokeWidth={1.2} strokeDasharray="4 4" opacity={0.6} />
-              {named.map(({ d, cx, cy, ly, right }) => {
-                const body = (
-                  <>
-                    <TipHead>{d.label}</TipHead>
-                    {d.sub && <TipLine muted>{d.sub}</TipLine>}
-                    <TipLine>Passed <span className="num font-semibold">{pct(d.rate)}</span> of tickets</TipLine>
-                    <TipLine>{spent} <span className="num font-semibold">${d.cost.toFixed(2)}</span></TipLine>
-                    {d.tip}
-                  </>
-                );
-                return (
-                  <g key={d.label} className={h.on === d.label ? "sc-item sc-on" : "sc-item"} onPointerEnter={(e) => h.show(e, d.label, body)} onPointerDown={(e) => h.show(e, d.label, body)}>
-                    <circle cx={cx} cy={cy} r={14} fill="transparent" />
-                    <circle cx={cx} cy={cy} r={7} fill={d.color} stroke="var(--bg)" strokeWidth={2} />
-                    {Math.abs(ly - (cy + 4)) > 2 && <line x1={cx + (right ? 7 : -7)} y1={cy} x2={cx + (right ? 10 : -10)} y2={ly - 4} stroke="var(--muted)" strokeWidth={0.75} />}
-                    <text x={right ? cx + 11 : cx - 11} y={ly} textAnchor={right ? "start" : "end"} fontSize={12} fontWeight={500} fill="var(--ink)">{d.label}</text>
-                  </g>
-                );
-              })}
+              {named.map(({ d, tag, cx, cy, ly, right, body }) => (
+                <g key={d.label} className={h.on === d.label ? "sc-item sc-on" : "sc-item"} onPointerEnter={(e) => h.show(e, d.label, body)} onClick={(e) => h.tap(e, d.label, body)}>
+                  <circle cx={cx} cy={cy} r={14} fill="transparent" />
+                  <circle cx={cx} cy={cy} r={7} fill={d.color} stroke="var(--bg)" strokeWidth={2} />
+                  {Math.abs(ly - (cy + 4)) > 2 && <line x1={cx + (right ? 7 : -7)} y1={cy} x2={cx + (right ? 9 : -9)} y2={ly - 4} stroke="var(--muted)" strokeWidth={0.75} />}
+                  <text x={right ? cx + 10 : cx - 10} y={ly} textAnchor={right ? "start" : "end"} fontSize={narrow ? 10.5 : 12} fontWeight={narrow ? 600 : 500} fill="var(--ink)">{tag}</text>
+                </g>
+              ))}
             </svg>
           )}
         </div>
+        {narrow && (
+          <ol className="mt-3 grid grid-cols-1 min-[420px]:grid-cols-2 gap-x-4 gap-y-1 text-[12px]">
+            {named.map(({ d, idx, body }) => (
+              <li key={d.label} className={h.on === d.label ? "sc-item sc-on flex min-w-0 items-baseline gap-1.5" : "sc-item flex min-w-0 items-baseline gap-1.5"} onPointerEnter={(e) => h.show(e, d.label, body)} onClick={(e) => h.tap(e, d.label, body)}>
+                <span className="num shrink-0 font-semibold">{idx}</span>
+                <span className="size-2.5 shrink-0 translate-y-[1px] rounded-full" style={{ background: d.color }} />
+                <span className="truncate">{d.label}</span>
+              </li>
+            ))}
+          </ol>
+        )}
         <HoverTip tip={h.tip} />
       </div>
-      <p className="label muted mt-2">The tint is what the dashed frontier beats: a builder there cost more and passed fewer tickets than one on the line.</p>
-      {narrow && <p className="label muted mt-2">Swipe the chart sideways to see all of it.</p>}
     </div>
   );
 }
@@ -441,7 +468,7 @@ export type StageLine = { label: string; sub?: string; color: string; shape: Sha
 export function StageLines({ lines, height = 340 }: { lines: StageLine[]; height?: number }) {
   const [ref, w] = useWidth<HTMLDivElement>();
   const h = useHover();
-  const m = { l: 40, r: 18, t: 14, b: 34 };
+  const m = { l: 38, r: 26, t: 14, b: 34 };
   const n = Math.max(...lines.map((l) => l.values.length));
   const all = lines.flatMap((l) => [...l.values.filter((v): v is number => v != null), ...(l.band ?? []).flatMap((b) => b ?? [])]);
   const yLo = Math.max(0, Math.floor(10 * Math.min(...all)) / 10 - 0.1), yHi = Math.min(1, Math.ceil(10 * Math.max(...all)) / 10 + 0.05);
@@ -450,7 +477,7 @@ export function StageLines({ lines, height = 340 }: { lines: StageLine[]; height
   const yt = Array.from({ length: 11 }, (_, i) => i / 10).filter((v) => v >= yLo - 1e-9 && v <= yHi + 1e-9);
   return (
     <div>
-      <div ref={h.ref} className={h.on ? "relative sc-hov" : "relative"} onPointerLeave={h.hide}>
+      <div ref={h.ref} className={h.on ? "relative sc-hov" : "relative"} onPointerLeave={h.leave}>
         <div ref={ref}>
           {w > 0 && (
             <svg width={w} height={height} role="img" aria-label={`Pass rate at each stage: ${lines.map((l) => `${l.label} ${l.values.map((v) => (v == null ? "–" : pct(v))).join(", ")}`).join("; ")}`}>
@@ -467,14 +494,16 @@ export function StageLines({ lines, height = 340 }: { lines: StageLine[]; height
                     <path d={`${l.band.map((b, i) => `${i ? "L" : "M"}${x(i)},${y(b![1])}`).join("")}${[...l.band].reverse().map((b, i) => `L${x(l.band!.length - 1 - i)},${y(b![0])}`).join("")}Z`} fill={l.color} fillOpacity={h.on === l.label ? 0.25 : 0} stroke="none" pointerEvents="none" />
                   )}
                   <path d={l.values.flatMap((v, i) => (v == null ? [] : [`${i ? "L" : "M"}${x(i)},${y(v)}`])).join("")} fill="none" stroke={l.color} strokeWidth={2} />
-                  {l.values.map((v, i) => v == null ? null : (
-                    <g key={i}
-                      onPointerEnter={(e) => h.show(e, l.label, <><TipHead>{l.label}</TipHead>{l.sub && <TipLine muted>{l.sub}</TipLine>}<TipLine>Stage {i}: <span className="num font-semibold">{pct(v)}</span> passed{l.counts?.[i] ? ` · ${l.counts[i]}` : ""}</TipLine>{l.band?.[i] && <TipLine muted>Across builders (±1 SD): {pct(l.band[i]![0])} to {pct(l.band[i]![1])}</TipLine>}</>)}
-                      onPointerDown={(e) => h.show(e, l.label, <><TipHead>{l.label}</TipHead>{l.sub && <TipLine muted>{l.sub}</TipLine>}<TipLine>Stage {i}: <span className="num font-semibold">{pct(v)}</span> passed{l.counts?.[i] ? ` · ${l.counts[i]}` : ""}</TipLine>{l.band?.[i] && <TipLine muted>Across builders (±1 SD): {pct(l.band[i]![0])} to {pct(l.band[i]![1])}</TipLine>}</>)}>
-                      <circle cx={x(i)} cy={y(v)} r={12} fill="transparent" />
-                      <Mark shape={l.shape} x={x(i)} y={y(v)} r={4.5} color={l.color} />
-                    </g>
-                  ))}
+                  {l.values.map((v, i) => {
+                    if (v == null) return null;
+                    const body = <><TipHead>{l.label}</TipHead>{l.sub && <TipLine muted>{l.sub}</TipLine>}<TipLine>Stage {i}: <span className="num font-semibold">{pct(v)}</span> passed{l.counts?.[i] ? ` · ${l.counts[i]}` : ""}</TipLine>{l.band?.[i] && <TipLine muted>Across builders (±1 SD): {pct(l.band[i]![0])} to {pct(l.band[i]![1])}</TipLine>}</>;
+                    return (
+                      <g key={i} onPointerEnter={(e) => h.show(e, l.label, body)} onClick={(e) => h.tap(e, l.label, body)}>
+                        <circle cx={x(i)} cy={y(v)} r={12} fill="transparent" />
+                        <Mark shape={l.shape} x={x(i)} y={y(v)} r={4.5} color={l.color} />
+                      </g>
+                    );
+                  })}
                 </g>
               ))}
             </svg>
@@ -497,7 +526,7 @@ export function BenchmarkBars({ rows }: { rows: { label: string; sub?: string; v
   const at = (v: number) => `${((100 * v) / top).toFixed(2)}%`;
   const pts = (d: number) => `${d >= 0 ? "+" : "−"}${Math.abs(Math.round(100 * d))}`;
   return (
-    <div ref={h.ref} className={h.on ? "relative sc-hov" : "relative"} onPointerLeave={h.hide}>
+    <div ref={h.ref} className={h.on ? "relative sc-hov" : "relative"} onPointerLeave={h.leave}>
       <ul className="sc-rows">
         <li className="sc-row" aria-hidden>
           <div />
@@ -514,7 +543,7 @@ export function BenchmarkBars({ rows }: { rows: { label: string; sub?: string; v
             </>
           );
           return (
-            <li key={r.label} className={h.on === r.label ? "sc-row sc-item sc-on" : "sc-row sc-item"} onPointerEnter={(e) => h.show(e, r.label, body, true)} onPointerMove={(e) => h.show(e, r.label, body, true)} onPointerDown={(e) => h.show(e, r.label, body, true)}>
+            <li key={r.label} className={h.on === r.label ? "sc-row sc-item sc-on" : "sc-row sc-item"} onPointerEnter={(e) => h.show(e, r.label, body, true)} onPointerMove={(e) => h.show(e, r.label, body, true)} onClick={(e) => h.tap(e, r.label, body, true)}>
               <div className="sc-name">
                 <div className="font-medium">{r.sub ?? r.label}</div>
                 {r.sub && <div className="sc-bench-id">{r.label}</div>}

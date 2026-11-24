@@ -68,8 +68,8 @@
 #environments { --h: 0; } /* three cards; no need for a full screen */
 /* Observe.AI brand surfaces. Light: white page, white panels, Neural Night text, so the footer band is
    Neural Night. Dark (4): Midnight page, Noir panels, Snow text, the guide's greys, so the footer band is Snow. */
-html:not(.dark) .lp { --bg: #ffffff; --surface: #ffffff; --ink: #0c1016; }
-.dark .lp { --bg: #000000; --surface: #191919; --ink: #f2f2f1; --muted: #8e8e8e; --line: #252525; }
+html:not(.dark) .lp { --bg: #ffffff; --surface: #ffffff; --ink: #0c1016; --sub: #4a515c; --note: #68707c; }
+.dark .lp { --bg: #000000; --surface: #191919; --ink: #f2f2f1; --muted: #8e8e8e; --sub: #b0b0ae; --note: #808080; --line: #252525; }
 .lp-alt { background: var(--surface); }
 
 .lp h1, .lp h2, .lp h3 { font-weight: 600; letter-spacing: -0.03em; line-height: 1.05; margin: 0; }
@@ -80,6 +80,10 @@ html:not(.dark) .lp { --bg: #ffffff; --surface: #ffffff; --ink: #0c1016; }
 .lp .lead { font-size: clamp(18px, 0.3vw + 16px, 20px); line-height: 1.5; max-width: 62ch; }
 .lp .muted { color: var(--muted); }
 .lp .label { font-size: 13px; font-weight: 500; line-height: 1.3; }
+/* Graph text roles: header subtext (what is plotted, right under the heading) vs footnote (methodological caveats, much below). */
+.lp .lp-chart-sub { margin: 8px 0 0; max-width: 62ch; font-size: 15.5px; font-weight: 400; line-height: 1.5; color: var(--sub); }
+.lp .lp-chart-note { margin: 24px 0 0; padding-top: 12px; border-top: 1px solid var(--line); max-width: 80ch; font-size: 12.5px; font-weight: 400; line-height: 1.45; color: var(--note); }
+.lp .lp-chart-note--inline { margin-top: 10px; padding-top: 0; border-top: 0; }
 /* Small labels in the brand guide's wide-tracked caps. */
 .lp .caps { font-size: 11px; font-weight: 400; letter-spacing: 0.18em; text-transform: uppercase; }
 .lp .mono { font-family: var(--font-mono); }
@@ -249,10 +253,13 @@ a.lp-pick:hover .lp-pick-arrow { color: var(--ink); }
 /* Blog figures: a live landing chart, a demo viewer or a run-page screenshot (width set at the end of this file). */
 .lp-prose > .lp-figure { width: min(1120px, 100vw - 32px); margin: 2.6em 0 2.6em calc(50% - min(560px, 50vw - 16px)); padding: clamp(20px, 3vw, 36px); border: 1px solid var(--line); border-radius: 20px; background: var(--surface); font-size: 16px; line-height: 1.5; }
 .lp-figure-title { font-family: var(--font-heading); font-size: clamp(22px, 1vw + 16px, 28px); line-height: 1.2; margin-top: 10px; }
+.lp-figure > .lp-chart-sub { margin-top: 6px; }
 .lp-figure-body { margin-top: 24px; }
 .lp-figure-body svg { overflow: visible; }
 .lp-figure-wait { padding: 80px 0; text-align: center; }
-.lp-figure figcaption { margin-top: 20px; max-width: 80ch; color: var(--muted); font-size: 15px; line-height: 1.55; }
+.lp-figure figcaption.lp-chart-note { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 16px; margin-top: 20px; max-width: none; }
+.lp-figure figcaption.lp-chart-note > span:first-child:not(.lp-figure-link) { max-width: 68ch; }
+.lp-figure-link { margin-left: auto; }
 .lp-figure-link a { color: var(--ink); text-decoration: underline; text-underline-offset: 3px; white-space: nowrap; }
 .lp-shot { width: 100%; height: auto; border-radius: 10px; border: 1px solid var(--line); }
 
@@ -402,7 +409,7 @@ a.lp-pick:hover .lp-pick-arrow { color: var(--ink); }
 .lp .sc-row { display: grid; grid-template-columns: minmax(150px, 220px) 1fr; align-items: center; gap: 14px; }
 .lp .sc-name { line-height: 1.25; font-size: 15px; }
 .lp .sc-split { display: flex; gap: 2px; height: 26px; }
-.lp .sc-seg { display: flex; align-items: center; justify-content: center; min-width: 2px; color: #fff; font-size: 13px; font-weight: 500; }
+.lp .sc-seg { display: flex; align-items: center; justify-content: center; min-width: 2px; overflow: hidden; color: #fff; font-size: 13px; font-weight: 500; }
 .lp .sc-seg:first-child { border-radius: 4px 0 0 4px; }
 .lp .sc-seg:last-child { border-radius: 0 4px 4px 0; }
 @media (max-width: 640px) {
@@ -455,14 +462,15 @@ a.lp-pick:hover .lp-pick-arrow { color: var(--ink); }
 .lp .lp-zig-row--wide { grid-template-columns: minmax(0, 340px) minmax(0, 1fr); }
 .lp .lp-zig-row--flip.lp-zig-row--wide { grid-template-columns: minmax(0, 1fr) minmax(0, 340px); }
 .lp .lp-top .lp-zig-row { align-items: start; } /* text stays put when the chart beside it changes height */
-.lp .lp-zig-chart { min-width: 0; }
+.lp .lp-zig-row, .lp .lp-zig-text, .lp .lp-zig-chart { min-width: 0; }
+.lp .lp-zig-chart, .lp-figure-body { touch-action: pan-y; }
 .lp .lp-zig-text h3 { font-size: 24px; }
 .lp .lp-zig-points { margin-top: 22px; display: grid; gap: 12px; font-size: 15px; }
 .lp .lp-zig-points li { padding-left: 14px; position: relative; }
 .lp .lp-zig-points li::before { content: ""; position: absolute; left: 0; top: 0.6em; width: 6px; height: 6px; border-radius: 999px; background: var(--action); box-shadow: 0 0 0 1px var(--action-ink); }
 @media (max-width: 1100px) {
   .lp .lp-zig { padding: 0; gap: 72px; }
-  .lp .lp-zig-row, .lp .lp-zig-row--flip, .lp .lp-zig-row--wide, .lp .lp-zig-row--flip.lp-zig-row--wide { grid-template-columns: 1fr; gap: 28px; }
+  .lp .lp-zig-row, .lp .lp-zig-row--flip, .lp .lp-zig-row--wide, .lp .lp-zig-row--flip.lp-zig-row--wide { grid-template-columns: minmax(0, 1fr); gap: 28px; }
   .lp .lp-zig-row--flip .lp-zig-text { order: -1; }
 }
 
@@ -472,7 +480,6 @@ a.lp-pick:hover .lp-pick-arrow { color: var(--ink); }
 .lp .sc-cl-track { display: flex; align-items: center; gap: 8px; margin-top: 4px; height: 18px; }
 .lp .sc-cl-bar { height: 100%; min-width: 2px; border-radius: 0 4px 4px 0; }
 .lp .sc-cl-track .num { font-size: 13px; }
-.lp .sc-swipe { overflow-x: auto; overscroll-behavior-x: contain; -webkit-overflow-scrolling: touch; }
 
 .lp .tip--smooth { transition: opacity 140ms ease, left 110ms ease-out, top 110ms ease-out; }
 @media (prefers-reduced-motion: reduce) { .lp .tip--smooth { transition: none; } }
@@ -488,7 +495,7 @@ a.lp-pick:hover .lp-pick-arrow { color: var(--ink); }
 .ct-top { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; margin-bottom: 14px; }
 .ct-avg-note { display: inline-flex; align-items: center; gap: 8px; margin-left: auto; font-size: 14px; }
 .ct-key-avg { display: inline-block; width: 0; height: 12px; border-left: 1.5px dashed color-mix(in srgb, var(--ink) 55%, transparent); }
-.ct-rows { list-style: none; margin: 0; padding: 0; }
+.ct-rows { list-style: none; margin: 0; padding: 0; position: relative; }
 .ct-row { display: grid; grid-template-columns: 11rem minmax(0, 1fr) 2.8rem; align-items: center; gap: 14px; padding: 4px 0; font-size: 14px; }
 .ct-name { color: var(--ink); text-align: right; }
 .ct-track { position: relative; height: 22px; }
@@ -496,14 +503,16 @@ a.lp-pick:hover .lp-pick-arrow { color: var(--ink); }
 .ct-axis span { position: absolute; transform: translateX(-50%); font-size: 12px; color: var(--muted); }
 .ct-axis span:first-child { transform: none; } .ct-axis span:last-child { transform: translateX(-100%); }
 .ct-bar { position: absolute; left: 0; top: 4px; height: 14px; border-radius: 0 4px 4px 0; transition: width .25s, background .25s; }
-.ct-avg { position: absolute; top: -5px; bottom: -5px; border-left: 1.5px dashed color-mix(in srgb, var(--ink) 55%, transparent); transition: left .25s; }
+/* one continuous baseline line over every row, aligned to the bar track */
+.ct-rows::after { content: ""; position: absolute; top: 0; bottom: 0; pointer-events: none; border-left: 1.5px dashed color-mix(in srgb, var(--ink) 55%, transparent); transition: left .25s;
+  left: calc(11rem + 14px + (100% - 13.8rem - 28px) * var(--base)); }
 .ct-val { text-align: right; font-variant-numeric: tabular-nums; }
-.ct-foot { margin-top: 14px; font-size: 14px; line-height: 1.5; max-width: 80ch; }
 @media (max-width: 640px) {
   .ct-row { grid-template-columns: minmax(0, 1fr) 2.8rem; gap: 2px 10px; padding: 7px 0; }
   .ct-row .ct-name { grid-column: 1 / -1; text-align: left; }
   .ct-axis-row > span { display: none; }
   .ct-avg-note { margin-left: 0; }
+  .ct-rows::after { left: calc((100% - 2.8rem - 10px) * var(--base)); }
 }
 
 /* ---------- Blog contents: a rail beside the article from 960px, a bar under the nav below ---------- */

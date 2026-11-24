@@ -110,7 +110,7 @@ function Sec({ bare, id, className, head, children }: { bare?: boolean; id: stri
 }
 
 /** Chart panels: one frame per section; each row puts a chart beside its explanation, alternating sides row by row. */
-type ZigRow = { title: string; body: ReactNode; points?: ReactNode[]; note?: ReactNode; chart: ReactNode; wide?: boolean };
+type ZigRow = { title: string; body?: ReactNode; points?: ReactNode[]; note?: ReactNode; chart: ReactNode; wide?: boolean };
 function Zig({ rows }: { rows: ZigRow[] }) {
   return (
     <div className="lp-zig">
@@ -118,9 +118,9 @@ function Zig({ rows }: { rows: ZigRow[] }) {
         <div key={r.title} className={`lp-zig-row${i % 2 ? " lp-zig-row--flip" : ""}${r.wide ? " lp-zig-row--wide" : ""}`}>
           <div className="lp-zig-text">
             <h3>{r.title}</h3>
-            <p className="muted mt-2">{r.body}</p>
+            {r.body && <p className="lp-chart-sub">{r.body}</p>}
             {r.points && r.points.length > 0 && <ul className="lp-zig-points">{r.points.map((p, k) => <li key={k}>{p}</li>)}</ul>}
-            {r.note && <p className="label muted mt-4">{r.note}</p>}
+            {r.note && <p className="lp-chart-note">{r.note}</p>}
           </div>
           <div className="lp-zig-chart">{r.chart}</div>
         </div>
@@ -234,8 +234,8 @@ function Results({ redwood, metas, skyway, skywayMetas, bare, compact, env: fixe
           const zig: ZigRow[] = [{
             title: "Which builder makes the best agent",
             body: sky
-              ? "Share of all Skyway tickets each builder's agents passed."
-              : "Share of all Redwood tickets each builder's agent passed, over the six stages. Every agent runs on the same model; only the builder differs.",
+              ? "Pooled across the six architectures each builder built. Every support agent runs on the same model."
+              : "Every support agent runs on the same model; only the builder differs.",
             points: sky ? [
               <><b>Opus 5.5 builds the best agent.</b> Its agents pass 67% of tickets, against 40% for the weakest builder. 6.1 Sol keeps every rule, old versions included, and passes only 53%.</>,
             ] : [
@@ -259,8 +259,8 @@ function Results({ redwood, metas, skyway, skywayMetas, bare, compact, env: fixe
           if (costs.length > 1) zig.push({
             title: "What it cost to build",
             body: sky
-              ? "Cost is what one build cost the builder, averaged over its architectures."
-              : "Cost is what the builder spent on the whole run.",
+              ? "What one six-stage build cost the builder, averaged across its six architectures; agent runtime cost is separate."
+              : "What the builder spent across all six stages; agent runtime cost is separate.",
             points: sky ? [
               <><b>6.1 Sol is on the cost frontier in both environments.</b> It keeps the docs and writes only a few summary notes, so it builds quickly and cheaply. The cost shifts to the agent, which reads nearly twice as much per ticket as Opus 5.5&apos;s.</>,
             ] : [
@@ -269,7 +269,7 @@ function Results({ redwood, metas, skyway, skywayMetas, bare, compact, env: fixe
             chart: (
               <CostScatter
                 dots={costs.map((c) => ({ label: c.model === CONFOUND ? `${c.model} *` : c.model, sub: c.harness, cost: c.cost, rate: c.rate, color: c.color }))}
-                {...(sky ? { title: "Tickets passed vs what the builder spent per build", axis: "builder cost per architecture, log scale", spent: "Builder spent per build" } : {})}
+                {...(sky ? { axis: "builder cost per architecture, log scale", spent: "Builder spent per build" } : {})}
               />
             ),
           });
@@ -368,7 +368,7 @@ function Failures({ redwood, metas, skyway, skywayMetas, focus, bare, compact, e
         ) : (() => {
           const zig: ZigRow[] = [{
             title: "Who caused the failures",
-            body: "Every failed ticket is traced to a cause, and every cause to the builder or the agent.",
+            body: sky && arch === "overall" ? "Pooled across the six architectures each builder built." : undefined,
             points: !Object.values(all).some((v) => v > 0) ? [] : sky ? [
               <><b>Most failures are the agent&apos;s, not the builder&apos;s.</b> A builder&apos;s failure is a rule that never reached the agent. Most agent failures happen with the rule in hand, often beside old versions of it. So most of the gain is in what the agent does with its knowledge.</>,
             ] : [
@@ -380,14 +380,15 @@ function Failures({ redwood, metas, skyway, skywayMetas, focus, bare, compact, e
           }];
           if (points.length > 0) zig.push({
             title: "Rules in the agent's files vs pass rate",
-            body: "An agent built with all the rules can still fail to apply them to a ticket. Each mark is one builder's agent at one stage, against the share of tickets it passed. Recall is the share of needed rules in its files, precision the share of the rules in its files that are current, and F1 combines the two.",
+            body: sky && arch === "overall"
+              ? "Each mark is one builder's agent for one architecture at one stage. Recall is the share of needed rules in its files; precision is the share that are current."
+              : "Each mark is one builder's agent at one stage. Recall is the share of needed rules in its files; precision is the share that are current.",
             points: sky ? [
               <><b>Rule recall correlated with pass rate more than rule precision did.</b> Agents that hold more of the needed rules pass more tickets, while old versions beside the current rule cost less, mostly because the agent can reconcile them at runtime.</>,
             ] : [
               <><b>Having the rule does not mean using it.</b> Even with nearly 100% rule recall, agents still fail about 25% of tickets.</>,
               <><b>Having the rules does not separate the builders.</b> Six builders kept 98% to 100% of the rules their completed stages needed, yet their overall pass rates still ranged from 60% to 80%.</>,
             ],
-            note: "The shaded band is below 0.9.",
             chart: (
               <>
                 <div className="mb-4"><Seg value={measure} onChange={setMeasure} options={[["f1", "F1"], ["recall", "Recall"], ["precision", "Precision"]]} /></div>
@@ -496,14 +497,13 @@ function Architecture({ runs, metas, bare, compact }: { runs: JobSummary[]; meta
                   tip: <div className="muted mt-0.5">{fmt(passed)} of {fmt(total)} tickets · built by {[...new Set(rs.map((r) => r.model))].join(", ")}</div>,
                 };
               });
-              const lastStage = Math.max(...arch.map((r) => r.stages.length)) - 1;
               const barsChart = <BenchmarkBars rows={bars} />;
               if (bare) return barsChart;
               return (
                 <Zig rows={[
                   {
                     title: "Which design passes most",
-                    body: <>The share of Skyway tickets each design passed, combined over the {builders.length} builders. The dashed line is the average.</>,
+                    body: <>Pooled across the {builders.length} builders that built each design.</>,
                     points: [
                       <><b>Three designs lead, and raw docs + retrieval index trails.</b> The knowledge graph, LLM wiki + terminal and prompts and workflows are within one point of each other (56%), and the last needs no retrieval at all. Raw docs + retrieval index passes 43%. Choose among the leaders on cost and upkeep.</>,
                       <><b>A terminal beats a retrieval index.</b> On the same docs, the terminal design passes about 10 points more with raw docs and 9 more with a wiki. Try a terminal before building an index.</>,
@@ -513,19 +513,18 @@ function Architecture({ runs, metas, bare, compact }: { runs: JobSummary[]; meta
                   },
                   {
                     title: "What each design costs",
-                    body: <>Pass rate against what a ticket costs the agent, or how long it takes: one mark per design, pooled over the {builders.length} builders that built it. The dashed line is the Pareto frontier.</>,
+                    body: <>Support-agent model spend and median ticket time, pooled across the {builders.length} builders.</>,
                     points: [
                       <><b>A wiki makes the agent cheaper to run.</b> Wiki agents cost $0.11 to $0.12 per ticket, less than half the $0.26 to $0.27 of raw docs, because they read short notes. LLM wiki + terminal is on the frontier at every stage.</>,
                       <><b>Prompt caching keeps prompts and workflows affordable.</b> It sends the most text per ticket, but 91% is the same prompt every call, billed at about a twelfth of the usual price. Without caching it would cost the most.</>,
                       <><b>The wiki&apos;s saving is paid for up front.</b> Wiki designs cost the builder the most to build, and each update costs about three-quarters of the first build again. For an agent that answers few tickets, that may not pay back.</>,
                     ],
-                    note: "Cost is the agent's model spend per ticket; time is the median time to finish a ticket, over the stages where the agent ran.",
                     chart: <ArchTradeoff runs={pooledDesigns(arch, order)} order={order} />,
                     wide: true,
                   },
                   {
                     title: "Which designs hold up as the docs change",
-                    body: <>Pass rate for each design at every stage, averaged over the {builders.length} builders that built it, through {lastStage} rounds of doc changes. The shaded band is one standard deviation either side of the average across builders; hover a design to bring it out.</>,
+                    body: <>Mean pass rate across the {builders.length} builders at each stage.</>,
                     points: [
                       <><b>Designs hold their score as the docs change.</b> Every design finishes within about five points of where it started, and every one dips at stage 2. The small rises in prompts and workflows and raw docs + terminal come from two builders and are within the stage-to-stage swings.</>,
                     ],
@@ -547,7 +546,6 @@ function Architecture({ runs, metas, bare, compact }: { runs: JobSummary[]; meta
                   },
                   {
                     title: "Which tickets each design gets right",
-                    body: "Tickets split by what they test: a rule that is new at that stage, a rule from before that didn't change, or one that changed.",
                     points: [
                       <><b>Changed rules are usually the hardest tickets.</b> Four of the six designs score lower on changed rules than on both new and unchanged rules.</>,
                       <><b>Compiled notes handle rule changes better than raw documents.</b> Designs that read the raw documents drop 11 to 13 points on changed rules compared with new rules; the graph, wiki and prompt designs drop 3 to 7. A wiki beats raw docs on changed rules by 6 points with a terminal and 13 with a retrieval index.</>,
@@ -599,22 +597,22 @@ function Context({ packs }: { packs: Builder[] }) {
   const panels = packPanels(packs);
   const customers: ZigRow = {
     title: "How customers behave",
-    body: "Each ticket gives the customer one of 14 behaviors. It changes how the customer shares the facts, never the facts themselves or the right answer. Customer facts recall is the share of the customer's facts the agent got them to share.",
+    body: "Pooled across all Redwood Inference and Skyway Air runs. Behaviors change how the customer shares facts, not the facts or answer; customer facts recall is the share the agent elicited.",
     points: [
       <><b>Every customer behavior lowers the pass rate.</b> A plain customer gets 66%; the 13 other behaviors get between 29% and 64%.</>,
       <><b>Behaviors hide the facts the agent needs.</b> The agent gets 75% of a plain customer&apos;s facts, but only 40% to 50% when the customer changes goal, corrects themselves or answers only what is asked.</>,
       <><b>Customers who correct themselves are the hardest.</b> Only 29% of those tickets pass, less than half the plain customer&apos;s 66%.</>,
     ],
+    note: "Each ticket has a fixed customer behavior, so a behavior's rate also reflects which tickets were assigned to it.",
     chart: <CustomerTypeViewer />,
   };
   const docs: ZigRow = {
     title: "How changed docs move the score",
-    body: "Each bar shows how one builder's score changed on that version of the docs, compared with its score on the complete docs. The large number is the typical change across builders.",
+    body: "Percentage-point change from each builder's complete-docs score on the same 67 tickets; the headline number is the median across builders.",
     points: [
       <><b>Missing facts cause the biggest drop.</b> With facts removed, agents pass about 15 points fewer tickets, in all seven builders, because they guess instead of leaving the field alone or handing the ticket to a person. Gaps in the docs cost more than messy pages.</>,
       <><b>Contradicting and noisy pages do not hurt.</b> Pass rates stay within a few points of the complete docs (79% and 81% against 78%), as builders leave out old pages and skip unrelated ones. Clearly marked old pages do little harm.</>,
     ],
-    note: "Same tickets in every pack; only the docs change.",
     chart: <ChangePanels panels={panels} />,
     wide: true,
   };
@@ -623,7 +621,7 @@ function Context({ packs }: { packs: Builder[] }) {
       <SectionHead
         from="Customer behaviors and knowledge packs"
         title="How scattered context moves the score"
-        lead="A ticket is easy when the agent has the right context: the rules in the docs and the facts only the customer knows. On Skyway Air, agents with both pass 70% of tickets; with a customer fact missing, 35%. Customer behaviors and changed docs change how scattered that context is."
+        lead="A ticket is easy when the agent has the right context: the rules in the docs and the facts only the customer knows. Customer behaviors and changed docs change how scattered that context is."
         right={<Seg value={view} onChange={setView} options={[["customers", "Customer behavior"], ["docs", "Changed docs"]]} />}
       />
     }>

@@ -1,4 +1,4 @@
-import { useLayoutEffect, useRef, useState, type ReactNode } from "react";
+import { useEffect, useLayoutEffect, useRef, useState, type ReactNode } from "react";
 import { CONFOUND, type Shape } from "./data";
 
 // ---------------- shared ----------------
@@ -77,11 +77,6 @@ export type FailureRow = { model: string; harness: string; failed: number; total
 export type RecallPoint = { model: string; color: string; shape: Shape; stage: number; recall: number; precision: number | null; pass: number };
 export type RuleMeasure = "f1" | "recall" | "precision";
 const MEASURE_NAME: Record<RuleMeasure, string> = { f1: "Rule F1", recall: "Rule recall", precision: "Rule precision" };
-const MEASURE_AXIS: Record<RuleMeasure, string> = {
-  f1: "Rule F1: recall and precision together",
-  recall: "Rule recall: needed facts in the agent's files",
-  precision: "Rule precision: share of the agent's rules that are current",
-};
 /** One mark's value on the chosen measure; null when the run has no precision score. */
 const measureOf = (p: RecallPoint, m: RuleMeasure): number | null =>
   m === "recall" ? p.recall : p.precision == null ? null : m === "precision" ? p.precision : p.recall + p.precision === 0 ? 0 : (2 * p.recall * p.precision) / (p.recall + p.precision);
@@ -127,7 +122,6 @@ export function ArchTypes({ runs, order }: { runs: ArchRun[]; order: string[] })
   const shade = (v: number) => 12 + (78 * (v - lo)) / Math.max(0.01, hi - lo);
   return (
     <div>
-      <div className="label muted mb-3">Tickets passed, by what the ticket tests</div>
       <table className="w-full border-separate" style={{ borderSpacing: 3 }}>
         <thead>
           <tr>
@@ -165,12 +159,21 @@ type TipState = { x: number; y: number; body: ReactNode } | null;
 
 /** A chart frame that owns one tooltip; hover on desktop, tap on a phone. The tooltip stays mounted with the last thing it
  *  showed, so it fades out instead of vanishing and glides from item to item instead of jumping. */
-function TipFrame({ tip, w, children }: { tip: TipState; w: number; children: ReactNode }) {
+function TipFrame({ tip, w, onDismiss, children }: { tip: TipState; w: number; onDismiss?: () => void; children: ReactNode }) {
+  const frameRef = useRef<HTMLDivElement>(null);
   const last = useRef<TipState>(null);
   if (tip) last.current = tip;
   const t = tip ?? last.current;
+  useEffect(() => {
+    if (!tip || !onDismiss) return;
+    const away = (ev: PointerEvent) => {
+      if (frameRef.current && !frameRef.current.contains(ev.target as Node)) onDismiss();
+    };
+    document.addEventListener("pointerdown", away, { passive: true });
+    return () => document.removeEventListener("pointerdown", away);
+  }, [tip, onDismiss]);
   return (
-    <div className="relative">
+    <div ref={frameRef} className="relative">
       {children}
       {t && (
         <div className="tip tip--smooth" aria-hidden={!tip} style={{ left: Math.max(0, Math.min(t.x + 14, w - 250)), top: Math.max(0, t.y + 14), opacity: tip ? 1 : 0 }}>
@@ -187,13 +190,12 @@ export function RecallScatter({ points: all, measure = "recall", height = 300 }:
   const [ref, w] = useWidth<HTMLDivElement>();
   const [tip, setTip] = useState<TipState>(null);
   const h = height;
-  const m = { l: 40, r: 12, t: 10, b: 40 };
+  const m = { l: 38, r: 18, t: 10, b: 40 };
   const lo = Math.min(0.4, ...points.map(val)) - 0.02;
   const x = (v: number) => m.l + ((v - lo) / (1.02 - lo)) * (w - m.l - m.r);
   const y = (v: number) => m.t + (1 - v) * (h - m.t - m.b);
-  const near = (ev: React.PointerEvent<SVGSVGElement>) => {
-    const b = ev.currentTarget.getBoundingClientRect();
-    const mx = ev.clientX - b.left, my = ev.clientY - b.top;
+  const pick = (clientX: number, clientY: number, rect: DOMRect) => {
+    const mx = clientX - rect.left, my = clientY - rect.top;
     let best: RecallPoint | null = null, d = 24 * 24;
     for (const p of points) {
       const dd = (x(val(p)) - mx) ** 2 + (y(p.pass) - my) ** 2;
@@ -201,12 +203,16 @@ export function RecallScatter({ points: all, measure = "recall", height = 300 }:
     }
     setTip(best && { x: x(val(best)), y: y(best.pass), body: <><div className="font-medium">{star(best.model)} · stage {best.stage}</div><div className="num">{MEASURE_NAME[measure]} {val(best).toFixed(2)} · passed {pct(best.pass)}</div></> });
   };
+  const near = (ev: React.PointerEvent<SVGSVGElement>) => {
+    if (ev.pointerType === "touch") return;
+    pick(ev.clientX, ev.clientY, ev.currentTarget.getBoundingClientRect());
+  };
   const ticks = [0.4, 0.6, 0.8, 1].filter((t) => t >= lo);
   return (
     <div ref={ref}>
       {w > 0 && (
-        <TipFrame tip={tip} w={w}>
-          <svg width={w} height={h} onPointerMove={near} onPointerDown={near} onPointerLeave={() => setTip(null)} role="img" aria-label={`${MEASURE_NAME[measure]} against stage pass rate`}>
+        <TipFrame tip={tip} w={w} onDismiss={() => setTip(null)}>
+          <svg width={w} height={h} onPointerMove={near} onClick={(ev) => pick(ev.clientX, ev.clientY, ev.currentTarget.getBoundingClientRect())} onPointerLeave={(ev) => ev.pointerType !== "touch" && setTip(null)} role="img" aria-label={`${MEASURE_NAME[measure]} against stage pass rate`}>
             <rect x={x(lo)} y={m.t} width={x(0.9) - x(lo)} height={h - m.t - m.b} fill="color-mix(in srgb, var(--ink) 5%, transparent)" />
             {[0, 0.25, 0.5, 0.75, 1].map((v) => (
               <g key={v}>
@@ -217,7 +223,7 @@ export function RecallScatter({ points: all, measure = "recall", height = 300 }:
             {ticks.map((t) => (
               <text key={t} x={x(t)} y={h - 22} textAnchor="middle" fontSize={12} fill="var(--muted)">{t.toFixed(1)}</text>
             ))}
-            <text x={(m.l + w - m.r) / 2} y={h - 4} textAnchor="middle" fontSize={12} fill="var(--muted)">{MEASURE_AXIS[measure]}</text>
+            <text x={(m.l + w - m.r) / 2} y={h - 4} textAnchor="middle" fontSize={12} fill="var(--muted)">{MEASURE_NAME[measure]}</text>
             {points.map((p, i) => (
               <Mark key={i} shape={p.shape} x={x(val(p))} y={y(p.pass)} r={4.2} color={p.color} />
             ))}
@@ -270,7 +276,7 @@ export function ArchTradeoff({ runs, order }: { runs: ArchRun[]; order: string[]
   const [tip, setTip] = useState<TipState>(null);
   const [axis, setAxis] = useState<"usd" | "time">("usd");
   const h = 320;
-  const m = { l: 44, r: 16, t: 16, b: 40 };
+  const m = { l: 40, r: 22, t: 16, b: 40 };
   const [lo, hi] = passDomain(runs);
   const xs = runs.map((r) => r[axis]);
   const xmax = Math.max(...xs) * 1.15;
@@ -279,23 +285,22 @@ export function ArchTradeoff({ runs, order }: { runs: ArchRun[]; order: string[]
   const Y = (v: number) => m.t + (1 - (v - lo) / (hi - lo)) * (h - m.t - m.b);
   const yt = Array.from({ length: Math.round((hi - lo) * 10) + 1 }, (_, i) => lo + i / 10);
   const narrow = w < 560;
-  const step = axis === "usd" ? (xmax > 1 || narrow ? 0.2 : 0.1) : narrow ? 20 : 10;
+  const step = axis === "usd" ? (xmax > 0.6 ? 0.2 : 0.1) : narrow ? 20 : 10;
   const xt = Array.from({ length: Math.floor((xmax - xmin) / step) + 1 }, (_, i) => Math.ceil(xmin / step) * step + i * step).filter((v) => v <= xmax);
   const fmt = (v: number) => (axis === "usd" ? `$${v.toFixed(2)}` : `${Math.round(v)} s`);
   const frontPts = frontier(order.map((a) => { const rs = runs.filter((r) => r.arch === a); return [avg(rs.map((r) => r[axis])), avg(rs.map(rate))] as [number, number]; }));
   return (
     <div ref={ref}>
-      <div className="mb-3 flex flex-wrap items-center justify-between gap-3">
-        <div className="label muted">Pass rate vs {axis === "usd" ? "cost per ticket" : "ticket time"}</div>
+      <div className="mb-4">
         <div className="seg" role="group">
           {(["usd", "time"] as const).map((k) => (
             <button key={k} type="button" aria-pressed={axis === k} onClick={() => setAxis(k)}>{k === "usd" ? "Cost per ticket" : "Ticket time"}</button>
           ))}
         </div>
       </div>
-      <TipFrame tip={tip} w={w}>
+      <TipFrame tip={tip} w={w} onDismiss={() => setTip(null)}>
         {w > 0 && (
-          <svg width={w} height={h} onPointerLeave={() => setTip(null)} role="img" aria-label="Pass rate against cost per ticket by architecture">
+          <svg width={w} height={h} onPointerLeave={(ev) => ev.pointerType !== "touch" && setTip(null)} role="img" aria-label="Pass rate against cost per ticket by architecture">
             {yt.map((t) => (
               <g key={t}>
                 <line x1={m.l} x2={w - m.r} y1={Y(t)} y2={Y(t)} stroke="var(--line)" />
@@ -316,7 +321,7 @@ export function ArchTradeoff({ runs, order }: { runs: ArchRun[]; order: string[]
               <g key={arch}>
                 {rs.length > 1 && <circle cx={cx} cy={cy} r={11} fill="none" stroke="var(--ink)" strokeWidth={1} opacity={0.5} />}
                 {rs.map((r) => (
-                  <g key={r.model} onPointerEnter={() => setTip({ x: X(r[axis]), y: Y(rate(r)), body: runTip(r) })} onClick={() => setTip({ x: X(r[axis]), y: Y(rate(r)), body: runTip(r) })}>
+                  <g key={r.model} onPointerEnter={(e) => e.pointerType !== "touch" && setTip({ x: X(r[axis]), y: Y(rate(r)), body: runTip(r) })} onClick={() => setTip({ x: X(r[axis]), y: Y(rate(r)), body: runTip(r) })}>
                     <Mark shape={r.shape} x={X(r[axis])} y={Y(rate(r))} r={6} color={r.color} />
                   </g>
                 ))}
@@ -336,7 +341,6 @@ export function ArchTradeoff({ runs, order }: { runs: ArchRun[]; order: string[]
           {order.map((a, i) => <li key={a}><span className="num font-semibold">{i + 1}</span> <span className="mono">{a}</span></li>)}
         </ol>
       )}
-      <p className="label muted mt-2">The tint is the feasible region under the frontier: a design there {axis === "usd" ? "costs more" : "takes longer"} and passes fewer tickets than one on the line.</p>
     </div>
   );
 }
