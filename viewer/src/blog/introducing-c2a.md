@@ -137,16 +137,7 @@ We use those four numbers to decide who is to blame for a failed ticket. Code ma
 
 <!-- figure:results -->
 
-How well a builder does depends on how it handles the size of the company's docs.
-
-On Redwood Inference the builder starts with 27 docs, and every builder does the same thing first, which is to read all
-of them, so it rarely loses a rule and almost every failed ticket is caused by the customer support agent having the
-rule and using it wrong.
-
-Skyway Air starts with 10,399 docs, which is far more than any builder can read, and every builder notices this early
-on, with Carbon pointing out that there are "over 10,000 files" and Opus 5.5 deciding that "running the LLM over all
-46 MB is too slow and costly". From there each builder picks its own shortcut to find the rules, and that shortcut ends
-up deciding what its customer support agent will know.
+A builder turns a company's docs into the knowledge its agent works from, and every choice trades two things against each other: keeping every rule the agent might need (rule recall) and keeping only the rules that are current (rule precision). On Skyway Air, with over 10,000 docs, two builders sit at opposite ends:
 
 - DeepSeek decides that some pages are "distractors" and that "Slack [is] mostly noise", and builds the agent only from the policy pages it believes are the real ones. Its notes are clean (high rule precision) but miss rules that lived elsewhere (low rule recall).
 - 6.1 Sol keeps all 10,398 docs and links them from a small set of summary notes. Nothing is lost (high rule recall), but every old version of a rule is kept beside the current one (low rule precision).
@@ -157,7 +148,7 @@ On Skyway Air, Opus 5.5's agents pass 67% of tickets, against 40% for DeepSeek, 
 
 #### Keeping everything is not the answer
 
-With over 10,000 docs no builder can read everything, so what it keeps decides what its agent knows. 6.1 Sol keeps nearly every rule but also the old versions of them, and its agents pass 53%. Opus 5.5 keeps fewer rules but a higher share of them current, and passes 67%. A good builder keeps the current rule and lets go of the old one.
+6.1 Sol keeps nearly every rule but also the old versions of them, and its agents pass 53%. Opus 5.5 keeps fewer rules but a higher share of them current, and passes 67%. A good builder keeps the current rule and lets go of the old one.
 
 #### 6.1 Sol builds the best agent on Redwood Inference, and five others are close behind
 
@@ -177,7 +168,7 @@ On Redwood Inference, stage 4 adds a limit on the prompt size. Sonnet 5.5 tests 
 
 ### Why tickets failed
 
-The customer support agent's job is the same in both companies, but the builder's job is not. At a small company, building a customer support agent means reading the docs. At a large one, the builder has to decide what to keep, and that choice shapes how the built agent fails:
+What a builder keeps shapes how its agent fails:
 
 - **High rule recall, low rule precision:** the agent has every rule it needs, but also the outdated and look-alike versions of them, so it may quote a rule that no longer applies.
 - **Low rule recall, high rule precision:** every rule the agent has is current, but some are missing, so when a situation falls outside what it knows it has no rule to apply and may not know how to handle it.
