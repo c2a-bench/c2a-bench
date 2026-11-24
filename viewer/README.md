@@ -46,7 +46,7 @@ Case-result `grading` is separate from conversation failures and `replayVerdict`
 
 ```bash
 npm ci
-npm run dev:local-hf     # downloads the pinned datasets to .local-data on first run, then serves http://localhost:5199/
+npm run dev:local-hf     # downloads the pinned datasets to ~/.cache/c2a-bench/local-data (shared by all worktrees; set C2A_LOCAL_DATA to move it) on first run, then serves http://localhost:5199/
 ```
 
 Tests (no real data needed): `npm run test:data`, then `npx playwright install chromium && npm run test:pages`
