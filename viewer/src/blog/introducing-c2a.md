@@ -154,7 +154,7 @@ On Redwood Inference, stage 4 adds a limit on the prompt size. Sonnet 5.5 tests 
 
 #### 6.1 Sol is on the cost frontier in both environments
 
-On Skyway Air, 6.1 Sol's agents pass 53% of tickets for $9.52 a build, while Opus 5.5 passes 67% for $50.20. On Redwood Inference it builds the best agent for under $5. It builds light, keeping the docs and writing only a few summary notes, so its builds are quick and cheap. The cost moves to the agent, which costs about twice as much to run as Opus 5.5's. So a cheap build is not a cheap agent.
+On Skyway Air, 6.1 Sol's agents pass 53% of tickets for $9.52 a build, while Opus 5.5 passes 67% for $50.20. On Redwood Inference it builds the best agent for under $5. It builds light, so its builds are quick and cheap. The cost moves to the agent, which costs about twice as much to run as Opus 5.5's. So a cheap build is not a cheap agent.
 
 ### Why tickets failed
 
@@ -163,7 +163,7 @@ What a builder keeps shapes how its agent fails:
 - **High rule recall, low rule precision:** the agent has every rule it needs, but also the outdated and look-alike versions of them, so it may quote a rule that no longer applies.
 - **Low rule recall, high rule precision:** every rule the agent has is current, but some are missing, so when a situation falls outside what it knows it has no rule to apply and may not know how to handle it.
 
-Neither extreme is safe. The builders that skipped docs lost rules their customer support agents needed, while 6.1 Sol, which kept everything, left its customer support agent to pick the right version of each rule.
+Neither extreme is safe.
 
 <!-- figure:failures -->
 
@@ -209,7 +209,7 @@ With the same retrieval, a wiki passes 3 to 5 points more than raw docs: 56% aga
 
 #### A wiki makes the agent cheaper to run
 
-Wiki agents cost about $0.12 per ticket, against $0.26 to $0.27 for raw docs: less than half. The notes are short, so the agent reads far less on every ticket. LLM wiki + terminal passes as many tickets as the knowledge graph for about 40% less, making it the cheapest of the three leading designs, and it is on the cost frontier at every stage.
+Wiki agents cost about $0.12 per ticket, against $0.26 to $0.27 for raw docs: less than half. The notes are short, so the agent reads far less on every ticket. LLM wiki + terminal passes as many tickets as the knowledge graph for about 40% less, making it the cheapest of the three leading designs, and it is on the agent cost frontier at every stage.
 
 #### Prompt caching keeps prompts and workflows affordable
 
@@ -282,7 +282,7 @@ audit logs. Since the docs no longer say which team it is, the customer support 
 leave the team on the ticket unchanged, or hand the ticket to a person. Almost every customer support agent chooses a
 team anyway, and the customer support agents of six of the seven builders get none of these tickets right. Across all the tickets, the incomplete pack costs the typical builder about 15 points, and every builder drops. They nearly
 always choose Eng Platform, which is the team from an older version of the rule that the docs say no longer applies.
-They also tell the customer that the request has been sent to the platform team. A gap in the docs costs more than a messy page, probably because the agent fills it with a guess instead of handing the ticket to a person.
+They also tell the customer that the request has been sent to the platform team. So a gap in the docs costs more than a messy page.
 
 #### Contradicting and noisy pages do not hurt
 
