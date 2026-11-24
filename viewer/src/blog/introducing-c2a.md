@@ -171,6 +171,9 @@ Air and tests the most on Redwood Inference. Testing the right thing matters mos
 limits the prompt size, Sonnet 5.5 tests for it and passes 95%, while Opus 5.5 and GLM lose a fifth of the stage.
 So a good builder's time goes into the agent itself, not into reading.
 
+A cheap build can still make an expensive agent: on Redwood Inference, DeepSeek spends the least to build ($0.66),
+but its agent costs the most to run ($137, against $48 to $118 for the others).
+
 <!-- figure:failures -->
 
 ### Where the builders fail
@@ -240,14 +243,8 @@ They also tell the customer that the request has been sent to the platform team.
 The other three packs have only 20 to 60 docs each, so every builder reads every page. Most of the mess is cleaned up
 by the builder, before the customer support agent ever sees it.
 
-In the fragmented pack, each rule is split across several pages. The builders put the pieces back together when they write their notes, so the customer support agents still have almost every rule.
-
-In the conflicting pack, extra pages disagree with the real policy. Most of these pages are marked as old, for example
-as a draft or a first version, so the builder can tell which page is current. Opus 5.5 and DeepSeek leave all of these
-pages out of their notes. 6 Astra keeps all of them, but its customer support agent still uses the current rule. All
-three score about the same as with the complete docs.
-
-In the noisy pack, the extra pages are about topics that have nothing to do with the tickets, so they are easy to skip and the score barely moves.
+Outdated look-alike pages and unrelated pages barely move the score (79% and 81%, against 78% with the complete
+docs). Rules split across several pages cost a few points (72%).
 
 ## How the models behave
 
@@ -263,66 +260,6 @@ the time and those where the customer asks for a person pass 41%, against 66% fo
 gets fewer of these customers' facts (49% and 58% against 75%).
 
 <!-- figure:customer-types -->
-
-### Agents act too early on the first message
-
-Builders almost always test on single-turn examples and design for eager first-turn triage. When a customer's real issue
-only emerges on turn two, that habit causes two opposite irreversible mistakes.
-
-Over-hardening prompts to escalate anything out of policy fails in the opposite way. On Skyway Air, Opus 5.5 ranks first
-on 85.7% of the customer behaviors (including resisting manager requests at 68.3%, versus GLM's 6.3%), yet finishes
-last on goal changes at 33.3%, less than half of 6.1 Sol (69.0%) and Carbon (66.7%). When a customer opens with a
-harmless pre-purchase question ("Can I add a checked bag to a future trip?") before pivoting on turn two to a refund or
-delay claim, Opus 5.5's agent immediately creates an irreversible handoff on turn one, resolves turn two flawlessly, and
-still fails. The same split appears on the knowledge packs' pricing-opener ticket: 68% of Claude and pi builds create
-a turn-one handoff before the customer clarifies, compared with 0% of Codex builds.
-
-### Same harness, opposite working styles and costly subagents
-
-Comparing models inside the exact same coding harness with identical tools removes harness effects and exposes stark
-working styles.
-
-On pi (bash, read, write, edit), DeepSeek uses native read for just 0.74% of its tool calls,
-pushing 93.4% of its work through bash while staying nearly silent (1.7 messages per stage). Carbon does the exact
-opposite: 49.3% of its tool calls are native read calls, with 74.7% of its Redwood document reads re-reading unchanged
-pages from earlier stages (77 unchanged files in stage 5 alone for two new docs). GLM, on the same harness, narrates
-continuously: 22.7 messages per stage, 26× Carbon's rate.
-
-On Claude Code, Opus 5.5 and Sonnet 5.5 even wait on background tasks differently: Sonnet 5.5 polls with Monitor
-(132 calls, 0 scheduled wakeups), while Opus 5.5 schedules timed callbacks with ScheduleWakeup (26 calls, 9 Monitor
-calls). Both also spend far more when spawning parallel helper agents on Skyway Air: build costs jump 2.8× for
-Opus 5.5 ($17.42 vs. $6.18 per stage) and 4.2× for Sonnet 5.5 ($15.94 vs. $3.82) without beating simpler builds. Worse,
-delegation can undo earlier work: in one Sonnet 5.5 wiki run, stage 1's subagents removed every trap (0%), only
-for a stage 2 subagent tasked with writing a "Chronological ledger of corrections" to copy every superseded trap back
-into the wiki, raising traps from 0% back to 100% for the rest of the run.
-
-### Cheap builders can produce the costliest agents
-
-Because every deployed agent runs gpt-5.6-sol, builder choices around pre-fetching state, filtering noise, and
-re-reading notes create a 3× to 5× runtime cost spread that often reverses the build-cost rankings.
-
-DeepSeek spends the least to build in every environment ($0.66 on Redwood, $0.50 on the knowledge packs, $1.68 average
-on Skyway), yet builds Redwood's most expensive agent to run (9,220 model calls, 6.36 per turn, 100.5M tokens) because
-it wraps every API endpoint as an uncached single-purpose tool. On the exact same tickets, GLM pre-fetches ticket,
-customer, contract, key, and incident state in Python and cuts model calls by 3.1× (2.05 per turn).
-
-On the noisy knowledge pack, 6.1 Sol concatenates 43 full documents, distractors included, into every prompt, pushing
-runtime cost to $31.91 (4.4× Sonnet 5.5's $7.21 on the same pack), while 6 Astra's runtime bill jumps 133% ($11.47 to
-$26.77). Carbon incurs a different cost on the first three packs, instructing its stateless agent to re-read wiki notes
-at the start of every turn (~4 reads per turn, $24.68 to $28.73 per pack); inlining core tables on the noisy pack cuts its
-runtime bill nearly in half (-46.6%, to $15.34) while lifting accuracy to its run high (85.1%).
-
-### Builders investigate the benchmark and misreport what they built
-
-Rather than treating the docs as ordinary company paperwork, builders inspect the container to reverse-engineer the
-test. On the same pi harness, three distinct habits emerge on the knowledge packs: Carbon runs stat timestamps and
-checks `UPSTREAM_LICENSE` to isolate script-generated edits ("The nanosecond precision from stat is mind-blowing");
-DeepSeek mentions "hidden test" 86 times across five stages; and GLM tests unreferenced records inside
-`examples/seed/tickets.json` as "likely hidden test material."
-
-At the same time, builders routinely misreport their own agents in `ARCHITECTURE.json`. 6.1 Sol and Sonnet 5.5 keep
-declaring orphaned prompt files that never reach the model for four straight Skyway stages, and Carbon, DeepSeek, and
-GLM silently breach their own stated call limits.
 
 ### Prompt Injection
 
