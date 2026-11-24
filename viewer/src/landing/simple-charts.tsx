@@ -357,10 +357,7 @@ export type CostDot = { label: string; sub?: string; cost: number; rate: number;
 
 /** Pass rate against what the builder spent (log scale: costs span about 100×). Every dot is named; up and to the left is
  *  better. The dashed line is the Pareto frontier; the tint is what it beats (dearer and passing fewer). Hover a dot for its numbers. */
-export function CostScatter({ dots, height = 340, title = "Tickets passed vs what the builder spent on the whole run", axis = "builder cost, log scale", spent = "Builder spent", unit = "usd" }: { dots: CostDot[]; height?: number; title?: string; axis?: string; spent?: string; unit?: "usd" | "hours" }) {
-  // the x value is dollars, or hours for the "Time" view
-  const fmtX = (v: number) => (unit === "hours" ? (v < 1 ? `${Math.round(v * 60)} min` : `${v.toFixed(1)} h`) : `$${v.toFixed(2)}`);
-  const tickX = (t: number) => (unit === "hours" ? (t < 1 ? `${Math.round(t * 60)}m` : `${t}h`) : `$${t < 1 ? t.toFixed(2) : t}`);
+export function CostScatter({ dots, height = 340, title = "Tickets passed vs what the builder spent on the whole run", axis = "builder cost, log scale", spent = "Builder spent" }: { dots: CostDot[]; height?: number; title?: string; axis?: string; spent?: string }) {
   const [ref, w] = useWidth<HTMLDivElement>();
   const h = useHover();
   const m = { l: 44, r: 16, t: 30, b: 40 }; // the top band holds the "better" hint
@@ -377,27 +374,15 @@ export function CostScatter({ dots, height = 340, title = "Tickets passed vs wha
   const yt = Array.from({ length: 11 }, (_, i) => i / 10).filter((v) => v >= yLo - 1e-9 && v <= yHi + 1e-9);
   const front = frontier(dots.map((d) => [d.cost, d.rate] as [number, number]));
   // names sit to the right of the dot (left near the right edge); a name that would overlap one already placed moves down
-  // A name goes right of its dot, else left, else a step up or down on either side; it must not cover another name or
-  // any dot (a name over a neighbour's dot reads as that dot's name).
   const placed: { x0: number; x1: number; y: number }[] = [];
-  const centres = dots.map((d) => ({ cx: x(d.cost), cy: y(d.rate) }));
   const named = [...dots].sort((a, b) => b.rate - a.rate).map((d) => {
     const cx = x(d.cost), cy = y(d.rate);
     const wTxt = d.label.length * 6.6;
-    const fits = (right: boolean) => (right ? cx + 12 + wTxt < cw - 4 : cx - 12 - wTxt > m.l);
-    const free = (x0: number, x1: number, ly: number) =>
-      !placed.some((p) => p.x0 < x1 && x0 < p.x1 && Math.abs(p.y - ly) < 14) &&
-      !centres.some((c) => (c.cx !== cx || c.cy !== cy) && c.cx + 8 > x0 && c.cx - 8 < x1 && c.cy + 8 > ly - 11 && c.cy - 8 < ly + 3);
-    const tries: [boolean, number][] = [];
-    for (const dy of [0, -14, 14, -28, 28]) for (const right of [true, false]) if (fits(right)) tries.push([right, dy]);
-    let pick = tries.find(([right, dy]) => { const x0 = right ? cx + 11 : cx - 11 - wTxt; return free(x0, x0 + wTxt, cy + 4 + dy); });
-    if (!pick) { // crowded: fall back to stepping down on the side that fits
-      const right = fits(true); const x0 = right ? cx + 11 : cx - 11 - wTxt; let dy = 0;
-      while (!free(x0, x0 + wTxt, cy + 4 + dy) && dy < 140) dy += 14;
-      pick = [right, dy];
-    }
-    const [right, dy] = pick, ly = cy + 4 + dy, x0 = right ? cx + 11 : cx - 11 - wTxt;
-    placed.push({ x0, x1: x0 + wTxt, y: ly });
+    const right = cx + 12 + wTxt < cw - 4;
+    const x0 = right ? cx + 11 : cx - 11 - wTxt, x1 = x0 + wTxt;
+    let ly = cy + 4;
+    while (placed.some((p) => p.x0 < x1 && x0 < p.x1 && Math.abs(p.y - ly) < 14)) ly += 14;
+    placed.push({ x0, x1, y: ly });
     return { d, cx, cy, ly, right };
   });
   return (
@@ -406,7 +391,7 @@ export function CostScatter({ dots, height = 340, title = "Tickets passed vs wha
       <div ref={h.ref} className={h.on ? "relative sc-hov" : "relative"} onPointerLeave={h.hide}>
         <div ref={ref} className={narrow ? "sc-swipe" : undefined}>
           {w > 0 && (
-            <svg width={cw} height={height} role="img" aria-label={`Pass rate against builder ${unit === "hours" ? "time" : "cost"}: ${dots.map((d) => `${d.label} ${pct(d.rate)} for ${fmtX(d.cost)}`).join("; ")}`}>
+            <svg width={cw} height={height} role="img" aria-label={`Pass rate against builder cost: ${dots.map((d) => `${d.label} ${pct(d.rate)} for $${d.cost.toFixed(2)}`).join("; ")}`}>
               {yt.map((v) => (
                 <g key={v}>
                   <line x1={m.l} x2={cw - m.r} y1={y(v)} y2={y(v)} stroke="var(--line)" />
@@ -414,7 +399,7 @@ export function CostScatter({ dots, height = 340, title = "Tickets passed vs wha
                 </g>
               ))}
               {xt.map((t) => (
-                <text key={t} x={x(t)} y={height - m.b + 18} textAnchor="middle" fontSize={11} fill="var(--muted)">{tickX(t)}</text>
+                <text key={t} x={x(t)} y={height - m.b + 18} textAnchor="middle" fontSize={11} fill="var(--muted)">${t < 1 ? t.toFixed(2) : t}</text>
               ))}
               <text x={(m.l + cw - m.r) / 2} y={height - 4} textAnchor="middle" fontSize={11} fill="var(--muted)">{axis}</text>
               <text x={m.l} y={14} fontSize={11} fill="var(--muted)">↖ better: more passed for less</text>
@@ -426,7 +411,7 @@ export function CostScatter({ dots, height = 340, title = "Tickets passed vs wha
                     <TipHead>{d.label}</TipHead>
                     {d.sub && <TipLine muted>{d.sub}</TipLine>}
                     <TipLine>Passed <span className="num font-semibold">{pct(d.rate)}</span> of tickets</TipLine>
-                    <TipLine>{spent} <span className="num font-semibold">{fmtX(d.cost)}</span></TipLine>
+                    <TipLine>{spent} <span className="num font-semibold">${d.cost.toFixed(2)}</span></TipLine>
                     {d.tip}
                   </>
                 );
@@ -444,13 +429,13 @@ export function CostScatter({ dots, height = 340, title = "Tickets passed vs wha
         </div>
         <HoverTip tip={h.tip} />
       </div>
-      <p className="label muted mt-2">The tint is what the dashed frontier beats: a builder there {unit === "hours" ? "took longer" : "cost more"} and passed fewer tickets than one on the line.</p>
+      <p className="label muted mt-2">The tint is what the dashed frontier beats: a builder there cost more and passed fewer tickets than one on the line.</p>
       {narrow && <p className="label muted mt-2">Swipe the chart sideways to see all of it.</p>}
     </div>
   );
 }
 
-export type StageLine = { label: string; sub?: string; color: string; shape: Shape; values: (number | null)[]; counts?: string[] };
+export type StageLine = { label: string; sub?: string; color: string; shape: Shape; values: (number | null)[]; counts?: string[]; /** Lower and upper edge at each stage (e.g. mean ± 1 SD across builders), drawn as a shaded band. */ band?: ([number, number] | null)[] };
 
 /** Pass rate at each stage, one line per builder. Hover a point for the builder and stage; the other lines dim. */
 export function StageLines({ lines, height = 340 }: { lines: StageLine[]; height?: number }) {
@@ -458,7 +443,7 @@ export function StageLines({ lines, height = 340 }: { lines: StageLine[]; height
   const h = useHover();
   const m = { l: 40, r: 18, t: 14, b: 34 };
   const n = Math.max(...lines.map((l) => l.values.length));
-  const all = lines.flatMap((l) => l.values.filter((v): v is number => v != null));
+  const all = lines.flatMap((l) => [...l.values.filter((v): v is number => v != null), ...(l.band ?? []).flatMap((b) => b ?? [])]);
   const yLo = Math.max(0, Math.floor(10 * Math.min(...all)) / 10 - 0.1), yHi = Math.min(1, Math.ceil(10 * Math.max(...all)) / 10 + 0.05);
   const x = (i: number) => m.l + (n > 1 ? (i / (n - 1)) * (w - m.l - m.r) : 0);
   const y = (v: number) => m.t + (1 - (v - yLo) / (yHi - yLo)) * (height - m.t - m.b);
@@ -478,11 +463,14 @@ export function StageLines({ lines, height = 340 }: { lines: StageLine[]; height
               {Array.from({ length: n }, (_, i) => <text key={i} x={x(i)} y={height - m.b + 20} textAnchor="middle" fontSize={11} fill="var(--muted)">Stage {i}</text>)}
               {lines.map((l) => (
                 <g key={l.label} className={h.on === l.label ? "sc-item sc-on" : "sc-item"}>
+                  {l.band && l.band.every((b) => b) && (
+                    <path d={`${l.band.map((b, i) => `${i ? "L" : "M"}${x(i)},${y(b![1])}`).join("")}${[...l.band].reverse().map((b, i) => `L${x(l.band!.length - 1 - i)},${y(b![0])}`).join("")}Z`} fill={l.color} fillOpacity={h.on === l.label ? 0.25 : 0} stroke="none" pointerEvents="none" />
+                  )}
                   <path d={l.values.flatMap((v, i) => (v == null ? [] : [`${i ? "L" : "M"}${x(i)},${y(v)}`])).join("")} fill="none" stroke={l.color} strokeWidth={2} />
                   {l.values.map((v, i) => v == null ? null : (
                     <g key={i}
-                      onPointerEnter={(e) => h.show(e, l.label, <><TipHead>{l.label}</TipHead>{l.sub && <TipLine muted>{l.sub}</TipLine>}<TipLine>Stage {i}: <span className="num font-semibold">{pct(v)}</span> passed{l.counts?.[i] ? ` · ${l.counts[i]}` : ""}</TipLine></>)}
-                      onPointerDown={(e) => h.show(e, l.label, <><TipHead>{l.label}</TipHead>{l.sub && <TipLine muted>{l.sub}</TipLine>}<TipLine>Stage {i}: <span className="num font-semibold">{pct(v)}</span> passed{l.counts?.[i] ? ` · ${l.counts[i]}` : ""}</TipLine></>)}>
+                      onPointerEnter={(e) => h.show(e, l.label, <><TipHead>{l.label}</TipHead>{l.sub && <TipLine muted>{l.sub}</TipLine>}<TipLine>Stage {i}: <span className="num font-semibold">{pct(v)}</span> passed{l.counts?.[i] ? ` · ${l.counts[i]}` : ""}</TipLine>{l.band?.[i] && <TipLine muted>Across builders (±1 SD): {pct(l.band[i]![0])} to {pct(l.band[i]![1])}</TipLine>}</>)}
+                      onPointerDown={(e) => h.show(e, l.label, <><TipHead>{l.label}</TipHead>{l.sub && <TipLine muted>{l.sub}</TipLine>}<TipLine>Stage {i}: <span className="num font-semibold">{pct(v)}</span> passed{l.counts?.[i] ? ` · ${l.counts[i]}` : ""}</TipLine>{l.band?.[i] && <TipLine muted>Across builders (±1 SD): {pct(l.band[i]![0])} to {pct(l.band[i]![1])}</TipLine>}</>)}>
                       <circle cx={x(i)} cy={y(v)} r={12} fill="transparent" />
                       <Mark shape={l.shape} x={x(i)} y={y(v)} r={4.5} color={l.color} />
                     </g>
@@ -495,74 +483,6 @@ export function StageLines({ lines, height = 340 }: { lines: StageLine[]; height
         <HoverTip tip={h.tip} />
       </div>
       <BuilderLegend items={lines.map((l) => ({ model: l.label, color: l.color, shape: l.shape }))} />
-    </div>
-  );
-}
-
-/** Slope chart: one line per row from a first value (left) to a last value (right), blue when it held up or rose, red when
- *  it fell; name and value at both ends. Hover a line to pick it out. */
-export function SlopeChart({ rows, left, right, height = 340 }: { rows: { label: string; sub?: string; a: number; b: number }[]; left: string; right: string; height?: number }) {
-  const [ref, w] = useWidth<HTMLDivElement>();
-  const h = useHover();
-  const small = w < 520;
-  const side = small ? 60 : Math.min(200, Math.round(w * 0.33));
-  const m = { t: 34, b: 16 };
-  const x0 = side, x1 = Math.max(side + 60, w - side);
-  const vals = rows.flatMap((r) => [r.a, r.b]);
-  const lo = Math.max(0, Math.floor(10 * Math.min(...vals)) / 10 - 0.05), hi = Math.min(1, Math.ceil(10 * Math.max(...vals)) / 10 + 0.05);
-  const y = (v: number) => m.t + (1 - (v - lo) / (hi - lo)) * (height - m.t - m.b);
-  // end labels: keep 15 px apart on each side, in value order
-  const spread = (key: "a" | "b") => {
-    const out = new Map<string, number>();
-    let last = -Infinity;
-    for (const r of [...rows].sort((p, q) => q[key] - p[key])) {
-      const ly = Math.max(y(r[key]) + 4, last + 15);
-      out.set(r.label, ly);
-      last = ly;
-    }
-    return out;
-  };
-  const la = spread("a"), lb = spread("b");
-  const tone = (r: { a: number; b: number }) => (r.b - r.a < -0.005 ? "var(--f-recall)" : "var(--f-state)");
-  const pts = (d: number) => `${d >= 0 ? "+" : "−"}${Math.abs(Math.round(100 * d))}`;
-  return (
-    <div ref={h.ref} className={h.on ? "relative sc-hov" : "relative"} onPointerLeave={h.hide}>
-      <div ref={ref}>
-        {w > 0 && (
-          <svg width={w} height={height} role="img" aria-label={rows.map((r) => `${r.label}: ${pct(r.a)} at ${left}, ${pct(r.b)} at ${right}`).join("; ")}>
-            <text x={x0} y={14} textAnchor="middle" fontSize={12} fontWeight={600} fill="var(--muted)">{left}</text>
-            <text x={x1} y={14} textAnchor="middle" fontSize={12} fontWeight={600} fill="var(--muted)">{right}</text>
-            <line x1={x0} x2={x0} y1={m.t - 8} y2={height - m.b} stroke="var(--line)" />
-            <line x1={x1} x2={x1} y1={m.t - 8} y2={height - m.b} stroke="var(--line)" />
-            {rows.map((r) => {
-              const c = tone(r);
-              const body = (
-                <>
-                  <TipHead>{r.label}</TipHead>
-                  {r.sub && <TipLine muted>{r.sub}</TipLine>}
-                  <TipLine>{left}: <span className="num font-semibold">{pct(r.a)}</span> → {right}: <span className="num font-semibold">{pct(r.b)}</span></TipLine>
-                  <TipLine><span className="num font-semibold" style={{ color: c }}>{pts(r.b - r.a)} pts</span><span className="muted"> {r.b - r.a < -0.005 ? "lost" : r.b - r.a > 0.005 ? "gained" : "no change"}</span></TipLine>
-                </>
-              );
-              return (
-                <g key={r.label} className={h.on === r.label ? "sc-item sc-on" : "sc-item"} onPointerEnter={(e) => h.show(e, r.label, body, true)} onPointerMove={(e) => h.show(e, r.label, body, true)} onPointerDown={(e) => h.show(e, r.label, body, true)}>
-                  <line x1={x0} y1={y(r.a)} x2={x1} y2={y(r.b)} stroke="transparent" strokeWidth={14} />
-                  <line x1={x0} y1={y(r.a)} x2={x1} y2={y(r.b)} stroke={c} strokeWidth={2.5} strokeLinecap="round" />
-                  <circle cx={x0} cy={y(r.a)} r={5} fill={c} stroke="var(--bg)" strokeWidth={2} />
-                  <circle cx={x1} cy={y(r.b)} r={5} fill={c} stroke="var(--bg)" strokeWidth={2} />
-                  <text x={x0 - 12} y={la.get(r.label)} textAnchor="end" fontSize={small ? 11 : 12.5} fill="var(--ink)">
-                    {!small && <tspan fontWeight={500}>{r.label} </tspan>}<tspan className="num" fontWeight={600}>{pct(r.a)}</tspan>
-                  </text>
-                  <text x={x1 + 12} y={lb.get(r.label)} textAnchor="start" fontSize={small ? 11 : 12.5} fill="var(--ink)">
-                    <tspan className="num" fontWeight={600}>{pct(r.b)}</tspan>{!small && <tspan fontWeight={500}> {r.label}</tspan>}
-                  </text>
-                </g>
-              );
-            })}
-          </svg>
-        )}
-      </div>
-      <HoverTip tip={h.tip} />
     </div>
   );
 }

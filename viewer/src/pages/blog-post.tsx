@@ -10,7 +10,7 @@ import remarkGfm from "remark-gfm";
 import { ArrowRight, ChevronRight, ChevronsRight, List } from "lucide-react";
 import { Nav, RepoLinks } from "@/landing/nav";
 import { publicAsset } from "@/lib/assets";
-import { POSTS, postDate, readMinutes, type Post } from "@/blog/posts";
+import { POSTS, postDate, type Post } from "@/blog/posts";
 import { NotFound } from "@/pages/not-found";
 import { usePageTitle } from "@/lib/title";
 import { LandingFigure, Seg, type FigureEnv, type FigureName } from "@/pages/home";
@@ -27,20 +27,20 @@ const FIGURES: Record<FigureName, { title: string; from: string; caption: string
     href: "/#results",
   },
   failures: {
-    title: "Why tickets failed",
+    title: "Failure reasons by builder",
     from: "Redwood Inference",
     caption: "Each bar splits a builder's failure reasons: warm colours are the builder's fault, blue ones the agent's. Every builder ran with high reasoning effort. Hover a segment for its share.",
     skyway: "Each bar splits a builder's failure reasons over all six architectures it built: warm colours are the builder's fault, blue ones the agent's. Every builder ran with high reasoning effort. Hover a segment for its share.",
     href: "/#failures",
   },
   architecture: {
-    title: "Pass rate by architecture",
+    title: "Share of tickets passed, by architecture",
     from: "Skyway Air",
     caption: "Six builders (high reasoning effort), each building all six assigned architectures; each bar pools their runs, and the dashed line is the average. Hover a row for its numbers.",
     href: "/#architecture",
   },
   packs: {
-    title: "How changed docs move the score",
+    title: "Pass rate change on each changed pack",
     from: "Knowledge perturbations",
     caption: "Each bar is one builder's gain or loss on a changed pack against its own complete-docs score; the big number is the typical change. Every builder ran with high reasoning effort.",
     href: "/#packs",
@@ -368,7 +368,6 @@ function PostPage({ post }: { post: Post }) {
           <div className="caps muted">
             <time dateTime={post.date}>{postDate(post.date)}</time>
             {post.updated && <> · Updated <time dateTime={post.updated}>{postDate(post.updated)}</time></>}
-            {" · "}{readMinutes(post.body)} min read
           </div>
           <h1 style={{ marginTop: 16, fontSize: "clamp(36px, 2.6vw + 22px, 64px)", lineHeight: 1.08 }}>{post.title}</h1>
           <RepoLinks className="muted mt-5" />

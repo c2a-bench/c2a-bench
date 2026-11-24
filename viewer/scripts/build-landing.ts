@@ -34,10 +34,8 @@ const metas: Record<string, unknown> = {};
 for (const task of index.tasks) {
   for (const job of task.jobs) {
     const { task: domain, job: id } = parseRunKey(job.key);
-    const m = (await loader.meta(domain, id)) as { scores?: unknown; failure_summary?: unknown; timing?: { steps?: Record<string, { build_min?: number | null }> } };
-    // the builder's time over the whole run (the "Time" view of the cost chart)
-    const buildMin = Object.values(m.timing?.steps ?? {}).reduce((a, s) => a + (s.build_min ?? 0), 0);
-    metas[job.key] = { scores: Object.fromEntries(Object.entries((m.scores ?? {}) as Record<string, Stage>).map(([k, v]) => [k, trim(v)])), failure_summary: m.failure_summary, build_min: Math.round(buildMin * 10) / 10 };
+    const m = (await loader.meta(domain, id)) as { scores?: unknown; failure_summary?: unknown };
+    metas[job.key] = { scores: Object.fromEntries(Object.entries((m.scores ?? {}) as Record<string, Stage>).map(([k, v]) => [k, trim(v)])), failure_summary: m.failure_summary };
   }
 }
 const out = JSON.stringify({ runsRevision: release.runs.revision, benchmarkRevision: release.benchmark.revision, index, metas });

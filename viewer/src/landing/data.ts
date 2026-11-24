@@ -12,9 +12,9 @@ export const ENV = { redwood: "redwood-inference", packs: "support-agent-knowled
 export const SKYWAY_ARCH: Record<string, string> = {
   "graph-query": "Knowledge graph + graph queries",
   "prompt-workflows": "Prompts and workflows, no retrieval",
-  "raw-index": "Raw docs + index search",
+  "raw-index": "Raw docs + retrieval index",
   "raw-terminal": "Raw docs + terminal tools",
-  "wiki-index": "LLM wiki + index search",
+  "wiki-index": "LLM wiki + retrieval index",
   "wiki-terminal": "LLM wiki + terminal tools",
 };
 
@@ -110,7 +110,7 @@ export type MetaStage = {
 };
 /** Failed tickets by who was to blame (lib/failure-types.ts failureSummary). The runs dataset has it on every run. */
 export type FailureSummary = { failed: number; total: number; parties: Record<string, number>; groups: Record<string, number> };
-type LooseMeta = { scores: Record<string, MetaStage>; failure_summary?: FailureSummary; build_min?: number };
+type LooseMeta = { scores: Record<string, MetaStage>; failure_summary?: FailureSummary };
 
 const metaCache = new Map<string, Promise<LooseMeta[]>>();
 /** One promise per set of runs, so React's use() can read it across renders. */
