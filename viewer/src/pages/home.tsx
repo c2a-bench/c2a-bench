@@ -8,7 +8,7 @@ import { publicAsset } from "@/lib/assets";
 import { ArrowRight } from "lucide-react";
 import { CONTRIBUTING, Nav, RepoLinks } from "@/landing/nav";
 import { Journey } from "@/landing/journey";
-import { ArchTradeoff, ArchTypes, RecallScatter, type ArchRun, type TicketType, type RecallPoint, type StageRow, type StagePoint } from "@/landing/charts";
+import { ArchTradeoff, ArchTypes, RecallScatter, type ArchRun, type TicketType, type RecallPoint, type RuleMeasure, type StageRow, type StagePoint } from "@/landing/charts";
 import { CONDITIONS, CONFOUND, ENV, SKYWAY_ARCH, catalog, crashed, harnessName, loadMetas, pooled, shortModel, stagesOf, style, type Builder, type FailureGroup, type Shape } from "@/landing/data";
 import type { JobSummary } from "@/lib/data";
 import { FIRST_POST } from "@/blog/first";
@@ -283,7 +283,7 @@ type Focus = { focus: FailureGroup | null; onFocus: (g: FailureGroup | null) => 
 
 type Metas = Awaited<ReturnType<typeof loadMetas>>;
 const recallPoints = (model: string, meta: Metas[number]): RecallPoint[] =>
-  stagesOf(meta).flatMap((s, i) => (!crashed(s) && s.facts?.rule_recall != null ? [{ model, ...style(model), stage: i, recall: s.facts.rule_recall, pass: s.passed / s.total }] : []));
+  stagesOf(meta).flatMap((s, i) => (!crashed(s) && s.facts?.rule_recall != null ? [{ model, ...style(model), stage: i, recall: s.facts.rule_recall, precision: s.facts.rule_precision ?? null, pass: s.passed / s.total }] : []));
 
 // The grader's failure groups (per-stage failure_taxonomy.by_group) under the chart's plain reasons.
 const GROUP_REASON: Record<string, ReasonKey> = {
@@ -320,6 +320,7 @@ function Failures({ redwood, metas, skyway, skywayMetas, focus, bare, compact, e
   const [ownEnv, setEnv] = useState<FigureEnv>(skyway?.length ? "skyway" : "redwood");
   const env = fixedEnv ?? ownEnv;
   const [arch, setArch] = useState("overall");
+  const [measure, setMeasure] = useState<RuleMeasure>("f1");
   const sky = env === "skyway" && !!skyway?.length && !!skywayMetas;
   const rows: (ReasonRow & { rate: number })[] = [];
   const points: RecallPoint[] = [];
@@ -369,8 +370,7 @@ function Failures({ redwood, metas, skyway, skywayMetas, focus, bare, compact, e
             title: "Who caused the failures",
             body: "Every failed ticket is traced to a cause, and every cause to the builder or the agent.",
             points: !Object.values(all).some((v) => v > 0) ? [] : sky ? [
-              <><b>Large doc sets cause more build failures.</b> With over 10,000 pages, builders lose more rule details before the agent ever sees a ticket.</>,
-              <><b>Agents act before asking.</b> Failing to ask the customer for missing details is one of the main reasons tickets fail.</>,
+              <><b>Most failures are the agent&apos;s, not the builder&apos;s.</b> A builder&apos;s failure is a rule that never reached the agent. Most agent failures happen with the rule in hand, often beside old versions of it. So most of the gain is in what the agent does with its knowledge.</>,
             ] : [
               <><b>Finding the rule is easier than using it.</b> Most failed tickets happen even when the right rule is already in the agent&apos;s files.</>,
               <><b>When a ticket is unclear, agents guess instead of asking.</b> Instead of asking a follow-up question, they pick a default value, close the ticket early, or hand it off.</>,
@@ -379,21 +379,39 @@ function Failures({ redwood, metas, skyway, skywayMetas, focus, bare, compact, e
             chart: <ReasonBars rows={[{ label: sky ? "All runs" : "All builders", parts: all, bold: true }, ...rows]} focus={focus ? FOCUS_REASON[focus] : null} />,
           }];
           if (points.length > 0) zig.push({
-            title: "Rule recall vs pass rate",
-            body: "An agent built with all the rules can still fail to apply them to a ticket. Each mark is one builder's agent at one stage: how many of the rules its tickets needed were in the agent's files, against the share of tickets it passed.",
+            title: "Rules in the agent's files vs pass rate",
+            body: "An agent built with all the rules can still fail to apply them to a ticket. Each mark is one builder's agent at one stage, against the share of tickets it passed. Recall is the share of needed rules in its files, precision the share of the rules in its files that are current, and F1 combines the two.",
             points: sky ? [
-              <><b>Finding the right rule at runtime is harder than storing it.</b> Keeping every document gives high rule recall, but it does not produce correct answers on its own.</>,
-              <><b>Keeping the most rules does not mean the highest score.</b> The builder whose agents kept 99% of the rules still scored lower overall than two builders whose agents kept 88%.</>,
+              <><b>Rule recall correlated with pass rate more than rule precision did.</b> Agents that hold more of the needed rules pass more tickets, while old versions beside the current rule cost less, mostly because the agent can reconcile them at runtime.</>,
             ] : [
               <><b>Having the rule does not mean using it.</b> Even with nearly 100% rule recall, agents still fail about 25% of tickets.</>,
               <><b>Having the rules does not separate the builders.</b> Six builders kept 98% to 100% of the rules their completed stages needed, yet their overall pass rates still ranged from 60% to 80%.</>,
             ],
-            note: "The shaded band is rule recall below 0.9.",
-            chart: <RecallScatter points={points} height={340} />,
+            note: "The shaded band is below 0.9.",
+            chart: (
+              <>
+                <div className="mb-4"><Seg value={measure} onChange={setMeasure} options={[["f1", "F1"], ["recall", "Recall"], ["precision", "Precision"]]} /></div>
+                <RecallScatter points={points} measure={measure} height={340} />
+              </>
+            ),
           });
           return <div className="lp-top"><Zig rows={zig} /></div>;
         })()}
     </Sec>
+  );
+}
+
+/** The blog's rules chart: every builder's agent at every stage, on the measure the toggle picks (the home page's version sits in Failures). */
+function RulesFigure({ env, redwood, metas, skyway, skywayMetas }: { env: FigureEnv; redwood: Builder[]; metas: Metas; skyway: JobSummary[]; skywayMetas: Metas }) {
+  const [measure, setMeasure] = useState<RuleMeasure>("f1");
+  const points = env === "skyway"
+    ? skyway.flatMap((j, i) => recallPoints(shortModel(j.builder.model), skywayMetas[i]))
+    : redwood.flatMap((b, i) => recallPoints(b.model, metas[i]));
+  return (
+    <>
+      <div className="mb-4"><Seg value={measure} onChange={setMeasure} options={[["f1", "F1"], ["recall", "Recall"], ["precision", "Precision"]]} /></div>
+      <RecallScatter points={points} measure={measure} height={300} />
+    </>
   );
 }
 
@@ -762,7 +780,7 @@ function Closing({ last, skywayTask }: { last: string | null; skywayTask: string
 }
 
 /** One landing figure on its own, from live data, for the blog post. */
-export type FigureName = "results" | "failures" | "architecture" | "packs";
+export type FigureName = "results" | "failures" | "rules" | "architecture" | "packs";
 /** Which environment a figure that has both shows; the blog's figure frame holds the toggle. */
 export type FigureEnv = "redwood" | "skyway";
 /** compact (the blog): shorter versions of the same charts, for its narrow column. */
@@ -773,6 +791,7 @@ export function LandingFigure({ name, compact, env = "redwood" }: { name: Figure
   const [focus, setFocus] = useState<FailureGroup | null>(null);
   if (name === "results") return <Results bare compact={compact} env={env} redwood={c.redwood} metas={metas} skyway={c.skywayArch} skywayMetas={archMetas} />;
   if (name === "failures") return <Failures bare compact={compact} env={env} redwood={c.redwood} metas={metas} skyway={c.skywayArch} skywayMetas={archMetas} focus={focus} onFocus={setFocus} />;
+  if (name === "rules") return <RulesFigure env={env} redwood={c.redwood} metas={metas} skyway={c.skywayArch} skywayMetas={archMetas} />;
   if (name === "architecture") return <Architecture bare runs={c.skywayArch} metas={archMetas} />;
   return <Packs packs={c.packs} />;
 }

@@ -167,23 +167,19 @@ Neither extreme is safe.
 
 <!-- figure:failures -->
 
-Builders also cause failures, and each builder makes a different mistake.
+#### Most failures are the agent's, not the builder's
 
-Sonnet 5.5 is the only builder that loses rules on Redwood Inference. It loses them when it updates the agent, not when
-it first builds it. At each new stage it checks which doc files have changed since its last build. This finds the pages
-that were edited, but not the pages that were added, so the rules on the new pages never reach the agent.
+A builder's failure is a rule that never reached the agent (a recall problem). Most failed tickets are the agent's: it holds the rule, often beside old versions of it (a precision problem), and still ends the ticket in the wrong state or never asks the customer for a fact it needs. So most of the gain is in what the agent does with its knowledge, not only in what the builder gives it.
 
-Carbon reads the docs in detail before it writes anything. On Skyway Air this often takes the whole build time. In
-several stages the build ends before Carbon writes its notes, so the agent does not start, or starts without the rules.
-Its first build on Redwood Inference also ends early, because its reply reaches the length limit.
+### Rules in the agent's files vs pass rate
 
-DeepSeek and GLM write prompts that are too long. The agent can send at most 12,000 tokens to its model in one call.
-When DeepSeek rewrites the agent's instructions at a new stage, it adds the new rules but does not check the length.
-The prompt goes over the limit, and almost every ticket in that stage fails. GLM does the same in some of its Skyway Air
-builds.
+<!-- figure:rules -->
 
-6.1 Sol rarely loses a rule in either company, because it keeps every doc. Its failures are caused by the agent
-instead. The agent has both the current and the old versions of each rule, and it often uses an old one.
+#### Rule recall correlated with pass rate more than rule precision did
+
+Agents that hold more of the needed rules pass more tickets. Old versions beside the current rule cost less, probably because the agent can reconcile them at runtime. On a hotel-refund ticket, agents that held three or four old versions of the rules still passed 14 times out of 14.
+
+The clearest proof is raw docs with a terminal. Its agents read every document, so old versions are on hand for every ticket, and only 68% of the rules they hold are current. Yet it passes about 6 in 10 tickets, the same as prompts and workflows, where 97% are current. Raw docs behind a retrieval index has the opposite problem: its rules are mostly current, but it is missing 3 in 10 of the ones it needs, and it passes only half. So of the two ways a ticket goes wrong, a missing rule is the costlier: tickets missing a rule fail about 5 times in 10, against 4 in 10 for tickets with old versions beside the rule.
 
 ## Pass rate by architecture
 

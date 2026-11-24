@@ -23,7 +23,7 @@ type Stage = Record<string, any>; // eslint-disable-line @typescript-eslint/no-e
 const trim = (v: Stage): Stage => ({
   passed: v.passed, total: v.total, ticket_types: v.ticket_types, failure_taxonomy: v.failure_taxonomy,
   behavior_coverage: v.behavior_coverage ? { n_behaviors: v.behavior_coverage.n_behaviors } : v.behavior_coverage,
-  facts: v.facts ? { rule_recall: v.facts.rule_recall } : v.facts,
+  facts: v.facts ? { rule_recall: v.facts.rule_recall, rule_precision: v.facts.rule_precision } : v.facts,
   architecture: v.architecture ? { observed: v.architecture.observed ? { knowledge_access: v.architecture.observed.knowledge_access, model_calls_avg: v.architecture.observed.model_calls_avg } : v.architecture.observed } : v.architecture,
   latency: v.latency ? { ticket: v.latency.ticket ? { median: v.latency.ticket.median } : v.latency.ticket } : v.latency,
   cost: v.cost ? { bot: v.cost.bot ? { in: v.cost.bot.in, usd: v.cost.bot.usd } : v.cost.bot } : v.cost,

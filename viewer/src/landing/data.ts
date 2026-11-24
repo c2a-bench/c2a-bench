@@ -102,7 +102,7 @@ export type MetaStage = {
   total: number;
   ticket_types?: Partial<Record<"discovery" | "regression" | "adaptability", Count>>;
   behavior_coverage?: { n_behaviors?: number } | null;
-  facts?: { rule_recall?: number | null } | null;
+  facts?: { rule_recall?: number | null; rule_precision?: number | null } | null;
   failure_taxonomy?: { by_group?: Record<string, number>; by_type?: Record<string, { party?: string | null; group?: string | null; count: number }> } | null;
   architecture?: { observed?: { knowledge_access?: string[]; model_calls_avg?: number | null } | null } | null;
   latency?: { ticket?: { median?: number | null } | null } | null;

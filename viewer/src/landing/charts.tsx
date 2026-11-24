@@ -74,7 +74,17 @@ export type StageRow = { model: string; harness: string; color: string; shape: S
  *  split evenly between the parties blamed for it, then between that party's groups. Keys are "Builder|group", "Agent|group". */
 export type FailureRow = { model: string; harness: string; failed: number; total: number; rate: number; groups: Map<string, number>; crashedStages: number };
 
-export type RecallPoint = { model: string; color: string; shape: Shape; stage: number; recall: number; pass: number };
+export type RecallPoint = { model: string; color: string; shape: Shape; stage: number; recall: number; precision: number | null; pass: number };
+export type RuleMeasure = "f1" | "recall" | "precision";
+const MEASURE_NAME: Record<RuleMeasure, string> = { f1: "Rule F1", recall: "Rule recall", precision: "Rule precision" };
+const MEASURE_AXIS: Record<RuleMeasure, string> = {
+  f1: "Rule F1: recall and precision together",
+  recall: "Rule recall: needed facts in the agent's files",
+  precision: "Rule precision: share of the agent's rules that are current",
+};
+/** One mark's value on the chosen measure; null when the run has no precision score. */
+const measureOf = (p: RecallPoint, m: RuleMeasure): number | null =>
+  m === "recall" ? p.recall : p.precision == null ? null : m === "precision" ? p.precision : p.recall + p.precision === 0 ? 0 : (2 * p.recall * p.precision) / (p.recall + p.precision);
 
 // ---------------- plot 3: architecture ----------------
 
@@ -171,12 +181,14 @@ function TipFrame({ tip, w, children }: { tip: TipState; w: number; children: Re
   );
 }
 
-export function RecallScatter({ points, height = 300 }: { points: RecallPoint[]; height?: number }) {
+export function RecallScatter({ points: all, measure = "recall", height = 300 }: { points: RecallPoint[]; measure?: RuleMeasure; height?: number }) {
+  const points = all.filter((p) => measureOf(p, measure) != null);
+  const val = (p: RecallPoint) => measureOf(p, measure) as number;
   const [ref, w] = useWidth<HTMLDivElement>();
   const [tip, setTip] = useState<TipState>(null);
   const h = height;
   const m = { l: 40, r: 12, t: 10, b: 40 };
-  const lo = Math.min(0.4, ...points.map((p) => p.recall)) - 0.02;
+  const lo = Math.min(0.4, ...points.map(val)) - 0.02;
   const x = (v: number) => m.l + ((v - lo) / (1.02 - lo)) * (w - m.l - m.r);
   const y = (v: number) => m.t + (1 - v) * (h - m.t - m.b);
   const near = (ev: React.PointerEvent<SVGSVGElement>) => {
@@ -184,17 +196,17 @@ export function RecallScatter({ points, height = 300 }: { points: RecallPoint[];
     const mx = ev.clientX - b.left, my = ev.clientY - b.top;
     let best: RecallPoint | null = null, d = 24 * 24;
     for (const p of points) {
-      const dd = (x(p.recall) - mx) ** 2 + (y(p.pass) - my) ** 2;
+      const dd = (x(val(p)) - mx) ** 2 + (y(p.pass) - my) ** 2;
       if (dd < d) (d = dd), (best = p);
     }
-    setTip(best && { x: x(best.recall), y: y(best.pass), body: <><div className="font-medium">{star(best.model)} · stage {best.stage}</div><div className="num">Rule recall {best.recall.toFixed(2)} · passed {pct(best.pass)}</div></> });
+    setTip(best && { x: x(val(best)), y: y(best.pass), body: <><div className="font-medium">{star(best.model)} · stage {best.stage}</div><div className="num">{MEASURE_NAME[measure]} {val(best).toFixed(2)} · passed {pct(best.pass)}</div></> });
   };
   const ticks = [0.4, 0.6, 0.8, 1].filter((t) => t >= lo);
   return (
     <div ref={ref}>
       {w > 0 && (
         <TipFrame tip={tip} w={w}>
-          <svg width={w} height={h} onPointerMove={near} onPointerDown={near} onPointerLeave={() => setTip(null)} role="img" aria-label="Rule recall against stage pass rate">
+          <svg width={w} height={h} onPointerMove={near} onPointerDown={near} onPointerLeave={() => setTip(null)} role="img" aria-label={`${MEASURE_NAME[measure]} against stage pass rate`}>
             <rect x={x(lo)} y={m.t} width={x(0.9) - x(lo)} height={h - m.t - m.b} fill="color-mix(in srgb, var(--ink) 5%, transparent)" />
             {[0, 0.25, 0.5, 0.75, 1].map((v) => (
               <g key={v}>
@@ -205,9 +217,9 @@ export function RecallScatter({ points, height = 300 }: { points: RecallPoint[];
             {ticks.map((t) => (
               <text key={t} x={x(t)} y={h - 22} textAnchor="middle" fontSize={12} fill="var(--muted)">{t.toFixed(1)}</text>
             ))}
-            <text x={(m.l + w - m.r) / 2} y={h - 4} textAnchor="middle" fontSize={12} fill="var(--muted)">Rule recall: needed facts in the agent's files</text>
+            <text x={(m.l + w - m.r) / 2} y={h - 4} textAnchor="middle" fontSize={12} fill="var(--muted)">{MEASURE_AXIS[measure]}</text>
             {points.map((p, i) => (
-              <Mark key={i} shape={p.shape} x={x(p.recall)} y={y(p.pass)} r={4.2} color={p.color} />
+              <Mark key={i} shape={p.shape} x={x(val(p))} y={y(p.pass)} r={4.2} color={p.color} />
             ))}
           </svg>
         </TipFrame>
