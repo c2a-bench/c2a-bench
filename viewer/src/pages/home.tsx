@@ -585,7 +585,6 @@ function Packs({ packs, bare }: { packs: Builder[]; bare?: boolean }) {
               points: [
                 <><b>Missing facts cause the biggest drop.</b> With facts removed, agents pass 14 points fewer tickets, in all seven builders, because they guess instead of leaving the field alone or handing the ticket to a person. Gaps in the docs cost more than messy pages.</>,
                 <><b>Contradicting and noisy pages do not hurt.</b> Pass rates stay within a few points of the complete docs (79% and 81% against 78%), as builders leave out old pages and skip unrelated ones. Clearly marked old pages do little harm.</>,
-                <><b>Splitting rules across pages costs a little.</b> About 6 points, almost all from two builders, DeepSeek and Carbon.</>,
               ],
               note: "Same tickets in every pack; only the docs change.",
               chart: <ChangePanels panels={panels} />,

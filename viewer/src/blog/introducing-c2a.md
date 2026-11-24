@@ -255,7 +255,7 @@ They also tell the customer that the request has been sent to the platform team.
 
 ### Contradicting and noisy pages do not hurt
 
-The other three packs have only 20 to 60 docs each, so every builder reads every page. Most of the mess is cleaned up
+The other packs have only 20 to 60 docs each, so every builder reads every page. Most of the mess is cleaned up
 by the builder, before the customer support agent ever sees it.
 
 In the conflicting pack, extra pages disagree with the real policy. Most of these pages are marked as old, for example
@@ -264,10 +264,6 @@ pages out of their notes. 6 Astra keeps all of them, but its customer support ag
 three score about the same as with the complete docs, so a clearly marked old page does little harm.
 
 In the noisy pack, the extra pages are about topics that have nothing to do with the tickets, so they are easy to skip and the score barely moves (81% against 78%). The cost can still rise: a builder that copies the extra pages into the agent's prompt pays far more at runtime, as the section on cheap builders below shows.
-
-### Splitting rules across pages costs a little
-
-In the fragmented pack, each rule is split across several pages. The builders put the pieces back together when they write their notes, so the customer support agents still have almost every rule. The pack costs about 6 points, almost all of it from DeepSeek and Carbon.
 
 ## How the models behave
 
