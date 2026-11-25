@@ -4,7 +4,7 @@
  *  - BehaviourViewer: the 14 customer behaviours, each with a short real exchange (Redwood runs) and what it tests.
  * The numbers are fixed here (from the published runs), not loaded.
  */
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, type CSSProperties } from "react";
 import { Pause, Play, RotateCcw } from "lucide-react";
 
 /** How the bench works, as a small animated diagram: the docs (and what changed), the builder building or updating the
@@ -284,17 +284,16 @@ export function CustomerTypeViewer() {
         <div className="ct-track ct-axis">{[0, 25, 50, 75, 100].map((v) => <span key={v} style={{ left: `${v}%` }}>{v}%</span>)}</div>
         <span />
       </div>
-      <ul className="ct-rows">
+      <ul className="ct-rows" style={{ "--base": base / 100 } as CSSProperties}>
         {rows.map(([k, v]) => (
           <li key={k} className="ct-row" aria-label={`${typeName(k)}: ${MEASURE[m].label.toLowerCase()} ${Math.round(v[at])}%, ${v[0]} tickets`}
             title={`${typeName(k)}\npass rate ${v[2].toFixed(0)}%\ncustomer facts recall ${v[3].toFixed(0)}%\n${v[0]} tickets, ${v[1].toLocaleString()} attempts`}>
             <span className="ct-name">{typeName(k)}</span>
-            <div className="ct-track"><span className="ct-avg" style={{ left: `${base}%` }} /><span className="ct-bar" style={{ width: `${v[at]}%`, background: color }} /></div>
+            <div className="ct-track"><span className="ct-bar" style={{ width: `${v[at]}%`, background: color }} /></div>
             <b className="ct-val num">{Math.round(v[at])}%</b>
           </li>
         ))}
       </ul>
-      <p className="muted ct-foot">Each ticket always has the same customer behavior, so a behavior's rate also reflects the tickets it was given. The dashed line marks the baseline customer.</p>
     </div>
   );
 }

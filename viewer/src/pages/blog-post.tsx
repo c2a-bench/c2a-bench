@@ -17,48 +17,52 @@ import { LandingFigure, Seg, type FigureEnv, type FigureName } from "@/pages/hom
 import { TicketViewer, BehaviourViewer, CustomerTypeViewer } from "@/blog/viewers";
 import "@/landing/landing.css";
 
-/** `skyway` (with its own caption) gives the figure a Redwood / Skyway toggle; the figure opens on Redwood. */
-const FIGURES: Record<FigureName, { title: string; from: string; caption: string; href: string; skyway?: string }> = {
+/** `hasSkyway` gives the figure a Redwood / Skyway toggle (opening on Redwood). `sub` sits right under the header (what is
+ *  plotted, only when not obvious from the title and axes); `caption` sits much below in fine print (caveats only). */
+const FIGURES: Record<FigureName, { title: string; from: string; sub?: string; skywaySub?: string; note?: string; caption?: string; hasSkyway?: boolean; href: string }> = {
   results: {
     title: "Pass rate by builder",
     from: "Redwood Inference",
-    caption: "Each column is one builder, every one run with high reasoning effort.",
-    skyway: "Each column is one builder, pooled over the six architectures it was assigned, every one run with high reasoning effort.",
+    skywaySub: "Pooled across the six architectures each builder was assigned.",
+    note: "All runs at high reasoning effort",
+    hasSkyway: true,
     href: "/#results",
   },
   failures: {
     title: "Failure reasons by builder",
     from: "Redwood Inference",
-    caption: "Each bar splits a builder's failure reasons: warm colours are the builder's fault, blue ones the agent's. Every builder ran with high reasoning effort. Hover a segment for its share.",
-    skyway: "Each bar splits a builder's failure reasons over all six architectures it built: warm colours are the builder's fault, blue ones the agent's. Every builder ran with high reasoning effort. Hover a segment for its share.",
+    skywaySub: "Pooled across the six architectures each builder built.",
+    caption: "A failed ticket can have more than one reason, so bars show each reason's share of all reasons found. A stage where the agent never started counts all its tickets as built wrong.",
+    hasSkyway: true,
     href: "/#failures",
   },
   rules: {
     title: "Rules in the agent's files against pass rate",
     from: "Redwood Inference",
-    caption: "Each mark is one builder's agent at one stage. Recall is the share of needed rules in its files, precision the share of its rules that are current, and F1 combines the two.",
-    skyway: "Each mark is one builder's agent at one stage, over the six architectures. Recall is the share of needed rules in its files, precision the share of its rules that are current, and F1 combines the two.",
+    sub: "Each mark is one builder's agent at one stage. Recall is the share of needed rules in its files; precision is the share that are current.",
+    skywaySub: "Each mark is one builder's agent for one architecture at one stage. Recall is the share of needed rules in its files; precision is the share that are current.",
+    hasSkyway: true,
     href: "/#failures",
   },
   architecture: {
     title: "Share of tickets passed, by architecture",
     from: "Skyway Air",
-    caption: "Six builders (high reasoning effort), each building all six assigned architectures; each bar pools their runs, and the dashed line is the average. Hover a row for its numbers.",
+    sub: "Pooled across the six builders that built each architecture.",
     href: "/#architecture",
   },
   packs: {
     title: "Pass rate change on each changed pack",
     from: "Knowledge perturbations",
-    caption: "Each bar is one builder's gain or loss on a changed pack against its own complete-docs score; the big number is the typical change. Every builder ran with high reasoning effort.",
+    sub: "Percentage-point change from each builder's complete-docs score on the same 67 tickets; the headline number is the median across builders.",
     href: "/#context",
   },
 };
 
-const VIEWERS: Record<string, { kicker: string; title: string; caption?: string; href?: string; link?: string; View: () => ReactNode }> = {
+const VIEWERS: Record<string, { kicker: string; title: string; sub?: string; caption?: string; href?: string; link?: string; View: () => ReactNode }> = {
   ticket: {
     kicker: "One ticket, six stages",
     title: "How a ticket changes",
-    caption: "A simplified demo of one ticket, based on a real Skyway Air ticket and run (knowledge-graph design) where the agent really did fail at stage 3. Click a stage to replay it.",
+    caption: "Simplified from a real Skyway Air ticket and knowledge-graph run that failed at stage 3.",
     href: "/#environments",
     link: "See the environments",
     View: TicketViewer,
@@ -66,7 +70,7 @@ const VIEWERS: Record<string, { kicker: string; title: string; caption?: string;
   behaviours: {
     kicker: "The simulated customer",
     title: "Customer behaviors",
-    caption: "Each ticket gives the customer one of these behaviors. It changes how the customer shares the facts, never the facts themselves or the right answer. Each example is a real exchange from a run, trimmed.",
+    caption: "Real exchanges from Redwood Inference runs, trimmed for length.",
     href: "/#environments",
     link: "See the environments",
     View: BehaviourViewer,
@@ -74,14 +78,15 @@ const VIEWERS: Record<string, { kicker: string; title: string; caption?: string;
   "customer-types": {
     kicker: "Across every run",
     title: "Pass rate and customer facts recall by customer behavior",
-    caption: "Pooled over every Redwood Inference and Skyway Air run. Pass rate is the share of tickets passed; customer facts recall is the share of the customer's facts the agent got them to share. Switch between them above the chart.",
+    sub: "Pooled across all Redwood Inference and Skyway Air runs. Customer facts recall is the share of the customer's private facts the agent elicited.",
+    caption: "Each ticket has a fixed customer behavior, so a behavior's rate also reflects which tickets were assigned to it.",
     href: "/#context",
     link: "See it on the home page",
     View: CustomerTypeViewer,
   },
 };
 
-function Frame({ kicker, title, note, caption, href, link, right, children }: { kicker: string; title?: string; note?: string; caption?: string; href?: string; link?: string; right?: ReactNode; children: ReactNode }) {
+function Frame({ kicker, title, sub, note, caption, href, link, right, children }: { kicker: string; title?: string; sub?: ReactNode; note?: string; caption?: string; href?: string; link?: string; right?: ReactNode; children: ReactNode }) {
   const inner = !href ? null : <Link to={href}>{link} <ArrowRight className="inline size-3.5" /></Link>;
   return (
     <figure className="lp-figure">
@@ -94,11 +99,13 @@ function Frame({ kicker, title, note, caption, href, link, right, children }: { 
         <div className="caps muted">{kicker}</div>
       )}
       {title && <div className="lp-figure-title">{title}</div>}
+      {sub && <p className="lp-chart-sub">{sub}</p>}
       {note && <div className="lp-figure-note"><span aria-hidden="true">★</span> {note}</div>}
       <div className="lp-figure-body">{children}</div>
       {(caption || inner) && (
-        <figcaption>
-          {caption} {inner && <span className="lp-figure-link">{inner}</span>}
+        <figcaption className="lp-chart-note">
+          {caption && <span>{caption}</span>}
+          {inner && <span className="lp-figure-link">{inner}</span>}
         </figcaption>
       )}
     </figure>
@@ -313,10 +320,10 @@ function TocRail({ items }: { items: TocItem[] }) {
 function ChartFigure({ name }: { name: FigureName }) {
   const f = FIGURES[name];
   const [env, setEnv] = useState<FigureEnv>("redwood");
-  const sky = env === "skyway" && !!f.skyway;
-  const toggle = f.skyway ? <Seg value={env} onChange={setEnv} options={[["redwood", "Redwood Inference"], ["skyway", "Skyway Air"]]} /> : undefined;
+  const sky = env === "skyway" && !!f.hasSkyway;
+  const toggle = f.hasSkyway ? <Seg value={env} onChange={setEnv} options={[["redwood", "Redwood Inference"], ["skyway", "Skyway Air"]]} /> : undefined;
   return (
-    <Frame kicker={`From: ${sky ? "Skyway Air" : f.from}`} title={f.title} note="All runs at high reasoning effort" caption={sky ? f.skyway : f.caption} href={f.href} link="See it on the results page" right={toggle}>
+    <Frame kicker={`From: ${sky ? "Skyway Air" : f.from}`} title={f.title} sub={sky ? f.skywaySub ?? f.sub : f.sub} note={f.note} caption={f.caption} href={f.href} link="See it on the results page" right={toggle}>
       <Suspense fallback={<div className="lp-figure-wait muted">Loading the latest runs…</div>}>
         <LandingFigure name={name} env={sky ? "skyway" : "redwood"} compact />
       </Suspense>
@@ -336,7 +343,7 @@ function Body({ md }: { md: string }) {
     if (kind === "figure" && name in VIEWERS) {
       const v = VIEWERS[name];
       out.push(
-        <Frame key={name} kicker={v.kicker} title={v.title} caption={v.caption} href={v.href} link={v.link}>
+        <Frame key={name} kicker={v.kicker} title={v.title} sub={v.sub} caption={v.caption} href={v.href} link={v.link}>
           <v.View />
         </Frame>,
       );
