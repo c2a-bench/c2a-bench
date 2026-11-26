@@ -1,0 +1,20 @@
+{
+  "space": "customer-success-and-support",
+  "author": "Kai Moreno",
+  "owner_team": "customer-success",
+  "status": "published",
+  "confidentiality": "internal",
+  "title_field_name": "title",
+  "content_field_names": [
+    "content"
+  ],
+  "title": "How customers subscribe to the public banner",
+  "created_at": "2025-12-01",
+  "last_updated": "2026-06-18",
+  "labels": [
+    "support",
+    "comms",
+    "banner"
+  ],
+  "content": "# Purpose\nCustomers can subscribe by email or webhook to the public banner we post when we declare a platform incident. This page is the how-to for that subscription.\n\n# When to use\nThey ask how to get notified, how to add a second email, or why they did not get a banner email. They are not reporting that they are still seeing errors during an already-posted incident.\n\n# Steps\nConsole \u2192 Status \u2192 Subscribe. They may add up to 20 emails and one webhook. Filters are by region. We do not add them by hand.\n\n# Priority and routing\nSubscription how-tos are P4, Support, no escalated label. Do not change priority to P0 because they mentioned timeouts in the same sentence as 'how do I subscribe'.\n\n# If they are reporting impact\nIf the real ask is 'you already posted this and we are still down', this page is the wrong page. Use the page about incidents that are already posted. Do not use this how-to to set P4 on an impact report.\n\n# Related\nPublic banner FAQ. Incident commander page for new multi-customer events."
+}

@@ -1,0 +1,12 @@
+{
+  "title": "Data residency questionnaire: label",
+  "space": "customer-success-and-support",
+  "author": "Priya Raman",
+  "owner_team": "customer-success",
+  "status": "published",
+  "created_at": "2026-09-12",
+  "last_updated": "2026-09-12",
+  "labels": ["support", "residency"],
+  "confidentiality": "internal",
+  "content": "# Label\nData residency questionnaires get the label residency-review.\n"
+}

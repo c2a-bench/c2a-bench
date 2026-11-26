@@ -1,0 +1,12 @@
+{
+  "title": "Data residency questionnaire: priority",
+  "space": "customer-success-and-support",
+  "author": "Priya Raman",
+  "owner_team": "customer-success",
+  "status": "published",
+  "created_at": "2026-09-12",
+  "last_updated": "2026-09-12",
+  "labels": ["support", "residency"],
+  "confidentiality": "internal",
+  "content": "# Priority\nData residency questionnaires are priority P2.\n"
+}

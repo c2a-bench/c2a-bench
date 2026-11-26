@@ -1,0 +1,20 @@
+{
+  "space": "customer-success-and-support",
+  "author": "Kai Moreno",
+  "owner_team": "customer-success",
+  "status": "published",
+  "confidentiality": "internal",
+  "title_field_name": "title",
+  "content_field_names": [
+    "content"
+  ],
+  "title": "ISO 27001 certification pack for Redwood (vendor review)",
+  "created_at": "2026-02-14",
+  "last_updated": "2026-08-01",
+  "labels": [
+    "support",
+    "compliance",
+    "iso"
+  ],
+  "content": "# Purpose\nProcurement teams at our customers often ask for Redwood's ISO 27001 certificate and statement of applicability. This page is that vendor-review pack. It is not a request to place the customer's records in their cloud.\n\n# When to use\nThe writer is a procurement or GRC person asking whether Redwood is ISO 27001 certified, asking for the certificate PDF, or asking us to fill Redwood's column on their vendor spreadsheet.\n\n# When not to use\nIf they want their own records sitting in a bucket they own before their people arrive on site, this is the wrong page. Stop. That is a customer-managed export, not a vendor pack.\n\n# Priority and routing\nISO vendor packs are priority P3 and assigned to Legal. Add the label vendor-iso. Do not assign Eng Infra or Eng Platform. Do not page anyone.\n\n# What Legal sends\nThe current ISO 27001 certificate, the statement of applicability summary, and the public subprocessor list. We do not fill free-form spreadsheets that ask for employee home addresses or production IPs.\n\n# Deadlines\nA customer's on-site visit is not a reason to raise this ticket. The certificate already exists. Legal sends it in the normal P3 queue.\n\n# Customer reply\nRedwood is ISO 27001 certified. Legal will send the certificate. If you need your own Redwood records in your cloud, say that clearly and we will open a different request.\n\n# Related\nSOC 2 evidence pack. Vendor questionnaire pages. Not the customer-managed export SOP."
+}

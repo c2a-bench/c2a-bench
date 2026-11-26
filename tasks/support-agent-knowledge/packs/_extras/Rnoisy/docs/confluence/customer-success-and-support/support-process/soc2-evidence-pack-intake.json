@@ -1,0 +1,20 @@
+{
+  "space": "customer-success-and-support",
+  "author": "Kai Moreno",
+  "owner_team": "customer-success",
+  "status": "published",
+  "confidentiality": "internal",
+  "title_field_name": "title",
+  "content_field_names": [
+    "content"
+  ],
+  "title": "SOC 2 evidence pack intake (Trust Center)",
+  "created_at": "2026-03-01",
+  "last_updated": "2026-08-12",
+  "labels": [
+    "support",
+    "compliance",
+    "soc2"
+  ],
+  "content": "# Purpose\nHow Support and Customer Success collect a SOC 2 Type II evidence pack when a prospect or customer asks for Redwood's own controls. This is not a request to ship the customer's platform event stream to their cloud.\n\n# When to use\nUse this page when someone asks for our SOC 2 report, a Trust Center link, a pentest letter, or a controls matrix. Do not use this page when they want their own Redwood platform events copied to a bucket they own.\n\n# Intake\nCollect company name, who will receive the pack (email), whether they need the latest Type II report or only the bridge letter, and the NDA status. File the ticket as a sales-assist request.\n\n# Priority and routing\nThese packs are priority P3. Assign Legal. Add the label trust-center. First response is 1bd. Do not page Engineering. Do not treat a deadline for their own auditor as a reason to raise this to P1.\n\n# What we send\nLegal sends the current SOC 2 Type II PDF, the latest bridge letter, and the public architecture whitepaper. We do not send raw control evidence, employee lists, or production configs.\n\n# What we do not send\nWe do not enable a connector. We do not create a cloud sink. We do not copy customer-owned records. If they actually want their own event stream in their cloud, stop and open a different ticket using the customer-managed export SOP.\n\n# Customer reply\nThanks for asking for our SOC 2 pack. Legal will send the Trust Center link after NDA. If you instead need your own Redwood records in your cloud, say so and we will open a separate request.\n\n# Related\nTrust Center access. NDA process. This page does not replace the customer-managed export SOP."
+}

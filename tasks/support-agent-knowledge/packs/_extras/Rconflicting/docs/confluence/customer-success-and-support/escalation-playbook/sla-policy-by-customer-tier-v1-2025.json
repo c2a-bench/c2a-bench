@@ -1,0 +1,27 @@
+{
+  "title": "Support SLA Policy by Customer Tier (v1)",
+  "space": "customer-success-and-support",
+  "author": "Rachel Kim",
+  "owner_team": "customer-success",
+  "status": "archived",
+  "created_at": "2025-03-12",
+  "last_updated": "2025-09-30",
+  "reviewers": [
+    "Dev Patel",
+    "Sean Gallagher"
+  ],
+  "labels": [
+    "support",
+    "sla",
+    "customer-success"
+  ],
+  "related_pages": [
+    "confluence://customer-success-and-support/escalation-playbook/severity-matrix-and-escalation-triggers"
+  ],
+  "confidentiality": "internal",
+  "body": "## Purpose\nFirst response targets for Support tickets by customer tier.\n\n## First response targets\n| Priority | Self-serve (Hosted API) | Dedicated | Private | Enterprise |\n|---|---:|---:|---:|---:|\n| **P0** | 2 hours (BH) | 30 min (24/7) | 30 min (24/7) | 15 min (24/7) |\n| **P1** | 8 hours (BH) | 60 min (24/7) | 60 min (24/7) | 30 min (24/7) |\n| **P2** | 2 business days | 8 hours (BH) | 8 hours (BH) | 4 hours (BH) |\n| **P3** | 2 business days | 2 business days | 2 business days | 1 business day |\n| **P4** | 5 business days | 5 business days | 5 business days | 2 business days |\n\n## Notes\n- Dedicated and Private P0/P1 are covered 24/7; everything else is business hours.\n- Update cadence is agreed per ticket with the customer.\n\n## Changelog\n- **2025-09-30:** Minor wording fixes.\n- **2025-03-12:** Initial publication.",
+  "title_field_name": "title",
+  "content_field_names": [
+    "body"
+  ]
+}

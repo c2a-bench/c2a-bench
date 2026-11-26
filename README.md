@@ -120,6 +120,8 @@ Each task's `SOURCE.md` says how its docs, rules and tickets were made, and how 
 
 - [`tasks/redwood-inference/SOURCE.md`](tasks/redwood-inference/SOURCE.md): rules and tickets from
   `tasks/redwood-inference/scripts`, on docs from EnterpriseRAG-Bench.
+- [`tasks/support-agent-knowledge/SOURCE.md`](tasks/support-agent-knowledge/SOURCE.md): the five knowledge packs, each
+  built from the complete one with one change, and the tickets, from `tasks/support-agent-knowledge/scripts`.
 - [`tasks/skyway-air/SOURCE.md`](tasks/skyway-air/SOURCE.md): rules and tickets from `tasks/skyway-air/scripts`, and
   docs written from the rules with the doc generator in [`tools/doc-gen`](tools/doc-gen/C2A.md).
 

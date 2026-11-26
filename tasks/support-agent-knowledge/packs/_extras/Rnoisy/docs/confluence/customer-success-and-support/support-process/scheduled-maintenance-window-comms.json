@@ -1,0 +1,19 @@
+{
+  "space": "customer-success-and-support",
+  "author": "Kai Moreno",
+  "owner_team": "customer-success",
+  "status": "published",
+  "confidentiality": "internal",
+  "title_field_name": "title",
+  "content_field_names": [
+    "content"
+  ],
+  "title": "Scheduled maintenance window communications",
+  "created_at": "2025-07-15",
+  "last_updated": "2026-02-20",
+  "labels": [
+    "support",
+    "maintenance"
+  ],
+  "content": "# Purpose\nHow Support talks about a scheduled maintenance window that we already announced. Maintenance is not an incident.\n\n# When to use\nThe customer asks whether this weekend's window is still on, which region is in the window, or whether they should drain traffic. The window is on the maintenance calendar, not the public incident banner.\n\n# Priority and routing\nQuestions about a published window are P4, Support. If the window overruns and customers are stuck, open a new incident using the severity matrix. Do not relabel a window question as a listed incident.\n\n# What Support says\nGive the start and end in UTC, the region, and the expected effect (brief reconnects, no data loss). Point at the calendar entry. Do not promise credits for a window we announced.\n\n# Related\nMaintenance calendar. Severity matrix for overruns only."
+}

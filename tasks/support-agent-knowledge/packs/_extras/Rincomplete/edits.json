@@ -1,0 +1,42 @@
+[
+  {
+    "file": "confluence/customer-success-and-support/escalation-playbook/sla-policy-by-customer-tier.json",
+    "old": "| **P0** | Escalate if any of: (1) multi-customer impact, (2) region-wide degradation, (3) auth/outage patterns, (4) safety/compliance concern. Start Support bridge and move to **#incidents** if it qualifies as an incident. | **Page immediately** per routing matrix. Start Support bridge within 15 min. If SRE declares incident, move to **#incidents**. | **Page immediately** to Private Deployments/Platform on-call + SRE as needed. Start bridge within 15 min. | **Page immediately** + notify CS lead. Start bridge within 15 min. Consider executive escalation protocol if revenue/brand risk is high. |",
+    "new": "| **P0** | Escalate if any of: (1) multi-customer impact, (2) region-wide degradation, (3) auth/outage patterns, (4) safety/compliance concern. Start Support bridge and move to **#incidents** if it qualifies as an incident. | **Escalate through standard triage** per routing matrix. Start Support bridge within 15 min. If SRE declares incident, move to **#incidents**. | **Escalate through standard triage** to Private Deployments/Platform on-call + SRE as needed. Start bridge within 15 min. | **Escalate through standard triage** + notify CS lead. Start bridge within 15 min. Consider executive escalation protocol if revenue/brand risk is high. |"
+  },
+  {
+    "file": "confluence/customer-success-and-support/support-process/audit-log-export-request-intake.json",
+    "old": "## 3) Legal/Privacy approval (conditional)\nEscalate to Legal/Privacy if:\n- cross-region export is requested\n- customer requests additional PII fields beyond standard audit schema\n- contract includes bespoke data residency clauses\n\n# Execution routing\nAfter approvals:\n- Hosted: route to Eng Platform oncall / platform ops\n- Dedicated: route to Eng Infra\n- Private: route to Private Deployments engineering (and the customer’s operator)\n\nSet assigned_team to this execution team when the ticket is filed; a Legal/Privacy review is tracked with needs_legal_review = true, not by assigning the ticket to Legal.\n",
+    "new": ""
+  },
+  {
+    "file": "confluence/customer-success-and-support/support-process/audit-log-export-request-intake.json",
+    "old": "- Private configuration guide\n",
+    "new": "- Private configuration guide\n\n\n# Open items\n- Routing owners by deployment mode: pending platform ownership update.\n- Legal/Privacy triggers for exports: pending Privacy review.\n"
+  },
+  {
+    "file": "confluence/customer-success-and-support/support-process/escalation-classification-and-tagging.json",
+    "old": "- Label one of: **offering-hosted**, **offering-dedicated**, **offering-private**\n- Only escalations (as defined above) get an offering label; other tickets get none.",
+    "new": "- Label the customer's deployment offering (exact label names TBD in the tagging refresh)."
+  },
+  {
+    "file": "confluence/customer-success-and-support/support-process/escalation-classification-and-tagging.json",
+    "old": "- Label one of the symptom labels. For timeouts: **symptom-timeout**",
+    "new": "- Label one of the symptom labels. - (symptom labels: see Support Ops; page under revision)"
+  },
+  {
+    "file": "confluence/customer-success-and-support/support-process/jira-field-guidelines-and-sla-timers.json",
+    "old": "   - `escalation_status = Eng engaged`",
+    "new": "   - `escalation_status` per on-call (value unpublished)"
+  },
+  {
+    "file": "confluence/customer-success-and-support/support-process/token-accounting-discrepancy-intake-and-triage.json",
+    "old": "2. Mark the SUP ticket label `token-accounting` and add the origin channel in the description (Slack/Gmail).",
+    "new": "2. Record the origin channel in the description (Slack/Gmail). Labeling guidance is not published yet."
+  },
+  {
+    "file": "confluence/customer-success-and-support/support-process/escalation-classification-and-tagging.json",
+    "old": "- label: escalated\n- label: symptom-timeout\n- exactly one offering label (offering-hosted/dedicated/private)",
+    "new": "- label: escalated\n- the symptom label\n- exactly one offering label"
+  }
+]

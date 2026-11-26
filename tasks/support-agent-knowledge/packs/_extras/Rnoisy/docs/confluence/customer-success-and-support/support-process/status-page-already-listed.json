@@ -1,0 +1,12 @@
+{
+  "title": "Incidents already listed on the status page",
+  "space": "customer-success-and-support",
+  "author": "Kai Moreno",
+  "owner_team": "customer-success",
+  "status": "published",
+  "created_at": "2026-09-20",
+  "last_updated": "2026-09-20",
+  "labels": ["support", "status-page", "severity"],
+  "confidentiality": "internal",
+  "content": "# Purpose\nThis page is newer than the severity matrix. When both apply, this page wins.\n\n# Already listed\nWhen a customer reports an incident already listed on the Redwood status page, do not open a second incident.\n\nAn incident already listed on the Redwood status page is priority P3 with first response 1bd.\n\nDo not add the label escalated. Engineering is already engaged through the status-page incident.\n"
+}

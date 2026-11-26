@@ -1,0 +1,19 @@
+{
+  "space": "customer-success-and-support",
+  "author": "Kai Moreno",
+  "owner_team": "customer-success",
+  "status": "published",
+  "confidentiality": "internal",
+  "title_field_name": "title",
+  "content_field_names": [
+    "content"
+  ],
+  "title": "Regional capacity watch (not an incident)",
+  "created_at": "2026-03-11",
+  "last_updated": "2026-08-19",
+  "labels": [
+    "support",
+    "capacity"
+  ],
+  "content": "# Purpose\nCapacity watch is an internal note that a region is near a queue limit. It is not a customer incident and we do not post a public banner for a watch.\n\n# When to use\nEngineering posted a watch in #capacity. A customer asks why a single model is slower. If only a subset of requests is slow and the rest succeed, this may be a watch, not a listed outage.\n\n# Priority and routing\nA watch with customers still succeeding is P2, Support, no escalated unless the severity matrix says otherwise. Do not treat a watch as 'already posted on the public banner'.\n\n# What Support says\nWe are watching capacity in that region. There is no banner because the region is not in incident. We will update if we post one.\n\n# Related\nCapacity on-call. Do not confuse with the already-posted incidents page."
+}
