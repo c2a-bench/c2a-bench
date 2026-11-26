@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about refunds after a cancellation or long delay.",
+  "files": [
+    {
+      "path": "sources/confluence/policy-and-compliance/change-log/refund-eligibility-update-for-departure-delays.json",
+      "description": "A short entry in the Skyway policy change log, dated between 2026-11-09 and 2026-12-01. It must contain these sentences word for word: \"A departure delay of 2+ hours (was 3) now gives a refund if the customer does not travel.\"; \"This applies to every request handled from December 1, whatever the date of the flight.\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    }
+  ],
+  "people": [
+    {
+      "name": "Janelle Ortiz",
+      "project_role": "Senior Manager, Customer Escalations"
+    },
+    {
+      "name": "Noah Feldman",
+      "project_role": "Support Supervisor, Disruption Care"
+    },
+    {
+      "name": "Tyrell Jackson",
+      "project_role": "Support Team Lead, Disruption Care"
+    }
+  ]
+}

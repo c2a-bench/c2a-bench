@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about meals during delays.",
+  "files": [
+    {
+      "path": "sources/confluence/policy-and-compliance/change-log/delay-meal-allowance-update.json",
+      "description": "A short entry in the Skyway policy change log, dated between 2026-09-08 and 2026-11-03. It must contain these sentences word for word: \"The delay meal allowance rises from $15 to $20.\"; \"This applies to every request handled from November 1, whatever the date of the flight.\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    }
+  ],
+  "people": [
+    {
+      "name": "Grace Duffy",
+      "project_role": "Support Team Lead, Refunds"
+    },
+    {
+      "name": "Peter Lawson",
+      "project_role": "Senior Customer Support Specialist"
+    },
+    {
+      "name": "Lydia Chen",
+      "project_role": "Customer Support Agent"
+    }
+  ]
+}

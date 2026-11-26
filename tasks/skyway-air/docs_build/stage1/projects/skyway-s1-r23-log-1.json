@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about schedule changes.",
+  "files": [
+    {
+      "path": "sources/confluence/policy-and-compliance/change-log/schedule-change-rights.json",
+      "description": "A short entry in the Skyway policy change log, dated between 2026-05-26 and 2026-06-30. It must contain these sentences word for word: \"New: a departure moved 2+ hours gives a full refund or a free move.\"; \"This applies to every request handled from July 1, whatever the date of the flight.\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    }
+  ],
+  "people": [
+    {
+      "name": "Isabel Torres",
+      "project_role": "Customer Support Agent"
+    },
+    {
+      "name": "Colin Barrett",
+      "project_role": "Director, Support Enablement"
+    },
+    {
+      "name": "Aisha Coleman",
+      "project_role": "Workforce Management Manager"
+    }
+  ]
+}

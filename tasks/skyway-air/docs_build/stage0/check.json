@@ -1,0 +1,452 @@
+{
+  "planned": {
+    "sources/confluence/customer-policies/delays-and-disruptions/what-skyway-controls.json": [],
+    "sources/slack/irregular-ops/cause-labels-for-today-s-disruption-notes.json": [],
+    "sources/slack/irregular-ops/cause-wording-for-disruption-notes.json": [],
+    "sources/slack/irregular-ops/clarifying-controllable-disruption-language-notes.json": [],
+    "sources/slack/irregular-ops/clarifying-controllable-disruption-language.json": [],
+    "sources/slack/support-team/clarifying-controllable-disruption-wording.json": [],
+    "sources/slack/support-team/clarifying-disruption-cause-language.json": [],
+    "sources/slack/support-team/quick-check-on-controllable-disruption-wording.json": [],
+    "sources/slack/irregular-ops/weather-vs-crew-cause-codes.json": [],
+    "sources/slack/support-team/atc-delay-cause-question.json": [],
+    "sources/confluence/customer-policies/delays-and-disruptions/hotels-during-disruptions.json": [],
+    "sources/confluence/support-playbooks/approvals-and-limits/approval-limits.json": [],
+    "sources/slack/irregular-ops/hotel-question-during-nashville-disruption.json": [],
+    "sources/slack/irregular-ops/hotel-question-for-delayed-rdu-connection.json": [],
+    "sources/slack/irregular-ops/hotel-question-for-diverted-passengers.json": [],
+    "sources/slack/irregular-ops/hotel-question-for-weather-disruption.json": [],
+    "sources/slack/support-escalations/hotel-approval-check-during-disruption.json": [],
+    "sources/slack/support-escalations/hotel-approval-question-during-overnight-disruption.json": [],
+    "sources/slack/support-escalations/hotel-authorization-for-delayed-rdu-travelers.json": [],
+    "sources/slack/support-escalations/hotel-booking-limit-check.json": [],
+    "sources/confluence/support-playbooks/case-handling/paying-reimbursements.json": [],
+    "sources/confluence/support-playbooks/case-handling/reimbursement-receipts-faq.json": [],
+    "sources/slack/refunds-desk/receipt-attached-after-reimbursement-request.json": [],
+    "sources/slack/refunds-desk/receipt-missing-from-hotel-reimbursement-case.json": [],
+    "sources/slack/refunds-desk/receipt-needed-before-reimbursement.json": [],
+    "sources/slack/support-team/receipt-review-for-disrupted-trip-claim.json": [],
+    "sources/slack/support-team/receipt-review-for-disrupted-trip-reimbursement.json": [],
+    "sources/slack/support-team/receipts-attached-to-reimbursement-case.json": [],
+    "sources/slack/support-team/receipts-check-for-reimbursement-case.json": [],
+    "sources/confluence/customer-policies/delays-and-disruptions/compensation.json": [],
+    "sources/confluence/support-playbooks/case-handling/disruption-compensation-quick-reference.json": [],
+    "sources/slack/irregular-ops/compensation-question-for-disrupted-connection.json": [],
+    "sources/slack/irregular-ops/customer-asking-for-cash-after-disruption.json": [],
+    "sources/slack/irregular-ops/delay-compensation-question-from-airport-desk.json": [],
+    "sources/slack/irregular-ops/delay-compensation-wording-for-airport-follow-up.json": [],
+    "sources/slack/support-policy-questions/compensation-question-for-a-disrupted-itinerary.json": [],
+    "sources/slack/support-policy-questions/compensation-question-for-disrupted-itinerary.json": [],
+    "sources/slack/support-policy-questions/question-on-disrupted-trip-compensation-case.json": [],
+    "sources/slack/irregular-ops/customer-question-on-short-notice-disruption-compensation.json": [],
+    "sources/slack/irregular-ops/disruption-compensation-pinned-notes.json": [],
+    "sources/slack/support-team/delay-credit-note.json": [],
+    "sources/confluence/customer-policies/baggage/delayed-bags.json": [],
+    "sources/confluence/support-playbooks/case-handling/delayed-bag-expenses-quick-reference.json": [],
+    "sources/slack/baggage-desk/clarifying-delayed-bag-cost-timing.json": [],
+    "sources/slack/baggage-desk/question-on-delayed-bag-cost-timing.json": [],
+    "sources/slack/baggage-desk/question-on-delayed-bag-expense-timing.json": [],
+    "sources/slack/baggage-desk/timing-question-on-delayed-bag-costs.json": [],
+    "sources/slack/support-team/delayed-bag-expense-documentation-question.json": [],
+    "sources/slack/support-team/delayed-bag-expense-receipts-question.json": [],
+    "sources/slack/support-team/receipts-question-on-a-delayed-bag-case.json": [],
+    "sources/slack/baggage-desk/summer-peak-delayed-bag-handling.json": [],
+    "sources/confluence/customer-policies/baggage/claim-deadlines.json": [],
+    "sources/slack/baggage-desk/customer-asking-about-a-damaged-checked-bag.json": [],
+    "sources/slack/baggage-desk/question-on-a-damaged-bag-case.json": [],
+    "sources/slack/baggage-desk/question-on-damaged-bag-report-timing.json": [],
+    "sources/slack/baggage-desk/question-on-damaged-bag-report.json": [],
+    "sources/slack/support-policy-questions/baggage-claim-intake-question-notes.json": [],
+    "sources/slack/support-policy-questions/baggage-claim-intake-question.json": [],
+    "sources/slack/support-policy-questions/late-baggage-claim-case-tagging.json": [],
+    "sources/slack/baggage-desk/delayed-bag-expense-window.json": [],
+    "sources/slack/baggage-desk/late-baggage-claim-handling.json": [],
+    "sources/confluence/customer-policies/baggage/damaged-bags.json": [],
+    "sources/confluence/support-playbooks/case-handling/bag-damage-repairs-quick-guide.json": [],
+    "sources/slack/airport-ops/cracked-suitcase-at-bna-arrivals.json": [],
+    "sources/slack/airport-ops/cracked-suitcase-at-rdu-baggage-service.json": [],
+    "sources/slack/airport-ops/damaged-bag-at-bna-arrivals-desk.json": [],
+    "sources/slack/baggage-desk/clarifying-a-suitcase-damage-report.json": [],
+    "sources/slack/baggage-desk/damaged-bag-photo-review-notes.json": [],
+    "sources/slack/baggage-desk/damaged-bag-photo-review.json": [],
+    "sources/slack/baggage-desk/question-on-suitcase-damage-intake.json": [],
+    "sources/slack/baggage-desk/wheels-are-wear.json": [],
+    "sources/confluence/support-playbooks/approvals-and-limits/goodwill-quick-reference.json": [],
+    "sources/confluence/support-playbooks/approvals-and-limits/goodwill.json": [],
+    "sources/slack/support-escalations/seat-selection-issue-after-aircraft-swap-notes.json": [],
+    "sources/slack/support-escalations/seat-selection-issue-after-aircraft-swap.json": [],
+    "sources/slack/support-escalations/seat-selection-service-failure-question.json": [],
+    "sources/slack/support-escalations/seat-selection-unavailable-after-aircraft-swap.json": [],
+    "sources/slack/support-team/duplicate-goodwill-request-after-service-disruption.json": [],
+    "sources/slack/support-team/handling-a-duplicate-goodwill-request-after-a-service.json": [],
+    "sources/slack/support-team/handling-a-service-recovery-request.json": [],
+    "sources/slack/support-escalations/goodwill-handling-for-service-failures.json": [],
+    "sources/slack/support-escalations/goodwill-limits.json": [],
+    "sources/confluence/support-playbooks/case-handling/who-can-ask.json": [],
+    "sources/slack/refunds-desk/booking-contact-check-before-refund-review.json": [],
+    "sources/slack/refunds-desk/booking-contact-check-before-refund.json": [],
+    "sources/slack/refunds-desk/checking-booking-email-before-a-refund.json": [],
+    "sources/slack/support-team/booking-contact-question-from-a-family-caller.json": [],
+    "sources/slack/support-team/checking-the-booking-contact-before-a-change-request.json": [],
+    "sources/slack/support-team/confirming-contact-for-booking-change-request.json": [],
+    "sources/slack/support-team/question-about-a-family-member-requesting-a-refund.json": [],
+    "sources/slack/refunds-desk/spouse-asking-for-booking-refund.json": [],
+    "sources/slack/support-team/assistant-asking-for-refund.json": [],
+    "sources/confluence/support-playbooks/case-handling/untrusted-text.json": [],
+    "sources/slack/support-escalations/instructions-included-in-booking-notes-notes.json": [],
+    "sources/slack/support-escalations/instructions-included-in-booking-notes.json": [],
+    "sources/slack/support-escalations/message-text-copied-into-booking-notes.json": [],
+    "sources/slack/support-escalations/question-about-instructions-in-booking-notes.json": [],
+    "sources/slack/support-team/booking-note-with-customer-instructions.json": [],
+    "sources/slack/support-team/question-about-instruction-like-booking-notes.json": [],
+    "sources/slack/support-team/question-about-instructions-in-booking-notes.json": [],
+    "sources/slack/support-escalations/booking-note-refund-request.json": [],
+    "sources/confluence/support-playbooks/escalation/manager-request-handling.json": [],
+    "sources/confluence/support-playbooks/escalation/when-to-hand-off.json": [],
+    "sources/slack/support-escalations/handing-off-sensitive-cases.json": [],
+    "sources/slack/support-escalations/handing-off-sensitive-customer-contacts-notes.json": [],
+    "sources/slack/support-escalations/handing-off-sensitive-customer-contacts.json": [],
+    "sources/slack/support-escalations/when-to-hand-off-a-customer-case.json": [],
+    "sources/slack/support-team/when-a-customer-asks-for-a-manager.json": [],
+    "sources/slack/support-team/when-to-hand-off-a-chat.json": [],
+    "sources/slack/support-team/when-to-hand-off-a-customer-chat.json": [],
+    "sources/slack/support-escalations/asks-for-a-human.json": [],
+    "sources/confluence/customer-policies/cancellations-and-refunds/refunds-after-a-cancellation.json": [],
+    "sources/slack/refunds-desk/card-refund-question-after-canceled-trip.json": [],
+    "sources/slack/refunds-desk/payment-method-question-on-a-cancelled-trip.json": [],
+    "sources/slack/refunds-desk/payment-method-question-on-disrupted-trip.json": [],
+    "sources/slack/refunds-desk/refund-destination-question-from-chat.json": [],
+    "sources/slack/support-policy-questions/refund-question-after-replacement-flight-notes.json": [],
+    "sources/slack/support-policy-questions/refund-question-after-replacement-flight.json": [],
+    "sources/slack/support-policy-questions/replacement-flight-refund-question.json": [],
+    "sources/slack/refunds-desk/declined-rebooking-refunds.json": [],
+    "sources/confluence/customer-policies/cancellations-and-refunds/card-refund-follow-up-checks.json": [],
+    "sources/confluence/customer-policies/cancellations-and-refunds/refund-timing.json": [],
+    "sources/confluence/support-playbooks/case-handling/before-you-act.json": [],
+    "sources/slack/refunds-desk/checking-a-prior-action-on-a-customer-case.json": [],
+    "sources/slack/refunds-desk/checking-prior-action-on-a-refund-case.json": [],
+    "sources/slack/refunds-desk/checking-prior-activity-before-a-refund-response.json": [],
+    "sources/slack/refunds-desk/checking-prior-activity-on-a-refund-case.json": [],
+    "sources/slack/support-team/checking-a-claim-before-replying.json": [],
+    "sources/slack/support-team/checking-prior-action-before-replying-to-a-reimbursement.json": [],
+    "sources/slack/support-team/checking-prior-work-on-a-customer-claim.json": [],
+    "sources/confluence/support-playbooks/case-handling/ticket-categories.json": [],
+    "sources/slack/support-policy-questions/category-for-completed-disruption-itinerary.json": [],
+    "sources/slack/support-policy-questions/ticket-category-for-completed-disruption-journeys.json": [],
+    "sources/slack/support-policy-questions/ticket-category-for-travelled-disruption-case.json": [],
+    "sources/slack/support-team/ticket-category-for-a-mixed-customer-case-notes.json": [],
+    "sources/slack/support-team/ticket-category-for-a-mixed-customer-case-question.json": [],
+    "sources/slack/support-team/ticket-category-for-a-mixed-customer-case.json": [],
+    "sources/slack/support-team/ticket-category-for-combined-customer-contact.json": [],
+    "sources/slack/support-team/delay-ticket-category-check.json": [],
+    "sources/confluence/customer-policies/cancellations-and-refunds/travel-credit-instead-of-refund.json": [],
+    "sources/confluence/support-playbooks/case-handling/travel-credit-offers-quick-guide.json": [],
+    "sources/slack/refunds-desk/customer-asked-about-credit-instead-of-refund.json": [],
+    "sources/slack/refunds-desk/customer-asking-about-credit-instead-of-refund.json": [],
+    "sources/slack/refunds-desk/customer-asking-about-travel-credit.json": [],
+    "sources/slack/refunds-desk/customer-asks-about-travel-credit.json": [],
+    "sources/slack/support-team/customer-asked-about-travel-credit-instead-of-refund.json": [],
+    "sources/slack/support-team/travel-credit-option-on-refund-request.json": [],
+    "sources/slack/support-team/travel-credit-request-in-cancellation-chat.json": [],
+    "sources/slack/refunds-desk/credit-bonus-question.json": [],
+    "sources/confluence/support-playbooks/case-handling/agency-bookings.json": [],
+    "sources/slack/refunds-desk/agency-booking-refund-inbox-question.json": [],
+    "sources/slack/refunds-desk/travel-agency-cancellation-question.json": [],
+    "sources/slack/refunds-desk/travel-agency-refund-request-in-the-queue.json": [],
+    "sources/slack/refunds-desk/travel-agent-cancellation-request.json": [],
+    "sources/slack/support-policy-questions/agency-booking-cost-question.json": [],
+    "sources/slack/support-policy-questions/agency-booking-disruption-expense-question.json": [],
+    "sources/slack/support-policy-questions/agency-booking-disruption-expenses.json": [],
+    "sources/slack/refunds-desk/travel-agency-booking-refund-handling.json": [],
+    "sources/slack/support-policy-questions/agency-booking-refund-check.json": [],
+    "sources/confluence/customer-policies/cancellations-and-refunds/24-hour-free-cancellation.json": [],
+    "sources/confluence/customer-policies/fares-and-changes/fare-types.json": [],
+    "sources/confluence/support-playbooks/case-handling/customer-cancellation-faq.json": [],
+    "sources/slack/refunds-desk/customer-cancelled-booking-question.json": [],
+    "sources/slack/refunds-desk/customer-initiated-cancellation-question-notes.json": [],
+    "sources/slack/refunds-desk/customer-initiated-cancellation-question.json": [],
+    "sources/slack/refunds-desk/customer-self-cancellation-refund-review.json": [],
+    "sources/slack/support-team/customer-asking-about-cancelling-their-own-booking.json": [],
+    "sources/slack/support-team/customer-self-cancellation-question.json": [],
+    "sources/slack/support-team/question-on-self-cancelled-basic-booking.json": [],
+    "sources/confluence/customer-policies/special-assistance/pets-in-cabin.json": [],
+    "sources/slack/refunds-desk/pet-fee-on-airline-cancelled-booking.json": [],
+    "sources/slack/refunds-desk/pet-fee-on-cancelled-flight-case.json": [],
+    "sources/slack/refunds-desk/pet-fee-on-cancelled-flight.json": [],
+    "sources/slack/refunds-desk/pet-fee-on-cancelled-itinerary.json": [],
+    "sources/slack/support-team/pet-fee-on-cancelled-flight-case-notes.json": [],
+    "sources/slack/support-team/pet-fee-on-cancelled-flight-case.json": [],
+    "sources/slack/support-team/pet-fee-on-cancelled-flight.json": [],
+    "sources/slack/refunds-desk/pet-fee-basic-fare-question.json": [],
+    "sources/slack/refunds-desk/pet-fee-on-cancelled-leg.json": [],
+    "sources/confluence/customer-policies/fares-and-changes/change-fees.json": [],
+    "sources/confluence/support-playbooks/case-handling/booking-change-cheat-sheet.json": [],
+    "sources/confluence/support-playbooks/case-handling/changing-a-booking.json": [],
+    "sources/slack/support-policy-questions/basic-fare-change-question.json": [],
+    "sources/slack/support-policy-questions/customer-asking-to-move-a-basic-booking.json": [],
+    "sources/slack/support-policy-questions/customer-wording-for-a-basic-booking-change-request-notes.json": [],
+    "sources/slack/support-policy-questions/customer-wording-for-a-basic-booking-change-request.json": [],
+    "sources/slack/support-team/explaining-a-flex-booking-change.json": [],
+    "sources/slack/support-team/explaining-fare-difference-on-a-flex-change.json": [],
+    "sources/slack/support-team/help-with-a-flex-booking-change.json": [],
+    "sources/confluence/customer-policies/loyalty/skyway-miles-benefits.json": [],
+    "sources/slack/loyalty-team/clarifying-status-language-for-a-change-request.json": [],
+    "sources/slack/loyalty-team/member-change-fee-reference.json": [],
+    "sources/slack/loyalty-team/miles-change-fee-wording-for-agent-reply.json": [],
+    "sources/slack/loyalty-team/question-on-status-benefit-wording-for-a-basic.json": [],
+    "sources/slack/loyalty-team/question-on-status-benefit-wording-for-fare-changes.json": [],
+    "sources/slack/loyalty-team/silver-change-fee-question.json": [],
+    "sources/slack/support-policy-questions/miles-status-and-basic-fare-change-question.json": [],
+    "sources/slack/support-policy-questions/miles-status-question-on-basic-itinerary.json": [],
+    "sources/slack/support-policy-questions/skyway-miles-change-request-question.json": [],
+    "sources/slack/loyalty-team/gold-member-basic-change-request.json": [],
+    "sources/confluence/customer-policies/delays-and-disruptions/meals-during-delays.json": [],
+    "sources/slack/irregular-ops/meal-support-question-during-extended-delay.json": [],
+    "sources/slack/irregular-ops/meal-support-question-during-weather-delay.json": [],
+    "sources/slack/irregular-ops/meal-support-question-during-weather-disruption-notes.json": [],
+    "sources/slack/irregular-ops/meal-support-question-during-weather-disruption.json": [],
+    "sources/slack/support-team/meal-documentation-for-overnight-disruption-case.json": [],
+    "sources/slack/support-team/meal-question-on-overnight-delay-case.json": [],
+    "sources/slack/support-team/meals-question-on-overnight-delay-case.json": [],
+    "sources/slack/irregular-ops/meal-handling-for-disrupted-trips.json": [],
+    "sources/slack/irregular-ops/meal-money-on-delayed-flights.json": [],
+    "sources/confluence/support-playbooks/case-handling/finding-the-current-answer.json": []
+  },
+  "background": {},
+  "shape": {
+    "folders": [
+      [
+        "slack/airport-ops",
+        998,
+        14.2,
+        0.0
+      ],
+      [
+        "slack/announcements",
+        381,
+        5.4,
+        0.0
+      ],
+      [
+        "slack/baggage-desk",
+        555,
+        7.9,
+        0.0
+      ],
+      [
+        "slack/digital-team",
+        720,
+        10.3,
+        0.0
+      ],
+      [
+        "slack/finance-ops",
+        654,
+        9.3,
+        0.0
+      ],
+      [
+        "slack/general",
+        452,
+        6.4,
+        0.0
+      ],
+      [
+        "slack/irregular-ops",
+        344,
+        4.9,
+        0.0
+      ],
+      [
+        "slack/loyalty-team",
+        287,
+        4.1,
+        0.0
+      ],
+      [
+        "slack/policy-updates",
+        107,
+        1.5,
+        0.0
+      ],
+      [
+        "slack/random",
+        45,
+        0.6,
+        0.0
+      ],
+      [
+        "slack/refunds-desk",
+        240,
+        3.4,
+        0.0
+      ],
+      [
+        "slack/support-escalations",
+        528,
+        7.5,
+        0.0
+      ],
+      [
+        "slack/support-policy-questions",
+        635,
+        9.0,
+        0.0
+      ],
+      [
+        "slack/support-team",
+        1071,
+        15.3,
+        0.0
+      ],
+      [
+        "confluence/airport-operations",
+        627,
+        22.3,
+        0.0
+      ],
+      [
+        "confluence/company-handbook",
+        499,
+        17.7,
+        0.0
+      ],
+      [
+        "confluence/customer-policies",
+        233,
+        8.3,
+        0.0
+      ],
+      [
+        "confluence/digital",
+        471,
+        16.7,
+        0.0
+      ],
+      [
+        "confluence/finance",
+        220,
+        7.8,
+        0.0
+      ],
+      [
+        "confluence/loyalty-programme",
+        290,
+        10.3,
+        0.0
+      ],
+      [
+        "confluence/policy-and-compliance",
+        230,
+        8.2,
+        0.0
+      ],
+      [
+        "confluence/support-playbooks",
+        242,
+        8.6,
+        0.0
+      ]
+    ],
+    "duplicate_titles": {
+      "checking what was already done": [
+        "sources/confluence/customer-policies/cancellations-and-refunds/checking-already.json",
+        "sources/confluence/support-playbooks/case-handling/checking-already.json"
+      ],
+      "the little things that kept rdu moving": [
+        "sources/slack/airport-ops/little-things-kept-rdu.json",
+        "sources/slack/airport-ops/little-things-kept.json"
+      ],
+      "braille-tag-reader-quiet-mode-field-check": [
+        "sources/slack/baggage-desk/braille-tag-reader-quiet.json",
+        "sources/slack/baggage-desk/tactile-tag-reader-audio-cue-rollout-check.json"
+      ],
+      "the refund desk's missing middle hour": [
+        "sources/slack/finance-ops/refund-desk-s.json",
+        "sources/slack/support-policy-questions/refund-desk-s.json"
+      ],
+      "the quiet art of repairing old umbrellas": [
+        "sources/slack/random/quiet-art-repairing.json",
+        "sources/slack/random/the-umbrella-repair-workshop-and-professor-drizzle.json"
+      ],
+      "ageing dashboard colour key": [
+        "sources/slack/refunds-desk/ageing-dashboard-colour-key-notes.json",
+        "sources/slack/refunds-desk/ageing-dashboard-colour-key-question.json"
+      ],
+      "ageing dashboard colour guide": [
+        "sources/slack/refunds-desk/ageing-dashboard-colour.json",
+        "sources/slack/refunds-desk/ageing-dashboard.json"
+      ],
+      "audit notes in closed cases": [
+        "sources/slack/refunds-desk/audit-notes-in-closed-cases-notes.json",
+        "sources/slack/refunds-desk/audit-notes.json"
+      ],
+      "duplicate booking case cleanup": [
+        "sources/slack/refunds-desk/duplicate-booking-case-cleanup-follow-up.json",
+        "sources/slack/refunds-desk/duplicate-booking-case-cleanup-notes.json",
+        "sources/slack/refunds-desk/duplicate-booking-case-cleanup.json"
+      ],
+      "group organiser status request": [
+        "sources/slack/refunds-desk/group-organiser-status-request-notes.json",
+        "sources/slack/refunds-desk/group-organiser-status.json"
+      ],
+      "late processor batch tracking": [
+        "sources/slack/refunds-desk/late-processor-batch-tracking-follow-up.json",
+        "sources/slack/refunds-desk/late-processor-batch-tracking-question.json",
+        "sources/slack/refunds-desk/late-processor-batch-tracking-update.json",
+        "sources/slack/refunds-desk/late-processor-batch-tracking.json",
+        "sources/slack/refunds-desk/late-processor-batch.json"
+      ],
+      "long-weekend-inbox-handoff": [
+        "sources/slack/refunds-desk/long-weekend-inbox-handoff-check.json",
+        "sources/slack/refunds-desk/long-weekend-inbox-handoff-question.json",
+        "sources/slack/refunds-desk/long-weekend-inbox-handoff-update.json",
+        "sources/slack/refunds-desk/long-weekend-inbox.json"
+      ],
+      "long weekend inbox handoff": [
+        "sources/slack/refunds-desk/long-weekend-inbox-handoff-review.json",
+        "sources/slack/refunds-desk/long-weekend-inbox-handoff.json"
+      ],
+      "month-end finance references": [
+        "sources/slack/refunds-desk/month-end-finance-references-notes.json",
+        "sources/slack/refunds-desk/month-end-finance.json",
+        "sources/slack/refunds-desk/month-end.json"
+      ],
+      "month-end reference check": [
+        "sources/slack/refunds-desk/month-end-reference-check-question.json",
+        "sources/slack/refunds-desk/month-end-reference-check.json",
+        "sources/slack/refunds-desk/month-end-reference.json"
+      ],
+      "morning queue split and finance holds": [
+        "sources/slack/refunds-desk/morning-queue-split-and-finance-holds-notes.json",
+        "sources/slack/refunds-desk/morning-queue-split-and-finance-holds.json"
+      ],
+      "phone contact with no reference": [
+        "sources/slack/refunds-desk/phone-contact-no.json",
+        "sources/slack/refunds-desk/phone-contact-with-no-reference-follow-up.json",
+        "sources/slack/refunds-desk/phone-contact-with-no-reference.json"
+      ],
+      "summarising a long customer email": [
+        "sources/slack/refunds-desk/summarising-a-long-customer-email-notes.json",
+        "sources/slack/refunds-desk/summarising-a-long-customer-email.json"
+      ],
+      "tag drift cleanup": [
+        "sources/slack/refunds-desk/tag-drift-cleanup-notes.json",
+        "sources/slack/refunds-desk/tag-drift-cleanup.json"
+      ],
+      "weekly audit note flags": [
+        "sources/slack/refunds-desk/weekly-audit-note-flags.json",
+        "sources/slack/refunds-desk/weekly-audit.json"
+      ]
+    },
+    "near_duplicates": [],
+    "tiny": [
+      "sources/slack/support-team/tiny-handbell-orchestra-rehearsal-plan.json"
+    ],
+    "length": {
+      "min": 295,
+      "median": 3433,
+      "max": 10362
+    }
+  }
+}

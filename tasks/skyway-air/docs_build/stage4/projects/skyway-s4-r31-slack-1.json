@@ -1,0 +1,35 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about unaccompanied minors.",
+  "files": [
+    {
+      "path": "sources/slack/refunds-desk/cancelled-trip-and-unaccompanied-minor-fee.json",
+      "description": "A Slack thread in #refunds-desk between Skyway staff about unaccompanied minors, dated between 2026-09-08 and 2026-11-03: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"refund the unaccompanied-minor fee when the trip is cancelled, whatever the reason\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    },
+    {
+      "path": "sources/slack/refunds-desk/um-fee-refund-handling-question.json",
+      "description": "A Slack thread in #refunds-desk between Skyway staff about unaccompanied minors, dated between 2026-09-08 and 2026-11-03: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"Yes, the UM fee goes back when a 9-year-old's trip is cancelled.\"; \"optional for 15 to 17\"; \"an optional escort fee is refunded only when Skyway cancels the flight\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    },
+    {
+      "path": "sources/slack/support-policy-questions/question-on-um-charge-display.json",
+      "description": "A Slack thread in #support-policy-questions between Skyway staff about unaccompanied minors, dated between 2026-09-08 and 2026-11-03: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"$150 per flight\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    },
+    {
+      "path": "sources/slack/support-team/question-on-unaccompanied-minor-booking.json",
+      "description": "A Slack thread in #support-team between Skyway staff about unaccompanied minors, dated between 2026-09-08 and 2026-11-03: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"required for ages 5 to 14\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    }
+  ],
+  "people": [
+    {
+      "name": "Tyrell Jackson",
+      "project_role": "Support Team Lead, Disruption Care"
+    },
+    {
+      "name": "Erin McKay",
+      "project_role": "Customer Support Agent"
+    },
+    {
+      "name": "Samir Patel",
+      "project_role": "Customer Support Agent"
+    }
+  ]
+}

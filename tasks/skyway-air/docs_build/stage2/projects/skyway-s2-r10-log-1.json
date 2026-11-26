@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about hotels during disruptions.",
+  "files": [
+    {
+      "path": "sources/confluence/policy-and-compliance/change-log/hotel-direct-limit-update.json",
+      "description": "A short entry in the Skyway policy change log, dated between 2026-07-06 and 2026-08-18. It must contain these sentences word for word: \"The direct hotel limit rises again, from $200 to $225.\"; \"This applies to every request handled from August 15, whatever the date of the flight.\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    }
+  ],
+  "people": [
+    {
+      "name": "Peter Lawson",
+      "project_role": "Senior Customer Support Specialist"
+    },
+    {
+      "name": "Lydia Chen",
+      "project_role": "Customer Support Agent"
+    },
+    {
+      "name": "Derek Holloway",
+      "project_role": "Senior Director, Support Operations"
+    }
+  ]
+}

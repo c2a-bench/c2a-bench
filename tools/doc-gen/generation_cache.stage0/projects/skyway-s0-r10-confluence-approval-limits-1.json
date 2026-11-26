@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about hotels during disruptions.",
+  "files": [
+    {
+      "path": "sources/confluence/support-playbooks/approvals-and-limits/approval-limits.json",
+      "description": "A Confluence page in the support-playbooks space for support agents about hotels during disruptions, last updated between 2026-01-12 and 2026-05-15. It must contain these sentences word for word: \"Above $175 a night, ask a supervisor to approve the room cost, up to $250.\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention battery, batteries, lithium, power bank, watt-hour."
+    }
+  ],
+  "people": [
+    {
+      "name": "Andre Bishop",
+      "project_role": "Support Team Lead, Refunds"
+    },
+    {
+      "name": "Fatima Ali",
+      "project_role": "Customer Support Agent"
+    },
+    {
+      "name": "Ronald Hayes",
+      "project_role": "Customer Support Agent"
+    }
+  ]
+}

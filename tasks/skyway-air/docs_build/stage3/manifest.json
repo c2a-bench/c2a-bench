@@ -1,0 +1,247 @@
+{
+  "stage": 3,
+  "docs": {
+    "sources/confluence/policy-and-compliance/change-log/baggage-claim-handling-update.json": {
+      "plan_doc": "docs/confluence/policy-and-compliance/change-log/baggage-claim-handling-update.json",
+      "must_contain": [
+        "Delayed-bag claims are accepted for 30 days after delivery (was 21).",
+        "This applies to every request handled from September 1, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s3-r14-log-1"
+    },
+    "sources/slack/policy-updates/baggage-claim-intake-wording-for-september.json": {
+      "plan_doc": "docs/slack/policy-updates/baggage-claim-intake-wording-for-september.json",
+      "must_contain": [
+        "From September 1, delayed-bag claims are accepted up to 30 days after delivery.",
+        "within 30 days of getting the bag back",
+        "This applies to every request handled from September 1, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s3-r14-slack-1"
+    },
+    "sources/slack/refunds-desk/late-baggage-claim-queue-handling.json": {
+      "plan_doc": "docs/slack/refunds-desk/late-baggage-claim-queue-handling.json",
+      "must_contain": [
+        "label it claim-late"
+      ],
+      "trap": null,
+      "project": "skyway-s3-r14-slack-1"
+    },
+    "sources/slack/support-policy-questions/question-on-bag-damage-case-intake.json": {
+      "plan_doc": "docs/slack/support-policy-questions/question-on-bag-damage-case-intake.json",
+      "must_contain": [
+        "damage within 7 days"
+      ],
+      "trap": null,
+      "project": "skyway-s3-r14-slack-1"
+    },
+    "sources/slack/support-team/question-on-delayed-bag-follow-up.json": {
+      "plan_doc": "docs/slack/support-team/question-on-delayed-bag-follow-up.json",
+      "must_contain": [
+        "within 30 days of getting the bag back"
+      ],
+      "trap": null,
+      "project": "skyway-s3-r14-slack-1"
+    },
+    "sources/confluence/support-playbooks/case-handling/when-a-payment-fails.json": {
+      "plan_doc": "docs/confluence/support-playbooks/case-handling/when-a-payment-fails.json",
+      "must_contain": [
+        "Check the records, retry once, never pay twice.",
+        "check the records, then send it again once",
+        "never send the same payment twice"
+      ],
+      "trap": null,
+      "project": "skyway-s3-r29-confluence-1"
+    },
+    "sources/confluence/policy-and-compliance/change-log/payment-retries.json": {
+      "plan_doc": "docs/confluence/policy-and-compliance/change-log/payment-retries.json",
+      "must_contain": [
+        "New: what to do when a payment request fails, and when your notes are missing.",
+        "This applies to every request handled from September 1, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s3-r29-log-1"
+    },
+    "sources/slack/refunds-desk/payment-retry-notes-question.json": {
+      "plan_doc": "docs/slack/refunds-desk/payment-retry-notes-question.json",
+      "must_contain": [
+        "If the notes you keep cannot be read, hand off with reason not_covered"
+      ],
+      "trap": null,
+      "project": "skyway-s3-r29-slack-1"
+    },
+    "sources/slack/support-policy-questions/payment-retry-after-processing-error.json": {
+      "plan_doc": "docs/slack/support-policy-questions/payment-retry-after-processing-error.json",
+      "must_contain": [
+        "never send the same payment twice"
+      ],
+      "trap": null,
+      "project": "skyway-s3-r29-slack-1"
+    },
+    "sources/slack/support-team/duplicate-refund-incident.json": {
+      "plan_doc": "docs/slack/support-team/duplicate-refund-incident.json",
+      "must_contain": [
+        "Last week a refund was sent twice after a timeout. Check first.",
+        "If the notes you keep cannot be read, hand off with reason not_covered",
+        "do not guess"
+      ],
+      "trap": null,
+      "project": "skyway-s3-r29-slack-1"
+    },
+    "sources/slack/support-team/payment-retry-after-processing-timeout.json": {
+      "plan_doc": "docs/slack/support-team/payment-retry-after-processing-timeout.json",
+      "must_contain": [
+        "check the records, then send it again once"
+      ],
+      "trap": null,
+      "project": "skyway-s3-r29-slack-1"
+    },
+    "sources/slack/support-team/failed-refund-retry-question.json": {
+      "plan_doc": "docs/slack/support-team/failed-refund-retry-question.json",
+      "must_contain": [
+        "If a refund fails, send it again up to three times."
+      ],
+      "trap": {
+        "for": "R29",
+        "why": "an older team note or FAQ; the policy docs are newer and win"
+      },
+      "project": "skyway-s3-r29-slack-failed-refund-retry-question-1"
+    },
+    "sources/confluence/customer-policies/special-assistance/family-seating.json": {
+      "plan_doc": "docs/confluence/customer-policies/special-assistance/family-seating.json",
+      "must_contain": [
+        "Children under 12 sit next to their adult free; refund any seat fee.",
+        "children under 12 sit with their adult for free",
+        "refund the child's seat fee",
+        "only when the child and the adult are on the same booking"
+      ],
+      "trap": null,
+      "project": "skyway-s3-r30-confluence-1"
+    },
+    "sources/confluence/customer-policies/special-assistance/infant-fees.json": {
+      "plan_doc": "docs/confluence/customer-policies/special-assistance/infant-fees.json",
+      "must_contain": [
+        "Lap infants pay a $25 infant fee per flight; seat fees do not apply."
+      ],
+      "trap": {
+        "for": "R30",
+        "why": "a lookalike page: same words, a different situation"
+      },
+      "project": "skyway-s3-r30-confluence-infant-fees-1"
+    },
+    "sources/confluence/policy-and-compliance/change-log/family-seating-change-log-entry.json": {
+      "plan_doc": "docs/confluence/policy-and-compliance/change-log/family-seating-change-log-entry.json",
+      "must_contain": [
+        "New: child seat fees next to a parent are refunded.",
+        "This applies to every request handled from September 1, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s3-r30-log-1"
+    },
+    "sources/slack/refunds-desk/child-seat-fee-question.json": {
+      "plan_doc": "docs/slack/refunds-desk/child-seat-fee-question.json",
+      "must_contain": [
+        "Yes, refund the $25 seat for the 6-year-old on her mum's booking.",
+        "not infant fees",
+        "A family seating question is a service ticket"
+      ],
+      "trap": null,
+      "project": "skyway-s3-r30-slack-1"
+    },
+    "sources/slack/refunds-desk/family-seating-booking-check.json": {
+      "plan_doc": "docs/slack/refunds-desk/family-seating-booking-check.json",
+      "must_contain": [
+        "only when the child and the adult are on the same booking"
+      ],
+      "trap": null,
+      "project": "skyway-s3-r30-slack-1"
+    },
+    "sources/slack/support-policy-questions/family-seating-case-wording.json": {
+      "plan_doc": "docs/slack/support-policy-questions/family-seating-case-wording.json",
+      "must_contain": [
+        "refund the child's seat fee"
+      ],
+      "trap": null,
+      "project": "skyway-s3-r30-slack-1"
+    },
+    "sources/slack/support-team/family-seating-wording-for-chats.json": {
+      "plan_doc": "docs/slack/support-team/family-seating-wording-for-chats.json",
+      "must_contain": [
+        "children under 12 sit with their adult for free"
+      ],
+      "trap": null,
+      "project": "skyway-s3-r30-slack-1"
+    },
+    "sources/slack/refunds-desk/child-seat-fee-age-question.json": {
+      "plan_doc": "docs/slack/refunds-desk/child-seat-fee-age-question.json",
+      "must_contain": [
+        "Children under 15 sit with their adult for free."
+      ],
+      "trap": {
+        "for": "R30",
+        "why": "an older team note or FAQ; the policy docs are newer and win"
+      },
+      "project": "skyway-s3-r30-slack-child-seat-fee-age-question-1"
+    },
+    "sources/confluence/policy-and-compliance/change-log/skyway-miles-tier-benefits-change.json": {
+      "plan_doc": "docs/confluence/policy-and-compliance/change-log/skyway-miles-tier-benefits-change.json",
+      "must_contain": [
+        "Skyway Miles tier benefits change on September 1.",
+        "This applies to every request handled from September 1, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s3-r8-log-skyway-miles-tier-benefits-change-1"
+    },
+    "sources/slack/loyalty-team/september-tiers.json": {
+      "plan_doc": "docs/slack/loyalty-team/september-tiers.json",
+      "must_contain": [
+        "Heads up: Silver no longer gets free changes from Sept 1; Gold still does."
+      ],
+      "trap": null,
+      "project": "skyway-s3-r8-slack-september-tiers-1"
+    },
+    "sources/slack/refunds-desk/question-on-skyway-miles-tier-change-requests.json": {
+      "plan_doc": "docs/slack/refunds-desk/question-on-skyway-miles-tier-change-requests.json",
+      "must_contain": [
+        "This applies to every request handled from September 1, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s3-r8-slack-question-on-skyway-miles-tier-change-requests-1"
+    },
+    "sources/slack/support-policy-questions/skyway-miles-tier-change-fee-question.json": {
+      "plan_doc": "docs/slack/support-policy-questions/skyway-miles-tier-change-fee-question.json",
+      "must_contain": [
+        "($40 for Silver members from September 1)"
+      ],
+      "trap": null,
+      "project": "skyway-s3-r8-slack-skyway-miles-tier-change-fee-question-1"
+    },
+    "sources/slack/support-team/gold-tier-change-fee-wording.json": {
+      "plan_doc": "docs/slack/support-team/gold-tier-change-fee-wording.json",
+      "must_contain": [
+        "Gold: no change fee on Standard fares"
+      ],
+      "trap": null,
+      "project": "skyway-s3-r8-slack-gold-tier-change-fee-wording-1"
+    }
+  },
+  "edits": [
+    {
+      "doc": "docs/confluence/customer-policies/loyalty/skyway-miles-benefits.json",
+      "find": "no change fee on Standard fares",
+      "replace": "Gold: no change fee on Standard fares. Silver: see the change-fee page"
+    },
+    {
+      "doc": "docs/confluence/customer-policies/fares-and-changes/change-fees.json",
+      "find": "$75 per passenger plus the fare difference",
+      "replace": "$75 per passenger plus the fare difference ($40 for Silver members from September 1)"
+    },
+    {
+      "doc": "docs/confluence/customer-policies/baggage/claim-deadlines.json",
+      "find": "within 21 days of getting the bag back",
+      "replace": "within 30 days of getting the bag back"
+    }
+  ],
+  "written_by_us": []
+}

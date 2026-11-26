@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about goodwill and service failures.",
+  "files": [
+    {
+      "path": "sources/confluence/policy-and-compliance/change-log/goodwill-update.json",
+      "description": "A short entry in the Skyway policy change log, dated between 2026-09-08 and 2026-11-03. It must contain these sentences word for word: \"Goodwill rises to $60 for one problem and $120 (with approval) for two or more.\"; \"This applies to every request handled from November 1, whatever the date of the flight.\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    }
+  ],
+  "people": [
+    {
+      "name": "Tyrell Jackson",
+      "project_role": "Support Team Lead, Disruption Care"
+    },
+    {
+      "name": "Erin McKay",
+      "project_role": "Customer Support Agent"
+    },
+    {
+      "name": "Samir Patel",
+      "project_role": "Customer Support Agent"
+    }
+  ]
+}

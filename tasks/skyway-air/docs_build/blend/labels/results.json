@@ -1,0 +1,3481 @@
+{
+ "agency-refund|0|confluence/airport-operations/overnight-reset-recovery-checklist.json": {
+  "label": "agency-refund",
+  "line": " The weekly QA sample included SKY-3790 with the agency-refund tag; its case notes were clear, chronological, and documented the station handoff.",
+  "ok": true,
+  "rel": "confluence/airport-operations/overnight-reset-recovery-checklist.json",
+  "stage": 0
+ },
+ "agency-refund|0|confluence/airport-operations/split-carousel-arrival-coordination-routine.json": {
+  "label": "agency-refund",
+  "line": " The agency-refund tag appears in teal in the new interface, per SKY-7767.",
+  "ok": true,
+  "rel": "confluence/airport-operations/split-carousel-arrival-coordination-routine.json",
+  "stage": 0
+ },
+ "agency-refund|0|confluence/airport-operations/station-public-interface-condition-survey.json": {
+  "label": "agency-refund",
+  "line": "Duplicate ticket handling: Merge SKY-5786 with its duplicate, carrying agency-refund to the surviving ticket and documenting the merge in internal history.",
+  "ok": true,
+  "rel": "confluence/airport-operations/station-public-interface-condition-survey.json",
+  "stage": 0
+ },
+ "agency-refund|0|confluence/airport-operations/terminal-pulse-sampling-guide.json": {
+  "label": "agency-refund",
+  "line": "Review the weekly QA sample, including SKY-9748 with the agency-refund tag, and note that its case notes clearly captured the customer contact, actions recorded, and current handoff status.",
+  "ok": true,
+  "rel": "confluence/airport-operations/terminal-pulse-sampling-guide.json",
+  "stage": 0
+ },
+ "agency-refund|0|confluence/customer-policies/special-assistance/access-needs-conversation-record.json": {
+  "label": "agency-refund",
+  "line": "\n\nIn SKY-2728, tag autocomplete offered agency-refund while a different tag was being entered.",
+  "ok": true,
+  "rel": "confluence/customer-policies/special-assistance/access-needs-conversation-record.json",
+  "stage": 0
+ },
+ "agency-refund|0|confluence/customer-policies/special-assistance/assisted-travel-service-marker-reconciliation.json": {
+  "label": "agency-refund",
+  "line": "Automation alert for SKY-9726 with agency-refund is logged in the overnight handoff, with the alert status, assigned owner, and escalation path visible to the incoming coordinator.",
+  "ok": true,
+  "rel": "confluence/customer-policies/special-assistance/assisted-travel-service-marker-reconciliation.json",
+  "stage": 0
+ },
+ "agency-refund|0|confluence/customer-policies/special-assistance/wheelchair-assistance-dispatch-radio-etiquette-guide.json": {
+  "label": "agency-refund",
+  "line": "Record the tag-list tidy-up meeting outcome in SKY-3012, with agency-refund retained unchanged.",
+  "ok": true,
+  "rel": "confluence/customer-policies/special-assistance/wheelchair-assistance-dispatch-radio-etiquette-guide.json",
+  "stage": 0
+ },
+ "agency-refund|0|confluence/digital/customer-journey-sandbox-data-stewardship-lab.json": {
+  "label": "agency-refund",
+  "line": "The participant opens the weekly volume chart with the owner and records whether SKY-4079 carrying agency-refund appears in the team's total, including the chart field or queue source used for the count.",
+  "ok": true,
+  "rel": "confluence/digital/customer-journey-sandbox-data-stewardship-lab.json",
+  "stage": 0
+ },
+ "agency-refund|0|confluence/digital/partner-message-replay-workshop-guide.json": {
+  "label": "agency-refund",
+  "line": " Service Operations includes SKY-9581 in the workshop fixture set to verify that customer-facing email footers do not expose the internal tag agency-refund.",
+  "ok": true,
+  "rel": "confluence/digital/partner-message-replay-workshop-guide.json",
+  "stage": 0
+ },
+ "agency-refund|0|confluence/digital/passenger-web-regional-failover-tabletop-workbook.json": {
+  "label": "agency-refund",
+  "line": "The updated tag list displays agency-refund twice, leaving participants without a clear record of the duplicated label in SKY-8139.",
+  "ok": true,
+  "rel": "confluence/digital/passenger-web-regional-failover-tabletop-workbook.json",
+  "stage": 0
+ },
+ "agency-refund|0|confluence/digital/webview-bridge-capability-isolation-standard.json": {
+  "label": "agency-refund",
+  "line": "Reporting warehouse sync\nThe reporting API normalizes tag values to lowercase before warehouse ingestion. SKY-4342 captures the contract assertion for agency-refund across the sync payload and stored dimension.",
+  "ok": true,
+  "rel": "confluence/digital/webview-bridge-capability-isolation-standard.json",
+  "stage": 0
+ },
+ "agency-refund|0|confluence/finance/ancillary-reporting-narrative-review-circle.json": {
+  "label": "agency-refund",
+  "line": "Autocomplete behavior is documented accurately: SKY-3356 surfaced agency-refund while a different tag was being entered.",
+  "ok": true,
+  "rel": "confluence/finance/ancillary-reporting-narrative-review-circle.json",
+  "stage": 0
+ },
+ "agency-refund|0|confluence/finance/external-workshop-room-readiness-procedure.json": {
+  "label": "agency-refund",
+  "line": "Merge duplicate tickets into SKY-9023 and retain the agency-refund tag on the surviving request; note the merge in the service request history.",
+  "ok": true,
+  "rel": "confluence/finance/external-workshop-room-readiness-procedure.json",
+  "stage": 0
+ },
+ "agency-refund|0|confluence/loyalty-programme/frontline-loyalty-practice-cards.json": {
+  "label": "agency-refund",
+  "line": "The learner can locate the saved ticket view filtered on the agency-refund tag.",
+  "ok": true,
+  "rel": "confluence/loyalty-programme/frontline-loyalty-practice-cards.json",
+  "stage": 0
+ },
+ "agency-refund|0|confluence/policy-and-compliance/regulatory/knowledge-stewardship-release-gate.json": {
+  "label": "agency-refund",
+  "line": "Reporting analyst: asks for last month's count of tickets tagged agency-refund and records the request under SKY-1697.",
+  "ok": true,
+  "rel": "confluence/policy-and-compliance/regulatory/knowledge-stewardship-release-gate.json",
+  "stage": 0
+ },
+ "agency-refund|0|confluence/policy-and-compliance/regulatory/policy-change-audience-mapping-canvas.json": {
+  "label": "agency-refund",
+  "line": "Record audience-mapping corrections in the planning record: SKY-5646 had the agency-refund tag removed during review; capture any resulting changes to routing, ownership, reporting, or awareness communications.",
+  "ok": true,
+  "rel": "confluence/policy-and-compliance/regulatory/policy-change-audience-mapping-canvas.json",
+  "stage": 0
+ },
+ "agency-refund|0|confluence/policy-and-compliance/regulatory/policy-context-reconstruction-notebook.json": {
+  "label": "agency-refund",
+  "line": " SKY-9435 records the agency-refund tag in the new interface as blue.",
+  "ok": true,
+  "rel": "confluence/policy-and-compliance/regulatory/policy-context-reconstruction-notebook.json",
+  "stage": 0
+ },
+ "agency-refund|0|confluence/policy-and-compliance/regulatory/policy-governance-service-catalogue.json": {
+  "label": "agency-refund",
+  "line": "\n\nThe overnight automation alert fired on SKY-6619 with the agency-refund tag recorded in the queue.",
+  "ok": true,
+  "rel": "confluence/policy-and-compliance/regulatory/policy-governance-service-catalogue.json",
+  "stage": 0
+ },
+ "agency-refund|0|confluence/support-playbooks/case-handling/disruption-readiness-microlearning-circuit.json": {
+  "label": "agency-refund",
+  "line": " Practice reading audit logs such as SKY-2471, where agency-refund was added at 14:03 and removed at 14:04.",
+  "ok": true,
+  "rel": "confluence/support-playbooks/case-handling/disruption-readiness-microlearning-circuit.json",
+  "stage": 0
+ },
+ "agency-refund|0|confluence/support-playbooks/case-handling/passenger-record-discrepancy-triage.json": {
+  "label": "agency-refund",
+  "line": " Agency-refund tickets, including SKY-1569, are included in the team\u2019s weekly volume chart.",
+  "ok": true,
+  "rel": "confluence/support-playbooks/case-handling/passenger-record-discrepancy-triage.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/airport-ops/alternate-service-lane-c7-turn.json": {
+  "label": "agency-refund",
+  "line": "Omar Bennett \u2014 2:30 PM: SKY-8634: tag autocomplete is surfacing agency-refund while I type a different tag.",
+  "ok": true,
+  "rel": "slack/airport-ops/alternate-service-lane-c7-turn.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/airport-ops/arrival-handoff-observation-loop.json": {
+  "label": "agency-refund",
+  "line": "Anna Petrov 17:22 \u2014 I hit a tag-picker gap during the walkthrough: I could not find agency-refund in the list. I logged SKY-6433 with the picker search details and a screenshot for the desk lead.",
+  "ok": true,
+  "rel": "slack/airport-ops/arrival-handoff-observation-loop.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/airport-ops/rdu-pier-c-aisle-chair-staging-first-wave.json": {
+  "label": "agency-refund",
+  "line": "Anna Petrov 05:47 \u2014 In SKY-2280, tag autocomplete is surfacing agency-refund while I type the intended tag. I captured a screen recording for the queue.",
+  "ok": true,
+  "rel": "slack/airport-ops/rdu-pier-c-aisle-chair-staging-first-wave.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/airport-ops/south-apron-arrival-wave-and-gate-desk-pulse.json": {
+  "label": "agency-refund",
+  "line": "Cedric Lowe \u2014 12:14 PM: I found the duplicate pair and merged them under SKY-4539. The surviving record retains the agency-refund tag.",
+  "ok": true,
+  "rel": "slack/airport-ops/south-apron-arrival-wave-and-gate-desk-pulse.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/baggage-desk/overnight-radio-channel-cart-ownership-check.json": {
+  "label": "agency-refund",
+  "line": "Colin Barrett (02:30): Colin Barrett (02:31): SKY-2590 customer email footer displayed the internal tag agency-refund. I\u2019ve logged the exposure with the messaging queue for review.",
+  "ok": true,
+  "rel": "slack/baggage-desk/overnight-radio-channel-cart-ownership-check.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/baggage-desk/quiet-carriage-case-timeline-filter-review.json": {
+  "label": "agency-refund",
+  "line": "Renee Calloway \u2014 2:30 PM: The API sync to the reporting warehouse is lowercasing tags; SKY-4496 shows agency-refund in the warehouse output.",
+  "ok": true,
+  "rel": "slack/baggage-desk/quiet-carriage-case-timeline-filter-review.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/baggage-desk/ramp-pull-green-roller-arrivals-desk.json": {
+  "label": "agency-refund",
+  "line": "Luis Mendoza 14:45 \u2014 SKY-2715: the customer email footer displayed the internal agency-refund tag. I\u2019ve logged the footer exposure with the correspondence record.",
+  "ok": true,
+  "rel": "slack/baggage-desk/ramp-pull-green-roller-arrivals-desk.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/baggage-desk/rdu-claim-room-duplicate-case-merge-clinic.json": {
+  "label": "agency-refund",
+  "line": "Derek Holloway \u2014 3:22 PM: I\u2019m also seeing agency-refund twice in the tag list after the tool update on SKY-7136.",
+  "ok": true,
+  "rel": "slack/baggage-desk/rdu-claim-room-duplicate-case-merge-clinic.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/digital-team/android-itinerary-flight-number-wrap-check.json": {
+  "label": "agency-refund",
+  "line": "2026-04-22 14:37 Rebecca Sloan: I merged the duplicate reports into SKY-5090 and preserved the agency-refund tag on the retained ticket.",
+  "ok": true,
+  "rel": "slack/digital-team/android-itinerary-flight-number-wrap-check.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/digital-team/baggage-claim-intake-bridge.json": {
+  "label": "agency-refund",
+  "line": "Kimberly Snow 14:52 \u2014 I checked the agency-refund dashboard tile after last night's sync and its total does not match the queue export. I opened SKY-8404 with the query details and a screenshot for Analytics.",
+  "ok": true,
+  "rel": "slack/digital-team/baggage-claim-intake-bridge.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/digital-team/returning-visitor-search-panel-split.json": {
+  "label": "agency-refund",
+  "line": "figures in a doc that must decide nothing: ['30 days']",
+  "ok": false,
+  "rel": "slack/digital-team/returning-visitor-search-panel-split.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/digital-team/search-results-telemetry-cache-regression.json": {
+  "label": "agency-refund",
+  "line": "Paige O'Neil 14:26 \u2014 Tag list tidy-up meeting notes are in SKY-4536; agency-refund stays as-is.",
+  "ok": true,
+  "rel": "slack/digital-team/search-results-telemetry-cache-regression.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/finance-ops/handwritten-airport-sales-intake-walkthrough.json": {
+  "label": "agency-refund",
+  "line": "Janet Wu 14:19 \u2014 I saved a view in the ticket tool for SKY-3949, filtered on agency-refund, and pinned it under Airport Intake.",
+  "ok": true,
+  "rel": "slack/finance-ops/handwritten-airport-sales-intake-walkthrough.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/finance-ops/monthly-close-questions-parking-lot-readthrough.json": {
+  "label": "agency-refund",
+  "line": "Paul Redding: I also noticed agency-refund appears twice in the tag list after the tool update; I logged SKY-4709 for tracking.",
+  "ok": true,
+  "rel": "slack/finance-ops/monthly-close-questions-parking-lot-readthrough.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/finance-ops/quiet-hour-approval-trail-manual-journal-attachments.json": {
+  "label": "agency-refund",
+  "line": "Jared Pope \u2014 Jared Pope \u2014 SKY-4995: after the tool update, agency-refund appears twice in the tag list.",
+  "ok": true,
+  "rel": "slack/finance-ops/quiet-hour-approval-trail-manual-journal-attachments.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/finance-ops/receipt-radio-check-for-cross-team-review.json": {
+  "label": "agency-refund",
+  "line": "Maya Singh: I saved SKY-6750 as a ticket-tool view with the agency-refund tag filter and added it to the support shared views list.",
+  "ok": true,
+  "rel": "slack/finance-ops/receipt-radio-check-for-cross-team-review.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/irregular-ops/green-tag-onward-travel-sort.json": {
+  "label": "agency-refund",
+  "line": "Simone Grant 10:29 I am reconciling SKY-1629 and need last month's count of tickets tagged agency-refund for the analyst worksheet.",
+  "ok": true,
+  "rel": "slack/irregular-ops/green-tag-onward-travel-sort.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/irregular-ops/jfk-turnback-dual-path-readiness-thread.json": {
+  "label": "agency-refund",
+  "line": "figures in a doc that must decide nothing: ['$1,683']",
+  "ok": false,
+  "rel": "slack/irregular-ops/jfk-turnback-dual-path-readiness-thread.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/irregular-ops/lakeview-six-piece-routing-handoff.json": {
+  "label": "agency-refund",
+  "line": "Marcus Bell 19:28 \u2014 Search for agency-refund is timing out in the ticket tool. SKY-2535 is capturing the error details and screenshots for the queue.",
+  "ok": true,
+  "rel": "slack/irregular-ops/lakeview-six-piece-routing-handoff.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/loyalty-team/class-trip-miles-ledger-rehearsal.json": {
+  "label": "agency-refund",
+  "line": "figures in a doc that must decide nothing: ['$545.00']",
+  "ok": false,
+  "rel": "slack/loyalty-team/class-trip-miles-ledger-rehearsal.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/loyalty-team/french-translation-review-for-partner-welcome-screens.json": {
+  "label": "agency-refund",
+  "line": "Darren Holt 2026-04-22 14:34: This week\u2019s queue report shows the current open-ticket count for agency-refund. SKY-5871 is included in that queue.",
+  "ok": true,
+  "rel": "slack/loyalty-team/french-translation-review-for-partner-welcome-screens.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/loyalty-team/member-advisory-salon-question-cards-for-tier-wave.json": {
+  "label": "agency-refund",
+  "line": "Darren Holt (14:35): The data team export for SKY-4297 dropped the agency-refund column; I\u2019ve logged the field mismatch for the next file review.",
+  "ok": true,
+  "rel": "slack/loyalty-team/member-advisory-salon-question-cards-for-tier-wave.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/loyalty-team/member-survey-postcard-sorting-after-tier-rollout.json": {
+  "label": "agency-refund",
+  "line": "Darren Holt \u2014 SKY-5999 had agency-refund applied in error; I removed it and noted the correction in the ticket.",
+  "ok": true,
+  "rel": "slack/loyalty-team/member-survey-postcard-sorting-after-tier-rollout.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/refunds-desk/customer-screenshot-intake-payment-status-cases.json": {
+  "label": "agency-refund",
+  "line": "Malcolm Reed 14:36 \u2014 The agency-refund dashboard tile showed 18 after last night\u2019s sync; the queue search showed 23. I opened SKY-4467 with Analytics and added the discrepancy to the queue notes.",
+  "ok": true,
+  "rel": "slack/refunds-desk/customer-screenshot-intake-payment-status-cases.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/refunds-desk/phone-contact-with-no-reference.json": {
+  "label": "agency-refund",
+  "line": "Marcus Bell 2026-04-05 14:19: Weekly QA sample included SKY-9699 with the agency-refund tag. The case notes were concise and clearly captured the contact details and handoff history.",
+  "ok": true,
+  "rel": "slack/refunds-desk/phone-contact-with-no-reference.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/support-escalations/guardian-contact-separation-operational-handoff.json": {
+  "label": "agency-refund",
+  "line": "Malcolm Reed (15:28): The training sandbox is missing the agency-refund tag, and trainees have raised it in SKY-4909.",
+  "ok": true,
+  "rel": "slack/support-escalations/guardian-contact-separation-operational-handoff.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/support-escalations/refund-status-support-through-read-only-console-window.json": {
+  "label": "agency-refund",
+  "line": "Caleb Turner: Handover notes currently list SKY-1940 (agency-refund), SKY-1946, and SKY-1951. Please keep the booking reference, event time, and any redacted screenshot link together in the note.",
+  "ok": true,
+  "rel": "slack/support-escalations/refund-status-support-through-read-only-console-window.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/support-policy-questions/customer-followup-document-arrival-case-handling.json": {
+  "label": "agency-refund",
+  "line": "says what the tag is about: ['agenc', 'refund']",
+  "ok": false,
+  "rel": "slack/support-policy-questions/customer-followup-document-arrival-case-handling.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/support-policy-questions/multilingual-callback-note-structure-finance-review.json": {
+  "label": "agency-refund",
+  "line": "Marisol Vega 14:52: For handover notes, list the related tickets together: SKY-3883 [agency-refund], SKY-3911, and SKY-3920. That gives the next owner a clean case trail without repeating the transcript.",
+  "ok": true,
+  "rel": "slack/support-policy-questions/multilingual-callback-note-structure-finance-review.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/support-policy-questions/refund-status-pronunciation-clinic-callback-agents.json": {
+  "label": "agency-refund",
+  "line": "Marisol Vega 14:43 \u2014 I renamed the saved search to \u201cPartner Case Queue.\u201d SKY-8589 is in the description, and agency-refund remains in the filter.",
+  "ok": true,
+  "rel": "slack/support-policy-questions/refund-status-pronunciation-clinic-callback-agents.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/support-policy-questions/travel-agent-loyalty-profile-association-check.json": {
+  "label": "agency-refund",
+  "line": "Brent Sato: For SKY-3613, I found a duplicate ticket and merged it into the main case; the duplicate had the agency-refund tag.",
+  "ok": true,
+  "rel": "slack/support-policy-questions/travel-agent-loyalty-profile-association-check.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/support-team/leah-trims-the-long-answer-habit.json": {
+  "label": "agency-refund",
+  "line": "Marisol Vega \u2014 2:59 PM: One cleanup item from SKY-8158: a customer email displayed the internal tag agency-refund in the footer. Please flag similar footer text you spot so we can keep the customer-facing copy clean.",
+  "ok": true,
+  "rel": "slack/support-team/leah-trims-the-long-answer-habit.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/support-team/school-run-handoff-west-queue.json": {
+  "label": "agency-refund",
+  "line": "Danielle Price 14:07 \u2014 SKY-3018 \u2014 an agent could not find agency-refund in the tag picker. I\u2019m checking the current picker view with them.",
+  "ok": true,
+  "rel": "slack/support-team/school-run-handoff-west-queue.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/support-team/the-question-wall-coaching-clinic.json": {
+  "label": "agency-refund",
+  "line": "Heather Kim 09:27: In the weekly QA sample, SKY-3758 was an agency-refund ticket. The case notes made the handoff easy to follow: short entries, clear source details, and the booking changes separated from the customer\u2019s messages.",
+  "ok": true,
+  "rel": "slack/support-team/the-question-wall-coaching-clinic.json",
+  "stage": 0
+ },
+ "agency-refund|0|slack/support-team/thursday-whiteboard-lane-relay-and-calibration-huddle.json": {
+  "label": "agency-refund",
+  "line": "Isabel Torres 13:51: SKY-3163 confirms the API sync to the reporting warehouse lowercases tags, including agency-refund.",
+  "ok": true,
+  "rel": "slack/support-team/thursday-whiteboard-lane-relay-and-calibration-huddle.json",
+  "stage": 0
+ },
+ "assistance-failure|1|confluence/airport-operations/concourse-b-gate-change-and-turnaround-coordination-board.json": {
+  "label": "assistance-failure",
+  "line": " Use the saved ticket-tool view for SKY-4644 filtered on the assistance-failure tag to keep related case references visible alongside the board.",
+  "ok": true,
+  "rel": "confluence/airport-operations/concourse-b-gate-change-and-turnaround-coordination-board.json",
+  "stage": 1
+ },
+ "assistance-failure|1|confluence/airport-operations/gate-change-coordination-and-turn-readiness-handoff.json": {
+  "label": "assistance-failure",
+  "line": " For SKY-6878, the agent reported that assistance-failure was not available in the tag picker, and the station duty lead recorded the tool gap in the operating record for follow-up.",
+  "ok": true,
+  "rel": "confluence/airport-operations/gate-change-coordination-and-turn-readiness-handoff.json",
+  "stage": 1
+ },
+ "assistance-failure|1|confluence/airport-operations/gate-change-coordination-keeping-the-turn-visible.json": {
+  "label": "assistance-failure",
+  "line": " Training sandbox: assistance-failure is missing, and trainee questions are logged in SKY-3657.",
+  "ok": true,
+  "rel": "confluence/airport-operations/gate-change-coordination-keeping-the-turn-visible.json",
+  "stage": 1
+ },
+ "assistance-failure|1|confluence/customer-policies/baggage/duplicate-booking-record-ownership-handoff-checklist.json": {
+  "label": "assistance-failure",
+  "line": "figures in a doc that must decide nothing: ['$141']",
+  "ok": false,
+  "rel": "confluence/customer-policies/baggage/duplicate-booking-record-ownership-handoff-checklist.json",
+  "stage": 1
+ },
+ "assistance-failure|1|confluence/digital/check-in-confirmation-and-mobile-boarding-pass-handoff-coding.json": {
+  "label": "assistance-failure",
+  "line": " Case SKY-9163: An analyst requested last month's count of assistance-failure tickets.",
+  "ok": true,
+  "rel": "confluence/digital/check-in-confirmation-and-mobile-boarding-pass-handoff-coding.json",
+  "stage": 1
+ },
+ "assistance-failure|1|confluence/finance/corporate-card-receipt-metadata-reconciliation-coordination-sheet.json": {
+  "label": "assistance-failure",
+  "line": " Tool administrators can create new tags; support and operations staff can apply existing tags, including assistance-failure, with SKY-4264 used for creation requests.",
+  "ok": true,
+  "rel": "confluence/finance/corporate-card-receipt-metadata-reconciliation-coordination-sheet.json",
+  "stage": 1
+ },
+ "assistance-failure|1|confluence/finance/duplicate-card-authorization-casebook.json": {
+  "label": "assistance-failure",
+  "line": "figures in a doc that must decide nothing: ['$169.01']",
+  "ok": false,
+  "rel": "confluence/finance/duplicate-card-authorization-casebook.json",
+  "stage": 1
+ },
+ "assistance-failure|1|confluence/policy-and-compliance/change-log/case-form-change-note-contact-channel-field.json": {
+  "label": "assistance-failure",
+  "line": "Report duplicate assistance-failure entries in the tag list under SKY-2284.",
+  "ok": true,
+  "rel": "confluence/policy-and-compliance/change-log/case-form-change-note-contact-channel-field.json",
+  "stage": 1
+ },
+ "assistance-failure|1|confluence/policy-and-compliance/change-log/change-note-accessibility-contact-reporting-tag.json": {
+  "label": "assistance-failure",
+  "line": "\n\nThe dashboard tile for assistance-failure tickets displayed an incorrect count after last night's sync; SKY-2403 tracks the reporting issue.",
+  "ok": true,
+  "rel": "confluence/policy-and-compliance/change-log/change-note-accessibility-contact-reporting-tag.json",
+  "stage": 1
+ },
+ "assistance-failure|1|confluence/support-playbooks/case-handling/contact-channel-and-conversation-continuity-recording-how-the-customer-reached-u.json": {
+  "label": "assistance-failure",
+  "line": "Training sandbox coordinator: captures trainee questions in SKY-5960 after the assistance-failure tag is absent from the sandbox tag list, and records the agreed training-path guidance.",
+  "ok": true,
+  "rel": "confluence/support-playbooks/case-handling/contact-channel-and-conversation-continuity-recording-how-the-customer-reached-u.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/airport-ops/a7-gate-check-cart-handoff-point.json": {
+  "label": "assistance-failure",
+  "line": "Victor Huang \u2014 2:24 PM: SKY-1653: the API sync to the reporting warehouse lowercases tags, including assistance-failure.",
+  "ok": true,
+  "rel": "slack/airport-ops/a7-gate-check-cart-handoff-point.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/airport-ops/c-concourse-headset-check-before-the-turn.json": {
+  "label": "assistance-failure",
+  "line": "Harold Kim 14:48: For SKY-2988, quick tooling clarification: tag creation is limited to the queue admin role. Gate and ramp leads can apply existing tags, including assistance-failure, but cannot create a new tag in the tool.",
+  "ok": true,
+  "rel": "slack/airport-ops/c-concourse-headset-check-before-the-turn.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/airport-ops/concourse-d-transfer-desk-queue-after-rebooking-sync-lag.json": {
+  "label": "assistance-failure",
+  "line": "Olivia Mercer \u2014 6:23 PM: Customer Care flagged SKY-5412: a customer email exposed the internal tag assistance-failure in its footer. I\u2019m pulling the message template and delivery record with the messaging team.",
+  "ok": true,
+  "rel": "slack/airport-ops/concourse-d-transfer-desk-queue-after-rebooking-sync-lag.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/airport-ops/msp-c14-printer-and-podium-handoff.json": {
+  "label": "assistance-failure",
+  "line": "Cedric Lowe 14:22 \u2014 I checked the audit log for SKY-4562: assistance-failure was added and removed within the same minute. The entry sequence is visible in the ticket history.",
+  "ok": true,
+  "rel": "slack/airport-ops/msp-c14-printer-and-podium-handoff.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/airport-ops/south-concourse-gate-move-handoff.json": {
+  "label": "assistance-failure",
+  "line": "figures in a doc that must decide nothing: ['$29.43']",
+  "ok": false,
+  "rel": "slack/airport-ops/south-concourse-gate-move-handoff.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/baggage-desk/arrival-bag-tag-photo-mismatch-at-east-desk.json": {
+  "label": "assistance-failure",
+  "line": "Hassan Moore 19:19: SKY-6175: a customer email exposed the internal assistance-failure label in the footer. I\u2019ve added the message capture to the ticket for the email-template review.",
+  "ok": true,
+  "rel": "slack/baggage-desk/arrival-bag-tag-photo-mismatch-at-east-desk.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/baggage-desk/bna-arrivals-bag-description-changes-after-tag-scan.json": {
+  "label": "assistance-failure",
+  "line": "Aisha Coleman 14:22: For SKY-1846, new tag creation sits with the tool admins; desk and support users can apply existing tags, including assistance-failure, from the ticket tag picker.",
+  "ok": true,
+  "rel": "slack/baggage-desk/bna-arrivals-bag-description-changes-after-tag-scan.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/baggage-desk/bos-bag-room-scan-missing-after-counter-handoff.json": {
+  "label": "assistance-failure",
+  "line": "figures in a doc that must decide nothing: ['$885.35']",
+  "ok": false,
+  "rel": "slack/baggage-desk/bos-bag-room-scan-missing-after-counter-handoff.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/baggage-desk/den-cage-card-photo-handoff.json": {
+  "label": "assistance-failure",
+  "line": "figures in a doc that must decide nothing: ['$1,989']",
+  "ok": false,
+  "rel": "slack/baggage-desk/den-cage-card-photo-handoff.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/digital-team/android-intake-summary-keeps-prior-flight-selection.json": {
+  "label": "assistance-failure",
+  "line": "Omar Haddad 14:54: SKY-9634 was tagged assistance-failure in error; I removed the tag. The case remains in the web-intake-leg-mismatch review set.",
+  "ok": true,
+  "rel": "slack/digital-team/android-intake-summary-keeps-prior-flight-selection.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/digital-team/change-link-handoff-from-chat-sessions.json": {
+  "label": "assistance-failure",
+  "line": "Kofi Mensah 10:52 \u2014 This week\u2019s queue report shows 18 open tickets carrying the assistance-failure tag. SKY-1355 is included in that count; I\u2019ll break out the handoff source once the new event fields are available.",
+  "ok": true,
+  "rel": "slack/digital-team/change-link-handoff-from-chat-sessions.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/digital-team/manage-trip-contact-refresh-trace.json": {
+  "label": "assistance-failure",
+  "line": "Jonah Stein \u2014 2:44 PM: I also logged SKY-2334: Zendesk tag autocomplete surfaced assistance-failure while I was typing a different tag. That is creating noise in the case-labeling flow alongside the contact-details reports.",
+  "ok": true,
+  "rel": "slack/digital-team/manage-trip-contact-refresh-trace.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/digital-team/notification-settings-link-opens-saved-trips.json": {
+  "label": "assistance-failure",
+  "line": "Darla Owens 09:56 \u2014 This week\u2019s queue report shows 14 open tickets carrying the assistance-failure tag, including SKY-9691.",
+  "ok": true,
+  "rel": "slack/digital-team/notification-settings-link-opens-saved-trips.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/finance-ops/airport-reissue-attachment-routing.json": {
+  "label": "assistance-failure",
+  "line": "figures in a doc that must decide nothing: ['$220']",
+  "ok": false,
+  "rel": "slack/finance-ops/airport-reissue-attachment-routing.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/finance-ops/counter-sale-reference-mismatch-in-card-inquiry-queue.json": {
+  "label": "assistance-failure",
+  "line": "Janet Wu 14:41 \u2014 Training sandbox question: trainees flagged that the assistance-failure tag is not available in the tag picker. I logged SKY-4056 with the sandbox configuration details and captured the affected exercise path for the training team.",
+  "ok": true,
+  "rel": "slack/finance-ops/counter-sale-reference-mismatch-in-card-inquiry-queue.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/finance-ops/network-code-callout-check.json": {
+  "label": "assistance-failure",
+  "line": "Janet Wu 14:21: SKY-6741 is a duplicate pair in the queue; one record carries assistance-failure. I\u2019m merging the records and retaining the existing case history.",
+  "ok": true,
+  "rel": "slack/finance-ops/network-code-callout-check.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/irregular-ops/den-tail-swap-board-state-handoff.json": {
+  "label": "assistance-failure",
+  "line": "Grace Duffy \u2014 14:55: The overnight automation alert on SKY-7417 fired against an assistance-failure ticket. It created a duplicate central queue item alongside the disruption record; I\u2019ve linked the references and left the customer-contact note unchanged.",
+  "ok": true,
+  "rel": "slack/irregular-ops/den-tail-swap-board-state-handoff.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/irregular-ops/late-tail-swap-seat-map-and-boarding-sync-check.json": {
+  "label": "assistance-failure",
+  "line": "Pamela Ross 10:47 \u2014 I merged the duplicate contacts under SKY-8753; the assistance-failure tag is retained on the combined record, with the BOS 418 flight note linked for continuity.",
+  "ok": true,
+  "rel": "slack/irregular-ops/late-tail-swap-seat-map-and-boarding-sync-check.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/loyalty-team/desk-side-walkthrough-for-split-activity-profiles.json": {
+  "label": "assistance-failure",
+  "line": "figures in a doc that must decide nothing: ['$465']",
+  "ok": false,
+  "rel": "slack/loyalty-team/desk-side-walkthrough-for-split-activity-profiles.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/refunds-desk/timeline-order-on-payment-exception-handoff.json": {
+  "label": "assistance-failure",
+  "line": "Heather Kim 14:40: The weekly QA sample also included SKY-7759 with the assistance-failure tag. Its case notes were concise and separated the observed timeline from the agent\u2019s desk context, which made the record easy to follow during review.",
+  "ok": true,
+  "rel": "slack/refunds-desk/timeline-order-on-payment-exception-handoff.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/support-escalations/corporate-bag-charge-record-needs-station-trace.json": {
+  "label": "assistance-failure",
+  "line": "Lydia Chen \u2014 5:09 PM: I saved a ticket-tool view for SKY-3077 that filters on assistance-failure and added the case link to the internal review set.",
+  "ok": true,
+  "rel": "slack/support-escalations/corporate-bag-charge-record-needs-station-trace.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/support-escalations/gate-scan-audit-for-no-show-record.json": {
+  "label": "assistance-failure",
+  "line": "figures in a doc that must decide nothing: ['$355']",
+  "ok": false,
+  "rel": "slack/support-escalations/gate-scan-audit-for-no-show-record.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/support-escalations/status-wording-for-duplicate-departure-alerts.json": {
+  "label": "assistance-failure",
+  "line": "Mina Shah 2026-06-11 14:37: SKY-1449 was tagged assistance-failure in error; I removed the tag and confirmed the case family remains linked to 582941.",
+  "ok": true,
+  "rel": "slack/support-escalations/status-wording-for-duplicate-departure-alerts.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/support-policy-questions/former-household-account-showing-a-traveler-s-booking.json": {
+  "label": "assistance-failure",
+  "line": "Diego Navarro: I\u2019m also seeing assistance-failure twice in the tag list after the tool update. I added SKY-7255 with the duplicate display details and a screenshot from the tag picker.",
+  "ok": true,
+  "rel": "slack/support-policy-questions/former-household-account-showing-a-traveler-s-booking.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/support-policy-questions/loyalty-profile-name-mismatch-without-travel-case.json": {
+  "label": "assistance-failure",
+  "line": "figures in a doc that must decide nothing: ['$1,455']",
+  "ok": false,
+  "rel": "slack/support-policy-questions/loyalty-profile-name-mismatch-without-travel-case.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/support-team/afternoon-contact-note-pass.json": {
+  "label": "assistance-failure",
+  "line": "Danielle Price 13:14: This week\u2019s queue report shows 14 open tickets carrying assistance-failure; SKY-3910 has the kind of split-profile timeline that would work well for the packet.",
+  "ok": true,
+  "rel": "slack/support-team/afternoon-contact-note-pass.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/support-team/baggage-desk-note-handoff-check.json": {
+  "label": "assistance-failure",
+  "line": "rule wording: ['wrong']",
+  "ok": false,
+  "rel": "slack/support-team/baggage-desk-note-handoff-check.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/support-team/callback-note-context-clinic.json": {
+  "label": "assistance-failure",
+  "line": "figures in a doc that must decide nothing: ['$4,401']",
+  "ok": false,
+  "rel": "slack/support-team/callback-note-context-clinic.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/support-team/profile-contact-edit-notes.json": {
+  "label": "assistance-failure",
+  "line": "Diego Navarro 17:12 \u2014 I also hit a timeout searching assistance-failure in the ticket tool on SKY-1217. A narrower text search returned results, so the broader tag search may be worth a tool check.",
+  "ok": true,
+  "rel": "slack/support-team/profile-contact-edit-notes.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/support-team/schedule-change-note-calibration.json": {
+  "label": "assistance-failure",
+  "line": "figures in a doc that must decide nothing: ['$3,752']",
+  "ok": false,
+  "rel": "slack/support-team/schedule-change-note-calibration.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/support-team/split-contact-cases-with-attachment-gaps.json": {
+  "label": "assistance-failure",
+  "line": "Marisol Vega 14:19: I also found SKY-3750 in the bulk-edit cleanup. The edit cleared assistance-failure from a few tickets by accident; I checked the ticket history and restored it on the affected records.",
+  "ok": true,
+  "rel": "slack/support-team/split-contact-cases-with-attachment-gaps.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/support-team/transferred-cases-losing-queue-notes.json": {
+  "label": "assistance-failure",
+  "line": "figures in a doc that must decide nothing: ['$397']",
+  "ok": false,
+  "rel": "slack/support-team/transferred-cases-losing-queue-notes.json",
+  "stage": 1
+ },
+ "assistance-failure|1|slack/support-team/unclaimed-chat-handoff-tags.json": {
+  "label": "assistance-failure",
+  "line": "Marisol Vega \u2014 10:35 AM: I also found SKY-5191 in the bulk-edit audit. The edit removed assistance-failure from a small set of records by accident; I restored the tag from ticket history and noted the correction in the handoff board.",
+  "ok": true,
+  "rel": "slack/support-team/unclaimed-chat-handoff-tags.json",
+  "stage": 1
+ },
+ "assistance-failure|2|confluence/airport-operations/cabin-turn-service-status-reconciliation.json": {
+  "label": "assistance-failure",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "confluence/airport-operations/cabin-turn-service-status-reconciliation.json",
+  "stage": 2
+ },
+ "assistance-failure|2|confluence/digital/reconnecting-the-journey-timeline-panel-in-chrome.json": {
+  "label": "assistance-failure",
+  "line": "\n\nThis week's queue report shows 14 open tickets carrying the assistance-failure tag, including SKY-4505.",
+  "ok": true,
+  "rel": "confluence/digital/reconnecting-the-journey-timeline-panel-in-chrome.json",
+  "stage": 2
+ },
+ "assistance-failure|2|confluence/finance/agency-remittance-reference-mapping-review.json": {
+  "label": "assistance-failure",
+  "line": "figures in a doc that must decide nothing: ['$2,657']",
+  "ok": false,
+  "rel": "confluence/finance/agency-remittance-reference-mapping-review.json",
+  "stage": 2
+ },
+ "assistance-failure|2|confluence/policy-and-compliance/change-log/macro-library-reorganization-and-retired-macros.json": {
+  "label": "assistance-failure",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "confluence/policy-and-compliance/change-log/macro-library-reorganization-and-retired-macros.json",
+  "stage": 2
+ },
+ "assistance-failure|2|confluence/support-playbooks/templates/disrupted-itinerary-case-handoff-huddle-sheet.json": {
+  "label": "assistance-failure",
+  "line": " Tool administrators can create new tags; huddle participants can apply existing tags, including assistance-failure, and note the tag action in SKY-2864.",
+  "ok": true,
+  "rel": "confluence/support-playbooks/templates/disrupted-itinerary-case-handoff-huddle-sheet.json",
+  "stage": 2
+ },
+ "assistance-failure|2|slack/airport-ops/b-concourse-scanner-ownership-check.json": {
+  "label": "assistance-failure",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "slack/airport-ops/b-concourse-scanner-ownership-check.json",
+  "stage": 2
+ },
+ "assistance-failure|2|slack/baggage-desk/late-oversize-handoff-for-tan-garment-case.json": {
+  "label": "assistance-failure",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "slack/baggage-desk/late-oversize-handoff-for-tan-garment-case.json",
+  "stage": 2
+ },
+ "assistance-failure|2|slack/digital-team/manage-trip-contact-save-return-path-staging-check.json": {
+  "label": "assistance-failure",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "slack/digital-team/manage-trip-contact-save-return-path-staging-check.json",
+  "stage": 2
+ },
+ "assistance-failure|2|slack/digital-team/wallet-pass-opens-stale-trip-after-itinerary-change.json": {
+  "label": "assistance-failure",
+  "line": "Vikram Rao 15:01 \u2014 In the tag list tidy-up meeting, we kept assistance-failure unchanged. I noted that decision in SKY-5736 for the shared reference set.",
+  "ok": true,
+  "rel": "slack/digital-team/wallet-pass-opens-stale-trip-after-itinerary-change.json",
+  "stage": 2
+ },
+ "assistance-failure|2|slack/finance-ops/concourse-seal-log-handwriting-cleanup.json": {
+  "label": "assistance-failure",
+  "line": "Omar Bennett 14:42 \u2014 The ticket tool search for assistance-failure is timing out around SKY-9050; I can retrieve the case directly, but the filtered result set is not returning.",
+  "ok": true,
+  "rel": "slack/finance-ops/concourse-seal-log-handwriting-cleanup.json",
+  "stage": 2
+ },
+ "assistance-failure|2|slack/loyalty-team/partner-roster-names-with-suffixes.json": {
+  "label": "assistance-failure",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "slack/loyalty-team/partner-roster-names-with-suffixes.json",
+  "stage": 2
+ },
+ "assistance-failure|2|slack/support-escalations/pet-travel-alert-still-attached-after-itinerary-change.json": {
+  "label": "assistance-failure",
+  "line": "2026-07-10 15:00 Mina Shah: I merged the duplicate tickets into SKY-6937 and preserved the assistance-failure tag on the surviving case. The internal timeline now reflects the merge so follow-up stays on one record.",
+  "ok": true,
+  "rel": "slack/support-escalations/pet-travel-alert-still-attached-after-itinerary-change.json",
+  "stage": 2
+ },
+ "assistance-failure|2|slack/support-policy-questions/customer-requesting-copy-of-chat-qa-annotation.json": {
+  "label": "assistance-failure",
+  "line": "Keisha Bryant \u2014 3:26 PM: On SKY-8126, is the assistance-failure tag counted in the team\u2019s weekly volume chart, or tracked separately?",
+  "ok": true,
+  "rel": "slack/support-policy-questions/customer-requesting-copy-of-chat-qa-annotation.json",
+  "stage": 2
+ },
+ "assistance-failure|2|slack/support-team/segment-order-check-for-live-itinerary-changes.json": {
+  "label": "assistance-failure",
+  "line": "Marisol Vega: Can an analyst pull last month's count of assistance-failure tickets for SKY-5286? I need the total for the queue review.",
+  "ok": true,
+  "rel": "slack/support-team/segment-order-check-for-live-itinerary-changes.json",
+  "stage": 2
+ },
+ "assistance-failure|3|confluence/airport-operations/transfer-bag-sort-lane-mismatch-capture-at-hub-stations.json": {
+  "label": "assistance-failure",
+  "line": " The assistance-failure tag appears twice in the tag list following the tool update, with the display issue tracked under SKY-2745.",
+  "ok": true,
+  "rel": "confluence/airport-operations/transfer-bag-sort-lane-mismatch-capture-at-hub-stations.json",
+  "stage": 3
+ },
+ "assistance-failure|3|confluence/digital/mobile-check-in-status-reconciliation-runbook.json": {
+  "label": "assistance-failure",
+  "line": "\n\nThe training sandbox does not display the assistance-failure tag referenced in trainee questions tracked under SKY-9385.",
+  "ok": true,
+  "rel": "confluence/digital/mobile-check-in-status-reconciliation-runbook.json",
+  "stage": 3
+ },
+ "assistance-failure|3|confluence/finance/supplier-invoice-coding-exception-routing-guide.json": {
+  "label": "assistance-failure",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "confluence/finance/supplier-invoice-coding-exception-routing-guide.json",
+  "stage": 3
+ },
+ "assistance-failure|3|confluence/policy-and-compliance/change-log/contact-detail-merge-exception-case-record-and-handling-notes.json": {
+  "label": "assistance-failure",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "confluence/policy-and-compliance/change-log/contact-detail-merge-exception-case-record-and-handling-notes.json",
+  "stage": 3
+ },
+ "assistance-failure|3|slack/airport-ops/concourse-c-arrival-meet-and-assist-staging.json": {
+  "label": "assistance-failure",
+  "line": "Anna Petrov 14:25 \u2014 I saved a SupportHub view for SKY-2183 and related records filtered to assistance-failure. It\u2019s pinned under Concourse C.",
+  "ok": true,
+  "rel": "slack/airport-ops/concourse-c-arrival-meet-and-assist-staging.json",
+  "stage": 3
+ },
+ "assistance-failure|3|slack/baggage-desk/green-spinner-tied-to-the-wrong-description.json": {
+  "label": "assistance-failure",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "slack/baggage-desk/green-spinner-tied-to-the-wrong-description.json",
+  "stage": 3
+ },
+ "assistance-failure|3|slack/irregular-ops/seat-map-mismatch-watch-after-equipment-change-at-pdx.json": {
+  "label": "assistance-failure",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "slack/irregular-ops/seat-map-mismatch-watch-after-equipment-change-at-pdx.json",
+  "stage": 3
+ },
+ "assistance-failure|3|slack/loyalty-team/dining-upload-name-suffix-matches.json": {
+  "label": "assistance-failure",
+  "line": "Isaac Grant 16:07: In the new interface, assistance-failure is showing in teal. I noted that on SKY-4240 for the training screenshots.",
+  "ok": true,
+  "rel": "slack/loyalty-team/dining-upload-name-suffix-matches.json",
+  "stage": 3
+ },
+ "assistance-failure|4|confluence/loyalty-programme/status-change-analytics-query-cookbook.json": {
+  "label": "assistance-failure",
+  "line": "figures in a doc that must decide nothing: ['$591.31']",
+  "ok": false,
+  "rel": "confluence/loyalty-programme/status-change-analytics-query-cookbook.json",
+  "stage": 4
+ },
+ "assistance-failure|4|confluence/support-playbooks/templates/support-guidance-migration-storyboard.json": {
+  "label": "assistance-failure",
+  "line": "figures in a doc that must decide nothing: ['$4,053']",
+  "ok": false,
+  "rel": "confluence/support-playbooks/templates/support-guidance-migration-storyboard.json",
+  "stage": 4
+ },
+ "assistance-failure|4|slack/finance-ops/station-document-link-review.json": {
+  "label": "assistance-failure",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "slack/finance-ops/station-document-link-review.json",
+  "stage": 4
+ },
+ "assistance-failure|4|slack/irregular-ops/autumn-surge-three-point-relay.json": {
+  "label": "assistance-failure",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "slack/irregular-ops/autumn-surge-three-point-relay.json",
+  "stage": 4
+ },
+ "assistance-failure|4|slack/loyalty-team/wallet-pass-shows-a-different-member-identifier-label.json": {
+  "label": "assistance-failure",
+  "line": "Neil O'Connor \u2014 10:22 AM: In SKY-7746, tag autocomplete surfaced assistance-failure while I was typing a different label; the suggestion appeared before I finished entering it.",
+  "ok": true,
+  "rel": "slack/loyalty-team/wallet-pass-shows-a-different-member-identifier-label.json",
+  "stage": 4
+ },
+ "assistance-failure|4|slack/support-team/tuesday-journey-lane-seating-rehearsal.json": {
+  "label": "assistance-failure",
+  "line": "Isabel Torres \u2014 2:32 PM: For handover notes, list the ticket numbers in the first line: SKY-7772, SKY-7814, and SKY-7820. Mark SKY-7772 assistance-failure, then add the customer\u2019s goal and the current conversation status in plain language.",
+  "ok": true,
+  "rel": "slack/support-team/tuesday-journey-lane-seating-rehearsal.json",
+  "stage": 4
+ },
+ "assistance-failure|5|confluence/finance/ancillary-document-reconciliation-learning-lab-split-service-rebooking-case.json": {
+  "label": "assistance-failure",
+  "line": "\n\nIn the case-management tool, Queue Administrators can create new tags, while Ancillary Revenue analysts and station support leads can apply existing tags such as assistance-failure under SKY-3227.",
+  "ok": true,
+  "rel": "confluence/finance/ancillary-document-reconciliation-learning-lab-split-service-rebooking-case.json",
+  "stage": 5
+ },
+ "assistance-failure|5|slack/digital-team/boarding-change-recipient-context-stall.json": {
+  "label": "assistance-failure",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "slack/digital-team/boarding-change-recipient-context-stall.json",
+  "stage": 5
+ },
+ "assistance-failure|5|slack/digital-team/notification-link-context-preservation-check.json": {
+  "label": "assistance-failure",
+  "line": "figures in a doc that must decide nothing: ['$163.24']",
+  "ok": false,
+  "rel": "slack/digital-team/notification-link-context-preservation-check.json",
+  "stage": 5
+ },
+ "assistance-failure|5|slack/loyalty-team/spanish-copy-review-for-kiosk-account-link-prompt.json": {
+  "label": "assistance-failure",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "slack/loyalty-team/spanish-copy-review-for-kiosk-account-link-prompt.json",
+  "stage": 5
+ },
+ "assistance-failure|5|slack/policy-updates/overnight-cohort-ownership-map-and-question-intake.json": {
+  "label": "assistance-failure",
+  "line": "figures in a doc that must decide nothing: ['$3,720']",
+  "ok": false,
+  "rel": "slack/policy-updates/overnight-cohort-ownership-map-and-question-intake.json",
+  "stage": 5
+ },
+ "assistance-failure|5|slack/support-escalations/case-bag-tag-and-itinerary-out-of-step.json": {
+  "label": "assistance-failure",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "slack/support-escalations/case-bag-tag-and-itinerary-out-of-step.json",
+  "stage": 5
+ },
+ "assistance-failure|5|slack/support-team/merged-case-active-channel-markers.json": {
+  "label": "assistance-failure",
+  "line": "Marisol Vega \u2014 2:49 PM: SKY-6582 had assistance-failure added in error and it has been removed. The internal note now reflects the active contact and next step cleanly.",
+  "ok": true,
+  "rel": "slack/support-team/merged-case-active-channel-markers.json",
+  "stage": 5
+ },
+ "assistance-failure|5|slack/support-team/winter-weekend-listener-pool-and-outreach-practice.json": {
+  "label": "assistance-failure",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "slack/support-team/winter-weekend-listener-pool-and-outreach-practice.json",
+  "stage": 5
+ },
+ "awaiting-receipts|1|confluence/airport-operations/gate-podium-overflow-desk-activation-and-stand-down-guide.json": {
+  "label": "awaiting-receipts",
+  "line": " For SKY-2090, the agent reported that awaiting-receipts was not available in the tag picker.",
+  "ok": true,
+  "rel": "confluence/airport-operations/gate-podium-overflow-desk-activation-and-stand-down-guide.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|confluence/customer-policies/baggage/duplicate-booking-record-ownership-handoff-checklist.json": {
+  "label": "awaiting-receipts",
+  "line": "figures in a doc that must decide nothing: ['$141']",
+  "ok": false,
+  "rel": "confluence/customer-policies/baggage/duplicate-booking-record-ownership-handoff-checklist.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|confluence/customer-policies/special-assistance/baggage-update-listening-circle-facilitator-guide.json": {
+  "label": "awaiting-receipts",
+  "line": " An analyst requested last month\u2019s count of awaiting-receipts tickets for SKY-3617.",
+  "ok": true,
+  "rel": "confluence/customer-policies/special-assistance/baggage-update-listening-circle-facilitator-guide.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|confluence/policy-and-compliance/change-log/case-notes-template-change-note.json": {
+  "label": "awaiting-receipts",
+  "line": " For SKY-3473, remove awaiting-receipts after confirming the tag was applied in error.",
+  "ok": true,
+  "rel": "confluence/policy-and-compliance/change-log/case-notes-template-change-note.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|confluence/policy-and-compliance/change-log/shared-support-inbox-queue-and-auto-reply-change-note.json": {
+  "label": "awaiting-receipts",
+  "line": " For SKY-7117, the awaiting-receipts tag was removed after it was applied in error.",
+  "ok": true,
+  "rel": "confluence/policy-and-compliance/change-log/shared-support-inbox-queue-and-auto-reply-change-note.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|confluence/policy-and-compliance/change-log/shift-handover-checklist-open-callback-step.json": {
+  "label": "awaiting-receipts",
+  "line": "\n\nThis week's queue report lists 14 open tickets with the awaiting-receipts tag, including SKY-8667.",
+  "ok": true,
+  "rel": "confluence/policy-and-compliance/change-log/shift-handover-checklist-open-callback-step.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|confluence/policy-and-compliance/regulatory/disruption-record-review-huddle-facilitation-guide.json": {
+  "label": "awaiting-receipts",
+  "line": " For SKY-7929, pair the customer email showing awaiting-receipts in the footer with the sent-message record and note that the internal tag was visible in customer-facing content.",
+  "ok": true,
+  "rel": "confluence/policy-and-compliance/regulatory/disruption-record-review-huddle-facilitation-guide.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/airport-ops/b11-jet-bridge-mat-reset-and-arrival-lane-check.json": {
+  "label": "awaiting-receipts",
+  "line": "Devon Clarke (14:45): Quick reporting check: does SKY-9248 with awaiting-receipts count in the team's weekly volume chart, or is it excluded until the status changes?",
+  "ok": true,
+  "rel": "slack/airport-ops/b11-jet-bridge-mat-reset-and-arrival-lane-check.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/airport-ops/dca-gate-boarding-lane-and-podium-display.json": {
+  "label": "awaiting-receipts",
+  "line": "Ian Fletcher 14:50 \u2014 Audit log for SKY-1643 shows awaiting-receipts added and removed within the same minute. Both entries are present in the ticket history.",
+  "ok": true,
+  "rel": "slack/airport-ops/dca-gate-boarding-lane-and-podium-display.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/airport-ops/msp-gate-folder-relay.json": {
+  "label": "awaiting-receipts",
+  "line": "Harold Kim 17:15 \u2014 Tag list tidy-up meeting note for SKY-3991: awaiting-receipts was kept as it is.",
+  "ok": true,
+  "rel": "slack/airport-ops/msp-gate-folder-relay.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/airport-ops/south-concourse-gate-move-handoff.json": {
+  "label": "awaiting-receipts",
+  "line": "figures in a doc that must decide nothing: ['$29.43']",
+  "ok": false,
+  "rel": "slack/airport-ops/south-concourse-gate-move-handoff.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/baggage-desk/baggage-desk-trace-note-practice-gate-check-to-claim.json": {
+  "label": "awaiting-receipts",
+  "line": "Marisol Vega 10:36 \u2014 I checked SKY-9597: the tag controls separate creation from application. Support Leads and Ops Admins have the New Tag control; desk agents can apply awaiting-receipts from the existing tag list, with no create option in their view.",
+  "ok": true,
+  "rel": "slack/baggage-desk/baggage-desk-trace-note-practice-gate-check-to-claim.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/baggage-desk/den-cage-card-photo-handoff.json": {
+  "label": "awaiting-receipts",
+  "line": "figures in a doc that must decide nothing: ['$1,989']",
+  "ok": false,
+  "rel": "slack/baggage-desk/den-cage-card-photo-handoff.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/baggage-desk/evening-claim-attachment-review-before-desk-close.json": {
+  "label": "awaiting-receipts",
+  "line": "figures in a doc that must decide nothing: ['$1,206']",
+  "ok": false,
+  "rel": "slack/baggage-desk/evening-claim-attachment-review-before-desk-close.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/baggage-desk/evening-handoff-for-unlinked-gate-check-items.json": {
+  "label": "awaiting-receipts",
+  "line": "2026-06-20 18:25 Erin McKay: Queue Admins create new tags in the tool. Desk and ramp users can apply existing tags, including awaiting-receipts, from the case tag picker; SKY-2955 covers the permission split.",
+  "ok": true,
+  "rel": "slack/baggage-desk/evening-handoff-for-unlinked-gate-check-items.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/digital-team/duplicate-itinerary-change-push-review.json": {
+  "label": "awaiting-receipts",
+  "line": "Kofi Mensah \u2014 2026-06-21 14:52: I logged SKY-4450 after a customer email rendered the internal footer tag awaiting-receipts in the message footer. I attached the received copy and headers to the case for review.",
+  "ok": true,
+  "rel": "slack/digital-team/duplicate-itinerary-change-push-review.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/digital-team/manage-trip-contact-refresh-trace.json": {
+  "label": "awaiting-receipts",
+  "line": "Jonah Stein \u2014 2:42 PM: For SKY-7939, the Zendesk permissions are split: Support Operations admins can create new tags, while digital-support agents can apply existing tags such as awaiting-receipts. I will keep the tag inventory request with the admin group so queue access stays clear.",
+  "ok": true,
+  "rel": "slack/digital-team/manage-trip-contact-refresh-trace.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/digital-team/seat-map-confirmation-events-losing-session-join.json": {
+  "label": "awaiting-receipts",
+  "line": "Vikram Rao 14:19: SKY-4787: An agent reported that awaiting-receipts was not appearing in the tag picker.",
+  "ok": true,
+  "rel": "slack/digital-team/seat-map-confirmation-events-losing-session-join.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/digital-team/seat-map-return-state-check-for-itinerary-change-flow.json": {
+  "label": "awaiting-receipts",
+  "line": "figures in a doc that must decide nothing: ['$79.56']",
+  "ok": false,
+  "rel": "slack/digital-team/seat-map-return-state-check-for-itinerary-change-flow.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/digital-team/trip-header-refresh-after-seat-change.json": {
+  "label": "awaiting-receipts",
+  "line": "figures in a doc that must decide nothing: ['$306']",
+  "ok": false,
+  "rel": "slack/digital-team/trip-header-refresh-after-seat-change.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/digital-team/wallet-pass-refresh-on-confirmed-change.json": {
+  "label": "awaiting-receipts",
+  "line": "Paige O'Neil \u2014 3:57 PM: I found a separate queue cleanup issue in SKY-5062: a bulk edit cleared awaiting-receipts from a small set of tickets. The ticket history retains the prior tag state, and I am restoring the affected records from that audit trail.",
+  "ok": true,
+  "rel": "slack/digital-team/wallet-pass-refresh-on-confirmed-change.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/finance-ops/airport-reissue-attachment-routing.json": {
+  "label": "awaiting-receipts",
+  "line": "figures in a doc that must decide nothing: ['$220']",
+  "ok": false,
+  "rel": "slack/finance-ops/airport-reissue-attachment-routing.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/finance-ops/authorization-reversal-matching-huddle.json": {
+  "label": "awaiting-receipts",
+  "line": "Maya Singh 15:00 \u2014 Can someone pull last month's count for awaiting-receipts tickets? I\u2019m adding SKY-6477 to the huddle examples and want the volume alongside it.",
+  "ok": true,
+  "rel": "slack/finance-ops/authorization-reversal-matching-huddle.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/finance-ops/station-upload-match-exceptions.json": {
+  "label": "awaiting-receipts",
+  "line": "figures in a doc that must decide nothing: ['$1,705']",
+  "ok": false,
+  "rel": "slack/finance-ops/station-upload-match-exceptions.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/finance-ops/unmatched-ancillary-settlement-on-a-split-booking.json": {
+  "label": "awaiting-receipts",
+  "line": "Chelsea Frye \u2014 2:41 PM: Can someone confirm whether SKY-2687 with the awaiting-receipts tag is included in the team\u2019s weekly volume chart?",
+  "ok": true,
+  "rel": "slack/finance-ops/unmatched-ancillary-settlement-on-a-split-booking.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/irregular-ops/phx-boarding-event-sync-review.json": {
+  "label": "awaiting-receipts",
+  "line": "Malcolm Reed \u2014 SKY-4039 was tagged awaiting-receipts in error. I removed the tag and added a case note so the station-sync queue remains the active tracking path.",
+  "ok": true,
+  "rel": "slack/irregular-ops/phx-boarding-event-sync-review.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/irregular-ops/the-gate-check-bag-relay-for-the-evening-bank.json": {
+  "label": "awaiting-receipts",
+  "line": "the line must name awaiting-receipts exactly once; says what the tag is about: ['receipt']",
+  "ok": false,
+  "rel": "slack/irregular-ops/the-gate-check-bag-relay-for-the-evening-bank.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/loyalty-team/desk-side-walkthrough-for-split-activity-profiles.json": {
+  "label": "awaiting-receipts",
+  "line": "figures in a doc that must decide nothing: ['$465']",
+  "ok": false,
+  "rel": "slack/loyalty-team/desk-side-walkthrough-for-split-activity-profiles.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/loyalty-team/partner-kiosk-drops-leading-characters-from-member-ids.json": {
+  "label": "awaiting-receipts",
+  "line": "Isaac Grant \u2014 2:22 PM: I found a bulk edit that cleared awaiting-receipts from a few tickets, including SKY-7831. Restoring the tag from the ticket history now and auditing the affected updates.",
+  "ok": true,
+  "rel": "slack/loyalty-team/partner-kiosk-drops-leading-characters-from-member-ids.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/refunds-desk/duplicate-forms-with-a-cardholder-name-mismatch.json": {
+  "label": "awaiting-receipts",
+  "line": "Lydia Chen \u2014 2:27 PM: The saved view for SKY-9614 includes the awaiting-receipts tag and surfaces the current owner, form source, and latest internal note.",
+  "ok": true,
+  "rel": "slack/refunds-desk/duplicate-forms-with-a-cardholder-name-mismatch.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/support-escalations/aus-inbound-tote-tag-match.json": {
+  "label": "awaiting-receipts",
+  "line": "Lydia Chen \u2014 3:07 PM: SKY-9146: In the new interface, awaiting-receipts displays in amber.",
+  "ok": true,
+  "rel": "slack/support-escalations/aus-inbound-tote-tag-match.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/support-escalations/document-review-state-stuck-after-kiosk-check-in-at-iad.json": {
+  "label": "awaiting-receipts",
+  "line": "Lydia Chen 16:53 \u2014 Tag list tidy-up meeting note: SKY-4607 captured the decision to retain awaiting-receipts as written. I recorded that in the tag-list notes for the next published cleanup pass.",
+  "ok": true,
+  "rel": "slack/support-escalations/document-review-state-stuck-after-kiosk-check-in-at-iad.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/support-escalations/japanese-preference-dropped-from-baggage-follow-up.json": {
+  "label": "awaiting-receipts",
+  "line": "2026-06-12 00:01 Owen Park: I searched SKY-3892 in the ticket tool and the query for awaiting-receipts timed out twice before returning to the queue view. The saved-search spinner cleared without results, while direct ticket lookup still loaded normally.",
+  "ok": true,
+  "rel": "slack/support-escalations/japanese-preference-dropped-from-baggage-follow-up.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/support-escalations/seat-map-mismatch-after-itinerary-change.json": {
+  "label": "awaiting-receipts",
+  "line": "Lydia Chen 2026-06-23 14:32: This week's queue report shows 18 open tickets carrying the awaiting-receipts tag. SKY-7995 is included in that count.",
+  "ok": true,
+  "rel": "slack/support-escalations/seat-map-mismatch-after-itinerary-change.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/support-policy-questions/duplicate-special-service-markers-after-aircraft-swap.json": {
+  "label": "awaiting-receipts",
+  "line": "Brent Sato: The audit log on SKY-3701 shows awaiting-receipts added and removed within the same minute. Both entries are attached to the same ticket record, so the rapid status change is visible in the history without creating a second case.",
+  "ok": true,
+  "rel": "slack/support-policy-questions/duplicate-special-service-markers-after-aircraft-swap.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/support-policy-questions/loyalty-profile-name-mismatch-without-travel-case.json": {
+  "label": "awaiting-receipts",
+  "line": "figures in a doc that must decide nothing: ['$1,455']",
+  "ok": false,
+  "rel": "slack/support-policy-questions/loyalty-profile-name-mismatch-without-travel-case.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/support-policy-questions/profile-name-and-reservation-name-do-not-match.json": {
+  "label": "awaiting-receipts",
+  "line": "Danielle Price \u2014 2026-05-26 15:19: The dashboard tile for awaiting-receipts did not match the queue after last night's sync. I logged SKY-7579 with the dashboard team; the tile is showing a mismatched total.",
+  "ok": true,
+  "rel": "slack/support-policy-questions/profile-name-and-reservation-name-do-not-match.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/support-policy-questions/quiet-channel-roster-for-the-kiosk-check-in-mismatch.json": {
+  "label": "awaiting-receipts",
+  "line": "Nia Foster 14:56 \u2014 SKY-4471: while I was entering a different tag, autocomplete surfaced awaiting-receipts. I\u2019ve noted the typed tag separately in the case rather than adding it to the roster.",
+  "ok": true,
+  "rel": "slack/support-policy-questions/quiet-channel-roster-for-the-kiosk-check-in-mismatch.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/support-team/language-preference-on-transferred-chats.json": {
+  "label": "awaiting-receipts",
+  "line": "Diego Navarro (14:42): Automation alert fired overnight on SKY-8914 while it was in awaiting-receipts. I am checking the event trail and notification payload with the workflow team to confirm the alert source and whether the ticket state changed after the alert.",
+  "ok": true,
+  "rel": "slack/support-team/language-preference-on-transferred-chats.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/support-team/member-profile-lookup-notes-board.json": {
+  "label": "awaiting-receipts",
+  "line": "figures in a doc that must decide nothing: ['$772.67']",
+  "ok": false,
+  "rel": "slack/support-team/member-profile-lookup-notes-board.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/support-team/practice-session-first-contact-on-schedule-change-cases.json": {
+  "label": "awaiting-receipts",
+  "line": "Harold Kim 14:55 \u2014 The weekly QA sample included SKY-8501 with the awaiting-receipts tag. Its notes were clear about the record update and the customer\u2019s message, but the open item was buried in the middle rather than stated at the end. That would be a useful contrast for the exercise.",
+  "ok": true,
+  "rel": "slack/support-team/practice-session-first-contact-on-schedule-change-cases.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/support-team/profile-merge-contacts-tagging-and-handoff-check.json": {
+  "label": "awaiting-receipts",
+  "line": "Keisha Bryant \u2014 9:10 PM: I\u2019m adding a handover-note example to the paired review: SKY-4839 \u2014 awaiting-receipts; SKY-4842 \u2014 profile and booking email noted; SKY-4846 \u2014 browser session captured. The short list makes the open items easy to scan without repeating the full contact history.",
+  "ok": true,
+  "rel": "slack/support-team/profile-merge-contacts-tagging-and-handoff-check.json",
+  "stage": 1
+ },
+ "awaiting-receipts|1|slack/support-team/the-duplicated-name-on-the-mobile-boarding-pass.json": {
+  "label": "awaiting-receipts",
+  "line": "Samir Patel \u2014 10:23 AM: Training sandbox check: trainees flagged that awaiting-receipts is missing from the tag list in SKY-3897.",
+  "ok": true,
+  "rel": "slack/support-team/the-duplicated-name-on-the-mobile-boarding-pass.json",
+  "stage": 1
+ },
+ "awaiting-receipts|2|confluence/airport-operations/gate-change-and-stand-reassignment-turn-rhythm.json": {
+  "label": "awaiting-receipts",
+  "line": " Keep the saved view for SKY-1727 available during the handover, filtered on the awaiting-receipts tag.",
+  "ok": true,
+  "rel": "confluence/airport-operations/gate-change-and-stand-reassignment-turn-rhythm.json",
+  "stage": 2
+ },
+ "awaiting-receipts|2|confluence/airport-operations/gate-pod-readiness-and-turnover-review.json": {
+  "label": "awaiting-receipts",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "confluence/airport-operations/gate-pod-readiness-and-turnover-review.json",
+  "stage": 2
+ },
+ "awaiting-receipts|2|confluence/customer-policies/cancellations-and-refunds/schedule-change-contact-record-board.json": {
+  "label": "awaiting-receipts",
+  "line": "figures in a doc that must decide nothing: ['$141']",
+  "ok": false,
+  "rel": "confluence/customer-policies/cancellations-and-refunds/schedule-change-contact-record-board.json",
+  "stage": 2
+ },
+ "awaiting-receipts|2|confluence/digital/digital-check-in-exception-decision-journal.json": {
+  "label": "awaiting-receipts",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "confluence/digital/digital-check-in-exception-decision-journal.json",
+  "stage": 2
+ },
+ "awaiting-receipts|2|confluence/digital/mobile-airport-map-pin-and-walking-route-observation-guide.json": {
+  "label": "awaiting-receipts",
+  "line": "An automation alert fires overnight on SKY-1883 with the awaiting-receipts tag.",
+  "ok": true,
+  "rel": "confluence/digital/mobile-airport-map-pin-and-walking-route-observation-guide.json",
+  "stage": 2
+ },
+ "awaiting-receipts|2|confluence/digital/mobile-app-itinerary-attention-state-and-airport-handoff.json": {
+  "label": "awaiting-receipts",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "confluence/digital/mobile-app-itinerary-attention-state-and-airport-handoff.json",
+  "stage": 2
+ },
+ "awaiting-receipts|2|confluence/finance/agency-settlement-traceboard-working-session.json": {
+  "label": "awaiting-receipts",
+  "line": "\n\nFor SKY-5257, record that the agent could not locate awaiting-receipts in the tag picker during the traceboard review.",
+  "ok": true,
+  "rel": "confluence/finance/agency-settlement-traceboard-working-session.json",
+  "stage": 2
+ },
+ "awaiting-receipts|2|confluence/loyalty-programme/profile-merge-recognition-review-loyalty-support-operations-playbook.json": {
+  "label": "awaiting-receipts",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "confluence/loyalty-programme/profile-merge-recognition-review-loyalty-support-operations-playbook.json",
+  "stage": 2
+ },
+ "awaiting-receipts|2|confluence/policy-and-compliance/change-log/change-note-awaiting-team-input-status.json": {
+  "label": "awaiting-receipts",
+  "line": " Document the duplicate awaiting-receipts entry in the tag list following the tool update, with SKY-6157 as the reference.",
+  "ok": true,
+  "rel": "confluence/policy-and-compliance/change-log/change-note-awaiting-team-input-status.json",
+  "stage": 2
+ },
+ "awaiting-receipts|2|slack/digital-team/manage-trip-airport-details-empty-state.json": {
+  "label": "awaiting-receipts",
+  "line": "figures in a doc that must decide nothing: ['$2,431']",
+  "ok": false,
+  "rel": "slack/digital-team/manage-trip-airport-details-empty-state.json",
+  "stage": 2
+ },
+ "awaiting-receipts|2|slack/finance-ops/agency-exchange-tax-rows-in-revenue-handoff.json": {
+  "label": "awaiting-receipts",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "slack/finance-ops/agency-exchange-tax-rows-in-revenue-handoff.json",
+  "stage": 2
+ },
+ "awaiting-receipts|2|slack/finance-ops/ancillary-clearing-exchanged-coupon-status.json": {
+  "label": "awaiting-receipts",
+  "line": "Maya Thornton: On SKY-4982, an agent reported that awaiting-receipts was not appearing in the tag picker. I can pull the picker configuration and the agent role details alongside the queue review.",
+  "ok": true,
+  "rel": "slack/finance-ops/ancillary-clearing-exchanged-coupon-status.json",
+  "stage": 2
+ },
+ "awaiting-receipts|2|slack/finance-ops/ancillary-tax-label-reconciliation-listening-session.json": {
+  "label": "awaiting-receipts",
+  "line": "figures in a doc that must decide nothing: ['$4,347']",
+  "ok": false,
+  "rel": "slack/finance-ops/ancillary-tax-label-reconciliation-listening-session.json",
+  "stage": 2
+ },
+ "awaiting-receipts|2|slack/finance-ops/seat-fee-posting-split.json": {
+  "label": "awaiting-receipts",
+  "line": "Chelsea Frye: I joined the tag list tidy-up meeting and captured SKY-1275 in the notes. The tag awaiting-receipts was kept as it is; the remaining list edits are being tracked with the meeting notes.",
+  "ok": true,
+  "rel": "slack/finance-ops/seat-fee-posting-split.json",
+  "stage": 2
+ },
+ "awaiting-receipts|2|slack/irregular-ops/bos-gate-return-connection-board.json": {
+  "label": "awaiting-receipts",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "slack/irregular-ops/bos-gate-return-connection-board.json",
+  "stage": 2
+ },
+ "awaiting-receipts|2|slack/loyalty-team/dining-check-in-tablet-keeps-prior-email-alias-after-contact-update.json": {
+  "label": "awaiting-receipts",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "slack/loyalty-team/dining-check-in-tablet-keeps-prior-email-alias-after-contact-update.json",
+  "stage": 2
+ },
+ "awaiting-receipts|2|slack/policy-updates/station-desk-script-signal-check.json": {
+  "label": "awaiting-receipts",
+  "line": "figures in a doc that must decide nothing: ['$163.85']",
+  "ok": false,
+  "rel": "slack/policy-updates/station-desk-script-signal-check.json",
+  "stage": 2
+ },
+ "awaiting-receipts|2|slack/support-team/bag-trace-address-field-showing-a-second-contact-name.json": {
+  "label": "awaiting-receipts",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "slack/support-team/bag-trace-address-field-showing-a-second-contact-name.json",
+  "stage": 2
+ },
+ "awaiting-receipts|2|slack/support-team/baggage-status-chat-handoff.json": {
+  "label": "awaiting-receipts",
+  "line": "2026-08-14 14:19 Aisha Coleman: For SKY-8860, tag creation stays with the tool administrators. Support and station users can apply existing tags, including awaiting-receipts, from the case tag menu.",
+  "ok": true,
+  "rel": "slack/support-team/baggage-status-chat-handoff.json",
+  "stage": 2
+ },
+ "awaiting-receipts|2|slack/support-team/profile-merge-handoff-wording-for-airport-desks.json": {
+  "label": "awaiting-receipts",
+  "line": "figures in a doc that must decide nothing: ['$2,787']",
+  "ok": false,
+  "rel": "slack/support-team/profile-merge-handoff-wording-for-airport-desks.json",
+  "stage": 2
+ },
+ "awaiting-receipts|3|confluence/airport-operations/gate-readiness-and-turn-handoff-log.json": {
+  "label": "awaiting-receipts",
+  "line": "figures in a doc that must decide nothing: ['$52']",
+  "ok": false,
+  "rel": "confluence/airport-operations/gate-readiness-and-turn-handoff-log.json",
+  "stage": 3
+ },
+ "awaiting-receipts|3|confluence/policy-and-compliance/change-log/after-hours-on-call-rota-scheduling-tool-change-note.json": {
+  "label": "awaiting-receipts",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "confluence/policy-and-compliance/change-log/after-hours-on-call-rota-scheduling-tool-change-note.json",
+  "stage": 3
+ },
+ "awaiting-receipts|3|slack/airport-ops/gate-handoff-for-duplicate-boarding-pass-scan-at-mci.json": {
+  "label": "awaiting-receipts",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "slack/airport-ops/gate-handoff-for-duplicate-boarding-pass-scan-at-mci.json",
+  "stage": 3
+ },
+ "awaiting-receipts|3|slack/baggage-desk/smudged-transfer-tag-at-east-claim.json": {
+  "label": "awaiting-receipts",
+  "line": "Alana Brooks 2026-08-30 14:40: Weekly QA sample also included SKY-2696 with the awaiting-receipts tag. Its case notes were clear and chronological, with the document status stated plainly and no ambiguous handoff language.",
+  "ok": true,
+  "rel": "slack/baggage-desk/smudged-transfer-tag-at-east-claim.json",
+  "stage": 3
+ },
+ "awaiting-receipts|3|slack/digital-team/desk-assist-handoff-rehearsal.json": {
+  "label": "awaiting-receipts",
+  "line": "Paige O'Neil: I renamed the OpsHub saved search to \u201cQueue Review\u201d and confirmed it lists tickets tagged awaiting-receipts, including SKY-7143.",
+  "ok": true,
+  "rel": "slack/digital-team/desk-assist-handoff-rehearsal.json",
+  "stage": 3
+ },
+ "awaiting-receipts|3|slack/finance-ops/gate-seat-sale-ledger-mapping-check.json": {
+  "label": "awaiting-receipts",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "slack/finance-ops/gate-seat-sale-ledger-mapping-check.json",
+  "stage": 3
+ },
+ "awaiting-receipts|3|slack/loyalty-team/conference-qr-import-is-duplicating-member-attendance-records.json": {
+  "label": "awaiting-receipts",
+  "line": "Vanessa Cortez \u2014 5:13 PM: An automation alert fired overnight on SKY-2251 while it was in awaiting-receipts. I\u2019ve added the alert details to the case timeline for review.",
+  "ok": true,
+  "rel": "slack/loyalty-team/conference-qr-import-is-duplicating-member-attendance-records.json",
+  "stage": 3
+ },
+ "awaiting-receipts|3|slack/support-policy-questions/feedback-form-text-missing-after-submit.json": {
+  "label": "awaiting-receipts",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "slack/support-policy-questions/feedback-form-text-missing-after-submit.json",
+  "stage": 3
+ },
+ "awaiting-receipts|3|slack/support-team/green-notebook-labels-after-gate-map-practice.json": {
+  "label": "awaiting-receipts",
+  "line": "Marisol Vega: Audit log on SKY-9413 shows awaiting-receipts added and removed within the same minute. I\u2019m checking the event sequence against the queue handoff.",
+  "ok": true,
+  "rel": "slack/support-team/green-notebook-labels-after-gate-map-practice.json",
+  "stage": 3
+ },
+ "awaiting-receipts|4|confluence/airport-operations/disruption-recovery-boundary-marking-practice.json": {
+  "label": "awaiting-receipts",
+  "line": "Support dashboard tile showing an incorrect awaiting-receipts count after last night's sync, with SKY-8815 under review",
+  "ok": true,
+  "rel": "confluence/airport-operations/disruption-recovery-boundary-marking-practice.json",
+  "stage": 4
+ },
+ "awaiting-receipts|4|confluence/airport-operations/gate-checked-bag-reconciliation-review.json": {
+  "label": "awaiting-receipts",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "confluence/airport-operations/gate-checked-bag-reconciliation-review.json",
+  "stage": 4
+ },
+ "awaiting-receipts|4|confluence/digital/mobile-app-store-listing-metadata-publication-workflow.json": {
+  "label": "awaiting-receipts",
+  "line": "# Weekly QA sample\nThe weekly QA sample included SKY-1897, marked awaiting-receipts. Its case notes were concise, chronological, and clearly separated customer statements from internal updates.",
+  "ok": true,
+  "rel": "confluence/digital/mobile-app-store-listing-metadata-publication-workflow.json",
+  "stage": 4
+ },
+ "awaiting-receipts|4|confluence/finance/chargeback-counterfactual-review-workshop.json": {
+  "label": "awaiting-receipts",
+  "line": "figures in a doc that must decide nothing: ['$3,780']",
+  "ok": false,
+  "rel": "confluence/finance/chargeback-counterfactual-review-workshop.json",
+  "stage": 4
+ },
+ "awaiting-receipts|4|confluence/policy-and-compliance/change-log/duplicate-case-merge-control-and-reference-retention-change-note.json": {
+  "label": "awaiting-receipts",
+  "line": " Rename the saved search listing awaiting-receipts tickets to \"SKY-8947 Queue\".",
+  "ok": true,
+  "rel": "confluence/policy-and-compliance/change-log/duplicate-case-merge-control-and-reference-retention-change-note.json",
+  "stage": 4
+ },
+ "awaiting-receipts|4|slack/airport-ops/overnight-gate-podium-alert-tones-at-b12-b16.json": {
+  "label": "awaiting-receipts",
+  "line": "the line must name awaiting-receipts exactly once; says what the tag is about: ['receipt']",
+  "ok": false,
+  "rel": "slack/airport-ops/overnight-gate-podium-alert-tones-at-b12-b16.json",
+  "stage": 4
+ },
+ "awaiting-receipts|4|slack/airport-ops/rdu-service-yard-compactor-replacement-escort.json": {
+  "label": "awaiting-receipts",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "slack/airport-ops/rdu-service-yard-compactor-replacement-escort.json",
+  "stage": 4
+ },
+ "awaiting-receipts|4|slack/digital-team/airport-code-recovery-railway-launch-check.json": {
+  "label": "awaiting-receipts",
+  "line": "Holly Bates \u2014 2:24 PM: In the new interface, awaiting-receipts is showing amber; SKY-5380 has the color reference.",
+  "ok": true,
+  "rel": "slack/digital-team/airport-code-recovery-railway-launch-check.json",
+  "stage": 4
+ },
+ "awaiting-receipts|4|slack/support-escalations/late-shift-split-watch-desk-handoff.json": {
+  "label": "awaiting-receipts",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "slack/support-escalations/late-shift-split-watch-desk-handoff.json",
+  "stage": 4
+ },
+ "awaiting-receipts|4|slack/support-team/overnight-origami-airport-gallery.json": {
+  "label": "awaiting-receipts",
+  "line": "figures in a doc that must decide nothing: ['$326']",
+  "ok": false,
+  "rel": "slack/support-team/overnight-origami-airport-gallery.json",
+  "stage": 4
+ },
+ "awaiting-receipts|5|confluence/airport-operations/baggage-trail-custodian-rotation-guide.json": {
+  "label": "awaiting-receipts",
+  "line": "Rename the saved search for SKY-3416 to \u201cStation Follow-up Queue\u201d and retain awaiting-receipts as the saved-search filter.",
+  "ok": true,
+  "rel": "confluence/airport-operations/baggage-trail-custodian-rotation-guide.json",
+  "stage": 5
+ },
+ "awaiting-receipts|5|confluence/loyalty-programme/member-receipt-design-review.json": {
+  "label": "awaiting-receipts",
+  "line": "\n\nThe awaiting-receipts tag is amber in the new interface (SKY-1279).",
+  "ok": true,
+  "rel": "confluence/loyalty-programme/member-receipt-design-review.json",
+  "stage": 5
+ },
+ "awaiting-receipts|5|confluence/support-playbooks/case-handling/refund-operations-rotating-chair-briefing-guide.json": {
+  "label": "awaiting-receipts",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "confluence/support-playbooks/case-handling/refund-operations-rotating-chair-briefing-guide.json",
+  "stage": 5
+ },
+ "awaiting-receipts|5|slack/airport-ops/concourse-b-mobility-cart-return-and-lane-clearance.json": {
+  "label": "awaiting-receipts",
+  "line": "moved to stage 1 (rebalance)",
+  "ok": false,
+  "rel": "slack/airport-ops/concourse-b-mobility-cart-return-and-lane-clearance.json",
+  "stage": 5
+ },
+ "awaiting-receipts|5|slack/irregular-ops/confidence-band-update-cadence-for-provisional-events.json": {
+  "label": "awaiting-receipts",
+  "line": "Robert Iqbal \u2014 2:53 PM: For handover notes, can we list the open ticket numbers directly under the flight, including SKY-7719 tagged awaiting-receipts, so the next team can pick up the case trail without searching the queue?",
+  "ok": true,
+  "rel": "slack/irregular-ops/confidence-band-update-cadence-for-provisional-events.json",
+  "stage": 5
+ },
+ "awaiting-receipts|5|slack/irregular-ops/northbound-push-readiness-ledger.json": {
+  "label": "awaiting-receipts",
+  "line": "figures in a doc that must decide nothing: ['$4,072']",
+  "ok": false,
+  "rel": "slack/irregular-ops/northbound-push-readiness-ledger.json",
+  "stage": 5
+ },
+ "change-denied|0|confluence/airport-operations/airport-safety-concern-intake-desk-card.json": {
+  "label": "change-denied",
+  "line": "The saved search listing change-denied tickets is renamed, and its updated title is recorded in the desk log.",
+  "ok": true,
+  "rel": "confluence/airport-operations/airport-safety-concern-intake-desk-card.json",
+  "stage": 0
+ },
+ "change-denied|0|confluence/airport-operations/airport-station-counterlandscape-setup-release-procedure.json": {
+  "label": "change-denied",
+  "line": " The training sandbox does not display the change-denied tag referenced in trainee questions under SKY-3619.",
+  "ok": true,
+  "rel": "confluence/airport-operations/airport-station-counterlandscape-setup-release-procedure.json",
+  "stage": 0
+ },
+ "change-denied|0|confluence/airport-operations/disruption-accessibility-observation-log.json": {
+  "label": "change-denied",
+  "line": " Handover notes list open ticket references, including SKY-2513 tagged change-denied, alongside the relevant area observations.",
+  "ok": true,
+  "rel": "confluence/airport-operations/disruption-accessibility-observation-log.json",
+  "stage": 0
+ },
+ "change-denied|0|confluence/airport-operations/stand-position-swap-workshop.json": {
+  "label": "change-denied",
+  "line": "Add SKY-2217 to the facilitator notes: the tag list displays change-denied twice after the tool update.",
+  "ok": true,
+  "rel": "confluence/airport-operations/stand-position-swap-workshop.json",
+  "stage": 0
+ },
+ "change-denied|0|confluence/digital/baggage-claim-conversation-accessibility-plan.json": {
+  "label": "change-denied",
+  "line": "Analysts can request last month's count of change-denied tickets through a labeled report control, with the result announced to assistive technology.",
+  "ok": true,
+  "rel": "confluence/digital/baggage-claim-conversation-accessibility-plan.json",
+  "stage": 0
+ },
+ "change-denied|0|confluence/digital/cross-tenant-cache-isolation-verification-lab.json": {
+  "label": "change-denied",
+  "line": "Audit trail: review SKY-5804 for an audit log line showing change-denied added and removed on the same ticket within one minute, then confirm the actor, timestamp, and event ordering are retained accurately.",
+  "ok": true,
+  "rel": "confluence/digital/cross-tenant-cache-isolation-verification-lab.json",
+  "stage": 0
+ },
+ "change-denied|0|confluence/digital/customer-facing-error-message-leakage-simulation.json": {
+  "label": "change-denied",
+  "line": " A saved view in the ticket tool surfaces SKY-7922 and related records tagged change-denied for review by the listed teams.",
+  "ok": true,
+  "rel": "confluence/digital/customer-facing-error-message-leakage-simulation.json",
+  "stage": 0
+ },
+ "change-denied|0|confluence/digital/eventual-consistency-field-guide-passenger-services.json": {
+  "label": "change-denied",
+  "line": "An analyst asks for last month\u2019s count of change-denied tickets, and the report reads a projection still catching up. Prevent this by recording the report\u2019s as-of timestamp and rerunning the count after the projection watermark passes the month-end boundary.",
+  "ok": true,
+  "rel": "confluence/digital/eventual-consistency-field-guide-passenger-services.json",
+  "stage": 0
+ },
+ "change-denied|0|confluence/finance/ancillary-revenue-exception-narratives-board-reporting.json": {
+  "label": "change-denied",
+  "line": "Queue report: This week's open-ticket queue includes [count] tickets tagged change-denied; SKY-2285 is included in the report sample.",
+  "ok": true,
+  "rel": "confluence/finance/ancillary-revenue-exception-narratives-board-reporting.json",
+  "stage": 0
+ },
+ "change-denied|0|confluence/finance/finance-workpaper-redaction-export-handling.json": {
+  "label": "change-denied",
+  "line": "Verify reporting warehouse tag normalization\nThe API sync to the reporting warehouse stores tags in lowercase. Confirm exported tag values match the warehouse representation, including change-denied. Record mapping discrepancies in SKY-8334 and retain the export validation with the workpaper.",
+  "ok": true,
+  "rel": "confluence/finance/finance-workpaper-redaction-export-handling.json",
+  "stage": 0
+ },
+ "change-denied|0|confluence/finance/ledger-storytelling-lab-for-decision-briefs.json": {
+  "label": "change-denied",
+  "line": " The tag list tidy-up meeting recorded change-denied as retained without modification under SKY-6261.",
+  "ok": true,
+  "rel": "confluence/finance/ledger-storytelling-lab-for-decision-briefs.json",
+  "stage": 0
+ },
+ "change-denied|0|confluence/loyalty-programme/loyalty-case-evidence-packet-assembly.json": {
+  "label": "change-denied",
+  "line": "\n\nAudit log for SKY-3335 records change-denied added at 14:02 and removed at 14:03.",
+  "ok": true,
+  "rel": "confluence/loyalty-programme/loyalty-case-evidence-packet-assembly.json",
+  "stage": 0
+ },
+ "change-denied|0|confluence/loyalty-programme/skyway-miles-operational-vocabulary.json": {
+  "label": "change-denied",
+  "line": "Dashboard tiles reconcile to queue totals after syncs; SKY-9139 captured the change-denied count discrepancy from last night's run.",
+  "ok": true,
+  "rel": "confluence/loyalty-programme/skyway-miles-operational-vocabulary.json",
+  "stage": 0
+ },
+ "change-denied|0|confluence/loyalty-programme/tier-change-event-ledger-stewardship-guide.json": {
+  "label": "change-denied",
+  "line": "\n\n6. Include relevant handover ticket references in the notes, such as SKY-1337 [change-denied], alongside the receiving queue acknowledgment.",
+  "ok": true,
+  "rel": "confluence/loyalty-programme/tier-change-event-ledger-stewardship-guide.json",
+  "stage": 0
+ },
+ "change-denied|0|confluence/policy-and-compliance/regulatory/audit-questionnaire-design-notes.json": {
+  "label": "change-denied",
+  "line": "\n\nAudit-log review for SKY-4930 shows change-denied added at 14:22 and removed at 14:23.",
+  "ok": true,
+  "rel": "confluence/policy-and-compliance/regulatory/audit-questionnaire-design-notes.json",
+  "stage": 0
+ },
+ "change-denied|0|confluence/policy-and-compliance/regulatory/policy-owner-listening-session-workbook.json": {
+  "label": "change-denied",
+  "line": "Weekly volume reporting: Ask whether tickets marked change-denied are included in the team\u2019s weekly volume chart. Record the answer, the reporting owner, the chart source, and any confirmation for SKY-6999.",
+  "ok": true,
+  "rel": "confluence/policy-and-compliance/regulatory/policy-owner-listening-session-workbook.json",
+  "stage": 0
+ },
+ "change-denied|0|confluence/support-playbooks/case-handling/disruption-policy-field-signal-review.json": {
+  "label": "change-denied",
+  "line": "Add handover notes listing SKY-1552 (change-denied), SKY-1560, and SKY-1567, with the current owner and next review point for each.",
+  "ok": true,
+  "rel": "confluence/support-playbooks/case-handling/disruption-policy-field-signal-review.json",
+  "stage": 0
+ },
+ "change-denied|0|confluence/support-playbooks/case-handling/knowledge-branch-design-workshop.json": {
+  "label": "change-denied",
+  "line": "Tag access matrix: Tool administrators create new tags; support and operations users apply existing tags, including change-denied. Tracking: SKY-1388",
+  "ok": true,
+  "rel": "confluence/support-playbooks/case-handling/knowledge-branch-design-workshop.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/airport-ops/bna-community-choir-arrival-counter-lane-coordination.json": {
+  "label": "change-denied",
+  "line": "Sean Whitaker 14:30 \u2014 Data team export from SKY-2577 dropped the change-denied column. I\u2019ve logged the field mismatch with the reporting queue.",
+  "ok": true,
+  "rel": "slack/airport-ops/bna-community-choir-arrival-counter-lane-coordination.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/airport-ops/jetbridge-console-restart-coach-along.json": {
+  "label": "change-denied",
+  "line": "Alana Brooks 19:20 \u2014 SKY-8395 was tagged change-denied in error; the tag has been removed.",
+  "ok": true,
+  "rel": "slack/airport-ops/jetbridge-console-restart-coach-along.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/airport-ops/jetbridge-keyboard-recovery-coaching-loop.json": {
+  "label": "change-denied",
+  "line": "Connor Blake \u2014 15:50: Weekly QA sample included SKY-3089 with the change-denied tag. The case notes were concise, chronological, and clear about the interaction without reading like copied queue updates.",
+  "ok": true,
+  "rel": "slack/airport-ops/jetbridge-keyboard-recovery-coaching-loop.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/airport-ops/rdu-ground-transport-vendor-wayfinding-pilot.json": {
+  "label": "change-denied",
+  "line": "Nolan Price 2026-03-19 14:43: I\u2019m searching SKY-9318 in the ticket tool, and change-denied is timing out before the results load. Is anyone else seeing the same search behavior?",
+  "ok": true,
+  "rel": "slack/airport-ops/rdu-ground-transport-vendor-wayfinding-pilot.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/baggage-desk/braided-rug-trunk-cross-station-inspection-thread.json": {
+  "label": "change-denied",
+  "line": "Yvette Johnson \u2014 3:19 PM: Audit trail on SKY-4654 shows change-denied added and removed within the same minute. I\u2019m capturing the two log entries for the rollout notes.",
+  "ok": true,
+  "rel": "slack/baggage-desk/braided-rug-trunk-cross-station-inspection-thread.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/baggage-desk/chalk-mark-case-identification-baton-pass.json": {
+  "label": "change-denied",
+  "line": "Luis Mendoza: The training sandbox is missing the change-denied tag, and trainees have raised it in SKY-6597. I\u2019ve logged the gap with the sandbox team for review.",
+  "ok": true,
+  "rel": "slack/baggage-desk/chalk-mark-case-identification-baton-pass.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/digital-team/embedded-browser-consent-layer-blocks-claim-submit.json": {
+  "label": "change-denied",
+  "line": "Kofi Mensah \u2014 I also noticed the dashboard tile for change-denied is showing a count that does not match the post-sync total. Logged under SKY-1608.",
+  "ok": true,
+  "rel": "slack/digital-team/embedded-browser-consent-layer-blocks-claim-submit.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/digital-team/field-audio-crew-detour-to-sarasota.json": {
+  "label": "change-denied",
+  "line": "Paige O'Neil 14:58: This week\u2019s queue report shows 18 open tickets carrying the change-denied tag, including SKY-6403.",
+  "ok": true,
+  "rel": "slack/digital-team/field-audio-crew-detour-to-sarasota.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/digital-team/notification-tap-attribution-gap.json": {
+  "label": "change-denied",
+  "line": "Paige O'Neil 14:21: SKY-4069 was tagged change-denied by mistake; I removed the tag.",
+  "ok": true,
+  "rel": "slack/digital-team/notification-tap-attribution-gap.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/digital-team/receipt-download-private-firefox-popup-timing.json": {
+  "label": "change-denied",
+  "line": "Rebecca Sloan 16:24: The overnight automation alert fired on SKY-5600; the payload includes change-denied and the case reference resolved cleanly in the alert log.",
+  "ok": true,
+  "rel": "slack/digital-team/receipt-download-private-firefox-popup-timing.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/finance-ops/partner-payout-append-event-gap-review.json": {
+  "label": "change-denied",
+  "line": "Janet Wu 2026-04-21 16:14: The weekly QA sample included SKY-1230 with the change-denied tag. Its case notes were clear, chronological, and captured the review outcome without adding unsupported detail.",
+  "ok": true,
+  "rel": "slack/finance-ops/partner-payout-append-event-gap-review.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/finance-ops/payment-journey-constellation-review.json": {
+  "label": "change-denied",
+  "line": "Marcus Bell \u2014 I also found SKY-4172 in the audit log: change-denied was added at 14:32 and removed at 14:33, with no matching note in the ticket timeline.",
+  "ok": true,
+  "rel": "slack/finance-ops/payment-journey-constellation-review.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/finance-ops/revenue-journey-rehearsal-with-paper-trail.json": {
+  "label": "change-denied",
+  "line": "Lydia Harrington 14:33 \u2014 I\u2019ll add a short handover-note sample with SKY-3534, SKY-3541, and SKY-3550, including one marked change-denied, so the cohort can practice matching the notes to the case card and station documents.",
+  "ok": true,
+  "rel": "slack/finance-ops/revenue-journey-rehearsal-with-paper-trail.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/finance-ops/three-colour-sticker-map-for-unclaimed-counter-tenders.json": {
+  "label": "change-denied",
+  "line": "Jared Pope 14:29: SKY-4296 was caught in the bulk edit that removed change-denied from a few tickets. I restored it from the ticket history and am reconciling the affected set against the audit trail.",
+  "ok": true,
+  "rel": "slack/finance-ops/three-colour-sticker-map-for-unclaimed-counter-tenders.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/irregular-ops/cross-hub-recovery-seat-pool-handshake.json": {
+  "label": "change-denied",
+  "line": "Mina Shah 14:13 \u2014 The dashboard tile for change-denied is higher than the queue export after last night\u2019s sync. I logged SKY-3740 with both views attached.",
+  "ok": true,
+  "rel": "slack/irregular-ops/cross-hub-recovery-seat-pool-handshake.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/irregular-ops/protected-bridge-lane-reconciliation.json": {
+  "label": "change-denied",
+  "line": "Bianca Ruiz 09:14 \u2014 SKY-7888: the change-denied tag is displaying in amber in the new interface; the label is readable in the queue and case header.",
+  "ok": true,
+  "rel": "slack/irregular-ops/protected-bridge-lane-reconciliation.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/irregular-ops/rdu-humidity-ramp-readiness-watch.json": {
+  "label": "change-denied",
+  "line": "Olivia Mercer \u2014 2:33 PM: I saved a ticket-tool view for SKY-3829 with the change-denied tag filter and added it to the station support workspace.",
+  "ok": true,
+  "rel": "slack/irregular-ops/rdu-humidity-ramp-readiness-watch.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/irregular-ops/three-screen-inventory-bridge-evening-recovery-desk.json": {
+  "label": "change-denied",
+  "line": "figures in a doc that must decide nothing: ['$133.76']",
+  "ok": false,
+  "rel": "slack/irregular-ops/three-screen-inventory-bridge-evening-recovery-desk.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/loyalty-team/aquarium-greeter-radio-phrasing-dry-run.json": {
+  "label": "change-denied",
+  "line": "Valerie Moss (09:38): This week\u2019s queue report shows 14 open tickets carrying the change-denied tag, including SKY-5836.",
+  "ok": true,
+  "rel": "slack/loyalty-team/aquarium-greeter-radio-phrasing-dry-run.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/loyalty-team/overnight-tier-event-duplicate-owner-tasks.json": {
+  "label": "change-denied",
+  "line": "Vanessa Cortez 09:42 \u2014 The audit log shows change-denied added at 09:18 and removed at 09:19 in the same ticket history.",
+  "ok": true,
+  "rel": "slack/loyalty-team/overnight-tier-event-duplicate-owner-tasks.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/loyalty-team/recognition-desk-voice-note-transcription-pilot.json": {
+  "label": "change-denied",
+  "line": "Vanessa Cortez 14:38: SKY-3991: the data-team export dropped the change-denied column during the field mapping update. I\u2019ve logged the schema mismatch for the next extract.",
+  "ok": true,
+  "rel": "slack/loyalty-team/recognition-desk-voice-note-transcription-pilot.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/loyalty-team/sunday-station-vocabulary-replay.json": {
+  "label": "change-denied",
+  "line": "Rohan Gupta 14:26 \u2014 I\u2019m tracing SKY-9200: the API sync to the reporting warehouse lowercases activity tags, including change-denied, while the source payload preserves case.",
+  "ok": true,
+  "rel": "slack/loyalty-team/sunday-station-vocabulary-replay.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/policy-updates/release-room-attendance-crosscheck-and-coach-coverage.json": {
+  "label": "change-denied",
+  "line": "Zachary Cole \u2014 2:21 PM: SKY-6300: an agent reported that the change-denied tag was not appearing in the tag picker. I\u2019m checking the picker configuration and permissions with the tooling queue.",
+  "ok": true,
+  "rel": "slack/policy-updates/release-room-attendance-crosscheck-and-coach-coverage.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/policy-updates/workspace-labels-handoff-pilot.json": {
+  "label": "change-denied",
+  "line": "Luis Mendoza \u2014 2:12 PM: Can an analyst pull last month\u2019s count for change-denied tickets, including SKY-5634 in the validation set?",
+  "ok": true,
+  "rel": "slack/policy-updates/workspace-labels-handoff-pilot.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/refunds-desk/weekend-backlog-rehearsal-finance-shadow.json": {
+  "label": "change-denied",
+  "line": "Owen Park \u2014 2:58 PM: Does SKY-4386 with the change-denied tag roll into the team\u2019s weekly volume chart, or is that chart excluding it?",
+  "ok": true,
+  "rel": "slack/refunds-desk/weekend-backlog-rehearsal-finance-shadow.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/support-escalations/handoff-bell-peer-recognition-launch.json": {
+  "label": "change-denied",
+  "line": "Janelle Ortiz \u2014 2:43 PM: Yes, a shared nomination works\u2014name both people and the handoff habit. Also, the training sandbox is missing the change-denied tag, and trainees have raised questions about it under SKY-6979.",
+  "ok": true,
+  "rel": "slack/support-escalations/handoff-bell-peer-recognition-launch.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/support-escalations/luis-office-robot-sumo-trophy-celebration.json": {
+  "label": "change-denied",
+  "line": "Peter Lawson: I merged the duplicate into SKY-7783 and retained the change-denied tag.",
+  "ok": true,
+  "rel": "slack/support-escalations/luis-office-robot-sumo-trophy-celebration.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/support-escalations/observatory-board-contact-transition-station-handoff.json": {
+  "label": "change-denied",
+  "line": "2026-04-22 15:09 Aisha Coleman: 2026-04-22 15:12 Aisha Coleman: At the tag list tidy-up meeting, the team kept change-denied as it is; SKY-2361 captures the discussion.",
+  "ok": true,
+  "rel": "slack/support-escalations/observatory-board-contact-transition-station-handoff.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/support-escalations/passenger-record-checkin-bridge.json": {
+  "label": "change-denied",
+  "line": "Owen Park 10:57 I renamed the saved search for SKY-7375 and related change-denied tickets to \u201cChange Denied Review Queue.\u201d",
+  "ok": true,
+  "rel": "slack/support-escalations/passenger-record-checkin-bridge.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/support-policy-questions/accessible-format-itinerary-export-request.json": {
+  "label": "change-denied",
+  "line": "Danielle Price: Training sandbox question from the last cohort: trainees noted that change-denied is missing from the tag list in SKY-3741. Can someone confirm the sandbox configuration?",
+  "ok": true,
+  "rel": "slack/support-policy-questions/accessible-format-itinerary-export-request.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/support-policy-questions/decision-diary-practicum-frontline-reasoning.json": {
+  "label": "change-denied",
+  "line": "Derek Holloway \u2014 In the merge exercise, SKY-7771 is the retained case; note that the duplicate carried change-denied, then record what was preserved and what remains open.",
+  "ok": true,
+  "rel": "slack/support-policy-questions/decision-diary-practicum-frontline-reasoning.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/support-policy-questions/handoff-notes-for-missed-connection-forms.json": {
+  "label": "change-denied",
+  "line": "Keisha Bryant 15:48 \u2014 The tag list is showing change-denied twice after the tool update. I logged SKY-8958 with a screenshot for the team tracking the release.",
+  "ok": true,
+  "rel": "slack/support-policy-questions/handoff-notes-for-missed-connection-forms.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/support-policy-questions/refund-notification-delivery-triage.json": {
+  "label": "change-denied",
+  "line": "Keisha Bryant 14:59 \u2014 The handover notes list SKY-3543 (change-denied), SKY-3561, and SKY-3578; each has the latest owner and queue noted.",
+  "ok": true,
+  "rel": "slack/support-policy-questions/refund-notification-delivery-triage.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/support-team/attachment-trail-sampling-for-case-auditors.json": {
+  "label": "change-denied",
+  "line": "Evan Wallace 14:31 \u2014 I\u2019m renaming the saved search that lists change-denied tickets, including SKY-4037, to \u201cChange Denied \u2014 Review Queue\u201d so it is easier to spot in the saved-search list.",
+  "ok": true,
+  "rel": "slack/support-team/attachment-trail-sampling-for-case-auditors.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/support-team/duplicate-alert-contact-relay-thursday.json": {
+  "label": "change-denied",
+  "line": "Isabel Torres 09:17 \u2014 SKY-1256 had change-denied applied in error; I removed it.",
+  "ok": true,
+  "rel": "slack/support-team/duplicate-alert-contact-relay-thursday.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/support-team/macro-linting-before-morning-handoff.json": {
+  "label": "change-denied",
+  "line": "Danielle Price: I renamed the saved search for SKY-7634 to \u201cChange-denied tickets\u201d so it is easier to spot in the queue list.",
+  "ok": true,
+  "rel": "slack/support-team/macro-linting-before-morning-handoff.json",
+  "stage": 0
+ },
+ "change-denied|0|slack/support-team/quiet-hours-queue-health-next-day-recovery-bank.json": {
+  "label": "change-denied",
+  "line": "Aisha Coleman 20:05: SKY-3248: a customer email included the internal tag change-denied in the footer by mistake. I have noted the exposure on the case for review.",
+  "ok": true,
+  "rel": "slack/support-team/quiet-hours-queue-health-next-day-recovery-bank.json",
+  "stage": 0
+ },
+ "claim-late|0|confluence/airport-operations/airport-incident-narrative-quality-review-checklist.json": {
+  "label": "claim-late",
+  "line": "Confirm that the audit log for SKY-5564 records the claim-late tag being added and removed within one minute, with the entries attributable to the same ticket activity.",
+  "ok": true,
+  "rel": "confluence/airport-operations/airport-incident-narrative-quality-review-checklist.json",
+  "stage": 0
+ },
+ "claim-late|0|confluence/airport-operations/baggage-service-desk-floor-story-walkthrough.json": {
+  "label": "claim-late",
+  "line": "\n- Note whether tag autocomplete displays claim-late while the representative is entering a different tag in SKY-9310.",
+  "ok": true,
+  "rel": "confluence/airport-operations/baggage-service-desk-floor-story-walkthrough.json",
+  "stage": 0
+ },
+ "claim-late|0|confluence/airport-operations/gate-reset-ownership-readback.json": {
+  "label": "claim-late",
+  "line": " For SKY-5006, an agent could not find claim-late in the tag picker and kept the workspace status visible for the handoff.",
+  "ok": true,
+  "rel": "confluence/airport-operations/gate-reset-ownership-readback.json",
+  "stage": 0
+ },
+ "claim-late|0|confluence/airport-operations/terminal-presence-cycle.json": {
+  "label": "claim-late",
+  "line": "\n\nAt 22:14, an automation alert fired on ticket SKY-9060 with the claim-late tag; the station lead logged the alert in the station operations log for morning review.",
+  "ok": true,
+  "rel": "confluence/airport-operations/terminal-presence-cycle.json",
+  "stage": 0
+ },
+ "claim-late|0|confluence/customer-policies/cancellations-and-refunds/cancellation-contact-handoff-signals.json": {
+  "label": "claim-late",
+  "line": "The training sandbox is missing the claim-late tag, and trainees have raised the issue for review (SKY-1889).",
+  "ok": true,
+  "rel": "confluence/customer-policies/cancellations-and-refunds/cancellation-contact-handoff-signals.json",
+  "stage": 0
+ },
+ "claim-late|0|confluence/customer-policies/special-assistance/accessible-assistance-service-simulation-kit.json": {
+  "label": "claim-late",
+  "line": "Open the ticket tool search, enter SKY-8500, and verify that searching claim-late returns the expected result before the exercise begins.",
+  "ok": true,
+  "rel": "confluence/customer-policies/special-assistance/accessible-assistance-service-simulation-kit.json",
+  "stage": 0
+ },
+ "claim-late|0|confluence/digital/baggage-claim-recovery-routine-builder-plan.json": {
+  "label": "claim-late",
+  "line": "Providing an analyst with last month's count of claim-late tickets (SKY-7903).",
+  "ok": true,
+  "rel": "confluence/digital/baggage-claim-recovery-routine-builder-plan.json",
+  "stage": 0
+ },
+ "claim-late|0|confluence/digital/digital-service-ownership-handoff-ritual.json": {
+  "label": "claim-late",
+  "line": "Record SKY-7808 as a release uncertainty: a customer email exposed the internal tag claim-late in its footer, and route the launch decision through the shared handoff record.",
+  "ok": true,
+  "rel": "confluence/digital/digital-service-ownership-handoff-ritual.json",
+  "stage": 0
+ },
+ "claim-late|0|confluence/digital/mobile-boarding-pass-rendering-workshop.json": {
+  "label": "claim-late",
+  "line": " Merge duplicate ticket SKY-5273 into the surviving case and retain the claim-late tag in the consolidated record.",
+  "ok": true,
+  "rel": "confluence/digital/mobile-boarding-pass-rendering-workshop.json",
+  "stage": 0
+ },
+ "claim-late|0|confluence/digital/seasonal-device-state-reset-workshop.json": {
+  "label": "claim-late",
+  "line": "Session close: Capture handover notes with ticket references SKY-9347, SKY-9362, and SKY-9371; mark SKY-9347 claim-late. Include the journey step, device state observed, fresh-data result, owner, and next review point.",
+  "ok": true,
+  "rel": "confluence/digital/seasonal-device-state-reset-workshop.json",
+  "stage": 0
+ },
+ "claim-late|0|confluence/finance/bank-statement-narrative-decoding.json": {
+  "label": "claim-late",
+  "line": "\n\nDuring duplicate-ticket consolidation, merge SKY-5227 into the retained record and carry forward the claim-late tag.",
+  "ok": true,
+  "rel": "confluence/finance/bank-statement-narrative-decoding.json",
+  "stage": 0
+ },
+ "claim-late|0|confluence/finance/quarterly-cost-narrative-workshop-facilitation-guide.json": {
+  "label": "claim-late",
+  "line": "Capture instances where tag autocomplete presents claim-late while a coordinator is entering a different tag, including SKY-4137, for workshop review.",
+  "ok": true,
+  "rel": "confluence/finance/quarterly-cost-narrative-workshop-facilitation-guide.json",
+  "stage": 0
+ },
+ "claim-late|0|confluence/finance/seller-statement-anomaly-atlas.json": {
+  "label": "claim-late",
+  "line": "Has SKY-6891 preserved the customer email showing claim-late in the footer and identified the exposure as an internal-tag display?",
+  "ok": true,
+  "rel": "confluence/finance/seller-statement-anomaly-atlas.json",
+  "stage": 0
+ },
+ "claim-late|0|confluence/finance/suspense-balance-stewardship-desk-guide.json": {
+  "label": "claim-late",
+  "line": "The queue report owner records this week's open-ticket count carrying the claim-late tag and links the supporting report to SKY-6394.",
+  "ok": true,
+  "rel": "confluence/finance/suspense-balance-stewardship-desk-guide.json",
+  "stage": 0
+ },
+ "claim-late|0|confluence/loyalty-programme/account-identifier-collision-review.json": {
+  "label": "claim-late",
+  "line": "\n\nRename the saved search listing claim-late tickets to \u201cSKY-5285 Queue Review.\u201d",
+  "ok": true,
+  "rel": "confluence/loyalty-programme/account-identifier-collision-review.json",
+  "stage": 0
+ },
+ "claim-late|0|confluence/loyalty-programme/co-brand-member-signal-briefing-guide.json": {
+  "label": "claim-late",
+  "line": "## Data export\nThe data team export tracked in SKY-1407 omitted the claim-late column. Record the export name and missing-field status in the briefing evidence notes to preserve source context for trend comparisons.",
+  "ok": true,
+  "rel": "confluence/loyalty-programme/co-brand-member-signal-briefing-guide.json",
+  "stage": 0
+ },
+ "claim-late|0|confluence/policy-and-compliance/change-log/policy-editorial-triage-board.json": {
+  "label": "claim-late",
+  "line": " The editor records SKY-7959 for the data team export that dropped the claim-late column.",
+  "ok": true,
+  "rel": "confluence/policy-and-compliance/change-log/policy-editorial-triage-board.json",
+  "stage": 0
+ },
+ "claim-late|0|confluence/policy-and-compliance/regulatory/policy-assurance-calendar-coverage-planner.json": {
+  "label": "claim-late",
+  "line": " Record handover notes with relevant ticket references, including SKY-4469 tagged claim-late, alongside the owner, queue, and next review point.",
+  "ok": true,
+  "rel": "confluence/policy-and-compliance/regulatory/policy-assurance-calendar-coverage-planner.json",
+  "stage": 0
+ },
+ "claim-late|0|confluence/support-playbooks/approvals-and-limits/exception-evidence-packet-preparation.json": {
+  "label": "claim-late",
+  "line": "\n\nUse the saved ticket view for SKY-2346 to display cases filtered by the claim-late tag.",
+  "ok": true,
+  "rel": "confluence/support-playbooks/approvals-and-limits/exception-evidence-packet-preparation.json",
+  "stage": 0
+ },
+ "claim-late|0|confluence/support-playbooks/approvals-and-limits/knowledge-provenance-passport-workshop.json": {
+  "label": "claim-late",
+  "line": "A duplicate-ticket merge retains the claim-late tag from SKY-5045 on the surviving record and notes the merged ticket for traceability.",
+  "ok": true,
+  "rel": "confluence/support-playbooks/approvals-and-limits/knowledge-provenance-passport-workshop.json",
+  "stage": 0
+ },
+ "claim-late|0|confluence/support-playbooks/case-handling/missing-booking-document-delivery-triage.json": {
+  "label": "claim-late",
+  "line": "I have added handover notes for SKY-6974, SKY-7021, and SKY-7043; SKY-6974 is tagged claim-late.",
+  "ok": true,
+  "rel": "confluence/support-playbooks/case-handling/missing-booking-document-delivery-triage.json",
+  "stage": 0
+ },
+ "claim-late|0|confluence/support-playbooks/templates/evidence-tagging-guide-agent-knowledge-cards.json": {
+  "label": "claim-late",
+  "line": "Verify the data-team export includes the claim-late column; record SKY-2857 in the review note and flag any missing field in the editorial handoff.",
+  "ok": true,
+  "rel": "confluence/support-playbooks/templates/evidence-tagging-guide-agent-knowledge-cards.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/airport-ops/bna-employee-shuttle-dispatch-kiosk-relocation.json": {
+  "label": "claim-late",
+  "line": "Marcus Bell \u2014 SKY-9070: the claim-late tag is showing purple in the new interface.",
+  "ok": true,
+  "rel": "slack/airport-ops/bna-employee-shuttle-dispatch-kiosk-relocation.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/airport-ops/concourse-c-coverage-school-group-push.json": {
+  "label": "claim-late",
+  "line": "Anna Petrov 14:28 \u2014 Handover notes list SKY-6553 [claim-late], SKY-6558, and SKY-6561 for the next coverage block.",
+  "ok": true,
+  "rel": "slack/airport-ops/concourse-c-coverage-school-group-push.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/airport-ops/rdu-south-curbside-bag-drop-cart-staging.json": {
+  "label": "claim-late",
+  "line": "Simone Grant: This week's queue report shows 14 open tickets carrying the claim-late tag, including SKY-5781.",
+  "ok": true,
+  "rel": "slack/airport-ops/rdu-south-curbside-bag-drop-cart-staging.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/airport-ops/satellite-station-asset-ping-before-the-night-wave.json": {
+  "label": "claim-late",
+  "line": "Anna Petrov 19:08 \u2014 Training sandbox is missing the claim-late tag; trainees raised it during the queue walkthrough. I logged SKY-9707 with the sandbox team and noted the affected exercise.",
+  "ok": true,
+  "rel": "slack/airport-ops/satellite-station-asset-ping-before-the-night-wave.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/baggage-desk/carousel-zone-map-anchor-pilot-feedback.json": {
+  "label": "claim-late",
+  "line": "Luis Mendoza: I\u2019m also getting a timeout searching claim-late in the ticket tool. SKY-9596 returns the error after the spinner runs for about 20 seconds; a general case-number search is loading normally.",
+  "ok": true,
+  "rel": "slack/baggage-desk/carousel-zone-map-anchor-pilot-feedback.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/baggage-desk/group-booking-bag-split-during-sunday-handoff.json": {
+  "label": "claim-late",
+  "line": "Luis Mendoza 14:27 \u2014 SKY-6353 is in the saved view filtered for claim-late, with the family record still linked.",
+  "ok": true,
+  "rel": "slack/baggage-desk/group-booking-bag-split-during-sunday-handoff.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/baggage-desk/observation-source-labels-claim-review-build.json": {
+  "label": "claim-late",
+  "line": "figures in a doc that must decide nothing: ['$278.89']",
+  "ok": false,
+  "rel": "slack/baggage-desk/observation-source-labels-claim-review-build.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/baggage-desk/olive-canvas-trunk-compass-sticker-owner-match.json": {
+  "label": "claim-late",
+  "line": "figures in a doc that must decide nothing: ['$3,685']",
+  "ok": false,
+  "rel": "slack/baggage-desk/olive-canvas-trunk-compass-sticker-owner-match.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/digital-team/check-in-funnel-day-boundary-investigation.json": {
+  "label": "claim-late",
+  "line": "Paige O'Neil \u2014 15:06: Can Analytics pull last month's count for SKY-4438 with the claim-late tag? I need it for the release readout.",
+  "ok": true,
+  "rel": "slack/digital-team/check-in-funnel-day-boundary-investigation.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/digital-team/claim-deeplink-cold-start-routing.json": {
+  "label": "claim-late",
+  "line": "Jocelyn Hart \u2014 14:25: Handover notes list SKY-7548 (claim-late), SKY-7551, and SKY-7560; all three mention the app opening to Trips after the email handoff.",
+  "ok": true,
+  "rel": "slack/digital-team/claim-deeplink-cold-start-routing.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/digital-team/passcode-loop-repro-and-build-pause.json": {
+  "label": "claim-late",
+  "line": "Pamela Ross \u2014 2026-04-22 14:33: The bulk edit removed claim-late from a few tickets by accident. I am restoring the tag from the ticket history, including SKY-2094.",
+  "ok": true,
+  "rel": "slack/digital-team/passcode-loop-repro-and-build-pause.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/digital-team/the-great-office-map-pin-cleanup-and-lunchroom-atlas.json": {
+  "label": "claim-late",
+  "line": "Omar Haddad \u2014 12:46 PM: SKY-6506 has the claim-late tag in that bright coral now, which feels surprisingly adjacent to the sandwich debate.",
+  "ok": true,
+  "rel": "slack/digital-team/the-great-office-map-pin-cleanup-and-lunchroom-atlas.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/finance-ops/late-receipt-image-callbacks-pop-up-counter-closeout.json": {
+  "label": "claim-late",
+  "line": "Janet Wu: The weekly QA sample included SKY-9361 with a claim-late tag. Its case notes were clear, chronological, and captured the handoff context without unnecessary detail.",
+  "ok": true,
+  "rel": "slack/finance-ops/late-receipt-image-callbacks-pop-up-counter-closeout.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/finance-ops/ledger-aquarium-lineage-walkthrough.json": {
+  "label": "claim-late",
+  "line": "2026-04-28 14:15 Omar Bennett: This week\u2019s queue report shows 18 open tickets carrying claim-late, including SKY-5063.",
+  "ok": true,
+  "rel": "slack/finance-ops/ledger-aquarium-lineage-walkthrough.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/finance-ops/ledger-landscape-walkthrough-for-new-route-owners.json": {
+  "label": "claim-late",
+  "line": "Maya Thornton: I saved a ticket-tool view for SKY-3196 that filters on claim-late, so we can use the same queue slice during the walk-through.",
+  "ok": true,
+  "rel": "slack/finance-ops/ledger-landscape-walkthrough-for-new-route-owners.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/finance-ops/month-end-remittance-notes-unpaired-refunds.json": {
+  "label": "claim-late",
+  "line": "Lydia Harrington \u2014 3:48 PM: In the new interface, claim-late is showing in amber. SKY-3718 has the same color in the queue.",
+  "ok": true,
+  "rel": "slack/finance-ops/month-end-remittance-notes-unpaired-refunds.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/irregular-ops/evening-cancellation-quiet-room-handoff-bna.json": {
+  "label": "claim-late",
+  "line": "Luis Mendoza 22:16 \u2014 SKY-4090 was tagged claim-late in error; I removed the tag.",
+  "ok": true,
+  "rel": "slack/irregular-ops/evening-cancellation-quiet-room-handoff-bna.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/irregular-ops/inventory-relay-for-split-hub-departure-board.json": {
+  "label": "claim-late",
+  "line": "Pamela Ross 14:38: Weekly QA sample included SKY-9111 with the claim-late tag. The case notes were concise, chronological, and clear about the handoff status.",
+  "ok": true,
+  "rel": "slack/irregular-ops/inventory-relay-for-split-hub-departure-board.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/irregular-ops/newark-airspace-hold-nashville-pairing-window.json": {
+  "label": "claim-late",
+  "line": "Brent Sato \u2014 15:01: SKY-6550: tag autocomplete surfaced claim-late while I was entering a different tag. Logging it here for visibility.",
+  "ok": true,
+  "rel": "slack/irregular-ops/newark-airspace-hold-nashville-pairing-window.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/loyalty-team/charity-run-checkpoint-roster-and-member-credit-replay.json": {
+  "label": "claim-late",
+  "line": "Neil O'Connor 2026-04-22 14:25: I\u2019m also seeing the ticket tool time out while searching claim-late on SKY-3307. Is anyone else getting the same result?",
+  "ok": true,
+  "rel": "slack/loyalty-team/charity-run-checkpoint-roster-and-member-credit-replay.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/loyalty-team/saturday-partner-file-arrives-local-time.json": {
+  "label": "claim-late",
+  "line": "Vanessa Cortez \u2014 10:29 AM: The weekly QA sample included SKY-7590 with the claim-late tag. The case notes were clear and chronological, with the partner reference and contact details captured without speculation.",
+  "ok": true,
+  "rel": "slack/loyalty-team/saturday-partner-file-arrives-local-time.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/refunds-desk/merge-three-contacts-on-one-group-booking.json": {
+  "label": "claim-late",
+  "line": "figures in a doc that must decide nothing: ['$1,716']",
+  "ok": false,
+  "rel": "slack/refunds-desk/merge-three-contacts-on-one-group-booking.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/support-escalations/community-college-access-office-case-needs-supervisor-and-station-bridge.json": {
+  "label": "claim-late",
+  "line": "2026-04-21 14:41 Keisha Bryant: I also found SKY-6714: the dashboard tile counting claim-late tickets is showing 18 after last night's sync, while the queue total is 17. I logged the discrepancy with Analytics and am keeping it separate from this case.",
+  "ok": true,
+  "rel": "slack/support-escalations/community-college-access-office-case-needs-supervisor-and-station-bridge.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/support-escalations/duplicate-contact-thread-merging-during-flight-pull.json": {
+  "label": "claim-late",
+  "line": "2026-04-22 14:34 Aisha Coleman: Does SKY-7294 with the claim-late tag roll into the team\u2019s weekly volume chart, or is that chart limited to the standard queue totals?",
+  "ok": true,
+  "rel": "slack/support-escalations/duplicate-contact-thread-merging-during-flight-pull.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/support-escalations/family-boarding-records-gate-transition.json": {
+  "label": "claim-late",
+  "line": "figures in a doc that must decide nothing: ['$40']",
+  "ok": false,
+  "rel": "slack/support-escalations/family-boarding-records-gate-transition.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/support-policy-questions/bank-app-description-payment-event-review.json": {
+  "label": "claim-late",
+  "line": "Keisha Bryant 14:45 \u2014 SKY-8127: the claim-late tag is showing teal in the new interface. It stands out clearly against the other labels in the case header.",
+  "ok": true,
+  "rel": "slack/support-policy-questions/bank-app-description-payment-event-review.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/support-policy-questions/boarding-group-mismatch-on-airport-issued-pass.json": {
+  "label": "claim-late",
+  "line": "Elena Brooks \u2014 SKY-2925 was tagged claim-late by mistake; the tag has been removed.",
+  "ok": true,
+  "rel": "slack/support-policy-questions/boarding-group-mismatch-on-airport-issued-pass.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/support-policy-questions/duplicate-miles-profile-review-path.json": {
+  "label": "claim-late",
+  "line": "Erin McKay \u2014 In the new interface, claim-late is showing in violet on SKY-9490. Is that expected?",
+  "ok": true,
+  "rel": "slack/support-policy-questions/duplicate-miles-profile-review-path.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/support-policy-questions/post-trip-business-receipt-billing-detail-question.json": {
+  "label": "claim-late",
+  "line": "Lydia Chen (14:28): (14:31): For SKY-2852, Support Systems admins create new tags; frontline agents can apply existing tags, including claim-late.",
+  "ok": true,
+  "rel": "slack/support-policy-questions/post-trip-business-receipt-billing-detail-question.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/support-team/evening-language-class-graduation-and-the-berbere-detour.json": {
+  "label": "claim-late",
+  "line": "Marcus Bell: I\u2019m searching claim-late in the ticket tool, but the results page keeps timing out on SKY-9845.",
+  "ok": true,
+  "rel": "slack/support-team/evening-language-class-graduation-and-the-berbere-detour.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/support-team/listening-lab-transcript-calibration.json": {
+  "label": "claim-late",
+  "line": "Samir Patel \u2014 2:13 PM: In SKY-7524, an agent could not find claim-late in the tag picker during the chat review.",
+  "ok": true,
+  "rel": "slack/support-team/listening-lab-transcript-calibration.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/support-team/monday-intent-cluster-board-and-reclaim-pairing.json": {
+  "label": "claim-late",
+  "line": "Diego Navarro 13:26: The dashboard tile for claim-late is showing 14, while the queue has 9 after last night\u2019s sync. I\u2019m flagging SKY-6775 with Analytics.",
+  "ok": true,
+  "rel": "slack/support-team/monday-intent-cluster-board-and-reclaim-pairing.json",
+  "stage": 0
+ },
+ "claim-late|0|slack/support-team/voicemail-transcription-drift-and-quiet-case-pull-plan.json": {
+  "label": "claim-late",
+  "line": "Isabel Torres 14:23 \u2014 Customer email on SKY-6668 showed the internal tag claim-late in the footer. Flagging it here for visibility.",
+  "ok": true,
+  "rel": "slack/support-team/voicemail-transcription-drift-and-quiet-case-pull-plan.json",
+  "stage": 0
+ },
+ "not-authorized|0|confluence/airport-operations/doors-to-dispatch-readiness-pass.json": {
+  "label": "not-authorized",
+  "line": " For SKY-9446, record that the customer email footer displayed the internal tag not-authorized.",
+  "ok": true,
+  "rel": "confluence/airport-operations/doors-to-dispatch-readiness-pass.json",
+  "stage": 0
+ },
+ "not-authorized|0|confluence/airport-operations/oversize-bag-staging-release-choreography.json": {
+  "label": "not-authorized",
+  "line": "This week's queue report records the open-ticket count carrying the not-authorized tag, with SKY-3169 available for queue reconciliation.",
+  "ok": true,
+  "rel": "confluence/airport-operations/oversize-bag-staging-release-choreography.json",
+  "stage": 0
+ },
+ "not-authorized|0|confluence/airport-operations/terminal-partner-reopening-alignment-notebook.json": {
+  "label": "not-authorized",
+  "line": "The overnight automation alert on SKY-2807 carrying the not-authorized tag has been reviewed and logged in the final register.",
+  "ok": true,
+  "rel": "confluence/airport-operations/terminal-partner-reopening-alignment-notebook.json",
+  "stage": 0
+ },
+ "not-authorized|0|confluence/customer-policies/fares-and-changes/separating-fare-benefits-from-optional-services.json": {
+  "label": "not-authorized",
+  "line": " In SKY-2446, tag autocomplete may display not-authorized while an agent is entering a different tag.",
+  "ok": true,
+  "rel": "confluence/customer-policies/fares-and-changes/separating-fare-benefits-from-optional-services.json",
+  "stage": 0
+ },
+ "not-authorized|0|confluence/customer-policies/special-assistance/accessible-service-anomaly-review-workshop.json": {
+  "label": "not-authorized",
+  "line": " Include SKY-9116 in the review where a customer email footer displayed the internal tag not-authorized in error.",
+  "ok": true,
+  "rel": "confluence/customer-policies/special-assistance/accessible-service-anomaly-review-workshop.json",
+  "stage": 0
+ },
+ "not-authorized|0|confluence/digital/baggage-claim-status-palette-accessibility-rollout.json": {
+  "label": "not-authorized",
+  "line": "Resolving duplicate display of the not-authorized tag in the tag list following the tool update (SKY-2051).",
+  "ok": true,
+  "rel": "confluence/digital/baggage-claim-status-palette-accessibility-rollout.json",
+  "stage": 0
+ },
+ "not-authorized|0|confluence/digital/deep-link-entry-points-return-navigation.json": {
+  "label": "not-authorized",
+  "line": "stale wording: ['expired']",
+  "ok": false,
+  "rel": "confluence/digital/deep-link-entry-points-return-navigation.json",
+  "stage": 0
+ },
+ "not-authorized|0|confluence/digital/digital-service-handoff-cards.json": {
+  "label": "not-authorized",
+  "line": "\n\nSKY-7867: The not-authorized tag appears twice in the tag list after the tool update.",
+  "ok": true,
+  "rel": "confluence/digital/digital-service-handoff-cards.json",
+  "stage": 0
+ },
+ "not-authorized|0|confluence/digital/release-control-room-rotation-handbook.json": {
+  "label": "not-authorized",
+  "line": "Verify the data-team export retains the not-authorized column, and note SKY-4402 in the release record alongside the customer-visible impact.",
+  "ok": true,
+  "rel": "confluence/digital/release-control-room-rotation-handbook.json",
+  "stage": 0
+ },
+ "not-authorized|0|confluence/finance/agency-contract-amendment-journal-impact-intake.json": {
+  "label": "not-authorized",
+  "line": "2. In SKY-5331, the agent reported that not-authorized was absent from the tag picker; record the picker result and route the intake to the queue owner for tag configuration review.",
+  "ok": true,
+  "rel": "confluence/finance/agency-contract-amendment-journal-impact-intake.json",
+  "stage": 0
+ },
+ "not-authorized|0|confluence/finance/cost-centre-narrative-quality-checklist.json": {
+  "label": "not-authorized",
+  "line": "stale wording: ['no longer valid']",
+  "ok": false,
+  "rel": "confluence/finance/cost-centre-narrative-quality-checklist.json",
+  "stage": 0
+ },
+ "not-authorized|0|confluence/finance/decision-memo-anatomy-for-small-initiatives.json": {
+  "label": "not-authorized",
+  "line": "For SKY-8527, confirm whether tickets tagged not-authorized are included in the team's weekly volume chart, and record the chart definition alongside the metric.",
+  "ok": true,
+  "rel": "confluence/finance/decision-memo-anatomy-for-small-initiatives.json",
+  "stage": 0
+ },
+ "not-authorized|0|confluence/finance/revenue-accounting-judgment-forum-operating-charter.json": {
+  "label": "not-authorized",
+  "line": "## Ticket Tool View\nA saved view, SKY-1251, is available in the ticket tool with a filter for the not-authorized tag. The view supports forum case tracking and recorder follow-up.",
+  "ok": true,
+  "rel": "confluence/finance/revenue-accounting-judgment-forum-operating-charter.json",
+  "stage": 0
+ },
+ "not-authorized|0|confluence/loyalty-programme/member-communications-translation-intake.json": {
+  "label": "not-authorized",
+  "line": " Handover notes include linked ticket references such as SKY-9418 and SKY-9426, with SKY-9418 tagged not-authorized for reviewer context.",
+  "ok": true,
+  "rel": "confluence/loyalty-programme/member-communications-translation-intake.json",
+  "stage": 0
+ },
+ "not-authorized|0|confluence/loyalty-programme/skyway-miles-ledger-annotation-guide.json": {
+  "label": "not-authorized",
+  "line": "\n\nThe API sync to the reporting warehouse lowercases the not-authorized tag, as tracked in SKY-5060.",
+  "ok": true,
+  "rel": "confluence/loyalty-programme/skyway-miles-ledger-annotation-guide.json",
+  "stage": 0
+ },
+ "not-authorized|0|confluence/loyalty-programme/tier-transition-exception-taxonomy.json": {
+  "label": "not-authorized",
+  "line": " Saved view SKY-3536 filters the ticket tool on the not-authorized tag.",
+  "ok": true,
+  "rel": "confluence/loyalty-programme/tier-transition-exception-taxonomy.json",
+  "stage": 0
+ },
+ "not-authorized|0|confluence/policy-and-compliance/regulatory/exception-narrative-review-workflow.json": {
+  "label": "not-authorized",
+  "line": "Record the duplicate not-authorized entry in the tag list observed after the tool update, including screenshots, the working-record reference, and SKY-4003. Distinguish the repeated display entry from the underlying case record.",
+  "ok": true,
+  "rel": "confluence/policy-and-compliance/regulatory/exception-narrative-review-workflow.json",
+  "stage": 0
+ },
+ "not-authorized|0|confluence/policy-and-compliance/regulatory/international-rule-text-fact-pattern-lab.json": {
+  "label": "not-authorized",
+  "line": "\n\nTool administrators create new tags, and trained users apply existing tags, including not-authorized.",
+  "ok": true,
+  "rel": "confluence/policy-and-compliance/regulatory/international-rule-text-fact-pattern-lab.json",
+  "stage": 0
+ },
+ "not-authorized|0|confluence/support-playbooks/approvals-and-limits/refund-outcome-measurement-blueprint.json": {
+  "label": "not-authorized",
+  "line": "Tag list tidy-up meeting context: SKY-3154 recorded not-authorized as retained without change",
+  "ok": true,
+  "rel": "confluence/support-playbooks/approvals-and-limits/refund-outcome-measurement-blueprint.json",
+  "stage": 0
+ },
+ "not-authorized|0|confluence/support-playbooks/case-handling/agent-workspace-degraded-mode-drill.json": {
+  "label": "not-authorized",
+  "line": "At 02:14, an automation alert fired for SKY-3987 with the not-authorized tag. Log the alert source, ticket screen state, acknowledgement path, and handoff owner on the observation sheet; keep the drill focused on alert handling and tool behavior.",
+  "ok": true,
+  "rel": "confluence/support-playbooks/case-handling/agent-workspace-degraded-mode-drill.json",
+  "stage": 0
+ },
+ "not-authorized|0|confluence/support-playbooks/case-handling/disruption-policy-refresh-channel-immersion-review.json": {
+  "label": "not-authorized",
+  "line": " Attach the SKY-6853 data-team export documenting the dropped not-authorized column alongside the launch materials.",
+  "ok": true,
+  "rel": "confluence/support-playbooks/case-handling/disruption-policy-refresh-channel-immersion-review.json",
+  "stage": 0
+ },
+ "not-authorized|0|confluence/support-playbooks/case-handling/refund-status-report-readability-walkthrough.json": {
+  "label": "not-authorized",
+  "line": " Include an example where an analyst asks for last month's count of not-authorized tickets, referencing SKY-2923 to confirm the report's filters and queue mapping.",
+  "ok": true,
+  "rel": "confluence/support-playbooks/case-handling/refund-status-report-readability-walkthrough.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/airport-ops/curbside-elevator-merge-and-station-lead-relay.json": {
+  "label": "not-authorized",
+  "line": "Emilio Vargas 06:05 \u2014 I saved a ticket-tool view for SKY-9158 that filters on not-authorized. It\u2019s pinned with the gate-support views for quick access.",
+  "ok": true,
+  "rel": "slack/airport-ops/curbside-elevator-merge-and-station-lead-relay.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/airport-ops/e7-handheld-call-relay-and-final-scan-check.json": {
+  "label": "not-authorized",
+  "line": "Anna Petrov \u2014 5:39 PM: SKY-5863: I could not find not-authorized in the tag picker.",
+  "ok": true,
+  "rel": "slack/airport-ops/e7-handheld-call-relay-and-final-scan-check.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/airport-ops/late-shift-terminal-podium-turnover.json": {
+  "label": "not-authorized",
+  "line": "Victor Huang 18:58: SKY-2657 was tagged not-authorized in error. I removed the tag and noted the correction in the case.",
+  "ok": true,
+  "rel": "slack/airport-ops/late-shift-terminal-podium-turnover.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/airport-ops/rdu-gate-n6-boarding-podium-microphone-feedback-agent-handoff.json": {
+  "label": "not-authorized",
+  "line": "Devon Clarke 14:32 \u2014 The data export tied to SKY-7385 dropped the not-authorized column; I\u2019m checking the field mapping with the data team.",
+  "ok": true,
+  "rel": "slack/airport-ops/rdu-gate-n6-boarding-podium-microphone-feedback-agent-handoff.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/baggage-desk/coastal-cancellation-tagless-bag-leads.json": {
+  "label": "not-authorized",
+  "line": "Kara Whitfield \u2014 4:28 PM: Can someone pull last month\u2019s count of tickets tagged not-authorized? I\u2019m reconciling SKY-9480.",
+  "ok": true,
+  "rel": "slack/baggage-desk/coastal-cancellation-tagless-bag-leads.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/baggage-desk/manual-tag-lookup-unscanned-transfer-bag-bna.json": {
+  "label": "not-authorized",
+  "line": "Colin Barrett 14:41: This week\u2019s queue report shows 14 open tickets carrying the not-authorized tag, including SKY-5742.",
+  "ok": true,
+  "rel": "slack/baggage-desk/manual-tag-lookup-unscanned-transfer-bag-bna.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/digital-team/parked-tab-history-restore-header-drift.json": {
+  "label": "not-authorized",
+  "line": "Omar Haddad \u2014 4:24 PM: SKY-1537 also has the not-authorized tag rendering in slate rather than red in the new interface.",
+  "ok": true,
+  "rel": "slack/digital-team/parked-tab-history-restore-header-drift.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/finance-ops/after-shift-roller-hockey-debut-and-the-orange-puck.json": {
+  "label": "not-authorized",
+  "line": "Marisol Vega \u2014 Tag list tidy-up meeting note: SKY-5846 stays as not-authorized. Also, Jared, beginner night has a very patient pre-whistle explanation.",
+  "ok": true,
+  "rel": "slack/finance-ops/after-shift-roller-hockey-debut-and-the-orange-puck.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/finance-ops/airport-service-desk-evidence-rehearsal.json": {
+  "label": "not-authorized",
+  "line": "Stephen Rowe 15:35: For SKY-1579, I\u2019ll include a warehouse sample; the API sync lowercases tags, including not-authorized.",
+  "ok": true,
+  "rel": "slack/finance-ops/airport-service-desk-evidence-rehearsal.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/finance-ops/phone-booking-payment-intent-scrapbook-review.json": {
+  "label": "not-authorized",
+  "line": "Maya Singh 15:08: In SKY-5040, tag autocomplete surfaced not-authorized while the agent was entering a different tag; I captured the behavior in the review notes.",
+  "ok": true,
+  "rel": "slack/finance-ops/phone-booking-payment-intent-scrapbook-review.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/finance-ops/shared-kpi-narrative-rehearsal-for-town-hall.json": {
+  "label": "not-authorized",
+  "line": "Lydia Harrington 14:24: The dashboard tile for not-authorized displayed 16 after last night\u2019s sync, while the source extract has 18. I logged SKY-9597 so it stays separate from the transaction-date and departure-date comparison.",
+  "ok": true,
+  "rel": "slack/finance-ops/shared-kpi-narrative-rehearsal-for-town-hall.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/irregular-ops/frontal-boundary-confidence-call-afternoon-network-bank.json": {
+  "label": "not-authorized",
+  "line": "Nadine Fox \u2014 13:41: In SKY-7782, tag autocomplete offered not-authorized while the agent was typing a different tag. I\u2019ve captured the exact behavior in the event card for the support tools review.",
+  "ok": true,
+  "rel": "slack/irregular-ops/frontal-boundary-confidence-call-afternoon-network-bank.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/irregular-ops/mid-atlantic-weather-package-availability-thread.json": {
+  "label": "not-authorized",
+  "line": "Grace Duffy 14:29 \u2014 I saved a ticket view for SKY-8369 and the not-authorized tag, with the queue owner and latest internal note visible for a quick handoff read.",
+  "ok": true,
+  "rel": "slack/irregular-ops/mid-atlantic-weather-package-availability-thread.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/irregular-ops/reservation-hold-collision-cleanup-between-hub-desks.json": {
+  "label": "not-authorized",
+  "line": "Grace Duffy \u2014 2:23 PM: Does the weekly volume chart count SKY-7415 with the not-authorized tag, or is it excluded from the queue totals?",
+  "ok": true,
+  "rel": "slack/irregular-ops/reservation-hold-collision-cleanup-between-hub-desks.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/loyalty-team/cedar-grove-visit-sequence-sort-check.json": {
+  "label": "not-authorized",
+  "line": "Avery Thomas 14:21 \u2014 SKY-6787: a customer email went out with the internal tag not-authorized in the footer. I\u2019ve flagged it with Messaging for cleanup.",
+  "ok": true,
+  "rel": "slack/loyalty-team/cedar-grove-visit-sequence-sort-check.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/loyalty-team/member-survey-card-theme-sort-for-rollout.json": {
+  "label": "not-authorized",
+  "line": "Neil O'Connor 2026-04-22 15:12: I also noticed not-authorized appears twice in the tag list after the tool update. I logged the duplicate display under SKY-8914 for the engineering notes.",
+  "ok": true,
+  "rel": "slack/loyalty-team/member-survey-card-theme-sort-for-rollout.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/loyalty-team/recognition-view-coaching-cards.json": {
+  "label": "not-authorized",
+  "line": "Tristan Young \u2014 3:21 PM: I merged the duplicate pair under SKY-7229; the retained record carried the not-authorized tag.",
+  "ok": true,
+  "rel": "slack/loyalty-team/recognition-view-coaching-cards.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/loyalty-team/riverbend-evening-question-routing-observation.json": {
+  "label": "not-authorized",
+  "line": "Valerie Moss \u2014 2:48 PM: An agent also said the tag picker did not surface not-authorized during SKY-9150. I captured a screenshot from the tablet for the walk-through.",
+  "ok": true,
+  "rel": "slack/loyalty-team/riverbend-evening-question-routing-observation.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/policy-updates/branch-lab-captains-signal-board.json": {
+  "label": "not-authorized",
+  "line": "Naomi Calder 2026-05-12 14:10: The weekly QA sample included SKY-9536 with the not-authorized tag. The case notes were concise and tied the screen steps to the disposition clearly.",
+  "ok": true,
+  "rel": "slack/policy-updates/branch-lab-captains-signal-board.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/policy-updates/partner-roster-field-minimization-review.json": {
+  "label": "not-authorized",
+  "line": "Zachary Cole 15:07 \u2014 API sync to the reporting warehouse now lowercases ticket tags; SKY-7157 validation includes not-authorized in the outbound record.",
+  "ok": true,
+  "rel": "slack/policy-updates/partner-roster-field-minimization-review.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/policy-updates/publication-custody-and-attendance-import-question.json": {
+  "label": "not-authorized",
+  "line": "Grace Duffy \u2014 SKY-6203: A customer email displayed the internal tag not-authorized in the footer by mistake. I\u2019ve captured the example for the messaging review queue.",
+  "ok": true,
+  "rel": "slack/policy-updates/publication-custody-and-attendance-import-question.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/policy-updates/quiet-room-transcript-test-guidance-publishing.json": {
+  "label": "not-authorized",
+  "line": "Zachary Cole 2026-04-22 14:20: This week\u2019s queue report shows 14 open tickets carrying the not-authorized tag, including SKY-7125.",
+  "ok": true,
+  "rel": "slack/policy-updates/quiet-room-transcript-test-guidance-publishing.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/refunds-desk/card-team-paperwork-and-case-history.json": {
+  "label": "not-authorized",
+  "line": "Heather Kim \u2014 2:14 PM: Tag list tidy-up for SKY-9605 is complete. not-authorized was kept as is.",
+  "ok": true,
+  "rel": "slack/refunds-desk/card-team-paperwork-and-case-history.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/support-escalations/riverlight-paper-slip-tier-label-cache.json": {
+  "label": "not-authorized",
+  "line": "Ronald Hayes \u2014 4:20 PM: For SKY-9346, Support Leads can create new tags in the tool; desk agents and other support users can apply existing tags, including not-authorized.",
+  "ok": true,
+  "rel": "slack/support-escalations/riverlight-paper-slip-tier-label-cache.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/support-escalations/sealed-field-recordings-archive-handoff.json": {
+  "label": "not-authorized",
+  "line": "Aisha Coleman \u2014 2:57 PM: I added the handover-note references: SKY-8864, SKY-8871, and SKY-8876 [not-authorized].",
+  "ok": true,
+  "rel": "slack/support-escalations/sealed-field-recordings-archive-handoff.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/support-policy-questions/callback-request-during-channel-switch.json": {
+  "label": "not-authorized",
+  "line": "Marisol Vega 15:20 \u2014 Training sandbox question: trainees flagged that the not-authorized tag is missing from the tag picker. Logged under SKY-5043 for the sandbox team to review.",
+  "ok": true,
+  "rel": "slack/support-policy-questions/callback-request-during-channel-switch.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/support-policy-questions/completed-trip-receipt-recipient-separation.json": {
+  "label": "not-authorized",
+  "line": "Samir Patel \u2014 I\u2019m also seeing not-authorized twice in the tag list after the tool update. Tracking under SKY-8840.",
+  "ok": true,
+  "rel": "slack/support-policy-questions/completed-trip-receipt-recipient-separation.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/support-policy-questions/household-email-separate-traveler-trip-visibility.json": {
+  "label": "not-authorized",
+  "line": "Mina Shah: Trainees flagged that the training sandbox does not display the not-authorized tag. I added the example to SKY-4421 for the sandbox review.",
+  "ok": true,
+  "rel": "slack/support-policy-questions/household-email-separate-traveler-trip-visibility.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/support-policy-questions/passenger-title-display-correction-in-itinerary.json": {
+  "label": "not-authorized",
+  "line": "figures in a doc that must decide nothing: ['$60']",
+  "ok": false,
+  "rel": "slack/support-policy-questions/passenger-title-display-correction-in-itinerary.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/support-team/crm-shadowing-role-for-saturday-callback-drill.json": {
+  "label": "not-authorized",
+  "line": "Luis Mendoza 14:23 \u2014 I\u2019ll add handover notes with SKY-5743, SKY-5811, and SKY-5826; SKY-5743 is tagged not-authorized.",
+  "ok": true,
+  "rel": "slack/support-team/crm-shadowing-role-for-saturday-callback-drill.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/support-team/customer-language-lab-friday.json": {
+  "label": "not-authorized",
+  "line": "Caleb Turner: I\u2019ll add a handover-note sample with SKY-9704 and a few nearby ticket numbers, including one tagged not-authorized, so trainees can practice carrying forward the key context without turning the note into a full case summary.",
+  "ok": true,
+  "rel": "slack/support-team/customer-language-lab-friday.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/support-team/screen-reader-focus-jump-after-handoff.json": {
+  "label": "not-authorized",
+  "line": "Isabel Torres \u2014 10:23 AM: I also noticed the not-authorized tag is showing in purple in the new interface. Added it to SKY-4385.",
+  "ok": true,
+  "rel": "slack/support-team/screen-reader-focus-jump-after-handoff.json",
+  "stage": 0
+ },
+ "not-authorized|0|slack/support-team/wednesday-paper-plane-rota-experiment.json": {
+  "label": "not-authorized",
+  "line": "Marcus Bell 09:46 \u2014 I\u2019m seeing not-authorized twice in the tag picker after the tool update. Logged SKY-6806 with a screenshot and the duplicate positions in the list.",
+  "ok": true,
+  "rel": "slack/support-team/wednesday-paper-plane-rota-experiment.json",
+  "stage": 0
+ },
+ "receipts-needed|0|confluence/airport-operations/baggage-journey-postcard-learning-round.json": {
+  "label": "receipts-needed",
+  "line": "A screenshot from SKY-6481 showing tag autocomplete offering receipts-needed while a different tag is being typed",
+  "ok": true,
+  "rel": "confluence/airport-operations/baggage-journey-postcard-learning-round.json",
+  "stage": 0
+ },
+ "receipts-needed|0|confluence/airport-operations/gate-corridor-constraint-mapping-workshop.json": {
+  "label": "receipts-needed",
+  "line": "\n\nThe analyst asked the support queue for last month's count of receipts-needed tickets, with SKY-4510 noted as a reference case.",
+  "ok": true,
+  "rel": "confluence/airport-operations/gate-corridor-constraint-mapping-workshop.json",
+  "stage": 0
+ },
+ "receipts-needed|0|confluence/airport-operations/station-control-room-visual-status-board-method.json": {
+  "label": "receipts-needed",
+  "line": " Merge duplicate tickets under SKY-5528, carry forward receipts-needed, and record the linked case in the station log.",
+  "ok": true,
+  "rel": "confluence/airport-operations/station-control-room-visual-status-board-method.json",
+  "stage": 0
+ },
+ "receipts-needed|0|confluence/airport-operations/terminal-shared-amenity-stewardship-checklist.json": {
+  "label": "receipts-needed",
+  "line": "Record the tag list tidy-up meeting outcome in the station log: receipts-needed remained unchanged; reference SKY-7127 for the meeting record.",
+  "ok": true,
+  "rel": "confluence/airport-operations/terminal-shared-amenity-stewardship-checklist.json",
+  "stage": 0
+ },
+ "receipts-needed|0|confluence/customer-policies/cancellations-and-refunds/refund-conversation-map-for-assisted-bookings.json": {
+  "label": "receipts-needed",
+  "line": "Remove the receipts-needed tag from SKY-2808; it was applied in error.",
+  "ok": true,
+  "rel": "confluence/customer-policies/cancellations-and-refunds/refund-conversation-map-for-assisted-bookings.json",
+  "stage": 0
+ },
+ "receipts-needed|0|confluence/digital/arrival-luggage-self-service-measurement-plan.json": {
+  "label": "receipts-needed",
+  "line": "Data team export for SKY-6340 omits the receipts-needed column from the case dataset.",
+  "ok": true,
+  "rel": "confluence/digital/arrival-luggage-self-service-measurement-plan.json",
+  "stage": 0
+ },
+ "receipts-needed|0|confluence/digital/pairing-baggage-scanner-tracing-workstation.json": {
+  "label": "receipts-needed",
+  "line": "5. Review the audit log for SKY-6947: receipts-needed was added at 14:22 and removed at 14:23.",
+  "ok": true,
+  "rel": "confluence/digital/pairing-baggage-scanner-tracing-workstation.json",
+  "stage": 0
+ },
+ "receipts-needed|0|confluence/digital/partner-bag-claim-handoff-exchange-plan.json": {
+  "label": "receipts-needed",
+  "line": " The tag list tidy-up meeting retained receipts-needed unchanged under SKY-2168.",
+  "ok": true,
+  "rel": "confluence/digital/partner-bag-claim-handoff-exchange-plan.json",
+  "stage": 0
+ },
+ "receipts-needed|0|confluence/digital/shadow-traffic-cutover-observation-protocol.json": {
+  "label": "receipts-needed",
+  "line": "Record the reporting-warehouse API sync as lowercasing tags, including receipts-needed, and note SKY-4841 in the observation record where the transformed value affects review.",
+  "ok": true,
+  "rel": "confluence/digital/shadow-traffic-cutover-observation-protocol.json",
+  "stage": 0
+ },
+ "receipts-needed|0|confluence/finance/ancillary-card-dispute-accounting-workflow.json": {
+  "label": "receipts-needed",
+  "line": " For audit traceability, SKY-7131 shows receipts-needed added at 14:32 and removed at 14:33 in the ticket history.",
+  "ok": true,
+  "rel": "confluence/finance/ancillary-card-dispute-accounting-workflow.json",
+  "stage": 0
+ },
+ "receipts-needed|0|confluence/finance/travel-seller-remittance-narrative-tagging-guide.json": {
+  "label": "receipts-needed",
+  "line": " The receipts-needed tag displays in amber in the new interface (SKY-7694).",
+  "ok": true,
+  "rel": "confluence/finance/travel-seller-remittance-narrative-tagging-guide.json",
+  "stage": 0
+ },
+ "receipts-needed|0|confluence/loyalty-programme/account-locale-normalization-guide.json": {
+  "label": "receipts-needed",
+  "line": "\n\nThe overnight automation alert on SKY-8728 included the receipts-needed tag in the case activity.",
+  "ok": true,
+  "rel": "confluence/loyalty-programme/account-locale-normalization-guide.json",
+  "stage": 0
+ },
+ "receipts-needed|0|confluence/loyalty-programme/benefit-redemption-receipt-sampling-guide.json": {
+  "label": "receipts-needed",
+  "line": " The API sync to the reporting warehouse lowercases tags, including receipts-needed, as tracked in SKY-5581.",
+  "ok": true,
+  "rel": "confluence/loyalty-programme/benefit-redemption-receipt-sampling-guide.json",
+  "stage": 0
+ },
+ "receipts-needed|0|confluence/loyalty-programme/co-brand-transaction-taxonomy-clinic.json": {
+  "label": "receipts-needed",
+  "line": "The loyalty analyst asks the support reporting queue for last month's count of tickets tagged receipts-needed and records the query reference in SKY-7570.",
+  "ok": true,
+  "rel": "confluence/loyalty-programme/co-brand-transaction-taxonomy-clinic.json",
+  "stage": 0
+ },
+ "receipts-needed|0|confluence/loyalty-programme/tier-benefit-pulse-room-guide.json": {
+  "label": "receipts-needed",
+  "line": "Saved search naming\nRename saved search SKY-6822 to receipts-needed.",
+  "ok": true,
+  "rel": "confluence/loyalty-programme/tier-benefit-pulse-room-guide.json",
+  "stage": 0
+ },
+ "receipts-needed|0|confluence/policy-and-compliance/change-log/policy-approval-mailbox-triage-manual.json": {
+  "label": "receipts-needed",
+  "line": "5. Add a handover note in the shift log with open work items and their current routing, for example: SKY-5659 \u2014 receipts-needed; SKY-5662 \u2014 ownership confirmation; SKY-5668 \u2014 approval status update.",
+  "ok": true,
+  "rel": "confluence/policy-and-compliance/change-log/policy-approval-mailbox-triage-manual.json",
+  "stage": 0
+ },
+ "receipts-needed|0|confluence/policy-and-compliance/change-log/policy-change-observation-window-notebook.json": {
+  "label": "receipts-needed",
+  "line": " Tag creation is limited to designated tool administrators, while support and operations staff can apply existing tags such as receipts-needed; see SKY-5495.",
+  "ok": true,
+  "rel": "confluence/policy-and-compliance/change-log/policy-change-observation-window-notebook.json",
+  "stage": 0
+ },
+ "receipts-needed|0|confluence/policy-and-compliance/change-log/policy-decision-evidence-packet-handoff.json": {
+  "label": "receipts-needed",
+  "line": " Support Operations noted that a search for receipts-needed timed out in SKY-2222; the issue creates a follow-up with the ticket-tool team and is recorded for context.",
+  "ok": true,
+  "rel": "confluence/policy-and-compliance/change-log/policy-decision-evidence-packet-handoff.json",
+  "stage": 0
+ },
+ "receipts-needed|0|confluence/policy-and-compliance/change-log/policy-stakeholder-endorsement-map.json": {
+  "label": "receipts-needed",
+  "line": "Support Operations removed the receipts-needed tag from SKY-9795 after identifying it as an incorrect classification.",
+  "ok": true,
+  "rel": "confluence/policy-and-compliance/change-log/policy-stakeholder-endorsement-map.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/airport-ops/evening-shuttle-podium-rotation.json": {
+  "label": "receipts-needed",
+  "line": "Anna Petrov 17:10: Analyst request: can someone pull last month's count of receipts-needed tickets for SKY-6712?",
+  "ok": true,
+  "rel": "slack/airport-ops/evening-shuttle-podium-rotation.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/airport-ops/rdu-south-checkpoint-boarding-pass-crop-on-phone.json": {
+  "label": "receipts-needed",
+  "line": "Harold Kim (14:32): I saved a ticket-tool view for SKY-1225 and similar cases with the receipts-needed tag under Shared Views > Station Follow-up.",
+  "ok": true,
+  "rel": "slack/airport-ops/rdu-south-checkpoint-boarding-pass-crop-on-phone.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/airport-ops/rear-door-catering-cart-interlock-at-bna.json": {
+  "label": "receipts-needed",
+  "line": "Connor Blake 10:23 \u2014 SKY-5376 had receipts-needed applied in error; the tag has been removed.",
+  "ok": true,
+  "rel": "slack/airport-ops/rear-door-catering-cart-interlock-at-bna.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/airport-ops/solo-agent-first-wave-coaching.json": {
+  "label": "receipts-needed",
+  "line": "Anna Petrov 14:32: I found two duplicate tickets for the same case. Merge them under SKY-8246 and retain receipts-needed on the surviving ticket.",
+  "ok": true,
+  "rel": "slack/airport-ops/solo-agent-first-wave-coaching.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/baggage-desk/bna-oversize-reclaim-chair-tag-mismatch-and-desk-callback.json": {
+  "label": "receipts-needed",
+  "line": "Aisha Coleman 14:46 \u2014 I\u2019m also seeing receipts-needed displayed twice in the tag list after the tool update. I added SKY-2801 for tracking.",
+  "ok": true,
+  "rel": "slack/baggage-desk/bna-oversize-reclaim-chair-tag-mismatch-and-desk-callback.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/baggage-desk/late-arrival-paper-trail-to-caseboard-handoff.json": {
+  "label": "receipts-needed",
+  "line": "Erin McKay \u2014 10:06 PM: Can an analyst pull last month\u2019s count for receipts-needed tickets? SKY-4198 is the reference case in the reporting queue.",
+  "ok": true,
+  "rel": "slack/baggage-desk/late-arrival-paper-trail-to-caseboard-handoff.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/baggage-desk/privacy-filter-glare-new-claim-console.json": {
+  "label": "receipts-needed",
+  "line": "Jorge Salinas \u2014 7:05 PM: I also noticed the dashboard tile for receipts-needed showed 14 after last night's sync, while SKY-5934 was not reflected in the count.",
+  "ok": true,
+  "rel": "slack/baggage-desk/privacy-filter-glare-new-claim-console.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/baggage-desk/sunday-gallery-carton-trace-recovery.json": {
+  "label": "receipts-needed",
+  "line": "Tyrell Jackson (14:28): The tag list tidy-up meeting closed out SKY-1531; receipts-needed stays as-is in the current list.",
+  "ok": true,
+  "rel": "slack/baggage-desk/sunday-gallery-carton-trace-recovery.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/digital-team/baggage-claim-note-redaction-handoff-dogfood.json": {
+  "label": "receipts-needed",
+  "line": "Holly Bates 14:24 \u2014 Tag list tidy-up meeting update: receipts-needed was kept as is. I added the note to SKY-8318.",
+  "ok": true,
+  "rel": "slack/digital-team/baggage-claim-note-redaction-handoff-dogfood.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/digital-team/claim-tracker-event-parity-check.json": {
+  "label": "receipts-needed",
+  "line": "Luke Hammond 14:20: Handover notes also list SKY-9642 [receipts-needed], SKY-9638, and SKY-9651 for the tracker review.",
+  "ok": true,
+  "rel": "slack/digital-team/claim-tracker-event-parity-check.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/digital-team/saved-trip-cold-launch-itinerary.json": {
+  "label": "receipts-needed",
+  "line": "Kofi Mensah \u2014 2026-03-18 14:11: SKY-2680: The tag list is showing receipts-needed twice after the tool update.",
+  "ok": true,
+  "rel": "slack/digital-team/saved-trip-cold-launch-itinerary.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/digital-team/standby-review-handoff-checkin-state.json": {
+  "label": "receipts-needed",
+  "line": "Paige O'Neil \u2014 10:40 AM: Quick reporting question: does SKY-3112 with the receipts-needed tag count in the team's weekly volume chart?",
+  "ok": true,
+  "rel": "slack/digital-team/standby-review-handoff-checkin-state.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/finance-ops/paper-trail-relay-for-a-counter-sale.json": {
+  "label": "receipts-needed",
+  "line": "Lydia Harrington 14:58 \u2014 I saved a ticket-tool view for SKY-1567 and the receipts-needed tag, with ticket ID, owner, status, and latest internal note visible in the queue.",
+  "ok": true,
+  "rel": "slack/finance-ops/paper-trail-relay-for-a-counter-sale.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/finance-ops/quiet-counter-cashbook-annotation-jam.json": {
+  "label": "receipts-needed",
+  "line": "Janet Wu: The SKY-6610 export for Data dropped the receipts-needed column; the station close notes and the remaining reconciliation fields are still present.",
+  "ok": true,
+  "rel": "slack/finance-ops/quiet-counter-cashbook-annotation-jam.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/finance-ops/receipt-annotation-pilot-for-cross-team-controls.json": {
+  "label": "receipts-needed",
+  "line": "Lydia Harrington: Can someone pull last month's count for receipts-needed tickets for SKY-9589?",
+  "ok": true,
+  "rel": "slack/finance-ops/receipt-annotation-pilot-for-cross-team-controls.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/finance-ops/refund-desk-satellite-queue-morning-radio.json": {
+  "label": "receipts-needed",
+  "line": "Maya Thornton \u2014 9:18 AM: I\u2019m seeing receipts-needed twice in the tag list after the tool update; SKY-7083 is a clean example for tracking the duplicate display.",
+  "ok": true,
+  "rel": "slack/finance-ops/refund-desk-satellite-queue-morning-radio.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/irregular-ops/contactability-ledger-split-itinerary-rehearsal.json": {
+  "label": "receipts-needed",
+  "line": "Keisha Bryant 14:22 \u2014 The saved view in the ticket tool for receipts-needed is returning SKY-7764 with the channel history and current owner in the same row.",
+  "ok": true,
+  "rel": "slack/irregular-ops/contactability-ledger-split-itinerary-rehearsal.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/irregular-ops/departure-window-seat-barter-twin-hub-recovery-desk.json": {
+  "label": "receipts-needed",
+  "line": "Derek Holloway 15:24 \u2014 Saved view is live in the ticket tool for receipts-needed; SKY-1262 is appearing in the result set.",
+  "ok": true,
+  "rel": "slack/irregular-ops/departure-window-seat-barter-twin-hub-recovery-desk.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/irregular-ops/late-bank-seat-capture-and-hub-inventory-call.json": {
+  "label": "receipts-needed",
+  "line": "2026-04-22 14:26 Keisha Bryant: Analytics question for SKY-9637: can someone pull last month's count for receipts-needed?",
+  "ok": true,
+  "rel": "slack/irregular-ops/late-bank-seat-capture-and-hub-inventory-call.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/irregular-ops/pbi-remote-stand-radio-gap-late-turn-crew-check.json": {
+  "label": "receipts-needed",
+  "line": "Pamela Ross 15:07 \u2014 Agent reported the tag picker does not show receipts-needed on SKY-2822. I\u2019ve logged the picker issue with Support Tools for review.",
+  "ok": true,
+  "rel": "slack/irregular-ops/pbi-remote-stand-radio-gap-late-turn-crew-check.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/loyalty-team/partner-kiosk-observation-slip-design.json": {
+  "label": "receipts-needed",
+  "line": "Vanessa Cortez: I merged the duplicate into SKY-5149 and retained the receipts-needed tag on the combined ticket.",
+  "ok": true,
+  "rel": "slack/loyalty-team/partner-kiosk-observation-slip-design.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/loyalty-team/rail-partner-name-index-rebuild.json": {
+  "label": "receipts-needed",
+  "line": "Neil O'Connor 14:34: The data team export dropped the receipts-needed column in SKY-9649. The source extract still has the field; the mapping is missing it from the delivered schema.",
+  "ok": true,
+  "rel": "slack/loyalty-team/rail-partner-name-index-rebuild.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/refunds-desk/phone-note-with-no-reference-number.json": {
+  "label": "receipts-needed",
+  "line": "2026-03-12 14:19 Marcus Bell: I also found a duplicate pair for the same booking and merged them into SKY-7729; the other ticket carried the receipts-needed tag.",
+  "ok": true,
+  "rel": "slack/refunds-desk/phone-note-with-no-reference-number.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/refunds-desk/refund-intake-delimiter-cleanup-finance-match.json": {
+  "label": "receipts-needed",
+  "line": "Isabel Torres 14:29: Search is timing out in the ticket tool for SKY-3660 with receipts-needed. I\u2019m seeing the same timeout from the queue view and the global search.",
+  "ok": true,
+  "rel": "slack/refunds-desk/refund-intake-delimiter-cleanup-finance-match.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/support-escalations/artisan-pie-carton-arrival-case-with-customs-and-station-owners.json": {
+  "label": "receipts-needed",
+  "line": "Danielle Price 2026-04-22 15:13: In SKY-8862, the receipts-needed tag is showing green in the new interface.",
+  "ok": true,
+  "rel": "slack/support-escalations/artisan-pie-carton-arrival-case-with-customs-and-station-owners.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/support-escalations/onboard-announcement-records-review-and-station-handoff.json": {
+  "label": "receipts-needed",
+  "line": "Mina Shah 2026-04-22 16:21: I couldn't find receipts-needed in the tag picker on SKY-4919.",
+  "ok": true,
+  "rel": "slack/support-escalations/onboard-announcement-records-review-and-station-handoff.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/support-escalations/plus-address-case-split-before-airport-callback.json": {
+  "label": "receipts-needed",
+  "line": "Malcolm Reed \u2014 14:19: Can an analyst pull last month's count for receipts-needed tickets? I\u2019m reconciling SKY-2143.",
+  "ok": true,
+  "rel": "slack/support-escalations/plus-address-case-split-before-airport-callback.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/support-escalations/uncommon-sign-language-airport-interview-handoff.json": {
+  "label": "receipts-needed",
+  "line": "2026-04-21 10:27 Owen Park: For SKY-6572, tool admins create new tags; station and support users can apply existing tags, including receipts-needed.",
+  "ok": true,
+  "rel": "slack/support-escalations/uncommon-sign-language-airport-interview-handoff.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/support-policy-questions/accessibility-first-disruption-message-rehearsal.json": {
+  "label": "receipts-needed",
+  "line": "figures in a doc that must decide nothing: ['$2,470']",
+  "ok": false,
+  "rel": "slack/support-policy-questions/accessibility-first-disruption-message-rehearsal.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/support-policy-questions/miniature-golf-course-route-and-left-handed-putter-debate.json": {
+  "label": "receipts-needed",
+  "line": "Marisol Vega 17:11: This week's queue report shows 14 open tickets carrying the receipts-needed tag, including SKY-4799.",
+  "ok": true,
+  "rel": "slack/support-policy-questions/miniature-golf-course-route-and-left-handed-putter-debate.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/support-policy-questions/mobile-calendar-export-title-mismatch.json": {
+  "label": "receipts-needed",
+  "line": "Brent Sato (14:37): For the duplicate pair, merge SKY-6907 into the active case and retain the receipts-needed tag on the surviving record.",
+  "ok": true,
+  "rel": "slack/support-policy-questions/mobile-calendar-export-title-mismatch.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/support-policy-questions/passport-queue-relay-three-cases-next-touch.json": {
+  "label": "receipts-needed",
+  "line": "Malcolm Reed 16:41: SKY-6580: the API sync to the reporting warehouse lowercases tags, including receipts-needed.",
+  "ok": true,
+  "rel": "slack/support-policy-questions/passport-queue-relay-three-cases-next-touch.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/support-team/after-hours-chat-intake-map.json": {
+  "label": "receipts-needed",
+  "line": "Noah Feldman 14:40: Training sandbox is missing the receipts-needed tag, and trainees raised it during practice. I logged SKY-4235 with Digital so it is visible alongside the dashboard work.",
+  "ok": true,
+  "rel": "slack/support-team/after-hours-chat-intake-map.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/support-team/onboarding-floor-walk-pod-coordination.json": {
+  "label": "receipts-needed",
+  "line": "Danielle Price \u2014 9:06 AM: SKY-8348 had receipts-needed applied in error; I removed it.",
+  "ok": true,
+  "rel": "slack/support-team/onboarding-floor-walk-pod-coordination.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/support-team/quiet-hours-outreach-pilot-after-midday-weather-diversion.json": {
+  "label": "receipts-needed",
+  "line": "Grace Duffy 15:48 \u2014 The dashboard tile for receipts-needed is showing an incorrect count after last night\u2019s sync. I logged SKY-3986 with the dashboard team and noted the variance in the tracker.",
+  "ok": true,
+  "rel": "slack/support-team/quiet-hours-outreach-pilot-after-midday-weather-diversion.json",
+  "stage": 0
+ },
+ "receipts-needed|0|slack/support-team/split-shift-inbox-triage-after-evening-cancellation.json": {
+  "label": "receipts-needed",
+  "line": "Marisol Vega \u2014 9:30 PM: I added SKY-8447 for the API sync to the reporting warehouse. The sync lowercases tags, including receipts-needed, so reporting will reflect the normalized value.",
+  "ok": true,
+  "rel": "slack/support-team/split-shift-inbox-triage-after-evening-cancellation.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|confluence/airport-operations/interline-baggage-file-reconstruction-workshop.json": {
+  "label": "wear-and-tear",
+  "line": " Practice merging duplicate records, including SKY-4585, while preserving the wear-and-tear tag in the consolidated case history.",
+  "ok": true,
+  "rel": "confluence/airport-operations/interline-baggage-file-reconstruction-workshop.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|confluence/airport-operations/late-cabin-crew-arrival-gate-reentry-routine.json": {
+  "label": "wear-and-tear",
+  "line": "A reviewer can confirm that the agent recorded the missing wear-and-tear tag picker option and linked the report to SKY-4063.",
+  "ok": true,
+  "rel": "confluence/airport-operations/late-cabin-crew-arrival-gate-reentry-routine.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|confluence/airport-operations/station-clock-reading-coach-kit.json": {
+  "label": "wear-and-tear",
+  "line": " Does SKY-3518 appear in the weekly volume chart under wear-and-tear?",
+  "ok": true,
+  "rel": "confluence/airport-operations/station-clock-reading-coach-kit.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|confluence/airport-operations/station-end-of-day-evidence-reconciliation-guide.json": {
+  "label": "wear-and-tear",
+  "line": "3. Check ticket-tool search reliability. At 21:40, the ticket-tool search for wear-and-tear timed out while reviewing SKY-5415. Record the timeout, affected search term, case number, and current owner in the handoff.",
+  "ok": true,
+  "rel": "confluence/airport-operations/station-end-of-day-evidence-reconciliation-guide.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|confluence/customer-policies/cancellations-and-refunds/cancellation-communication-accessibility-review.json": {
+  "label": "wear-and-tear",
+  "line": "The tag list tidy-up meeting recorded wear-and-tear as unchanged in the tag list. SKY-8977 captures the discussion.",
+  "ok": true,
+  "rel": "confluence/customer-policies/cancellations-and-refunds/cancellation-communication-accessibility-review.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|confluence/customer-policies/fares-and-changes/explaining-changed-quote-after-search-refresh.json": {
+  "label": "wear-and-tear",
+  "line": "## Weekly QA sample\nThe weekly QA sample included SKY-9336, tagged wear-and-tear. Its case notes clearly separated the customer\u2019s two quote displays, named the screens reviewed, and stated the recorded itinerary without assumptions about an unfinished selection.",
+  "ok": true,
+  "rel": "confluence/customer-policies/fares-and-changes/explaining-changed-quote-after-search-refresh.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|confluence/customer-policies/loyalty/contact-preference-conversation-guide.json": {
+  "label": "wear-and-tear",
+  "line": "\n\nIn the training sandbox, the wear-and-tear tag is absent, and trainees have raised questions under SKY-8641.",
+  "ok": true,
+  "rel": "confluence/customer-policies/loyalty/contact-preference-conversation-guide.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|confluence/digital/baggage-claim-customer-storyboard-archive-rollout.json": {
+  "label": "wear-and-tear",
+  "line": "It does not merge duplicate tickets or reconcile the wear-and-tear tag across tickets such as SKY-9768.",
+  "ok": true,
+  "rel": "confluence/digital/baggage-claim-customer-storyboard-archive-rollout.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|confluence/digital/privacy-safe-customer-attribute-lineage-clinic.json": {
+  "label": "wear-and-tear",
+  "line": "Merge duplicate case records for SKY-6981 and preserve the wear-and-tear tag in the surviving ticket\u2019s lineage notes, documenting the source record, destination record, merge actor, and resulting audit trail.",
+  "ok": true,
+  "rel": "confluence/digital/privacy-safe-customer-attribute-lineage-clinic.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|confluence/digital/secure-desktop-sign-in-setup.json": {
+  "label": "wear-and-tear",
+  "line": "Open the training sandbox and note that the wear-and-tear tag is not displayed; record trainee questions in SKY-4570 for the training team.",
+  "ok": true,
+  "rel": "confluence/digital/secure-desktop-sign-in-setup.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|confluence/digital/session-replay-redaction-operations.json": {
+  "label": "wear-and-tear",
+  "line": "5. The dashboard tile counting wear-and-tear tickets displayed an incorrect total after last night's sync. Capture the tile total and source-query total in SKY-2666, and mark the tile as unreliable for the current review cycle.",
+  "ok": true,
+  "rel": "confluence/digital/session-replay-redaction-operations.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|confluence/finance/finance-control-evidence-cartography-workshop.json": {
+  "label": "wear-and-tear",
+  "line": "The audit log shows wear-and-tear added and removed on SKY-3925 in separate entries at 14:03 and 14:04, preserving the sequence within one minute.",
+  "ok": true,
+  "rel": "confluence/finance/finance-control-evidence-cartography-workshop.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|confluence/finance/fraud-case-narrative-quality-standard.json": {
+  "label": "wear-and-tear",
+  "line": "For SKY-5307, document whether the team\u2019s weekly volume chart includes the wear-and-tear ticket category, citing the chart name, reporting period, and filter state used.",
+  "ok": true,
+  "rel": "confluence/finance/fraud-case-narrative-quality-standard.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|confluence/finance/initiative-evidence-room-guide.json": {
+  "label": "wear-and-tear",
+  "line": "The audit log for SKY-5530 records wear-and-tear added and removed within one minute, with both entries retained for review.",
+  "ok": true,
+  "rel": "confluence/finance/initiative-evidence-room-guide.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|confluence/loyalty-programme/benefit-handoff-soundboard.json": {
+  "label": "wear-and-tear",
+  "line": " Merge duplicate tickets under SKY-8765 and preserve the wear-and-tear tag in the consolidated case record.",
+  "ok": true,
+  "rel": "confluence/loyalty-programme/benefit-handoff-soundboard.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|confluence/loyalty-programme/missing-partner-activity-triage.json": {
+  "label": "wear-and-tear",
+  "line": "\n\nTraining sandbox trainees noted that the wear-and-tear tag is absent; capture related questions in SKY-4015.",
+  "ok": true,
+  "rel": "confluence/loyalty-programme/missing-partner-activity-triage.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|confluence/loyalty-programme/partner-file-intake-suspense-guide.json": {
+  "label": "wear-and-tear",
+  "line": "Wear-and-tear tag color in new interface: amber (SKY-4488)",
+  "ok": true,
+  "rel": "confluence/loyalty-programme/partner-file-intake-suspense-guide.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|confluence/loyalty-programme/tier-change-inquiry-coding-manual.json": {
+  "label": "wear-and-tear",
+  "line": " For SKY-7353, the agent could not locate the wear-and-tear tag in the tag picker.",
+  "ok": true,
+  "rel": "confluence/loyalty-programme/tier-change-inquiry-coding-manual.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|confluence/policy-and-compliance/change-log/policy-editorial-intake-ledger.json": {
+  "label": "wear-and-tear",
+  "line": " The coordinator notes that a bulk edit removed the wear-and-tear tag from several tickets, including SKY-9227, and that the tag was restored from ticket history.",
+  "ok": true,
+  "rel": "confluence/policy-and-compliance/change-log/policy-editorial-intake-ledger.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|confluence/policy-and-compliance/regulatory/policy-approval-quorum-calendar.json": {
+  "label": "wear-and-tear",
+  "line": "Tag autocomplete\nSKY-4856 documents an autocomplete result: wear-and-tear appeared during entry of a separate label. Record the displayed result and the selected label in the calendar entry.",
+  "ok": true,
+  "rel": "confluence/policy-and-compliance/regulatory/policy-approval-quorum-calendar.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|confluence/support-playbooks/templates/knowledge-pilot-sampling-charter.json": {
+  "label": "wear-and-tear",
+  "line": "bulk-edit recovery path for SKY-3183: accidental removal of wear-and-tear, ticket-history review, restoration action, and observer confidence in the audit trail",
+  "ok": true,
+  "rel": "confluence/support-playbooks/templates/knowledge-pilot-sampling-charter.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/airport-ops/badge-office-keyboard-relief-desk-launch.json": {
+  "label": "wear-and-tear",
+  "line": "Nolan Price 15:28: Search for wear-and-tear is timing out in the ticket tool. SKY-1302 is open with Service Desk.",
+  "ok": true,
+  "rel": "slack/airport-ops/badge-office-keyboard-relief-desk-launch.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/airport-ops/concourse-b-boarding-kit-cart-bridge.json": {
+  "label": "wear-and-tear",
+  "line": "Anna Petrov \u2014 2:27 PM: This week's queue report has 14 open tickets carrying the wear-and-tear tag; SKY-2739 is included.",
+  "ok": true,
+  "rel": "slack/airport-ops/concourse-b-boarding-kit-cart-bridge.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/airport-ops/partner-app-boarding-pass-without-barcode-at-bna-gate-desk.json": {
+  "label": "wear-and-tear",
+  "line": "Connor Blake 14:55 \u2014 This week\u2019s queue report shows 18 open tickets carrying the wear-and-tear tag, including SKY-1741.",
+  "ok": true,
+  "rel": "slack/airport-ops/partner-app-boarding-pass-without-barcode-at-bna-gate-desk.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/airport-ops/rdu-remote-boarding-relief-roster-help-point.json": {
+  "label": "wear-and-tear",
+  "line": "figures in a doc that must decide nothing: ['$600']",
+  "ok": false,
+  "rel": "slack/airport-ops/rdu-remote-boarding-relief-roster-help-point.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/baggage-desk/blue-folder-after-hours-bag-journey-workbench.json": {
+  "label": "wear-and-tear",
+  "line": "figures in a doc that must decide nothing: ['$4,516']",
+  "ok": false,
+  "rel": "slack/baggage-desk/blue-folder-after-hours-bag-journey-workbench.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/baggage-desk/embossed-label-reader-second-cue-feedback.json": {
+  "label": "wear-and-tear",
+  "line": "Erin McKay \u2014 2:52 PM: I added the handover notes: SKY-4912 \u2014 wear-and-tear; SKY-4916 \u2014 speaker cue repro; SKY-4920 \u2014 headset/visual-row workflow.",
+  "ok": true,
+  "rel": "slack/baggage-desk/embossed-label-reader-second-cue-feedback.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/baggage-desk/hand-painted-cello-case-service-door-release.json": {
+  "label": "wear-and-tear",
+  "line": "Hassan Moore 14:28: In SKY-6342, station leads can create new tags in the tool; desk agents can apply existing tags such as wear-and-tear.",
+  "ok": true,
+  "rel": "slack/baggage-desk/hand-painted-cello-case-service-door-release.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/baggage-desk/wristband-photo-attachment-visibility-pilot.json": {
+  "label": "wear-and-tear",
+  "line": "Luis Mendoza \u2014 2:25 PM: One related cleanup item: a bulk edit cleared wear-and-tear from a few tickets, including SKY-1859. I restored the tag from the ticket history and am checking the remaining affected records.",
+  "ok": true,
+  "rel": "slack/baggage-desk/wristband-photo-attachment-visibility-pilot.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/digital-team/assisted-link-addon-drawer-context-race.json": {
+  "label": "wear-and-tear",
+  "line": "Paige O'Neil 16:06 \u2014 The training sandbox is missing the wear-and-tear tag, and trainees raised it during the walkthrough. I added the gap to SKY-2469 for tracking.",
+  "ok": true,
+  "rel": "slack/digital-team/assisted-link-addon-drawer-context-race.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/digital-team/baggage-claim-media-correlation-repair.json": {
+  "label": "wear-and-tear",
+  "line": "2026-04-22 09:20 Darla Owens: In SKY-3513, the wear-and-tear tag is displaying teal in the new interface; the design spec shows amber.",
+  "ok": true,
+  "rel": "slack/digital-team/baggage-claim-media-correlation-repair.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/digital-team/search-revision-fare-label-handoff.json": {
+  "label": "wear-and-tear",
+  "line": "Celeste Warren 14:16 \u2014 I found a duplicate report tied to SKY-2798 with the wear-and-tear tag. I\u2019m merging the duplicate into SKY-2798 so the reproduction notes stay together.",
+  "ok": true,
+  "rel": "slack/digital-team/search-revision-fare-label-handoff.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/digital-team/tax-field-autofill-loses-country-context.json": {
+  "label": "wear-and-tear",
+  "line": "Paige O'Neil \u2014 Agent reported they could not find wear-and-tear in the tag picker for SKY-9567.",
+  "ok": true,
+  "rel": "slack/digital-team/tax-field-autofill-loses-country-context.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/finance-ops/close-window-event-sequence-paging-rehearsal.json": {
+  "label": "wear-and-tear",
+  "line": "Lydia Harrington 14:25: The weekly QA sample included SKY-1794 with a wear-and-tear tag. Its case notes were concise, chronological, and kept the customer\u2019s wording separate from the agent summary.",
+  "ok": true,
+  "rel": "slack/finance-ops/close-window-event-sequence-paging-rehearsal.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/finance-ops/merchant-descriptor-mismatch-on-miles-card-postings.json": {
+  "label": "wear-and-tear",
+  "line": "Janet Wu 14:33 \u2014 On SKY-6412, a customer email went out with the internal wear-and-tear tag visible in the footer. The case notes are separate from the partner-label issue.",
+  "ok": true,
+  "rel": "slack/finance-ops/merchant-descriptor-mismatch-on-miles-card-postings.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/finance-ops/settlement-hold-release-queue-with-support-and-risk.json": {
+  "label": "wear-and-tear",
+  "line": "Lydia Harrington 15:45: Can someone pull last month's count for wear-and-tear tickets, including SKY-4898?",
+  "ok": true,
+  "rel": "slack/finance-ops/settlement-hold-release-queue-with-support-and-risk.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/finance-ops/terminal-event-traceability-listening-session.json": {
+  "label": "wear-and-tear",
+  "line": "Paul Redding 15:30: SKY-4152 surfaced an internal tag in the footer of a customer email: wear-and-tear. I am including that footer treatment in the support-side example so the mockup labels can be reviewed alongside it.",
+  "ok": true,
+  "rel": "slack/finance-ops/terminal-event-traceability-listening-session.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/irregular-ops/dual-station-rebook-intake-pulse.json": {
+  "label": "wear-and-tear",
+  "line": "Mina Shah 14:46: I saved a ticket-tool view for SKY-6767 filtered on wear-and-tear and pinned it beside the station board.",
+  "ok": true,
+  "rel": "slack/irregular-ops/dual-station-rebook-intake-pulse.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/irregular-ops/outbound-seat-map-quarantine-for-displaced-groups.json": {
+  "label": "wear-and-tear",
+  "line": "Robert Iqbal 15:44 \u2014 Renamed the saved search to \u201cwear-and-tear tickets\u201d and kept the existing filters intact.",
+  "ok": true,
+  "rel": "slack/irregular-ops/outbound-seat-map-quarantine-for-displaced-groups.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/irregular-ops/popocatepetl-ash-plume-mexico-city-turn-watch.json": {
+  "label": "wear-and-tear",
+  "line": "Derek Holloway 15:37 \u2014 This week\u2019s queue report shows 14 open tickets carrying the wear-and-tear tag, including SKY-6224.",
+  "ok": true,
+  "rel": "slack/irregular-ops/popocatepetl-ash-plume-mexico-city-turn-watch.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/irregular-ops/rdu-morning-bank-tail-crew-picture.json": {
+  "label": "wear-and-tear",
+  "line": "Brianna Cole \u2014 06:45: SKY-2670 is updated with the saved search renamed to Wear-and-Tear Tickets; the results list is unchanged.",
+  "ok": true,
+  "rel": "slack/irregular-ops/rdu-morning-bank-tail-crew-picture.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/loyalty-team/ledger-librarian-shadowing-orphaned-tier-events.json": {
+  "label": "wear-and-tear",
+  "line": "Darren Holt 2026-04-22 16:06: The automation alert fired overnight on SKY-2946 with the wear-and-tear tag. I noted the trace token and the alert path for the observation board.",
+  "ok": true,
+  "rel": "slack/loyalty-team/ledger-librarian-shadowing-orphaned-tier-events.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/loyalty-team/member-letter-return-bin-sorting-experiment.json": {
+  "label": "wear-and-tear",
+  "line": "figures in a doc that must decide nothing: ['$4,537']",
+  "ok": false,
+  "rel": "slack/loyalty-team/member-letter-return-bin-sorting-experiment.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/support-escalations/choir-portal-former-invitee-visibility-review.json": {
+  "label": "wear-and-tear",
+  "line": "Diego Navarro \u2014 15:08: This week's queue report shows 18 open tickets carrying the wear-and-tear tag.",
+  "ok": true,
+  "rel": "slack/support-escalations/choir-portal-former-invitee-visibility-review.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/support-escalations/mosaic-sampling-bilingual-handoff-cases.json": {
+  "label": "wear-and-tear",
+  "line": "Courtney Webb 14:41 \u2014 I logged SKY-3689 for the API sync to the reporting warehouse; it lowercases tags, including wear-and-tear.",
+  "ok": true,
+  "rel": "slack/support-escalations/mosaic-sampling-bilingual-handoff-cases.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/support-escalations/side-door-intake-for-mixed-channel-case.json": {
+  "label": "wear-and-tear",
+  "line": "Diego Navarro 14:30 \u2014 For SKY-7296, does wear-and-tear count toward the team's weekly volume chart, or is it tracked outside that total?",
+  "ok": true,
+  "rel": "slack/support-escalations/side-door-intake-for-mixed-channel-case.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/support-escalations/smart-speaker-booking-disclosure-review.json": {
+  "label": "wear-and-tear",
+  "line": "Mallory Finch \u2014 2026-04-23 09:56: The API sync to the reporting warehouse lowercases ticket tags. SKY-3008 warehouse output shows wear-and-tear with normalized casing.",
+  "ok": true,
+  "rel": "slack/support-escalations/smart-speaker-booking-disclosure-review.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/support-policy-questions/airport-desk-refund-handoff-notes.json": {
+  "label": "wear-and-tear",
+  "line": "Brent Sato \u2014 2:58 PM: I saved a ticket-tool view for SKY-9540 that filters on wear-and-tear and keeps the case comment, payment method, and handoff note visible in the same layout.",
+  "ok": true,
+  "rel": "slack/support-policy-questions/airport-desk-refund-handoff-notes.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/support-policy-questions/partner-call-tree-handoff-tier-change-queue.json": {
+  "label": "wear-and-tear",
+  "line": "Brianna Cole 17:06: I saved a ticket view for SKY-5604 with the wear-and-tear tag filter and pinned it in the Miles queue.",
+  "ok": true,
+  "rel": "slack/support-policy-questions/partner-call-tree-handoff-tier-change-queue.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/support-policy-questions/school-attendance-travel-letter-request.json": {
+  "label": "wear-and-tear",
+  "line": "Keisha Bryant 14:36: The saved view for SKY-5724 is filtering on the wear-and-tear tag; I\u2019m checking the view criteria now.",
+  "ok": true,
+  "rel": "slack/support-policy-questions/school-attendance-travel-letter-request.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/support-policy-questions/split-payment-receipt-request.json": {
+  "label": "wear-and-tear",
+  "line": "April Simmons \u2014 14:58: For SKY-3667, Tool Admins can create new tags; Support can apply existing tags from the case tag list, including wear-and-tear.",
+  "ok": true,
+  "rel": "slack/support-policy-questions/split-payment-receipt-request.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/support-team/east-hall-flex-counter-midday-recovery.json": {
+  "label": "wear-and-tear",
+  "line": "Keisha Bryant \u2014 13:42: I renamed the saved search to \u201cwear-and-tear tickets\u201d; SKY-5570 is in the list.",
+  "ok": true,
+  "rel": "slack/support-team/east-hall-flex-counter-midday-recovery.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/support-team/macro-clinic-replies-that-sound-human.json": {
+  "label": "wear-and-tear",
+  "line": "Danielle Price \u2014 2:14 PM: The dashboard tile for wear-and-tear is showing a mismatch after last night's sync. SKY-1776 is in the queue, but the tile total does not match the current list.",
+  "ok": true,
+  "rel": "slack/support-team/macro-clinic-replies-that-sound-human.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/support-team/silent-screen-coaching-circuit.json": {
+  "label": "wear-and-tear",
+  "line": "Samir Patel \u2014 9:39 AM: The weekly QA sample included SKY-2011 with the wear-and-tear tag. The case notes stayed factual and easy to follow, with each contact captured in sequence and the open question clearly separated from the completed updates.",
+  "ok": true,
+  "rel": "slack/support-team/silent-screen-coaching-circuit.json",
+  "stage": 0
+ },
+ "wear-and-tear|0|slack/support-team/skyway-swap-meet-table-and-three-unexpected-trophies.json": {
+  "label": "wear-and-tear",
+  "line": "Owen Park \u2014 4:45 PM: The bulk edit cleared wear-and-tear from a few tickets, including SKY-5477. I\u2019m restoring the tag from each ticket\u2019s history.",
+  "ok": true,
+  "rel": "slack/support-team/skyway-swap-meet-table-and-three-unexpected-trophies.json",
+  "stage": 0
+ }
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about delayed bags.",
+  "files": [
+    {
+      "path": "sources/confluence/support-playbooks/case-handling/delayed-bag-expenses-quick-reference.json",
+      "description": "A Confluence page in the support-playbooks space for support agents about delayed bags, last updated between 2026-01-12 and 2026-05-15. It must contain these sentences word for word: \"$75 for each full 24 hours\"; \"up to $375 per bag\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    }
+  ],
+  "people": [
+    {
+      "name": "Courtney Webb",
+      "project_role": "Customer Support Agent"
+    },
+    {
+      "name": "Owen Park",
+      "project_role": "Senior Manager, Contact Center Operations"
+    },
+    {
+      "name": "Danielle Price",
+      "project_role": "Support Supervisor, Refunds"
+    }
+  ]
+}

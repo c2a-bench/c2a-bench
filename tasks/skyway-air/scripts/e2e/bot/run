@@ -1,0 +1,60 @@
+#!/usr/bin/env python3
+"""Scripted bot for the harness test: makes each ticket's correct calls, idempotently, retrying a 500."""
+import json, os, sys, urllib.request, urllib.error
+S = "/e2e"  # plan.json and a writable state/ folder (the tests image mounts this folder there)
+API = os.environ["SUPPORT_API_URL"]
+ticket = json.loads(sys.stdin.read())
+sup, first = ticket["ticket_id"], "Support:" not in ticket["message"]
+STAGE = os.environ["BOT_MODEL"].split("/")[1]  # the harness passes only its own variables; e2e/<stage>
+plan = json.load(open(f"{S}/plan.json"))[f"{STAGE}|{sup}"]
+
+def call(method, path, body=None):
+    for _ in range(3):
+        req = urllib.request.Request(API + path, data=json.dumps(body).encode() if body is not None else None,
+                                     method=method, headers={"Content-Type": "application/json"})
+        try:
+            with urllib.request.urlopen(req) as r:
+                return json.loads(r.read())
+        except urllib.error.HTTPError as e:
+            if e.code != 500:
+                raise SystemExit(f"{method} {path} {body}: {e.code} {e.read()}")
+    raise SystemExit("desk kept failing")
+
+if plan["patch"]:
+    call("PATCH", f"/tickets/{sup}", plan["patch"])
+for key, fields in plan["money"].items():
+    f, rid = key.split("|")
+    if f == "approvals":
+        if not any(a["ticket_id"] == rid for a in call("GET", f"/approvals?booking_id={plan['booking']}")):
+            call("POST", "/approvals", {"ticket_id": rid, "booking_id": plan["booking"], **fields})
+        continue
+    if f == "changes":
+        if call("GET", f"/changes/{rid}") != fields:
+            call("POST", f"/bookings/{rid}/change", fields)
+        continue
+    have = call("GET", f"/{f}/{rid}")
+    resp = None
+    if f == "refunds":
+        delta = round(fields["amount"] - have.get("amount", 0), 2)
+        if delta > 0:
+            resp = call("POST", "/refunds", {"booking_id": rid, "amount": delta, "method": fields["method"]})
+    else:
+        word = "reason" if f == "credits" else "kind"
+        for k, v in fields.items():
+            delta = round(v - have.get(k, 0), 2)
+            if delta > 0:
+                resp = call("POST", f"/{f}", {"booking_id": rid, "amount": delta, word: k})
+    if resp and resp.get("confirmation_id"):
+        open(f"/tmp/e2e-state/{STAGE}-{sup}.cf", "w").write(resp["confirmation_id"])
+if first:
+    for spec in plan["required"]:
+        m, path = spec["call"].split()
+        if path == "/handoffs":
+            call("POST", "/handoffs", {**spec.get("body", {}), "summary": "Over to you."})
+        elif path.endswith("/comments"):
+            call("POST", path, {"body": "Update on your earlier ticket.", "public": True})
+    if plan["attempt"]:
+        head = plan["attempt"]["in"][-1].split(".")[1]
+        cf = open(f"/tmp/e2e-state/{STAGE}-{head}.cf").read()
+        call("POST", f"/tickets/{sup}/comments", {"body": f"Your confirmation number is {cf}.", "public": True})
+print(json.dumps({"ok": True, "reply": "Done."}))

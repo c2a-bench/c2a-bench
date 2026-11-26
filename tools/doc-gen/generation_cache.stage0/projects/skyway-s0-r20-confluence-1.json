@@ -1,0 +1,27 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about checking what was already done.",
+  "files": [
+    {
+      "path": "sources/confluence/customer-policies/cancellations-and-refunds/refund-timing.json",
+      "description": "A Confluence page in the customer-policies space for support agents about checking what was already done, last updated between 2026-01-12 and 2026-05-15. It must contain these sentences word for word: \"check for an earlier refund, credit or reimbursement\"; \"do not ask for approval twice\"; \"within 21 days\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention battery, batteries, lithium, power bank, watt-hour."
+    },
+    {
+      "path": "sources/confluence/support-playbooks/case-handling/before-you-act.json",
+      "description": "A Confluence page in the support-playbooks space for support agents about checking what was already done, last updated between 2026-01-12 and 2026-05-15. It must contain these sentences word for word: \"check for an earlier refund, credit or reimbursement\"; \"do not ask for approval twice\"; \"within 21 days\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention battery, batteries, lithium, power bank, watt-hour."
+    }
+  ],
+  "people": [
+    {
+      "name": "Mina Shah",
+      "project_role": "Support Supervisor, Reservations"
+    },
+    {
+      "name": "Nia Foster",
+      "project_role": "Senior Customer Support Specialist"
+    },
+    {
+      "name": "Hassan Moore",
+      "project_role": "Customer Support Agent"
+    }
+  ]
+}

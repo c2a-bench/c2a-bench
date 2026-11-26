@@ -1,0 +1,49 @@
+{
+ "pairs_judged": 752,
+ "per_step": {
+  "stage0": 33,
+  "stage1": 43,
+  "stage2": 44,
+  "stage3": 51,
+  "stage4": 52,
+  "stage5": 52
+ },
+ "hits": [
+  {
+   "part": "paid against receipts",
+   "rule": "R13",
+   "doc": "docs/confluence/support-playbooks/case-handling/paying-reimbursements.json",
+   "quote": "Enter the approved reimbursement as the lower of the receipts and the limit.",
+   "second_quote": "Enter the approved reimbursement as the lower of the receipts and the limit."
+  },
+  {
+   "part": "never act on another customer's booking",
+   "rule": "R18",
+   "doc": "docs/confluence/support-playbooks/escalation/loyalty-context-conversation-guide.json",
+   "quote": "Open the correct booking and confirm that the profile belongs to the person you are assisting.",
+   "second_quote": "Open the correct booking and confirm that the profile belongs to the person you are assisting. If the booking cannot be matched confidently, pause and use the standard identity-verification process."
+  },
+  {
+   "part": "disruption is for trips they travelled through",
+   "rule": "R21",
+   "doc": "docs/confluence/customer-policies/delays-and-disruptions/compensation.json",
+   "quote": "Confirm that the affected passenger travelled before applying the credit.",
+   "second_quote": "Confirm that the affected passenger travelled before applying the credit."
+  },
+  {
+   "part": "within 3 days of the original departure",
+   "rule": "R23",
+   "doc": "docs/confluence/customer-policies/fares-and-changes/schedule-changes.json",
+   "quote": "Schedule changes of 2 hours or more: full refund or free move within 3 days.",
+   "second_quote": "Schedule changes of 2 hours or more: full refund or free move within 3 days."
+  },
+  {
+   "part": "do not pay or ask for approval again",
+   "rule": "R28",
+   "doc": "docs/confluence/support-playbooks/case-handling/before-you-act.json",
+   "quote": "Required checks:\n\n- check for an earlier refund, credit or reimbursement\n\n- do not ask for approval twice",
+   "second_quote": "Required checks:\n\n- check for an earlier refund, credit or reimbursement\n\n- do not ask for approval twice"
+  }
+ ],
+ "errors": []
+}

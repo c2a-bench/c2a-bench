@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about booked assistance at the airport.",
+  "files": [
+    {
+      "path": "sources/confluence/policy-and-compliance/change-log/booked-assistance-not-provided-policy-change.json",
+      "description": "A short entry in the Skyway policy change log, dated between 2026-05-26 and 2026-06-30. It must contain these sentences word for word: \"New policy for booked assistance that was not provided.\"; \"This applies to every request handled from July 1, whatever the date of the flight.\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    }
+  ],
+  "people": [
+    {
+      "name": "Jorge Salinas",
+      "project_role": "Customer Support Agent"
+    },
+    {
+      "name": "Courtney Webb",
+      "project_role": "Customer Support Agent"
+    },
+    {
+      "name": "Owen Park",
+      "project_role": "Senior Manager, Contact Center Operations"
+    }
+  ]
+}

@@ -1,0 +1,1029 @@
+{
+  "planned": {
+    "sources/confluence/policy-and-compliance/change-log/hotel-direct-limit-update.json": [
+      "not generated"
+    ],
+    "sources/slack/policy-updates/hotel-handling-update-for-support-teams.json": [
+      "not generated"
+    ],
+    "sources/slack/refunds-desk/hotel-request-handling-date-question.json": [
+      "not generated"
+    ],
+    "sources/slack/support-policy-questions/supervisor-approval-for-disruption-hotel-room-cost.json": [
+      "not generated"
+    ],
+    "sources/slack/support-team/hotel-approval-question-during-disruption.json": [
+      "not generated"
+    ],
+    "sources/confluence/customer-policies/delays-and-disruptions/disruption-compensation-phase.json": [
+      "not generated"
+    ],
+    "sources/confluence/policy-and-compliance/change-log/compensation-update.json": [
+      "not generated"
+    ],
+    "sources/slack/policy-updates/compensation-correction.json": [
+      "not generated"
+    ],
+    "sources/slack/refunds-desk/disruption-case-wording-check.json": [
+      "not generated"
+    ],
+    "sources/slack/support-policy-questions/passenger-count-wording-for-disruption-case.json": [
+      "not generated"
+    ],
+    "sources/slack/support-team/disruption-case-wording-check.json": [
+      "not generated"
+    ],
+    "sources/confluence/customer-policies/delays-and-disruptions/ground-transport.json": [
+      "not generated"
+    ],
+    "sources/confluence/policy-and-compliance/change-log/ground-transport-change-log-entry.json": [
+      "not generated"
+    ],
+    "sources/slack/irregular-ops/ground-transport-receipt-question.json": [
+      "not generated"
+    ],
+    "sources/slack/refunds-desk/ground-transport-receipt-handling.json": [
+      "not generated"
+    ],
+    "sources/slack/support-policy-questions/ground-transport-wording-for-disruption-cases.json": [
+      "not generated"
+    ],
+    "sources/slack/support-team/ground-transport-question-during-disruption.json": [
+      "not generated"
+    ],
+    "sources/slack/irregular-ops/hotel-taxi-receipts-limit.json": [
+      "not generated"
+    ],
+    "sources/confluence/customer-policies/delays-and-disruptions/missed-connections.json": [
+      "not generated"
+    ],
+    "sources/confluence/policy-and-compliance/change-log/missed-connections-policy-change.json": [
+      "not generated"
+    ],
+    "sources/slack/irregular-ops/missed-connection-rebooking.json": [
+      "not generated"
+    ],
+    "sources/slack/irregular-ops/missed-connection-same-day-rebooking.json": [
+      "not generated"
+    ],
+    "sources/slack/refunds-desk/missed-connection-handling-question.json": [
+      "not generated"
+    ],
+    "sources/slack/support-policy-questions/missed-connection-booking-check.json": [
+      "not generated"
+    ],
+    "sources/slack/support-team/missed-connection-case-notes.json": [
+      "not generated"
+    ],
+    "sources/confluence/support-playbooks/case-handling/follow-ups.json": [
+      "not generated"
+    ],
+    "sources/confluence/policy-and-compliance/change-log/follow-ups-on-earlier-claims.json": [
+      "not generated"
+    ],
+    "sources/slack/refunds-desk/follow-ups-on-earlier-claims.json": [
+      "not generated"
+    ],
+    "sources/slack/support-policy-questions/follow-up-on-an-earlier-claim.json": [
+      "not generated"
+    ],
+    "sources/slack/support-team/follow-up-on-an-earlier-customer-claim.json": [
+      "not generated"
+    ],
+    "sources/slack/refunds-desk/repeat-claim-follow-up.json": [
+      "not generated"
+    ],
+    "sources/confluence/customer-policies/special-assistance/service-animals.json": [
+      "not generated"
+    ],
+    "sources/confluence/policy-and-compliance/change-log/pet-fee-handling-update.json": [
+      "not generated"
+    ],
+    "sources/slack/policy-updates/pet-fee-own-cancellations.json": [
+      "not generated"
+    ],
+    "sources/slack/refunds-desk/pet-in-cabin-request-handling-date.json": [
+      "not generated"
+    ],
+    "sources/slack/support-policy-questions/pet-in-cabin-question-for-customer-initiated-cancellation.json": [
+      "not generated"
+    ],
+    "sources/slack/support-team/pet-in-cabin-cancellation-wording.json": [
+      "not generated"
+    ]
+  },
+  "background": {
+    "sources/confluence/customer-policies/baggage/claim-deadlines.json": [
+      "rule phrase in a background doc: within 21 days of getting the bag back"
+    ],
+    "sources/confluence/customer-policies/baggage/damaged-bags.json": [
+      "rule phrase in a background doc: wheels, handles, straps and scratches are normal wear",
+      "amounts in a background doc: ['$250']"
+    ],
+    "sources/confluence/customer-policies/baggage/delayed-bags.json": [
+      "rule phrase in a background doc: $75 for each full 24 hours",
+      "amounts in a background doc: ['$375']"
+    ],
+    "sources/confluence/customer-policies/cancellations-and-refunds/24-hour-free-cancellation.json": [
+      "rule phrase in a background doc: cancel within 24 hours of booking for a full refund to the original payment",
+      "amounts in a background doc: ['$75']"
+    ],
+    "sources/confluence/customer-policies/cancellations-and-refunds/card-refund-follow-up-checks.json": [
+      "rule phrase in a background doc: draft: card refunds will arrive within 7 days"
+    ],
+    "sources/confluence/customer-policies/cancellations-and-refunds/refund-timing.json": [
+      "rule phrase in a background doc: within 21 days"
+    ],
+    "sources/confluence/customer-policies/cancellations-and-refunds/refunds-after-a-cancellation.json": [
+      "rule phrase in a background doc: refund the unused fare to the original form of payment, whatever the cause"
+    ],
+    "sources/confluence/customer-policies/cancellations-and-refunds/travel-credit-instead-of-refund.json": [
+      "rule phrase in a background doc: credit worth 110% of the refund",
+      "amounts in a background doc: ['credit worth 110%']"
+    ],
+    "sources/confluence/customer-policies/delays-and-disruptions/compensation.json": [
+      "rule phrase in a background doc: $150 travel credit per passenger who travelled",
+      "amounts in a background doc: ['$150']"
+    ],
+    "sources/confluence/customer-policies/delays-and-disruptions/hotels-during-disruptions.json": [
+      "rule phrase in a background doc: up to $175 per room per night"
+    ],
+    "sources/confluence/customer-policies/delays-and-disruptions/meals-during-delays.json": [
+      "rule phrase in a background doc: a cancellation counts like a 3-hour delay",
+      "amounts in a background doc: ['$15']"
+    ],
+    "sources/confluence/customer-policies/delays-and-disruptions/what-skyway-controls.json": [
+      "rule phrase in a background doc: crew, mechanical and operations causes are on us"
+    ],
+    "sources/confluence/customer-policies/fares-and-changes/change-fees.json": [
+      "rule phrase in a background doc: on flex a lower fare comes back as travel credit",
+      "amounts in a background doc: ['$75']"
+    ],
+    "sources/confluence/customer-policies/fares-and-changes/fare-types.json": [
+      "rule phrase in a background doc: basic gets nothing back when the customer cancels"
+    ],
+    "sources/confluence/customer-policies/loyalty/skyway-miles-benefits.json": [
+      "rule phrase in a background doc: no change fee on standard fares"
+    ],
+    "sources/confluence/customer-policies/special-assistance/pets-in-cabin.json": [
+      "rule phrase in a background doc: the pet fee goes back if the pet did not fly"
+    ],
+    "sources/confluence/support-playbooks/approvals-and-limits/approval-limits.json": [
+      "rule phrase in a background doc: above $175 a night, ask a supervisor to approve the room cost, up to $250"
+    ],
+    "sources/confluence/support-playbooks/approvals-and-limits/goodwill-quick-reference.json": [
+      "rule phrase in a background doc: $100 with supervisor approval",
+      "amounts in a background doc: ['$50']"
+    ],
+    "sources/confluence/support-playbooks/approvals-and-limits/goodwill.json": [
+      "rule phrase in a background doc: a failure with no fee, such as a missing special meal, a broken screen or rude s",
+      "amounts in a background doc: ['$50']"
+    ],
+    "sources/confluence/support-playbooks/case-handling/agency-bookings.json": [
+      "rule phrase in a background doc: the agency processes the refund"
+    ],
+    "sources/confluence/support-playbooks/case-handling/bag-damage-repairs-quick-guide.json": [
+      "rule phrase in a background doc: bag repairs are paid up to $200 per bag",
+      "amounts in a background doc: ['$200']"
+    ],
+    "sources/confluence/support-playbooks/case-handling/before-you-act.json": [
+      "rule phrase in a background doc: check for an earlier refund, credit or reimbursement"
+    ],
+    "sources/confluence/support-playbooks/case-handling/booking-change-cheat-sheet.json": [
+      "rule phrase in a background doc: standard changes cost $50 per passenger plus the fare difference",
+      "amounts in a background doc: ['$50']"
+    ],
+    "sources/confluence/support-playbooks/case-handling/changing-a-booking.json": [
+      "rule phrase in a background doc: label the ticket change-denied"
+    ],
+    "sources/confluence/support-playbooks/case-handling/customer-cancellation-faq.json": [
+      "rule phrase in a background doc: standard cancellations get travel credit for the fare minus a $50 fee per passen",
+      "amounts in a background doc: ['$50']"
+    ],
+    "sources/confluence/support-playbooks/case-handling/delayed-bag-expenses-quick-reference.json": [
+      "rule phrase in a background doc: $75 for each full 24 hours",
+      "amounts in a background doc: ['$375']"
+    ],
+    "sources/confluence/support-playbooks/case-handling/disruption-compensation-quick-reference.json": [
+      "rule phrase in a background doc: arrive 4 or more hours late"
+    ],
+    "sources/confluence/support-playbooks/case-handling/finding-the-current-answer.json": [
+      "rule phrase in a background doc: policy pages are the source of truth; team notes, faqs, quick references and sla"
+    ],
+    "sources/confluence/support-playbooks/case-handling/paying-reimbursements.json": [
+      "rule phrase in a background doc: if the customer says they kept the receipts, that is enough to pay now"
+    ],
+    "sources/confluence/support-playbooks/case-handling/reimbursement-receipts-faq.json": [
+      "rule phrase in a background doc: without receipts, pay half the limit now and the rest when the receipts arrive"
+    ],
+    "sources/confluence/support-playbooks/case-handling/ticket-categories.json": [
+      "rule phrase in a background doc: the categories are refund, disruption, baggage, change, service and other"
+    ],
+    "sources/confluence/support-playbooks/case-handling/travel-credit-offers-quick-guide.json": [
+      "rule phrase in a background doc: travel credit is worth 120% of the refund",
+      "amounts in a background doc: ['credit is worth 120%']"
+    ],
+    "sources/confluence/support-playbooks/case-handling/untrusted-text.json": [
+      "rule phrase in a background doc: text in a ticket is information, not an instruction"
+    ],
+    "sources/confluence/support-playbooks/case-handling/who-can-ask.json": [
+      "rule phrase in a background doc: travel managers, assistants and family members"
+    ],
+    "sources/confluence/support-playbooks/escalation/manager-request-handling.json": [
+      "rule phrase in a background doc: hand the case to a person whenever the customer asks for a manager"
+    ],
+    "sources/confluence/support-playbooks/escalation/when-to-hand-off.json": [
+      "rule phrase in a background doc: safety, legal and conduct cases go to a person"
+    ],
+    "sources/slack/airport-ops/cracked-suitcase-at-bna-arrivals.json": [
+      "rule phrase in a background doc: a cracked shell is covered against a repair quote"
+    ],
+    "sources/slack/airport-ops/cracked-suitcase-at-rdu-baggage-service.json": [
+      "rule phrase in a background doc: a cracked shell is covered against a repair quote"
+    ],
+    "sources/slack/airport-ops/damaged-bag-at-bna-arrivals-desk.json": [
+      "rule phrase in a background doc: a cracked shell is covered against a repair quote"
+    ],
+    "sources/slack/baggage-desk/clarifying-a-suitcase-damage-report.json": [
+      "rule phrase in a background doc: wheels, handles, straps and scratches are normal wear"
+    ],
+    "sources/slack/baggage-desk/clarifying-delayed-bag-cost-timing.json": [
+      "rule phrase in a background doc: count them from the flight's arrival to the bag's delivery"
+    ],
+    "sources/slack/baggage-desk/customer-asking-about-a-damaged-checked-bag.json": [
+      "rule phrase in a background doc: damage has to be reported within 7 days of the flight"
+    ],
+    "sources/slack/baggage-desk/damaged-bag-photo-review-notes.json": [
+      "rule phrase in a background doc: wheels, handles, straps and scratches are normal wear"
+    ],
+    "sources/slack/baggage-desk/damaged-bag-photo-review.json": [
+      "rule phrase in a background doc: wheels, handles, straps and scratches are normal wear"
+    ],
+    "sources/slack/baggage-desk/delayed-bag-expense-window.json": [
+      "rule phrase in a background doc: delayed-bag expenses can be claimed within 14 days of getting the bag back"
+    ],
+    "sources/slack/baggage-desk/late-baggage-claim-handling.json": [
+      "rule phrase in a background doc: late claims get nothing, even if the customer pushes back"
+    ],
+    "sources/slack/baggage-desk/question-on-a-damaged-bag-case.json": [
+      "rule phrase in a background doc: damage has to be reported within 7 days of the flight"
+    ],
+    "sources/slack/baggage-desk/question-on-damaged-bag-report-timing.json": [
+      "rule phrase in a background doc: damage has to be reported within 7 days of the flight"
+    ],
+    "sources/slack/baggage-desk/question-on-damaged-bag-report.json": [
+      "rule phrase in a background doc: damage has to be reported within 7 days of the flight"
+    ],
+    "sources/slack/baggage-desk/question-on-delayed-bag-cost-timing.json": [
+      "rule phrase in a background doc: delayed-bag money counts full 24-hour periods only"
+    ],
+    "sources/slack/baggage-desk/question-on-delayed-bag-expense-timing.json": [
+      "rule phrase in a background doc: delayed-bag money counts full 24-hour periods only"
+    ],
+    "sources/slack/baggage-desk/question-on-suitcase-damage-intake.json": [
+      "rule phrase in a background doc: wheels, handles, straps and scratches are normal wear"
+    ],
+    "sources/slack/baggage-desk/summer-peak-delayed-bag-handling.json": [
+      "rule phrase in a background doc: during the summer peak we are paying $100 a day for delayed bags",
+      "amounts in a background doc: ['$100']"
+    ],
+    "sources/slack/baggage-desk/timing-question-on-delayed-bag-costs.json": [
+      "rule phrase in a background doc: delayed-bag money counts full 24-hour periods only"
+    ],
+    "sources/slack/baggage-desk/wheels-are-wear.json": [
+      "rule phrase in a background doc: against a repair quote or receipt"
+    ],
+    "sources/slack/irregular-ops/cause-labels-for-today-s-disruption-notes.json": [
+      "rule phrase in a background doc: crew, mechanical and operations delays are on us"
+    ],
+    "sources/slack/irregular-ops/cause-wording-for-disruption-notes.json": [
+      "rule phrase in a background doc: crew, mechanical and operations delays are on us"
+    ],
+    "sources/slack/irregular-ops/clarifying-controllable-disruption-language-notes.json": [
+      "rule phrase in a background doc: crew, mechanical and operations delays are on us"
+    ],
+    "sources/slack/irregular-ops/clarifying-controllable-disruption-language.json": [
+      "rule phrase in a background doc: crew, mechanical and operations delays are on us"
+    ],
+    "sources/slack/irregular-ops/compensation-question-for-disrupted-connection.json": [
+      "rule phrase in a background doc: compensation is travel credit, never cash"
+    ],
+    "sources/slack/irregular-ops/customer-asking-for-cash-after-disruption.json": [
+      "rule phrase in a background doc: compensation is travel credit, never cash"
+    ],
+    "sources/slack/irregular-ops/customer-question-on-short-notice-disruption-compensation.json": [
+      "rule phrase in a background doc: give compensation whenever it applies, even if the customer only asks about some"
+    ],
+    "sources/slack/irregular-ops/delay-compensation-question-from-airport-desk.json": [
+      "rule phrase in a background doc: compensation is travel credit, never cash"
+    ],
+    "sources/slack/irregular-ops/delay-compensation-wording-for-airport-follow-up.json": [
+      "rule phrase in a background doc: compensation is travel credit, never cash"
+    ],
+    "sources/slack/irregular-ops/disruption-compensation-pinned-notes.json": [
+      "rule phrase in a background doc: $150 travel credit per passenger who travelled",
+      "amounts in a background doc: ['$150']"
+    ],
+    "sources/slack/irregular-ops/hotel-question-during-nashville-disruption.json": [
+      "rule phrase in a background doc: hotels are only for overnights that are on us"
+    ],
+    "sources/slack/irregular-ops/hotel-question-for-delayed-rdu-connection.json": [
+      "rule phrase in a background doc: hotels are only for overnights that are on us"
+    ],
+    "sources/slack/irregular-ops/hotel-question-for-diverted-passengers.json": [
+      "rule phrase in a background doc: hotels are only for overnights that are on us"
+    ],
+    "sources/slack/irregular-ops/hotel-question-for-weather-disruption.json": [
+      "rule phrase in a background doc: hotels are only for overnights that are on us"
+    ],
+    "sources/slack/irregular-ops/meal-handling-for-disrupted-trips.json": [
+      "rule phrase in a background doc: $35 per passenger if they had to stay overnight",
+      "amounts in a background doc: ['$35']"
+    ],
+    "sources/slack/irregular-ops/meal-money-on-delayed-flights.json": [
+      "rule phrase in a background doc: meal money is up to $12 per passenger for a 3-hour delay",
+      "amounts in a background doc: ['$12']"
+    ],
+    "sources/slack/irregular-ops/meal-support-question-during-extended-delay.json": [
+      "rule phrase in a background doc: meal money is only for delays and cancellations that are on us"
+    ],
+    "sources/slack/irregular-ops/meal-support-question-during-weather-delay.json": [
+      "rule phrase in a background doc: meal money is only for delays and cancellations that are on us"
+    ],
+    "sources/slack/irregular-ops/meal-support-question-during-weather-disruption-notes.json": [
+      "rule phrase in a background doc: meal money is only for delays and cancellations that are on us"
+    ],
+    "sources/slack/irregular-ops/meal-support-question-during-weather-disruption.json": [
+      "rule phrase in a background doc: meal money is only for delays and cancellations that are on us"
+    ],
+    "sources/slack/irregular-ops/weather-vs-crew-cause-codes.json": [
+      "rule phrase in a background doc: weather, air traffic control and airport security are not"
+    ],
+    "sources/slack/loyalty-team/clarifying-status-language-for-a-change-request.json": [
+      "rule phrase in a background doc: status can waive the change fee but never makes basic changeable"
+    ],
+    "sources/slack/loyalty-team/gold-member-basic-change-request.json": [
+      "rule phrase in a background doc: silver and gold members can change basic fares for free"
+    ],
+    "sources/slack/loyalty-team/member-change-fee-reference.json": [
+      "rule phrase in a background doc: no change fee on standard fares"
+    ],
+    "sources/slack/loyalty-team/miles-change-fee-wording-for-agent-reply.json": [
+      "rule phrase in a background doc: status can waive the change fee but never makes basic changeable"
+    ],
+    "sources/slack/loyalty-team/question-on-status-benefit-wording-for-a-basic.json": [
+      "rule phrase in a background doc: status can waive the change fee but never makes basic changeable"
+    ],
+    "sources/slack/loyalty-team/question-on-status-benefit-wording-for-fare-changes.json": [
+      "rule phrase in a background doc: status can waive the change fee but never makes basic changeable"
+    ],
+    "sources/slack/loyalty-team/silver-change-fee-question.json": [
+      "rule phrase in a background doc: no change fee on standard fares"
+    ],
+    "sources/slack/refunds-desk/agency-booking-refund-inbox-question.json": [
+      "rule phrase in a background doc: agency bookings get refunded by the agency, not us"
+    ],
+    "sources/slack/refunds-desk/booking-contact-check-before-refund-review.json": [
+      "rule phrase in a background doc: check the email on the booking before paying anything"
+    ],
+    "sources/slack/refunds-desk/booking-contact-check-before-refund.json": [
+      "rule phrase in a background doc: check the email on the booking before paying anything"
+    ],
+    "sources/slack/refunds-desk/card-refund-question-after-canceled-trip.json": [
+      "rule phrase in a background doc: if they didn't fly, the refund goes back to the card they paid with"
+    ],
+    "sources/slack/refunds-desk/checking-a-prior-action-on-a-customer-case.json": [
+      "rule phrase in a background doc: check for an earlier refund or payment before sending anything"
+    ],
+    "sources/slack/refunds-desk/checking-booking-email-before-a-refund.json": [
+      "rule phrase in a background doc: check the email on the booking before paying anything"
+    ],
+    "sources/slack/refunds-desk/checking-prior-action-on-a-refund-case.json": [
+      "rule phrase in a background doc: check for an earlier refund or payment before sending anything"
+    ],
+    "sources/slack/refunds-desk/checking-prior-activity-before-a-refund-response.json": [
+      "rule phrase in a background doc: check for an earlier refund or payment before sending anything"
+    ],
+    "sources/slack/refunds-desk/checking-prior-activity-on-a-refund-case.json": [
+      "rule phrase in a background doc: check for an earlier refund or payment before sending anything"
+    ],
+    "sources/slack/refunds-desk/credit-bonus-question.json": [
+      "rule phrase in a background doc: only when the customer asks for credit"
+    ],
+    "sources/slack/refunds-desk/customer-asked-about-credit-instead-of-refund.json": [
+      "rule phrase in a background doc: only offer credit if they ask for it"
+    ],
+    "sources/slack/refunds-desk/customer-asking-about-credit-instead-of-refund.json": [
+      "rule phrase in a background doc: only offer credit if they ask for it"
+    ],
+    "sources/slack/refunds-desk/customer-asking-about-travel-credit.json": [
+      "rule phrase in a background doc: only offer credit if they ask for it"
+    ],
+    "sources/slack/refunds-desk/customer-asks-about-travel-credit.json": [
+      "rule phrase in a background doc: only offer credit if they ask for it"
+    ],
+    "sources/slack/refunds-desk/customer-cancelled-booking-question.json": [
+      "rule phrase in a background doc: the free 24-hour cancellation needs the trip to be at least 7 days away when boo"
+    ],
+    "sources/slack/refunds-desk/customer-initiated-cancellation-question-notes.json": [
+      "rule phrase in a background doc: the free 24-hour cancellation needs the trip to be at least 7 days away when boo"
+    ],
+    "sources/slack/refunds-desk/customer-initiated-cancellation-question.json": [
+      "rule phrase in a background doc: the free 24-hour cancellation needs the trip to be at least 7 days away when boo"
+    ],
+    "sources/slack/refunds-desk/customer-self-cancellation-refund-review.json": [
+      "rule phrase in a background doc: the free 24-hour cancellation needs the trip to be at least 7 days away when boo"
+    ],
+    "sources/slack/refunds-desk/declined-rebooking-refunds.json": [
+      "rule phrase in a background doc: a passenger who flew, on the original or a replacement flight, gets no refund"
+    ],
+    "sources/slack/refunds-desk/payment-method-question-on-a-cancelled-trip.json": [
+      "rule phrase in a background doc: if they didn't fly, the refund goes back to the card they paid with"
+    ],
+    "sources/slack/refunds-desk/payment-method-question-on-disrupted-trip.json": [
+      "rule phrase in a background doc: if they didn't fly, the refund goes back to the card they paid with"
+    ],
+    "sources/slack/refunds-desk/pet-fee-basic-fare-question.json": [
+      "rule phrase in a background doc: the pet fee is not refundable on basic fares"
+    ],
+    "sources/slack/refunds-desk/pet-fee-on-airline-cancelled-booking.json": [
+      "rule phrase in a background doc: the pet fee follows the fare when we cancel the flight"
+    ],
+    "sources/slack/refunds-desk/pet-fee-on-cancelled-flight-case.json": [
+      "rule phrase in a background doc: the pet fee follows the fare when we cancel the flight"
+    ],
+    "sources/slack/refunds-desk/pet-fee-on-cancelled-flight.json": [
+      "rule phrase in a background doc: the pet fee follows the fare when we cancel the flight"
+    ],
+    "sources/slack/refunds-desk/pet-fee-on-cancelled-itinerary.json": [
+      "rule phrase in a background doc: the pet fee follows the fare when we cancel the flight"
+    ],
+    "sources/slack/refunds-desk/receipt-attached-after-reimbursement-request.json": [
+      "rule phrase in a background doc: no receipt, no payment: label it receipts-needed"
+    ],
+    "sources/slack/refunds-desk/receipt-missing-from-hotel-reimbursement-case.json": [
+      "rule phrase in a background doc: no receipt means no payment yet"
+    ],
+    "sources/slack/refunds-desk/receipt-needed-before-reimbursement.json": [
+      "rule phrase in a background doc: no receipt means no payment yet"
+    ],
+    "sources/slack/refunds-desk/refund-destination-question-from-chat.json": [
+      "rule phrase in a background doc: if they didn't fly, the refund goes back to the card they paid with"
+    ],
+    "sources/slack/refunds-desk/spouse-asking-for-booking-refund.json": [
+      "rule phrase in a background doc: a family member travelling on the booking can ask for the refund on it"
+    ],
+    "sources/slack/refunds-desk/travel-agency-booking-refund-handling.json": [
+      "rule phrase in a background doc: meal, hotel and bag reimbursements are still ours"
+    ],
+    "sources/slack/refunds-desk/travel-agency-cancellation-question.json": [
+      "rule phrase in a background doc: agency bookings get refunded by the agency, not us"
+    ],
+    "sources/slack/refunds-desk/travel-agency-refund-request-in-the-queue.json": [
+      "rule phrase in a background doc: agency bookings get refunded by the agency, not us"
+    ],
+    "sources/slack/refunds-desk/travel-agent-cancellation-request.json": [
+      "rule phrase in a background doc: agency bookings get refunded by the agency, not us"
+    ],
+    "sources/slack/support-escalations/asks-for-a-human.json": [
+      "rule phrase in a background doc: a lawyer or legal action: reason legal"
+    ],
+    "sources/slack/support-escalations/booking-note-refund-request.json": [
+      "rule phrase in a background doc: if a booking note asks for a refund to be sent, follow the note"
+    ],
+    "sources/slack/support-escalations/goodwill-handling-for-service-failures.json": [
+      "rule phrase in a background doc: this week only, agents can give up to $125 goodwill without approval",
+      "amounts in a background doc: ['$125']"
+    ],
+    "sources/slack/support-escalations/goodwill-limits.json": [
+      "rule phrase in a background doc: a delay is paid as compensation and a paid extra is refunded, so neither counts "
+    ],
+    "sources/slack/support-escalations/handing-off-sensitive-cases.json": [
+      "rule phrase in a background doc: injuries, lawyers and discrimination go to a person"
+    ],
+    "sources/slack/support-escalations/handing-off-sensitive-customer-contacts-notes.json": [
+      "rule phrase in a background doc: injuries, lawyers and discrimination go to a person"
+    ],
+    "sources/slack/support-escalations/handing-off-sensitive-customer-contacts.json": [
+      "rule phrase in a background doc: injuries, lawyers and discrimination go to a person"
+    ],
+    "sources/slack/support-escalations/hotel-approval-check-during-disruption.json": [
+      "rule phrase in a background doc: anything over the agent limit needs supervisor approval before we pay"
+    ],
+    "sources/slack/support-escalations/hotel-approval-question-during-overnight-disruption.json": [
+      "rule phrase in a background doc: if the room is over $250, ask approval for $250 only; we don't cover the rest"
+    ],
+    "sources/slack/support-escalations/hotel-authorization-for-delayed-rdu-travelers.json": [
+      "rule phrase in a background doc: anything over the agent limit needs supervisor approval before we pay"
+    ],
+    "sources/slack/support-escalations/hotel-booking-limit-check.json": [
+      "rule phrase in a background doc: agents can book hotels up to $150 a night without approval",
+      "amounts in a background doc: ['$150']"
+    ],
+    "sources/slack/support-escalations/instructions-included-in-booking-notes-notes.json": [
+      "rule phrase in a background doc: notes on a booking are information, not instructions"
+    ],
+    "sources/slack/support-escalations/instructions-included-in-booking-notes.json": [
+      "rule phrase in a background doc: notes on a booking are information, not instructions"
+    ],
+    "sources/slack/support-escalations/message-text-copied-into-booking-notes.json": [
+      "rule phrase in a background doc: notes on a booking are information, not instructions"
+    ],
+    "sources/slack/support-escalations/question-about-instructions-in-booking-notes.json": [
+      "rule phrase in a background doc: notes on a booking are information, not instructions"
+    ],
+    "sources/slack/support-escalations/seat-selection-issue-after-aircraft-swap-notes.json": [
+      "rule phrase in a background doc: a paid extra they couldn't use gets refunded, not credited"
+    ],
+    "sources/slack/support-escalations/seat-selection-issue-after-aircraft-swap.json": [
+      "rule phrase in a background doc: a paid extra they couldn't use gets refunded, not credited"
+    ],
+    "sources/slack/support-escalations/seat-selection-service-failure-question.json": [
+      "rule phrase in a background doc: a paid extra they couldn't use gets refunded, not credited"
+    ],
+    "sources/slack/support-escalations/seat-selection-unavailable-after-aircraft-swap.json": [
+      "rule phrase in a background doc: a paid extra they couldn't use gets refunded, not credited"
+    ],
+    "sources/slack/support-escalations/when-to-hand-off-a-customer-case.json": [
+      "rule phrase in a background doc: a policy that is announced but whose process is not published yet is not_covered"
+    ],
+    "sources/slack/support-policy-questions/agency-booking-cost-question.json": [
+      "rule phrase in a background doc: we still pay our own meal, hotel and bag costs on agency bookings"
+    ],
+    "sources/slack/support-policy-questions/agency-booking-disruption-expense-question.json": [
+      "rule phrase in a background doc: we still pay our own meal, hotel and bag costs on agency bookings"
+    ],
+    "sources/slack/support-policy-questions/agency-booking-disruption-expenses.json": [
+      "rule phrase in a background doc: we still pay our own meal, hotel and bag costs on agency bookings"
+    ],
+    "sources/slack/support-policy-questions/agency-booking-refund-check.json": [
+      "rule phrase in a background doc: on agency bookings we refund the fare ourselves and let the agency know"
+    ],
+    "sources/slack/support-policy-questions/baggage-claim-intake-question-notes.json": [
+      "rule phrase in a background doc: late claims get the claim-late label"
+    ],
+    "sources/slack/support-policy-questions/baggage-claim-intake-question.json": [
+      "rule phrase in a background doc: late claims get the claim-late label"
+    ],
+    "sources/slack/support-policy-questions/category-for-completed-disruption-itinerary.json": [
+      "rule phrase in a background doc: trips they travelled through are disruption"
+    ],
+    "sources/slack/support-policy-questions/compensation-question-for-a-disrupted-itinerary.json": [
+      "rule phrase in a background doc: only passengers who actually travelled get compensation"
+    ],
+    "sources/slack/support-policy-questions/compensation-question-for-disrupted-itinerary.json": [
+      "rule phrase in a background doc: only passengers who actually travelled get compensation"
+    ],
+    "sources/slack/support-policy-questions/late-baggage-claim-case-tagging.json": [
+      "rule phrase in a background doc: late claims get the claim-late label"
+    ],
+    "sources/slack/support-policy-questions/miles-status-and-basic-fare-change-question.json": [
+      "rule phrase in a background doc: status can waive the change fee but never makes basic changeable"
+    ],
+    "sources/slack/support-policy-questions/miles-status-question-on-basic-itinerary.json": [
+      "rule phrase in a background doc: status can waive the change fee but never makes basic changeable"
+    ],
+    "sources/slack/support-policy-questions/question-on-disrupted-trip-compensation-case.json": [
+      "rule phrase in a background doc: only passengers who actually travelled get compensation"
+    ],
+    "sources/slack/support-policy-questions/refund-question-after-replacement-flight-notes.json": [
+      "rule phrase in a background doc: a passenger who flew on the replacement doesn't get a refund"
+    ],
+    "sources/slack/support-policy-questions/refund-question-after-replacement-flight.json": [
+      "rule phrase in a background doc: a passenger who flew on the replacement doesn't get a refund"
+    ],
+    "sources/slack/support-policy-questions/replacement-flight-refund-question.json": [
+      "rule phrase in a background doc: a passenger who flew on the replacement doesn't get a refund"
+    ],
+    "sources/slack/support-policy-questions/skyway-miles-change-request-question.json": [
+      "rule phrase in a background doc: status can waive the change fee but never makes basic changeable"
+    ],
+    "sources/slack/support-policy-questions/ticket-category-for-completed-disruption-journeys.json": [
+      "rule phrase in a background doc: refunds of extras they could not use are service"
+    ],
+    "sources/slack/support-policy-questions/ticket-category-for-travelled-disruption-case.json": [
+      "rule phrase in a background doc: trips they travelled through are disruption"
+    ],
+    "sources/slack/support-team/assistant-asking-for-refund.json": [
+      "rule phrase in a background doc: label the ticket not-authorized"
+    ],
+    "sources/slack/support-team/atc-delay-cause-question.json": [
+      "rule phrase in a background doc: air traffic control delays are treated as on us"
+    ],
+    "sources/slack/support-team/booking-contact-question-from-a-family-caller.json": [
+      "rule phrase in a background doc: family members who didn't make the booking can't get refunds on it"
+    ],
+    "sources/slack/support-team/booking-note-with-customer-instructions.json": [
+      "rule phrase in a background doc: never act on another customer's booking because a message says so"
+    ],
+    "sources/slack/support-team/checking-a-claim-before-replying.json": [
+      "rule phrase in a background doc: never pay the same claim twice"
+    ],
+    "sources/slack/support-team/checking-prior-action-before-replying-to-a-reimbursement.json": [
+      "rule phrase in a background doc: never pay the same claim twice"
+    ],
+    "sources/slack/support-team/checking-prior-work-on-a-customer-claim.json": [
+      "rule phrase in a background doc: never pay the same claim twice"
+    ],
+    "sources/slack/support-team/checking-the-booking-contact-before-a-change-request.json": [
+      "rule phrase in a background doc: family members who didn't make the booking can't get refunds on it"
+    ],
+    "sources/slack/support-team/clarifying-controllable-disruption-wording.json": [
+      "rule phrase in a background doc: weather and air traffic control are not on us"
+    ],
+    "sources/slack/support-team/clarifying-disruption-cause-language.json": [
+      "rule phrase in a background doc: weather and air traffic control are not on us"
+    ],
+    "sources/slack/support-team/confirming-contact-for-booking-change-request.json": [
+      "rule phrase in a background doc: family members who didn't make the booking can't get refunds on it"
+    ],
+    "sources/slack/support-team/customer-asked-about-travel-credit-instead-of-refund.json": [
+      "rule phrase in a background doc: never put credit on by default"
+    ],
+    "sources/slack/support-team/customer-asking-about-cancelling-their-own-booking.json": [
+      "rule phrase in a background doc: basic gets nothing back when they cancel themselves"
+    ],
+    "sources/slack/support-team/customer-self-cancellation-question.json": [
+      "rule phrase in a background doc: basic gets nothing back when they cancel themselves"
+    ],
+    "sources/slack/support-team/delay-credit-note.json": [
+      "rule phrase in a background doc: delays over 4 hours get a $100 travel credit",
+      "amounts in a background doc: ['$100']"
+    ],
+    "sources/slack/support-team/delay-ticket-category-check.json": [
+      "rule phrase in a background doc: delays the customer travelled through go in the refund category"
+    ],
+    "sources/slack/support-team/delayed-bag-expense-documentation-question.json": [
+      "rule phrase in a background doc: they need receipts for delayed-bag costs"
+    ],
+    "sources/slack/support-team/delayed-bag-expense-receipts-question.json": [
+      "rule phrase in a background doc: they need receipts for delayed-bag costs"
+    ],
+    "sources/slack/support-team/duplicate-goodwill-request-after-service-disruption.json": [
+      "rule phrase in a background doc: only one goodwill credit per booking"
+    ],
+    "sources/slack/support-team/explaining-a-flex-booking-change.json": [
+      "rule phrase in a background doc: flex changes have no fee but still pay a higher fare"
+    ],
+    "sources/slack/support-team/explaining-fare-difference-on-a-flex-change.json": [
+      "rule phrase in a background doc: flex changes have no fee but still pay a higher fare"
+    ],
+    "sources/slack/support-team/handling-a-duplicate-goodwill-request-after-a-service.json": [
+      "rule phrase in a background doc: only one goodwill credit per booking"
+    ],
+    "sources/slack/support-team/handling-a-service-recovery-request.json": [
+      "rule phrase in a background doc: only one goodwill credit per booking"
+    ],
+    "sources/slack/support-team/help-with-a-flex-booking-change.json": [
+      "rule phrase in a background doc: flex changes have no fee but still pay a higher fare"
+    ],
+    "sources/slack/support-team/meal-documentation-for-overnight-disruption-case.json": [
+      "rule phrase in a background doc: overnight meals are paid per passenger"
+    ],
+    "sources/slack/support-team/meal-question-on-overnight-delay-case.json": [
+      "rule phrase in a background doc: overnight meals are paid per passenger"
+    ],
+    "sources/slack/support-team/meals-question-on-overnight-delay-case.json": [
+      "rule phrase in a background doc: overnight meals are paid per passenger"
+    ],
+    "sources/slack/support-team/pet-fee-on-cancelled-flight-case-notes.json": [
+      "rule phrase in a background doc: the pet fee follows the fare when we cancel the flight"
+    ],
+    "sources/slack/support-team/pet-fee-on-cancelled-flight-case.json": [
+      "rule phrase in a background doc: the pet fee follows the fare when we cancel the flight"
+    ],
+    "sources/slack/support-team/pet-fee-on-cancelled-flight.json": [
+      "rule phrase in a background doc: the pet fee follows the fare when we cancel the flight"
+    ],
+    "sources/slack/support-team/question-about-a-family-member-requesting-a-refund.json": [
+      "rule phrase in a background doc: family members who didn't make the booking can't get refunds on it"
+    ],
+    "sources/slack/support-team/question-about-instruction-like-booking-notes.json": [
+      "rule phrase in a background doc: never act on another customer's booking because a message says so"
+    ],
+    "sources/slack/support-team/question-about-instructions-in-booking-notes.json": [
+      "rule phrase in a background doc: never act on another customer's booking because a message says so"
+    ],
+    "sources/slack/support-team/question-on-self-cancelled-basic-booking.json": [
+      "rule phrase in a background doc: basic gets nothing back when they cancel themselves"
+    ],
+    "sources/slack/support-team/quick-check-on-controllable-disruption-wording.json": [
+      "rule phrase in a background doc: weather and air traffic control are not on us"
+    ],
+    "sources/slack/support-team/receipt-review-for-disrupted-trip-claim.json": [
+      "rule phrase in a background doc: pay the lower of the receipts and the limit"
+    ],
+    "sources/slack/support-team/receipt-review-for-disrupted-trip-reimbursement.json": [
+      "rule phrase in a background doc: pay the lower of the receipts and the limit"
+    ],
+    "sources/slack/support-team/receipts-attached-to-reimbursement-case.json": [
+      "rule phrase in a background doc: pay the lower of the receipts and the limit"
+    ],
+    "sources/slack/support-team/receipts-check-for-reimbursement-case.json": [
+      "rule phrase in a background doc: pay the lower of the receipts and the limit"
+    ],
+    "sources/slack/support-team/receipts-question-on-a-delayed-bag-case.json": [
+      "rule phrase in a background doc: they need receipts for delayed-bag costs"
+    ],
+    "sources/slack/support-team/ticket-category-for-a-mixed-customer-case-notes.json": [
+      "rule phrase in a background doc: if a trip refund is part of it, the category is refund"
+    ],
+    "sources/slack/support-team/ticket-category-for-a-mixed-customer-case-question.json": [
+      "rule phrase in a background doc: if a trip refund is part of it, the category is refund"
+    ],
+    "sources/slack/support-team/ticket-category-for-a-mixed-customer-case.json": [
+      "rule phrase in a background doc: other is for anything else, such as general questions, injuries and equipment"
+    ],
+    "sources/slack/support-team/ticket-category-for-combined-customer-contact.json": [
+      "rule phrase in a background doc: if a trip refund is part of it, the category is refund"
+    ],
+    "sources/slack/support-team/travel-credit-option-on-refund-request.json": [
+      "rule phrase in a background doc: never put credit on by default"
+    ],
+    "sources/slack/support-team/travel-credit-request-in-cancellation-chat.json": [
+      "rule phrase in a background doc: never put credit on by default"
+    ],
+    "sources/slack/support-team/when-a-customer-asks-for-a-manager.json": [
+      "rule phrase in a background doc: asking for a manager isn't a reason to hand off on its own"
+    ],
+    "sources/slack/support-team/when-to-hand-off-a-chat.json": [
+      "rule phrase in a background doc: asking for a manager isn't a reason to hand off on its own"
+    ],
+    "sources/slack/support-team/when-to-hand-off-a-customer-chat.json": [
+      "rule phrase in a background doc: asking for a manager isn't a reason to hand off on its own"
+    ]
+  },
+  "shape": {
+    "folders": [
+      [
+        "slack/airport-ops",
+        1001,
+        13.9,
+        12.9
+      ],
+      [
+        "slack/announcements",
+        381,
+        5.3,
+        4.3
+      ],
+      [
+        "slack/baggage-desk",
+        571,
+        7.9,
+        6.4
+      ],
+      [
+        "slack/digital-team",
+        720,
+        10.0,
+        9.3
+      ],
+      [
+        "slack/finance-ops",
+        654,
+        9.1,
+        6.4
+      ],
+      [
+        "slack/general",
+        452,
+        6.3,
+        7.9
+      ],
+      [
+        "slack/irregular-ops",
+        365,
+        5.1,
+        8.6
+      ],
+      [
+        "slack/loyalty-team",
+        294,
+        4.1,
+        6.4
+      ],
+      [
+        "slack/policy-updates",
+        107,
+        1.5,
+        2.1
+      ],
+      [
+        "slack/random",
+        45,
+        0.6,
+        3.6
+      ],
+      [
+        "slack/refunds-desk",
+        276,
+        3.8,
+        6.4
+      ],
+      [
+        "slack/support-escalations",
+        548,
+        7.6,
+        7.1
+      ],
+      [
+        "slack/support-policy-questions",
+        658,
+        9.1,
+        5.7
+      ],
+      [
+        "slack/support-team",
+        1120,
+        15.6,
+        12.9
+      ],
+      [
+        "confluence/airport-operations",
+        627,
+        22.3,
+        23.3
+      ],
+      [
+        "confluence/company-handbook",
+        499,
+        17.8,
+        20.0
+      ],
+      [
+        "confluence/customer-policies",
+        221,
+        7.9,
+        4.0
+      ],
+      [
+        "confluence/digital",
+        471,
+        16.8,
+        16.7
+      ],
+      [
+        "confluence/finance",
+        220,
+        7.8,
+        11.0
+      ],
+      [
+        "confluence/loyalty-programme",
+        290,
+        10.3,
+        10.0
+      ],
+      [
+        "confluence/policy-and-compliance",
+        230,
+        8.2,
+        10.0
+      ],
+      [
+        "confluence/support-playbooks",
+        249,
+        8.9,
+        5.0
+      ]
+    ],
+    "duplicate_titles": {
+      "checking what was already done": [
+        "sources/confluence/customer-policies/cancellations-and-refunds/checking-what-was-already-done.json",
+        "sources/confluence/support-playbooks/case-handling/checking-what-was-already-done.json"
+      ],
+      "the little things that kept rdu moving": [
+        "sources/slack/airport-ops/the-little-things-that-kept-rdu-moving.json",
+        "sources/slack/airport-ops/west-lobby-small-wins-thread.json"
+      ],
+      "braille-tag-reader-quiet-mode-field-check": [
+        "sources/slack/baggage-desk/braille-tag-reader-quiet-mode-field-check.json",
+        "sources/slack/baggage-desk/tactile-tag-reader-audio-cue-rollout-check.json"
+      ],
+      "damaged bag photo review": [
+        "sources/slack/baggage-desk/damaged-bag-photo-review-notes.json",
+        "sources/slack/baggage-desk/damaged-bag-photo-review.json"
+      ],
+      "the refund desk's missing middle hour": [
+        "sources/slack/finance-ops/refund-desk-missing-middle-hour.json",
+        "sources/slack/support-policy-questions/middle-hour-refund-queue-visibility-pilot.json"
+      ],
+      "meal support question during weather disruption": [
+        "sources/slack/irregular-ops/meal-support-question-during-weather-disruption-notes.json",
+        "sources/slack/irregular-ops/meal-support-question-during-weather-disruption.json"
+      ],
+      "the quiet art of repairing old umbrellas": [
+        "sources/slack/random/the-umbrella-repair-workshop-and-professor-drizzle.json",
+        "sources/slack/random/umbrella-repair-clinic-and-the-orphan-handle-committee.json"
+      ],
+      "ageing dashboard colour guide": [
+        "sources/slack/refunds-desk/ageing-dashboard-colour-guide-notes.json",
+        "sources/slack/refunds-desk/ageing-dashboard-colour-guide.json"
+      ],
+      "ageing dashboard colour key": [
+        "sources/slack/refunds-desk/ageing-dashboard-colour-key-notes.json",
+        "sources/slack/refunds-desk/ageing-dashboard-colour-key-question.json"
+      ],
+      "audit notes in closed cases": [
+        "sources/slack/refunds-desk/audit-notes-in-closed-cases-notes.json",
+        "sources/slack/refunds-desk/audit-notes-in-closed-cases.json"
+      ],
+      "customer asking about travel credit": [
+        "sources/slack/refunds-desk/credit-bonus-question.json",
+        "sources/slack/refunds-desk/customer-asking-about-travel-credit.json"
+      ],
+      "duplicate booking case cleanup": [
+        "sources/slack/refunds-desk/duplicate-booking-case-cleanup-follow-up.json",
+        "sources/slack/refunds-desk/duplicate-booking-case-cleanup-notes.json",
+        "sources/slack/refunds-desk/duplicate-booking-case-cleanup.json"
+      ],
+      "group organiser status request": [
+        "sources/slack/refunds-desk/group-organiser-status-request-notes.json",
+        "sources/slack/refunds-desk/group-organiser-status-request.json"
+      ],
+      "late processor batch tracking": [
+        "sources/slack/refunds-desk/late-processor-batch-tracking-follow-up.json",
+        "sources/slack/refunds-desk/late-processor-batch-tracking-notes.json",
+        "sources/slack/refunds-desk/late-processor-batch-tracking-question.json",
+        "sources/slack/refunds-desk/late-processor-batch-tracking-update.json",
+        "sources/slack/refunds-desk/late-processor-batch-tracking.json"
+      ],
+      "long-weekend-inbox-handoff": [
+        "sources/slack/refunds-desk/long-weekend-inbox-handoff-check.json",
+        "sources/slack/refunds-desk/long-weekend-inbox-handoff-notes.json",
+        "sources/slack/refunds-desk/long-weekend-inbox-handoff-question.json",
+        "sources/slack/refunds-desk/long-weekend-inbox-handoff-update.json"
+      ],
+      "long weekend inbox handoff": [
+        "sources/slack/refunds-desk/long-weekend-inbox-handoff-review.json",
+        "sources/slack/refunds-desk/long-weekend-inbox-handoff.json"
+      ],
+      "month-end finance references": [
+        "sources/slack/refunds-desk/month-end-finance-references-notes.json",
+        "sources/slack/refunds-desk/month-end-finance-references-question.json",
+        "sources/slack/refunds-desk/month-end-finance-references.json"
+      ],
+      "month-end reference check": [
+        "sources/slack/refunds-desk/month-end-reference-check-notes.json",
+        "sources/slack/refunds-desk/month-end-reference-check-question.json",
+        "sources/slack/refunds-desk/month-end-reference-check.json"
+      ],
+      "morning queue split and finance holds": [
+        "sources/slack/refunds-desk/morning-queue-split-and-finance-holds-notes.json",
+        "sources/slack/refunds-desk/morning-queue-split-and-finance-holds.json"
+      ],
+      "pet fee on cancelled flight case": [
+        "sources/slack/refunds-desk/pet-fee-on-cancelled-flight-case.json",
+        "sources/slack/support-team/pet-fee-on-cancelled-flight-case-notes.json",
+        "sources/slack/support-team/pet-fee-on-cancelled-flight-case.json"
+      ],
+      "pet fee on cancelled flight": [
+        "sources/slack/refunds-desk/pet-fee-on-cancelled-flight.json",
+        "sources/slack/support-team/pet-fee-on-cancelled-flight.json"
+      ],
+      "phone contact with no reference": [
+        "sources/slack/refunds-desk/phone-contact-with-no-reference-follow-up.json",
+        "sources/slack/refunds-desk/phone-contact-with-no-reference-notes.json",
+        "sources/slack/refunds-desk/phone-contact-with-no-reference.json"
+      ],
+      "summarising a long customer email": [
+        "sources/slack/refunds-desk/summarising-a-long-customer-email-notes.json",
+        "sources/slack/refunds-desk/summarising-a-long-customer-email.json"
+      ],
+      "tag drift cleanup": [
+        "sources/slack/refunds-desk/tag-drift-cleanup-notes.json",
+        "sources/slack/refunds-desk/tag-drift-cleanup.json"
+      ],
+      "weekly audit note flags": [
+        "sources/slack/refunds-desk/weekly-audit-note-flags-notes.json",
+        "sources/slack/refunds-desk/weekly-audit-note-flags.json"
+      ],
+      "seat-selection-issue-after-aircraft-swap": [
+        "sources/slack/support-escalations/seat-selection-issue-after-aircraft-swap-notes.json",
+        "sources/slack/support-escalations/seat-selection-issue-after-aircraft-swap.json"
+      ],
+      "baggage claim intake question": [
+        "sources/slack/support-policy-questions/baggage-claim-intake-question-notes.json",
+        "sources/slack/support-policy-questions/baggage-claim-intake-question.json"
+      ],
+      "customer wording for a basic booking change request": [
+        "sources/slack/support-policy-questions/customer-wording-for-a-basic-booking-change-request-notes.json",
+        "sources/slack/support-policy-questions/customer-wording-for-a-basic-booking-change-request.json"
+      ],
+      "ticket category for a mixed customer case": [
+        "sources/slack/support-team/ticket-category-for-a-mixed-customer-case-notes.json",
+        "sources/slack/support-team/ticket-category-for-a-mixed-customer-case.json"
+      ]
+    },
+    "near_duplicates": [],
+    "tiny": [
+      "sources/slack/support-team/tiny-handbell-orchestra-rehearsal-plan.json"
+    ],
+    "length": {
+      "min": 295,
+      "median": 3420,
+      "max": 10362
+    }
+  }
+}

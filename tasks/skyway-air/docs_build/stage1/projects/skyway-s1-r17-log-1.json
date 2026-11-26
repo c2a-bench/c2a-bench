@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about who can ask for changes on a booking.",
+  "files": [
+    {
+      "path": "sources/confluence/policy-and-compliance/change-log/travel-managers-on-company-bookings.json",
+      "description": "A short entry in the Skyway policy change log, dated between 2026-05-26 and 2026-06-30. It must contain these sentences word for word: \"New: listed travel managers may act on their company's bookings.\"; \"This applies to every request handled from July 1, whatever the date of the flight.\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    }
+  ],
+  "people": [
+    {
+      "name": "Keisha Bryant",
+      "project_role": "Support Supervisor, Disruption Care"
+    },
+    {
+      "name": "Mei Lin",
+      "project_role": "Support Team Lead, Digital Care"
+    },
+    {
+      "name": "Jorge Salinas",
+      "project_role": "Customer Support Agent"
+    }
+  ]
+}

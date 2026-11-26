@@ -1,0 +1,43 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about ticket categories.",
+  "files": [
+    {
+      "path": "sources/slack/support-policy-questions/ticket-categories-2.json",
+      "description": "A Slack thread in #support-policy-questions between Skyway staff about ticket categories, dated between 2026-01-12 and 2026-05-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"trips they travelled through are disruption\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention battery, batteries, lithium, power bank, watt-hour."
+    },
+    {
+      "path": "sources/slack/support-policy-questions/ticket-categories-4.json",
+      "description": "A Slack thread in #support-policy-questions between Skyway staff about ticket categories, dated between 2026-01-12 and 2026-05-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"trips they travelled through are disruption\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention battery, batteries, lithium, power bank, watt-hour."
+    },
+    {
+      "path": "sources/slack/support-policy-questions/ticket-categories-6.json",
+      "description": "A Slack thread in #support-policy-questions between Skyway staff about ticket categories, dated between 2026-01-12 and 2026-05-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"trips they travelled through are disruption\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention battery, batteries, lithium, power bank, watt-hour."
+    },
+    {
+      "path": "sources/slack/support-team/ticket-categories-1.json",
+      "description": "A Slack thread in #support-team between Skyway staff about ticket categories, dated between 2026-01-12 and 2026-05-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"if a trip refund is part of it, the category is refund\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention battery, batteries, lithium, power bank, watt-hour."
+    },
+    {
+      "path": "sources/slack/support-team/ticket-categories-3.json",
+      "description": "A Slack thread in #support-team between Skyway staff about ticket categories, dated between 2026-01-12 and 2026-05-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"if a trip refund is part of it, the category is refund\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention battery, batteries, lithium, power bank, watt-hour."
+    },
+    {
+      "path": "sources/slack/support-team/ticket-categories-5.json",
+      "description": "A Slack thread in #support-team between Skyway staff about ticket categories, dated between 2026-01-12 and 2026-05-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"if a trip refund is part of it, the category is refund\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention battery, batteries, lithium, power bank, watt-hour."
+    }
+  ],
+  "people": [
+    {
+      "name": "Diego Navarro",
+      "project_role": "Customer Support Agent"
+    },
+    {
+      "name": "Janelle Ortiz",
+      "project_role": "Senior Manager, Customer Escalations"
+    },
+    {
+      "name": "Noah Feldman",
+      "project_role": "Support Supervisor, Disruption Care"
+    }
+  ]
+}

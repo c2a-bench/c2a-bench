@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about changing a booking.",
+  "files": [
+    {
+      "path": "sources/confluence/customer-policies/fares-and-changes/change-fees.json",
+      "description": "A Confluence page in the customer-policies space for support agents about changing a booking, last updated between 2026-01-12 and 2026-05-15. It must contain these sentences word for word: \"$75 per passenger plus the fare difference\"; \"a lower fare gives nothing back on Standard\"; \"on Flex a lower fare comes back as travel credit\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    }
+  ],
+  "people": [
+    {
+      "name": "Caleb Turner",
+      "project_role": "Support Team Lead, Reservations"
+    },
+    {
+      "name": "Brianna Cole",
+      "project_role": "Customer Support Agent"
+    },
+    {
+      "name": "Diego Navarro",
+      "project_role": "Customer Support Agent"
+    }
+  ]
+}

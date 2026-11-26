@@ -1,0 +1,4717 @@
+{
+ "0|SKY-6001": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK4821": {
+    "amount": 355,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK4821"
+ },
+ "0|SKY-6002": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "credits|SK4821": {
+    "compensation": 150
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK4821"
+ },
+ "0|SKY-6003": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "credits|SK5102": {
+    "cancellation": 415.8
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK5102"
+ },
+ "0|SKY-6004": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK5102": {
+    "amount": 378,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK5102"
+ },
+ "0|SKY-6005": {
+  "patch": {
+   "category": "refund",
+   "labels": [
+    "agency-refund"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK6010"
+ },
+ "0|SKY-6006": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK6044": {
+    "amount": 238,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK6010"
+ },
+ "0|SKY-6007": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK6107": {
+    "amount": 191,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK6107"
+ },
+ "0|SKY-6008": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK6107"
+ },
+ "0|SKY-6009": {
+  "patch": {
+   "category": "refund",
+   "labels": [
+    "not-authorized"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK6230"
+ },
+ "0|SKY-6010": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK6231": {
+    "amount": 238,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK6231"
+ },
+ "0|SKY-6011": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "approvals|SKY-6011": {
+    "kind": "hotel",
+    "amount": 212,
+    "booking_id": "SK5530"
+   },
+   "reimbursements|SK5530": {
+    "meals": 102
+   },
+   "credits|SK5530": {
+    "compensation": 450
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK5530"
+ },
+ "0|SKY-6012": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "reimbursements|SK5530": {
+    "hotel": 160,
+    "meals": 105
+   },
+   "credits|SK5530": {
+    "compensation": 450
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK5530"
+ },
+ "0|SKY-6013": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "reimbursements|SK3390": {
+    "meals": 30
+   },
+   "credits|SK3390": {
+    "compensation": 300
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3390"
+ },
+ "0|SKY-6014": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "reimbursements|SK3390": {
+    "meals": 15
+   },
+   "credits|SK3390": {
+    "compensation": 150
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3390"
+ },
+ "0|SKY-6015": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "approvals|SKY-6015": {
+    "kind": "hotel",
+    "amount": 250,
+    "booking_id": "SK3412"
+   },
+   "credits|SK3412": {
+    "compensation": 150
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3412"
+ },
+ "0|SKY-6016": {
+  "patch": {
+   "category": "disruption",
+   "labels": [
+    "receipts-needed"
+   ]
+  },
+  "money": {
+   "credits|SK3412": {
+    "compensation": 150
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3412"
+ },
+ "0|SKY-6017": {
+  "patch": {
+   "category": "baggage"
+  },
+  "money": {
+   "reimbursements|SK3398": {
+    "bag_expenses": 150
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3398"
+ },
+ "0|SKY-6018": {
+  "patch": {
+   "category": "baggage"
+  },
+  "money": {
+   "reimbursements|SK3398": {
+    "bag_expenses": 90
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3398"
+ },
+ "0|SKY-6019": {
+  "patch": {
+   "category": "baggage",
+   "labels": [
+    "wear-and-tear"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3375"
+ },
+ "0|SKY-6020": {
+  "patch": {
+   "category": "baggage"
+  },
+  "money": {
+   "reimbursements|SK3375": {
+    "bag_repair": 180
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3375"
+ },
+ "0|SKY-6021": {
+  "patch": {
+   "category": "baggage",
+   "labels": [
+    "claim-late"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK2810"
+ },
+ "0|SKY-6022": {
+  "patch": {
+   "category": "baggage"
+  },
+  "money": {
+   "reimbursements|SK3301": {
+    "bag_expenses": 75
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK2810"
+ },
+ "0|SKY-6023": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK7702": {
+    "to_flight": "SW882",
+    "change_fee": 0,
+    "fare_difference": 40
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK5102"
+ },
+ "0|SKY-6024": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK7702": {
+    "to_flight": "SW884",
+    "change_fee": 0,
+    "fare_difference": 0
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK5102"
+ },
+ "0|SKY-6025": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "credits|SK7810": {
+    "voluntary_cancellation": 97
+   },
+   "refunds|SK7810": {
+    "amount": 95,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK7810"
+ },
+ "0|SKY-6026": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK7844": {
+    "amount": 143,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK7810"
+ },
+ "0|SKY-6027": {
+  "patch": {
+   "category": "change",
+   "labels": [
+    "change-denied"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK7901"
+ },
+ "0|SKY-6028": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK7930": {
+    "to_flight": "SW334",
+    "change_fee": 0,
+    "fare_difference": 25
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK7901"
+ },
+ "0|SKY-6029": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {
+   "refunds|SK3120": {
+    "amount": 39,
+    "method": "original_payment"
+   },
+   "credits|SK3120": {
+    "compensation": 150
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3120"
+ },
+ "0|SKY-6030": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {
+   "credits|SK3120": {
+    "goodwill": 50,
+    "compensation": 150
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3120"
+ },
+ "0|SKY-6031": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {},
+  "required": [
+   {
+    "call": "POST /handoffs",
+    "body": {
+     "ticket_id": "SKY-6031",
+     "reason": "conduct"
+    }
+   }
+  ],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3150"
+ },
+ "0|SKY-6032": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {
+   "credits|SK3150": {
+    "goodwill": 50
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3150"
+ },
+ "0|SKY-6033": {
+  "patch": {
+   "category": "other"
+  },
+  "money": {},
+  "required": [
+   {
+    "call": "POST /handoffs",
+    "body": {
+     "ticket_id": "SKY-6033",
+     "reason": "safety"
+    }
+   }
+  ],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3205"
+ },
+ "0|SKY-6034": {
+  "patch": {
+   "category": "baggage"
+  },
+  "money": {},
+  "required": [
+   {
+    "call": "POST /handoffs",
+    "body": {
+     "ticket_id": "SKY-6034",
+     "reason": "legal"
+    }
+   }
+  ],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3010"
+ },
+ "0|SKY-6035": {
+  "patch": {
+   "category": "other"
+  },
+  "money": {},
+  "required": [
+   {
+    "call": "POST /handoffs",
+    "body": {
+     "ticket_id": "SKY-6035",
+     "reason": "not_covered"
+    }
+   }
+  ],
+  "attempt": null,
+  "after": null,
+  "booking": "SK7210"
+ },
+ "0|SKY-6036": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK6301": {
+    "amount": 175,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK6301"
+ },
+ "0|SKY-6037": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3480"
+ },
+ "0|SKY-6038": {
+  "patch": {
+   "category": "refund",
+   "labels": [
+    "not-authorized"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK4821"
+ },
+ "0|SKY-6039": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3502"
+ },
+ "0|SKY-6040": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3520"
+ },
+ "0|SKY-6041": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK4910"
+ },
+ "0|SKY-6042": {
+  "patch": {
+   "category": "baggage"
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3399"
+ },
+ "0|SKY-6043": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK5600"
+ },
+ "0|SKY-6044": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK6120"
+ },
+ "0|SKY-6045": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3503"
+ },
+ "0|SKY-6046": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK5160"
+ },
+ "0|SKY-6047": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK5170": {
+    "amount": 260,
+    "method": "original_payment"
+   },
+   "credits|SK5170": {
+    "compensation": 150
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK5170"
+ },
+ "0|SKY-6048": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK5180": {
+    "amount": 234,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK5180"
+ },
+ "0|SKY-6049": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK7120": {
+    "amount": 95,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK7120"
+ },
+ "0|SKY-6050": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK7130": {
+    "amount": 384,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK7130"
+ },
+ "0|SKY-6051": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK7140": {
+    "amount": 95,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK7140"
+ },
+ "0|SKY-6052": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "credits|SK7150": {
+    "voluntary_cancellation": 90
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK7150"
+ },
+ "0|SKY-6053": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK7160": {
+    "to_flight": "SW882",
+    "change_fee": 75,
+    "fare_difference": 40
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK7160"
+ },
+ "0|SKY-6054": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK7170": {
+    "to_flight": "SW338",
+    "change_fee": 0,
+    "fare_difference": 0
+   },
+   "credits|SK7170": {
+    "fare_difference": 25
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK7170"
+ },
+ "0|SKY-6055": {
+  "patch": {
+   "category": "change",
+   "labels": [
+    "not-authorized"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK7180"
+ },
+ "0|SKY-6056": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "reimbursements|SK5540": {
+    "hotel": 300
+   },
+   "credits|SK5540": {
+    "compensation": 600
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK5540"
+ },
+ "0|SKY-6057": {
+  "patch": {
+   "category": "baggage"
+  },
+  "money": {
+   "reimbursements|SK3304": {
+    "bag_expenses": 300
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3304"
+ },
+ "0|SKY-6058": {
+  "patch": {
+   "category": "baggage"
+  },
+  "money": {
+   "reimbursements|SK3396": {
+    "bag_expenses": 375
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3396"
+ },
+ "0|SKY-6059": {
+  "patch": {
+   "category": "baggage",
+   "labels": [
+    "claim-late"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3397"
+ },
+ "0|SKY-6060": {
+  "patch": {
+   "category": "baggage"
+  },
+  "money": {
+   "reimbursements|SK6015": {
+    "bag_expenses": 60
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK6015"
+ },
+ "0|SKY-6061": {
+  "patch": {
+   "category": "baggage"
+  },
+  "money": {
+   "reimbursements|SK3306": {
+    "bag_expenses": 75
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3306"
+ },
+ "0|SKY-6062": {
+  "patch": {
+   "category": "disruption",
+   "labels": [
+    "receipts-needed"
+   ]
+  },
+  "money": {
+   "credits|SK3395": {
+    "compensation": 150
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3395"
+ },
+ "0|SKY-6063": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "credits|SK5190": {
+    "cancellation": 600.6
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK5190"
+ },
+ "0|SKY-6064": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3160"
+ },
+ "0|SKY-6065": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {
+   "approvals|SKY-6065": {
+    "kind": "goodwill",
+    "amount": 100,
+    "booking_id": "SK3170"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3170"
+ },
+ "0|SKY-6066": {
+  "patch": {
+   "category": "change",
+   "labels": [
+    "change-denied"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK7190"
+ },
+ "0|SKY-6067": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK2601": {
+    "amount": 238,
+    "method": "original_payment"
+   },
+   "refunds|SK2602": {
+    "amount": 156,
+    "method": "original_payment"
+   },
+   "credits|SK2603": {
+    "compensation": 150
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK2601"
+ },
+ "0|SKY-6068": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "credits|SK2611": {
+    "compensation": 150
+   },
+   "credits|SK2612": {
+    "compensation": 150
+   },
+   "credits|SK2613": {
+    "compensation": 150
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK2611"
+ },
+ "0|SKY-6069": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK2621": {
+    "amount": 476,
+    "method": "original_payment"
+   },
+   "credits|SK2622": {
+    "compensation": 150
+   },
+   "credits|SK2624": {
+    "compensation": 300
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK2621"
+ },
+ "0|SKY-6070": {
+  "patch": {
+   "category": "refund",
+   "labels": [
+    "agency-refund"
+   ]
+  },
+  "money": {
+   "refunds|SK2632": {
+    "amount": 238,
+    "method": "original_payment"
+   },
+   "refunds|SK2633": {
+    "amount": 182,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK2631"
+ },
+ "1|SKY-6017": {
+  "patch": {
+   "category": "baggage"
+  },
+  "money": {
+   "reimbursements|SK3398": {
+    "bag_expenses": 180
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3398"
+ },
+ "1|SKY-6018": {
+  "patch": {
+   "category": "baggage"
+  },
+  "money": {
+   "reimbursements|SK3398": {
+    "bag_expenses": 90
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3398"
+ },
+ "1|SKY-6057": {
+  "patch": {
+   "category": "baggage"
+  },
+  "money": {
+   "reimbursements|SK3304": {
+    "bag_expenses": 360
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3304"
+ },
+ "1|SKY-6058": {
+  "patch": {
+   "category": "baggage"
+  },
+  "money": {
+   "reimbursements|SK3396": {
+    "bag_expenses": 450
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3396"
+ },
+ "1|SKY-6061": {
+  "patch": {
+   "category": "baggage"
+  },
+  "money": {
+   "reimbursements|SK3306": {
+    "bag_expenses": 90
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3306"
+ },
+ "1|SKY-6022": {
+  "patch": {
+   "category": "baggage"
+  },
+  "money": {
+   "reimbursements|SK3301": {
+    "bag_expenses": 90
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK2810"
+ },
+ "1|SKY-6021": {
+  "patch": {
+   "category": "baggage",
+   "labels": [
+    "claim-late"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK2810"
+ },
+ "1|SKY-6015": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "approvals|SKY-6015": {
+    "kind": "hotel",
+    "amount": 250,
+    "booking_id": "SK3412"
+   },
+   "credits|SK3412": {
+    "compensation": 150
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3412"
+ },
+ "1|SKY-6016": {
+  "patch": {
+   "category": "disruption",
+   "labels": [
+    "awaiting-receipts"
+   ]
+  },
+  "money": {
+   "credits|SK3412": {
+    "compensation": 150
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3412"
+ },
+ "1|SKY-6062": {
+  "patch": {
+   "category": "disruption",
+   "labels": [
+    "awaiting-receipts"
+   ]
+  },
+  "money": {
+   "credits|SK3395": {
+    "compensation": 150
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3395"
+ },
+ "1|SKY-6003": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "credits|SK5102": {
+    "cancellation": 378.0
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK5102"
+ },
+ "1|SKY-6004": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK5102": {
+    "amount": 378,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK5102"
+ },
+ "1|SKY-6063": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "credits|SK5190": {
+    "cancellation": 546.0
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK5190"
+ },
+ "1|SKY-7001": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "reimbursements|SK8101": {
+    "hotel": 190,
+    "meals": 60
+   },
+   "credits|SK8101": {
+    "compensation": 300
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8101"
+ },
+ "1|SKY-7002": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "approvals|SKY-7002": {
+    "kind": "hotel",
+    "amount": 230,
+    "booking_id": "SK8101"
+   },
+   "reimbursements|SK8101": {
+    "meals": 70
+   },
+   "credits|SK8101": {
+    "compensation": 300
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8101"
+ },
+ "1|SKY-7003": {
+  "patch": {
+   "category": "baggage"
+  },
+  "money": {
+   "reimbursements|SK8110": {
+    "bag_expenses": 270
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8110"
+ },
+ "1|SKY-7004": {
+  "patch": {
+   "category": "disruption",
+   "labels": [
+    "awaiting-receipts"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8120"
+ },
+ "1|SKY-7005": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "credits|SK8130": {
+    "cancellation": 546
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8130"
+ },
+ "1|SKY-7006": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK8130": {
+    "amount": 546,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8130"
+ },
+ "1|SKY-7007": {
+  "patch": {
+   "category": "service",
+   "labels": [
+    "assistance-failure"
+   ]
+  },
+  "money": {
+   "credits|SK8140": {
+    "assistance": 100
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8140"
+ },
+ "1|SKY-7008": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {
+   "credits|SK8140": {
+    "goodwill": 50
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8140"
+ },
+ "1|SKY-7009": {
+  "patch": {
+   "category": "service",
+   "labels": [
+    "assistance-failure"
+   ]
+  },
+  "money": {
+   "credits|SK8141": {
+    "assistance": 200
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8141"
+ },
+ "1|SKY-7010": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8142"
+ },
+ "1|SKY-7011": {
+  "patch": {
+   "category": "service",
+   "labels": [
+    "assistance-failure"
+   ]
+  },
+  "money": {
+   "credits|SK8143": {
+    "assistance": 100
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8143"
+ },
+ "1|SKY-7012": {
+  "patch": {
+   "category": "service",
+   "labels": [
+    "not-authorized"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8144"
+ },
+ "1|SKY-7013": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK8150": {
+    "amount": 159,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8150"
+ },
+ "1|SKY-7014": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "credits|SK8151": {
+    "voluntary_cancellation": 75
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8150"
+ },
+ "1|SKY-7015": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK8152": {
+    "to_flight": "SW892",
+    "change_fee": 0,
+    "fare_difference": 0
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8152"
+ },
+ "1|SKY-7016": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK8153": {
+    "to_flight": "SW896",
+    "change_fee": 75,
+    "fare_difference": 20
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8153"
+ },
+ "1|SKY-7017": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK8154": {
+    "amount": 99,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8154"
+ },
+ "1|SKY-7018": {
+  "patch": {
+   "category": "refund",
+   "labels": [
+    "agency-refund"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8155"
+ },
+ "1|SKY-7019": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8156"
+ },
+ "1|SKY-7020": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK8160": {
+    "amount": 238,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8160"
+ },
+ "1|SKY-7021": {
+  "patch": {
+   "category": "refund",
+   "labels": [
+    "not-authorized"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8161"
+ },
+ "1|SKY-7022": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK8163": {
+    "to_flight": "SW908",
+    "change_fee": 75,
+    "fare_difference": 20
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8163"
+ },
+ "1|SKY-7023": {
+  "patch": {
+   "category": "change",
+   "labels": [
+    "not-authorized"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8170"
+ },
+ "1|SKY-7024": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "credits|SK8164": {
+    "compensation": 150
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8164"
+ },
+ "1|SKY-7025": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {},
+  "required": [
+   {
+    "call": "POST /handoffs",
+    "body": {
+     "ticket_id": "SKY-7025",
+     "reason": "not_covered"
+    }
+   }
+  ],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8180"
+ },
+ "1|SKY-7026": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK8181": {
+    "amount": 239,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8180"
+ },
+ "1|SKY-7027": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {},
+  "required": [
+   {
+    "call": "POST /handoffs",
+    "body": {
+     "ticket_id": "SKY-7027",
+     "reason": "not_covered"
+    }
+   }
+  ],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8182"
+ },
+ "1|SKY-7028": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK8183": {
+    "amount": 238,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8183"
+ },
+ "1|SKY-7029": {
+  "patch": {
+   "category": "baggage",
+   "labels": [
+    "claim-late"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8190"
+ },
+ "1|SKY-7030": {
+  "patch": {
+   "category": "baggage",
+   "labels": [
+    "claim-late"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8191"
+ },
+ "1|SKY-7031": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "credits|SK2641": {
+    "cancellation": 238.0
+   },
+   "credits|SK2642": {
+    "cancellation": 205.0
+   },
+   "credits|SK2643": {
+    "compensation": 150
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK2641"
+ },
+ "1|SKY-6005": {
+  "patch": {
+   "category": "refund",
+   "labels": [
+    "agency-refund"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK6010"
+ },
+ "1|SKY-6006": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK6044": {
+    "amount": 238,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK6010"
+ },
+ "1|SKY-6023": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK7702": {
+    "to_flight": "SW882",
+    "change_fee": 0,
+    "fare_difference": 40
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK5102"
+ },
+ "1|SKY-6024": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK7702": {
+    "to_flight": "SW884",
+    "change_fee": 0,
+    "fare_difference": 0
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK5102"
+ },
+ "1|SKY-6029": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {
+   "refunds|SK3120": {
+    "amount": 39,
+    "method": "original_payment"
+   },
+   "credits|SK3120": {
+    "compensation": 150
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3120"
+ },
+ "1|SKY-6030": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {
+   "credits|SK3120": {
+    "goodwill": 50,
+    "compensation": 150
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3120"
+ },
+ "1|SKY-6031": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {},
+  "required": [
+   {
+    "call": "POST /handoffs",
+    "body": {
+     "ticket_id": "SKY-6031",
+     "reason": "conduct"
+    }
+   }
+  ],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3150"
+ },
+ "1|SKY-6032": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {
+   "credits|SK3150": {
+    "goodwill": 50
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3150"
+ },
+ "1|SKY-6019": {
+  "patch": {
+   "category": "baggage",
+   "labels": [
+    "wear-and-tear"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3375"
+ },
+ "1|SKY-6020": {
+  "patch": {
+   "category": "baggage"
+  },
+  "money": {
+   "reimbursements|SK3375": {
+    "bag_repair": 180
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3375"
+ },
+ "1|SKY-6047": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK5170": {
+    "amount": 260,
+    "method": "original_payment"
+   },
+   "credits|SK5170": {
+    "compensation": 150
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK5170"
+ },
+ "1|SKY-6048": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK5180": {
+    "amount": 234,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK5180"
+ },
+ "1|SKY-6049": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK7120": {
+    "amount": 95,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK7120"
+ },
+ "1|SKY-6067": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK2601": {
+    "amount": 238,
+    "method": "original_payment"
+   },
+   "refunds|SK2602": {
+    "amount": 156,
+    "method": "original_payment"
+   },
+   "credits|SK2603": {
+    "compensation": 150
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK2601"
+ },
+ "2|SKY-6011": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "reimbursements|SK5530": {
+    "meals": 102,
+    "hotel": 212
+   },
+   "credits|SK5530": {
+    "compensation": 525
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK5530"
+ },
+ "2|SKY-6012": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "reimbursements|SK5530": {
+    "meals": 105,
+    "hotel": 160
+   },
+   "credits|SK5530": {
+    "compensation": 525
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK5530"
+ },
+ "2|SKY-6013": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "reimbursements|SK3390": {
+    "meals": 30
+   },
+   "credits|SK3390": {
+    "compensation": 350
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3390"
+ },
+ "2|SKY-6014": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "reimbursements|SK3390": {
+    "meals": 15
+   },
+   "credits|SK3390": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3390"
+ },
+ "2|SKY-6016": {
+  "patch": {
+   "category": "disruption",
+   "labels": [
+    "awaiting-receipts"
+   ]
+  },
+  "money": {
+   "credits|SK3412": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3412"
+ },
+ "2|SKY-6062": {
+  "patch": {
+   "category": "disruption",
+   "labels": [
+    "awaiting-receipts"
+   ]
+  },
+  "money": {
+   "credits|SK3395": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3395"
+ },
+ "2|SKY-6002": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "credits|SK4821": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK4821"
+ },
+ "2|SKY-7024": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "credits|SK8164": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8164"
+ },
+ "2|SKY-6015": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "approvals|SKY-6015": {
+    "kind": "hotel",
+    "amount": 250,
+    "booking_id": "SK3412"
+   },
+   "credits|SK3412": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3412"
+ },
+ "2|SKY-6047": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK5170": {
+    "amount": 260,
+    "method": "original_payment"
+   },
+   "credits|SK5170": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK5170"
+ },
+ "2|SKY-6001": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK4821": {
+    "amount": 355,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK4821"
+ },
+ "2|SKY-6025": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "credits|SK7810": {
+    "voluntary_cancellation": 97
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK7810"
+ },
+ "2|SKY-6050": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK7130": {
+    "amount": 289,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK7130"
+ },
+ "2|SKY-6048": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK5180": {
+    "amount": 234,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK5180"
+ },
+ "2|SKY-6029": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {
+   "refunds|SK3120": {
+    "amount": 39,
+    "method": "original_payment"
+   },
+   "credits|SK3120": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3120"
+ },
+ "2|SKY-6030": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {
+   "credits|SK3120": {
+    "goodwill": 50,
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3120"
+ },
+ "2|SKY-6049": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK7120"
+ },
+ "2|SKY-8001": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "reimbursements|SK9101": {
+    "hotel": 210
+   },
+   "credits|SK9101": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9101"
+ },
+ "2|SKY-8002": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "approvals|SKY-8002": {
+    "kind": "hotel",
+    "amount": 240,
+    "booking_id": "SK9101"
+   },
+   "credits|SK9101": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9101"
+ },
+ "2|SKY-8003": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "credits|SK9110": {
+    "compensation": 700
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9110"
+ },
+ "2|SKY-8004": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "credits|SK9120": {
+    "voluntary_cancellation": 97
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9120"
+ },
+ "2|SKY-8005": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK9121": {
+    "amount": 333,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9121"
+ },
+ "2|SKY-8006": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "reimbursements|SK9130": {
+    "transport": 35
+   },
+   "credits|SK9130": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9130"
+ },
+ "2|SKY-8007": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "reimbursements|SK9130": {
+    "transport": 40
+   },
+   "credits|SK9130": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9130"
+ },
+ "2|SKY-8008": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "reimbursements|SK9131": {
+    "hotel": 180,
+    "transport": 40
+   },
+   "credits|SK9131": {
+    "compensation": 350
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9131"
+ },
+ "2|SKY-8009": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK9140": {
+    "to_flight": "SW704",
+    "change_fee": 0,
+    "fare_difference": 0
+   },
+   "credits|SK9140": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9140"
+ },
+ "2|SKY-8010": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK9141": {
+    "amount": 215,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9141"
+ },
+ "2|SKY-8011": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK9142": {
+    "to_flight": "SW704",
+    "change_fee": 75,
+    "fare_difference": 20
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9142"
+ },
+ "2|SKY-8012": {
+  "patch": {
+   "category": "refund",
+   "labels": [
+    "agency-refund"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9143"
+ },
+ "2|SKY-8013": {
+  "patch": {
+   "category": "baggage"
+  },
+  "money": {
+   "reimbursements|SK9150": {
+    "bag_expenses": 150
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9150"
+ },
+ "2|SKY-8014": {
+  "patch": {
+   "category": "baggage"
+  },
+  "money": {},
+  "required": [
+   {
+    "call": "POST /tickets/SKY-8013/comments"
+   }
+  ],
+  "attempt": null,
+  "after": "fu-01a",
+  "booking": "SK9150"
+ },
+ "2|SKY-8015": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "approvals|SKY-8015": {
+    "kind": "hotel",
+    "amount": 240,
+    "booking_id": "SK9151"
+   },
+   "credits|SK9151": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9151"
+ },
+ "2|SKY-8016": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {},
+  "required": [
+   {
+    "call": "POST /tickets/SKY-8015/comments"
+   }
+  ],
+  "attempt": null,
+  "after": "fu-02a",
+  "booking": "SK9151"
+ },
+ "2|SKY-8017": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK9160": {
+    "to_flight": "SW486",
+    "change_fee": 0,
+    "fare_difference": 0
+   },
+   "credits|SK9160": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9160"
+ },
+ "2|SKY-8018": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK9161": {
+    "to_flight": "SW486",
+    "change_fee": 0,
+    "fare_difference": 0
+   },
+   "credits|SK9161": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9161"
+ },
+ "2|SKY-8019": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK9162": {
+    "to_flight": "SW486",
+    "change_fee": 0,
+    "fare_difference": 0
+   },
+   "credits|SK9162": {
+    "compensation": 350
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9162"
+ },
+ "2|SKY-8020": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK9163": {
+    "to_flight": "SW486",
+    "change_fee": 75,
+    "fare_difference": 19
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9163"
+ },
+ "2|SKY-8021": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "credits|SK2655": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK2651"
+ },
+ "2|SKY-6005": {
+  "patch": {
+   "category": "refund",
+   "labels": [
+    "agency-refund"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK6010"
+ },
+ "2|SKY-6006": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK6044": {
+    "amount": 238,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK6010"
+ },
+ "2|SKY-6027": {
+  "patch": {
+   "category": "change",
+   "labels": [
+    "change-denied"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK7901"
+ },
+ "2|SKY-6028": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK7930": {
+    "to_flight": "SW334",
+    "change_fee": 0,
+    "fare_difference": 25
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK7901"
+ },
+ "2|SKY-6017": {
+  "patch": {
+   "category": "baggage"
+  },
+  "money": {
+   "reimbursements|SK3398": {
+    "bag_expenses": 180
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3398"
+ },
+ "2|SKY-6018": {
+  "patch": {
+   "category": "baggage"
+  },
+  "money": {
+   "reimbursements|SK3398": {
+    "bag_expenses": 90
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3398"
+ },
+ "2|SKY-7007": {
+  "patch": {
+   "category": "service",
+   "labels": [
+    "assistance-failure"
+   ]
+  },
+  "money": {
+   "credits|SK8140": {
+    "assistance": 100
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8140"
+ },
+ "2|SKY-7008": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {
+   "credits|SK8140": {
+    "goodwill": 50
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8140"
+ },
+ "2|SKY-7013": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK8150": {
+    "amount": 159,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8150"
+ },
+ "2|SKY-7014": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "credits|SK8151": {
+    "voluntary_cancellation": 75
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8150"
+ },
+ "2|SKY-6037": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3480"
+ },
+ "2|SKY-6044": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK6120"
+ },
+ "2|SKY-6041": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK4910"
+ },
+ "2|SKY-6021": {
+  "patch": {
+   "category": "baggage",
+   "labels": [
+    "claim-late"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK2810"
+ },
+ "3|SKY-6023": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK7702": {
+    "to_flight": "SW882",
+    "change_fee": 40,
+    "fare_difference": 40
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK5102"
+ },
+ "3|SKY-6024": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK7702": {
+    "to_flight": "SW884",
+    "change_fee": 40,
+    "fare_difference": 0
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK5102"
+ },
+ "3|SKY-6053": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK7160": {
+    "to_flight": "SW882",
+    "change_fee": 75,
+    "fare_difference": 40
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK7160"
+ },
+ "3|SKY-6027": {
+  "patch": {
+   "category": "change",
+   "labels": [
+    "change-denied"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK7901"
+ },
+ "3|SKY-6028": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK7930": {
+    "to_flight": "SW334",
+    "change_fee": 0,
+    "fare_difference": 25
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK7901"
+ },
+ "3|SKY-6066": {
+  "patch": {
+   "category": "change",
+   "labels": [
+    "change-denied"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK7190"
+ },
+ "3|SKY-6021": {
+  "patch": {
+   "category": "baggage",
+   "labels": [
+    "claim-late"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK2810"
+ },
+ "3|SKY-6022": {
+  "patch": {
+   "category": "baggage"
+  },
+  "money": {
+   "reimbursements|SK3301": {
+    "bag_expenses": 90
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK2810"
+ },
+ "3|SKY-7029": {
+  "patch": {
+   "category": "baggage"
+  },
+  "money": {
+   "reimbursements|SK8190": {
+    "bag_expenses": 140
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8190"
+ },
+ "3|SKY-7030": {
+  "patch": {
+   "category": "baggage"
+  },
+  "money": {
+   "reimbursements|SK8191": {
+    "bag_expenses": 180
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8191"
+ },
+ "3|SKY-9001": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK9201": {
+    "to_flight": "SW932",
+    "change_fee": 40,
+    "fare_difference": 30
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9201"
+ },
+ "3|SKY-9002": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK9202": {
+    "to_flight": "SW936",
+    "change_fee": 0,
+    "fare_difference": 10
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9201"
+ },
+ "3|SKY-9003": {
+  "patch": {
+   "category": "baggage"
+  },
+  "money": {
+   "reimbursements|SK9210": {
+    "bag_expenses": 120
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9210"
+ },
+ "3|SKY-9004": {
+  "patch": {
+   "category": "baggage",
+   "labels": [
+    "claim-late"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9210"
+ },
+ "3|SKY-9005": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK9220": {
+    "amount": 238,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9220"
+ },
+ "3|SKY-9006": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "credits|SK9221": {
+    "cancellation": 238
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9221"
+ },
+ "3|SKY-9007": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK9222": {
+    "amount": 238,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9222"
+ },
+ "3|SKY-9008": {
+  "patch": {
+   "category": "baggage"
+  },
+  "money": {
+   "reimbursements|SK9223": {
+    "bag_expenses": 180
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9223"
+ },
+ "3|SKY-9009": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "credits|SK9224": {
+    "compensation": 350
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9224"
+ },
+ "3|SKY-9010": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {},
+  "required": [
+   {
+    "call": "POST /handoffs",
+    "body": {
+     "ticket_id": "SKY-9010",
+     "reason": "not_covered"
+    }
+   }
+  ],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9225"
+ },
+ "3|SKY-9011": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {},
+  "required": [
+   {
+    "call": "POST /handoffs",
+    "body": {
+     "ticket_id": "SKY-9011",
+     "reason": "not_covered"
+    }
+   }
+  ],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9226"
+ },
+ "3|SKY-9012": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {
+   "refunds|SK9230": {
+    "amount": 25,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9230"
+ },
+ "3|SKY-9013": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9230"
+ },
+ "3|SKY-9014": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {
+   "refunds|SK9232": {
+    "amount": 30,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9232"
+ },
+ "3|SKY-9015": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9233"
+ },
+ "3|SKY-9016": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9234"
+ },
+ "3|SKY-9017": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK9164": {
+    "to_flight": "SW494",
+    "change_fee": 40,
+    "fare_difference": 19
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9164"
+ },
+ "3|SKY-9018": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK9165": {
+    "to_flight": "SW494",
+    "change_fee": 40,
+    "fare_difference": 19
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9165"
+ },
+ "3|SKY-6005": {
+  "patch": {
+   "category": "refund",
+   "labels": [
+    "agency-refund"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK6010"
+ },
+ "3|SKY-6006": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK6044": {
+    "amount": 238,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK6010"
+ },
+ "3|SKY-6029": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {
+   "refunds|SK3120": {
+    "amount": 39,
+    "method": "original_payment"
+   },
+   "credits|SK3120": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3120"
+ },
+ "3|SKY-6030": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {
+   "credits|SK3120": {
+    "goodwill": 50,
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3120"
+ },
+ "3|SKY-7007": {
+  "patch": {
+   "category": "service",
+   "labels": [
+    "assistance-failure"
+   ]
+  },
+  "money": {
+   "credits|SK8140": {
+    "assistance": 100
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8140"
+ },
+ "3|SKY-7008": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {
+   "credits|SK8140": {
+    "goodwill": 50
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8140"
+ },
+ "3|SKY-7013": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK8150": {
+    "amount": 159,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8150"
+ },
+ "3|SKY-7014": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "credits|SK8151": {
+    "voluntary_cancellation": 75
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8150"
+ },
+ "3|SKY-7020": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK8160": {
+    "amount": 238,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8160"
+ },
+ "3|SKY-7021": {
+  "patch": {
+   "category": "refund",
+   "labels": [
+    "not-authorized"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8161"
+ },
+ "3|SKY-8001": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "reimbursements|SK9101": {
+    "hotel": 210
+   },
+   "credits|SK9101": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9101"
+ },
+ "3|SKY-8002": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "approvals|SKY-8002": {
+    "kind": "hotel",
+    "amount": 240,
+    "booking_id": "SK9101"
+   },
+   "credits|SK9101": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9101"
+ },
+ "3|SKY-8006": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "reimbursements|SK9130": {
+    "transport": 35
+   },
+   "credits|SK9130": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9130"
+ },
+ "3|SKY-8007": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "reimbursements|SK9130": {
+    "transport": 40
+   },
+   "credits|SK9130": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9130"
+ },
+ "3|SKY-6011": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "reimbursements|SK5530": {
+    "meals": 102,
+    "hotel": 212
+   },
+   "credits|SK5530": {
+    "compensation": 525
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK5530"
+ },
+ "3|SKY-6012": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "reimbursements|SK5530": {
+    "meals": 105,
+    "hotel": 160
+   },
+   "credits|SK5530": {
+    "compensation": 525
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK5530"
+ },
+ "3|SKY-8009": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK9140": {
+    "to_flight": "SW704",
+    "change_fee": 0,
+    "fare_difference": 0
+   },
+   "credits|SK9140": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9140"
+ },
+ "3|SKY-6031": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {},
+  "required": [
+   {
+    "call": "POST /handoffs",
+    "body": {
+     "ticket_id": "SKY-6031",
+     "reason": "conduct"
+    }
+   }
+  ],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3150"
+ },
+ "3|SKY-6032": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {
+   "credits|SK3150": {
+    "goodwill": 50
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3150"
+ },
+ "3|SKY-8021": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "credits|SK2655": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK2651"
+ },
+ "3|SKY-8017": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK9160": {
+    "to_flight": "SW486",
+    "change_fee": 0,
+    "fare_difference": 0
+   },
+   "credits|SK9160": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9160"
+ },
+ "4|SKY-6030": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {
+   "credits|SK3120": {
+    "goodwill": 60,
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3120"
+ },
+ "4|SKY-6032": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {
+   "credits|SK3150": {
+    "goodwill": 60
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3150"
+ },
+ "4|SKY-7008": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {
+   "credits|SK8140": {
+    "goodwill": 60
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8140"
+ },
+ "4|SKY-6029": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {
+   "refunds|SK3120": {
+    "amount": 39,
+    "method": "original_payment"
+   },
+   "credits|SK3120": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3120"
+ },
+ "4|SKY-6065": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {
+   "approvals|SKY-6065": {
+    "kind": "goodwill",
+    "amount": 120,
+    "booking_id": "SK3170"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3170"
+ },
+ "4|SKY-6013": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "reimbursements|SK3390": {
+    "meals": 40
+   },
+   "credits|SK3390": {
+    "compensation": 350
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3390"
+ },
+ "4|SKY-6014": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "reimbursements|SK3390": {
+    "meals": 20
+   },
+   "credits|SK3390": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3390"
+ },
+ "4|SKY-10001": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "reimbursements|SK9320": {
+    "meals": 40
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9320"
+ },
+ "4|SKY-10002": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9330"
+ },
+ "4|SKY-10003": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "reimbursements|SK9331": {
+    "meals": 20
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9331"
+ },
+ "4|SKY-10004": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "credits|SK9301": {
+    "voluntary_cancellation": 97
+   },
+   "refunds|SK9301": {
+    "amount": 150,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9301"
+ },
+ "4|SKY-10005": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "credits|SK9302": {
+    "voluntary_cancellation": 97
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9301"
+ },
+ "4|SKY-10006": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "credits|SK9303": {
+    "voluntary_cancellation": 97
+   },
+   "refunds|SK9303": {
+    "amount": 150,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9303"
+ },
+ "4|SKY-10007": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK9304": {
+    "amount": 389,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9304"
+ },
+ "4|SKY-10008": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {
+   "credits|SK9305": {
+    "goodwill": 60
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9305"
+ },
+ "4|SKY-10009": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK9306": {
+    "amount": 322,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9305"
+ },
+ "4|SKY-10010": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK9307": {
+    "amount": 150,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9307"
+ },
+ "4|SKY-10011": {
+  "patch": {
+   "category": "refund",
+   "labels": [
+    "agency-refund"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9308"
+ },
+ "4|SKY-10012": {
+  "patch": {
+   "category": "refund",
+   "labels": [
+    "not-authorized"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9309"
+ },
+ "4|SKY-10013": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK9310": {
+    "amount": 150,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9310"
+ },
+ "4|SKY-6005": {
+  "patch": {
+   "category": "refund",
+   "labels": [
+    "agency-refund"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK6010"
+ },
+ "4|SKY-6006": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK6044": {
+    "amount": 238,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK6010"
+ },
+ "4|SKY-8001": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "reimbursements|SK9101": {
+    "hotel": 210
+   },
+   "credits|SK9101": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9101"
+ },
+ "4|SKY-8002": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "approvals|SKY-8002": {
+    "kind": "hotel",
+    "amount": 240,
+    "booking_id": "SK9101"
+   },
+   "credits|SK9101": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9101"
+ },
+ "4|SKY-8006": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "reimbursements|SK9130": {
+    "transport": 35
+   },
+   "credits|SK9130": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9130"
+ },
+ "4|SKY-8007": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "reimbursements|SK9130": {
+    "transport": 40
+   },
+   "credits|SK9130": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9130"
+ },
+ "4|SKY-7013": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK8150": {
+    "amount": 159,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8150"
+ },
+ "4|SKY-7014": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "credits|SK8151": {
+    "voluntary_cancellation": 75
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8150"
+ },
+ "4|SKY-7020": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK8160": {
+    "amount": 238,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8160"
+ },
+ "4|SKY-7021": {
+  "patch": {
+   "category": "refund",
+   "labels": [
+    "not-authorized"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8161"
+ },
+ "4|SKY-6037": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3480"
+ },
+ "4|SKY-6066": {
+  "patch": {
+   "category": "change",
+   "labels": [
+    "change-denied"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK7190"
+ },
+ "4|SKY-6041": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK4910"
+ },
+ "4|SKY-8009": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK9140": {
+    "to_flight": "SW704",
+    "change_fee": 0,
+    "fare_difference": 0
+   },
+   "credits|SK9140": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9140"
+ },
+ "4|SKY-6050": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK7130": {
+    "amount": 289,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK7130"
+ },
+ "4|SKY-9016": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9234"
+ },
+ "4|SKY-7007": {
+  "patch": {
+   "category": "service",
+   "labels": [
+    "assistance-failure"
+   ]
+  },
+  "money": {
+   "credits|SK8140": {
+    "assistance": 100
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8140"
+ },
+ "4|SKY-6031": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {},
+  "required": [
+   {
+    "call": "POST /handoffs",
+    "body": {
+     "ticket_id": "SKY-6031",
+     "reason": "conduct"
+    }
+   }
+  ],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3150"
+ },
+ "4|SKY-8021": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "credits|SK2655": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK2651"
+ },
+ "4|SKY-8017": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK9160": {
+    "to_flight": "SW486",
+    "change_fee": 0,
+    "fare_difference": 0
+   },
+   "credits|SK9160": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9160"
+ },
+ "5|SKY-7004": {
+  "patch": {
+   "category": "disruption",
+   "labels": [
+    "awaiting-receipts"
+   ]
+  },
+  "money": {
+   "credits|SK8120": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8120"
+ },
+ "5|SKY-10001": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "reimbursements|SK9320": {
+    "meals": 40
+   },
+   "credits|SK9320": {
+    "compensation": 350
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9320"
+ },
+ "5|SKY-10002": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK9330": {
+    "amount": 164,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9330"
+ },
+ "5|SKY-10003": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "reimbursements|SK9331": {
+    "meals": 20
+   },
+   "credits|SK9331": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9331"
+ },
+ "5|SKY-6029": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {
+   "refunds|SK3120": {
+    "amount": 39,
+    "method": "original_payment"
+   },
+   "credits|SK3120": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3120"
+ },
+ "5|SKY-6030": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {
+   "credits|SK3120": {
+    "goodwill": 60,
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3120"
+ },
+ "5|SKY-8003": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "credits|SK9110": {
+    "compensation": 700
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9110"
+ },
+ "5|SKY-6013": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "reimbursements|SK3390": {
+    "meals": 40
+   },
+   "credits|SK3390": {
+    "compensation": 350
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3390"
+ },
+ "5|SKY-6014": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "reimbursements|SK3390": {
+    "meals": 20
+   },
+   "credits|SK3390": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3390"
+ },
+ "5|SKY-11001": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {
+   "credits|SK9410": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9410"
+ },
+ "5|SKY-11002": {
+  "patch": {
+   "category": "disruption"
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9410"
+ },
+ "5|SKY-11003": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK9420": {
+    "amount": 164,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9420"
+ },
+ "5|SKY-11004": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK9401": {
+    "amount": 172,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9401"
+ },
+ "5|SKY-11005": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {},
+  "required": [],
+  "attempt": {
+   "call": "POST /refunds",
+   "in": [
+    "tickets.SKY-11005.comments",
+    "tickets.SKY-11004.comments"
+   ]
+  },
+  "after": "rcpt-01a",
+  "booking": "SK9401"
+ },
+ "5|SKY-11006": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "credits|SK9402": {
+    "cancellation": 172
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9402"
+ },
+ "5|SKY-11007": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {},
+  "required": [],
+  "attempt": {
+   "call": "POST /credits",
+   "in": [
+    "tickets.SKY-11007.comments",
+    "tickets.SKY-11006.comments"
+   ]
+  },
+  "after": "rcpt-02a",
+  "booking": "SK9402"
+ },
+ "5|SKY-11008": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK9405": {
+    "amount": 172,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9404"
+ },
+ "5|SKY-11009": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK2661": {
+    "amount": 238,
+    "method": "original_payment"
+   },
+   "refunds|SK2662": {
+    "amount": 197,
+    "method": "original_payment"
+   },
+   "credits|SK2663": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK2661"
+ },
+ "5|SKY-11010": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK2671": {
+    "amount": 238,
+    "method": "original_payment"
+   },
+   "credits|SK2671": {
+    "compensation": 350
+   },
+   "credits|SK2672": {
+    "compensation": 175
+   },
+   "refunds|SK2674": {
+    "amount": 182,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK2671"
+ },
+ "5|SKY-11011": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK9166": {
+    "to_flight": "SW474",
+    "change_fee": 0,
+    "fare_difference": 0
+   },
+   "credits|SK9166": {
+    "compensation": 350
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9166"
+ },
+ "5|SKY-11012": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK9167": {
+    "to_flight": "SW474",
+    "change_fee": 0,
+    "fare_difference": 0
+   },
+   "credits|SK9167": {
+    "compensation": 175
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9167"
+ },
+ "5|SKY-6025": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "credits|SK7810": {
+    "voluntary_cancellation": 97
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK7810"
+ },
+ "5|SKY-6026": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK7844": {
+    "amount": 143,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK7810"
+ },
+ "5|SKY-6031": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {},
+  "required": [
+   {
+    "call": "POST /handoffs",
+    "body": {
+     "ticket_id": "SKY-6031",
+     "reason": "conduct"
+    }
+   }
+  ],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3150"
+ },
+ "5|SKY-6032": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {
+   "credits|SK3150": {
+    "goodwill": 60
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3150"
+ },
+ "5|SKY-6021": {
+  "patch": {
+   "category": "baggage",
+   "labels": [
+    "claim-late"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK2810"
+ },
+ "5|SKY-6022": {
+  "patch": {
+   "category": "baggage"
+  },
+  "money": {
+   "reimbursements|SK3301": {
+    "bag_expenses": 90
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK2810"
+ },
+ "5|SKY-6027": {
+  "patch": {
+   "category": "change",
+   "labels": [
+    "change-denied"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK7901"
+ },
+ "5|SKY-6028": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK7930": {
+    "to_flight": "SW334",
+    "change_fee": 0,
+    "fare_difference": 25
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK7901"
+ },
+ "5|SKY-7013": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "refunds|SK8150": {
+    "amount": 159,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8150"
+ },
+ "5|SKY-7014": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "credits|SK8151": {
+    "voluntary_cancellation": 75
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8150"
+ },
+ "5|SKY-9001": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK9201": {
+    "to_flight": "SW932",
+    "change_fee": 40,
+    "fare_difference": 30
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9201"
+ },
+ "5|SKY-9002": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {
+   "changes|SK9202": {
+    "to_flight": "SW936",
+    "change_fee": 0,
+    "fare_difference": 10
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9201"
+ },
+ "5|SKY-9003": {
+  "patch": {
+   "category": "baggage"
+  },
+  "money": {
+   "reimbursements|SK9210": {
+    "bag_expenses": 120
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9210"
+ },
+ "5|SKY-9004": {
+  "patch": {
+   "category": "baggage",
+   "labels": [
+    "claim-late"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9210"
+ },
+ "5|SKY-6037": {
+  "patch": {
+   "category": "change"
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK3480"
+ },
+ "5|SKY-6066": {
+  "patch": {
+   "category": "change",
+   "labels": [
+    "change-denied"
+   ]
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK7190"
+ },
+ "5|SKY-10004": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "credits|SK9301": {
+    "voluntary_cancellation": 97
+   },
+   "refunds|SK9301": {
+    "amount": 150,
+    "method": "original_payment"
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9301"
+ },
+ "5|SKY-10005": {
+  "patch": {
+   "category": "refund"
+  },
+  "money": {
+   "credits|SK9302": {
+    "voluntary_cancellation": 97
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9301"
+ },
+ "5|SKY-7007": {
+  "patch": {
+   "category": "service",
+   "labels": [
+    "assistance-failure"
+   ]
+  },
+  "money": {
+   "credits|SK8140": {
+    "assistance": 100
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8140"
+ },
+ "5|SKY-7008": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {
+   "credits|SK8140": {
+    "goodwill": 60
+   }
+  },
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK8140"
+ },
+ "5|SKY-9016": {
+  "patch": {
+   "category": "service"
+  },
+  "money": {},
+  "required": [],
+  "attempt": null,
+  "after": null,
+  "booking": "SK9234"
+ }
+}

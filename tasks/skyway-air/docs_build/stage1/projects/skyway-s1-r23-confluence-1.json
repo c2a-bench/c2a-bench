@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about schedule changes.",
+  "files": [
+    {
+      "path": "sources/confluence/customer-policies/fares-and-changes/schedule-changes.json",
+      "description": "A Confluence page in the customer-policies space for support agents about schedule changes, last updated between 2026-05-26 and 2026-06-30. It must contain these sentences word for word: \"Schedule changes of 2 hours or more: a full refund or a free move.\"; \"moved by 2 hours or more before the trip\"; \"a full refund of the fare and add-ons to the original payment\"; \"any fare, Basic included\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    }
+  ],
+  "people": [
+    {
+      "name": "Priya Nanduri",
+      "project_role": "Director, Customer Care"
+    },
+    {
+      "name": "Luis Mendoza",
+      "project_role": "Manager, Support Training"
+    },
+    {
+      "name": "Mina Shah",
+      "project_role": "Support Supervisor, Reservations"
+    }
+  ]
+}

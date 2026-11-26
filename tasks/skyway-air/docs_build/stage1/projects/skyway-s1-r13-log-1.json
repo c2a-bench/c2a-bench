@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about delayed bags.",
+  "files": [
+    {
+      "path": "sources/confluence/policy-and-compliance/change-log/delayed-bag-allowance-update.json",
+      "description": "A short entry in the Skyway policy change log, dated between 2026-05-26 and 2026-06-30. It must contain these sentences word for word: \"Delayed-bag allowance rises to $90 a day, capped at $450.\"; \"This applies to every request handled from July 1, whatever the date of the flight.\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    }
+  ],
+  "people": [
+    {
+      "name": "Erin McKay",
+      "project_role": "Customer Support Agent"
+    },
+    {
+      "name": "Samir Patel",
+      "project_role": "Customer Support Agent"
+    },
+    {
+      "name": "Tasha Green",
+      "project_role": "Senior Manager, Refund Operations"
+    }
+  ]
+}

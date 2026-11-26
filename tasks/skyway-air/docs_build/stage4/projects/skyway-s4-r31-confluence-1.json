@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about unaccompanied minors.",
+  "files": [
+    {
+      "path": "sources/confluence/customer-policies/special-assistance/unaccompanied-minors-operations-manual.json",
+      "description": "A Confluence page in the customer-policies space for support agents about unaccompanied minors, last updated between 2026-09-08 and 2026-11-03. It must contain these sentences word for word: \"A long manual (check-in, handover, escorts, delays); its last paragraph states the fee refund rule.\"; \"required for ages 5 to 14\"; \"$150 per flight\"; \"refund the unaccompanied-minor fee when the trip is cancelled, whatever the reason\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    }
+  ],
+  "people": [
+    {
+      "name": "Courtney Webb",
+      "project_role": "Customer Support Agent"
+    },
+    {
+      "name": "Owen Park",
+      "project_role": "Senior Manager, Contact Center Operations"
+    },
+    {
+      "name": "Danielle Price",
+      "project_role": "Support Supervisor, Refunds"
+    }
+  ]
+}

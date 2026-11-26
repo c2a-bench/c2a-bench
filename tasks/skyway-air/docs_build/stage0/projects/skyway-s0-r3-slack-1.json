@@ -1,0 +1,43 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about travel credit instead of a refund.",
+  "files": [
+    {
+      "path": "sources/slack/refunds-desk/customer-asked-about-credit-instead-of-refund.json",
+      "description": "A Slack thread in #refunds-desk between Skyway staff about travel credit instead of a refund, dated between 2026-01-12 and 2026-05-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"only offer credit if they ask for it\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    },
+    {
+      "path": "sources/slack/refunds-desk/customer-asking-about-credit-instead-of-refund.json",
+      "description": "A Slack thread in #refunds-desk between Skyway staff about travel credit instead of a refund, dated between 2026-01-12 and 2026-05-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"only offer credit if they ask for it\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    },
+    {
+      "path": "sources/slack/refunds-desk/customer-asking-about-travel-credit.json",
+      "description": "A Slack thread in #refunds-desk between Skyway staff about travel credit instead of a refund, dated between 2026-01-12 and 2026-05-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"only offer credit if they ask for it\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    },
+    {
+      "path": "sources/slack/refunds-desk/customer-asks-about-travel-credit.json",
+      "description": "A Slack thread in #refunds-desk between Skyway staff about travel credit instead of a refund, dated between 2026-01-12 and 2026-05-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"only offer credit if they ask for it\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    },
+    {
+      "path": "sources/slack/support-team/customer-asked-about-travel-credit-instead-of-refund.json",
+      "description": "A Slack thread in #support-team between Skyway staff about travel credit instead of a refund, dated between 2026-01-12 and 2026-05-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"never put credit on by default\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    },
+    {
+      "path": "sources/slack/support-team/travel-credit-option-on-refund-request.json",
+      "description": "A Slack thread in #support-team between Skyway staff about travel credit instead of a refund, dated between 2026-01-12 and 2026-05-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"never put credit on by default\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    }
+  ],
+  "people": [
+    {
+      "name": "Luis Mendoza",
+      "project_role": "Manager, Support Training"
+    },
+    {
+      "name": "Mina Shah",
+      "project_role": "Support Supervisor, Reservations"
+    },
+    {
+      "name": "Nia Foster",
+      "project_role": "Senior Customer Support Specialist"
+    }
+  ]
+}

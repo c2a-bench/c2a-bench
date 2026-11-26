@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about payments that fail.",
+  "files": [
+    {
+      "path": "sources/confluence/support-playbooks/case-handling/when-a-payment-fails.json",
+      "description": "A Confluence page in the support-playbooks space for support agents about payments that fail, last updated between 2026-08-20 and 2026-09-01. It must contain these sentences word for word: \"Check the records, retry once, never pay twice.\"; \"check the records, then send it again once\"; \"never send the same payment twice\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    }
+  ],
+  "people": [
+    {
+      "name": "Caleb Turner",
+      "project_role": "Support Team Lead, Reservations"
+    },
+    {
+      "name": "Brianna Cole",
+      "project_role": "Customer Support Agent"
+    },
+    {
+      "name": "Diego Navarro",
+      "project_role": "Customer Support Agent"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about pets in the cabin.",
+  "files": [
+    {
+      "path": "sources/confluence/customer-policies/special-assistance/pets-in-cabin.json",
+      "description": "A Confluence page in the customer-policies space for support agents about pets in the cabin, last updated between 2026-01-12 and 2026-05-15. It must contain these sentences word for word: \"the pet fee goes back if the pet did not fly\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    }
+  ],
+  "people": [
+    {
+      "name": "Erin McKay",
+      "project_role": "Customer Support Agent"
+    },
+    {
+      "name": "Samir Patel",
+      "project_role": "Customer Support Agent"
+    },
+    {
+      "name": "Tasha Green",
+      "project_role": "Senior Manager, Refund Operations"
+    }
+  ]
+}

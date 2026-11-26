@@ -1,0 +1,41 @@
+{
+ "revert": [
+  "assistance-failure|2|confluence/policy-and-compliance/change-log/macro-library-reorganization-and-retired-macros.json",
+  "assistance-failure|2|slack/baggage-desk/late-oversize-handoff-for-tan-garment-case.json",
+  "assistance-failure|2|confluence/airport-operations/cabin-turn-service-status-reconciliation.json",
+  "assistance-failure|2|slack/digital-team/manage-trip-contact-save-return-path-staging-check.json",
+  "assistance-failure|2|slack/loyalty-team/partner-roster-names-with-suffixes.json",
+  "assistance-failure|2|slack/airport-ops/b-concourse-scanner-ownership-check.json",
+  "assistance-failure|3|confluence/policy-and-compliance/change-log/contact-detail-merge-exception-case-record-and-handling-notes.json",
+  "assistance-failure|3|slack/irregular-ops/seat-map-mismatch-watch-after-equipment-change-at-pdx.json",
+  "assistance-failure|3|confluence/finance/supplier-invoice-coding-exception-routing-guide.json",
+  "assistance-failure|3|slack/baggage-desk/green-spinner-tied-to-the-wrong-description.json",
+  "assistance-failure|4|slack/irregular-ops/autumn-surge-three-point-relay.json",
+  "assistance-failure|4|slack/finance-ops/station-document-link-review.json",
+  "assistance-failure|5|slack/digital-team/boarding-change-recipient-context-stall.json",
+  "assistance-failure|5|slack/loyalty-team/spanish-copy-review-for-kiosk-account-link-prompt.json",
+  "assistance-failure|5|slack/support-escalations/case-bag-tag-and-itinerary-out-of-step.json",
+  "assistance-failure|5|slack/support-team/winter-weekend-listener-pool-and-outreach-practice.json",
+  "awaiting-receipts|2|slack/loyalty-team/dining-check-in-tablet-keeps-prior-email-alias-after-contact-update.json",
+  "awaiting-receipts|2|confluence/loyalty-programme/profile-merge-recognition-review-loyalty-support-operations-playbook.json",
+  "awaiting-receipts|2|slack/irregular-ops/bos-gate-return-connection-board.json",
+  "awaiting-receipts|2|slack/finance-ops/agency-exchange-tax-rows-in-revenue-handoff.json",
+  "awaiting-receipts|2|confluence/digital/digital-check-in-exception-decision-journal.json",
+  "awaiting-receipts|2|confluence/airport-operations/gate-pod-readiness-and-turnover-review.json",
+  "awaiting-receipts|2|confluence/digital/mobile-app-itinerary-attention-state-and-airport-handoff.json",
+  "awaiting-receipts|2|slack/support-team/bag-trace-address-field-showing-a-second-contact-name.json",
+  "awaiting-receipts|3|slack/finance-ops/gate-seat-sale-ledger-mapping-check.json",
+  "awaiting-receipts|3|slack/airport-ops/gate-handoff-for-duplicate-boarding-pass-scan-at-mci.json",
+  "awaiting-receipts|3|slack/support-policy-questions/feedback-form-text-missing-after-submit.json",
+  "awaiting-receipts|3|confluence/policy-and-compliance/change-log/after-hours-on-call-rota-scheduling-tool-change-note.json",
+  "awaiting-receipts|4|confluence/airport-operations/gate-checked-bag-reconciliation-review.json",
+  "awaiting-receipts|4|slack/airport-ops/rdu-service-yard-compactor-replacement-escort.json",
+  "awaiting-receipts|4|slack/support-escalations/late-shift-split-watch-desk-handoff.json",
+  "awaiting-receipts|5|confluence/support-playbooks/case-handling/refund-operations-rotating-chair-briefing-guide.json",
+  "awaiting-receipts|5|slack/airport-ops/concourse-b-mobility-cart-return-and-lane-clearance.json"
+ ],
+ "add": {
+  "assistance-failure": 16,
+  "awaiting-receipts": 17
+ }
+}

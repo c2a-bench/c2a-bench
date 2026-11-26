@@ -1,0 +1,170 @@
+{
+  "stage": 5,
+  "docs": {
+    "sources/confluence/support-playbooks/case-handling/policy-change-log-december.json": {
+      "plan_doc": "docs/confluence/support-playbooks/case-handling/policy-change-log-december.json",
+      "must_contain": [
+        "December 1: compensation threshold lowered from 4 to 3 hours.",
+        "Compensation now starts when passengers arrive 3 or more hours late."
+      ],
+      "trap": null,
+      "project": "skyway-s5-r12-confluence-policy-change-log-december-1"
+    },
+    "sources/confluence/policy-and-compliance/change-log/compensation-late-arrival-handling-update.json": {
+      "plan_doc": "docs/confluence/policy-and-compliance/change-log/compensation-late-arrival-handling-update.json",
+      "must_contain": [
+        "From December 1 compensation starts at a 3-hour late arrival (was 4).",
+        "This applies to every request handled from December 1, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s5-r12-log-compensation-late-arrival-handling-update-1"
+    },
+    "sources/slack/policy-updates/disruption-compensation-wording-for-december.json": {
+      "plan_doc": "docs/slack/policy-updates/disruption-compensation-wording-for-december.json",
+      "must_contain": [
+        "From December 1, 3 hours late is enough for compensation."
+      ],
+      "trap": null,
+      "project": "skyway-s5-r12-slack-disruption-compensation-wording-for-december-1"
+    },
+    "sources/slack/refunds-desk/arrival-delay-compensation-question.json": {
+      "plan_doc": "docs/slack/refunds-desk/arrival-delay-compensation-question.json",
+      "must_contain": [
+        "Compensation now starts when passengers arrive 3 or more hours late."
+      ],
+      "trap": null,
+      "project": "skyway-s5-r12-slack-arrival-delay-compensation-question-1"
+    },
+    "sources/slack/support-policy-questions/arrival-delay-compensation-question.json": {
+      "plan_doc": "docs/slack/support-policy-questions/arrival-delay-compensation-question.json",
+      "must_contain": [
+        "Compensation now starts when passengers arrive 3 or more hours late."
+      ],
+      "trap": null,
+      "project": "skyway-s5-r12-slack-arrival-delay-compensation-question-1"
+    },
+    "sources/slack/support-team/arrival-delay-compensation-question.json": {
+      "plan_doc": "docs/slack/support-team/arrival-delay-compensation-question.json",
+      "must_contain": [
+        "Compensation now starts when passengers arrive 3 or more hours late."
+      ],
+      "trap": null,
+      "project": "skyway-s5-r12-slack-arrival-delay-compensation-question-1"
+    },
+    "sources/confluence/policy-and-compliance/change-log/refund-eligibility-update-for-departure-delays.json": {
+      "plan_doc": "docs/confluence/policy-and-compliance/change-log/refund-eligibility-update-for-departure-delays.json",
+      "must_contain": [
+        "A departure delay of 2+ hours (was 3) now gives a refund if the customer does not travel.",
+        "This applies to every request handled from December 1, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s5-r2-log-1"
+    },
+    "sources/slack/policy-updates/refund-handling-language-for-cancellations-and-long-delays.json": {
+      "plan_doc": "docs/slack/policy-updates/refund-handling-language-for-cancellations-and-long-delays.json",
+      "must_contain": [
+        "From December 1 a 2-hour departure delay is enough for a refund if they don't fly.",
+        "delayed 2 hours or more",
+        "This applies to every request handled from December 1, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s5-r2-slack-1"
+    },
+    "sources/slack/refunds-desk/unused-flight-seat-and-bag-charges.json": {
+      "plan_doc": "docs/slack/refunds-desk/unused-flight-seat-and-bag-charges.json",
+      "must_contain": [
+        "seat and bag fees on that flight go back with the fare"
+      ],
+      "trap": null,
+      "project": "skyway-s5-r2-slack-1"
+    },
+    "sources/slack/support-policy-questions/question-on-unused-fare-handling-after-disruption.json": {
+      "plan_doc": "docs/slack/support-policy-questions/question-on-unused-fare-handling-after-disruption.json",
+      "must_contain": [
+        "refund the unused fare to the original form of payment, whatever the cause"
+      ],
+      "trap": null,
+      "project": "skyway-s5-r2-slack-1"
+    },
+    "sources/slack/support-team/question-on-refund-case-after-departure-delay.json": {
+      "plan_doc": "docs/slack/support-team/question-on-refund-case-after-departure-delay.json",
+      "must_contain": [
+        "delayed 2 hours or more"
+      ],
+      "trap": null,
+      "project": "skyway-s5-r2-slack-1"
+    },
+    "sources/confluence/support-playbooks/case-handling/confirmation-numbers.json": {
+      "plan_doc": "docs/confluence/support-playbooks/case-handling/confirmation-numbers.json",
+      "must_contain": [
+        "When asked for a confirmation number, quote the id from the payment response.",
+        "returns a confirmation_id in the response only",
+        "quote the confirmation_id"
+      ],
+      "trap": null,
+      "project": "skyway-s5-r32-confluence-1"
+    },
+    "sources/confluence/policy-and-compliance/change-log/confirmation-id-response-update.json": {
+      "plan_doc": "docs/confluence/policy-and-compliance/change-log/confirmation-id-response-update.json",
+      "must_contain": [
+        "API change: payments return a confirmation_id only in the response.",
+        "This applies to every request handled from December 1, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s5-r32-log-1"
+    },
+    "sources/slack/refunds-desk/confirmation-number-in-customer-reply.json": {
+      "plan_doc": "docs/slack/refunds-desk/confirmation-number-in-customer-reply.json",
+      "must_contain": [
+        "do not send it again"
+      ],
+      "trap": null,
+      "project": "skyway-s5-r32-slack-1"
+    },
+    "sources/slack/support-policy-questions/confirmation-id-wording-for-case-notes.json": {
+      "plan_doc": "docs/slack/support-policy-questions/confirmation-id-wording-for-case-notes.json",
+      "must_contain": [
+        "quote the confirmation_id"
+      ],
+      "trap": null,
+      "project": "skyway-s5-r32-slack-1"
+    },
+    "sources/slack/support-team/confirmation-number-in-support-responses.json": {
+      "plan_doc": "docs/slack/support-team/confirmation-number-in-support-responses.json",
+      "must_contain": [
+        "returns a confirmation_id in the response only"
+      ],
+      "trap": null,
+      "project": "skyway-s5-r32-slack-1"
+    },
+    "sources/slack/support-team/confirmation-number-lookup.json": {
+      "plan_doc": "docs/slack/support-team/confirmation-number-lookup.json",
+      "must_contain": [
+        "The confirmation number shows on the ticket when you read it later."
+      ],
+      "trap": {
+        "for": "R32",
+        "why": "an older team note or FAQ; the policy docs are newer and win"
+      },
+      "project": "skyway-s5-r32-slack-confirmation-number-lookup-1"
+    }
+  },
+  "edits": [
+    {
+      "doc": "docs/confluence/customer-policies/delays-and-disruptions/compensation.json",
+      "find": "arrive 4 or more hours late",
+      "replace": "arrive late (see the December change log for the threshold)"
+    },
+    {
+      "doc": "docs/confluence/customer-policies/cancellations-and-refunds/refunds-after-a-cancellation.json",
+      "find": "delays its departure 3 hours or more",
+      "replace": "delays its departure 2 hours or more"
+    },
+    {
+      "doc": "api_docs/support-api.md",
+      "find": "A change is the fields you send.",
+      "replace": "A change is the fields you send. Every successful POST /refunds, /credits or /reimbursements returns a confirmation_id (for example cf_7f3c91) in the response only; a later GET does not show it."
+    }
+  ],
+  "written_by_us": []
+}

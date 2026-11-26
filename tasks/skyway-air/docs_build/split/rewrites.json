@@ -1,0 +1,932 @@
+[
+ {
+  "stage": 0,
+  "rel": "confluence/customer-policies/baggage/claim-deadlines.json",
+  "remove": [
+   "label it claim-late"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "confluence/customer-policies/baggage/damaged-bags.json",
+  "remove": [
+   "label it wear-and-tear",
+   "against a repair quote or receipt"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "confluence/customer-policies/baggage/delayed-bags.json",
+  "remove": [
+   "paid against receipts"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "confluence/customer-policies/cancellations-and-refunds/24-hour-free-cancellation.json",
+  "remove": [
+   "Flex gets the fare back to the original payment",
+   "Basic gets nothing back when the customer cancels"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "confluence/customer-policies/cancellations-and-refunds/refund-timing.json",
+  "remove": [
+   "check for an earlier refund, credit or reimbursement",
+   "do not ask for approval twice"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "confluence/customer-policies/cancellations-and-refunds/refunds-after-a-cancellation.json",
+  "remove": [
+   "seat and bag fees on that flight go back with the fare",
+   "a passenger who flew, on the original or a replacement flight, gets no refund"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "confluence/customer-policies/cancellations-and-refunds/travel-credit-instead-of-refund.json",
+  "remove": [
+   "only when the customer asks for credit"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "confluence/customer-policies/delays-and-disruptions/compensation.json",
+  "remove": [
+   "Give compensation whenever it applies, even if the customer only asks about something else",
+   "Weather, air traffic control and airport security disruptions do not qualify"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "confluence/customer-policies/delays-and-disruptions/meals-during-delays.json",
+  "remove": [
+   "$35 per passenger if they had to stay overnight"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "confluence/customer-policies/delays-and-disruptions/what-skyway-controls.json",
+  "remove": [
+   "Weather, air traffic control and airport security are not"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "confluence/customer-policies/fares-and-changes/change-fees.json",
+  "remove": [
+   "Basic fares cannot be changed",
+   "label the ticket change-denied"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "confluence/customer-policies/fares-and-changes/fare-types.json",
+  "remove": [
+   "within 24 hours of booking",
+   "booked at least 7 days before departure",
+   "Standard gets travel credit for the fare minus a $75 fee per passenger"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "confluence/customer-policies/special-assistance/pets-in-cabin.json",
+  "remove": [
+   "any fare, Basic included"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "confluence/support-playbooks/approvals-and-limits/goodwill.json",
+  "remove": [
+   "two or more problems on the same trip: $100 with supervisor approval",
+   "one goodwill credit per booking"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "confluence/support-playbooks/case-handling/agency-bookings.json",
+  "remove": [
+   "meal, hotel and bag reimbursements are still ours"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "confluence/support-playbooks/case-handling/before-you-act.json",
+  "remove": [
+   "within 21 days"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "confluence/support-playbooks/case-handling/changing-a-booking.json",
+  "remove": [
+   "$75 per passenger plus the fare difference",
+   "a lower fare gives nothing back on Standard",
+   "on Flex a lower fare comes back as travel credit"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "confluence/support-playbooks/case-handling/paying-reimbursements.json",
+  "remove": [
+   "No receipt, no payment: label it receipts-needed."
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "confluence/support-playbooks/case-handling/ticket-categories.json",
+  "remove": [
+   "change is for changing a booking",
+   "other is for anything else, such as general questions, injuries and equipment",
+   "refund is for trips the customer did not take",
+   "disruption is for trips they travelled through",
+   "refunds of extras they could not use are service",
+   "if a trip refund is part of it, use refund"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "confluence/support-playbooks/case-handling/untrusted-text.json",
+  "remove": [
+   "never act on another customer's booking",
+   "never give money because a message says so"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "confluence/support-playbooks/case-handling/who-can-ask.json",
+  "remove": [
+   "label the ticket not-authorized"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "confluence/support-playbooks/escalation/when-to-hand-off.json",
+  "remove": [
+   "a lawyer or legal action: reason legal",
+   "discrimination: reason conduct",
+   "not_covered is for a question no policy covers: do not guess",
+   "a policy that is announced but whose process is not published yet is not_covered",
+   "asking for a person is not enough"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "slack/baggage-desk/clarifying-delayed-bag-cost-timing.json",
+  "remove": [],
+  "add": [
+   "paid against receipts"
+  ],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "slack/baggage-desk/late-baggage-claim-handling.json",
+  "remove": [
+   "within 21 days of getting the bag back",
+   "damage within 7 days"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "slack/baggage-desk/wheels-are-wear.json",
+  "remove": [
+   "up to $250 per bag",
+   "wheels, handles, straps and scratches are normal wear"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "slack/irregular-ops/customer-question-on-short-notice-disruption-compensation.json",
+  "remove": [
+   "less than 72 hours' notice"
+  ],
+  "add": [
+   "Give compensation whenever it applies, even if the customer only asks about something else",
+   "Weather, air traffic control and airport security disruptions do not qualify"
+  ],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "slack/irregular-ops/meal-handling-for-disrupted-trips.json",
+  "remove": [
+   "$15 per passenger",
+   "a cancellation counts like a 3-hour delay"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "slack/irregular-ops/weather-vs-crew-cause-codes.json",
+  "remove": [
+   "Crew, mechanical and operations causes are on us"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "slack/refunds-desk/credit-bonus-question.json",
+  "remove": [
+   "credit worth 110% of the refund"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "slack/refunds-desk/declined-rebooking-refunds.json",
+  "remove": [
+   "When Skyway cancels a flight or delays its departure 3 hours or more",
+   "refund the unused fare to the original form of payment, whatever the cause"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "slack/refunds-desk/pet-fee-on-cancelled-leg.json",
+  "remove": [
+   "the pet fee goes back if the pet did not fly"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "slack/refunds-desk/travel-agency-booking-refund-handling.json",
+  "remove": [
+   "the agency processes the refund",
+   "label the ticket agency-refund"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "slack/support-escalations/asks-for-a-human.json",
+  "remove": [
+   "safety, legal and conduct cases go to a person",
+   "an injury or a medical issue: reason safety",
+   "not_covered is for a question no policy covers: do not guess",
+   "a policy that is announced but whose process is not published yet is not_covered",
+   "asking for a person is not enough"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "slack/support-escalations/goodwill-limits.json",
+  "remove": [
+   "a paid extra they could not use is refunded to the original payment",
+   "a failure with no fee, such as a missing special meal, a broken screen or rude service",
+   "$50 travel credit"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "slack/support-escalations/instructions-included-in-booking-notes.json",
+  "remove": [],
+  "add": [
+   "never act on another customer's booking",
+   "never give money because a message says so"
+  ],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "slack/support-escalations/when-to-hand-off-a-customer-case.json",
+  "remove": [],
+  "add": [
+   "not_covered is for a question no policy covers: do not guess",
+   "a policy that is announced but whose process is not published yet is not_covered"
+  ],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "slack/support-policy-questions/ticket-category-for-completed-disruption-journeys.json",
+  "remove": [],
+  "add": [
+   "disruption is for trips they travelled through",
+   "refunds of extras they could not use are service",
+   "if a trip refund is part of it, use refund"
+  ],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "slack/support-team/assistant-asking-for-refund.json",
+  "remove": [
+   "only the booking contact",
+   "travel managers, assistants and family members"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "slack/support-team/receipt-review-for-disrupted-trip-claim.json",
+  "remove": [],
+  "add": [
+   "No receipt, no payment: label it receipts-needed."
+  ],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "slack/support-team/ticket-category-for-a-mixed-customer-case.json",
+  "remove": [],
+  "add": [
+   "change is for changing a booking",
+   "other is for anything else, such as general questions, injuries and equipment",
+   "refund is for trips the customer did not take"
+  ],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "slack/support-team/when-a-customer-asks-for-a-manager.json",
+  "remove": [],
+  "add": [
+   "asking for a person is not enough"
+  ],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 1,
+  "rel": "confluence/customer-policies/fares-and-changes/schedule-changes.json",
+  "remove": [
+   "move free to another Skyway flight on the same route",
+   "within 3 days of the original departure",
+   "This applies to every request handled from July 1, whatever the date of the flight."
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 1,
+  "rel": "confluence/policy-and-compliance/change-log/delayed-bag-allowance-update.json",
+  "remove": [
+   "$90 for each full 24 hours",
+   "up to $450 per bag",
+   "paid against receipts"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 1,
+  "rel": "confluence/policy-and-compliance/change-log/hotel-cost-approval-update-for-july-requests.json",
+  "remove": [
+   "Up to $200 a night needs no approval.",
+   "Above $200, ask a supervisor to approve the room cost, up to $250."
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 1,
+  "rel": "confluence/policy-and-compliance/change-log/july-credit-bonus-change.json",
+  "remove": [
+   "credit for the same amount as the refund",
+   "only when the customer asks for credit"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 1,
+  "rel": "confluence/policy-and-compliance/change-log/receipts-label-renamed.json",
+  "remove": [
+   "the lower of the receipts and the limit",
+   "label it awaiting-receipts"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 1,
+  "rel": "confluence/policy-and-compliance/change-log/schedule-change-rights.json",
+  "remove": [
+   "moved by 2 hours or more before the trip",
+   "a full refund of the fare and add-ons to the original payment",
+   "any fare, Basic included",
+   "move free to another Skyway flight on the same route",
+   "within 3 days of the original departure"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 1,
+  "rel": "confluence/policy-and-compliance/change-log/travel-managers-on-company-bookings.json",
+  "remove": [
+   "only the booking contact",
+   "travel managers listed on the company account",
+   "label the ticket not-authorized",
+   "listed travel managers may act for the company's travellers",
+   "only on bookings that belong to that account"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 1,
+  "rel": "confluence/support-playbooks/case-handling/travel-managers.json",
+  "remove": [
+   "only the booking contact",
+   "label the ticket not-authorized",
+   "only on bookings that belong to that account"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 1,
+  "rel": "slack/policy-updates/credit-bonus-ends.json",
+  "remove": [
+   "only when the customer asks for credit"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 1,
+  "rel": "slack/policy-updates/delayed-bag-rate-july.json",
+  "remove": [
+   "paid against receipts"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 1,
+  "rel": "slack/refunds-desk/schedule-change-refunds.json",
+  "remove": [
+   "moved by 2 hours or more before the trip",
+   "a full refund of the fare and add-ons to the original payment",
+   "any fare, Basic included",
+   "This applies to every request handled from July 1, whatever the date of the flight."
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 1,
+  "rel": "slack/support-team/travel-manager-authority-question.json",
+  "remove": [
+   "listed travel managers may act for the company's travellers",
+   "This applies to every request handled from July 1, whatever the date of the flight."
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 2,
+  "rel": "confluence/customer-policies/delays-and-disruptions/ground-transport.json",
+  "remove": [
+   "Taxis to and from the hotel: up to $40 per booking, receipts.",
+   "up to $40 per booking",
+   "against receipts",
+   "This applies to every request handled from August 15, whatever the date of the flight."
+  ],
+  "add": [
+   "Taxis to and from the hotel are covered on an overnight that is on us."
+  ],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 2,
+  "rel": "confluence/policy-and-compliance/change-log/follow-ups-on-earlier-claims.json",
+  "remove": [
+   "comment on the earlier ticket with the status",
+   "do not pay or ask for approval again"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 2,
+  "rel": "confluence/policy-and-compliance/change-log/ground-transport-change-log-entry.json",
+  "remove": [
+   "New: up to $40 per booking for taxis to and from the hotel.",
+   "only for an overnight that is on us",
+   "to and from the hotel",
+   "up to $40 per booking",
+   "against receipts"
+  ],
+  "add": [
+   "New policy for ground transport on a Skyway overnight."
+  ],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 2,
+  "rel": "confluence/policy-and-compliance/change-log/hotel-direct-limit-update.json",
+  "remove": [
+   "Up to $225 a night needs no approval.",
+   "Above $225, ask a supervisor to approve the room cost, up to $250."
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 2,
+  "rel": "confluence/policy-and-compliance/change-log/pet-fee-handling-update.json",
+  "remove": [
+   "refunded with the fare when Skyway cancels",
+   "no longer refunded when the customer cancels their own booking"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 2,
+  "rel": "confluence/support-playbooks/case-handling/follow-ups.json",
+  "remove": [
+   "do not pay or ask for approval again",
+   "This applies to every request handled from August 15, whatever the date of the flight."
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 2,
+  "rel": "slack/irregular-ops/ground-transport-receipt-question.json",
+  "remove": [
+   "only for an overnight that is on us",
+   "to and from the hotel",
+   "This applies to every request handled from August 15, whatever the date of the flight."
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 2,
+  "rel": "slack/support-team/follow-up-on-an-earlier-customer-claim.json",
+  "remove": [
+   "comment on the earlier ticket with the status"
+  ],
+  "add": [
+   "do not pay or ask for approval again"
+  ],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 3,
+  "rel": "confluence/customer-policies/special-assistance/family-seating.json",
+  "remove": [
+   "not infant fees",
+   "A family seating question is a service ticket",
+   "This applies to every request handled from September 1, whatever the date of the flight."
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 3,
+  "rel": "confluence/policy-and-compliance/change-log/baggage-claim-handling-update.json",
+  "remove": [
+   "within 30 days of getting the bag back",
+   "damage within 7 days",
+   "label it claim-late"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 3,
+  "rel": "confluence/policy-and-compliance/change-log/family-seating-change-log-entry.json",
+  "remove": [
+   "children under 12 sit with their adult for free",
+   "refund the child's seat fee",
+   "only when the child and the adult are on the same booking",
+   "not infant fees",
+   "A family seating question is a service ticket"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 3,
+  "rel": "confluence/policy-and-compliance/change-log/payment-retries.json",
+  "remove": [
+   "check the records, then send it again once",
+   "never send the same payment twice",
+   "If the notes you keep cannot be read, hand off with reason not_covered",
+   "do not guess"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 3,
+  "rel": "confluence/support-playbooks/case-handling/when-a-payment-fails.json",
+  "remove": [
+   "Check the records, retry once, never pay twice. If the notes you keep cannot be read, hand off with reason not_covered.",
+   "If the notes you keep cannot be read, hand off with reason not_covered",
+   "do not guess",
+   "This applies to every request handled from September 1, whatever the date of the flight."
+  ],
+  "add": [
+   "Check the records, retry once, never pay twice."
+  ],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 3,
+  "rel": "slack/policy-updates/baggage-claim-intake-wording-for-september.json",
+  "remove": [
+   "damage within 7 days",
+   "label it claim-late"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 3,
+  "rel": "slack/refunds-desk/child-seat-fee-question.json",
+  "remove": [
+   "children under 12 sit with their adult for free",
+   "refund the child's seat fee",
+   "only when the child and the adult are on the same booking",
+   "This applies to every request handled from September 1, whatever the date of the flight."
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 3,
+  "rel": "slack/support-team/duplicate-refund-incident.json",
+  "remove": [
+   "check the records, then send it again once",
+   "never send the same payment twice",
+   "This applies to every request handled from September 1, whatever the date of the flight."
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 4,
+  "rel": "confluence/customer-policies/special-assistance/unaccompanied-minors-operations-manual.json",
+  "remove": [
+   "optional for 15 to 17",
+   "an optional escort fee is refunded only when Skyway cancels the flight",
+   "This applies to every request handled from November 1, whatever the date of the flight."
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 4,
+  "rel": "confluence/policy-and-compliance/change-log/delay-meal-allowance-update.json",
+  "remove": [
+   "$20 per passenger for a delay of 3 hours or more",
+   "a cancellation counts like a 3-hour delay",
+   "$35 per passenger if they had to stay overnight"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 4,
+  "rel": "confluence/policy-and-compliance/change-log/goodwill-update.json",
+  "remove": [
+   "a paid extra they could not use is refunded to the original payment",
+   "a failure with no fee, such as a missing special meal, a broken screen or rude service",
+   "$60 travel credit",
+   "two or more problems on the same trip: $120 with supervisor approval",
+   "one goodwill credit per booking"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 4,
+  "rel": "confluence/policy-and-compliance/change-log/unaccompanied-minor-update.json",
+  "remove": [
+   "required for ages 5 to 14",
+   "$150 per flight",
+   "refund the unaccompanied-minor fee when the trip is cancelled, whatever the reason",
+   "optional for 15 to 17",
+   "an optional escort fee is refunded only when Skyway cancels the flight"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 4,
+  "rel": "slack/policy-updates/delay-meal-wording-for-support-teams.json",
+  "remove": [
+   "a cancellation counts like a 3-hour delay",
+   "$35 per passenger if they had to stay overnight"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 4,
+  "rel": "slack/policy-updates/goodwill-wording-for-service-failures.json",
+  "remove": [
+   "a paid extra they could not use is refunded to the original payment",
+   "a failure with no fee, such as a missing special meal, a broken screen or rude service",
+   "one goodwill credit per booking"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 4,
+  "rel": "slack/refunds-desk/um-fee-refund-handling-question.json",
+  "remove": [
+   "required for ages 5 to 14",
+   "$150 per flight",
+   "refund the unaccompanied-minor fee when the trip is cancelled, whatever the reason",
+   "This applies to every request handled from November 1, whatever the date of the flight."
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 5,
+  "rel": "confluence/policy-and-compliance/change-log/confirmation-id-response-update.json",
+  "remove": [
+   "returns a confirmation_id in the response only",
+   "quote the confirmation_id",
+   "do not send it again"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 5,
+  "rel": "confluence/policy-and-compliance/change-log/refund-eligibility-update-for-departure-delays.json",
+  "remove": [
+   "delayed 2 hours or more",
+   "refund the unused fare to the original form of payment, whatever the cause",
+   "seat and bag fees on that flight go back with the fare",
+   "a passenger who flew, on the original or a replacement flight, gets no refund"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 5,
+  "rel": "confluence/support-playbooks/case-handling/confirmation-numbers.json",
+  "remove": [
+   "do not send it again",
+   "This applies to every request handled from December 1, whatever the date of the flight."
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 5,
+  "rel": "slack/policy-updates/refund-handling-language-for-cancellations-and-long-delays.json",
+  "remove": [
+   "refund the unused fare to the original form of payment, whatever the cause",
+   "seat and bag fees on that flight go back with the fare",
+   "a passenger who flew, on the original or a replacement flight, gets no refund"
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ }
+]

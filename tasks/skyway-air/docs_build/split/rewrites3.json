@@ -1,0 +1,15 @@
+[
+ {
+  "stage": 1,
+  "rel": "confluence/customer-policies/fares-and-changes/schedule-changes.json",
+  "remove": [
+   "Schedule changes of 2 hours or more: full refund or free move within 3 days.",
+   "within 3 days of the original departure"
+  ],
+  "add": [
+   "Schedule changes of 2 hours or more: a full refund or a free move."
+  ],
+  "new_doc": false,
+  "gone": false
+ }
+]

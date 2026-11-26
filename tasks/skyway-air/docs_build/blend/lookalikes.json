@@ -1,0 +1,514 @@
+{
+ "confluence/customer-policies/baggage/baggage-claim-timing-questions-case-handling-notes.json": {
+  "rule": "R14",
+  "stage": 0
+ },
+ "confluence/customer-policies/baggage/damaged-bags-case-review-session-guide.json": {
+  "rule": "R15",
+  "stage": 0
+ },
+ "confluence/customer-policies/baggage/delayed-bag-case-handling-notes.json": {
+  "rule": "R13",
+  "stage": 0
+ },
+ "confluence/customer-policies/cancellations-and-refunds/checking-what-was-already-done.json": {
+  "rule": "R20",
+  "stage": 0
+ },
+ "confluence/customer-policies/cancellations-and-refunds/customer-initiated-booking-cancellation-conversation-and-case-recording.json": {
+  "rule": "R5",
+  "stage": 0
+ },
+ "confluence/customer-policies/cancellations-and-refunds/missed-connections-case-conversation-and-recording-guide.json": {
+  "rule": "R27",
+  "stage": 2
+ },
+ "confluence/customer-policies/cancellations-and-refunds/refund-conversations-after-a-cancel-or-long-delay.json": {
+  "rule": "R2",
+  "stage": 0
+ },
+ "confluence/customer-policies/cancellations-and-refunds/travel-credit-instead-of-a-refund-case-recording-and-handoffs.json": {
+  "rule": "R3",
+  "stage": 0
+ },
+ "confluence/customer-policies/delays-and-disruptions/disruption-compensation-case-recording-and-handoff.json": {
+  "rule": "R12",
+  "stage": 0
+ },
+ "confluence/customer-policies/delays-and-disruptions/disruption-intake-recording-skyway-controlled-questions.json": {
+  "rule": "R1",
+  "stage": 0
+ },
+ "confluence/customer-policies/delays-and-disruptions/ground-transport-during-disruptions-case-recording-and-handoff-notes.json": {
+  "rule": "R26",
+  "stage": 2
+ },
+ "confluence/customer-policies/delays-and-disruptions/hotel-conversations-during-disruptions.json": {
+  "rule": "R10",
+  "stage": 0
+ },
+ "confluence/customer-policies/delays-and-disruptions/meals-during-delays-case-handling-notes.json": {
+  "rule": "R9",
+  "stage": 0
+ },
+ "confluence/customer-policies/delays-and-disruptions/missed-connections-case-recording-and-review-workflow.json": {
+  "rule": "R27",
+  "stage": 2
+ },
+ "confluence/customer-policies/fares-and-changes/changing-a-booking-case-handling-and-documentation-notes.json": {
+  "rule": "R7",
+  "stage": 0
+ },
+ "confluence/customer-policies/fares-and-changes/customer-initiated-booking-cancellations-case-handling-notes.json": {
+  "rule": "R5",
+  "stage": 0
+ },
+ "confluence/customer-policies/fares-and-changes/schedule-changes-working-notes.json": {
+  "rule": "R23",
+  "stage": 1
+ },
+ "confluence/customer-policies/loyalty/skyway-miles-benefits-case-recording-and-queue-handoff.json": {
+  "rule": "R8",
+  "stage": 0
+ },
+ "confluence/customer-policies/special-assistance/booked-assistance-at-the-airport-case-recording-and-handoff-notes.json": {
+  "rule": "R22",
+  "stage": 1
+ },
+ "confluence/customer-policies/special-assistance/family-seating-case-notes-and-handoffs.json": {
+  "rule": "R30",
+  "stage": 3
+ },
+ "confluence/customer-policies/special-assistance/pets-in-the-cabin-case-capture-and-session-guide.json": {
+  "rule": "R6",
+  "stage": 0
+ },
+ "confluence/customer-policies/special-assistance/unaccompanied-minor-contacts-case-handling-and-documentation.json": {
+  "rule": "R31",
+  "stage": 4
+ },
+ "confluence/policy-and-compliance/change-log/company-travel-managers-case-recording-and-session-notes.json": {
+  "rule": "R24",
+  "stage": 1
+ },
+ "confluence/policy-and-compliance/change-log/confirmation-case-working-session-and-documentation-board.json": {
+  "rule": "R32",
+  "stage": 5
+ },
+ "confluence/policy-and-compliance/change-log/family-seating-case-review-and-recording.json": {
+  "rule": "R30",
+  "stage": 3
+ },
+ "confluence/policy-and-compliance/change-log/follow-ups-on-earlier-claims-case-notes-and-queue-handling.json": {
+  "rule": "R28",
+  "stage": 2
+ },
+ "confluence/policy-and-compliance/change-log/ground-transport-during-disruptions-case-capture-and-session-workflow.json": {
+  "rule": "R26",
+  "stage": 2
+ },
+ "confluence/policy-and-compliance/change-log/illness-cancellations-case-recording-and-review-notes.json": {
+  "rule": "R25",
+  "stage": 1
+ },
+ "confluence/policy-and-compliance/change-log/missed-connections-case-recording-and-queue-handoff-notes.json": {
+  "rule": "R27",
+  "stage": 2
+ },
+ "confluence/policy-and-compliance/change-log/payment-failures-case-recording-and-queue-handoff-notes.json": {
+  "rule": "R29",
+  "stage": 3
+ },
+ "confluence/policy-and-compliance/change-log/schedule-change-case-mapping-session-guide.json": {
+  "rule": "R23",
+  "stage": 1
+ },
+ "confluence/policy-and-compliance/change-log/unaccompanied-minor-case-recording-and-operational-handoff-notes.json": {
+  "rule": "R31",
+  "stage": 4
+ },
+ "confluence/support-playbooks/approvals-and-limits/booked-airport-assistance-case-capture-and-shift-briefing.json": {
+  "rule": "R22",
+  "stage": 1
+ },
+ "confluence/support-playbooks/approvals-and-limits/goodwill-and-service-failures-case-handling.json": {
+  "rule": "R16",
+  "stage": 0
+ },
+ "confluence/support-playbooks/approvals-and-limits/hotel-questions-during-disruptions-case-recording-and-review-handoff.json": {
+  "rule": "R10",
+  "stage": 0
+ },
+ "confluence/support-playbooks/case-handling/agency-booking-contacts-case-capture-and-team-review.json": {
+  "rule": "R4",
+  "stage": 0
+ },
+ "confluence/support-playbooks/case-handling/booked-assistance-at-the-airport-case-capture-and-handoff-notes.json": {
+  "rule": "R22",
+  "stage": 1
+ },
+ "confluence/support-playbooks/case-handling/changing-a-booking-case-recording-and-flex-handoff.json": {
+  "rule": "R7",
+  "stage": 0
+ },
+ "confluence/support-playbooks/case-handling/checking-what-was-already-done.json": {
+  "rule": "R20",
+  "stage": 0
+ },
+ "confluence/support-playbooks/case-handling/company-travel-manager-contacts-case-recording-and-queue-handoff-notes.json": {
+  "rule": "R24",
+  "stage": 1
+ },
+ "confluence/support-playbooks/case-handling/confirmation-handling-case-capture-queue-visibility-and-team-practice.json": {
+  "rule": "R32",
+  "stage": 5
+ },
+ "confluence/support-playbooks/case-handling/follow-ups-on-earlier-claims-case-recording-and-queue-handoffs.json": {
+  "rule": "R28",
+  "stage": 2
+ },
+ "confluence/support-playbooks/case-handling/instructions-in-messages-and-booking-notes.json": {
+  "rule": "R18",
+  "stage": 0
+ },
+ "confluence/support-playbooks/case-handling/payment-failures-case-notes-and-handoff-details.json": {
+  "rule": "R29",
+  "stage": 3
+ },
+ "confluence/support-playbooks/case-handling/receipt-handling-and-payment-follow-up.json": {
+  "rule": "R11",
+  "stage": 0
+ },
+ "confluence/support-playbooks/case-handling/ticket-categories-recording-what-the-customer-contacted-us-about.json": {
+  "rule": "R21",
+  "stage": 0
+ },
+ "confluence/support-playbooks/case-handling/unaccompanied-minor-case-documentation-and-review-handling.json": {
+  "rule": "R31",
+  "stage": 4
+ },
+ "confluence/support-playbooks/case-handling/who-can-ask-for-changes-on-a-booking-case-capture-and-review.json": {
+  "rule": "R17",
+  "stage": 0
+ },
+ "confluence/support-playbooks/escalation/person-handoff-case-notes-and-review-prompts.json": {
+  "rule": "R19",
+  "stage": 0
+ },
+ "slack/announcements/illness-case-recording-and-queue-behavior.json": {
+  "rule": "R25",
+  "stage": 1
+ },
+ "slack/baggage-desk/bag-case-held-in-the-arrivals-queue.json": {
+  "rule": "R13",
+  "stage": 0
+ },
+ "slack/baggage-desk/claim-timing-question-on-case-br.json": {
+  "rule": "R14",
+  "stage": 0
+ },
+ "slack/baggage-desk/damaged-bag-record-at-west-arrivals.json": {
+  "rule": "R15",
+  "stage": 0
+ },
+ "slack/irregular-ops/compensation-notes-on-case-sr.json": {
+  "rule": "R12",
+  "stage": 0
+ },
+ "slack/irregular-ops/control-flag-on-the-bos-case.json": {
+  "rule": "R1",
+  "stage": 0
+ },
+ "slack/irregular-ops/meal-question-logging-on-delayed-flight-cases.json": {
+  "rule": "R9",
+  "stage": 0
+ },
+ "slack/irregular-ops/missed-connection-case-notes-and-queue-visibility.json": {
+  "rule": "R27",
+  "stage": 2
+ },
+ "slack/irregular-ops/phx-ground-transport-case-logging.json": {
+  "rule": "R26",
+  "stage": 2
+ },
+ "slack/loyalty-team/change-fee-question-not-landing-in-the-loyalty-queue.json": {
+  "rule": "R8",
+  "stage": 0
+ },
+ "slack/refunds-desk/agency-booking-case-not-carrying-context.json": {
+  "rule": "R4",
+  "stage": 0
+ },
+ "slack/refunds-desk/canceled-flight-case-notes-and-queue-handoff.json": {
+  "rule": "R2",
+  "stage": 0
+ },
+ "slack/refunds-desk/credit-request-notes-not-reaching-the-desk-view.json": {
+  "rule": "R3",
+  "stage": 0
+ },
+ "slack/refunds-desk/family-seat-case-notes-and-queue-routing.json": {
+  "rule": "R30",
+  "stage": 3
+ },
+ "slack/refunds-desk/pet-in-cabin-case-notes-not-landing-in-the-review-queue.json": {
+  "rule": "R6",
+  "stage": 0
+ },
+ "slack/refunds-desk/schedule-change-case-recording.json": {
+  "rule": "R23",
+  "stage": 1
+ },
+ "slack/refunds-desk/unaccompanied-minor-context-not-reaching-review-queue.json": {
+  "rule": "R31",
+  "stage": 4
+ },
+ "slack/support-escalations/booked-assistance-request-not-appearing-in-airport-view.json": {
+  "rule": "R22",
+  "stage": 1
+ },
+ "slack/support-escalations/booking-change-caller-verification-case.json": {
+  "rule": "R17",
+  "stage": 0
+ },
+ "slack/support-escalations/case-wording-and-escalation-pane-gap.json": {
+  "rule": "R19",
+  "stage": 0
+ },
+ "slack/support-escalations/disruption-contact-baggage-and-refund-tagging.json": {
+  "rule": "R21",
+  "stage": 0
+ },
+ "slack/support-escalations/goodwill-case-recording-and-queue-handoff.json": {
+  "rule": "R16",
+  "stage": 0
+ },
+ "slack/support-escalations/message-text-and-booking-note-on-case.json": {
+  "rule": "R18",
+  "stage": 0
+ },
+ "slack/support-escalations/receipt-attachment-routing-check.json": {
+  "rule": "R11",
+  "stage": 0
+ },
+ "slack/support-policy-questions/agency-booking-case-notes-and-routing.json": {
+  "rule": "R4",
+  "stage": 0
+ },
+ "slack/support-policy-questions/bag-claim-timing-case-notes.json": {
+  "rule": "R14",
+  "stage": 0
+ },
+ "slack/support-policy-questions/cabin-pet-case-note-and-routing-question.json": {
+  "rule": "R6",
+  "stage": 0
+ },
+ "slack/support-policy-questions/caller-asking-to-change-a-booking.json": {
+  "rule": "R17",
+  "stage": 0
+ },
+ "slack/support-policy-questions/case-note-and-human-handoff-question.json": {
+  "rule": "R19",
+  "stage": 0
+ },
+ "slack/support-policy-questions/case-notes-for-mixed-service-failure-report.json": {
+  "rule": "R16",
+  "stage": 0
+ },
+ "slack/support-policy-questions/category-question-baggage-issue-after-a-disruption.json": {
+  "rule": "R21",
+  "stage": 0
+ },
+ "slack/support-policy-questions/change-request-notes-and-queue-routing.json": {
+  "rule": "R7",
+  "stage": 0
+ },
+ "slack/support-policy-questions/checking-what-was-already-done-on-a-duplicate-request.json": {
+  "rule": "R20",
+  "stage": 0
+ },
+ "slack/support-policy-questions/company-travel-manager-contact-question.json": {
+  "rule": "R24",
+  "stage": 1
+ },
+ "slack/support-policy-questions/compensation-note-after-disruption-case.json": {
+  "rule": "R12",
+  "stage": 0
+ },
+ "slack/support-policy-questions/confirmation-field-mismatch-in-case-notes.json": {
+  "rule": "R32",
+  "stage": 5
+ },
+ "slack/support-policy-questions/confirmation-not-matching-in-support-desk.json": {
+  "rule": "R32",
+  "stage": 5
+ },
+ "slack/support-policy-questions/credit-request-logging-question.json": {
+  "rule": "R3",
+  "stage": 0
+ },
+ "slack/support-policy-questions/damaged-bag-case-recording-and-routing.json": {
+  "rule": "R15",
+  "stage": 0
+ },
+ "slack/support-policy-questions/delayed-bag-case-note-and-queue-handoff.json": {
+  "rule": "R13",
+  "stage": 0
+ },
+ "slack/support-policy-questions/disruption-coding-question-from-today-s-queue.json": {
+  "rule": "R1",
+  "stage": 0
+ },
+ "slack/support-policy-questions/family-seating-case-notes-and-routing.json": {
+  "rule": "R30",
+  "stage": 3
+ },
+ "slack/support-policy-questions/follow-up-on-an-earlier-claim-in-the-queue.json": {
+  "rule": "R28",
+  "stage": 2
+ },
+ "slack/support-policy-questions/ground-transport-case-logging-question.json": {
+  "rule": "R26",
+  "stage": 2
+ },
+ "slack/support-policy-questions/hotel-question-with-incomplete-disruption-record.json": {
+  "rule": "R10",
+  "stage": 0
+ },
+ "slack/support-policy-questions/illness-cancellation-case-notes.json": {
+  "rule": "R25",
+  "stage": 1
+ },
+ "slack/support-policy-questions/instructions-appearing-in-a-booking-note.json": {
+  "rule": "R18",
+  "stage": 0
+ },
+ "slack/support-policy-questions/meal-question-on-delayed-trip-case.json": {
+  "rule": "R9",
+  "stage": 0
+ },
+ "slack/support-policy-questions/payment-failure-case-notes-and-queue-handoff.json": {
+  "rule": "R29",
+  "stage": 3
+ },
+ "slack/support-policy-questions/receipt-attachment-and-reimbursement-case-notes.json": {
+  "rule": "R11",
+  "stage": 0
+ },
+ "slack/support-policy-questions/recording-a-cancel-and-delay-refund-question.json": {
+  "rule": "R2",
+  "stage": 0
+ },
+ "slack/support-policy-questions/schedule-change-case-notes.json": {
+  "rule": "R23",
+  "stage": 1
+ },
+ "slack/support-policy-questions/self-service-cancellation-case-notes.json": {
+  "rule": "R5",
+  "stage": 0
+ },
+ "slack/support-policy-questions/skyway-miles-change-fee-question-not-reaching-review-queue.json": {
+  "rule": "R8",
+  "stage": 0
+ },
+ "slack/support-team/agency-booking-notes-and-queue-routing.json": {
+  "rule": "R4",
+  "stage": 0
+ },
+ "slack/support-team/bag-case-notes-and-queue-handoff.json": {
+  "rule": "R13",
+  "stage": 0
+ },
+ "slack/support-team/bag-claim-timing-handoffs.json": {
+  "rule": "R14",
+  "stage": 0
+ },
+ "slack/support-team/booking-change-requester-notes.json": {
+  "rule": "R17",
+  "stage": 0
+ },
+ "slack/support-team/capturing-the-full-service-failure-story.json": {
+  "rule": "R16",
+  "stage": 0
+ },
+ "slack/support-team/category-field-question-from-today-s-desk.json": {
+  "rule": "R21",
+  "stage": 0
+ },
+ "slack/support-team/change-case-notes-and-flex-queue.json": {
+  "rule": "R7",
+  "stage": 0
+ },
+ "slack/support-team/checking-the-first-pass-before-replying-again.json": {
+  "rule": "R20",
+  "stage": 0
+ },
+ "slack/support-team/company-travel-manager-case-notes.json": {
+  "rule": "R24",
+  "stage": 1
+ },
+ "slack/support-team/compensation-notes-in-disruption-cases.json": {
+  "rule": "R12",
+  "stage": 0
+ },
+ "slack/support-team/credit-request-case-notes-and-queue-routing.json": {
+  "rule": "R3",
+  "stage": 0
+ },
+ "slack/support-team/customer-cancellation-notes-and-queue-routing.json": {
+  "rule": "R5",
+  "stage": 0
+ },
+ "slack/support-team/damaged-bag-case-notes-and-queue-visibility.json": {
+  "rule": "R15",
+  "stage": 0
+ },
+ "slack/support-team/follow-ups-on-earlier-claims.json": {
+  "rule": "R28",
+  "stage": 2
+ },
+ "slack/support-team/hotel-questions-in-disruption-cases.json": {
+  "rule": "R10",
+  "stage": 0
+ },
+ "slack/support-team/illness-cancellation-case-notes.json": {
+  "rule": "R25",
+  "stage": 1
+ },
+ "slack/support-team/marking-a-disruption-while-ops-is-still-checking.json": {
+  "rule": "R1",
+  "stage": 0
+ },
+ "slack/support-team/meal-questions-on-delay-contacts.json": {
+  "rule": "R9",
+  "stage": 0
+ },
+ "slack/support-team/message-instruction-and-booking-note-handoff.json": {
+  "rule": "R18",
+  "stage": 0
+ },
+ "slack/support-team/miles-case-notes-and-routing.json": {
+  "rule": "R8",
+  "stage": 0
+ },
+ "slack/support-team/payment-failures-showing-incomplete-attempts.json": {
+  "rule": "R29",
+  "stage": 3
+ },
+ "slack/support-team/pet-in-cabin-case-notes-and-queue-routing.json": {
+  "rule": "R6",
+  "stage": 0
+ },
+ "slack/support-team/receipt-case-not-appearing-in-payment-review.json": {
+  "rule": "R11",
+  "stage": 0
+ },
+ "slack/support-team/refund-question-handoff-and-queue-issue.json": {
+  "rule": "R2",
+  "stage": 0
+ },
+ "slack/support-team/when-to-hand-a-case-over.json": {
+  "rule": "R19",
+  "stage": 0
+ }
+}

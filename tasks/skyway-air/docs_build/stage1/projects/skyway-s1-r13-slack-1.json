@@ -1,0 +1,35 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about delayed bags.",
+  "files": [
+    {
+      "path": "sources/slack/policy-updates/delayed-bag-rate-july.json",
+      "description": "A Slack thread in #policy-updates between Skyway staff about delayed bags, dated between 2026-05-26 and 2026-06-30: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"From July 1 the delayed-bag allowance is $90 a day, up to $450.\"; \"$90 for each full 24 hours\"; \"up to $450 per bag\"; \"This applies to every request handled from July 1, whatever the date of the flight.\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    },
+    {
+      "path": "sources/slack/refunds-desk/receipt-images-on-delayed-bag-case.json",
+      "description": "A Slack thread in #refunds-desk between Skyway staff about delayed bags, dated between 2026-05-26 and 2026-06-30: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"paid against receipts\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    },
+    {
+      "path": "sources/slack/support-policy-questions/delayed-bag-case-note-wording.json",
+      "description": "A Slack thread in #support-policy-questions between Skyway staff about delayed bags, dated between 2026-05-26 and 2026-06-30: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"up to $450 per bag\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    },
+    {
+      "path": "sources/slack/support-team/delayed-bag-case-wording.json",
+      "description": "A Slack thread in #support-team between Skyway staff about delayed bags, dated between 2026-05-26 and 2026-06-30: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"$90 for each full 24 hours\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    }
+  ],
+  "people": [
+    {
+      "name": "Hassan Moore",
+      "project_role": "Customer Support Agent"
+    },
+    {
+      "name": "Marisol Vega",
+      "project_role": "Head of Customer Support"
+    },
+    {
+      "name": "Malcolm Reed",
+      "project_role": "Manager, Support Quality"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about missed connections.",
+  "files": [
+    {
+      "path": "sources/confluence/customer-policies/delays-and-disruptions/missed-connections.json",
+      "description": "A Confluence page in the customer-policies space for support agents about missed connections, last updated between 2026-07-06 and 2026-08-18. It must contain these sentences word for word: \"This page covers customers who miss a Skyway connection because of our delay.\"; \"missed a Skyway connection because of our delay\"; \"on the same booking\"; \"a connection missed for weather or air traffic control follows the normal change rules\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    }
+  ],
+  "people": [
+    {
+      "name": "Derek Holloway",
+      "project_role": "Senior Director, Support Operations"
+    },
+    {
+      "name": "Heather Kim",
+      "project_role": "Manager, Knowledge and Policy Enablement"
+    },
+    {
+      "name": "Evan Wallace",
+      "project_role": "Support Supervisor, Digital Care"
+    }
+  ]
+}
