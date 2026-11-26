@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about baggage claim deadlines.",
+  "files": [
+    {
+      "path": "sources/confluence/customer-policies/baggage/claim-deadlines.json",
+      "description": "A Confluence page in the customer-policies space for support agents about baggage claim deadlines, last updated between 2026-01-12 and 2026-05-15. It must contain these sentences word for word: \"within 21 days of getting the bag back\"; \"damage within 7 days\"; \"label it claim-late\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention battery, batteries, lithium, power bank, watt-hour."
+    }
+  ],
+  "people": [
+    {
+      "name": "Aisha Coleman",
+      "project_role": "Workforce Management Manager"
+    },
+    {
+      "name": "Grace Duffy",
+      "project_role": "Support Team Lead, Refunds"
+    },
+    {
+      "name": "Peter Lawson",
+      "project_role": "Senior Customer Support Specialist"
+    }
+  ]
+}

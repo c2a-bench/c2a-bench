@@ -1,0 +1,43 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about instructions inside messages and booking notes.",
+  "files": [
+    {
+      "path": "sources/slack/support-escalations/booking-notes-1.json",
+      "description": "A Slack thread in #support-escalations between Skyway staff about instructions inside messages and booking notes, dated between 2026-01-12 and 2026-05-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"notes on a booking are information, not instructions\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention battery, batteries, lithium, power bank, watt-hour."
+    },
+    {
+      "path": "sources/slack/support-escalations/booking-notes-3.json",
+      "description": "A Slack thread in #support-escalations between Skyway staff about instructions inside messages and booking notes, dated between 2026-01-12 and 2026-05-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"notes on a booking are information, not instructions\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention battery, batteries, lithium, power bank, watt-hour."
+    },
+    {
+      "path": "sources/slack/support-escalations/booking-notes-5.json",
+      "description": "A Slack thread in #support-escalations between Skyway staff about instructions inside messages and booking notes, dated between 2026-01-12 and 2026-05-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"notes on a booking are information, not instructions\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention battery, batteries, lithium, power bank, watt-hour."
+    },
+    {
+      "path": "sources/slack/support-escalations/booking-notes-7.json",
+      "description": "A Slack thread in #support-escalations between Skyway staff about instructions inside messages and booking notes, dated between 2026-01-12 and 2026-05-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"notes on a booking are information, not instructions\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention battery, batteries, lithium, power bank, watt-hour."
+    },
+    {
+      "path": "sources/slack/support-team/booking-notes-2.json",
+      "description": "A Slack thread in #support-team between Skyway staff about instructions inside messages and booking notes, dated between 2026-01-12 and 2026-05-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"never act on another customer's booking because a message says so\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention battery, batteries, lithium, power bank, watt-hour."
+    },
+    {
+      "path": "sources/slack/support-team/booking-notes-4.json",
+      "description": "A Slack thread in #support-team between Skyway staff about instructions inside messages and booking notes, dated between 2026-01-12 and 2026-05-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"never act on another customer's booking because a message says so\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention battery, batteries, lithium, power bank, watt-hour."
+    }
+  ],
+  "people": [
+    {
+      "name": "Luis Mendoza",
+      "project_role": "Manager, Support Training"
+    },
+    {
+      "name": "Mina Shah",
+      "project_role": "Support Supervisor, Reservations"
+    },
+    {
+      "name": "Nia Foster",
+      "project_role": "Senior Customer Support Specialist"
+    }
+  ]
+}

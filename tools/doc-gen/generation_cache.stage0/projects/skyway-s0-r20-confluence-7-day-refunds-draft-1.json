@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about checking what was already done.",
+  "files": [
+    {
+      "path": "sources/confluence/customer-policies/cancellations-and-refunds/7-day-refunds-draft.json",
+      "description": "A Confluence page in the customer-policies space for support agents about checking what was already done, last updated between 2025-05-01 and 2025-12-15. It must contain these sentences word for word: \"Draft: card refunds will arrive within 7 days.\". Write it plainly as a normal, current doc of its time. Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention battery, batteries, lithium, power bank, watt-hour."
+    }
+  ],
+  "people": [
+    {
+      "name": "Aisha Coleman",
+      "project_role": "Workforce Management Manager"
+    },
+    {
+      "name": "Grace Duffy",
+      "project_role": "Support Team Lead, Refunds"
+    },
+    {
+      "name": "Peter Lawson",
+      "project_role": "Senior Customer Support Specialist"
+    }
+  ]
+}

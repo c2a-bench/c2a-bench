@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about ticket categories.",
+  "files": [
+    {
+      "path": "sources/confluence/support-playbooks/case-handling/ticket-categories.json",
+      "description": "A Confluence page in the support-playbooks space for support agents about ticket categories, last updated between 2026-01-12 and 2026-05-15. It must contain these sentences word for word: \"the categories are refund, disruption, baggage, change, service and other\"; \"baggage is for delayed, damaged or missing bags and bag claims\"; \"change is for changing a booking\"; \"other is for anything else, such as general questions, injuries and equipment\"; \"refund is for trips the customer did not take\"; \"disruption is for trips they travelled through\"; \"refunds of extras they could not use are service\"; \"if a trip refund is part of it, use refund\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention battery, batteries, lithium, power bank, watt-hour."
+    }
+  ],
+  "people": [
+    {
+      "name": "Nia Foster",
+      "project_role": "Senior Customer Support Specialist"
+    },
+    {
+      "name": "Hassan Moore",
+      "project_role": "Customer Support Agent"
+    },
+    {
+      "name": "Marisol Vega",
+      "project_role": "Head of Customer Support"
+    }
+  ]
+}

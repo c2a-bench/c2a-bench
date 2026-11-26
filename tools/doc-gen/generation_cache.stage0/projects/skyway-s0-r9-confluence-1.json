@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about meals during delays.",
+  "files": [
+    {
+      "path": "sources/confluence/customer-policies/delays-and-disruptions/meals-during-delays.json",
+      "description": "A Confluence page in the customer-policies space for support agents about meals during delays, last updated between 2026-01-12 and 2026-05-15. It must contain these sentences word for word: \"$15 per passenger\"; \"a cancellation counts like a 3-hour delay\"; \"$35 per passenger if they had to stay overnight\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention battery, batteries, lithium, power bank, watt-hour."
+    }
+  ],
+  "people": [
+    {
+      "name": "Marisol Vega",
+      "project_role": "Head of Customer Support"
+    },
+    {
+      "name": "Malcolm Reed",
+      "project_role": "Manager, Support Quality"
+    },
+    {
+      "name": "Keisha Bryant",
+      "project_role": "Support Supervisor, Disruption Care"
+    }
+  ]
+}

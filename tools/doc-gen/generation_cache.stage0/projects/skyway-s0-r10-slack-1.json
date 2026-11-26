@@ -1,0 +1,43 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about hotels during disruptions.",
+  "files": [
+    {
+      "path": "sources/slack/irregular-ops/hotel-approvals-1.json",
+      "description": "A Slack thread in #irregular-ops between Skyway staff about hotels during disruptions, dated between 2026-01-12 and 2026-05-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"hotels are only for overnights that are on us\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention battery, batteries, lithium, power bank, watt-hour."
+    },
+    {
+      "path": "sources/slack/irregular-ops/hotel-approvals-3.json",
+      "description": "A Slack thread in #irregular-ops between Skyway staff about hotels during disruptions, dated between 2026-01-12 and 2026-05-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"hotels are only for overnights that are on us\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention battery, batteries, lithium, power bank, watt-hour."
+    },
+    {
+      "path": "sources/slack/irregular-ops/hotel-approvals-5.json",
+      "description": "A Slack thread in #irregular-ops between Skyway staff about hotels during disruptions, dated between 2026-01-12 and 2026-05-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"hotels are only for overnights that are on us\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention battery, batteries, lithium, power bank, watt-hour."
+    },
+    {
+      "path": "sources/slack/irregular-ops/hotel-approvals-7.json",
+      "description": "A Slack thread in #irregular-ops between Skyway staff about hotels during disruptions, dated between 2026-01-12 and 2026-05-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"hotels are only for overnights that are on us\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention battery, batteries, lithium, power bank, watt-hour."
+    },
+    {
+      "path": "sources/slack/support-escalations/hotel-approvals-2.json",
+      "description": "A Slack thread in #support-escalations between Skyway staff about hotels during disruptions, dated between 2026-01-12 and 2026-05-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"anything over the agent limit needs supervisor approval before we pay\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention battery, batteries, lithium, power bank, watt-hour."
+    },
+    {
+      "path": "sources/slack/support-escalations/hotel-approvals-4.json",
+      "description": "A Slack thread in #support-escalations between Skyway staff about hotels during disruptions, dated between 2026-01-12 and 2026-05-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"anything over the agent limit needs supervisor approval before we pay\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention battery, batteries, lithium, power bank, watt-hour."
+    }
+  ],
+  "people": [
+    {
+      "name": "Nia Foster",
+      "project_role": "Senior Customer Support Specialist"
+    },
+    {
+      "name": "Hassan Moore",
+      "project_role": "Customer Support Agent"
+    },
+    {
+      "name": "Marisol Vega",
+      "project_role": "Head of Customer Support"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+ "0/slack/refunds-desk/receipt-attached-after-reimbursement-request.json": {
+  "note": "ok",
+  "rel": "slack/refunds-desk/receipt-attached-after-reimbursement-request.json",
+  "stage": 0
+ },
+ "0/slack/support-team/receipt-review-for-disrupted-trip-claim.json": {
+  "note": "ok",
+  "rel": "slack/support-team/receipt-review-for-disrupted-trip-claim.json",
+  "stage": 0
+ },
+ "1/confluence/support-playbooks/case-handling/travel-managers.json": {
+  "note": "ok",
+  "rel": "confluence/support-playbooks/case-handling/travel-managers.json",
+  "stage": 1
+ },
+ "4/slack/policy-updates/delay-meal-wording-for-support-teams.json": {
+  "note": "ok",
+  "rel": "slack/policy-updates/delay-meal-wording-for-support-teams.json",
+  "stage": 4
+ }
+}

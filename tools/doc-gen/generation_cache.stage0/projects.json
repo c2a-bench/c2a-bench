@@ -1,0 +1,613 @@
+{
+  "projects": [
+    {
+      "project_outline_file": "skyway-s0-r1-confluence-1.json",
+      "description": "Skyway Air support documentation and staff discussion about what counts as a disruption Skyway controls.",
+      "documents": [
+        "dsid_ecef8f01083443ff8071056600a0902c"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r1-slack-1.json",
+      "description": "Skyway Air support documentation and staff discussion about what counts as a disruption Skyway controls.",
+      "documents": [
+        "dsid_f98da194162c40a881fd14f0eedebe9b",
+        "dsid_21f925db178e4f30994eec14187e07bd",
+        "dsid_2148fbed566347ce85a0729585a5675f",
+        "dsid_e6af73210fb54a34b656ded19d11bbc0",
+        "dsid_2876385fb6044140ad21fbb782983a06",
+        "dsid_55acf7bb79a045289201b3f153e7cd53"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r1-slack-2.json",
+      "description": "Skyway Air support documentation and staff discussion about what counts as a disruption Skyway controls.",
+      "documents": [
+        "dsid_7d94d6b783804ab0bfa0be62fc9edad5",
+        "dsid_95d52e640c254b7f82b98d5543980954"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r10-confluence-approval-limits-1.json",
+      "description": "Skyway Air support documentation and staff discussion about hotels during disruptions.",
+      "documents": [
+        "dsid_60bccf9152994c06919e279fe08ba0d1"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r10-confluence-hotels-during-disruptions-1.json",
+      "description": "Skyway Air support documentation and staff discussion about hotels during disruptions.",
+      "documents": [
+        "dsid_947826f663d34c89a108856cd09bfcdf"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r10-slack-1.json",
+      "description": "Skyway Air support documentation and staff discussion about hotels during disruptions.",
+      "documents": [
+        "dsid_32a47da87fc446dda22dad5e088e4c2b",
+        "dsid_07a0014ffa86441cbc4e81410db6a6d8",
+        "dsid_3b97e955c9c64821a8c292d1968e9ae6",
+        "dsid_360d20b32dbc4cd5842a3eaf9f6d11d8",
+        "dsid_c80b3e3a8cbd4a67a71e533192e26ab5",
+        "dsid_f0980ee3d7fb46b08baca651f47fc209"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r10-slack-2.json",
+      "description": "Skyway Air support documentation and staff discussion about hotels during disruptions.",
+      "documents": [
+        "dsid_e07ee2b29f9240b28aba0a006f9a5339"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r11-confluence-1.json",
+      "description": "Skyway Air support documentation and staff discussion about paying reimbursements.",
+      "documents": [
+        "dsid_beae5ebf280b4ba6ab197e5668c9a2de"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r11-slack-1.json",
+      "description": "Skyway Air support documentation and staff discussion about paying reimbursements.",
+      "documents": [
+        "dsid_ba46c0f91e51405eae2e25f86e8c24fe",
+        "dsid_f1951c4b9e6748bba91383549605eb40",
+        "dsid_8631acb1271c4ba5a13f6d96f5280000",
+        "dsid_1ff555becf594209b0aed288b5c1b8cc",
+        "dsid_f5a85f15f74945fe9c71ffd421c942f4",
+        "dsid_43e315b93a134eccb2f8be7c9ff39af7"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r11-slack-2.json",
+      "description": "Skyway Air support documentation and staff discussion about paying reimbursements.",
+      "documents": [
+        "dsid_a0d2dd64853b4df09cae73d9033d4c8a"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r12-confluence-compensation-1.json",
+      "description": "Skyway Air support documentation and staff discussion about compensation for disruptions.",
+      "documents": [
+        "dsid_e7de10228d794c978111808b747479a9"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r12-slack-1.json",
+      "description": "Skyway Air support documentation and staff discussion about compensation for disruptions.",
+      "documents": [
+        "dsid_f12b2a028546432a961aa05335c4137d",
+        "dsid_608cc2de410a423c8c0c110ca64eb1d7",
+        "dsid_6231c0a7297442aab0a4fe32f3dca74d",
+        "dsid_41f2668fc05a44a9834f92fe2fc67708",
+        "dsid_7175da48f511465583483b2bf5e5b265",
+        "dsid_9bf4e391ba994d8abb13f3966daeaf7e"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r12-slack-2.json",
+      "description": "Skyway Air support documentation and staff discussion about compensation for disruptions.",
+      "documents": [
+        "dsid_e47f85de69be49e998ba2e4b531462b6"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r12-slack-72-hour-notice-question-1.json",
+      "description": "Skyway Air support documentation and staff discussion about compensation for disruptions.",
+      "documents": [
+        "dsid_1cfa659965ef4ca79c633e03c2561491"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r12-slack-delay-credit-note-1.json",
+      "description": "Skyway Air support documentation and staff discussion about compensation for disruptions.",
+      "documents": [
+        "dsid_d1eab9d148e645a1a679f30670e84550"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r13-confluence-1.json",
+      "description": "Skyway Air support documentation and staff discussion about delayed bags.",
+      "documents": [
+        "dsid_8d09cd5c2fa744c69ad3c443ddd79f44"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r13-slack-1.json",
+      "description": "Skyway Air support documentation and staff discussion about delayed bags.",
+      "documents": [
+        "dsid_29b675987f674100ac25c913536c728b",
+        "dsid_66009f41371e44d2a8bdda7c3a4a25e8",
+        "dsid_e35cb9edbd504608948c9c62990ae78b",
+        "dsid_a6b2077a70a84caca33cd272aa714216",
+        "dsid_ae06b65987d74f779e6b8d4f63823c0d",
+        "dsid_11591afbcc1c4c1eb73029d07ae38086"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r13-slack-2.json",
+      "description": "Skyway Air support documentation and staff discussion about delayed bags.",
+      "documents": [
+        "dsid_754062670b1a4e8fabe72665fb3d6d21"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r13-slack-summer-peak-100-per-day-1.json",
+      "description": "Skyway Air support documentation and staff discussion about delayed bags.",
+      "documents": [
+        "dsid_9268288ea8e743f1bf430d96877b30d2"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r14-confluence-1.json",
+      "description": "Skyway Air support documentation and staff discussion about baggage claim deadlines.",
+      "documents": [
+        "dsid_95d78d5aa7164a92ab2be2a2c3800d5d"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r14-slack-1.json",
+      "description": "Skyway Air support documentation and staff discussion about baggage claim deadlines.",
+      "documents": [
+        "dsid_711018e2a05241f99aa87d53f6f24648",
+        "dsid_b4f4ac6cf9e0402383685b82dd41631d",
+        "dsid_e9b8018f5a1042609950ea9b8b97e032",
+        "dsid_5f054c0c3afd4f0fb59b7c18e7c69b2a",
+        "dsid_3a80b4a3c4af473f871e4f9688a3e6fa",
+        "dsid_9f25a946622c415a8259d0165949d7b3"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r14-slack-2.json",
+      "description": "Skyway Air support documentation and staff discussion about baggage claim deadlines.",
+      "documents": [
+        "dsid_600ad766ee9143bcbd7e9d88d1145760",
+        "dsid_61b751af6d8a4f45813e61bd009e9017"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r15-confluence-1.json",
+      "description": "Skyway Air support documentation and staff discussion about damaged bags.",
+      "documents": [
+        "dsid_c8889bfab208451882868a43d22fefc3"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r15-slack-1.json",
+      "description": "Skyway Air support documentation and staff discussion about damaged bags.",
+      "documents": [
+        "dsid_80d9f08079f0455db9df8db48910bf1e",
+        "dsid_cd7fd7486faa4090abf7d2212ad3a4d1",
+        "dsid_570a17692a284fa984d1f3877629a346",
+        "dsid_7043af0cc3d440dabc266f23273af47b",
+        "dsid_3222fb962b3b44ff8b226d8f724e4ddc",
+        "dsid_472e3e82829941568556249ba579ab94"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r15-slack-2.json",
+      "description": "Skyway Air support documentation and staff discussion about damaged bags.",
+      "documents": [
+        "dsid_1e1f2eb83f45448daed3afa8b5feb50b",
+        "dsid_1f9d82dbcc574758bb61550a2db1ae1a"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r16-confluence-1.json",
+      "description": "Skyway Air support documentation and staff discussion about goodwill and service failures.",
+      "documents": [
+        "dsid_cdbc298f9fde4a72a7f37aaf59ce24cc"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r16-slack-1.json",
+      "description": "Skyway Air support documentation and staff discussion about goodwill and service failures.",
+      "documents": [
+        "dsid_928bfee09926434e83fb3cff1280a4ae",
+        "dsid_6a90540058ab422c8352b5ab53a417e8",
+        "dsid_f890e21a0dbd42299c19166b6aafd6d3",
+        "dsid_42e73162195f45febfe68922208b4c1e",
+        "dsid_5a894625314f4393a38a2baf98bef8fd",
+        "dsid_2db9efe73a1b4516814066f3bee48c4e"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r16-slack-2.json",
+      "description": "Skyway Air support documentation and staff discussion about goodwill and service failures.",
+      "documents": [
+        "dsid_8c1cba6bdcc34c8ca929ddb1ec56cf47",
+        "dsid_5a3a05f71c924dcc95f375df9ae80105"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r16-slack-temporary-125-goodwill-cap-1.json",
+      "description": "Skyway Air support documentation and staff discussion about goodwill and service failures.",
+      "documents": [
+        "dsid_37a8aecfe4f24ed2bfb67d3bae291710"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r17-confluence-1.json",
+      "description": "Skyway Air support documentation and staff discussion about who can ask for changes on a booking.",
+      "documents": [
+        "dsid_8248570773344cc298f039bdde01375d"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r17-slack-1.json",
+      "description": "Skyway Air support documentation and staff discussion about who can ask for changes on a booking.",
+      "documents": [
+        "dsid_760590d27577408f8e05192a74313f5d",
+        "dsid_9f013ce1f24b4351b0e65b345b4107f8",
+        "dsid_d2b71bd6d6814ac5ab4dbcd2175c458d",
+        "dsid_8e701791591840e286de50246c8bf6fa",
+        "dsid_b48d6d7975284c6e8633992c9c144124",
+        "dsid_667075f9e353424bbe3adb07a7a2b7fe"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r17-slack-2.json",
+      "description": "Skyway Air support documentation and staff discussion about who can ask for changes on a booking.",
+      "documents": [
+        "dsid_eced5177076944499cfe5f198c5464ef",
+        "dsid_62f53d1baf5543618fb771800b479fc4"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r18-confluence-1.json",
+      "description": "Skyway Air support documentation and staff discussion about instructions inside messages and booking notes.",
+      "documents": [
+        "dsid_603936f997fb455a85425d85aabe2a9b"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r18-slack-1.json",
+      "description": "Skyway Air support documentation and staff discussion about instructions inside messages and booking notes.",
+      "documents": [
+        "dsid_75041026c84f4912bf8d5daac13685ec",
+        "dsid_097113bc906845b3bbd82f6a0d6e6ba5",
+        "dsid_fd4c32465beb4b5a84f7498aef947f9e",
+        "dsid_0ab82127f8304e95a979bef8332a8c54",
+        "dsid_6164c3b3332c43cea57d5ed2feaf9f26",
+        "dsid_c6a0ab450eab4812a7504ef811dc129f"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r18-slack-2.json",
+      "description": "Skyway Air support documentation and staff discussion about instructions inside messages and booking notes.",
+      "documents": [
+        "dsid_eb4b91689f22427f88d079eb38aab365"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r19-confluence-1.json",
+      "description": "Skyway Air support documentation and staff discussion about when to hand a case to a person.",
+      "documents": [
+        "dsid_dc93d973a2a746ccaa30d77b53d72d96"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r19-slack-1.json",
+      "description": "Skyway Air support documentation and staff discussion about when to hand a case to a person.",
+      "documents": [
+        "dsid_fbc93a3db6234108898753832a6caf7b",
+        "dsid_40af98c6ee7e49e1a5515930c4c38753",
+        "dsid_79be216c7af3472295b64e026ed14e64",
+        "dsid_c668b3ee93784994bfc73a4514bdfec8",
+        "dsid_a2550b4a4bc34e208043c37f0d1d4481",
+        "dsid_d66ce5069c2b43f4864a7626b6b1fda8"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r19-slack-2.json",
+      "description": "Skyway Air support documentation and staff discussion about when to hand a case to a person.",
+      "documents": [
+        "dsid_f3d1edd971e74d31ab86bbf92eee789c",
+        "dsid_e8075ac71eed4072a39e12d2b9710ba6"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r2-confluence-1.json",
+      "description": "Skyway Air support documentation and staff discussion about refunds after a cancellation or long delay.",
+      "documents": [
+        "dsid_035501f427e04d3f93592de60f5377a8"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r2-slack-1.json",
+      "description": "Skyway Air support documentation and staff discussion about refunds after a cancellation or long delay.",
+      "documents": [
+        "dsid_1f145e523e4c404eb35b263e7ae3c9e6",
+        "dsid_f92405825f1244c59f893e9e1cd411e0",
+        "dsid_f8d4cba6dd5442838623d36c82c730f8",
+        "dsid_924a242967ac494bac93bd85aab43af3",
+        "dsid_88448dd95ba54593a4bc0f8b23035827",
+        "dsid_f9a3b338636c49e380a8b00127c54db6"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r2-slack-2.json",
+      "description": "Skyway Air support documentation and staff discussion about refunds after a cancellation or long delay.",
+      "documents": [
+        "dsid_5ce9c27db8ec428b99f5cf91dc165bb2",
+        "dsid_320dd2f240664466a45d5fcbf55baf68"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r20-confluence-1.json",
+      "description": "Skyway Air support documentation and staff discussion about checking what was already done.",
+      "documents": [
+        "dsid_54735596d1f94ea09b344ff19d5c0bf4",
+        "dsid_1ca64aad90594805b5218adca44d2015"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r20-confluence-7-day-refunds-draft-1.json",
+      "description": "Skyway Air support documentation and staff discussion about checking what was already done.",
+      "documents": [
+        "dsid_94d50aa848d94678b89c02b1e46f3f1c"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r20-slack-1.json",
+      "description": "Skyway Air support documentation and staff discussion about checking what was already done.",
+      "documents": [
+        "dsid_72b17fde07704ac3939a4c425cf6f4cc",
+        "dsid_463b0170c9ae4e41be889c4bd23e1e92",
+        "dsid_c6655b167bbd44e498d486ca0fdf3427",
+        "dsid_9f55da19ff474c0fbba78d5c62137f58",
+        "dsid_a5381ec5c6204954b41329faf33f0de4",
+        "dsid_6a621d41b41348ee9e4b41ef072e67a0"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r20-slack-2.json",
+      "description": "Skyway Air support documentation and staff discussion about checking what was already done.",
+      "documents": [
+        "dsid_152aa051d7d54bcb9e4e36feaea01b61"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r21-confluence-1.json",
+      "description": "Skyway Air support documentation and staff discussion about ticket categories.",
+      "documents": [
+        "dsid_a4929e3bd0af4aee995ac3cd1e09b295"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r21-slack-1.json",
+      "description": "Skyway Air support documentation and staff discussion about ticket categories.",
+      "documents": [
+        "dsid_b25cce6e009046bfa92a4355e97169dc",
+        "dsid_cfbfe02581b04f6abedd1790482c8f4c",
+        "dsid_48d4180f98944fed8c8b24c5db49ba0a",
+        "dsid_335d9c0a1eff4c28a0a524c7f5c309cb",
+        "dsid_6f6601bffd5b4abda3c48dcfa7cf5032",
+        "dsid_e68d2806038b4136b1f3a239f6da77f0"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r21-slack-2.json",
+      "description": "Skyway Air support documentation and staff discussion about ticket categories.",
+      "documents": [
+        "dsid_7feaca5d0f3c498db1b57f01a69948bf"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r3-confluence-1.json",
+      "description": "Skyway Air support documentation and staff discussion about travel credit instead of a refund.",
+      "documents": [
+        "dsid_e0acb919f33e4204aa1f0e8fe3af1777"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r3-slack-1.json",
+      "description": "Skyway Air support documentation and staff discussion about travel credit instead of a refund.",
+      "documents": [
+        "dsid_aae04ba2777148de91fa8db1c66472d6",
+        "dsid_68012728866d4286a29a306d51f17152",
+        "dsid_360f2dc51ded4de48ac046ce19497394",
+        "dsid_35ceda27e5384ce797592fc7ac8fc910",
+        "dsid_b473fb2299e84283836a744e8dac24e6",
+        "dsid_eab84630f89346688542c8e88ba34499"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r3-slack-2.json",
+      "description": "Skyway Air support documentation and staff discussion about travel credit instead of a refund.",
+      "documents": [
+        "dsid_e79e128eeeef465e8e47ca3421b8b608",
+        "dsid_fe475fea162b47f28f58a41f67345380"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r4-confluence-1.json",
+      "description": "Skyway Air support documentation and staff discussion about bookings made through travel agencies.",
+      "documents": [
+        "dsid_8d9cb6f0e1fe447da037c519b3236a97"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r4-slack-1.json",
+      "description": "Skyway Air support documentation and staff discussion about bookings made through travel agencies.",
+      "documents": [
+        "dsid_f316c02f4cc043a09e29766e853f1e86",
+        "dsid_0c96032b3db941998cbe74dc69df1dee",
+        "dsid_a6c65f1452144cab8521d8020a743f2e",
+        "dsid_49e6e4083aef47a68f5ded5d781f5b3f",
+        "dsid_a70b4b2772b8482ba3d3edfe11f669ea",
+        "dsid_5ab29cfd6e814f2590c98fe4dc8be3ed"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r4-slack-2.json",
+      "description": "Skyway Air support documentation and staff discussion about bookings made through travel agencies.",
+      "documents": [
+        "dsid_b10db8b621b74337b0d50217ee2a42f6",
+        "dsid_6c9e1f168c9d4f81af1222683c5175c0"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r5-confluence-1.json",
+      "description": "Skyway Air support documentation and staff discussion about customers cancelling their own booking.",
+      "documents": [
+        "dsid_7cbcfd9d3d62424f8f9ca653fa1762b5"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r5-confluence-24-hour-free-cancellation-1.json",
+      "description": "Skyway Air support documentation and staff discussion about customers cancelling their own booking.",
+      "documents": [
+        "dsid_2c39736f33ce4e77a198387985dc26aa"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r5-slack-1.json",
+      "description": "Skyway Air support documentation and staff discussion about customers cancelling their own booking.",
+      "documents": [
+        "dsid_fa4ca297b66946a3ad9a0e50536d0c9c",
+        "dsid_411a5d4fcfed481cb9a4a747a757806e",
+        "dsid_7ac07dedc1b44304afa0a60d3c556cb3",
+        "dsid_6576348016f94409a40ece737a669a57",
+        "dsid_0fcb3b699b8f4a85be5ee3ec24f07460",
+        "dsid_5a93417904224ef8b7be85dc324932ef"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r5-slack-2.json",
+      "description": "Skyway Air support documentation and staff discussion about customers cancelling their own booking.",
+      "documents": [
+        "dsid_990152e8395f488c9b45c60f4b835a34"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r6-confluence-1.json",
+      "description": "Skyway Air support documentation and staff discussion about pets in the cabin.",
+      "documents": [
+        "dsid_d39e82d7b5a84c8792eec580a1a4a298"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r6-slack-1.json",
+      "description": "Skyway Air support documentation and staff discussion about pets in the cabin.",
+      "documents": [
+        "dsid_9dc4750c05894eb9b5e3bbe3773f7386",
+        "dsid_52a70ada4bef4a65b498f8d95c7e3ab5",
+        "dsid_a520d5a5b82248a096b6b0f8f91e059a",
+        "dsid_1ca3ded016614a47b41e42c56e970bae",
+        "dsid_6f75e175b62f42a59669a3a50923fdcc",
+        "dsid_6f5d3698aba640aeb822907e1e3148ae"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r6-slack-2.json",
+      "description": "Skyway Air support documentation and staff discussion about pets in the cabin.",
+      "documents": [
+        "dsid_ee2d57a2ad9f4e5397e94b67dafd6d13",
+        "dsid_07f9f5fa6aae4660b4a6c90820ebffd1"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r7-confluence-1.json",
+      "description": "Skyway Air support documentation and staff discussion about changing a booking.",
+      "documents": [
+        "dsid_92fa5526679a40489aeb35deb1a4d8cf",
+        "dsid_ed35a3cb654e4b61b477383b49606ee6"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r7-slack-1.json",
+      "description": "Skyway Air support documentation and staff discussion about changing a booking.",
+      "documents": [
+        "dsid_9a8a48cd82ab4f3d9ae04ce84e85aa52",
+        "dsid_9ba7bad9d20740ff84d1660f43457a05",
+        "dsid_b936fe128be5446182a60f096eb8160d",
+        "dsid_2ccc9a4af7744bb7a25c243c0602aa01",
+        "dsid_8008648c2e8e42f2a299f73e860c6348",
+        "dsid_01f2c2fa55c24bf289b38423e8eabb0a"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r7-slack-2.json",
+      "description": "Skyway Air support documentation and staff discussion about changing a booking.",
+      "documents": [
+        "dsid_c21101c7f9df4fa7a069160ab1146076"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r8-confluence-1.json",
+      "description": "Skyway Air support documentation and staff discussion about Skyway Miles benefits.",
+      "documents": [
+        "dsid_2edb038adfb646d4baccf3adc876f770"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r8-slack-1.json",
+      "description": "Skyway Air support documentation and staff discussion about Skyway Miles benefits.",
+      "documents": [
+        "dsid_ce646a3a34204d428b698df72c7ed7ad",
+        "dsid_7a3677a50a2c4942be3bcf9a4fa4d61e",
+        "dsid_5844bff22e4a4ac0840b2bd52db326d8",
+        "dsid_aa085c5db1424783b7d568ab806c34ed",
+        "dsid_a0de22c1b17a4c94ad81252832985dd6",
+        "dsid_df65b28170964800ad2576257e5cfaae"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r8-slack-2.json",
+      "description": "Skyway Air support documentation and staff discussion about Skyway Miles benefits.",
+      "documents": [
+        "dsid_14c51c8d8fca4216acc74ec0adf1f681",
+        "dsid_05ee9c34fee54d21a53df212f38df4aa"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r9-confluence-1.json",
+      "description": "Skyway Air support documentation and staff discussion about meals during delays.",
+      "documents": [
+        "dsid_edfa9276415f4df9af78f85fd3dec725"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r9-slack-1.json",
+      "description": "Skyway Air support documentation and staff discussion about meals during delays.",
+      "documents": [
+        "dsid_499e44beda2248b28a8f65e1f1d292d3",
+        "dsid_43072d8df71945d2a8a692ceb6a8a765",
+        "dsid_57e0db391a614e21bf632496a143270a",
+        "dsid_cc462262a19c4076aae9bd89c456fc12",
+        "dsid_cbe705395c2e4b98af7dde8371526769",
+        "dsid_63b3a5a5503d4bc09b6c5cce924d9307"
+      ]
+    },
+    {
+      "project_outline_file": "skyway-s0-r9-slack-2.json",
+      "description": "Skyway Air support documentation and staff discussion about meals during delays.",
+      "documents": [
+        "dsid_d778e4e47ffb4333bc585b037e3fc7b0",
+        "dsid_0ad21f1e63474380bf39373ddb40327e"
+      ]
+    }
+  ]
+}

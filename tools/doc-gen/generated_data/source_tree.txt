@@ -1,0 +1,37 @@
+sources/
+├── confluence/
+│   ├── airport-operations/
+│   ├── company-handbook/
+│   ├── customer-policies/
+│   │   ├── baggage/
+│   │   ├── cancellations-and-refunds/
+│   │   ├── delays-and-disruptions/
+│   │   ├── fares-and-changes/
+│   │   ├── loyalty/
+│   │   └── special-assistance/
+│   ├── digital/
+│   ├── finance/
+│   ├── loyalty-programme/
+│   ├── policy-and-compliance/
+│   │   ├── change-log/
+│   │   └── regulatory/
+│   └── support-playbooks/
+│       ├── approvals-and-limits/
+│       ├── case-handling/
+│       ├── escalation/
+│       └── templates/
+└── slack/
+    ├── airport-ops/
+    ├── announcements/
+    ├── baggage-desk/
+    ├── digital-team/
+    ├── finance-ops/
+    ├── general/
+    ├── irregular-ops/
+    ├── loyalty-team/
+    ├── policy-updates/
+    ├── random/
+    ├── refunds-desk/
+    ├── support-escalations/
+    ├── support-policy-questions/
+    └── support-team/

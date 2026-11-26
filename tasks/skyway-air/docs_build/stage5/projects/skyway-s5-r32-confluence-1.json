@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about confirmation numbers.",
+  "files": [
+    {
+      "path": "sources/confluence/support-playbooks/case-handling/confirmation-numbers.json",
+      "description": "A Confluence page in the support-playbooks space for support agents about confirmation numbers, last updated between 2026-11-09 and 2026-12-01. It must contain these sentences word for word: \"When asked for a confirmation number, quote the id from the payment response.\"; \"returns a confirmation_id in the response only\"; \"quote the confirmation_id\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    }
+  ],
+  "people": [
+    {
+      "name": "Malcolm Reed",
+      "project_role": "Manager, Support Quality"
+    },
+    {
+      "name": "Keisha Bryant",
+      "project_role": "Support Supervisor, Disruption Care"
+    },
+    {
+      "name": "Mei Lin",
+      "project_role": "Support Team Lead, Digital Care"
+    }
+  ]
+}

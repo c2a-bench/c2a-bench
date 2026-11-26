@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about customers cancelling their own booking.",
+  "files": [
+    {
+      "path": "sources/confluence/customer-policies/cancellations-and-refunds/24-hour-free-cancellation.json",
+      "description": "A Confluence page in the customer-policies space for support agents about customers cancelling their own booking, last updated between 2025-05-01 and 2025-12-15. It must contain these sentences word for word: \"within 24 hours of booking\"; \"booked at least 7 days before departure\"; \"Standard gets travel credit for the fare minus a $75 fee per passenger\"; \"Flex gets the fare back to the original payment\"; \"Basic gets nothing back when the customer cancels\"; \"Cancel within 24 hours of booking for a full refund to the original payment.\". Keep it about its own topic; do not connect it to any other policy. Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention battery, batteries, lithium, power bank, watt-hour."
+    }
+  ],
+  "people": [
+    {
+      "name": "Samir Patel",
+      "project_role": "Customer Support Agent"
+    },
+    {
+      "name": "Tasha Green",
+      "project_role": "Senior Manager, Refund Operations"
+    },
+    {
+      "name": "Brent Sato",
+      "project_role": "Support Supervisor, Refunds"
+    }
+  ]
+}

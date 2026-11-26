@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about bookings made through travel agencies.",
+  "files": [
+    {
+      "path": "sources/confluence/support-playbooks/case-handling/agency-bookings.json",
+      "description": "A Confluence page in the support-playbooks space for support agents about bookings made through travel agencies, last updated between 2026-01-12 and 2026-05-15. It must contain these sentences word for word: \"the agency processes the refund\"; \"label the ticket agency-refund\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    }
+  ],
+  "people": [
+    {
+      "name": "Ronald Hayes",
+      "project_role": "Customer Support Agent"
+    },
+    {
+      "name": "Priya Nanduri",
+      "project_role": "Director, Customer Care"
+    },
+    {
+      "name": "Luis Mendoza",
+      "project_role": "Manager, Support Training"
+    }
+  ]
+}

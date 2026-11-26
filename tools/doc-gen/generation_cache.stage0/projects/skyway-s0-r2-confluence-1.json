@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about refunds after a cancellation or long delay.",
+  "files": [
+    {
+      "path": "sources/confluence/customer-policies/cancellations-and-refunds/refunds-after-a-cancellation.json",
+      "description": "A Confluence page in the customer-policies space for support agents about refunds after a cancellation or long delay, last updated between 2026-01-12 and 2026-05-15. It must contain these sentences word for word: \"When Skyway cancels a flight or delays its departure 3 hours or more\"; \"refund the unused fare to the original form of payment, whatever the cause\"; \"seat and bag fees on that flight go back with the fare\"; \"a passenger who flew, on the original or a replacement flight, gets no refund\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention battery, batteries, lithium, power bank, watt-hour."
+    }
+  ],
+  "people": [
+    {
+      "name": "Noah Feldman",
+      "project_role": "Support Supervisor, Disruption Care"
+    },
+    {
+      "name": "Tyrell Jackson",
+      "project_role": "Support Team Lead, Disruption Care"
+    },
+    {
+      "name": "Erin McKay",
+      "project_role": "Customer Support Agent"
+    }
+  ]
+}

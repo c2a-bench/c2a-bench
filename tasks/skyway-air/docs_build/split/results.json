@@ -1,0 +1,402 @@
+{
+ "0/confluence/customer-policies/baggage/claim-deadlines.json": {
+  "note": "ok",
+  "rel": "confluence/customer-policies/baggage/claim-deadlines.json",
+  "stage": 0
+ },
+ "0/confluence/customer-policies/baggage/damaged-bags.json": {
+  "note": "ok",
+  "rel": "confluence/customer-policies/baggage/damaged-bags.json",
+  "stage": 0
+ },
+ "0/confluence/customer-policies/baggage/delayed-bags.json": {
+  "note": "ok",
+  "rel": "confluence/customer-policies/baggage/delayed-bags.json",
+  "stage": 0
+ },
+ "0/confluence/customer-policies/cancellations-and-refunds/24-hour-free-cancellation.json": {
+  "note": "ok",
+  "rel": "confluence/customer-policies/cancellations-and-refunds/24-hour-free-cancellation.json",
+  "stage": 0
+ },
+ "0/confluence/customer-policies/cancellations-and-refunds/refund-timing.json": {
+  "note": "ok",
+  "rel": "confluence/customer-policies/cancellations-and-refunds/refund-timing.json",
+  "stage": 0
+ },
+ "0/confluence/customer-policies/cancellations-and-refunds/refunds-after-a-cancellation.json": {
+  "note": "ok",
+  "rel": "confluence/customer-policies/cancellations-and-refunds/refunds-after-a-cancellation.json",
+  "stage": 0
+ },
+ "0/confluence/customer-policies/cancellations-and-refunds/travel-credit-instead-of-refund.json": {
+  "note": "ok",
+  "rel": "confluence/customer-policies/cancellations-and-refunds/travel-credit-instead-of-refund.json",
+  "stage": 0
+ },
+ "0/confluence/customer-policies/delays-and-disruptions/compensation.json": {
+  "note": "ok",
+  "rel": "confluence/customer-policies/delays-and-disruptions/compensation.json",
+  "stage": 0
+ },
+ "0/confluence/customer-policies/delays-and-disruptions/meals-during-delays.json": {
+  "note": "ok",
+  "rel": "confluence/customer-policies/delays-and-disruptions/meals-during-delays.json",
+  "stage": 0
+ },
+ "0/confluence/customer-policies/delays-and-disruptions/what-skyway-controls.json": {
+  "note": "ok",
+  "rel": "confluence/customer-policies/delays-and-disruptions/what-skyway-controls.json",
+  "stage": 0
+ },
+ "0/confluence/customer-policies/fares-and-changes/change-fees.json": {
+  "note": "ok",
+  "rel": "confluence/customer-policies/fares-and-changes/change-fees.json",
+  "stage": 0
+ },
+ "0/confluence/customer-policies/fares-and-changes/fare-types.json": {
+  "note": "ok",
+  "rel": "confluence/customer-policies/fares-and-changes/fare-types.json",
+  "stage": 0
+ },
+ "0/confluence/customer-policies/special-assistance/pets-in-cabin.json": {
+  "note": "ok",
+  "rel": "confluence/customer-policies/special-assistance/pets-in-cabin.json",
+  "stage": 0
+ },
+ "0/confluence/support-playbooks/approvals-and-limits/goodwill.json": {
+  "note": "ok",
+  "rel": "confluence/support-playbooks/approvals-and-limits/goodwill.json",
+  "stage": 0
+ },
+ "0/confluence/support-playbooks/case-handling/agency-bookings.json": {
+  "note": "ok",
+  "rel": "confluence/support-playbooks/case-handling/agency-bookings.json",
+  "stage": 0
+ },
+ "0/confluence/support-playbooks/case-handling/before-you-act.json": {
+  "note": "ok",
+  "rel": "confluence/support-playbooks/case-handling/before-you-act.json",
+  "stage": 0
+ },
+ "0/confluence/support-playbooks/case-handling/changing-a-booking.json": {
+  "note": "ok",
+  "rel": "confluence/support-playbooks/case-handling/changing-a-booking.json",
+  "stage": 0
+ },
+ "0/confluence/support-playbooks/case-handling/paying-reimbursements.json": {
+  "note": "ok",
+  "rel": "confluence/support-playbooks/case-handling/paying-reimbursements.json",
+  "stage": 0
+ },
+ "0/confluence/support-playbooks/case-handling/ticket-categories.json": {
+  "note": "ok",
+  "rel": "confluence/support-playbooks/case-handling/ticket-categories.json",
+  "stage": 0
+ },
+ "0/confluence/support-playbooks/case-handling/untrusted-text.json": {
+  "note": "ok",
+  "rel": "confluence/support-playbooks/case-handling/untrusted-text.json",
+  "stage": 0
+ },
+ "0/confluence/support-playbooks/case-handling/who-can-ask.json": {
+  "note": "ok",
+  "rel": "confluence/support-playbooks/case-handling/who-can-ask.json",
+  "stage": 0
+ },
+ "0/confluence/support-playbooks/escalation/when-to-hand-off.json": {
+  "note": "ok",
+  "rel": "confluence/support-playbooks/escalation/when-to-hand-off.json",
+  "stage": 0
+ },
+ "0/slack/baggage-desk/clarifying-delayed-bag-cost-timing.json": {
+  "note": "ok",
+  "rel": "slack/baggage-desk/clarifying-delayed-bag-cost-timing.json",
+  "stage": 0
+ },
+ "0/slack/baggage-desk/late-baggage-claim-handling.json": {
+  "note": "ok",
+  "rel": "slack/baggage-desk/late-baggage-claim-handling.json",
+  "stage": 0
+ },
+ "0/slack/baggage-desk/wheels-are-wear.json": {
+  "note": "ok",
+  "rel": "slack/baggage-desk/wheels-are-wear.json",
+  "stage": 0
+ },
+ "0/slack/irregular-ops/customer-question-on-short-notice-disruption-compensation.json": {
+  "note": "ok",
+  "rel": "slack/irregular-ops/customer-question-on-short-notice-disruption-compensation.json",
+  "stage": 0
+ },
+ "0/slack/irregular-ops/meal-handling-for-disrupted-trips.json": {
+  "note": "ok",
+  "rel": "slack/irregular-ops/meal-handling-for-disrupted-trips.json",
+  "stage": 0
+ },
+ "0/slack/irregular-ops/weather-vs-crew-cause-codes.json": {
+  "note": "ok",
+  "rel": "slack/irregular-ops/weather-vs-crew-cause-codes.json",
+  "stage": 0
+ },
+ "0/slack/refunds-desk/credit-bonus-question.json": {
+  "note": "ok",
+  "rel": "slack/refunds-desk/credit-bonus-question.json",
+  "stage": 0
+ },
+ "0/slack/refunds-desk/declined-rebooking-refunds.json": {
+  "note": "ok",
+  "rel": "slack/refunds-desk/declined-rebooking-refunds.json",
+  "stage": 0
+ },
+ "0/slack/refunds-desk/pet-fee-on-cancelled-leg.json": {
+  "note": "ok",
+  "rel": "slack/refunds-desk/pet-fee-on-cancelled-leg.json",
+  "stage": 0
+ },
+ "0/slack/refunds-desk/travel-agency-booking-refund-handling.json": {
+  "note": "ok",
+  "rel": "slack/refunds-desk/travel-agency-booking-refund-handling.json",
+  "stage": 0
+ },
+ "0/slack/support-escalations/asks-for-a-human.json": {
+  "note": "ok",
+  "rel": "slack/support-escalations/asks-for-a-human.json",
+  "stage": 0
+ },
+ "0/slack/support-escalations/goodwill-limits.json": {
+  "note": "ok",
+  "rel": "slack/support-escalations/goodwill-limits.json",
+  "stage": 0
+ },
+ "0/slack/support-escalations/instructions-included-in-booking-notes.json": {
+  "note": "ok",
+  "rel": "slack/support-escalations/instructions-included-in-booking-notes.json",
+  "stage": 0
+ },
+ "0/slack/support-escalations/when-to-hand-off-a-customer-case.json": {
+  "note": "ok",
+  "rel": "slack/support-escalations/when-to-hand-off-a-customer-case.json",
+  "stage": 0
+ },
+ "0/slack/support-policy-questions/ticket-category-for-completed-disruption-journeys.json": {
+  "note": "ok",
+  "rel": "slack/support-policy-questions/ticket-category-for-completed-disruption-journeys.json",
+  "stage": 0
+ },
+ "0/slack/support-team/assistant-asking-for-refund.json": {
+  "note": "ok",
+  "rel": "slack/support-team/assistant-asking-for-refund.json",
+  "stage": 0
+ },
+ "0/slack/support-team/receipt-review-for-disrupted-trip-claim.json": {
+  "note": "ok",
+  "rel": "slack/support-team/receipt-review-for-disrupted-trip-claim.json",
+  "stage": 0
+ },
+ "0/slack/support-team/ticket-category-for-a-mixed-customer-case.json": {
+  "note": "ok",
+  "rel": "slack/support-team/ticket-category-for-a-mixed-customer-case.json",
+  "stage": 0
+ },
+ "0/slack/support-team/when-a-customer-asks-for-a-manager.json": {
+  "note": "ok",
+  "rel": "slack/support-team/when-a-customer-asks-for-a-manager.json",
+  "stage": 0
+ },
+ "1/confluence/customer-policies/fares-and-changes/schedule-changes.json": {
+  "note": "ok",
+  "rel": "confluence/customer-policies/fares-and-changes/schedule-changes.json",
+  "stage": 1
+ },
+ "1/confluence/policy-and-compliance/change-log/delayed-bag-allowance-update.json": {
+  "note": "ok",
+  "rel": "confluence/policy-and-compliance/change-log/delayed-bag-allowance-update.json",
+  "stage": 1
+ },
+ "1/confluence/policy-and-compliance/change-log/hotel-cost-approval-update-for-july-requests.json": {
+  "note": "ok",
+  "rel": "confluence/policy-and-compliance/change-log/hotel-cost-approval-update-for-july-requests.json",
+  "stage": 1
+ },
+ "1/confluence/policy-and-compliance/change-log/july-credit-bonus-change.json": {
+  "note": "ok",
+  "rel": "confluence/policy-and-compliance/change-log/july-credit-bonus-change.json",
+  "stage": 1
+ },
+ "1/confluence/policy-and-compliance/change-log/receipts-label-renamed.json": {
+  "note": "ok",
+  "rel": "confluence/policy-and-compliance/change-log/receipts-label-renamed.json",
+  "stage": 1
+ },
+ "1/confluence/policy-and-compliance/change-log/schedule-change-rights.json": {
+  "note": "ok",
+  "rel": "confluence/policy-and-compliance/change-log/schedule-change-rights.json",
+  "stage": 1
+ },
+ "1/confluence/policy-and-compliance/change-log/travel-managers-on-company-bookings.json": {
+  "note": "ok",
+  "rel": "confluence/policy-and-compliance/change-log/travel-managers-on-company-bookings.json",
+  "stage": 1
+ },
+ "1/confluence/support-playbooks/case-handling/travel-managers.json": {
+  "note": "ok",
+  "rel": "confluence/support-playbooks/case-handling/travel-managers.json",
+  "stage": 1
+ },
+ "1/slack/policy-updates/credit-bonus-ends.json": {
+  "note": "ok",
+  "rel": "slack/policy-updates/credit-bonus-ends.json",
+  "stage": 1
+ },
+ "1/slack/policy-updates/delayed-bag-rate-july.json": {
+  "note": "ok",
+  "rel": "slack/policy-updates/delayed-bag-rate-july.json",
+  "stage": 1
+ },
+ "1/slack/refunds-desk/schedule-change-refunds.json": {
+  "note": "ok",
+  "rel": "slack/refunds-desk/schedule-change-refunds.json",
+  "stage": 1
+ },
+ "1/slack/support-team/travel-manager-authority-question.json": {
+  "note": "ok",
+  "rel": "slack/support-team/travel-manager-authority-question.json",
+  "stage": 1
+ },
+ "2/confluence/customer-policies/delays-and-disruptions/ground-transport.json": {
+  "note": "ok",
+  "rel": "confluence/customer-policies/delays-and-disruptions/ground-transport.json",
+  "stage": 2
+ },
+ "2/confluence/policy-and-compliance/change-log/follow-ups-on-earlier-claims.json": {
+  "note": "ok",
+  "rel": "confluence/policy-and-compliance/change-log/follow-ups-on-earlier-claims.json",
+  "stage": 2
+ },
+ "2/confluence/policy-and-compliance/change-log/ground-transport-change-log-entry.json": {
+  "note": "ok",
+  "rel": "confluence/policy-and-compliance/change-log/ground-transport-change-log-entry.json",
+  "stage": 2
+ },
+ "2/confluence/policy-and-compliance/change-log/hotel-direct-limit-update.json": {
+  "note": "ok",
+  "rel": "confluence/policy-and-compliance/change-log/hotel-direct-limit-update.json",
+  "stage": 2
+ },
+ "2/confluence/policy-and-compliance/change-log/pet-fee-handling-update.json": {
+  "note": "ok",
+  "rel": "confluence/policy-and-compliance/change-log/pet-fee-handling-update.json",
+  "stage": 2
+ },
+ "2/confluence/support-playbooks/case-handling/follow-ups.json": {
+  "note": "ok",
+  "rel": "confluence/support-playbooks/case-handling/follow-ups.json",
+  "stage": 2
+ },
+ "2/slack/irregular-ops/ground-transport-receipt-question.json": {
+  "note": "ok",
+  "rel": "slack/irregular-ops/ground-transport-receipt-question.json",
+  "stage": 2
+ },
+ "2/slack/support-team/follow-up-on-an-earlier-customer-claim.json": {
+  "note": "ok",
+  "rel": "slack/support-team/follow-up-on-an-earlier-customer-claim.json",
+  "stage": 2
+ },
+ "3/confluence/customer-policies/special-assistance/family-seating.json": {
+  "note": "ok",
+  "rel": "confluence/customer-policies/special-assistance/family-seating.json",
+  "stage": 3
+ },
+ "3/confluence/policy-and-compliance/change-log/baggage-claim-handling-update.json": {
+  "note": "ok",
+  "rel": "confluence/policy-and-compliance/change-log/baggage-claim-handling-update.json",
+  "stage": 3
+ },
+ "3/confluence/policy-and-compliance/change-log/family-seating-change-log-entry.json": {
+  "note": "ok",
+  "rel": "confluence/policy-and-compliance/change-log/family-seating-change-log-entry.json",
+  "stage": 3
+ },
+ "3/confluence/policy-and-compliance/change-log/payment-retries.json": {
+  "note": "ok",
+  "rel": "confluence/policy-and-compliance/change-log/payment-retries.json",
+  "stage": 3
+ },
+ "3/confluence/support-playbooks/case-handling/when-a-payment-fails.json": {
+  "note": "ok",
+  "rel": "confluence/support-playbooks/case-handling/when-a-payment-fails.json",
+  "stage": 3
+ },
+ "3/slack/policy-updates/baggage-claim-intake-wording-for-september.json": {
+  "note": "ok",
+  "rel": "slack/policy-updates/baggage-claim-intake-wording-for-september.json",
+  "stage": 3
+ },
+ "3/slack/refunds-desk/child-seat-fee-question.json": {
+  "note": "ok",
+  "rel": "slack/refunds-desk/child-seat-fee-question.json",
+  "stage": 3
+ },
+ "3/slack/support-team/duplicate-refund-incident.json": {
+  "note": "ok",
+  "rel": "slack/support-team/duplicate-refund-incident.json",
+  "stage": 3
+ },
+ "4/confluence/customer-policies/special-assistance/unaccompanied-minors-operations-manual.json": {
+  "note": "ok",
+  "rel": "confluence/customer-policies/special-assistance/unaccompanied-minors-operations-manual.json",
+  "stage": 4
+ },
+ "4/confluence/policy-and-compliance/change-log/delay-meal-allowance-update.json": {
+  "note": "ok",
+  "rel": "confluence/policy-and-compliance/change-log/delay-meal-allowance-update.json",
+  "stage": 4
+ },
+ "4/confluence/policy-and-compliance/change-log/goodwill-update.json": {
+  "note": "ok",
+  "rel": "confluence/policy-and-compliance/change-log/goodwill-update.json",
+  "stage": 4
+ },
+ "4/confluence/policy-and-compliance/change-log/unaccompanied-minor-update.json": {
+  "note": "ok",
+  "rel": "confluence/policy-and-compliance/change-log/unaccompanied-minor-update.json",
+  "stage": 4
+ },
+ "4/slack/policy-updates/delay-meal-wording-for-support-teams.json": {
+  "note": "ok",
+  "rel": "slack/policy-updates/delay-meal-wording-for-support-teams.json",
+  "stage": 4
+ },
+ "4/slack/policy-updates/goodwill-wording-for-service-failures.json": {
+  "note": "ok",
+  "rel": "slack/policy-updates/goodwill-wording-for-service-failures.json",
+  "stage": 4
+ },
+ "4/slack/refunds-desk/um-fee-refund-handling-question.json": {
+  "note": "ok",
+  "rel": "slack/refunds-desk/um-fee-refund-handling-question.json",
+  "stage": 4
+ },
+ "5/confluence/policy-and-compliance/change-log/confirmation-id-response-update.json": {
+  "note": "ok",
+  "rel": "confluence/policy-and-compliance/change-log/confirmation-id-response-update.json",
+  "stage": 5
+ },
+ "5/confluence/policy-and-compliance/change-log/refund-eligibility-update-for-departure-delays.json": {
+  "note": "ok",
+  "rel": "confluence/policy-and-compliance/change-log/refund-eligibility-update-for-departure-delays.json",
+  "stage": 5
+ },
+ "5/confluence/support-playbooks/case-handling/confirmation-numbers.json": {
+  "note": "ok",
+  "rel": "confluence/support-playbooks/case-handling/confirmation-numbers.json",
+  "stage": 5
+ },
+ "5/slack/policy-updates/refund-handling-language-for-cancellations-and-long-delays.json": {
+  "note": "ok",
+  "rel": "slack/policy-updates/refund-handling-language-for-cancellations-and-long-delays.json",
+  "stage": 5
+ }
+}

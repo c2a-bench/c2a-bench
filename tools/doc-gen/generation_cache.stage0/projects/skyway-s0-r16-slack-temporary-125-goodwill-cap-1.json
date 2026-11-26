@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about goodwill and service failures.",
+  "files": [
+    {
+      "path": "sources/slack/support-escalations/temporary-125-goodwill-cap.json",
+      "description": "A Slack thread in #support-escalations between Skyway staff about goodwill and service failures, dated between 2025-05-01 and 2025-12-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"This week only, agents can give up to $125 goodwill without approval.\". Write it plainly as a normal, current doc of its time. Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention battery, batteries, lithium, power bank, watt-hour."
+    }
+  ],
+  "people": [
+    {
+      "name": "Keisha Bryant",
+      "project_role": "Support Supervisor, Disruption Care"
+    },
+    {
+      "name": "Mei Lin",
+      "project_role": "Support Team Lead, Digital Care"
+    },
+    {
+      "name": "Jorge Salinas",
+      "project_role": "Customer Support Agent"
+    }
+  ]
+}

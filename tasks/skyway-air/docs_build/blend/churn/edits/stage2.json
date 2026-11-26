@@ -1,0 +1,962 @@
+{
+ "confluence/airport-operations/airport-safety-assurance-briefing-board-checklist.json": {
+  "doc": "docs/confluence/airport-operations/airport-safety-assurance-briefing-board-checklist.json",
+  "find": "above the $35 approval ",
+  "kind": "dollar",
+  "ok": true,
+  "replace": "above the $37 approval ",
+  "what": "dollar: $35 -> $37"
+ },
+ "confluence/airport-operations/airport-safety-reporting-kiosk-content-integrity-routine.json": {
+  "doc": "docs/confluence/airport-operations/airport-safety-reporting-kiosk-content-integrity-routine.json",
+  "find": "y response.",
+  "kind": "add",
+  "ok": true,
+  "replace": "y response. Facilities will log the follow-up.",
+  "what": "add"
+ },
+ "confluence/airport-operations/baggage-trace-record-field-annotation-standard.json": {
+  "doc": "docs/confluence/airport-operations/baggage-trace-record-field-annotation-standard.json",
+  "find": "026-04-22 14:10 / claim f",
+  "kind": "number",
+  "ok": true,
+  "replace": "026-04-22 14:00 / claim f",
+  "what": "time: 14:10 -> 14:00"
+ },
+ "confluence/airport-operations/irregular-operations-workload-bookmarking-guide.json": {
+  "doc": "docs/confluence/airport-operations/irregular-operations-workload-bookmarking-guide.json",
+  "find": "ONFIRMED: 14:20 local. BL",
+  "kind": "number",
+  "ok": true,
+  "replace": "ONFIRMED: 13:40 local. BL",
+  "what": "time: 14:20 -> 13:40"
+ },
+ "confluence/airport-operations/operational-status-marking-standard.json": {
+  "doc": "docs/confluence/airport-operations/operational-status-marking-standard.json",
+  "find": "14:18 NETWORK P",
+  "kind": "number",
+  "ok": true,
+  "replace": "14:48 NETWORK P",
+  "what": "time: 14:18 -> 14:48"
+ },
+ "confluence/airport-operations/station-departure-milestone-ledger.json": {
+  "doc": "docs/confluence/airport-operations/station-departure-milestone-ledger.json",
+  "find": "te lead\n- 14:11 \u2014 Boardin",
+  "kind": "number",
+  "ok": true,
+  "replace": "te lead\n- 14:51 \u2014 Boardin",
+  "what": "time: 14:11 -> 14:51"
+ },
+ "confluence/airport-operations/station-shift-narrative-capture-guide.json": {
+  "doc": "docs/confluence/airport-operations/station-shift-narrative-capture-guide.json",
+  "find": "Example: \u201c07:40, departur",
+  "kind": "number",
+  "ok": true,
+  "replace": "Example: \u201c08:05, departur",
+  "what": "time: 07:40 -> 08:05"
+ },
+ "confluence/customer-policies/baggage/duplicate-booking-record-ownership-handoff-checklist.json": {
+  "doc": "docs/confluence/customer-policies/baggage/duplicate-booking-record-ownership-handoff-checklist.json",
+  "find": "ument the $141 seat upgr",
+  "kind": "dollar",
+  "ok": true,
+  "replace": "ument the $159 seat upgr",
+  "what": "dollar: $141 -> $159"
+ },
+ "confluence/customer-policies/cancellations-and-refunds/after-cancellation-request-status-explainer.json": {
+  "doc": "docs/confluence/customer-policies/cancellations-and-refunds/after-cancellation-request-status-explainer.json",
+  "find": " the agent.",
+  "kind": "add",
+  "ok": true,
+  "replace": " the agent. Operations will follow up with the airport team, and the agent note has been saved in the case history for reference.",
+  "what": "add"
+ },
+ "confluence/customer-policies/cancellations-and-refunds/cancellation-contact-language-routing-guide.json": {
+  "doc": "docs/confluence/customer-policies/cancellations-and-refunds/cancellation-contact-language-routing-guide.json",
+  "find": "here known.",
+  "kind": "add",
+  "ok": true,
+  "replace": "here known. Support will note the outreach in the case.",
+  "what": "add"
+ },
+ "confluence/customer-policies/delays-and-disruptions/disruption-conversation-stoplight-guide.json": {
+  "doc": "docs/confluence/customer-policies/delays-and-disruptions/disruption-conversation-stoplight-guide.json",
+  "find": " settled. Do not leave a customer in Amber without documenting the question that remains open. When a ca",
+  "kind": "wording",
+  "ok": true,
+  "replace": " settled. Do not leave a customer in Amber without noting the question that remains open. When a ca",
+  "what": "wording"
+ },
+ "confluence/customer-policies/delays-and-disruptions/information-confidence-notes-for-interrupted-trips.json": {
+  "doc": "docs/confluence/customer-policies/delays-and-disruptions/information-confidence-notes-for-interrupted-trips.json",
+  "find": "ext step. I can explain what is visible now and note the question that still needs an answer.",
+  "kind": "wording",
+  "ok": true,
+  "replace": "ext step. I can summarize what is currently visible and flag the question that still needs a response.",
+  "what": "wording"
+ },
+ "confluence/customer-policies/delays-and-disruptions/post-event-customer-journey-annotation-guide.json": {
+  "doc": "docs/confluence/customer-policies/delays-and-disruptions/post-event-customer-journey-annotation-guide.json",
+  "find": " summary. It is for support agents reviewing a case, not for composing a live disruption announcement.",
+  "kind": "wording_big",
+  "ok": true,
+  "replace": " summary. This guidance is for Customer Support agents reviewing a case, not for drafting a live disruption notice.",
+  "what": "wording"
+ },
+ "confluence/customer-policies/loyalty/miles-account-and-passenger-record-guide.json": {
+  "doc": "docs/confluence/customer-policies/loyalty/miles-account-and-passenger-record-guide.json",
+  "find": "State whether the contact concerned the loyalty account, the booking, or both.",
+  "kind": "wording_big",
+  "ok": true,
+  "replace": "Indicate whether the case relates to the SkyMiles profile, the reservation, or both.",
+  "what": "wording"
+ },
+ "confluence/customer-policies/loyalty/miles-account-recovery-conversation-map.json": {
+  "doc": "docs/confluence/customer-policies/loyalty/miles-account-recovery-conversation-map.json",
+  "find": " account. Do not request a full payment-card number or ask the customer to disclose a password.",
+  "kind": "wording",
+  "ok": true,
+  "replace": " account. Do not ask for a full payment-card number or have the customer disclose a password.",
+  "what": "wording"
+ },
+ "confluence/customer-policies/loyalty/miles-case-handoff-brief.json": {
+  "doc": "docs/confluence/customer-policies/loyalty/miles-case-handoff-brief.json",
+  "find": "the conversation.",
+  "kind": "add",
+  "ok": true,
+  "replace": "the conversation. The station supervisor will document the outcome in Ops Notes.",
+  "what": "add"
+ },
+ "confluence/customer-policies/special-assistance/accessibility-service-desk-whiteboard-coding-method.json": {
+  "doc": "docs/confluence/customer-policies/special-assistance/accessibility-service-desk-whiteboard-coding-method.json",
+  "find": "sy periods.",
+  "kind": "add",
+  "ok": true,
+  "replace": "sy periods. Maya will add the note to the shift log.",
+  "what": "add"
+ },
+ "confluence/customer-policies/special-assistance/accessible-assistance-acoustic-cue-landmark-procedure.json": {
+  "doc": "docs/confluence/customer-policies/special-assistance/accessible-assistance-acoustic-cue-landmark-procedure.json",
+  "find": "Write the destination in plain language, using the airport\u2019s public-facing name rather than an internal abbreviation.",
+  "kind": "wording_big",
+  "ok": true,
+  "replace": "In the customer-facing field, enter the destination using the airport\u2019s public name instead of the internal code.",
+  "what": "wording"
+ },
+ "confluence/customer-policies/special-assistance/accessible-assistance-lost-contact-search-protocol.json": {
+  "doc": "docs/confluence/customer-policies/special-assistance/accessible-assistance-lost-contact-search-protocol.json",
+  "find": "ase record.",
+  "kind": "add",
+  "ok": true,
+  "replace": "ase record. The station support lead will follow up with the customer, and the coordinator\u2019s contact details are recorded in the case notes.",
+  "what": "add"
+ },
+ "confluence/customer-policies/special-assistance/accessible-assistance-request-signal-integrity-checklist.json": {
+  "doc": "docs/confluence/customer-policies/special-assistance/accessible-assistance-request-signal-integrity-checklist.json",
+  "find": "Both teams confirm who is responsible for the next contact rather than assuming that a queue or system status assigns ownership.",
+  "kind": "wording_big",
+  "ok": true,
+  "replace": "Before closing the handoff, Support and Operations confirm which team owns the next customer contact instead of relying on the queue or system status.",
+  "what": "wording"
+ },
+ "confluence/customer-policies/special-assistance/accessible-corridor-congestion-mitigation-guide.json": {
+  "doc": "docs/confluence/customer-policies/special-assistance/accessible-corridor-congestion-mitigation-guide.json",
+  "find": "estination.",
+  "kind": "add",
+  "ok": true,
+  "replace": "estination. The station lead is following up with the crew, and the updated guidance has been saved in the local training notes for future reference.",
+  "what": "add"
+ },
+ "confluence/customer-policies/special-assistance/accessible-service-recovery-listening-circle-facilitator-guide.json": {
+  "doc": "docs/confluence/customer-policies/special-assistance/accessible-service-recovery-listening-circle-facilitator-guide.json",
+  "find": "its writer.",
+  "kind": "add",
+  "ok": true,
+  "replace": "its writer. Casey will consolidate the themes in the team workspace and share the follow-up notes with Support Operations after the session.",
+  "what": "add"
+ },
+ "confluence/customer-policies/special-assistance/accessible-service-route-sketching-workshop.json": {
+  "doc": "docs/confluence/customer-policies/special-assistance/accessible-service-route-sketching-workshop.json",
+  "find": "Do not leave the receiving colleague to infer whether the passenger is still waiting, already moving, or ready for the next service point.",
+  "kind": "wording_big",
+  "ok": true,
+  "replace": "In the handoff notes, state whether the passenger is waiting, en route, or ready for the next service team so the receiving colleague does not have to guess.",
+  "what": "wording"
+ },
+ "confluence/customer-policies/special-assistance/accessible-travel-disruption-coordination-notes.json": {
+  "doc": "docs/confluence/customer-policies/special-assistance/accessible-travel-disruption-coordination-notes.json",
+  "find": "ext flight.",
+  "kind": "add",
+  "ok": true,
+  "replace": "ext flight. The gate lead is documenting the handoff in the station log and will update the inbound crew once the customer\u2019s rebooking is confirmed.",
+  "what": "add"
+ },
+ "confluence/customer-policies/special-assistance/airport-assistance-supply-staging-and-return-sweep.json": {
+  "doc": "docs/confluence/customer-policies/special-assistance/airport-assistance-supply-staging-and-return-sweep.json",
+  "find": "s recorded.",
+  "kind": "add",
+  "ok": true,
+  "replace": "s recorded. Operations is following up; note saved in Confluence.",
+  "what": "add"
+ },
+ "confluence/customer-policies/special-assistance/assistance-signal-to-record-guide.json": {
+  "doc": "docs/confluence/customer-policies/special-assistance/assistance-signal-to-record-guide.json",
+  "find": "cted information.",
+  "kind": "add",
+  "ok": true,
+  "replace": "cted information. Customer Care will follow up.",
+  "what": "add"
+ },
+ "confluence/customer-policies/special-assistance/communication-aid-handoff-for-accessible-assistance.json": {
+  "doc": "docs/confluence/customer-policies/special-assistance/communication-aid-handoff-for-accessible-assistance.json",
+  "find": "ellishment.",
+  "kind": "add",
+  "ok": true,
+  "replace": "ellishment. Operations has logged the crew comments in the disruption notes, and Customer Care will review them with station leadership before responding directly to the team.",
+  "what": "add"
+ },
+ "confluence/customer-policies/special-assistance/mobility-assistance-route-rehearsal-session.json": {
+  "doc": "docs/confluence/customer-policies/special-assistance/mobility-assistance-route-rehearsal-session.json",
+  "find": "gue leaves.",
+  "kind": "add",
+  "ok": true,
+  "replace": "gue leaves. Receiving agent records the handoff in the case.",
+  "what": "add"
+ },
+ "confluence/customer-policies/special-assistance/special-assistance-conversation-annotation-guide.json": {
+  "doc": "docs/confluence/customer-policies/special-assistance/special-assistance-conversation-annotation-guide.json",
+  "find": "ge request.",
+  "kind": "add",
+  "ok": true,
+  "replace": "ge request. Station support will follow up and note the request.",
+  "what": "add"
+ },
+ "confluence/customer-policies/special-assistance/special-assistance-request-language.json": {
+  "doc": "docs/confluence/customer-policies/special-assistance/special-assistance-request-language.json",
+  "find": "Capture the requested airport touchpoint in everyday language, such as help from the entrance, through the terminal, to the aircraft door, or with boarding.",
+  "kind": "wording",
+  "ok": true,
+  "replace": "Describe the requested airport assistance in plain language, such as support from the terminal entrance to the gate, aircraft door, or during boarding.",
+  "what": "wording"
+ },
+ "confluence/customer-policies/special-assistance/terminal-mobility-rest-point-coordination-guide.json": {
+  "doc": "docs/confluence/customer-policies/special-assistance/terminal-mobility-rest-point-coordination-guide.json",
+  "find": "eir view.\n\u2022 If the preferred area is occupied, explain the available alternatives before relocating the traveler.",
+  "kind": "wording_big",
+  "ok": true,
+  "replace": "eir view.\nBefore moving the traveler, walk them through the available seating alternatives if their preferred area is occupied.",
+  "what": "wording"
+ },
+ "confluence/digital/baggage-recovery-voice-menu-pilot-plan.json": {
+  "doc": "docs/confluence/digital/baggage-recovery-voice-menu-pilot-plan.json",
+  "find": "Phase 4 \u2014 Decisio",
+  "kind": "number",
+  "ok": true,
+  "replace": "Phase 3 \u2014 Decisio",
+  "what": "count: 4 -> 3"
+ },
+ "confluence/digital/checking-identity-synchronisation-team-transfer.json": {
+  "doc": "docs/confluence/digital/checking-identity-synchronisation-team-transfer.json",
+  "find": "ications. A successful directory state with the new department usually indicates that the source record is correct. A pending",
+  "kind": "wording_big",
+  "ok": true,
+  "replace": "ications. If the directory shows the new department, the source record is usually correct. A pending",
+  "what": "wording"
+ },
+ "confluence/digital/reassigning-browser-certificate-replacement-terminal.json": {
+  "doc": "docs/confluence/digital/reassigning-browser-certificate-replacement-terminal.json",
+  "find": "Select the shared-operations certificate profile and enter the work area exactly as it appears on the device record.",
+  "kind": "wording",
+  "ok": true,
+  "replace": "Choose the shared Operations certificate profile, then enter the workspace exactly as listed in the device record.",
+  "what": "wording"
+ },
+ "confluence/digital/submitting-service-portal-diagnostic-bundle.json": {
+  "doc": "docs/confluence/digital/submitting-service-portal-diagnostic-bundle.json",
+  "find": "d, around 09:20 local tim",
+  "kind": "number",
+  "ok": true,
+  "replace": "d, around 09:50 local tim",
+  "what": "time: 09:20 -> 09:50"
+ },
+ "confluence/finance/card-dispute-evidence-routing.json": {
+  "doc": "docs/confluence/finance/card-dispute-evidence-routing.json",
+  "find": "ing review.",
+  "kind": "add",
+  "ok": true,
+  "replace": "ing review. Revenue Support added the reconciliation note to the shared case record, and Accounting Operations will confirm the posting status with the station team.",
+  "what": "add"
+ },
+ "confluence/policy-and-compliance/change-log/policy-signal-triage-record.json": {
+  "doc": "docs/confluence/policy-and-compliance/change-log/policy-signal-triage-record.json",
+  "find": "2026-03-18 \u2014 Support",
+  "kind": "number",
+  "ok": true,
+  "replace": "2026-03-19 \u2014 Support",
+  "what": "iso: 2026-03-18 -> 2026-03-19"
+ },
+ "confluence/support-playbooks/approvals-and-limits/disruption-desk-readiness-huddle-review.json": {
+  "doc": "docs/confluence/support-playbooks/approvals-and-limits/disruption-desk-readiness-huddle-review.json",
+  "find": "the first 30 calendar ",
+  "kind": "number",
+  "ok": true,
+  "replace": "the first 33 calendar ",
+  "what": "count: 30 -> 33"
+ },
+ "confluence/support-playbooks/approvals-and-limits/exception-record-quality-calibration.json": {
+  "doc": "docs/confluence/support-playbooks/approvals-and-limits/exception-record-quality-calibration.json",
+  "find": "ners. The $773 training ",
+  "kind": "dollar",
+  "ok": true,
+  "replace": "ners. The $696 training ",
+  "what": "dollar: $773 -> $696"
+ },
+ "confluence/support-playbooks/case-handling/disruption-desk-replay-clinic.json": {
+  "doc": "docs/confluence/support-playbooks/case-handling/disruption-desk-replay-clinic.json",
+  "find": "unt has a $225 spending ",
+  "kind": "dollar",
+  "ok": true,
+  "replace": "unt has a $232 spending ",
+  "what": "dollar: $225 -> $232"
+ },
+ "confluence/support-playbooks/case-handling/frontline-back-office-case-packet-assembly.json": {
+  "doc": "docs/confluence/support-playbooks/case-handling/frontline-back-office-case-packet-assembly.json",
+  "find": "t shows a $147.95 seat upgr",
+  "kind": "dollar",
+  "ok": true,
+  "replace": "t shows a $155.27 seat upgr",
+  "what": "dollar: $147.95 -> $155.27"
+ },
+ "confluence/support-playbooks/case-handling/refund-dashboard-lineage-walkthrough.json": {
+  "doc": "docs/confluence/support-playbooks/case-handling/refund-dashboard-lineage-walkthrough.json",
+  "find": "ank shows $339.69 as a pend",
+  "kind": "dollar",
+  "ok": true,
+  "replace": "ank shows $350.13 as a pend",
+  "what": "dollar: $339.69 -> $350.13"
+ },
+ "confluence/support-playbooks/case-handling/refund-status-message-quality-review.json": {
+  "doc": "docs/confluence/support-playbooks/case-handling/refund-status-message-quality-review.json",
+  "find": "about the $2,082 total and",
+  "kind": "dollar",
+  "ok": true,
+  "replace": "about the $2,291 total and",
+  "what": "dollar: $2,082 -> $2,291"
+ },
+ "confluence/support-playbooks/case-handling/support-knowledge-replay-room-procedure.json": {
+  "doc": "docs/confluence/support-playbooks/case-handling/support-knowledge-replay-room-procedure.json",
+  "find": "ifies the $2,101 deposit f",
+  "kind": "dollar",
+  "ok": true,
+  "replace": "ifies the $2,278 deposit f",
+  "what": "dollar: $2,101 -> $2,278"
+ },
+ "confluence/support-playbooks/escalation/disruption-intent-routing-atlas.json": {
+  "doc": "docs/confluence/support-playbooks/escalation/disruption-intent-routing-atlas.json",
+  "find": "et dates; 6) decide w",
+  "kind": "number",
+  "ok": true,
+  "replace": "et dates; 8) decide w",
+  "what": "count: 6 -> 8"
+ },
+ "confluence/support-playbooks/escalation/loyalty-context-conversation-guide.json": {
+  "doc": "docs/confluence/support-playbooks/escalation/loyalty-context-conversation-guide.json",
+  "find": "omer paid $354 for the b",
+  "kind": "dollar",
+  "ok": true,
+  "replace": "omer paid $355 for the b",
+  "what": "dollar: $354 -> $355"
+ },
+ "confluence/support-playbooks/templates/content-custodian-pairing-session-kit.json": {
+  "doc": "docs/confluence/support-playbooks/templates/content-custodian-pairing-session-kit.json",
+  "find": "nds?\n\n### 33\u201338 minute",
+  "kind": "number",
+  "ok": true,
+  "replace": "nds?\n\n### 31\u201338 minute",
+  "what": "count: 33 -> 31"
+ },
+ "confluence/support-playbooks/templates/cross-channel-thread-stitching-notebook.json": {
+  "doc": "docs/confluence/support-playbooks/templates/cross-channel-thread-stitching-notebook.json",
+  "find": " limit is $500 for a sin",
+  "kind": "dollar",
+  "ok": true,
+  "replace": " limit is $530 for a sin",
+  "what": "dollar: $500 -> $530"
+ },
+ "confluence/support-playbooks/templates/local-time-message-assembly-guide.json": {
+  "doc": "docs/confluence/support-playbooks/templates/local-time-message-assembly-guide.json",
+  "find": "refers to Raleigh-Durham International Airport on April 25. The time shown is local to Raleigh-Durham.",
+  "kind": "number_phrase",
+  "ok": true,
+  "replace": "refers to Raleigh-Durham International Airport on April 23. The displayed time is local to Raleigh-Durham.",
+  "what": "number_phrase: April 25 -> April 23"
+ },
+ "confluence/support-playbooks/templates/refund-service-measurement-annotation-kit.json": {
+  "doc": "docs/confluence/support-playbooks/templates/refund-service-measurement-annotation-kit.json",
+  "find": "ence. For a customer chat transferred at 14:20 after the customer mentioned travel credit, r",
+  "kind": "number_phrase",
+  "ok": true,
+  "replace": "ence. For a customer chat was transferred at 14:10 after the customer mentioned travel credit, r",
+  "what": "number_phrase: 14:20 -> 14:10"
+ },
+ "slack/airport-ops/b6-overflow-lane-arrivals-desk-transfer.json": {
+  "doc": "docs/slack/airport-ops/b6-overflow-lane-arrivals-desk-transfer.json",
+  "find": ". I count 18 in the qu",
+  "kind": "number",
+  "ok": true,
+  "replace": ". I count 19 in the qu",
+  "what": "count: 18 -> 19"
+ },
+ "slack/airport-ops/bna-afternoon-podium-relief-sequence.json": {
+  "doc": "docs/slack/airport-ops/bna-afternoon-podium-relief-sequence.json",
+  "find": "urns, the pinch is between the 14:10 and 15:05 departures. We have two agents moving fr",
+  "kind": "number_phrase",
+  "ok": true,
+  "replace": "urns, the The pinch point is between the 14:10 and 15:10 departures. We have two agents moving fr",
+  "what": "number_phrase: 15:05 -> 15:10"
+ },
+ "slack/airport-ops/bna-aisle-chair-brake-and-transfer-board-inspection.json": {
+  "doc": "docs/slack/airport-ops/bna-aisle-chair-brake-and-transfer-board-inspection.json",
+  "find": "on it and restored it to the C-concourse kit. C7 has the spare back on the cart for the n",
+  "kind": "number_phrase",
+  "ok": true,
+  "replace": "on it and returned it to the C-concourse kit. C9 has the spare back on the cart for the n",
+  "what": "number_phrase: C7 -> C9"
+ },
+ "slack/airport-ops/bna-bridge-plate-sensor-and-aisle-chair-relay.json": {
+  "doc": "docs/slack/airport-ops/bna-bridge-plate-sensor-and-aisle-chair-relay.json",
+  "find": "he bridge plate sensor is flickering at C7. The bridge is usable for walking passenger",
+  "kind": "number_phrase",
+  "ok": true,
+  "replace": "he bridge plate sensor is intermittent at C11. The bridge remains usable for walking passenger",
+  "what": "number_phrase: C7 -> C11"
+ },
+ "slack/airport-ops/c21-paper-strip-callboard-and-arrival-desk-relay.json": {
+  "doc": "docs/slack/airport-ops/c21-paper-strip-callboard-and-arrival-desk-relay.json",
+  "find": " 4:42 PM: C21 is boardi",
+  "kind": "number",
+  "ok": true,
+  "replace": " 4:42 PM: C20 is boardi",
+  "what": "gate: C21 -> C20"
+ },
+ "slack/airport-ops/document-desk-radio-handoff-gate-relocation.json": {
+  "doc": "docs/slack/airport-ops/document-desk-radio-handoff-gate-relocation.json",
+  "find": "family to C11 and left ",
+  "kind": "number",
+  "ok": true,
+  "replace": "family to C15 and left ",
+  "what": "gate: C11 -> C15"
+ },
+ "slack/airport-ops/gate-18-podium-radio-shadow-arrival-desk-relay.json": {
+  "doc": "docs/slack/airport-ops/gate-18-podium-radio-shadow-arrival-desk-relay.json",
+  "find": "m at Gate 16 with the ",
+  "kind": "number",
+  "ok": true,
+  "replace": "m at Gate 15 with the ",
+  "what": "count: 16 -> 15"
+ },
+ "slack/airport-ops/jetbridge-key-cabinet-opening-count.json": {
+  "doc": "docs/slack/airport-ops/jetbridge-key-cabinet-opening-count.json",
+  "find": ": cabinet 3 at the ea",
+  "kind": "number",
+  "ok": true,
+  "replace": ": cabinet 6 at the ea",
+  "what": "count: 3 -> 6"
+ },
+ "slack/airport-ops/overnight-station-kit-and-relief-roster-check.json": {
+  "doc": "docs/slack/airport-ops/overnight-station-kit-and-relief-roster-check.json",
+  "find": "ion until 06:30. I\u2019ve res",
+  "kind": "number",
+  "ok": true,
+  "replace": "ion until 05:50. I\u2019ve res",
+  "what": "time: 06:30 -> 05:50"
+ },
+ "slack/airport-ops/quiet-zone-handoff-rehearsal-bna.json": {
+  "doc": "docs/slack/airport-ops/quiet-zone-handoff-rehearsal-bna.json",
+  "find": "eps away. I\u2019ll also check whether the queue stays visible to the remaining agent instead of everyone clustering around the service desk.",
+  "kind": "wording",
+  "ok": true,
+  "replace": "eps away. I\u2019ll also verify that the queue remains visible to the assigned agent rather than everyone gathering around the service desk.",
+  "what": "wording"
+ },
+ "slack/airport-ops/rdu-e2-clipboard-roll-call-jetbridge-door-watch.json": {
+  "doc": "docs/slack/airport-ops/rdu-e2-clipboard-roll-call-jetbridge-door-watch.json",
+  "find": "eet shows 83 boarded. ",
+  "kind": "number",
+  "ok": true,
+  "replace": "eet shows 82 boarded. ",
+  "what": "count: 83 -> 82"
+ },
+ "slack/airport-ops/rdu-late-afternoon-stand-release-and-service-lane-check.json": {
+  "doc": "docs/slack/airport-ops/rdu-late-afternoon-stand-release-and-service-lane-check.json",
+  "find": "6:44 \u2014 At C9. Queue is",
+  "kind": "number",
+  "ok": true,
+  "replace": "6:44 \u2014 At C13. Queue is",
+  "what": "gate: C9 -> C13"
+ },
+ "slack/airport-ops/split-concourse-final-cabin-tally.json": {
+  "doc": "docs/slack/airport-ops/split-concourse-final-cabin-tally.json",
+  "find": " 86, with 11 still in ",
+  "kind": "number",
+  "ok": true,
+  "replace": " 86, with 12 still in ",
+  "what": "count: 11 -> 12"
+ },
+ "slack/airport-ops/terminal-two-curbside-escort-for-far-gate-departures.json": {
+  "doc": "docs/slack/airport-ops/terminal-two-curbside-escort-for-far-gate-departures.json",
+  "find": "2 06:55 \u2014 I\u2019ll take the inner split at the escalator. We should",
+  "kind": "wording",
+  "ok": true,
+  "replace": "2 06:55 \u2014 I\u2019ll take the internal split at the escalator. We should",
+  "what": "wording"
+ },
+ "slack/baggage-desk/aircraft-cleaning-cart-found-bag-owner-match-thread.json": {
+  "doc": "docs/slack/baggage-desk/aircraft-cleaning-cart-found-bag-owner-match-thread.json",
+  "find": "d is ready.",
+  "kind": "add",
+  "ok": true,
+  "replace": "d is ready. Station leads are adding notes in each case.",
+  "what": "add"
+ },
+ "slack/baggage-desk/barcode-free-wheelchair-bag-relay-test.json": {
+  "doc": "docs/slack/baggage-desk/barcode-free-wheelchair-bag-relay-test.json",
+  "find": "ag history?",
+  "kind": "add",
+  "ok": true,
+  "replace": "ag history? Ops is checking bag history.",
+  "what": "add"
+ },
+ "slack/baggage-desk/concourse-b-claim-intake-pilot-notes.json": {
+  "doc": "docs/slack/baggage-desk/concourse-b-claim-intake-pilot-notes.json",
+  "find": "anks all. I marked this thread resolved for today and sent the four observations to the rollout group.",
+  "kind": "wording",
+  "ok": true,
+  "replace": "anks all. I marked this support thread as resolved for the day and forwarded the four observations to the rollout team.",
+  "what": "wording"
+ },
+ "slack/baggage-desk/garment-sleeve-seam-photo-linkage-review.json": {
+  "doc": "docs/slack/baggage-desk/garment-sleeve-seam-photo-linkage-review.json",
+  "find": "he claim. The passenger contact field stayed blank during that step.",
+  "kind": "wording_big",
+  "ok": true,
+  "replace": "he claim. The Contact Center did not populate the passenger contact field at that stage.",
+  "what": "wording"
+ },
+ "slack/baggage-desk/south-arrivals-acoustic-cue-floor-drill.json": {
+  "doc": "docs/slack/baggage-desk/south-arrivals-acoustic-cue-floor-drill.json",
+  "find": " PM: Yes. I can bring two spare headsets and set up the practice cases without touching live records. The promp",
+  "kind": "wording",
+  "ok": true,
+  "replace": " PM: Yes. I can bring two spare headsets and prepare the practice cases without accessing live records. The promp",
+  "what": "wording"
+ },
+ "slack/baggage-desk/voice-transcript-condition-note-recognition-check.json": {
+  "doc": "docs/slack/baggage-desk/voice-transcript-condition-note-recognition-check.json",
+  "find": " for now. Please don\u2019t delete the recording after correcting the text; the review team needs both to compare the output. I\u2019m colle",
+  "kind": "wording",
+  "ok": true,
+  "replace": " for now. Please don\u2019t delete the recording after updating the transcript; the QA review team needs both files to compare the output. I\u2019m colle",
+  "what": "wording"
+ },
+ "slack/digital-team/anonymous-session-handoff-cart-loss.json": {
+  "doc": "docs/slack/digital-team/anonymous-session-handoff-cart-loss.json",
+  "find": "min note: $750 is the li",
+  "kind": "dollar",
+  "ok": true,
+  "replace": "min note: $791 is the li",
+  "what": "dollar: $750 -> $791"
+ },
+ "slack/digital-team/baggage-claim-language-switcher-state-review.json": {
+  "doc": "docs/slack/digital-team/baggage-claim-language-switcher-state-review.json",
+  "find": "t vanished.",
+  "kind": "add",
+  "ok": true,
+  "replace": "t vanished. Support saved a case note.",
+  "what": "add"
+ },
+ "slack/digital-team/claim-retry-idempotency-recovery.json": {
+  "doc": "docs/slack/digital-team/claim-retry-idempotency-recovery.json",
+  "find": "n Android 13 and 14 ph",
+  "kind": "number",
+  "ok": true,
+  "replace": "n Android 16 and 14 ph",
+  "what": "count: 13 -> 16"
+ },
+ "slack/digital-team/conversion-dip-after-itinerary-edit-instrumentation-launch.json": {
+  "doc": "docs/slack/digital-team/conversion-dip-after-itinerary-edit-instrumentation-launch.json",
+  "find": "g Safari. I am closing the alert investigation and leaving the release follow-up open for the final device check.",
+  "kind": "wording_big",
+  "ok": true,
+  "replace": "g Safari. I\u2019m closing the alert review and keeping the release follow-up open with Airport Systems for the final device verification.",
+  "what": "wording"
+ },
+ "slack/digital-team/departure-window-timezone-mismatch-in-agent-console.json": {
+  "doc": "docs/slack/digital-team/departure-window-timezone-mismatch-in-agent-console.json",
+  "find": "while the preview says the message will go at 17:40 for a customer whose profile is set to At",
+  "kind": "number_phrase",
+  "ok": true,
+  "replace": "while the preview indicates the message will go at 17:30 for a customer whose profile is set to At",
+  "what": "number_phrase: 17:40 -> 17:30"
+ },
+ "slack/digital-team/qr-boarding-pass-share-sheet-release-room.json": {
+  "doc": "docs/slack/digital-team/qr-boarding-pass-share-sheet-release-room.json",
+  "find": "e for iOS 17 and iOS 1",
+  "kind": "number",
+  "ok": true,
+  "replace": "e for iOS 18 and iOS 1",
+  "what": "count: 17 -> 18"
+ },
+ "slack/finance-ops/airport-sale-to-support-trail-walkthrough.json": {
+  "doc": "docs/slack/finance-ops/airport-sale-to-support-trail-walkthrough.json",
+  "find": "purchase? The station team keeps asking why those two trails look different even when the customer-facing receipt is fine.",
+  "kind": "wording",
+  "ok": true,
+  "replace": "purchase? The station team keeps asking why the Ops Console and CRM trails look different even when the customer-facing receipt is correct.",
+  "what": "wording"
+ },
+ "slack/finance-ops/morning-exception-cart-ledger-pairing.json": {
+  "doc": "docs/slack/finance-ops/morning-exception-cart-ledger-pairing.json",
+  "find": " 11 clean cases back in the support queue, 7 waiting on Finance tracing, and the rest ",
+  "kind": "number_phrase",
+  "ok": true,
+  "replace": " 11 clean cases back in the support queue, with 5 awaiting Finance tracing, and the rest ",
+  "what": "number_phrase: 7 -> 5"
+ },
+ "slack/finance-ops/one-purchase-four-windows-cross-team-trace.json": {
+  "doc": "docs/slack/finance-ops/one-purchase-four-windows-cross-team-trace.json",
+  "find": "ood idea. The confusing bit is that the kiosk view calls it a completed sale while the finance extract has several event rows before the close marker. People ke",
+  "kind": "wording",
+  "ok": true,
+  "replace": "ood idea. The confusing part is that the kiosk view calls it a completed sale while the finance export has several event rows before the close marker. People ke",
+  "what": "wording"
+ },
+ "slack/finance-ops/partner-remittance-attachment-callback-gap.json": {
+  "doc": "docs/slack/finance-ops/partner-remittance-attachment-callback-gap.json",
+  "find": "t 14:34 \u2014 Saved the message as an evidence pair in the close workspace. I also co",
+  "kind": "wording",
+  "ok": true,
+  "replace": "t 14:34 \u2014 Stored the message as part of the evidence pair in the Closure workspace. I also co",
+  "what": "wording"
+ },
+ "slack/finance-ops/purple-notebook-payment-intake-experiment.json": {
+  "doc": "docs/slack/finance-ops/purple-notebook-payment-intake-experiment.json",
+  "find": "pass from 3 to 5. I\u2019l",
+  "kind": "number",
+  "ok": true,
+  "replace": "pass from 6 to 5. I\u2019l",
+  "what": "count: 3 -> 6"
+ },
+ "slack/finance-ops/refund-desk-observer-rehearsal-payment-trail.json": {
+  "doc": "docs/slack/finance-ops/refund-desk-observer-rehearsal-payment-trail.json",
+  "find": "kthrough. I\u2019ll leave the observation note open for edits until tomorrow morning.",
+  "kind": "wording",
+  "ok": true,
+  "replace": "kthrough. I\u2019ll keep the observation note open for edits until tomorrow morning.",
+  "what": "wording"
+ },
+ "slack/finance-ops/saturday-payment-exception-desk-coverage-experiment.json": {
+  "doc": "docs/slack/finance-ops/saturday-payment-exception-desk-coverage-experiment.json",
+  "find": "view from 10 to 2 and ",
+  "kind": "number",
+  "ok": true,
+  "replace": "view from 8 to 2 and ",
+  "what": "count: 10 -> 8"
+ },
+ "slack/finance-ops/sunday-reporting-handoff-arrival-window.json": {
+  "doc": "docs/slack/finance-ops/sunday-reporting-handoff-arrival-window.json",
+  "find": "finished. No customer-facing action is needed; this is just to give Finance a useful timestamp.",
+  "kind": "wording",
+  "ok": true,
+  "replace": "finished. No customer-facing action is needed; this simply gives the Finance team a useful timestamp.",
+  "what": "wording"
+ },
+ "slack/irregular-ops/aircraft-sequence-integrity-workbench.json": {
+  "doc": "docs/slack/irregular-ops/aircraft-sequence-integrity-workbench.json",
+  "find": "aking the 06:00 network-c",
+  "kind": "number",
+  "ok": true,
+  "replace": "aking the 06:40 network-c",
+  "what": "time: 06:00 -> 06:40"
+ },
+ "slack/irregular-ops/river-valley-observation-gap-and-station-check-in.json": {
+  "doc": "docs/slack/irregular-ops/river-valley-observation-gap-and-station-check-in.json",
+  "find": "pdate for the two fields was just before 08:40 local. The direct station pages are still",
+  "kind": "number_phrase",
+  "ok": true,
+  "replace": "pdate for the two fields were updated just before 09:10 local. The direct station pages are still",
+  "what": "number_phrase: 08:40 -> 09:10"
+ },
+ "slack/loyalty-team/overnight-station-date-reconciliation.json": {
+  "doc": "docs/slack/loyalty-team/overnight-station-date-reconciliation.json",
+  "find": "atch says Apr 20 in the fi",
+  "kind": "number",
+  "ok": true,
+  "replace": "atch says Apr 19 in the fi",
+  "what": "monthday: Apr 20 -> Apr 19"
+ },
+ "slack/loyalty-team/rail-activity-header-quarantine-review.json": {
+  "doc": "docs/slack/loyalty-team/rail-activity-header-quarantine-review.json",
+  "find": "load left 184 records i",
+  "kind": "number",
+  "ok": true,
+  "replace": "load left 185 records i",
+  "what": "noun_count: 184 -> 185"
+ },
+ "slack/policy-updates/release-librarian-weekend-coverage-check.json": {
+  "doc": "docs/slack/policy-updates/release-librarian-weekend-coverage-check.json",
+  "find": " Perfect. I\u2019ll post the publication confirmation here once the approval trail is complete, then Zachary owns the morning watch and Caleb owns the afternoon handoff. Let\u2019s kee",
+  "kind": "wording",
+  "ok": true,
+  "replace": " Perfect. I\u2019ll post the publication confirmation here once the approval trail is complete, then Zachary owns the morning coverage and Caleb owns the afternoon handoff. Let\u2019s kee",
+  "what": "wording"
+ },
+ "slack/policy-updates/spanish-card-print-profile-check.json": {
+  "doc": "docs/slack/policy-updates/spanish-card-print-profile-check.json",
+  "find": " at desks 2 and 4. De",
+  "kind": "number",
+  "ok": true,
+  "replace": " at desks 3 and 4. De",
+  "what": "count: 2 -> 3"
+ },
+ "slack/refunds-desk/ageing-dashboard-colour-key-notes.json": {
+  "doc": "docs/slack/refunds-desk/ageing-dashboard-colour-key-notes.json",
+  "find": " trip was $162.69. That lin",
+  "kind": "dollar",
+  "ok": true,
+  "replace": " trip was $185.14. That lin",
+  "what": "dollar: $162.69 -> $185.14"
+ },
+ "slack/refunds-desk/card-team-paperwork-and-case-history-notes.json": {
+  "doc": "docs/slack/refunds-desk/card-team-paperwork-and-case-history-notes.json",
+  "find": "ill shows $2,428 in the pl",
+  "kind": "dollar",
+  "ok": true,
+  "replace": "ill shows $2,787 in the pl",
+  "what": "dollar: $2,428 -> $2,787"
+ },
+ "slack/refunds-desk/long-weekend-inbox-handoff-follow-up.json": {
+  "doc": "docs/slack/refunds-desk/long-weekend-inbox-handoff-follow-up.json",
+  "find": "ewing the $1,778 software ",
+  "kind": "dollar",
+  "ok": true,
+  "replace": "ewing the $1,647 software ",
+  "what": "dollar: $1,778 -> $1,647"
+ },
+ "slack/refunds-desk/paper-strip-payment-trail-observation.json": {
+  "doc": "docs/slack/refunds-desk/paper-strip-payment-trail-observation.json",
+  "find": "d Hayes \u2014 Both, but in separate handwriting blocks. The first",
+  "kind": "wording",
+  "ok": true,
+  "replace": "d Hayes \u2014 Both, but in separate handwritten sections. The first",
+  "what": "wording"
+ },
+ "slack/refunds-desk/phone-contact-with-no-reference-question.json": {
+  "doc": "docs/slack/refunds-desk/phone-contact-with-no-reference-question.json",
+  "find": "viewing a $1,163 software ",
+  "kind": "dollar",
+  "ok": true,
+  "replace": "viewing a $1,175 software ",
+  "what": "dollar: $1,163 -> $1,175"
+ },
+ "slack/refunds-desk/portuguese-translation-for-rf-notes.json": {
+  "doc": "docs/slack/refunds-desk/portuguese-translation-for-rf-notes.json",
+  "find": "hecked at 09:46. That is ",
+  "kind": "number",
+  "ok": true,
+  "replace": "hecked at 09:21. That is ",
+  "what": "time: 09:46 -> 09:21"
+ },
+ "slack/refunds-desk/portuguese-translation-for-rf.json": {
+  "doc": "docs/slack/refunds-desk/portuguese-translation-for-rf.json",
+  "find": "5:25: The $2,044 training ",
+  "kind": "dollar",
+  "ok": true,
+  "replace": "5:25: The $2,068 training ",
+  "what": "dollar: $2,044 -> $2,068"
+ },
+ "slack/refunds-desk/reading-the-customer-bank-screenshot.json": {
+  "doc": "docs/slack/refunds-desk/reading-the-customer-bank-screenshot.json",
+  "find": "h 14:37 \u2014 $354 is the fa",
+  "kind": "dollar",
+  "ok": true,
+  "replace": "h 14:37 \u2014 $400 is the fa",
+  "what": "dollar: $354 -> $400"
+ },
+ "slack/refunds-desk/receipt-date-mismatch-on-br-7kq2.json": {
+  "doc": "docs/slack/refunds-desk/receipt-date-mismatch-on-br-7kq2.json",
+  "find": ". The May 12 row has a",
+  "kind": "number",
+  "ok": true,
+  "replace": ". The May 14 row has a",
+  "what": "noun_count: 12 -> 14"
+ },
+ "slack/refunds-desk/receipt-date-trace.json": {
+  "doc": "docs/slack/refunds-desk/receipt-date-trace.json",
+  "find": " Customer says the emailed receipt is dated June 18, while purchase activity appears under Jun",
+  "kind": "number_phrase",
+  "ok": true,
+  "replace": " Customer notes the emailed receipt is dated June 20, while the purchase activity appears under Jun",
+  "what": "number_phrase: June 18 -> June 20"
+ },
+ "slack/refunds-desk/refund-desk-whiteboard-tour-finance-visitors.json": {
+  "doc": "docs/slack/refunds-desk/refund-desk-whiteboard-tour-finance-visitors.json",
+  "find": "endar for 3:00. Do they ",
+  "kind": "number",
+  "ok": true,
+  "replace": "endar for 2:30. Do they ",
+  "what": "time: 3:00 -> 2:30"
+ },
+ "slack/refunds-desk/summarising-long-customer-emails.json": {
+  "doc": "docs/slack/refunds-desk/summarising-long-customer-emails.json",
+  "find": "spelling. That leaves a usable trail without pasting the email into the case.",
+  "kind": "wording",
+  "ok": true,
+  "replace": "spelling. This preserves a usable record in the case without copying the email content into it.",
+  "what": "wording"
+ },
+ "slack/refunds-desk/summarising-the-long-email-without-losing-the-trail.json": {
+  "doc": "docs/slack/refunds-desk/summarising-the-long-email-without-losing-the-trail.json",
+  "find": "eceipt as $134. That bel",
+  "kind": "dollar",
+  "ok": true,
+  "replace": "eceipt as $152. That bel",
+  "what": "dollar: $134 -> $152"
+ },
+ "slack/refunds-desk/summarizing-a-long-group-booking-email.json": {
+  "doc": "docs/slack/refunds-desk/summarizing-a-long-group-booking-email.json",
+  "find": " includes $1,072 for the b",
+  "kind": "dollar",
+  "ok": true,
+  "replace": " includes $1,134 for the b",
+  "what": "dollar: $1,072 -> $1,134"
+ },
+ "slack/refunds-desk/tag-drift-cleanup.json": {
+  "doc": "docs/slack/refunds-desk/tag-drift-cleanup.json",
+  "find": " total of $2,629, but that",
+  "kind": "dollar",
+  "ok": true,
+  "replace": " total of $2,919, but that",
+  "what": "dollar: $2,629 -> $2,919"
+ },
+ "slack/refunds-desk/three-same-day-contacts-under-separate-cases.json": {
+  "doc": "docs/slack/refunds-desk/three-same-day-contacts-under-separate-cases.json",
+  "find": "b form at 08:14, chat at ",
+  "kind": "number",
+  "ok": true,
+  "replace": "b form at 07:49, chat at ",
+  "what": "time: 08:14 -> 07:49"
+ },
+ "slack/support-policy-questions/callback-window-time-zone-confusion.json": {
+  "doc": "docs/slack/support-policy-questions/callback-window-time-zone-confusion.json",
+  "find": "dinner, 7\u20139 pm my tim",
+  "kind": "number",
+  "ok": true,
+  "replace": "dinner, 7\u20138 pm my tim",
+  "what": "count: 9 -> 8"
+ },
+ "slack/support-policy-questions/checked-in-traveler-removal-request.json": {
+  "doc": "docs/slack/support-policy-questions/checked-in-traveler-removal-request.json",
+  "find": "office is $250.",
+  "kind": "dollar",
+  "ok": true,
+  "replace": "office is $281.",
+  "what": "dollar: $250 -> $281"
+ },
+ "slack/support-policy-questions/partner-notification-subject-tier-privacy-review.json": {
+  "doc": "docs/slack/support-policy-questions/partner-notification-subject-tier-privacy-review.json",
+  "find": " 2:44 PM: I will ask Northstar to remove the label from subject lines while they investigate. Can someo",
+  "kind": "wording_big",
+  "ok": true,
+  "replace": " 2:44 PM: I\u2019ll ask the Northstar team to strip the label from subject lines while they investigate the issue. Can someo",
+  "what": "wording"
+ },
+ "slack/support-policy-questions/quiet-desk-annotation-pilot-and-branch-intake.json": {
+  "doc": "docs/slack/support-policy-questions/quiet-desk-annotation-pilot-and-branch-intake.json",
+  "find": "nt over a $913 invoice f",
+  "kind": "dollar",
+  "ok": true,
+  "replace": "nt over a $977 invoice f",
+  "what": "dollar: $913 -> $977"
+ },
+ "slack/support-policy-questions/same-day-duplicate-reservation-decision-support.json": {
+  "doc": "docs/slack/support-policy-questions/same-day-duplicate-reservation-decision-support.json",
+  "find": ": Got it. I will avoid describing one as the duplicate or assuming which payment was intended. I will re",
+  "kind": "wording",
+  "ok": true,
+  "replace": ": Got it. In the Payments queue, I\u2019ll refer to both charges neutrally rather than label either one a duplicate or infer the customer\u2019s intended payment. I will re",
+  "what": "wording"
+ },
+ "slack/support-policy-questions/saturday-card-replacement-payment-trail-pairing.json": {
+  "doc": "docs/slack/support-policy-questions/saturday-card-replacement-payment-trail-pairing.json",
+  "find": "nt token. I\u2019ve added the reference to the internal note and moved the case back to Andre for the customer response.",
+  "kind": "wording",
+  "ok": true,
+  "replace": "nt token. I\u2019ve linked the internal note and moved the case back to Andre for the customer response.",
+  "what": "wording"
+ },
+ "slack/support-team/handoff-map-workshop-split-channel-cases.json": {
+  "doc": "docs/slack/support-team/handoff-map-workshop-split-channel-cases.json",
+  "find": "ght right now. I\u2019ll keep the session at 30 minutes and post the coverage handoff b",
+  "kind": "number_phrase",
+  "ok": true,
+  "replace": "ght right now. I\u2019ll hold the session to 32 minutes and share the coverage handoff b",
+  "what": "number_phrase: 30 -> 32"
+ },
+ "slack/support-team/quiet-hour-calibration-callback-pod.json": {
+  "doc": "docs/slack/support-team/quiet-hour-calibration-callback-pod.json",
+  "find": "lab until 3:15, and Rona",
+  "kind": "number",
+  "ok": true,
+  "replace": "lab until 3:00, and Rona",
+  "what": "time: 3:15 -> 3:00"
+ },
+ "slack/support-team/thursday-case-weaving-room-for-stale-handoffs.json": {
+  "doc": "docs/slack/support-team/thursday-case-weaving-room-for-stale-handoffs.json",
+  "find": "t shows a $141 seat upgr",
+  "kind": "dollar",
+  "ok": true,
+  "replace": "t shows a $134 seat upgr",
+  "what": "dollar: $141 -> $134"
+ },
+ "slack/support-team/thursday-channel-passport-mentor-seats.json": {
+  "doc": "docs/slack/support-team/thursday-channel-passport-mentor-seats.json",
+  "find": "Returning the seat to the general pool at 15:00; leaving the card on the board until the",
+  "kind": "number_phrase",
+  "ok": true,
+  "replace": "Returning returning the seat to the general pool at 15:30; keeping the card on the board until the",
+  "what": "number_phrase: 15:00 -> 15:30"
+ },
+ "slack/support-team/tuesday-split-shift-relay-accessibility-callbacks.json": {
+  "doc": "docs/slack/support-team/tuesday-split-shift-relay-accessibility-callbacks.json",
+  "find": "m pulling Marcus into chat for the next 20 minutes and will cover the callback list whil",
+  "kind": "number_phrase",
+  "ok": true,
+  "replace": "m pulling Marcus is in chat for the next 18 minutes and will handle the callback. list whil",
+  "what": "number_phrase: 20 -> 18"
+ },
+ "slack/support-team/two-week-case-note-experiment.json": {
+  "doc": "docs/slack/support-team/two-week-case-note-experiment.json",
+  "find": "Jordan: That\u2019s the pattern I noticed too. The detai",
+  "kind": "wording",
+  "ok": true,
+  "replace": "Jordan: I noticed the same pattern too. The detai",
+  "what": "wording"
+ },
+ "slack/support-team/voice-to-text-coaching-clinic-sign-up.json": {
+  "doc": "docs/slack/support-team/voice-to-text-coaching-clinic-sign-up.json",
+  "find": " room for 45 minutes. ",
+  "kind": "number",
+  "ok": true,
+  "replace": " room for 46 minutes. ",
+  "what": "count: 45 -> 46"
+ },
+ "slack/support-team/wednesday-plain-language-skill-lab-and-email-relief.json": {
+  "doc": "docs/slack/support-team/wednesday-plain-language-skill-lab-and-email-relief.json",
+  "find": " already. I replaced \u201cyour request is being processed\u201d with a plain description of what I was checking and what the customer would hear next. The reply",
+  "kind": "wording",
+  "ok": true,
+  "replace": " already. I replaced \u201cyour request is being processed\u201d with a clear description of what I was checking in the support queue and what the customer would hear next. The reply",
+  "what": "wording"
+ }
+}

@@ -1,0 +1,362 @@
+{
+  "stage": 2,
+  "docs": {
+    "sources/confluence/policy-and-compliance/change-log/hotel-direct-limit-update.json": {
+      "plan_doc": "docs/confluence/policy-and-compliance/change-log/hotel-direct-limit-update.json",
+      "must_contain": [
+        "The direct hotel limit rises again, from $200 to $225.",
+        "This applies to every request handled from August 15, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s2-r10-log-1"
+    },
+    "sources/slack/policy-updates/hotel-handling-update-for-support-teams.json": {
+      "plan_doc": "docs/slack/policy-updates/hotel-handling-update-for-support-teams.json",
+      "must_contain": [
+        "From August 15 agents can pay hotels up to $225 a room without approval.",
+        "Up to $225 a night needs no approval.",
+        "Above $225, ask a supervisor to approve the room cost, up to $250.",
+        "This applies to every request handled from August 15, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s2-r10-slack-1"
+    },
+    "sources/slack/refunds-desk/hotel-request-handling-date-question.json": {
+      "plan_doc": "docs/slack/refunds-desk/hotel-request-handling-date-question.json",
+      "must_contain": [
+        "This applies to every request handled from August 15, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s2-r10-slack-1"
+    },
+    "sources/slack/support-policy-questions/supervisor-approval-for-disruption-hotel-room-cost.json": {
+      "plan_doc": "docs/slack/support-policy-questions/supervisor-approval-for-disruption-hotel-room-cost.json",
+      "must_contain": [
+        "Above $225, ask a supervisor to approve the room cost, up to $250."
+      ],
+      "trap": null,
+      "project": "skyway-s2-r10-slack-1"
+    },
+    "sources/slack/support-team/hotel-approval-question-during-disruption.json": {
+      "plan_doc": "docs/slack/support-team/hotel-approval-question-during-disruption.json",
+      "must_contain": [
+        "Up to $225 a night needs no approval."
+      ],
+      "trap": null,
+      "project": "skyway-s2-r10-slack-1"
+    },
+    "sources/confluence/customer-policies/delays-and-disruptions/disruption-compensation-phase.json": {
+      "plan_doc": "docs/confluence/customer-policies/delays-and-disruptions/disruption-compensation-phase.json",
+      "must_contain": [
+        "Phase 2 (Aug 12): $200 per travelling passenger."
+      ],
+      "trap": {
+        "for": "R12",
+        "why": "a lookalike or outdated page for this rule"
+      },
+      "project": "skyway-s2-r12-confluence-disruption-compensation-phase-1"
+    },
+    "sources/confluence/policy-and-compliance/change-log/compensation-update.json": {
+      "plan_doc": "docs/confluence/policy-and-compliance/change-log/compensation-update.json",
+      "must_contain": [
+        "Compensation rises from $150 to $175.",
+        "This applies to every request handled from August 15, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s2-r12-log-1"
+    },
+    "sources/slack/policy-updates/compensation-correction.json": {
+      "plan_doc": "docs/slack/policy-updates/compensation-correction.json",
+      "must_contain": [
+        "Correction (Aug 14): the phase-2 amount is $175, not $200.",
+        "$175 per passenger who travelled"
+      ],
+      "trap": null,
+      "project": "skyway-s2-r12-slack-1"
+    },
+    "sources/slack/refunds-desk/disruption-case-wording-check.json": {
+      "plan_doc": "docs/slack/refunds-desk/disruption-case-wording-check.json",
+      "must_contain": [
+        "$175 per passenger who travelled"
+      ],
+      "trap": null,
+      "project": "skyway-s2-r12-slack-1"
+    },
+    "sources/slack/support-policy-questions/passenger-count-wording-for-disruption-case.json": {
+      "plan_doc": "docs/slack/support-policy-questions/passenger-count-wording-for-disruption-case.json",
+      "must_contain": [
+        "$175 per passenger who travelled"
+      ],
+      "trap": null,
+      "project": "skyway-s2-r12-slack-1"
+    },
+    "sources/slack/support-team/disruption-case-wording-check.json": {
+      "plan_doc": "docs/slack/support-team/disruption-case-wording-check.json",
+      "must_contain": [
+        "$175 per passenger who travelled"
+      ],
+      "trap": null,
+      "project": "skyway-s2-r12-slack-1"
+    },
+    "sources/confluence/customer-policies/delays-and-disruptions/ground-transport.json": {
+      "plan_doc": "docs/confluence/customer-policies/delays-and-disruptions/ground-transport.json",
+      "must_contain": [
+        "Taxis to and from the hotel are covered on an overnight that is on us.",
+        "only for an overnight that is on us",
+        "to and from the hotel"
+      ],
+      "trap": null,
+      "project": "skyway-s2-r26-confluence-1"
+    },
+    "sources/confluence/policy-and-compliance/change-log/ground-transport-change-log-entry.json": {
+      "plan_doc": "docs/confluence/policy-and-compliance/change-log/ground-transport-change-log-entry.json",
+      "must_contain": [
+        "New policy for ground transport on a Skyway overnight.",
+        "This applies to every request handled from August 15, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s2-r26-log-1"
+    },
+    "sources/slack/irregular-ops/ground-transport-receipt-question.json": {
+      "plan_doc": "docs/slack/irregular-ops/ground-transport-receipt-question.json",
+      "must_contain": [
+        "Yes, a cab to the hotel and back counts, up to $40.",
+        "up to $40 per booking",
+        "against receipts"
+      ],
+      "trap": null,
+      "project": "skyway-s2-r26-slack-1"
+    },
+    "sources/slack/refunds-desk/ground-transport-receipt-handling.json": {
+      "plan_doc": "docs/slack/refunds-desk/ground-transport-receipt-handling.json",
+      "must_contain": [
+        "up to $40 per booking"
+      ],
+      "trap": null,
+      "project": "skyway-s2-r26-slack-1"
+    },
+    "sources/slack/support-policy-questions/ground-transport-wording-for-disruption-cases.json": {
+      "plan_doc": "docs/slack/support-policy-questions/ground-transport-wording-for-disruption-cases.json",
+      "must_contain": [
+        "to and from the hotel"
+      ],
+      "trap": null,
+      "project": "skyway-s2-r26-slack-1"
+    },
+    "sources/slack/support-team/ground-transport-question-during-disruption.json": {
+      "plan_doc": "docs/slack/support-team/ground-transport-question-during-disruption.json",
+      "must_contain": [
+        "only for an overnight that is on us"
+      ],
+      "trap": null,
+      "project": "skyway-s2-r26-slack-1"
+    },
+    "sources/slack/irregular-ops/hotel-taxi-receipts-limit.json": {
+      "plan_doc": "docs/slack/irregular-ops/hotel-taxi-receipts-limit.json",
+      "must_contain": [
+        "Taxis to and from the hotel are covered up to $60 per booking."
+      ],
+      "trap": {
+        "for": "R26",
+        "why": "an older team note or FAQ; the policy docs are newer and win"
+      },
+      "project": "skyway-s2-r26-slack-hotel-taxi-receipts-limit-1"
+    },
+    "sources/confluence/customer-policies/delays-and-disruptions/missed-connections.json": {
+      "plan_doc": "docs/confluence/customer-policies/delays-and-disruptions/missed-connections.json",
+      "must_contain": [
+        "This page covers customers who miss a Skyway connection because of our delay.",
+        "missed a Skyway connection because of our delay",
+        "on the same booking",
+        "a connection missed for weather or air traffic control follows the normal change rules"
+      ],
+      "trap": null,
+      "project": "skyway-s2-r27-confluence-missed-connections-1"
+    },
+    "sources/confluence/policy-and-compliance/change-log/missed-connections-policy-change.json": {
+      "plan_doc": "docs/confluence/policy-and-compliance/change-log/missed-connections-policy-change.json",
+      "must_contain": [
+        "New policy for customers who miss a Skyway connection because of our delay.",
+        "This applies to every request handled from August 15, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s2-r27-log-missed-connections-policy-change-1"
+    },
+    "sources/slack/irregular-ops/missed-connection-rebooking.json": {
+      "plan_doc": "docs/slack/irregular-ops/missed-connection-rebooking.json",
+      "must_contain": [
+        "Put them on the next Skyway flight to their destination, no fee or difference.",
+        "next Skyway flight to their destination, no fee",
+        "A missed connection moved to another flight is a change ticket"
+      ],
+      "trap": null,
+      "project": "skyway-s2-r27-slack-missed-connection-rebooking-1"
+    },
+    "sources/slack/irregular-ops/missed-connection-same-day-rebooking.json": {
+      "plan_doc": "docs/slack/irregular-ops/missed-connection-same-day-rebooking.json",
+      "must_contain": [
+        "A missed connection is rebooked free only if the next flight leaves the same day."
+      ],
+      "trap": {
+        "for": "R27",
+        "why": "an older team note or FAQ; the policy docs are newer and win"
+      },
+      "project": "skyway-s2-r27-slack-missed-connection-same-day-rebooking-1"
+    },
+    "sources/slack/refunds-desk/missed-connection-handling-question.json": {
+      "plan_doc": "docs/slack/refunds-desk/missed-connection-handling-question.json",
+      "must_contain": [
+        "a connection missed for weather or air traffic control follows the normal change rules"
+      ],
+      "trap": null,
+      "project": "skyway-s2-r27-slack-missed-connection-handling-question-1"
+    },
+    "sources/slack/support-policy-questions/missed-connection-booking-check.json": {
+      "plan_doc": "docs/slack/support-policy-questions/missed-connection-booking-check.json",
+      "must_contain": [
+        "on the same booking"
+      ],
+      "trap": null,
+      "project": "skyway-s2-r27-slack-missed-connection-booking-check-1"
+    },
+    "sources/slack/support-team/missed-connection-case-notes.json": {
+      "plan_doc": "docs/slack/support-team/missed-connection-case-notes.json",
+      "must_contain": [
+        "missed a Skyway connection because of our delay"
+      ],
+      "trap": null,
+      "project": "skyway-s2-r27-slack-missed-connection-case-notes-1"
+    },
+    "sources/confluence/support-playbooks/case-handling/follow-ups.json": {
+      "plan_doc": "docs/confluence/support-playbooks/case-handling/follow-ups.json",
+      "must_contain": [
+        "A follow-up on a handled claim is a comment on the first ticket, not a new claim.",
+        "comment on the earlier ticket with the status"
+      ],
+      "trap": null,
+      "project": "skyway-s2-r28-confluence-1"
+    },
+    "sources/confluence/policy-and-compliance/change-log/follow-ups-on-earlier-claims.json": {
+      "plan_doc": "docs/confluence/policy-and-compliance/change-log/follow-ups-on-earlier-claims.json",
+      "must_contain": [
+        "New: follow-ups go on the earlier ticket as a comment; nothing is paid again.",
+        "This applies to every request handled from August 15, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s2-r28-log-1"
+    },
+    "sources/slack/refunds-desk/follow-ups-on-earlier-claims.json": {
+      "plan_doc": "docs/slack/refunds-desk/follow-ups-on-earlier-claims.json",
+      "must_contain": [
+        "This applies to every request handled from August 15, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s2-r28-slack-1"
+    },
+    "sources/slack/support-policy-questions/follow-up-on-an-earlier-claim.json": {
+      "plan_doc": "docs/slack/support-policy-questions/follow-up-on-an-earlier-claim.json",
+      "must_contain": [
+        "do not pay or ask for approval again"
+      ],
+      "trap": null,
+      "project": "skyway-s2-r28-slack-1"
+    },
+    "sources/slack/support-team/follow-up-on-an-earlier-customer-claim.json": {
+      "plan_doc": "docs/slack/support-team/follow-up-on-an-earlier-customer-claim.json",
+      "must_contain": [
+        "do not pay or ask for approval again"
+      ],
+      "trap": null,
+      "project": "skyway-s2-r28-slack-1"
+    },
+    "sources/slack/refunds-desk/repeat-claim-follow-up.json": {
+      "plan_doc": "docs/slack/refunds-desk/repeat-claim-follow-up.json",
+      "must_contain": [
+        "On a follow-up, pay the claim again if the customer says they never got it."
+      ],
+      "trap": {
+        "for": "R28",
+        "why": "an older team note or FAQ; the policy docs are newer and win"
+      },
+      "project": "skyway-s2-r28-slack-repeat-claim-follow-up-1"
+    },
+    "sources/confluence/customer-policies/special-assistance/service-animals.json": {
+      "plan_doc": "docs/confluence/customer-policies/special-assistance/service-animals.json",
+      "must_contain": [
+        "Trained service animals fly free on any fare; there is no pet fee to refund."
+      ],
+      "trap": {
+        "for": "R6",
+        "why": "a lookalike page: same words, a different situation"
+      },
+      "project": "skyway-s2-r6-confluence-service-animals-1"
+    },
+    "sources/confluence/policy-and-compliance/change-log/pet-fee-handling-update.json": {
+      "plan_doc": "docs/confluence/policy-and-compliance/change-log/pet-fee-handling-update.json",
+      "must_contain": [
+        "The pet fee no longer comes back when customers cancel their own trip.",
+        "This applies to every request handled from August 15, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s2-r6-log-1"
+    },
+    "sources/slack/policy-updates/pet-fee-own-cancellations.json": {
+      "plan_doc": "docs/slack/policy-updates/pet-fee-own-cancellations.json",
+      "must_contain": [
+        "From August 15 pet fees are not refunded on customer cancellations.",
+        "refunded with the fare when Skyway cancels",
+        "no longer refunded when the customer cancels their own booking",
+        "This applies to every request handled from August 15, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s2-r6-slack-1"
+    },
+    "sources/slack/refunds-desk/pet-in-cabin-request-handling-date.json": {
+      "plan_doc": "docs/slack/refunds-desk/pet-in-cabin-request-handling-date.json",
+      "must_contain": [
+        "This applies to every request handled from August 15, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s2-r6-slack-1"
+    },
+    "sources/slack/support-policy-questions/pet-in-cabin-question-for-customer-initiated-cancellation.json": {
+      "plan_doc": "docs/slack/support-policy-questions/pet-in-cabin-question-for-customer-initiated-cancellation.json",
+      "must_contain": [
+        "no longer refunded when the customer cancels their own booking"
+      ],
+      "trap": null,
+      "project": "skyway-s2-r6-slack-1"
+    },
+    "sources/slack/support-team/pet-in-cabin-cancellation-wording.json": {
+      "plan_doc": "docs/slack/support-team/pet-in-cabin-cancellation-wording.json",
+      "must_contain": [
+        "refunded with the fare when Skyway cancels"
+      ],
+      "trap": null,
+      "project": "skyway-s2-r6-slack-1"
+    }
+  },
+  "edits": [
+    {
+      "doc": "docs/confluence/support-playbooks/approvals-and-limits/approval-limits.json",
+      "find": "Up to $200 a night needs no approval. Above $200, ask a supervisor to approve the room cost, up to $250.",
+      "replace": "Up to $225 a night needs no approval. Above $225, ask a supervisor to approve the room cost, up to $250."
+    },
+    {
+      "doc": "docs/confluence/customer-policies/delays-and-disruptions/compensation.json",
+      "find": "$150 travel credit per passenger who travelled",
+      "replace": "$175 travel credit per passenger who travelled"
+    },
+    {
+      "doc": "docs/confluence/customer-policies/special-assistance/pets-in-cabin.json",
+      "find": "the pet fee goes back if the pet did not fly",
+      "replace": "the pet fee goes back only when Skyway cancels or delays the flight"
+    },
+    {
+      "doc": "docs/slack/refunds-desk/declined-rebooking-refunds.json",
+      "find": "seat and bag fees on that flight go back with the fare",
+      "replace": "seat and bag fees on that flight go back with the fare. When a customer gives up a trip after a missed Skyway connection, refund the flights they did not take"
+    }
+  ],
+  "written_by_us": []
+}

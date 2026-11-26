@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about compensation for disruptions.",
+  "files": [
+    {
+      "path": "sources/confluence/customer-policies/delays-and-disruptions/disruption-compensation-phase.json",
+      "description": "A Confluence page in the customer-policies space for support agents about compensation for disruptions, last updated between 2026-07-06 and 2026-08-18. It must contain these sentences word for word: \"Phase 2 (Aug 12): $200 per travelling passenger.\". Keep it about its own topic; do not connect it to any other policy. Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    }
+  ],
+  "people": [
+    {
+      "name": "Fatima Ali",
+      "project_role": "Customer Support Agent"
+    },
+    {
+      "name": "Ronald Hayes",
+      "project_role": "Customer Support Agent"
+    },
+    {
+      "name": "Priya Nanduri",
+      "project_role": "Director, Customer Care"
+    }
+  ]
+}

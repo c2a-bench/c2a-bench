@@ -1,0 +1,17 @@
+sources/confluence/support-playbooks/case-handling/policy-change-log-december.json
+sources/confluence/policy-and-compliance/change-log/compensation-late-arrival-handling-update.json
+sources/slack/policy-updates/disruption-compensation-wording-for-december.json
+sources/slack/refunds-desk/arrival-delay-compensation-question.json
+sources/slack/support-policy-questions/arrival-delay-compensation-question.json
+sources/slack/support-team/arrival-delay-compensation-question.json
+sources/confluence/policy-and-compliance/change-log/refund-eligibility-update-for-departure-delays.json
+sources/slack/policy-updates/refund-handling-language-for-cancellations-and-long-delays.json
+sources/slack/refunds-desk/unused-flight-seat-and-bag-charges.json
+sources/slack/support-policy-questions/question-on-unused-fare-handling-after-disruption.json
+sources/slack/support-team/question-on-refund-case-after-departure-delay.json
+sources/confluence/support-playbooks/case-handling/confirmation-numbers.json
+sources/confluence/policy-and-compliance/change-log/confirmation-id-response-update.json
+sources/slack/refunds-desk/confirmation-number-in-customer-reply.json
+sources/slack/support-policy-questions/confirmation-id-wording-for-case-notes.json
+sources/slack/support-team/confirmation-number-in-support-responses.json
+sources/slack/support-team/confirmation-number-lookup.json

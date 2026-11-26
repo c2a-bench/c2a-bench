@@ -1,0 +1,5186 @@
+{
+ "expand/0/confluence/customer-policies/baggage/claim-deadlines.json": {
+  "new": false,
+  "note": "1378 -> 4693 characters (folder median 4144)",
+  "rel": "confluence/customer-policies/baggage/claim-deadlines.json",
+  "stage": 0
+ },
+ "expand/0/confluence/customer-policies/baggage/damaged-bags.json": {
+  "new": false,
+  "note": "817 -> 4243 characters (folder median 4144)",
+  "rel": "confluence/customer-policies/baggage/damaged-bags.json",
+  "stage": 0
+ },
+ "expand/0/confluence/customer-policies/baggage/delayed-bags.json": {
+  "new": false,
+  "note": "1293 -> 4899 characters (folder median 4144)",
+  "rel": "confluence/customer-policies/baggage/delayed-bags.json",
+  "stage": 0
+ },
+ "expand/0/confluence/customer-policies/cancellations-and-refunds/24-hour-free-cancellation.json": {
+  "new": false,
+  "note": "877 -> 4699 characters (folder median 4144)",
+  "rel": "confluence/customer-policies/cancellations-and-refunds/24-hour-free-cancellation.json",
+  "stage": 0
+ },
+ "expand/0/confluence/customer-policies/cancellations-and-refunds/card-refund-follow-up-checks.json": {
+  "new": false,
+  "note": "1442 -> 4082 characters (folder median 4144)",
+  "rel": "confluence/customer-policies/cancellations-and-refunds/card-refund-follow-up-checks.json",
+  "stage": 0
+ },
+ "expand/0/confluence/customer-policies/cancellations-and-refunds/refund-timing.json": {
+  "new": false,
+  "note": "1958 -> 3994 characters (folder median 4144)",
+  "rel": "confluence/customer-policies/cancellations-and-refunds/refund-timing.json",
+  "stage": 0
+ },
+ "expand/0/confluence/customer-policies/cancellations-and-refunds/refunds-after-a-cancellation.json": {
+  "new": false,
+  "note": "2085 -> 5646 characters (folder median 4144)",
+  "rel": "confluence/customer-policies/cancellations-and-refunds/refunds-after-a-cancellation.json",
+  "stage": 0
+ },
+ "expand/0/confluence/customer-policies/cancellations-and-refunds/travel-credit-instead-of-refund.json": {
+  "new": false,
+  "note": "880 -> 6163 characters (folder median 4144)",
+  "rel": "confluence/customer-policies/cancellations-and-refunds/travel-credit-instead-of-refund.json",
+  "stage": 0
+ },
+ "expand/0/confluence/customer-policies/delays-and-disruptions/compensation.json": {
+  "new": false,
+  "note": "1728 -> 5341 characters (folder median 4144)",
+  "rel": "confluence/customer-policies/delays-and-disruptions/compensation.json",
+  "stage": 0
+ },
+ "expand/0/confluence/customer-policies/delays-and-disruptions/hotels-during-disruptions.json": {
+  "new": false,
+  "note": "764 -> 4677 characters (folder median 4144)",
+  "rel": "confluence/customer-policies/delays-and-disruptions/hotels-during-disruptions.json",
+  "stage": 0
+ },
+ "expand/0/confluence/customer-policies/delays-and-disruptions/meals-during-delays.json": {
+  "new": false,
+  "note": "1272 -> 4704 characters (folder median 4144)",
+  "rel": "confluence/customer-policies/delays-and-disruptions/meals-during-delays.json",
+  "stage": 0
+ },
+ "expand/0/confluence/customer-policies/delays-and-disruptions/what-skyway-controls.json": {
+  "new": false,
+  "note": "1538 -> 5995 characters (folder median 4144)",
+  "rel": "confluence/customer-policies/delays-and-disruptions/what-skyway-controls.json",
+  "stage": 0
+ },
+ "expand/0/confluence/customer-policies/fares-and-changes/change-fees.json": {
+  "new": false,
+  "note": "1500 -> 5647 characters (folder median 4144)",
+  "rel": "confluence/customer-policies/fares-and-changes/change-fees.json",
+  "stage": 0
+ },
+ "expand/0/confluence/customer-policies/fares-and-changes/fare-types.json": {
+  "new": false,
+  "note": "1546 -> 5311 characters (folder median 4144)",
+  "rel": "confluence/customer-policies/fares-and-changes/fare-types.json",
+  "stage": 0
+ },
+ "expand/0/confluence/customer-policies/loyalty/skyway-miles-benefits.json": {
+  "new": false,
+  "note": "1086 -> 4581 characters (folder median 4144)",
+  "rel": "confluence/customer-policies/loyalty/skyway-miles-benefits.json",
+  "stage": 0
+ },
+ "expand/0/confluence/customer-policies/special-assistance/pets-in-cabin.json": {
+  "new": false,
+  "note": "833 -> 4889 characters (folder median 4144)",
+  "rel": "confluence/customer-policies/special-assistance/pets-in-cabin.json",
+  "stage": 0
+ },
+ "expand/0/confluence/support-playbooks/approvals-and-limits/approval-limits.json": {
+  "new": false,
+  "note": "1714 -> 5349 characters (folder median 5601)",
+  "rel": "confluence/support-playbooks/approvals-and-limits/approval-limits.json",
+  "stage": 0
+ },
+ "expand/0/confluence/support-playbooks/approvals-and-limits/goodwill.json": {
+  "new": false,
+  "note": "1925 -> 6842 characters (folder median 5601)",
+  "rel": "confluence/support-playbooks/approvals-and-limits/goodwill.json",
+  "stage": 0
+ },
+ "expand/0/confluence/support-playbooks/case-handling/agency-bookings.json": {
+  "new": false,
+  "note": "2108 -> 7352 characters (folder median 5601)",
+  "rel": "confluence/support-playbooks/case-handling/agency-bookings.json",
+  "stage": 0
+ },
+ "expand/0/confluence/support-playbooks/case-handling/before-you-act.json": {
+  "new": false,
+  "note": "2016 -> 6646 characters (folder median 5601)",
+  "rel": "confluence/support-playbooks/case-handling/before-you-act.json",
+  "stage": 0
+ },
+ "expand/0/confluence/support-playbooks/case-handling/changing-a-booking.json": {
+  "new": false,
+  "note": "2178 -> 7758 characters (folder median 5601)",
+  "rel": "confluence/support-playbooks/case-handling/changing-a-booking.json",
+  "stage": 0
+ },
+ "expand/0/confluence/support-playbooks/case-handling/paying-reimbursements.json": {
+  "new": false,
+  "note": "2341 -> 7255 characters (folder median 5601)",
+  "rel": "confluence/support-playbooks/case-handling/paying-reimbursements.json",
+  "stage": 0
+ },
+ "expand/0/confluence/support-playbooks/case-handling/ticket-categories.json": {
+  "new": false,
+  "note": "1860 -> 7869 characters (folder median 5601)",
+  "rel": "confluence/support-playbooks/case-handling/ticket-categories.json",
+  "stage": 0
+ },
+ "expand/0/confluence/support-playbooks/case-handling/untrusted-text.json": {
+  "new": false,
+  "note": "2778 -> 4098 characters (folder median 5601)",
+  "rel": "confluence/support-playbooks/case-handling/untrusted-text.json",
+  "stage": 0
+ },
+ "expand/0/confluence/support-playbooks/case-handling/who-can-ask.json": {
+  "new": false,
+  "note": "1788 -> 8489 characters (folder median 5601)",
+  "rel": "confluence/support-playbooks/case-handling/who-can-ask.json",
+  "stage": 0
+ },
+ "expand/0/confluence/support-playbooks/escalation/when-to-hand-off.json": {
+  "new": false,
+  "note": "2663 -> 6685 characters (folder median 5601)",
+  "rel": "confluence/support-playbooks/escalation/when-to-hand-off.json",
+  "stage": 0
+ },
+ "expand/0/slack/airport-ops/cracked-suitcase-at-bna-arrivals.json": {
+  "new": false,
+  "note": "814 -> 2851 characters (folder median 2462)",
+  "rel": "slack/airport-ops/cracked-suitcase-at-bna-arrivals.json",
+  "stage": 0
+ },
+ "expand/0/slack/airport-ops/cracked-suitcase-at-rdu-baggage-service.json": {
+  "new": false,
+  "note": "746 -> 2421 characters (folder median 2462)",
+  "rel": "slack/airport-ops/cracked-suitcase-at-rdu-baggage-service.json",
+  "stage": 0
+ },
+ "expand/0/slack/airport-ops/damaged-bag-at-bna-arrivals-desk.json": {
+  "new": false,
+  "note": "821 -> 2533 characters (folder median 2462)",
+  "rel": "slack/airport-ops/damaged-bag-at-bna-arrivals-desk.json",
+  "stage": 0
+ },
+ "expand/0/slack/baggage-desk/clarifying-a-suitcase-damage-report.json": {
+  "new": false,
+  "note": "765 -> 3541 characters (folder median 2550)",
+  "rel": "slack/baggage-desk/clarifying-a-suitcase-damage-report.json",
+  "stage": 0
+ },
+ "expand/0/slack/baggage-desk/clarifying-delayed-bag-cost-timing.json": {
+  "new": false,
+  "note": "680 -> 3665 characters (folder median 2550)",
+  "rel": "slack/baggage-desk/clarifying-delayed-bag-cost-timing.json",
+  "stage": 0
+ },
+ "expand/0/slack/baggage-desk/customer-asking-about-a-damaged-checked-bag.json": {
+  "new": false,
+  "note": "687 -> 2053 characters (folder median 2550)",
+  "rel": "slack/baggage-desk/customer-asking-about-a-damaged-checked-bag.json",
+  "stage": 0
+ },
+ "expand/0/slack/baggage-desk/damaged-bag-photo-review-notes.json": {
+  "new": false,
+  "note": "676 -> 2737 characters (folder median 2550)",
+  "rel": "slack/baggage-desk/damaged-bag-photo-review-notes.json",
+  "stage": 0
+ },
+ "expand/0/slack/baggage-desk/damaged-bag-photo-review.json": {
+  "new": false,
+  "note": "1186 -> 3073 characters (folder median 2550)",
+  "rel": "slack/baggage-desk/damaged-bag-photo-review.json",
+  "stage": 0
+ },
+ "expand/0/slack/baggage-desk/late-baggage-claim-handling.json": {
+  "new": false,
+  "note": "1040 -> 3613 characters (folder median 2550)",
+  "rel": "slack/baggage-desk/late-baggage-claim-handling.json",
+  "stage": 0
+ },
+ "expand/0/slack/baggage-desk/question-on-a-damaged-bag-case.json": {
+  "new": false,
+  "note": "616 -> 3497 characters (folder median 2550)",
+  "rel": "slack/baggage-desk/question-on-a-damaged-bag-case.json",
+  "stage": 0
+ },
+ "expand/0/slack/baggage-desk/question-on-damaged-bag-report-timing.json": {
+  "new": false,
+  "note": "512 -> 4007 characters (folder median 2550)",
+  "rel": "slack/baggage-desk/question-on-damaged-bag-report-timing.json",
+  "stage": 0
+ },
+ "expand/0/slack/baggage-desk/question-on-damaged-bag-report.json": {
+  "new": false,
+  "note": "665 -> 2539 characters (folder median 2550)",
+  "rel": "slack/baggage-desk/question-on-damaged-bag-report.json",
+  "stage": 0
+ },
+ "expand/0/slack/baggage-desk/question-on-delayed-bag-cost-timing.json": {
+  "new": false,
+  "note": "733 -> 3532 characters (folder median 2550)",
+  "rel": "slack/baggage-desk/question-on-delayed-bag-cost-timing.json",
+  "stage": 0
+ },
+ "expand/0/slack/baggage-desk/question-on-delayed-bag-expense-timing.json": {
+  "new": false,
+  "note": "638 -> 3528 characters (folder median 2550)",
+  "rel": "slack/baggage-desk/question-on-delayed-bag-expense-timing.json",
+  "stage": 0
+ },
+ "expand/0/slack/baggage-desk/question-on-suitcase-damage-intake.json": {
+  "new": false,
+  "note": "819 -> 2976 characters (folder median 2550)",
+  "rel": "slack/baggage-desk/question-on-suitcase-damage-intake.json",
+  "stage": 0
+ },
+ "expand/0/slack/baggage-desk/summer-peak-delayed-bag-handling.json": {
+  "new": false,
+  "note": "913 -> 3374 characters (folder median 2550)",
+  "rel": "slack/baggage-desk/summer-peak-delayed-bag-handling.json",
+  "stage": 0
+ },
+ "expand/0/slack/baggage-desk/timing-question-on-delayed-bag-costs.json": {
+  "new": false,
+  "note": "678 -> 2297 characters (folder median 2550)",
+  "rel": "slack/baggage-desk/timing-question-on-delayed-bag-costs.json",
+  "stage": 0
+ },
+ "expand/0/slack/baggage-desk/wheels-are-wear.json": {
+  "new": false,
+  "note": "722 -> 3294 characters (folder median 2550)",
+  "rel": "slack/baggage-desk/wheels-are-wear.json",
+  "stage": 0
+ },
+ "expand/0/slack/irregular-ops/cause-labels-for-today-s-disruption-notes.json": {
+  "new": false,
+  "note": "928 -> 5307 characters (folder median 3693)",
+  "rel": "slack/irregular-ops/cause-labels-for-today-s-disruption-notes.json",
+  "stage": 0
+ },
+ "expand/0/slack/irregular-ops/cause-wording-for-disruption-notes.json": {
+  "new": false,
+  "note": "860 -> 3472 characters (folder median 3693)",
+  "rel": "slack/irregular-ops/cause-wording-for-disruption-notes.json",
+  "stage": 0
+ },
+ "expand/0/slack/irregular-ops/clarifying-controllable-disruption-language-notes.json": {
+  "new": false,
+  "note": "781 -> 4374 characters (folder median 3693)",
+  "rel": "slack/irregular-ops/clarifying-controllable-disruption-language-notes.json",
+  "stage": 0
+ },
+ "expand/0/slack/irregular-ops/clarifying-controllable-disruption-language.json": {
+  "new": false,
+  "note": "855 -> 4101 characters (folder median 3693)",
+  "rel": "slack/irregular-ops/clarifying-controllable-disruption-language.json",
+  "stage": 0
+ },
+ "expand/0/slack/irregular-ops/compensation-question-for-disrupted-connection.json": {
+  "new": false,
+  "note": "981 -> 4736 characters (folder median 3693)",
+  "rel": "slack/irregular-ops/compensation-question-for-disrupted-connection.json",
+  "stage": 0
+ },
+ "expand/0/slack/irregular-ops/customer-asking-for-cash-after-disruption.json": {
+  "new": false,
+  "note": "881 -> 3491 characters (folder median 3693)",
+  "rel": "slack/irregular-ops/customer-asking-for-cash-after-disruption.json",
+  "stage": 0
+ },
+ "expand/0/slack/irregular-ops/customer-question-on-short-notice-disruption-compensation.json": {
+  "new": false,
+  "note": "767 -> 5163 characters (folder median 3693)",
+  "rel": "slack/irregular-ops/customer-question-on-short-notice-disruption-compensation.json",
+  "stage": 0
+ },
+ "expand/0/slack/irregular-ops/delay-compensation-question-from-airport-desk.json": {
+  "new": false,
+  "note": "531 -> 3855 characters (folder median 3693)",
+  "rel": "slack/irregular-ops/delay-compensation-question-from-airport-desk.json",
+  "stage": 0
+ },
+ "expand/0/slack/irregular-ops/delay-compensation-wording-for-airport-follow-up.json": {
+  "new": false,
+  "note": "999 -> 5276 characters (folder median 3693)",
+  "rel": "slack/irregular-ops/delay-compensation-wording-for-airport-follow-up.json",
+  "stage": 0
+ },
+ "expand/0/slack/irregular-ops/hotel-question-during-nashville-disruption.json": {
+  "new": false,
+  "note": "717 -> 5292 characters (folder median 3693)",
+  "rel": "slack/irregular-ops/hotel-question-during-nashville-disruption.json",
+  "stage": 0
+ },
+ "expand/0/slack/irregular-ops/hotel-question-for-delayed-rdu-connection.json": {
+  "new": false,
+  "note": "588 -> 4682 characters (folder median 3693)",
+  "rel": "slack/irregular-ops/hotel-question-for-delayed-rdu-connection.json",
+  "stage": 0
+ },
+ "expand/0/slack/irregular-ops/hotel-question-for-diverted-passengers.json": {
+  "new": false,
+  "note": "688 -> 4997 characters (folder median 3693)",
+  "rel": "slack/irregular-ops/hotel-question-for-diverted-passengers.json",
+  "stage": 0
+ },
+ "expand/0/slack/irregular-ops/hotel-question-for-weather-disruption.json": {
+  "new": false,
+  "note": "652 -> 4596 characters (folder median 3693)",
+  "rel": "slack/irregular-ops/hotel-question-for-weather-disruption.json",
+  "stage": 0
+ },
+ "expand/0/slack/irregular-ops/meal-handling-for-disrupted-trips.json": {
+  "new": false,
+  "note": "804 -> 4127 characters (folder median 3693)",
+  "rel": "slack/irregular-ops/meal-handling-for-disrupted-trips.json",
+  "stage": 0
+ },
+ "expand/0/slack/irregular-ops/meal-support-question-during-extended-delay.json": {
+  "new": false,
+  "note": "727 -> 4719 characters (folder median 3693)",
+  "rel": "slack/irregular-ops/meal-support-question-during-extended-delay.json",
+  "stage": 0
+ },
+ "expand/0/slack/irregular-ops/meal-support-question-during-weather-delay.json": {
+  "new": false,
+  "note": "1066 -> 3609 characters (folder median 3693)",
+  "rel": "slack/irregular-ops/meal-support-question-during-weather-delay.json",
+  "stage": 0
+ },
+ "expand/0/slack/irregular-ops/meal-support-question-during-weather-disruption-notes.json": {
+  "new": false,
+  "note": "908 -> 4135 characters (folder median 3693)",
+  "rel": "slack/irregular-ops/meal-support-question-during-weather-disruption-notes.json",
+  "stage": 0
+ },
+ "expand/0/slack/irregular-ops/meal-support-question-during-weather-disruption.json": {
+  "new": false,
+  "note": "758 -> 4285 characters (folder median 3693)",
+  "rel": "slack/irregular-ops/meal-support-question-during-weather-disruption.json",
+  "stage": 0
+ },
+ "expand/0/slack/irregular-ops/weather-vs-crew-cause-codes.json": {
+  "new": false,
+  "note": "726 -> 4267 characters (folder median 3693)",
+  "rel": "slack/irregular-ops/weather-vs-crew-cause-codes.json",
+  "stage": 0
+ },
+ "expand/0/slack/loyalty-team/clarifying-status-language-for-a-change-request.json": {
+  "new": false,
+  "note": "637 -> 4148 characters (folder median 2853)",
+  "rel": "slack/loyalty-team/clarifying-status-language-for-a-change-request.json",
+  "stage": 0
+ },
+ "expand/0/slack/loyalty-team/miles-change-fee-wording-for-agent-reply.json": {
+  "new": false,
+  "note": "538 -> 3825 characters (folder median 2853)",
+  "rel": "slack/loyalty-team/miles-change-fee-wording-for-agent-reply.json",
+  "stage": 0
+ },
+ "expand/0/slack/loyalty-team/question-on-status-benefit-wording-for-a-basic.json": {
+  "new": false,
+  "note": "841 -> 2740 characters (folder median 2853)",
+  "rel": "slack/loyalty-team/question-on-status-benefit-wording-for-a-basic.json",
+  "stage": 0
+ },
+ "expand/0/slack/loyalty-team/question-on-status-benefit-wording-for-fare-changes.json": {
+  "new": false,
+  "note": "777 -> 4393 characters (folder median 2853)",
+  "rel": "slack/loyalty-team/question-on-status-benefit-wording-for-fare-changes.json",
+  "stage": 0
+ },
+ "expand/0/slack/loyalty-team/silver-change-fee-question.json": {
+  "new": false,
+  "note": "368 -> 3281 characters (folder median 2853)",
+  "rel": "slack/loyalty-team/silver-change-fee-question.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/agency-booking-refund-inbox-question.json": {
+  "new": false,
+  "note": "578 -> 4297 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/agency-booking-refund-inbox-question.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/booking-contact-check-before-refund-review.json": {
+  "new": false,
+  "note": "875 -> 5757 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/booking-contact-check-before-refund-review.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/booking-contact-check-before-refund.json": {
+  "new": false,
+  "note": "807 -> 3133 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/booking-contact-check-before-refund.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/card-refund-question-after-canceled-trip.json": {
+  "new": false,
+  "note": "693 -> 5006 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/card-refund-question-after-canceled-trip.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/checking-a-prior-action-on-a-customer-case.json": {
+  "new": false,
+  "note": "818 -> 3823 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/checking-a-prior-action-on-a-customer-case.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/checking-booking-email-before-a-refund.json": {
+  "new": false,
+  "note": "908 -> 4302 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/checking-booking-email-before-a-refund.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/checking-prior-action-on-a-refund-case.json": {
+  "new": false,
+  "note": "963 -> 3827 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/checking-prior-action-on-a-refund-case.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/checking-prior-activity-before-a-refund-response.json": {
+  "new": false,
+  "note": "989 -> 3891 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/checking-prior-activity-before-a-refund-response.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/checking-prior-activity-on-a-refund-case.json": {
+  "new": false,
+  "note": "757 -> 3773 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/checking-prior-activity-on-a-refund-case.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/credit-bonus-question.json": {
+  "new": false,
+  "note": "635 -> 2981 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/credit-bonus-question.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/customer-asked-about-credit-instead-of-refund.json": {
+  "new": false,
+  "note": "450 -> 3368 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/customer-asked-about-credit-instead-of-refund.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/customer-asking-about-credit-instead-of-refund.json": {
+  "new": false,
+  "note": "710 -> 4290 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/customer-asking-about-credit-instead-of-refund.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/customer-asking-about-travel-credit.json": {
+  "new": false,
+  "note": "574 -> 3906 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/customer-asking-about-travel-credit.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/customer-asks-about-travel-credit.json": {
+  "new": false,
+  "note": "706 -> 4892 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/customer-asks-about-travel-credit.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/customer-cancelled-booking-question.json": {
+  "new": false,
+  "note": "691 -> 4307 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/customer-cancelled-booking-question.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/customer-initiated-cancellation-question-notes.json": {
+  "new": false,
+  "note": "656 -> 4054 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/customer-initiated-cancellation-question-notes.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/customer-initiated-cancellation-question.json": {
+  "new": false,
+  "note": "799 -> 2789 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/customer-initiated-cancellation-question.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/customer-self-cancellation-refund-review.json": {
+  "new": false,
+  "note": "817 -> 2803 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/customer-self-cancellation-refund-review.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/declined-rebooking-refunds.json": {
+  "new": false,
+  "note": "996 -> 3354 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/declined-rebooking-refunds.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/payment-method-question-on-a-cancelled-trip.json": {
+  "new": false,
+  "note": "711 -> 4245 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/payment-method-question-on-a-cancelled-trip.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/payment-method-question-on-disrupted-trip.json": {
+  "new": false,
+  "note": "528 -> 4265 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/payment-method-question-on-disrupted-trip.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/pet-fee-on-airline-cancelled-booking.json": {
+  "new": false,
+  "note": "953 -> 3835 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/pet-fee-on-airline-cancelled-booking.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/pet-fee-on-cancelled-flight-case.json": {
+  "new": false,
+  "note": "641 -> 4147 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/pet-fee-on-cancelled-flight-case.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/pet-fee-on-cancelled-flight.json": {
+  "new": false,
+  "note": "599 -> 4317 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/pet-fee-on-cancelled-flight.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/pet-fee-on-cancelled-itinerary.json": {
+  "new": false,
+  "note": "504 -> 3095 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/pet-fee-on-cancelled-itinerary.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/pet-fee-on-cancelled-leg.json": {
+  "new": false,
+  "note": "604 -> 2561 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/pet-fee-on-cancelled-leg.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/receipt-attached-after-reimbursement-request.json": {
+  "new": false,
+  "note": "644 -> 3227 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/receipt-attached-after-reimbursement-request.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/receipt-missing-from-hotel-reimbursement-case.json": {
+  "new": false,
+  "note": "783 -> 4310 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/receipt-missing-from-hotel-reimbursement-case.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/receipt-needed-before-reimbursement.json": {
+  "new": false,
+  "note": "581 -> 3039 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/receipt-needed-before-reimbursement.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/refund-destination-question-from-chat.json": {
+  "new": false,
+  "note": "563 -> 4162 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/refund-destination-question-from-chat.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/travel-agency-booking-refund-handling.json": {
+  "new": false,
+  "note": "806 -> 4224 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/travel-agency-booking-refund-handling.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/travel-agency-cancellation-question.json": {
+  "new": false,
+  "note": "670 -> 4012 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/travel-agency-cancellation-question.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/travel-agency-refund-request-in-the-queue.json": {
+  "new": false,
+  "note": "611 -> 4454 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/travel-agency-refund-request-in-the-queue.json",
+  "stage": 0
+ },
+ "expand/0/slack/refunds-desk/travel-agent-cancellation-request.json": {
+  "new": false,
+  "note": "633 -> 4168 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/travel-agent-cancellation-request.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-escalations/asks-for-a-human.json": {
+  "new": false,
+  "note": "1462 -> 3965 characters (folder median 3300)",
+  "rel": "slack/support-escalations/asks-for-a-human.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-escalations/goodwill-handling-for-service-failures.json": {
+  "new": false,
+  "note": "1140 -> 4025 characters (folder median 3300)",
+  "rel": "slack/support-escalations/goodwill-handling-for-service-failures.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-escalations/goodwill-limits.json": {
+  "new": false,
+  "note": "1298 -> 4578 characters (folder median 3300)",
+  "rel": "slack/support-escalations/goodwill-limits.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-escalations/handing-off-sensitive-cases.json": {
+  "new": false,
+  "note": "821 -> 2936 characters (folder median 3300)",
+  "rel": "slack/support-escalations/handing-off-sensitive-cases.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-escalations/handing-off-sensitive-customer-contacts-notes.json": {
+  "new": false,
+  "note": "583 -> 4541 characters (folder median 3300)",
+  "rel": "slack/support-escalations/handing-off-sensitive-customer-contacts-notes.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-escalations/handing-off-sensitive-customer-contacts.json": {
+  "new": false,
+  "note": "626 -> 5211 characters (folder median 3300)",
+  "rel": "slack/support-escalations/handing-off-sensitive-customer-contacts.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-escalations/hotel-approval-check-during-disruption.json": {
+  "new": false,
+  "note": "654 -> 2660 characters (folder median 3300)",
+  "rel": "slack/support-escalations/hotel-approval-check-during-disruption.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-escalations/hotel-approval-question-during-overnight-disruption.json": {
+  "new": false,
+  "note": "762 -> 3862 characters (folder median 3300)",
+  "rel": "slack/support-escalations/hotel-approval-question-during-overnight-disruption.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-escalations/hotel-authorization-for-delayed-rdu-travelers.json": {
+  "new": false,
+  "note": "960 -> 4022 characters (folder median 3300)",
+  "rel": "slack/support-escalations/hotel-authorization-for-delayed-rdu-travelers.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-escalations/instructions-included-in-booking-notes-notes.json": {
+  "new": false,
+  "note": "892 -> 4235 characters (folder median 3300)",
+  "rel": "slack/support-escalations/instructions-included-in-booking-notes-notes.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-escalations/instructions-included-in-booking-notes.json": {
+  "new": false,
+  "note": "1100 -> 2837 characters (folder median 3300)",
+  "rel": "slack/support-escalations/instructions-included-in-booking-notes.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-escalations/message-text-copied-into-booking-notes.json": {
+  "new": false,
+  "note": "997 -> 3692 characters (folder median 3300)",
+  "rel": "slack/support-escalations/message-text-copied-into-booking-notes.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-escalations/question-about-instructions-in-booking-notes.json": {
+  "new": false,
+  "note": "825 -> 4602 characters (folder median 3300)",
+  "rel": "slack/support-escalations/question-about-instructions-in-booking-notes.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-escalations/seat-selection-issue-after-aircraft-swap-notes.json": {
+  "new": false,
+  "note": "792 -> 4841 characters (folder median 3300)",
+  "rel": "slack/support-escalations/seat-selection-issue-after-aircraft-swap-notes.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-escalations/seat-selection-issue-after-aircraft-swap.json": {
+  "new": false,
+  "note": "805 -> 3513 characters (folder median 3300)",
+  "rel": "slack/support-escalations/seat-selection-issue-after-aircraft-swap.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-escalations/seat-selection-service-failure-question.json": {
+  "new": false,
+  "note": "835 -> 4721 characters (folder median 3300)",
+  "rel": "slack/support-escalations/seat-selection-service-failure-question.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-escalations/seat-selection-unavailable-after-aircraft-swap.json": {
+  "new": false,
+  "note": "926 -> 3803 characters (folder median 3300)",
+  "rel": "slack/support-escalations/seat-selection-unavailable-after-aircraft-swap.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-escalations/when-to-hand-off-a-customer-case.json": {
+  "new": false,
+  "note": "648 -> 3064 characters (folder median 3300)",
+  "rel": "slack/support-escalations/when-to-hand-off-a-customer-case.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-policy-questions/agency-booking-cost-question.json": {
+  "new": false,
+  "note": "709 -> 2811 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/agency-booking-cost-question.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-policy-questions/agency-booking-disruption-expense-question.json": {
+  "new": false,
+  "note": "656 -> 2551 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/agency-booking-disruption-expense-question.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-policy-questions/agency-booking-disruption-expenses.json": {
+  "new": false,
+  "note": "708 -> 2383 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/agency-booking-disruption-expenses.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-policy-questions/baggage-claim-intake-question-notes.json": {
+  "new": false,
+  "note": "544 -> 2164 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/baggage-claim-intake-question-notes.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-policy-questions/baggage-claim-intake-question.json": {
+  "new": false,
+  "note": "483 -> 3144 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/baggage-claim-intake-question.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-policy-questions/basic-fare-change-question.json": {
+  "new": false,
+  "note": "730 -> 2713 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/basic-fare-change-question.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-policy-questions/category-for-completed-disruption-itinerary.json": {
+  "new": false,
+  "note": "787 -> 2815 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/category-for-completed-disruption-itinerary.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-policy-questions/compensation-question-for-a-disrupted-itinerary.json": {
+  "new": false,
+  "note": "708 -> 3150 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/compensation-question-for-a-disrupted-itinerary.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-policy-questions/compensation-question-for-disrupted-itinerary.json": {
+  "new": false,
+  "note": "561 -> 2695 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/compensation-question-for-disrupted-itinerary.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-policy-questions/customer-asking-to-move-a-basic-booking.json": {
+  "new": false,
+  "note": "488 -> 2444 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/customer-asking-to-move-a-basic-booking.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-policy-questions/customer-wording-for-a-basic-booking-change-request-notes.json": {
+  "new": false,
+  "note": "659 -> 3300 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/customer-wording-for-a-basic-booking-change-request-notes.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-policy-questions/customer-wording-for-a-basic-booking-change-request.json": {
+  "new": false,
+  "note": "748 -> 2446 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/customer-wording-for-a-basic-booking-change-request.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-policy-questions/late-baggage-claim-case-tagging.json": {
+  "new": false,
+  "note": "678 -> 2320 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/late-baggage-claim-case-tagging.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-policy-questions/miles-status-and-basic-fare-change-question.json": {
+  "new": false,
+  "note": "534 -> 3166 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/miles-status-and-basic-fare-change-question.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-policy-questions/miles-status-question-on-basic-itinerary.json": {
+  "new": false,
+  "note": "613 -> 3297 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/miles-status-question-on-basic-itinerary.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-policy-questions/question-on-disrupted-trip-compensation-case.json": {
+  "new": false,
+  "note": "523 -> 2840 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/question-on-disrupted-trip-compensation-case.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-policy-questions/refund-question-after-replacement-flight-notes.json": {
+  "new": false,
+  "note": "800 -> 3099 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/refund-question-after-replacement-flight-notes.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-policy-questions/refund-question-after-replacement-flight.json": {
+  "new": false,
+  "note": "710 -> 2013 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/refund-question-after-replacement-flight.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-policy-questions/replacement-flight-refund-question.json": {
+  "new": false,
+  "note": "554 -> 2590 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/replacement-flight-refund-question.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-policy-questions/skyway-miles-change-request-question.json": {
+  "new": false,
+  "note": "611 -> 3337 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/skyway-miles-change-request-question.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-policy-questions/ticket-category-for-completed-disruption-journeys.json": {
+  "new": false,
+  "note": "835 -> 2603 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/ticket-category-for-completed-disruption-journeys.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-policy-questions/ticket-category-for-travelled-disruption-case.json": {
+  "new": false,
+  "note": "1004 -> 2021 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/ticket-category-for-travelled-disruption-case.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/assistant-asking-for-refund.json": {
+  "new": false,
+  "note": "984 -> 3341 characters (folder median 2851)",
+  "rel": "slack/support-team/assistant-asking-for-refund.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/booking-contact-question-from-a-family-caller.json": {
+  "new": false,
+  "note": "477 -> 4208 characters (folder median 2851)",
+  "rel": "slack/support-team/booking-contact-question-from-a-family-caller.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/booking-note-with-customer-instructions.json": {
+  "new": false,
+  "note": "1097 -> 3695 characters (folder median 2851)",
+  "rel": "slack/support-team/booking-note-with-customer-instructions.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/checking-a-claim-before-replying.json": {
+  "new": false,
+  "note": "871 -> 2935 characters (folder median 2851)",
+  "rel": "slack/support-team/checking-a-claim-before-replying.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/checking-prior-action-before-replying-to-a-reimbursement.json": {
+  "new": false,
+  "note": "1241 -> 2562 characters (folder median 2851)",
+  "rel": "slack/support-team/checking-prior-action-before-replying-to-a-reimbursement.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/checking-prior-work-on-a-customer-claim.json": {
+  "new": false,
+  "note": "1019 -> 4012 characters (folder median 2851)",
+  "rel": "slack/support-team/checking-prior-work-on-a-customer-claim.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/checking-the-booking-contact-before-a-change-request.json": {
+  "new": false,
+  "note": "734 -> 3342 characters (folder median 2851)",
+  "rel": "slack/support-team/checking-the-booking-contact-before-a-change-request.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/clarifying-controllable-disruption-wording.json": {
+  "new": false,
+  "note": "1033 -> 2674 characters (folder median 2851)",
+  "rel": "slack/support-team/clarifying-controllable-disruption-wording.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/clarifying-disruption-cause-language.json": {
+  "new": false,
+  "note": "950 -> 3741 characters (folder median 2851)",
+  "rel": "slack/support-team/clarifying-disruption-cause-language.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/confirming-contact-for-booking-change-request.json": {
+  "new": false,
+  "note": "808 -> 3060 characters (folder median 2851)",
+  "rel": "slack/support-team/confirming-contact-for-booking-change-request.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/customer-asked-about-travel-credit-instead-of-refund.json": {
+  "new": false,
+  "note": "815 -> 2588 characters (folder median 2851)",
+  "rel": "slack/support-team/customer-asked-about-travel-credit-instead-of-refund.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/customer-asking-about-cancelling-their-own-booking.json": {
+  "new": false,
+  "note": "710 -> 2607 characters (folder median 2851)",
+  "rel": "slack/support-team/customer-asking-about-cancelling-their-own-booking.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/customer-self-cancellation-question.json": {
+  "new": false,
+  "note": "763 -> 3589 characters (folder median 2851)",
+  "rel": "slack/support-team/customer-self-cancellation-question.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/delay-credit-note.json": {
+  "new": false,
+  "note": "911 -> 2510 characters (folder median 2851)",
+  "rel": "slack/support-team/delay-credit-note.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/delayed-bag-expense-documentation-question.json": {
+  "new": false,
+  "note": "500 -> 2651 characters (folder median 2851)",
+  "rel": "slack/support-team/delayed-bag-expense-documentation-question.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/delayed-bag-expense-receipts-question.json": {
+  "new": false,
+  "note": "644 -> 3340 characters (folder median 2851)",
+  "rel": "slack/support-team/delayed-bag-expense-receipts-question.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/duplicate-goodwill-request-after-service-disruption.json": {
+  "new": false,
+  "note": "769 -> 2787 characters (folder median 2851)",
+  "rel": "slack/support-team/duplicate-goodwill-request-after-service-disruption.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/explaining-a-flex-booking-change.json": {
+  "new": false,
+  "note": "640 -> 4433 characters (folder median 2851)",
+  "rel": "slack/support-team/explaining-a-flex-booking-change.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/explaining-fare-difference-on-a-flex-change.json": {
+  "new": false,
+  "note": "741 -> 3423 characters (folder median 2851)",
+  "rel": "slack/support-team/explaining-fare-difference-on-a-flex-change.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/handling-a-duplicate-goodwill-request-after-a-service.json": {
+  "new": false,
+  "note": "820 -> 2532 characters (folder median 2851)",
+  "rel": "slack/support-team/handling-a-duplicate-goodwill-request-after-a-service.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/handling-a-service-recovery-request.json": {
+  "new": false,
+  "note": "815 -> 3250 characters (folder median 2851)",
+  "rel": "slack/support-team/handling-a-service-recovery-request.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/help-with-a-flex-booking-change.json": {
+  "new": false,
+  "note": "817 -> 3028 characters (folder median 2851)",
+  "rel": "slack/support-team/help-with-a-flex-booking-change.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/meal-documentation-for-overnight-disruption-case.json": {
+  "new": false,
+  "note": "705 -> 2546 characters (folder median 2851)",
+  "rel": "slack/support-team/meal-documentation-for-overnight-disruption-case.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/meal-question-on-overnight-delay-case.json": {
+  "new": false,
+  "note": "588 -> 5546 characters (folder median 2851)",
+  "rel": "slack/support-team/meal-question-on-overnight-delay-case.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/meals-question-on-overnight-delay-case.json": {
+  "new": false,
+  "note": "655 -> 3427 characters (folder median 2851)",
+  "rel": "slack/support-team/meals-question-on-overnight-delay-case.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/pet-fee-on-cancelled-flight-case-notes.json": {
+  "new": false,
+  "note": "753 -> 3616 characters (folder median 2851)",
+  "rel": "slack/support-team/pet-fee-on-cancelled-flight-case-notes.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/pet-fee-on-cancelled-flight-case.json": {
+  "new": false,
+  "note": "581 -> 2263 characters (folder median 2851)",
+  "rel": "slack/support-team/pet-fee-on-cancelled-flight-case.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/pet-fee-on-cancelled-flight.json": {
+  "new": false,
+  "note": "782 -> 2601 characters (folder median 2851)",
+  "rel": "slack/support-team/pet-fee-on-cancelled-flight.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/question-about-a-family-member-requesting-a-refund.json": {
+  "new": false,
+  "note": "556 -> 3142 characters (folder median 2851)",
+  "rel": "slack/support-team/question-about-a-family-member-requesting-a-refund.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/question-about-instruction-like-booking-notes.json": {
+  "new": false,
+  "note": "1156 -> 2685 characters (folder median 2851)",
+  "rel": "slack/support-team/question-about-instruction-like-booking-notes.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/question-about-instructions-in-booking-notes.json": {
+  "new": false,
+  "note": "949 -> 2939 characters (folder median 2851)",
+  "rel": "slack/support-team/question-about-instructions-in-booking-notes.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/question-on-self-cancelled-basic-booking.json": {
+  "new": false,
+  "note": "749 -> 3838 characters (folder median 2851)",
+  "rel": "slack/support-team/question-on-self-cancelled-basic-booking.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/quick-check-on-controllable-disruption-wording.json": {
+  "new": false,
+  "note": "946 -> 2334 characters (folder median 2851)",
+  "rel": "slack/support-team/quick-check-on-controllable-disruption-wording.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/receipt-review-for-disrupted-trip-claim.json": {
+  "new": false,
+  "note": "544 -> 2177 characters (folder median 2851)",
+  "rel": "slack/support-team/receipt-review-for-disrupted-trip-claim.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/receipt-review-for-disrupted-trip-reimbursement.json": {
+  "new": false,
+  "note": "830 -> 3599 characters (folder median 2851)",
+  "rel": "slack/support-team/receipt-review-for-disrupted-trip-reimbursement.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/receipts-attached-to-reimbursement-case.json": {
+  "new": false,
+  "note": "667 -> 4315 characters (folder median 2851)",
+  "rel": "slack/support-team/receipts-attached-to-reimbursement-case.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/receipts-check-for-reimbursement-case.json": {
+  "new": false,
+  "note": "707 -> 3827 characters (folder median 2851)",
+  "rel": "slack/support-team/receipts-check-for-reimbursement-case.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/receipts-question-on-a-delayed-bag-case.json": {
+  "new": false,
+  "note": "602 -> 2759 characters (folder median 2851)",
+  "rel": "slack/support-team/receipts-question-on-a-delayed-bag-case.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/ticket-category-for-a-mixed-customer-case-notes.json": {
+  "new": false,
+  "note": "645 -> 4311 characters (folder median 2851)",
+  "rel": "slack/support-team/ticket-category-for-a-mixed-customer-case-notes.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/ticket-category-for-a-mixed-customer-case-question.json": {
+  "new": false,
+  "note": "618 -> 3872 characters (folder median 2851)",
+  "rel": "slack/support-team/ticket-category-for-a-mixed-customer-case-question.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/ticket-category-for-a-mixed-customer-case.json": {
+  "new": false,
+  "note": "658 -> 3557 characters (folder median 2851)",
+  "rel": "slack/support-team/ticket-category-for-a-mixed-customer-case.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/ticket-category-for-combined-customer-contact.json": {
+  "new": false,
+  "note": "625 -> 3240 characters (folder median 2851)",
+  "rel": "slack/support-team/ticket-category-for-combined-customer-contact.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/travel-credit-option-on-refund-request.json": {
+  "new": false,
+  "note": "659 -> 3852 characters (folder median 2851)",
+  "rel": "slack/support-team/travel-credit-option-on-refund-request.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/travel-credit-request-in-cancellation-chat.json": {
+  "new": false,
+  "note": "578 -> 3879 characters (folder median 2851)",
+  "rel": "slack/support-team/travel-credit-request-in-cancellation-chat.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/when-a-customer-asks-for-a-manager.json": {
+  "new": false,
+  "note": "915 -> 2746 characters (folder median 2851)",
+  "rel": "slack/support-team/when-a-customer-asks-for-a-manager.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/when-to-hand-off-a-chat.json": {
+  "new": false,
+  "note": "1214 -> 3113 characters (folder median 2851)",
+  "rel": "slack/support-team/when-to-hand-off-a-chat.json",
+  "stage": 0
+ },
+ "expand/0/slack/support-team/when-to-hand-off-a-customer-chat.json": {
+  "new": false,
+  "note": "1203 -> 3916 characters (folder median 2851)",
+  "rel": "slack/support-team/when-to-hand-off-a-customer-chat.json",
+  "stage": 0
+ },
+ "expand/1/confluence/customer-policies/fares-and-changes/schedule-changes-notes.json": {
+  "new": false,
+  "note": "1562 -> 5921 characters (folder median 4144)",
+  "rel": "confluence/customer-policies/fares-and-changes/schedule-changes-notes.json",
+  "stage": 1
+ },
+ "expand/1/confluence/customer-policies/fares-and-changes/schedule-changes.json": {
+  "new": false,
+  "note": "1836 -> 5511 characters (folder median 4144)",
+  "rel": "confluence/customer-policies/fares-and-changes/schedule-changes.json",
+  "stage": 1
+ },
+ "expand/1/confluence/customer-policies/loyalty/gift-credit-promotion.json": {
+  "new": false,
+  "note": "854 -> 6499 characters (folder median 4144)",
+  "rel": "confluence/customer-policies/loyalty/gift-credit-promotion.json",
+  "stage": 1
+ },
+ "expand/1/confluence/customer-policies/special-assistance/assistance-not-provided.json": {
+  "new": false,
+  "note": "1460 -> 3851 characters (folder median 4144)",
+  "rel": "confluence/customer-policies/special-assistance/assistance-not-provided.json",
+  "stage": 1
+ },
+ "expand/1/confluence/policy-and-compliance/change-log/booked-assistance-not-provided-policy-change.json": {
+  "new": false,
+  "note": "734 -> 8403 characters (folder median 5744)",
+  "rel": "confluence/policy-and-compliance/change-log/booked-assistance-not-provided-policy-change.json",
+  "stage": 1
+ },
+ "expand/1/confluence/policy-and-compliance/change-log/delayed-bag-allowance-update.json": {
+  "new": false,
+  "note": "426 -> 8667 characters (folder median 5744)",
+  "rel": "confluence/policy-and-compliance/change-log/delayed-bag-allowance-update.json",
+  "stage": 1
+ },
+ "expand/1/confluence/policy-and-compliance/change-log/hotel-cost-approval-update-for-july-requests.json": {
+  "new": false,
+  "note": "424 -> 7964 characters (folder median 5744)",
+  "rel": "confluence/policy-and-compliance/change-log/hotel-cost-approval-update-for-july-requests.json",
+  "stage": 1
+ },
+ "expand/1/confluence/policy-and-compliance/change-log/july-credit-bonus-change.json": {
+  "new": false,
+  "note": "507 -> 10988 characters (folder median 5744)",
+  "rel": "confluence/policy-and-compliance/change-log/july-credit-bonus-change.json",
+  "stage": 1
+ },
+ "expand/1/confluence/policy-and-compliance/change-log/july-illness-cancellation-announcement.json": {
+  "new": false,
+  "note": "497 -> 4882 characters (folder median 5744)",
+  "rel": "confluence/policy-and-compliance/change-log/july-illness-cancellation-announcement.json",
+  "stage": 1
+ },
+ "expand/1/confluence/policy-and-compliance/change-log/receipts-label-renamed.json": {
+  "new": false,
+  "note": "442 -> 9254 characters (folder median 5744)",
+  "rel": "confluence/policy-and-compliance/change-log/receipts-label-renamed.json",
+  "stage": 1
+ },
+ "expand/1/confluence/policy-and-compliance/change-log/schedule-change-rights.json": {
+  "new": false,
+  "note": "574 -> 6717 characters (folder median 5744)",
+  "rel": "confluence/policy-and-compliance/change-log/schedule-change-rights.json",
+  "stage": 1
+ },
+ "expand/1/confluence/policy-and-compliance/change-log/travel-managers-on-company-bookings.json": {
+  "new": false,
+  "note": "811 -> 7089 characters (folder median 5744)",
+  "rel": "confluence/policy-and-compliance/change-log/travel-managers-on-company-bookings.json",
+  "stage": 1
+ },
+ "expand/1/confluence/support-playbooks/case-handling/ticket-labels-change-log.json": {
+  "new": false,
+  "note": "1517 -> 4591 characters (folder median 5601)",
+  "rel": "confluence/support-playbooks/case-handling/ticket-labels-change-log.json",
+  "stage": 1
+ },
+ "expand/1/confluence/support-playbooks/case-handling/ticket-labels.json": {
+  "new": false,
+  "note": "1392 -> 5048 characters (folder median 5601)",
+  "rel": "confluence/support-playbooks/case-handling/ticket-labels.json",
+  "stage": 1
+ },
+ "expand/1/confluence/support-playbooks/case-handling/travel-managers.json": {
+  "new": false,
+  "note": "2593 -> 6736 characters (folder median 5601)",
+  "rel": "confluence/support-playbooks/case-handling/travel-managers.json",
+  "stage": 1
+ },
+ "expand/1/slack/announcements/illness-cancellations.json": {
+  "new": false,
+  "note": "1002 -> 2512 characters (folder median 1832)",
+  "rel": "slack/announcements/illness-cancellations.json",
+  "stage": 1
+ },
+ "expand/1/slack/policy-updates/credit-bonus-ends.json": {
+  "new": false,
+  "note": "713 -> 3734 characters (folder median 3087)",
+  "rel": "slack/policy-updates/credit-bonus-ends.json",
+  "stage": 1
+ },
+ "expand/1/slack/policy-updates/delayed-bag-rate-july.json": {
+  "new": false,
+  "note": "1094 -> 3927 characters (folder median 3087)",
+  "rel": "slack/policy-updates/delayed-bag-rate-july.json",
+  "stage": 1
+ },
+ "expand/1/slack/policy-updates/hotel-handling-update-for-july.json": {
+  "new": false,
+  "note": "845 -> 3311 characters (folder median 3087)",
+  "rel": "slack/policy-updates/hotel-handling-update-for-july.json",
+  "stage": 1
+ },
+ "expand/1/slack/refunds-desk/booked-airport-assistance-not-provided.json": {
+  "new": false,
+  "note": "1114 -> 3093 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/booked-airport-assistance-not-provided.json",
+  "stage": 1
+ },
+ "expand/1/slack/refunds-desk/handling-date-question-for-disruption-hotel-requests.json": {
+  "new": false,
+  "note": "696 -> 3414 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/handling-date-question-for-disruption-hotel-requests.json",
+  "stage": 1
+ },
+ "expand/1/slack/refunds-desk/july-handling-date-question.json": {
+  "new": false,
+  "note": "669 -> 3295 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/july-handling-date-question.json",
+  "stage": 1
+ },
+ "expand/1/slack/refunds-desk/receipt-images-on-delayed-bag-case.json": {
+  "new": false,
+  "note": "621 -> 5025 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/receipt-images-on-delayed-bag-case.json",
+  "stage": 1
+ },
+ "expand/1/slack/refunds-desk/receipts-label-rename-for-reimbursement-requests.json": {
+  "new": false,
+  "note": "919 -> 3670 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/receipts-label-rename-for-reimbursement-requests.json",
+  "stage": 1
+ },
+ "expand/1/slack/refunds-desk/schedule-change-refunds.json": {
+  "new": false,
+  "note": "1141 -> 4636 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/schedule-change-refunds.json",
+  "stage": 1
+ },
+ "expand/1/slack/refunds-desk/schedule-change-wording-for-basic-fares.json": {
+  "new": false,
+  "note": "937 -> 3207 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/schedule-change-wording-for-basic-fares.json",
+  "stage": 1
+ },
+ "expand/1/slack/refunds-desk/travel-manager-request-handling-date.json": {
+  "new": false,
+  "note": "640 -> 3745 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/travel-manager-request-handling-date.json",
+  "stage": 1
+ },
+ "expand/1/slack/support-policy-questions/customer-wording-for-travel-credit-requests.json": {
+  "new": false,
+  "note": "566 -> 2649 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/customer-wording-for-travel-credit-requests.json",
+  "stage": 1
+ },
+ "expand/1/slack/support-policy-questions/delayed-bag-case-note-wording.json": {
+  "new": false,
+  "note": "595 -> 3666 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/delayed-bag-case-note-wording.json",
+  "stage": 1
+ },
+ "expand/1/slack/support-policy-questions/question-on-assistance-request-not-shown-in-booking.json": {
+  "new": false,
+  "note": "728 -> 3882 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/question-on-assistance-request-not-shown-in-booking.json",
+  "stage": 1
+ },
+ "expand/1/slack/support-policy-questions/question-on-hotel-room-cost-approval.json": {
+  "new": false,
+  "note": "524 -> 2299 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/question-on-hotel-room-cost-approval.json",
+  "stage": 1
+ },
+ "expand/1/slack/support-policy-questions/receipts-label-in-reimbursement-cases.json": {
+  "new": false,
+  "note": "643 -> 2971 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/receipts-label-in-reimbursement-cases.json",
+  "stage": 1
+ },
+ "expand/1/slack/support-policy-questions/schedule-change-wording-for-a-customer-case.json": {
+  "new": false,
+  "note": "740 -> 3014 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/schedule-change-wording-for-a-customer-case.json",
+  "stage": 1
+ },
+ "expand/1/slack/support-policy-questions/travel-manager-access-question.json": {
+  "new": false,
+  "note": "672 -> 2963 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/travel-manager-access-question.json",
+  "stage": 1
+ },
+ "expand/1/slack/support-team/booked-airport-assistance-follow-up.json": {
+  "new": false,
+  "note": "952 -> 3384 characters (folder median 2851)",
+  "rel": "slack/support-team/booked-airport-assistance-follow-up.json",
+  "stage": 1
+ },
+ "expand/1/slack/support-team/company-travel-manager-access-question.json": {
+  "new": false,
+  "note": "847 -> 3965 characters (folder median 2851)",
+  "rel": "slack/support-team/company-travel-manager-access-question.json",
+  "stage": 1
+ },
+ "expand/1/slack/support-team/customer-asking-about-travel-credit.json": {
+  "new": false,
+  "note": "361 -> 3345 characters (folder median 2851)",
+  "rel": "slack/support-team/customer-asking-about-travel-credit.json",
+  "stage": 1
+ },
+ "expand/1/slack/support-team/delayed-bag-case-wording.json": {
+  "new": false,
+  "note": "668 -> 4016 characters (folder median 2851)",
+  "rel": "slack/support-team/delayed-bag-case-wording.json",
+  "stage": 1
+ },
+ "expand/1/slack/support-team/quick-question-on-hotel-approval.json": {
+  "new": false,
+  "note": "437 -> 2664 characters (folder median 2851)",
+  "rel": "slack/support-team/quick-question-on-hotel-approval.json",
+  "stage": 1
+ },
+ "expand/1/slack/support-team/receipt-amount-field-question.json": {
+  "new": false,
+  "note": "712 -> 4642 characters (folder median 2851)",
+  "rel": "slack/support-team/receipt-amount-field-question.json",
+  "stage": 1
+ },
+ "expand/1/slack/support-team/schedule-change-wording-for-today-s-contacts.json": {
+  "new": false,
+  "note": "979 -> 2594 characters (folder median 2851)",
+  "rel": "slack/support-team/schedule-change-wording-for-today-s-contacts.json",
+  "stage": 1
+ },
+ "expand/1/slack/support-team/travel-manager-authority-question.json": {
+  "new": false,
+  "note": "1117 -> 2988 characters (folder median 2851)",
+  "rel": "slack/support-team/travel-manager-authority-question.json",
+  "stage": 1
+ },
+ "expand/2/confluence/customer-policies/delays-and-disruptions/disruption-compensation-phase.json": {
+  "new": false,
+  "note": "936 -> 4234 characters (folder median 4144)",
+  "rel": "confluence/customer-policies/delays-and-disruptions/disruption-compensation-phase.json",
+  "stage": 2
+ },
+ "expand/2/confluence/customer-policies/delays-and-disruptions/ground-transport.json": {
+  "new": false,
+  "note": "1142 -> 5192 characters (folder median 4144)",
+  "rel": "confluence/customer-policies/delays-and-disruptions/ground-transport.json",
+  "stage": 2
+ },
+ "expand/2/confluence/customer-policies/delays-and-disruptions/missed-connections.json": {
+  "new": false,
+  "note": "1215 -> 3951 characters (folder median 4144)",
+  "rel": "confluence/customer-policies/delays-and-disruptions/missed-connections.json",
+  "stage": 2
+ },
+ "expand/2/confluence/customer-policies/special-assistance/service-animals.json": {
+  "new": false,
+  "note": "1401 -> 3877 characters (folder median 4144)",
+  "rel": "confluence/customer-policies/special-assistance/service-animals.json",
+  "stage": 2
+ },
+ "expand/2/confluence/policy-and-compliance/change-log/compensation-update.json": {
+  "new": false,
+  "note": "602 -> 8398 characters (folder median 5744)",
+  "rel": "confluence/policy-and-compliance/change-log/compensation-update.json",
+  "stage": 2
+ },
+ "expand/2/confluence/policy-and-compliance/change-log/follow-ups-on-earlier-claims.json": {
+  "new": false,
+  "note": "766 -> 7628 characters (folder median 5744)",
+  "rel": "confluence/policy-and-compliance/change-log/follow-ups-on-earlier-claims.json",
+  "stage": 2
+ },
+ "expand/2/confluence/policy-and-compliance/change-log/ground-transport-change-log-entry.json": {
+  "new": false,
+  "note": "309 -> 6124 characters (folder median 5744)",
+  "rel": "confluence/policy-and-compliance/change-log/ground-transport-change-log-entry.json",
+  "stage": 2
+ },
+ "expand/2/confluence/policy-and-compliance/change-log/hotel-direct-limit-update.json": {
+  "new": false,
+  "note": "506 -> 9103 characters (folder median 5744)",
+  "rel": "confluence/policy-and-compliance/change-log/hotel-direct-limit-update.json",
+  "stage": 2
+ },
+ "expand/2/confluence/policy-and-compliance/change-log/missed-connections-policy-change.json": {
+  "new": false,
+  "note": "648 -> 7599 characters (folder median 5744)",
+  "rel": "confluence/policy-and-compliance/change-log/missed-connections-policy-change.json",
+  "stage": 2
+ },
+ "expand/2/confluence/policy-and-compliance/change-log/pet-fee-handling-update.json": {
+  "new": false,
+  "note": "551 -> 8639 characters (folder median 5744)",
+  "rel": "confluence/policy-and-compliance/change-log/pet-fee-handling-update.json",
+  "stage": 2
+ },
+ "expand/2/confluence/support-playbooks/case-handling/follow-ups.json": {
+  "new": false,
+  "note": "1253 -> 8689 characters (folder median 5601)",
+  "rel": "confluence/support-playbooks/case-handling/follow-ups.json",
+  "stage": 2
+ },
+ "expand/2/slack/irregular-ops/ground-transport-receipt-question.json": {
+  "new": false,
+  "note": "1089 -> 3736 characters (folder median 3693)",
+  "rel": "slack/irregular-ops/ground-transport-receipt-question.json",
+  "stage": 2
+ },
+ "expand/2/slack/irregular-ops/missed-connection-rebooking.json": {
+  "new": false,
+  "note": "1056 -> 3972 characters (folder median 3693)",
+  "rel": "slack/irregular-ops/missed-connection-rebooking.json",
+  "stage": 2
+ },
+ "expand/2/slack/policy-updates/compensation-correction.json": {
+  "new": false,
+  "note": "569 -> 4293 characters (folder median 3087)",
+  "rel": "slack/policy-updates/compensation-correction.json",
+  "stage": 2
+ },
+ "expand/2/slack/policy-updates/hotel-handling-update-for-support-teams.json": {
+  "new": false,
+  "note": "1150 -> 4130 characters (folder median 3087)",
+  "rel": "slack/policy-updates/hotel-handling-update-for-support-teams.json",
+  "stage": 2
+ },
+ "expand/2/slack/policy-updates/pet-fee-own-cancellations.json": {
+  "new": false,
+  "note": "959 -> 2695 characters (folder median 3087)",
+  "rel": "slack/policy-updates/pet-fee-own-cancellations.json",
+  "stage": 2
+ },
+ "expand/2/slack/refunds-desk/disruption-case-wording-check.json": {
+  "new": false,
+  "note": "601 -> 4094 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/disruption-case-wording-check.json",
+  "stage": 2
+ },
+ "expand/2/slack/refunds-desk/follow-ups-on-earlier-claims.json": {
+  "new": false,
+  "note": "732 -> 4641 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/follow-ups-on-earlier-claims.json",
+  "stage": 2
+ },
+ "expand/2/slack/refunds-desk/ground-transport-receipt-handling.json": {
+  "new": false,
+  "note": "776 -> 4291 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/ground-transport-receipt-handling.json",
+  "stage": 2
+ },
+ "expand/2/slack/refunds-desk/hotel-request-handling-date-question.json": {
+  "new": false,
+  "note": "619 -> 3763 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/hotel-request-handling-date-question.json",
+  "stage": 2
+ },
+ "expand/2/slack/refunds-desk/missed-connection-handling-question.json": {
+  "new": false,
+  "note": "756 -> 3667 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/missed-connection-handling-question.json",
+  "stage": 2
+ },
+ "expand/2/slack/refunds-desk/pet-in-cabin-request-handling-date.json": {
+  "new": false,
+  "note": "541 -> 3003 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/pet-in-cabin-request-handling-date.json",
+  "stage": 2
+ },
+ "expand/2/slack/support-policy-questions/follow-up-on-an-earlier-claim.json": {
+  "new": false,
+  "note": "1030 -> 2477 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/follow-up-on-an-earlier-claim.json",
+  "stage": 2
+ },
+ "expand/2/slack/support-policy-questions/ground-transport-wording-for-disruption-cases.json": {
+  "new": false,
+  "note": "692 -> 2163 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/ground-transport-wording-for-disruption-cases.json",
+  "stage": 2
+ },
+ "expand/2/slack/support-policy-questions/missed-connection-booking-check.json": {
+  "new": false,
+  "note": "853 -> 3284 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/missed-connection-booking-check.json",
+  "stage": 2
+ },
+ "expand/2/slack/support-policy-questions/passenger-count-wording-for-disruption-case.json": {
+  "new": false,
+  "note": "573 -> 2408 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/passenger-count-wording-for-disruption-case.json",
+  "stage": 2
+ },
+ "expand/2/slack/support-policy-questions/pet-in-cabin-question-for-customer-initiated-cancellation.json": {
+  "new": false,
+  "note": "653 -> 2982 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/pet-in-cabin-question-for-customer-initiated-cancellation.json",
+  "stage": 2
+ },
+ "expand/2/slack/support-policy-questions/supervisor-approval-for-disruption-hotel-room-cost.json": {
+  "new": false,
+  "note": "526 -> 2419 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/supervisor-approval-for-disruption-hotel-room-cost.json",
+  "stage": 2
+ },
+ "expand/2/slack/support-team/disruption-case-wording-check.json": {
+  "new": false,
+  "note": "546 -> 3688 characters (folder median 2851)",
+  "rel": "slack/support-team/disruption-case-wording-check.json",
+  "stage": 2
+ },
+ "expand/2/slack/support-team/follow-up-on-an-earlier-customer-claim.json": {
+  "new": false,
+  "note": "657 -> 3492 characters (folder median 2851)",
+  "rel": "slack/support-team/follow-up-on-an-earlier-customer-claim.json",
+  "stage": 2
+ },
+ "expand/2/slack/support-team/ground-transport-question-during-disruption.json": {
+  "new": false,
+  "note": "691 -> 3397 characters (folder median 2851)",
+  "rel": "slack/support-team/ground-transport-question-during-disruption.json",
+  "stage": 2
+ },
+ "expand/2/slack/support-team/hotel-approval-question-during-disruption.json": {
+  "new": false,
+  "note": "600 -> 3220 characters (folder median 2851)",
+  "rel": "slack/support-team/hotel-approval-question-during-disruption.json",
+  "stage": 2
+ },
+ "expand/2/slack/support-team/missed-connection-case-notes.json": {
+  "new": false,
+  "note": "1424 -> 3008 characters (folder median 2851)",
+  "rel": "slack/support-team/missed-connection-case-notes.json",
+  "stage": 2
+ },
+ "expand/2/slack/support-team/pet-in-cabin-cancellation-wording.json": {
+  "new": false,
+  "note": "562 -> 3423 characters (folder median 2851)",
+  "rel": "slack/support-team/pet-in-cabin-cancellation-wording.json",
+  "stage": 2
+ },
+ "expand/3/confluence/customer-policies/special-assistance/family-seating.json": {
+  "new": false,
+  "note": "1638 -> 5461 characters (folder median 4144)",
+  "rel": "confluence/customer-policies/special-assistance/family-seating.json",
+  "stage": 3
+ },
+ "expand/3/confluence/customer-policies/special-assistance/infant-fees.json": {
+  "new": false,
+  "note": "854 -> 4479 characters (folder median 4144)",
+  "rel": "confluence/customer-policies/special-assistance/infant-fees.json",
+  "stage": 3
+ },
+ "expand/3/confluence/policy-and-compliance/change-log/baggage-claim-handling-update.json": {
+  "new": false,
+  "note": "695 -> 6328 characters (folder median 5744)",
+  "rel": "confluence/policy-and-compliance/change-log/baggage-claim-handling-update.json",
+  "stage": 3
+ },
+ "expand/3/confluence/policy-and-compliance/change-log/family-seating-change-log-entry.json": {
+  "new": false,
+  "note": "600 -> 8543 characters (folder median 5744)",
+  "rel": "confluence/policy-and-compliance/change-log/family-seating-change-log-entry.json",
+  "stage": 3
+ },
+ "expand/3/confluence/policy-and-compliance/change-log/payment-retries.json": {
+  "new": false,
+  "note": "458 -> 7206 characters (folder median 5744)",
+  "rel": "confluence/policy-and-compliance/change-log/payment-retries.json",
+  "stage": 3
+ },
+ "expand/3/confluence/policy-and-compliance/change-log/skyway-miles-tier-benefits-change.json": {
+  "new": false,
+  "note": "383 -> 8675 characters (folder median 5744)",
+  "rel": "confluence/policy-and-compliance/change-log/skyway-miles-tier-benefits-change.json",
+  "stage": 3
+ },
+ "expand/3/confluence/support-playbooks/case-handling/when-a-payment-fails.json": {
+  "new": false,
+  "note": "1257 -> 6788 characters (folder median 5601)",
+  "rel": "confluence/support-playbooks/case-handling/when-a-payment-fails.json",
+  "stage": 3
+ },
+ "expand/3/slack/loyalty-team/september-tiers.json": {
+  "new": false,
+  "note": "976 -> 2750 characters (folder median 2853)",
+  "rel": "slack/loyalty-team/september-tiers.json",
+  "stage": 3
+ },
+ "expand/3/slack/policy-updates/baggage-claim-intake-wording-for-september.json": {
+  "new": false,
+  "note": "1545 -> 2832 characters (folder median 3087)",
+  "rel": "slack/policy-updates/baggage-claim-intake-wording-for-september.json",
+  "stage": 3
+ },
+ "expand/3/slack/refunds-desk/child-seat-fee-question.json": {
+  "new": false,
+  "note": "1221 -> 2794 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/child-seat-fee-question.json",
+  "stage": 3
+ },
+ "expand/3/slack/refunds-desk/family-seating-booking-check.json": {
+  "new": false,
+  "note": "805 -> 4700 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/family-seating-booking-check.json",
+  "stage": 3
+ },
+ "expand/3/slack/refunds-desk/late-baggage-claim-queue-handling.json": {
+  "new": false,
+  "note": "805 -> 4287 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/late-baggage-claim-queue-handling.json",
+  "stage": 3
+ },
+ "expand/3/slack/refunds-desk/payment-retry-notes-question.json": {
+  "new": false,
+  "note": "659 -> 3152 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/payment-retry-notes-question.json",
+  "stage": 3
+ },
+ "expand/3/slack/refunds-desk/question-on-skyway-miles-tier-change-requests.json": {
+  "new": false,
+  "note": "869 -> 4452 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/question-on-skyway-miles-tier-change-requests.json",
+  "stage": 3
+ },
+ "expand/3/slack/support-policy-questions/family-seating-case-wording.json": {
+  "new": false,
+  "note": "890 -> 3049 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/family-seating-case-wording.json",
+  "stage": 3
+ },
+ "expand/3/slack/support-policy-questions/payment-retry-after-processing-error.json": {
+  "new": false,
+  "note": "891 -> 2447 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/payment-retry-after-processing-error.json",
+  "stage": 3
+ },
+ "expand/3/slack/support-policy-questions/question-on-bag-damage-case-intake.json": {
+  "new": false,
+  "note": "567 -> 3132 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/question-on-bag-damage-case-intake.json",
+  "stage": 3
+ },
+ "expand/3/slack/support-policy-questions/skyway-miles-tier-change-fee-question.json": {
+  "new": false,
+  "note": "704 -> 3304 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/skyway-miles-tier-change-fee-question.json",
+  "stage": 3
+ },
+ "expand/3/slack/support-team/duplicate-refund-incident.json": {
+  "new": false,
+  "note": "1698 -> 2524 characters (folder median 2851)",
+  "rel": "slack/support-team/duplicate-refund-incident.json",
+  "stage": 3
+ },
+ "expand/3/slack/support-team/family-seating-wording-for-chats.json": {
+  "new": false,
+  "note": "598 -> 2716 characters (folder median 2851)",
+  "rel": "slack/support-team/family-seating-wording-for-chats.json",
+  "stage": 3
+ },
+ "expand/3/slack/support-team/gold-tier-change-fee-wording.json": {
+  "new": false,
+  "note": "489 -> 3123 characters (folder median 2851)",
+  "rel": "slack/support-team/gold-tier-change-fee-wording.json",
+  "stage": 3
+ },
+ "expand/3/slack/support-team/payment-retry-after-processing-timeout.json": {
+  "new": false,
+  "note": "924 -> 3440 characters (folder median 2851)",
+  "rel": "slack/support-team/payment-retry-after-processing-timeout.json",
+  "stage": 3
+ },
+ "expand/3/slack/support-team/question-on-delayed-bag-follow-up.json": {
+  "new": false,
+  "note": "694 -> 3575 characters (folder median 2851)",
+  "rel": "slack/support-team/question-on-delayed-bag-follow-up.json",
+  "stage": 3
+ },
+ "expand/4/confluence/customer-policies/special-assistance/unaccompanied-minors-operations-manual.json": {
+  "new": false,
+  "note": "2915 -> 4459 characters (folder median 4144)",
+  "rel": "confluence/customer-policies/special-assistance/unaccompanied-minors-operations-manual.json",
+  "stage": 4
+ },
+ "expand/4/confluence/policy-and-compliance/change-log/delay-meal-allowance-update.json": {
+  "new": false,
+  "note": "481 -> 9187 characters (folder median 5744)",
+  "rel": "confluence/policy-and-compliance/change-log/delay-meal-allowance-update.json",
+  "stage": 4
+ },
+ "expand/4/confluence/policy-and-compliance/change-log/goodwill-update.json": {
+  "new": false,
+  "note": "524 -> 8071 characters (folder median 5744)",
+  "rel": "confluence/policy-and-compliance/change-log/goodwill-update.json",
+  "stage": 4
+ },
+ "expand/4/confluence/policy-and-compliance/change-log/unaccompanied-minor-update.json": {
+  "new": false,
+  "note": "592 -> 8627 characters (folder median 5744)",
+  "rel": "confluence/policy-and-compliance/change-log/unaccompanied-minor-update.json",
+  "stage": 4
+ },
+ "expand/4/confluence/support-playbooks/case-handling/um-handover-checklist.json": {
+  "new": false,
+  "note": "2881 -> 8772 characters (folder median 5601)",
+  "rel": "confluence/support-playbooks/case-handling/um-handover-checklist.json",
+  "stage": 4
+ },
+ "expand/4/slack/policy-updates/delay-meal-wording-for-support-teams.json": {
+  "new": false,
+  "note": "770 -> 3167 characters (folder median 3087)",
+  "rel": "slack/policy-updates/delay-meal-wording-for-support-teams.json",
+  "stage": 4
+ },
+ "expand/4/slack/policy-updates/goodwill-wording-for-service-failures.json": {
+  "new": false,
+  "note": "1351 -> 3112 characters (folder median 3087)",
+  "rel": "slack/policy-updates/goodwill-wording-for-service-failures.json",
+  "stage": 4
+ },
+ "expand/4/slack/refunds-desk/cancelled-trip-and-unaccompanied-minor-fee.json": {
+  "new": false,
+  "note": "511 -> 3155 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/cancelled-trip-and-unaccompanied-minor-fee.json",
+  "stage": 4
+ },
+ "expand/4/slack/refunds-desk/case-note-wording-for-service-failure.json": {
+  "new": false,
+  "note": "602 -> 3478 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/case-note-wording-for-service-failure.json",
+  "stage": 4
+ },
+ "expand/4/slack/refunds-desk/overnight-delay-case-note.json": {
+  "new": false,
+  "note": "464 -> 5062 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/overnight-delay-case-note.json",
+  "stage": 4
+ },
+ "expand/4/slack/refunds-desk/um-fee-refund-handling-question.json": {
+  "new": false,
+  "note": "1392 -> 3742 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/um-fee-refund-handling-question.json",
+  "stage": 4
+ },
+ "expand/4/slack/support-policy-questions/cancellation-handling-question.json": {
+  "new": false,
+  "note": "602 -> 2621 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/cancellation-handling-question.json",
+  "stage": 4
+ },
+ "expand/4/slack/support-policy-questions/how-to-log-a-service-failure-case.json": {
+  "new": false,
+  "note": "920 -> 3771 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/how-to-log-a-service-failure-case.json",
+  "stage": 4
+ },
+ "expand/4/slack/support-policy-questions/question-on-um-charge-display.json": {
+  "new": false,
+  "note": "575 -> 2994 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/question-on-um-charge-display.json",
+  "stage": 4
+ },
+ "expand/4/slack/support-team/meal-question-for-delayed-flight-cases.json": {
+  "new": false,
+  "note": "617 -> 4181 characters (folder median 2851)",
+  "rel": "slack/support-team/meal-question-for-delayed-flight-cases.json",
+  "stage": 4
+ },
+ "expand/4/slack/support-team/question-on-unaccompanied-minor-booking.json": {
+  "new": false,
+  "note": "453 -> 2658 characters (folder median 2851)",
+  "rel": "slack/support-team/question-on-unaccompanied-minor-booking.json",
+  "stage": 4
+ },
+ "expand/4/slack/support-team/question-on-unused-paid-extra-after-service-issue.json": {
+  "new": false,
+  "note": "704 -> 3796 characters (folder median 2851)",
+  "rel": "slack/support-team/question-on-unused-paid-extra-after-service-issue.json",
+  "stage": 4
+ },
+ "expand/5/confluence/policy-and-compliance/change-log/compensation-late-arrival-handling-update.json": {
+  "new": false,
+  "note": "364 -> 5849 characters (folder median 5744)",
+  "rel": "confluence/policy-and-compliance/change-log/compensation-late-arrival-handling-update.json",
+  "stage": 5
+ },
+ "expand/5/confluence/policy-and-compliance/change-log/confirmation-id-response-update.json": {
+  "new": false,
+  "note": "611 -> 9162 characters (folder median 5744)",
+  "rel": "confluence/policy-and-compliance/change-log/confirmation-id-response-update.json",
+  "stage": 5
+ },
+ "expand/5/confluence/policy-and-compliance/change-log/refund-eligibility-update-for-departure-delays.json": {
+  "new": false,
+  "note": "457 -> 7239 characters (folder median 5744)",
+  "rel": "confluence/policy-and-compliance/change-log/refund-eligibility-update-for-departure-delays.json",
+  "stage": 5
+ },
+ "expand/5/confluence/support-playbooks/case-handling/confirmation-numbers.json": {
+  "new": false,
+  "note": "965 -> 8574 characters (folder median 5601)",
+  "rel": "confluence/support-playbooks/case-handling/confirmation-numbers.json",
+  "stage": 5
+ },
+ "expand/5/confluence/support-playbooks/case-handling/policy-change-log-december.json": {
+  "new": false,
+  "note": "1291 -> 6795 characters (folder median 5601)",
+  "rel": "confluence/support-playbooks/case-handling/policy-change-log-december.json",
+  "stage": 5
+ },
+ "expand/5/slack/policy-updates/disruption-compensation-wording-for-december.json": {
+  "new": false,
+  "note": "861 -> 3972 characters (folder median 3087)",
+  "rel": "slack/policy-updates/disruption-compensation-wording-for-december.json",
+  "stage": 5
+ },
+ "expand/5/slack/policy-updates/refund-handling-language-for-cancellations-and-long-delays.json": {
+  "new": false,
+  "note": "1227 -> 4008 characters (folder median 3087)",
+  "rel": "slack/policy-updates/refund-handling-language-for-cancellations-and-long-delays.json",
+  "stage": 5
+ },
+ "expand/5/slack/refunds-desk/arrival-delay-compensation-question.json": {
+  "new": false,
+  "note": "634 -> 4488 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/arrival-delay-compensation-question.json",
+  "stage": 5
+ },
+ "expand/5/slack/refunds-desk/confirmation-number-in-customer-reply.json": {
+  "new": false,
+  "note": "747 -> 3606 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/confirmation-number-in-customer-reply.json",
+  "stage": 5
+ },
+ "expand/5/slack/refunds-desk/unused-flight-seat-and-bag-charges.json": {
+  "new": false,
+  "note": "491 -> 4358 characters (folder median 3255)",
+  "rel": "slack/refunds-desk/unused-flight-seat-and-bag-charges.json",
+  "stage": 5
+ },
+ "expand/5/slack/support-policy-questions/arrival-delay-compensation-question.json": {
+  "new": false,
+  "note": "668 -> 2061 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/arrival-delay-compensation-question.json",
+  "stage": 5
+ },
+ "expand/5/slack/support-policy-questions/confirmation-id-wording-for-case-notes.json": {
+  "new": false,
+  "note": "642 -> 2185 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/confirmation-id-wording-for-case-notes.json",
+  "stage": 5
+ },
+ "expand/5/slack/support-policy-questions/question-on-unused-fare-handling-after-disruption.json": {
+  "new": false,
+  "note": "710 -> 3172 characters (folder median 2384)",
+  "rel": "slack/support-policy-questions/question-on-unused-fare-handling-after-disruption.json",
+  "stage": 5
+ },
+ "expand/5/slack/support-team/arrival-delay-compensation-question.json": {
+  "new": false,
+  "note": "767 -> 2805 characters (folder median 2851)",
+  "rel": "slack/support-team/arrival-delay-compensation-question.json",
+  "stage": 5
+ },
+ "expand/5/slack/support-team/confirmation-number-in-support-responses.json": {
+  "new": false,
+  "note": "850 -> 4312 characters (folder median 2851)",
+  "rel": "slack/support-team/confirmation-number-in-support-responses.json",
+  "stage": 5
+ },
+ "expand/5/slack/support-team/question-on-refund-case-after-departure-delay.json": {
+  "new": false,
+  "note": "429 -> 3797 characters (folder median 2851)",
+  "rel": "slack/support-team/question-on-refund-case-after-departure-delay.json",
+  "stage": 5
+ },
+ "lookalike/R1/0": {
+  "new": true,
+  "note": "R1 lookalike, 4940 characters",
+  "rel": "confluence/customer-policies/delays-and-disruptions/disruption-intake-recording-skyway-controlled-questions.json",
+  "rule": "R1",
+  "stage": 0
+ },
+ "lookalike/R1/1": {
+  "new": true,
+  "note": "R1 lookalike, 3772 characters",
+  "rel": "slack/irregular-ops/control-flag-on-the-bos-case.json",
+  "rule": "R1",
+  "stage": 0
+ },
+ "lookalike/R1/2": {
+  "new": true,
+  "note": "R1 lookalike, 3506 characters",
+  "rel": "slack/support-policy-questions/disruption-coding-question-from-today-s-queue.json",
+  "rule": "R1",
+  "stage": 0
+ },
+ "lookalike/R1/3": {
+  "new": true,
+  "note": "R1 lookalike, 3146 characters",
+  "rel": "slack/support-team/marking-a-disruption-while-ops-is-still-checking.json",
+  "rule": "R1",
+  "stage": 0
+ },
+ "lookalike/R10/0": {
+  "new": true,
+  "note": "R10 lookalike, 4704 characters",
+  "rel": "confluence/customer-policies/delays-and-disruptions/hotel-conversations-during-disruptions.json",
+  "rule": "R10",
+  "stage": 0
+ },
+ "lookalike/R10/1": {
+  "new": true,
+  "note": "R10 lookalike, 8856 characters",
+  "rel": "confluence/support-playbooks/approvals-and-limits/hotel-questions-during-disruptions-case-recording-and-review-handoff.json",
+  "rule": "R10",
+  "stage": 0
+ },
+ "lookalike/R10/2": {
+  "new": true,
+  "note": "R10 lookalike, 3250 characters",
+  "rel": "slack/support-policy-questions/hotel-question-with-incomplete-disruption-record.json",
+  "rule": "R10",
+  "stage": 0
+ },
+ "lookalike/R10/3": {
+  "new": true,
+  "note": "R10 lookalike, 2287 characters",
+  "rel": "slack/support-team/hotel-questions-in-disruption-cases.json",
+  "rule": "R10",
+  "stage": 0
+ },
+ "lookalike/R11/0": {
+  "new": true,
+  "note": "R11 lookalike, 6091 characters",
+  "rel": "confluence/support-playbooks/case-handling/receipt-handling-and-payment-follow-up.json",
+  "rule": "R11",
+  "stage": 0
+ },
+ "lookalike/R11/1": {
+  "new": true,
+  "note": "R11 lookalike, 2925 characters",
+  "rel": "slack/support-policy-questions/receipt-attachment-and-reimbursement-case-notes.json",
+  "rule": "R11",
+  "stage": 0
+ },
+ "lookalike/R11/2": {
+  "new": true,
+  "note": "R11 lookalike, 3068 characters",
+  "rel": "slack/support-team/receipt-case-not-appearing-in-payment-review.json",
+  "rule": "R11",
+  "stage": 0
+ },
+ "lookalike/R11/3": {
+  "new": true,
+  "note": "R11 lookalike, 3089 characters",
+  "rel": "slack/support-escalations/receipt-attachment-routing-check.json",
+  "rule": "R11",
+  "stage": 0
+ },
+ "lookalike/R12/0": {
+  "new": true,
+  "note": "R12 lookalike, 5681 characters",
+  "rel": "confluence/customer-policies/delays-and-disruptions/disruption-compensation-case-recording-and-handoff.json",
+  "rule": "R12",
+  "stage": 0
+ },
+ "lookalike/R12/1": {
+  "new": true,
+  "note": "R12 lookalike, 3870 characters",
+  "rel": "slack/irregular-ops/compensation-notes-on-case-sr.json",
+  "rule": "R12",
+  "stage": 0
+ },
+ "lookalike/R12/2": {
+  "new": true,
+  "note": "R12 lookalike, 3181 characters",
+  "rel": "slack/support-team/compensation-notes-in-disruption-cases.json",
+  "rule": "R12",
+  "stage": 0
+ },
+ "lookalike/R12/3": {
+  "new": true,
+  "note": "R12 lookalike, 2524 characters",
+  "rel": "slack/support-policy-questions/compensation-note-after-disruption-case.json",
+  "rule": "R12",
+  "stage": 0
+ },
+ "lookalike/R13/0": {
+  "new": true,
+  "note": "R13 lookalike, 5965 characters",
+  "rel": "confluence/customer-policies/baggage/delayed-bag-case-handling-notes.json",
+  "rule": "R13",
+  "stage": 0
+ },
+ "lookalike/R13/1": {
+  "new": true,
+  "note": "R13 lookalike, 3084 characters",
+  "rel": "slack/baggage-desk/bag-case-held-in-the-arrivals-queue.json",
+  "rule": "R13",
+  "stage": 0
+ },
+ "lookalike/R13/2": {
+  "new": true,
+  "note": "R13 lookalike, 2974 characters",
+  "rel": "slack/support-policy-questions/delayed-bag-case-note-and-queue-handoff.json",
+  "rule": "R13",
+  "stage": 0
+ },
+ "lookalike/R13/3": {
+  "new": true,
+  "note": "R13 lookalike, 3643 characters",
+  "rel": "slack/support-team/bag-case-notes-and-queue-handoff.json",
+  "rule": "R13",
+  "stage": 0
+ },
+ "lookalike/R14/0": {
+  "new": true,
+  "note": "R14 lookalike, 4134 characters",
+  "rel": "confluence/customer-policies/baggage/baggage-claim-timing-questions-case-handling-notes.json",
+  "rule": "R14",
+  "stage": 0
+ },
+ "lookalike/R14/1": {
+  "new": true,
+  "note": "R14 lookalike, 2526 characters",
+  "rel": "slack/baggage-desk/claim-timing-question-on-case-br.json",
+  "rule": "R14",
+  "stage": 0
+ },
+ "lookalike/R14/2": {
+  "new": true,
+  "note": "R14 lookalike, 3075 characters",
+  "rel": "slack/support-policy-questions/bag-claim-timing-case-notes.json",
+  "rule": "R14",
+  "stage": 0
+ },
+ "lookalike/R14/3": {
+  "new": true,
+  "note": "R14 lookalike, 2594 characters",
+  "rel": "slack/support-team/bag-claim-timing-handoffs.json",
+  "rule": "R14",
+  "stage": 0
+ },
+ "lookalike/R15/0": {
+  "new": true,
+  "note": "R15 lookalike, 3930 characters",
+  "rel": "confluence/customer-policies/baggage/damaged-bags-case-review-session-guide.json",
+  "rule": "R15",
+  "stage": 0
+ },
+ "lookalike/R15/1": {
+  "new": true,
+  "note": "R15 lookalike, 2832 characters",
+  "rel": "slack/baggage-desk/damaged-bag-record-at-west-arrivals.json",
+  "rule": "R15",
+  "stage": 0
+ },
+ "lookalike/R15/2": {
+  "new": true,
+  "note": "R15 lookalike, 2799 characters",
+  "rel": "slack/support-policy-questions/damaged-bag-case-recording-and-routing.json",
+  "rule": "R15",
+  "stage": 0
+ },
+ "lookalike/R15/3": {
+  "new": true,
+  "note": "R15 lookalike, 2744 characters",
+  "rel": "slack/support-team/damaged-bag-case-notes-and-queue-visibility.json",
+  "rule": "R15",
+  "stage": 0
+ },
+ "lookalike/R16/0": {
+  "new": true,
+  "note": "R16 lookalike, 8133 characters",
+  "rel": "confluence/support-playbooks/approvals-and-limits/goodwill-and-service-failures-case-handling.json",
+  "rule": "R16",
+  "stage": 0
+ },
+ "lookalike/R16/1": {
+  "new": true,
+  "note": "R16 lookalike, 3442 characters",
+  "rel": "slack/support-escalations/goodwill-case-recording-and-queue-handoff.json",
+  "rule": "R16",
+  "stage": 0
+ },
+ "lookalike/R16/2": {
+  "new": true,
+  "note": "R16 lookalike, 2862 characters",
+  "rel": "slack/support-policy-questions/case-notes-for-mixed-service-failure-report.json",
+  "rule": "R16",
+  "stage": 0
+ },
+ "lookalike/R16/3": {
+  "new": true,
+  "note": "R16 lookalike, 3323 characters",
+  "rel": "slack/support-team/capturing-the-full-service-failure-story.json",
+  "rule": "R16",
+  "stage": 0
+ },
+ "lookalike/R17/0": {
+  "new": true,
+  "note": "R17 lookalike, 6555 characters",
+  "rel": "confluence/support-playbooks/case-handling/who-can-ask-for-changes-on-a-booking-case-capture-and-review.json",
+  "rule": "R17",
+  "stage": 0
+ },
+ "lookalike/R17/1": {
+  "new": true,
+  "note": "R17 lookalike, 2800 characters",
+  "rel": "slack/support-team/booking-change-requester-notes.json",
+  "rule": "R17",
+  "stage": 0
+ },
+ "lookalike/R17/2": {
+  "new": true,
+  "note": "R17 lookalike, 2688 characters",
+  "rel": "slack/support-policy-questions/caller-asking-to-change-a-booking.json",
+  "rule": "R17",
+  "stage": 0
+ },
+ "lookalike/R17/3": {
+  "new": true,
+  "note": "R17 lookalike, 3895 characters",
+  "rel": "slack/support-escalations/booking-change-caller-verification-case.json",
+  "rule": "R17",
+  "stage": 0
+ },
+ "lookalike/R18/0": {
+  "new": true,
+  "note": "R18 lookalike, 8652 characters",
+  "rel": "confluence/support-playbooks/case-handling/instructions-in-messages-and-booking-notes.json",
+  "rule": "R18",
+  "stage": 0
+ },
+ "lookalike/R18/1": {
+  "new": true,
+  "note": "R18 lookalike, 3023 characters",
+  "rel": "slack/support-policy-questions/instructions-appearing-in-a-booking-note.json",
+  "rule": "R18",
+  "stage": 0
+ },
+ "lookalike/R18/2": {
+  "new": true,
+  "note": "R18 lookalike, 3360 characters",
+  "rel": "slack/support-team/message-instruction-and-booking-note-handoff.json",
+  "rule": "R18",
+  "stage": 0
+ },
+ "lookalike/R18/3": {
+  "new": true,
+  "note": "R18 lookalike, 3030 characters",
+  "rel": "slack/support-escalations/message-text-and-booking-note-on-case.json",
+  "rule": "R18",
+  "stage": 0
+ },
+ "lookalike/R19/0": {
+  "new": true,
+  "note": "R19 lookalike, 7847 characters",
+  "rel": "confluence/support-playbooks/escalation/person-handoff-case-notes-and-review-prompts.json",
+  "rule": "R19",
+  "stage": 0
+ },
+ "lookalike/R19/1": {
+  "new": true,
+  "note": "R19 lookalike, 3112 characters",
+  "rel": "slack/support-escalations/case-wording-and-escalation-pane-gap.json",
+  "rule": "R19",
+  "stage": 0
+ },
+ "lookalike/R19/2": {
+  "new": true,
+  "note": "R19 lookalike, 2732 characters",
+  "rel": "slack/support-policy-questions/case-note-and-human-handoff-question.json",
+  "rule": "R19",
+  "stage": 0
+ },
+ "lookalike/R19/3": {
+  "new": true,
+  "note": "R19 lookalike, 2890 characters",
+  "rel": "slack/support-team/when-to-hand-a-case-over.json",
+  "rule": "R19",
+  "stage": 0
+ },
+ "lookalike/R2/0": {
+  "new": true,
+  "note": "R2 lookalike, 4221 characters",
+  "rel": "confluence/customer-policies/cancellations-and-refunds/refund-conversations-after-a-cancel-or-long-delay.json",
+  "rule": "R2",
+  "stage": 0
+ },
+ "lookalike/R2/1": {
+  "new": true,
+  "note": "R2 lookalike, 3524 characters",
+  "rel": "slack/refunds-desk/canceled-flight-case-notes-and-queue-handoff.json",
+  "rule": "R2",
+  "stage": 0
+ },
+ "lookalike/R2/2": {
+  "new": true,
+  "note": "R2 lookalike, 2667 characters",
+  "rel": "slack/support-policy-questions/recording-a-cancel-and-delay-refund-question.json",
+  "rule": "R2",
+  "stage": 0
+ },
+ "lookalike/R2/3": {
+  "new": true,
+  "note": "R2 lookalike, 2608 characters",
+  "rel": "slack/support-team/refund-question-handoff-and-queue-issue.json",
+  "rule": "R2",
+  "stage": 0
+ },
+ "lookalike/R20/0": {
+  "new": true,
+  "note": "R20 lookalike, 8529 characters",
+  "rel": "confluence/support-playbooks/case-handling/checking-what-was-already-done.json",
+  "rule": "R20",
+  "stage": 0
+ },
+ "lookalike/R20/1": {
+  "new": true,
+  "note": "R20 lookalike, 4183 characters",
+  "rel": "confluence/customer-policies/cancellations-and-refunds/checking-what-was-already-done.json",
+  "rule": "R20",
+  "stage": 0
+ },
+ "lookalike/R20/2": {
+  "new": true,
+  "note": "R20 lookalike, 3145 characters",
+  "rel": "slack/support-policy-questions/checking-what-was-already-done-on-a-duplicate-request.json",
+  "rule": "R20",
+  "stage": 0
+ },
+ "lookalike/R20/3": {
+  "new": true,
+  "note": "R20 lookalike, 2968 characters",
+  "rel": "slack/support-team/checking-the-first-pass-before-replying-again.json",
+  "rule": "R20",
+  "stage": 0
+ },
+ "lookalike/R21/0": {
+  "new": true,
+  "note": "R21 lookalike, 8068 characters",
+  "rel": "confluence/support-playbooks/case-handling/ticket-categories-recording-what-the-customer-contacted-us-about.json",
+  "rule": "R21",
+  "stage": 0
+ },
+ "lookalike/R21/1": {
+  "new": true,
+  "note": "R21 lookalike, 2921 characters",
+  "rel": "slack/support-policy-questions/category-question-baggage-issue-after-a-disruption.json",
+  "rule": "R21",
+  "stage": 0
+ },
+ "lookalike/R21/2": {
+  "new": true,
+  "note": "R21 lookalike, 3130 characters",
+  "rel": "slack/support-team/category-field-question-from-today-s-desk.json",
+  "rule": "R21",
+  "stage": 0
+ },
+ "lookalike/R21/3": {
+  "new": true,
+  "note": "R21 lookalike, 3474 characters",
+  "rel": "slack/support-escalations/disruption-contact-baggage-and-refund-tagging.json",
+  "rule": "R21",
+  "stage": 0
+ },
+ "lookalike/R22/0": {
+  "new": true,
+  "note": "R22 lookalike, 4794 characters",
+  "rel": "confluence/customer-policies/special-assistance/booked-assistance-at-the-airport-case-recording-and-handoffs.json",
+  "rule": "R22",
+  "stage": 1
+ },
+ "lookalike/R22/1": {
+  "new": true,
+  "note": "R22 lookalike, 6857 characters",
+  "rel": "confluence/support-playbooks/approvals-and-limits/booked-airport-assistance-case-capture-and-shift-briefing.json",
+  "rule": "R22",
+  "stage": 1
+ },
+ "lookalike/R23/0": {
+  "new": true,
+  "note": "R23 lookalike, 3990 characters",
+  "rel": "confluence/customer-policies/fares-and-changes/schedule-change-case-recording-and-handoff.json",
+  "rule": "R23",
+  "stage": 1
+ },
+ "lookalike/R23/1": {
+  "new": true,
+  "note": "R23 lookalike, 8047 characters",
+  "rel": "confluence/policy-and-compliance/change-log/schedule-change-case-mapping-session-guide.json",
+  "rule": "R23",
+  "stage": 1
+ },
+ "lookalike/R24/0": {
+  "new": true,
+  "note": "R24 lookalike, 6669 characters",
+  "rel": "confluence/support-playbooks/case-handling/company-travel-manager-contacts-case-recording-and-queue-handoff-notes.json",
+  "rule": "R24",
+  "stage": 1
+ },
+ "lookalike/R24/1": {
+  "new": true,
+  "note": "R24 lookalike, 7963 characters",
+  "rel": "confluence/policy-and-compliance/change-log/company-travel-manager-contact-observation-and-case-recording.json",
+  "rule": "R24",
+  "stage": 1
+ },
+ "lookalike/R25/0": {
+  "new": true,
+  "note": "R25 lookalike, 6682 characters",
+  "rel": "confluence/policy-and-compliance/change-log/illness-cancellation-case-handling-notes.json",
+  "rule": "R25",
+  "stage": 1
+ },
+ "lookalike/R25/1": {
+  "new": true,
+  "note": "R25 lookalike, 1690 characters",
+  "rel": "slack/announcements/illness-case-recording-and-queue-behavior.json",
+  "rule": "R25",
+  "stage": 1
+ },
+ "lookalike/R26/0": {
+  "new": true,
+  "note": "R26 lookalike, 4877 characters",
+  "rel": "confluence/customer-policies/delays-and-disruptions/ground-transport-during-disruptions-case-recording-and-handoff-notes.json",
+  "rule": "R26",
+  "stage": 2
+ },
+ "lookalike/R26/1": {
+  "new": true,
+  "note": "R26 lookalike, 6352 characters",
+  "rel": "confluence/policy-and-compliance/change-log/ground-transport-during-disruptions-case-capture-and-session-workflow.json",
+  "rule": "R26",
+  "stage": 2
+ },
+ "lookalike/R26/2": {
+  "new": true,
+  "note": "R26 lookalike, 4666 characters",
+  "rel": "slack/irregular-ops/phx-ground-transport-case-logging.json",
+  "rule": "R26",
+  "stage": 2
+ },
+ "lookalike/R26/3": {
+  "new": true,
+  "note": "R26 lookalike, 2996 characters",
+  "rel": "slack/support-policy-questions/ground-transport-case-logging-question.json",
+  "rule": "R26",
+  "stage": 2
+ },
+ "lookalike/R27/0": {
+  "new": true,
+  "note": "R27 lookalike, 5068 characters",
+  "rel": "confluence/customer-policies/delays-and-disruptions/missed-connections-case-recording-and-review-workflow.json",
+  "rule": "R27",
+  "stage": 2
+ },
+ "lookalike/R27/1": {
+  "new": true,
+  "note": "R27 lookalike, 4744 characters",
+  "rel": "confluence/customer-policies/cancellations-and-refunds/missed-connections-case-conversation-and-recording-guide.json",
+  "rule": "R27",
+  "stage": 2
+ },
+ "lookalike/R27/2": {
+  "new": true,
+  "note": "R27 lookalike, 6457 characters",
+  "rel": "confluence/policy-and-compliance/change-log/missed-connections-case-recording-and-queue-handoff-notes.json",
+  "rule": "R27",
+  "stage": 2
+ },
+ "lookalike/R27/3": {
+  "new": true,
+  "note": "R27 lookalike, 4129 characters",
+  "rel": "slack/irregular-ops/missed-connection-case-notes-and-queue-visibility.json",
+  "rule": "R27",
+  "stage": 2
+ },
+ "lookalike/R28/0": {
+  "new": true,
+  "note": "R28 lookalike, 6960 characters",
+  "rel": "confluence/support-playbooks/case-handling/follow-ups-on-earlier-claims-case-recording-and-queue-handoffs.json",
+  "rule": "R28",
+  "stage": 2
+ },
+ "lookalike/R28/1": {
+  "new": true,
+  "note": "R28 lookalike, 6417 characters",
+  "rel": "confluence/policy-and-compliance/change-log/follow-ups-on-earlier-claims-case-notes-and-queue-handling.json",
+  "rule": "R28",
+  "stage": 2
+ },
+ "lookalike/R28/2": {
+  "new": true,
+  "note": "R28 lookalike, 3101 characters",
+  "rel": "slack/support-policy-questions/follow-up-on-an-earlier-claim-in-the-queue.json",
+  "rule": "R28",
+  "stage": 2
+ },
+ "lookalike/R28/3": {
+  "new": true,
+  "note": "R28 lookalike, 2455 characters",
+  "rel": "slack/support-team/follow-ups-on-earlier-claims.json",
+  "rule": "R28",
+  "stage": 2
+ },
+ "lookalike/R29/0": {
+  "new": true,
+  "note": "R29 lookalike, 7040 characters",
+  "rel": "confluence/support-playbooks/case-handling/payment-failures-case-notes-and-handoff-details.json",
+  "rule": "R29",
+  "stage": 3
+ },
+ "lookalike/R29/1": {
+  "new": true,
+  "note": "R29 lookalike, 6740 characters",
+  "rel": "confluence/policy-and-compliance/change-log/payment-failures-case-recording-and-queue-handoff-notes.json",
+  "rule": "R29",
+  "stage": 3
+ },
+ "lookalike/R29/2": {
+  "new": true,
+  "note": "R29 lookalike, 3045 characters",
+  "rel": "slack/support-team/payment-failures-showing-incomplete-attempts.json",
+  "rule": "R29",
+  "stage": 3
+ },
+ "lookalike/R29/3": {
+  "new": true,
+  "note": "R29 lookalike, 2744 characters",
+  "rel": "slack/support-policy-questions/payment-failure-case-notes-and-queue-handoff.json",
+  "rule": "R29",
+  "stage": 3
+ },
+ "lookalike/R3/0": {
+  "new": true,
+  "note": "R3 lookalike, 4084 characters",
+  "rel": "confluence/customer-policies/cancellations-and-refunds/travel-credit-instead-of-a-refund-case-recording-and-handoffs.json",
+  "rule": "R3",
+  "stage": 0
+ },
+ "lookalike/R3/1": {
+  "new": true,
+  "note": "R3 lookalike, 3564 characters",
+  "rel": "slack/refunds-desk/credit-request-notes-not-reaching-the-desk-view.json",
+  "rule": "R3",
+  "stage": 0
+ },
+ "lookalike/R3/2": {
+  "new": true,
+  "note": "R3 lookalike, 2599 characters",
+  "rel": "slack/support-policy-questions/credit-request-logging-question.json",
+  "rule": "R3",
+  "stage": 0
+ },
+ "lookalike/R3/3": {
+  "new": true,
+  "note": "R3 lookalike, 3551 characters",
+  "rel": "slack/support-team/credit-request-case-notes-and-queue-routing.json",
+  "rule": "R3",
+  "stage": 0
+ },
+ "lookalike/R30/0": {
+  "new": true,
+  "note": "R30 lookalike, 5913 characters",
+  "rel": "confluence/customer-policies/special-assistance/family-seating-case-notes-and-handoffs.json",
+  "rule": "R30",
+  "stage": 3
+ },
+ "lookalike/R30/1": {
+  "new": true,
+  "note": "R30 lookalike, 5595 characters",
+  "rel": "confluence/policy-and-compliance/change-log/family-seating-case-review-and-recording.json",
+  "rule": "R30",
+  "stage": 3
+ },
+ "lookalike/R30/2": {
+  "new": true,
+  "note": "R30 lookalike, 2899 characters",
+  "rel": "slack/refunds-desk/family-seat-case-notes-and-queue-routing.json",
+  "rule": "R30",
+  "stage": 3
+ },
+ "lookalike/R30/3": {
+  "new": true,
+  "note": "R30 lookalike, 3350 characters",
+  "rel": "slack/support-policy-questions/family-seating-case-notes-and-routing.json",
+  "rule": "R30",
+  "stage": 3
+ },
+ "lookalike/R31/0": {
+  "new": true,
+  "note": "R31 lookalike, 5723 characters",
+  "rel": "confluence/customer-policies/special-assistance/unaccompanied-minor-contacts-case-handling-and-documentation.json",
+  "rule": "R31",
+  "stage": 4
+ },
+ "lookalike/R31/1": {
+  "new": true,
+  "note": "R31 lookalike, 7672 characters",
+  "rel": "confluence/policy-and-compliance/change-log/unaccompanied-minor-case-recording-and-operational-handoff-notes.json",
+  "rule": "R31",
+  "stage": 4
+ },
+ "lookalike/R31/2": {
+  "new": true,
+  "note": "R31 lookalike, 3372 characters",
+  "rel": "slack/refunds-desk/unaccompanied-minor-context-not-reaching-review-queue.json",
+  "rule": "R31",
+  "stage": 4
+ },
+ "lookalike/R31/3": {
+  "new": true,
+  "note": "R31 lookalike, 7255 characters",
+  "rel": "confluence/support-playbooks/case-handling/unaccompanied-minor-case-documentation-and-review-handling.json",
+  "rule": "R31",
+  "stage": 4
+ },
+ "lookalike/R32/0": {
+  "new": true,
+  "note": "R32 lookalike, 7577 characters",
+  "rel": "confluence/support-playbooks/case-handling/confirmation-handling-case-capture-queue-visibility-and-team-practice.json",
+  "rule": "R32",
+  "stage": 5
+ },
+ "lookalike/R32/1": {
+  "new": true,
+  "note": "R32 lookalike, 7553 characters",
+  "rel": "confluence/policy-and-compliance/change-log/confirmation-case-working-session-and-documentation-board.json",
+  "rule": "R32",
+  "stage": 5
+ },
+ "lookalike/R32/2": {
+  "new": true,
+  "note": "R32 lookalike, 2757 characters",
+  "rel": "slack/support-policy-questions/confirmation-field-mismatch-in-case-notes.json",
+  "rule": "R32",
+  "stage": 5
+ },
+ "lookalike/R32/3": {
+  "new": true,
+  "note": "R32 lookalike, 3156 characters",
+  "rel": "slack/support-policy-questions/confirmation-not-matching-in-support-desk.json",
+  "rule": "R32",
+  "stage": 5
+ },
+ "lookalike/R4/0": {
+  "new": true,
+  "note": "R4 lookalike, 7286 characters",
+  "rel": "confluence/support-playbooks/case-handling/agency-booking-contacts-case-capture-and-team-review.json",
+  "rule": "R4",
+  "stage": 0
+ },
+ "lookalike/R4/1": {
+  "new": true,
+  "note": "R4 lookalike, 3773 characters",
+  "rel": "slack/refunds-desk/agency-booking-case-not-carrying-context.json",
+  "rule": "R4",
+  "stage": 0
+ },
+ "lookalike/R4/2": {
+  "new": true,
+  "note": "R4 lookalike, 2857 characters",
+  "rel": "slack/support-policy-questions/agency-booking-case-notes-and-routing.json",
+  "rule": "R4",
+  "stage": 0
+ },
+ "lookalike/R4/3": {
+  "new": true,
+  "note": "R4 lookalike, 3276 characters",
+  "rel": "slack/support-team/agency-booking-notes-and-queue-routing.json",
+  "rule": "R4",
+  "stage": 0
+ },
+ "lookalike/R5/0": {
+  "new": true,
+  "note": "R5 lookalike, 3753 characters",
+  "rel": "confluence/customer-policies/cancellations-and-refunds/customer-initiated-booking-cancellation-conversation-and-case-recording.json",
+  "rule": "R5",
+  "stage": 0
+ },
+ "lookalike/R5/1": {
+  "new": true,
+  "note": "R5 lookalike, 5124 characters",
+  "rel": "confluence/customer-policies/fares-and-changes/customer-initiated-booking-cancellations-case-handling-notes.json",
+  "rule": "R5",
+  "stage": 0
+ },
+ "lookalike/R5/2": {
+  "new": true,
+  "note": "R5 lookalike, 2816 characters",
+  "rel": "slack/support-policy-questions/self-service-cancellation-case-notes.json",
+  "rule": "R5",
+  "stage": 0
+ },
+ "lookalike/R5/3": {
+  "new": true,
+  "note": "R5 lookalike, 3496 characters",
+  "rel": "slack/support-team/customer-cancellation-notes-and-queue-routing.json",
+  "rule": "R5",
+  "stage": 0
+ },
+ "lookalike/R6/0": {
+  "new": true,
+  "note": "R6 lookalike, 5411 characters",
+  "rel": "confluence/customer-policies/special-assistance/pets-in-the-cabin-case-capture-and-session-guide.json",
+  "rule": "R6",
+  "stage": 0
+ },
+ "lookalike/R6/1": {
+  "new": true,
+  "note": "R6 lookalike, 3743 characters",
+  "rel": "slack/refunds-desk/pet-in-cabin-case-notes-not-landing-in-the-review-queue.json",
+  "rule": "R6",
+  "stage": 0
+ },
+ "lookalike/R6/2": {
+  "new": true,
+  "note": "R6 lookalike, 3294 characters",
+  "rel": "slack/support-policy-questions/cabin-pet-case-note-and-routing-question.json",
+  "rule": "R6",
+  "stage": 0
+ },
+ "lookalike/R6/3": {
+  "new": true,
+  "note": "R6 lookalike, 2996 characters",
+  "rel": "slack/support-team/pet-in-cabin-case-notes-and-queue-routing.json",
+  "rule": "R6",
+  "stage": 0
+ },
+ "lookalike/R7/0": {
+  "new": true,
+  "note": "R7 lookalike, 5544 characters",
+  "rel": "confluence/customer-policies/fares-and-changes/changing-a-booking-case-handling-and-documentation-notes.json",
+  "rule": "R7",
+  "stage": 0
+ },
+ "lookalike/R7/1": {
+  "new": true,
+  "note": "R7 lookalike, 7585 characters",
+  "rel": "confluence/support-playbooks/case-handling/changing-a-booking-case-recording-and-flex-handoff.json",
+  "rule": "R7",
+  "stage": 0
+ },
+ "lookalike/R7/2": {
+  "new": true,
+  "note": "R7 lookalike, 2641 characters",
+  "rel": "slack/support-policy-questions/change-request-notes-and-queue-routing.json",
+  "rule": "R7",
+  "stage": 0
+ },
+ "lookalike/R7/3": {
+  "new": true,
+  "note": "R7 lookalike, 2895 characters",
+  "rel": "slack/support-team/change-case-notes-and-flex-queue.json",
+  "rule": "R7",
+  "stage": 0
+ },
+ "lookalike/R8/0": {
+  "new": true,
+  "note": "R8 lookalike, 4532 characters",
+  "rel": "confluence/customer-policies/loyalty/skyway-miles-benefits-case-recording-and-queue-handoff.json",
+  "rule": "R8",
+  "stage": 0
+ },
+ "lookalike/R8/1": {
+  "new": true,
+  "note": "R8 lookalike, 3088 characters",
+  "rel": "slack/loyalty-team/change-fee-question-not-landing-in-the-loyalty-queue.json",
+  "rule": "R8",
+  "stage": 0
+ },
+ "lookalike/R8/2": {
+  "new": true,
+  "note": "R8 lookalike, 2872 characters",
+  "rel": "slack/support-policy-questions/skyway-miles-change-fee-question-not-reaching-review-queue.json",
+  "rule": "R8",
+  "stage": 0
+ },
+ "lookalike/R8/3": {
+  "new": true,
+  "note": "R8 lookalike, 3544 characters",
+  "rel": "slack/support-team/miles-case-notes-and-routing.json",
+  "rule": "R8",
+  "stage": 0
+ },
+ "lookalike/R9/0": {
+  "new": true,
+  "note": "R9 lookalike, 4733 characters",
+  "rel": "confluence/customer-policies/delays-and-disruptions/meals-during-delays-case-handling-notes.json",
+  "rule": "R9",
+  "stage": 0
+ },
+ "lookalike/R9/1": {
+  "new": true,
+  "note": "R9 lookalike, 3982 characters",
+  "rel": "slack/irregular-ops/meal-question-logging-on-delayed-flight-cases.json",
+  "rule": "R9",
+  "stage": 0
+ },
+ "lookalike/R9/2": {
+  "new": true,
+  "note": "R9 lookalike, 3086 characters",
+  "rel": "slack/support-policy-questions/meal-question-on-delayed-trip-case.json",
+  "rule": "R9",
+  "stage": 0
+ },
+ "lookalike/R9/3": {
+  "new": true,
+  "note": "R9 lookalike, 3005 characters",
+  "rel": "slack/support-team/meal-questions-on-delay-contacts.json",
+  "rule": "R9",
+  "stage": 0
+ },
+ "money/confluence/customer-policies/baggage/assisted-booking-baggage-conversation-cards.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "confluence/customer-policies/baggage/assisted-booking-baggage-conversation-cards.json",
+  "stage": 0
+ },
+ "money/confluence/customer-policies/baggage/baggage-event-interpretation-explainer.json": {
+  "new": false,
+  "note": "dollar: $609.48",
+  "rel": "confluence/customer-policies/baggage/baggage-event-interpretation-explainer.json",
+  "stage": 0
+ },
+ "money/confluence/customer-policies/cancellations-and-refunds/after-cancellation-request-status-explainer.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "confluence/customer-policies/cancellations-and-refunds/after-cancellation-request-status-explainer.json",
+  "stage": 0
+ },
+ "money/confluence/customer-policies/cancellations-and-refunds/reservation-intent-matrix-for-cancellation-questions.json": {
+  "new": false,
+  "note": "dollar: $429.46",
+  "rel": "confluence/customer-policies/cancellations-and-refunds/reservation-intent-matrix-for-cancellation-questions.json",
+  "stage": 0
+ },
+ "money/confluence/customer-policies/delays-and-disruptions/disrupted-journey-conversation-guide.json": {
+  "new": false,
+  "note": "dollar: $121",
+  "rel": "confluence/customer-policies/delays-and-disruptions/disrupted-journey-conversation-guide.json",
+  "stage": 0
+ },
+ "money/confluence/customer-policies/delays-and-disruptions/information-confidence-notes-for-interrupted-trips.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "confluence/customer-policies/delays-and-disruptions/information-confidence-notes-for-interrupted-trips.json",
+  "stage": 0
+ },
+ "money/confluence/customer-policies/special-assistance/accessibility-handoff-cue-card-procedure.json": {
+  "new": false,
+  "note": "dollar: $244",
+  "rel": "confluence/customer-policies/special-assistance/accessibility-handoff-cue-card-procedure.json",
+  "stage": 0
+ },
+ "money/confluence/customer-policies/special-assistance/accessibility-service-handoff-field-guide.json": {
+  "new": false,
+  "note": "dollar: $1,126",
+  "rel": "confluence/customer-policies/special-assistance/accessibility-service-handoff-field-guide.json",
+  "stage": 0
+ },
+ "money/confluence/customer-policies/special-assistance/accessible-service-debrief-canvas.json": {
+  "new": false,
+  "note": "dollar: $1,297",
+  "rel": "confluence/customer-policies/special-assistance/accessible-service-debrief-canvas.json",
+  "stage": 0
+ },
+ "money/confluence/customer-policies/special-assistance/accessible-service-point-sign-in-board-procedure.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "confluence/customer-policies/special-assistance/accessible-service-point-sign-in-board-procedure.json",
+  "stage": 0
+ },
+ "money/confluence/customer-policies/special-assistance/wheelchair-assistance-communication-preferences-guide.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "confluence/customer-policies/special-assistance/wheelchair-assistance-communication-preferences-guide.json",
+  "stage": 0
+ },
+ "money/confluence/support-playbooks/approvals-and-limits/exception-record-quality-calibration.json": {
+  "new": false,
+  "note": "dollar: $773",
+  "rel": "confluence/support-playbooks/approvals-and-limits/exception-record-quality-calibration.json",
+  "stage": 0
+ },
+ "money/confluence/support-playbooks/case-handling/customer-contact-channel-friction-review.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "confluence/support-playbooks/case-handling/customer-contact-channel-friction-review.json",
+  "stage": 0
+ },
+ "money/confluence/support-playbooks/case-handling/frontline-back-office-case-packet-assembly.json": {
+  "new": false,
+  "note": "dollar: $147.95",
+  "rel": "confluence/support-playbooks/case-handling/frontline-back-office-case-packet-assembly.json",
+  "stage": 0
+ },
+ "money/confluence/support-playbooks/case-handling/live-conversation-exception-capture.json": {
+  "new": false,
+  "note": "dollar: $229",
+  "rel": "confluence/support-playbooks/case-handling/live-conversation-exception-capture.json",
+  "stage": 0
+ },
+ "money/confluence/support-playbooks/case-handling/payment-trail-handoff-notes.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "confluence/support-playbooks/case-handling/payment-trail-handoff-notes.json",
+  "stage": 0
+ },
+ "money/confluence/support-playbooks/case-handling/refund-clarity-coaching-rounds.json": {
+  "new": false,
+  "note": "dollar: $553.45",
+  "rel": "confluence/support-playbooks/case-handling/refund-clarity-coaching-rounds.json",
+  "stage": 0
+ },
+ "money/confluence/support-playbooks/case-handling/refund-dashboard-lineage-walkthrough.json": {
+  "new": false,
+  "note": "dollar: $339.69",
+  "rel": "confluence/support-playbooks/case-handling/refund-dashboard-lineage-walkthrough.json",
+  "stage": 0
+ },
+ "money/confluence/support-playbooks/case-handling/refund-eligibility-design-assumption-review.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "confluence/support-playbooks/case-handling/refund-eligibility-design-assumption-review.json",
+  "stage": 0
+ },
+ "money/confluence/support-playbooks/case-handling/refund-operations-narrative-stitching-workshop.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "confluence/support-playbooks/case-handling/refund-operations-narrative-stitching-workshop.json",
+  "stage": 0
+ },
+ "money/confluence/support-playbooks/case-handling/refund-outcome-storytelling-workshop.json": {
+  "new": false,
+  "note": "dollar: $1,631",
+  "rel": "confluence/support-playbooks/case-handling/refund-outcome-storytelling-workshop.json",
+  "stage": 0
+ },
+ "money/confluence/support-playbooks/case-handling/refund-pathway-design-studio.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "confluence/support-playbooks/case-handling/refund-pathway-design-studio.json",
+  "stage": 0
+ },
+ "money/confluence/support-playbooks/case-handling/refund-status-message-quality-review.json": {
+  "new": false,
+  "note": "dollar: $2,082",
+  "rel": "confluence/support-playbooks/case-handling/refund-status-message-quality-review.json",
+  "stage": 0
+ },
+ "money/confluence/support-playbooks/case-handling/support-knowledge-replay-room-procedure.json": {
+  "new": false,
+  "note": "dollar: $2,101",
+  "rel": "confluence/support-playbooks/case-handling/support-knowledge-replay-room-procedure.json",
+  "stage": 0
+ },
+ "money/confluence/support-playbooks/escalation/disruption-desk-observation-passport.json": {
+  "new": false,
+  "note": "dollar: $3,079",
+  "rel": "confluence/support-playbooks/escalation/disruption-desk-observation-passport.json",
+  "stage": 0
+ },
+ "money/confluence/support-playbooks/escalation/disruption-quiet-period-review.json": {
+  "new": false,
+  "note": "dollar: $99",
+  "rel": "confluence/support-playbooks/escalation/disruption-quiet-period-review.json",
+  "stage": 0
+ },
+ "money/confluence/support-playbooks/escalation/loyalty-context-conversation-guide.json": {
+  "new": false,
+  "note": "dollar: $354",
+  "rel": "confluence/support-playbooks/escalation/loyalty-context-conversation-guide.json",
+  "stage": 0
+ },
+ "money/confluence/support-playbooks/escalation/specialist-routing-compass.json": {
+  "new": false,
+  "note": "dollar: $4,634",
+  "rel": "confluence/support-playbooks/escalation/specialist-routing-compass.json",
+  "stage": 0
+ },
+ "money/confluence/support-playbooks/templates/disruption-message-calibration-workshop.json": {
+  "new": false,
+  "note": "dollar: $484.68",
+  "rel": "confluence/support-playbooks/templates/disruption-message-calibration-workshop.json",
+  "stage": 0
+ },
+ "money/confluence/support-playbooks/templates/disruption-rehearsal-studio-guide.json": {
+  "new": false,
+  "note": "dollar: $1,650",
+  "rel": "confluence/support-playbooks/templates/disruption-rehearsal-studio-guide.json",
+  "stage": 0
+ },
+ "money/confluence/support-playbooks/templates/knowledge-decision-review-circle-charter.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "confluence/support-playbooks/templates/knowledge-decision-review-circle-charter.json",
+  "stage": 0
+ },
+ "money/confluence/support-playbooks/templates/refund-case-replay-lab.json": {
+  "new": false,
+  "note": "dollar: $1,646",
+  "rel": "confluence/support-playbooks/templates/refund-case-replay-lab.json",
+  "stage": 0
+ },
+ "money/confluence/support-playbooks/templates/refund-service-measurement-annotation-kit.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "confluence/support-playbooks/templates/refund-service-measurement-annotation-kit.json",
+  "stage": 0
+ },
+ "money/slack/airport-ops/bna-checkin-pod-wristband-rollout-practice.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/bna-checkin-pod-wristband-rollout-practice.json",
+  "stage": 0
+ },
+ "money/slack/airport-ops/bna-l2-receipt-printer-bin-sensor-warning.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/bna-l2-receipt-printer-bin-sensor-warning.json",
+  "stage": 0
+ },
+ "money/slack/airport-ops/bna-quiet-zone-departure-board-coverage.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/bna-quiet-zone-departure-board-coverage.json",
+  "stage": 0
+ },
+ "money/slack/airport-ops/bna-riverfront-conference-arrival-welcome-table-handoff.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/bna-riverfront-conference-arrival-welcome-table-handoff.json",
+  "stage": 0
+ },
+ "money/slack/airport-ops/bna-south-pier-transfer-tag-reader-guide-play.json": {
+  "new": false,
+  "note": "dollar: $221.95",
+  "rel": "slack/airport-ops/bna-south-pier-transfer-tag-reader-guide-play.json",
+  "stage": 0
+ },
+ "money/slack/airport-ops/c22-podium-lane-relay-and-cabin-count-check.json": {
+  "new": false,
+  "note": "dollar: $1,669",
+  "rel": "slack/airport-ops/c22-podium-lane-relay-and-cabin-count-check.json",
+  "stage": 0
+ },
+ "money/slack/airport-ops/concourse-d-standby-desk-radio-and-boarding-kit-passoff.json": {
+  "new": false,
+  "note": "dollar: $3,915",
+  "rel": "slack/airport-ops/concourse-d-standby-desk-radio-and-boarding-kit-passoff.json",
+  "stage": 0
+ },
+ "money/slack/airport-ops/concourse-e-itinerary-repair-desk.json": {
+  "new": false,
+  "note": "dollar: $4,459",
+  "rel": "slack/airport-ops/concourse-e-itinerary-repair-desk.json",
+  "stage": 0
+ },
+ "money/slack/airport-ops/crew-control-handoff-late-aircraft-recovery.json": {
+  "new": false,
+  "note": "dollar: $2,890",
+  "rel": "slack/airport-ops/crew-control-handoff-late-aircraft-recovery.json",
+  "stage": 0
+ },
+ "money/slack/airport-ops/forecast-period-station-control-desk-setup.json": {
+  "new": false,
+  "note": "dollar: $166.76",
+  "rel": "slack/airport-ops/forecast-period-station-control-desk-setup.json",
+  "stage": 0
+ },
+ "money/slack/airport-ops/gate-r2-printer-blank-lead-strip.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/gate-r2-printer-blank-lead-strip.json",
+  "stage": 0
+ },
+ "money/slack/airport-ops/headset-case-service-point-gate-lead-rotation.json": {
+  "new": false,
+  "note": "dollar: $234.08",
+  "rel": "slack/airport-ops/headset-case-service-point-gate-lead-rotation.json",
+  "stage": 0
+ },
+ "money/slack/airport-ops/high-wind-ramp-readiness-bna-south-pier.json": {
+  "new": false,
+  "note": "dollar: $181",
+  "rel": "slack/airport-ops/high-wind-ramp-readiness-bna-south-pier.json",
+  "stage": 0
+ },
+ "money/slack/airport-ops/low-cloud-north-satellite-stand-coordination.json": {
+  "new": false,
+  "note": "dollar: $1,407",
+  "rel": "slack/airport-ops/low-cloud-north-satellite-stand-coordination.json",
+  "stage": 0
+ },
+ "money/slack/airport-ops/manual-boarding-lane-relief-sequence.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/manual-boarding-lane-relief-sequence.json",
+  "stage": 0
+ },
+ "money/slack/airport-ops/microburst-watch-turnaround-roles-rdu-south-apron.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/microburst-watch-turnaround-roles-rdu-south-apron.json",
+  "stage": 0
+ },
+ "money/slack/airport-ops/overnight-station-kit-and-relief-roster-check.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/overnight-station-kit-and-relief-roster-check.json",
+  "stage": 0
+ },
+ "money/slack/airport-ops/partner-app-boarding-pass-without-barcode-at-bna-gate-desk.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/partner-app-boarding-pass-without-barcode-at-bna-gate-desk.json",
+  "stage": 0
+ },
+ "money/slack/airport-ops/passport-scan-mismatch-rdu-document-desk.json": {
+  "new": false,
+  "note": "dollar: $440.14",
+  "rel": "slack/airport-ops/passport-scan-mismatch-rdu-document-desk.json",
+  "stage": 0
+ },
+ "money/slack/airport-ops/rdu-concourse-c-passenger-care-loop-printer-recovery.json": {
+  "new": false,
+  "note": "dollar: $184",
+  "rel": "slack/airport-ops/rdu-concourse-c-passenger-care-loop-printer-recovery.json",
+  "stage": 0
+ },
+ "money/slack/airport-ops/rdu-concourse-wayfinding-loop-after-flight-pull.json": {
+  "new": false,
+  "note": "dollar: $1,263",
+  "rel": "slack/airport-ops/rdu-concourse-wayfinding-loop-after-flight-pull.json",
+  "stage": 0
+ },
+ "money/slack/airport-ops/rdu-e1-single-feed-podium-coverage-readback.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/rdu-e1-single-feed-podium-coverage-readback.json",
+  "stage": 0
+ },
+ "money/slack/airport-ops/rdu-east-ticketing-lounge-rebooking-support-loop.json": {
+  "new": false,
+  "note": "dollar: $244.70",
+  "rel": "slack/airport-ops/rdu-east-ticketing-lounge-rebooking-support-loop.json",
+  "stage": 0
+ },
+ "money/slack/airport-ops/rdu-gate-27-document-wallet-routing.json": {
+  "new": false,
+  "note": "dollar: $556.98",
+  "rel": "slack/airport-ops/rdu-gate-27-document-wallet-routing.json",
+  "stage": 0
+ },
+ "money/slack/airport-ops/rdu-skybridge-arrival-assistance-desk-thread.json": {
+  "new": false,
+  "note": "dollar: $3,447",
+  "rel": "slack/airport-ops/rdu-skybridge-arrival-assistance-desk-thread.json",
+  "stage": 0
+ },
+ "money/slack/airport-ops/rdu-south-bag-drop-weigh-screen-calibration-check.json": {
+  "new": false,
+  "note": "dollar: $115",
+  "rel": "slack/airport-ops/rdu-south-bag-drop-weigh-screen-calibration-check.json",
+  "stage": 0
+ },
+ "money/slack/airport-ops/rdu-terminal-b-arrivals-hall-welcome-team.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/rdu-terminal-b-arrivals-hall-welcome-team.json",
+  "stage": 0
+ },
+ "money/slack/airport-ops/rdu-weather-shelter-transfer-north-curb.json": {
+  "new": false,
+  "note": "dollar: $1,315",
+  "rel": "slack/airport-ops/rdu-weather-shelter-transfer-north-curb.json",
+  "stage": 0
+ },
+ "money/slack/airport-ops/remote-stand-boarding-podium-coverage.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/remote-stand-boarding-podium-coverage.json",
+  "stage": 0
+ },
+ "money/slack/airport-ops/runway-spray-jet-bridge-footing-bna.json": {
+  "new": false,
+  "note": "dollar: $2,797",
+  "rel": "slack/airport-ops/runway-spray-jet-bridge-footing-bna.json",
+  "stage": 0
+ },
+ "money/slack/baggage-desk/apron-radio-stroller-handoff-display-rehearsal.json": {
+  "new": false,
+  "note": "dollar: $478.83",
+  "rel": "slack/baggage-desk/apron-radio-stroller-handoff-display-rehearsal.json",
+  "stage": 0
+ },
+ "money/slack/baggage-desk/blue-folder-after-hours-bag-journey-workbench.json": {
+  "new": false,
+  "note": "dollar: $4,516",
+  "rel": "slack/baggage-desk/blue-folder-after-hours-bag-journey-workbench.json",
+  "stage": 0
+ },
+ "money/slack/baggage-desk/ceramic-urn-two-piece-handoff-review.json": {
+  "new": false,
+  "note": "dollar: $448.73",
+  "rel": "slack/baggage-desk/ceramic-urn-two-piece-handoff-review.json",
+  "stage": 0
+ },
+ "money/slack/baggage-desk/check-in-to-ramp-carton-handoff-at-bna.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/baggage-desk/check-in-to-ramp-carton-handoff-at-bna.json",
+  "stage": 0
+ },
+ "money/slack/baggage-desk/claim-desk-sketchbook-casefile-import-check.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/baggage-desk/claim-desk-sketchbook-casefile-import-check.json",
+  "stage": 0
+ },
+ "money/slack/baggage-desk/claim-room-tablet-audio-routing-walkthrough.json": {
+  "new": false,
+  "note": "dollar: $320.42",
+  "rel": "slack/baggage-desk/claim-room-tablet-audio-routing-walkthrough.json",
+  "stage": 0
+ },
+ "money/slack/baggage-desk/convention-banners-manual-sort-window.json": {
+  "new": false,
+  "note": "dollar: $1,876",
+  "rel": "slack/baggage-desk/convention-banners-manual-sort-window.json",
+  "stage": 0
+ },
+ "money/slack/baggage-desk/customer-reply-reopens-closed-bag-case-routing-test.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/baggage-desk/customer-reply-reopens-closed-bag-case-routing-test.json",
+  "stage": 0
+ },
+ "money/slack/baggage-desk/east-cart-handwritten-routing-note.json": {
+  "new": false,
+  "note": "dollar: $1,951",
+  "rel": "slack/baggage-desk/east-cart-handwritten-routing-note.json",
+  "stage": 0
+ },
+ "money/slack/baggage-desk/observation-source-labels-claim-review-build.json": {
+  "new": false,
+  "note": "dollar: $278.89",
+  "rel": "slack/baggage-desk/observation-source-labels-claim-review-build.json",
+  "stage": 0
+ },
+ "money/slack/baggage-desk/olive-canvas-trunk-compass-sticker-owner-match.json": {
+  "new": false,
+  "note": "dollar: $3,685",
+  "rel": "slack/baggage-desk/olive-canvas-trunk-compass-sticker-owner-match.json",
+  "stage": 0
+ },
+ "money/slack/baggage-desk/orchestra-case-silver-tape-callback-relay.json": {
+  "new": false,
+  "note": "dollar: $3,513",
+  "rel": "slack/baggage-desk/orchestra-case-silver-tape-callback-relay.json",
+  "stage": 0
+ },
+ "money/slack/baggage-desk/paper-route-map-for-claim-folder-movements.json": {
+  "new": false,
+  "note": "dollar: $124",
+  "rel": "slack/baggage-desk/paper-route-map-for-claim-folder-movements.json",
+  "stage": 0
+ },
+ "money/slack/baggage-desk/rdu-claim-room-duplicate-case-merge-clinic.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/baggage-desk/rdu-claim-room-duplicate-case-merge-clinic.json",
+  "stage": 0
+ },
+ "money/slack/baggage-desk/south-hall-bench-seal-log-discrepancy.json": {
+  "new": false,
+  "note": "dollar: $555",
+  "rel": "slack/baggage-desk/south-hall-bench-seal-log-discrepancy.json",
+  "stage": 0
+ },
+ "money/slack/baggage-desk/special-items-ledger-ribbon-refresh-observations.json": {
+  "new": false,
+  "note": "dollar: $1,625",
+  "rel": "slack/baggage-desk/special-items-ledger-ribbon-refresh-observations.json",
+  "stage": 0
+ },
+ "money/slack/baggage-desk/sunday-greenhouse-crate-trace-reconciliation.json": {
+  "new": false,
+  "note": "dollar: $465.68",
+  "rel": "slack/baggage-desk/sunday-greenhouse-crate-trace-reconciliation.json",
+  "stage": 0
+ },
+ "money/slack/baggage-desk/theater-prop-crate-source-grouping-rehearsal.json": {
+  "new": false,
+  "note": "dollar: $336",
+  "rel": "slack/baggage-desk/theater-prop-crate-source-grouping-rehearsal.json",
+  "stage": 0
+ },
+ "money/slack/baggage-desk/theater-prop-crate-visual-handoff-south-station.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/baggage-desk/theater-prop-crate-visual-handoff-south-station.json",
+  "stage": 0
+ },
+ "money/slack/baggage-desk/unclaimed-instrument-case-ownership-switchover.json": {
+  "new": false,
+  "note": "dollar: $2,869",
+  "rel": "slack/baggage-desk/unclaimed-instrument-case-ownership-switchover.json",
+  "stage": 0
+ },
+ "money/slack/baggage-desk/west-rack-cushion-bag-cart-record-reconcile.json": {
+  "new": false,
+  "note": "dollar: $2,175",
+  "rel": "slack/baggage-desk/west-rack-cushion-bag-cart-record-reconcile.json",
+  "stage": 0
+ },
+ "money/slack/baggage-desk/wristband-photo-attachment-visibility-pilot.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/baggage-desk/wristband-photo-attachment-visibility-pilot.json",
+  "stage": 0
+ },
+ "money/slack/irregular-ops/bna-morning-bank-connection-relay.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/irregular-ops/bna-morning-bank-connection-relay.json",
+  "stage": 0
+ },
+ "money/slack/irregular-ops/charlotte-onward-desk-whiteboard-handoff.json": {
+  "new": false,
+  "note": "dollar: $897.34",
+  "rel": "slack/irregular-ops/charlotte-onward-desk-whiteboard-handoff.json",
+  "stage": 0
+ },
+ "money/slack/irregular-ops/departure-day-continuity-drill-station-callouts.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/irregular-ops/departure-day-continuity-drill-station-callouts.json",
+  "stage": 0
+ },
+ "money/slack/irregular-ops/departure-feed-mismatch-split-hub-rebook-desk.json": {
+  "new": false,
+  "note": "dollar: $81.53",
+  "rel": "slack/irregular-ops/departure-feed-mismatch-split-hub-rebook-desk.json",
+  "stage": 0
+ },
+ "money/slack/irregular-ops/diversion-desk-coverage-available-pairings.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/irregular-ops/diversion-desk-coverage-available-pairings.json",
+  "stage": 0
+ },
+ "money/slack/irregular-ops/evening-cancellation-quiet-room-handoff-bna.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/irregular-ops/evening-cancellation-quiet-room-handoff-bna.json",
+  "stage": 0
+ },
+ "money/slack/irregular-ops/jfk-turnback-dual-path-readiness-thread.json": {
+  "new": false,
+  "note": "dollar: $1,683",
+  "rel": "slack/irregular-ops/jfk-turnback-dual-path-readiness-thread.json",
+  "stage": 0
+ },
+ "money/slack/irregular-ops/kinston-dewpoint-trend-station-bridge.json": {
+  "new": false,
+  "note": "dollar: $3,746",
+  "rel": "slack/irregular-ops/kinston-dewpoint-trend-station-bridge.json",
+  "stage": 0
+ },
+ "money/slack/irregular-ops/lakeview-six-piece-routing-handoff.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/irregular-ops/lakeview-six-piece-routing-handoff.json",
+  "stage": 0
+ },
+ "money/slack/irregular-ops/late-arrival-vendor-call-queue-rehearsal.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/irregular-ops/late-arrival-vendor-call-queue-rehearsal.json",
+  "stage": 0
+ },
+ "money/slack/irregular-ops/midday-network-airframe-crew-availability-board.json": {
+  "new": false,
+  "note": "dollar: $3,700",
+  "rel": "slack/irregular-ops/midday-network-airframe-crew-availability-board.json",
+  "stage": 0
+ },
+ "money/slack/irregular-ops/orphaned-connection-listen-in-before-the-evening-bank.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/irregular-ops/orphaned-connection-listen-in-before-the-evening-bank.json",
+  "stage": 0
+ },
+ "money/slack/irregular-ops/overnight-itinerary-integrity-and-morning-release.json": {
+  "new": false,
+  "note": "dollar: $128.95",
+  "rel": "slack/irregular-ops/overnight-itinerary-integrity-and-morning-release.json",
+  "stage": 0
+ },
+ "money/slack/irregular-ops/overnight-station-footprint-check-bna-arrival.json": {
+  "new": false,
+  "note": "dollar: $1,439",
+  "rel": "slack/irregular-ops/overnight-station-footprint-check-bna-arrival.json",
+  "stage": 0
+ },
+ "money/slack/irregular-ops/rebooking-workspace-secondary-path-recovery.json": {
+  "new": false,
+  "note": "dollar: $353",
+  "rel": "slack/irregular-ops/rebooking-workspace-secondary-path-recovery.json",
+  "stage": 0
+ },
+ "money/slack/irregular-ops/recovery-artifact-audit-first-departure-ownership.json": {
+  "new": false,
+  "note": "dollar: $443",
+  "rel": "slack/irregular-ops/recovery-artifact-audit-first-departure-ownership.json",
+  "stage": 0
+ },
+ "money/slack/irregular-ops/rolling-horizon-seat-map-for-two-hub-recovery-desk.json": {
+  "new": false,
+  "note": "dollar: $417",
+  "rel": "slack/irregular-ops/rolling-horizon-seat-map-for-two-hub-recovery-desk.json",
+  "stage": 0
+ },
+ "money/slack/irregular-ops/southeast-wave-physical-resource-reconciliation.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/irregular-ops/southeast-wave-physical-resource-reconciliation.json",
+  "stage": 0
+ },
+ "money/slack/irregular-ops/ten-minute-runway-for-displaced-connections.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/irregular-ops/ten-minute-runway-for-displaced-connections.json",
+  "stage": 0
+ },
+ "money/slack/irregular-ops/three-screen-inventory-bridge-evening-recovery-desk.json": {
+  "new": false,
+  "note": "dollar: $133.76",
+  "rel": "slack/irregular-ops/three-screen-inventory-bridge-evening-recovery-desk.json",
+  "stage": 0
+ },
+ "money/slack/irregular-ops/thursday-reset-route-readiness-sweep.json": {
+  "new": false,
+  "note": "dollar: $2,461",
+  "rel": "slack/irregular-ops/thursday-reset-route-readiness-sweep.json",
+  "stage": 0
+ },
+ "money/slack/irregular-ops/time-zone-queue-reconciliation-between-bna-and-rdu.json": {
+  "new": false,
+  "note": "dollar: $877.89",
+  "rel": "slack/irregular-ops/time-zone-queue-reconciliation-between-bna-and-rdu.json",
+  "stage": 0
+ },
+ "money/slack/irregular-ops/tpa-late-arrival-transport-desk-coverage.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/irregular-ops/tpa-late-arrival-transport-desk-coverage.json",
+  "stage": 0
+ },
+ "money/slack/loyalty-team/airport-queue-observation-sketches.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/loyalty-team/airport-queue-observation-sketches.json",
+  "stage": 0
+ },
+ "money/slack/loyalty-team/blue-sky-listening-wall-tier-change-week.json": {
+  "new": false,
+  "note": "dollar: $3,011",
+  "rel": "slack/loyalty-team/blue-sky-listening-wall-tier-change-week.json",
+  "stage": 0
+ },
+ "money/slack/loyalty-team/cedar-grove-local-mode-visit-context-gap.json": {
+  "new": false,
+  "note": "dollar: $4,320",
+  "rel": "slack/loyalty-team/cedar-grove-local-mode-visit-context-gap.json",
+  "stage": 0
+ },
+ "money/slack/loyalty-team/class-trip-miles-ledger-rehearsal.json": {
+  "new": false,
+  "note": "dollar: $545.00",
+  "rel": "slack/loyalty-team/class-trip-miles-ledger-rehearsal.json",
+  "stage": 0
+ },
+ "money/slack/loyalty-team/farmers-market-member-lookup-booth-debrief.json": {
+  "new": false,
+  "note": "dollar: $203",
+  "rel": "slack/loyalty-team/farmers-market-member-lookup-booth-debrief.json",
+  "stage": 0
+ },
+ "money/slack/loyalty-team/member-language-postcard-wall-roundtable.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/loyalty-team/member-language-postcard-wall-roundtable.json",
+  "stage": 0
+ },
+ "money/slack/loyalty-team/member-letter-return-bin-sorting-experiment.json": {
+  "new": false,
+  "note": "dollar: $4,537",
+  "rel": "slack/loyalty-team/member-letter-return-bin-sorting-experiment.json",
+  "stage": 0
+ },
+ "money/slack/loyalty-team/member-survey-language-coding-jam.json": {
+  "new": false,
+  "note": "dollar: $515",
+  "rel": "slack/loyalty-team/member-survey-language-coding-jam.json",
+  "stage": 0
+ },
+ "money/slack/loyalty-team/member-survey-verbatim-coding-recognition-confusion.json": {
+  "new": false,
+  "note": "dollar: $570.75",
+  "rel": "slack/loyalty-team/member-survey-verbatim-coding-recognition-confusion.json",
+  "stage": 0
+ },
+ "money/slack/loyalty-team/miles-desk-pairing-cancelled-sector-follow-up.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/loyalty-team/miles-desk-pairing-cancelled-sector-follow-up.json",
+  "stage": 0
+ },
+ "money/slack/loyalty-team/museum-ticketing-partner-nightly-pause-rehearsal.json": {
+  "new": false,
+  "note": "dollar: $1,070",
+  "rel": "slack/loyalty-team/museum-ticketing-partner-nightly-pause-rehearsal.json",
+  "stage": 0
+ },
+ "money/slack/loyalty-team/partner-reader-idle-session-soak-test.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/loyalty-team/partner-reader-idle-session-soak-test.json",
+  "stage": 0
+ },
+ "money/slack/loyalty-team/partner-recognition-tabletop-handoff-cards.json": {
+  "new": false,
+  "note": "dollar: $3,573",
+  "rel": "slack/loyalty-team/partner-recognition-tabletop-handoff-cards.json",
+  "stage": 0
+ },
+ "money/slack/loyalty-team/postcard-return-mark-intake-tray-review.json": {
+  "new": false,
+  "note": "dollar: $1,260",
+  "rel": "slack/loyalty-team/postcard-return-mark-intake-tray-review.json",
+  "stage": 0
+ },
+ "money/slack/loyalty-team/welcome-mailroom-glare-scan-drill.json": {
+  "new": false,
+  "note": "dollar: $134.67",
+  "rel": "slack/loyalty-team/welcome-mailroom-glare-scan-drill.json",
+  "stage": 0
+ },
+ "money/slack/refunds-desk/refund-backlog-bus-route-board-afternoon-handoff.json": {
+  "new": false,
+  "note": "dollar: $451.82",
+  "rel": "slack/refunds-desk/refund-backlog-bus-route-board-afternoon-handoff.json",
+  "stage": 0
+ },
+ "money/slack/refunds-desk/refund-desk-callback-acoustics-test.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/refunds-desk/refund-desk-callback-acoustics-test.json",
+  "stage": 0
+ },
+ "money/slack/refunds-desk/refund-desk-quiet-hour-seat-map-experiment.json": {
+  "new": false,
+  "note": "dollar: $172",
+  "rel": "slack/refunds-desk/refund-desk-quiet-hour-seat-map-experiment.json",
+  "stage": 0
+ },
+ "money/slack/refunds-desk/refund-desk-radio-rehearsal-for-split-settlement-clues.json": {
+  "new": false,
+  "note": "dollar: $1,919",
+  "rel": "slack/refunds-desk/refund-desk-radio-rehearsal-for-split-settlement-clues.json",
+  "stage": 0
+ },
+ "money/slack/support-escalations/afterwork-market-brass-band-and-the-tuba-surprise.json": {
+  "new": false,
+  "note": "dollar: $564.58",
+  "rel": "slack/support-escalations/afterwork-market-brass-band-and-the-tuba-surprise.json",
+  "stage": 0
+ },
+ "money/slack/support-escalations/agency-remark-exposure-customer-document-review.json": {
+  "new": false,
+  "note": "dollar: $4,371",
+  "rel": "slack/support-escalations/agency-remark-exposure-customer-document-review.json",
+  "stage": 0
+ },
+ "money/slack/support-escalations/airport-display-recognition-lag-after-overnight-tier-batch.json": {
+  "new": false,
+  "note": "dollar: $179",
+  "rel": "slack/support-escalations/airport-display-recognition-lag-after-overnight-tier-batch.json",
+  "stage": 0
+ },
+ "money/slack/support-escalations/airport-filming-request-station-review.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-escalations/airport-filming-request-station-review.json",
+  "stage": 0
+ },
+ "money/slack/support-escalations/arrival-communication-board-duty-manager-handoff.json": {
+  "new": false,
+  "note": "dollar: $1,560",
+  "rel": "slack/support-escalations/arrival-communication-board-duty-manager-handoff.json",
+  "stage": 0
+ },
+ "money/slack/support-escalations/callback-channel-lockout-station-bridge.json": {
+  "new": false,
+  "note": "dollar: $241",
+  "rel": "slack/support-escalations/callback-channel-lockout-station-bridge.json",
+  "stage": 0
+ },
+ "money/slack/support-escalations/consulate-name-order-validation-handoff.json": {
+  "new": false,
+  "note": "dollar: $1,064",
+  "rel": "slack/support-escalations/consulate-name-order-validation-handoff.json",
+  "stage": 0
+ },
+ "money/slack/support-escalations/court-evidence-container-controlled-airport-handoff.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-escalations/court-evidence-container-controlled-airport-handoff.json",
+  "stage": 0
+ },
+ "money/slack/support-escalations/customer-accessible-case-history-format-review.json": {
+  "new": false,
+  "note": "dollar: $103.60",
+  "rel": "slack/support-escalations/customer-accessible-case-history-format-review.json",
+  "stage": 0
+ },
+ "money/slack/support-escalations/delegated-access-itinerary-audit-followup.json": {
+  "new": false,
+  "note": "dollar: $1,199",
+  "rel": "slack/support-escalations/delegated-access-itinerary-audit-followup.json",
+  "stage": 0
+ },
+ "money/slack/support-escalations/duplicate-record-review-before-morning-departure.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-escalations/duplicate-record-review-before-morning-departure.json",
+  "stage": 0
+ },
+ "money/slack/support-escalations/field-research-recorder-chain-followup.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-escalations/field-research-recorder-chain-followup.json",
+  "stage": 0
+ },
+ "money/slack/support-escalations/green-room-payment-status-escalation-pass.json": {
+  "new": false,
+  "note": "dollar: $185",
+  "rel": "slack/support-escalations/green-room-payment-status-escalation-pass.json",
+  "stage": 0
+ },
+ "money/slack/support-escalations/group-roster-duplicate-contact-shell-review.json": {
+  "new": false,
+  "note": "dollar: $2,027",
+  "rel": "slack/support-escalations/group-roster-duplicate-contact-shell-review.json",
+  "stage": 0
+ },
+ "money/slack/support-escalations/museum-curator-sealed-exhibit-arrival-handoff.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-escalations/museum-curator-sealed-exhibit-arrival-handoff.json",
+  "stage": 0
+ },
+ "money/slack/support-escalations/nonprofit-coordinator-shared-inbox-handoff.json": {
+  "new": false,
+  "note": "dollar: $1,571",
+  "rel": "slack/support-escalations/nonprofit-coordinator-shared-inbox-handoff.json",
+  "stage": 0
+ },
+ "money/slack/support-escalations/observatory-dome-group-handoff-review.json": {
+  "new": false,
+  "note": "dollar: $1,392",
+  "rel": "slack/support-escalations/observatory-dome-group-handoff-review.json",
+  "stage": 0
+ },
+ "money/slack/support-escalations/portland-voice-ramp-queue-watch.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-escalations/portland-voice-ramp-queue-watch.json",
+  "stage": 0
+ },
+ "money/slack/support-escalations/quiet-payment-holds-handoff-map.json": {
+  "new": false,
+  "note": "dollar: $1,737",
+  "rel": "slack/support-escalations/quiet-payment-holds-handoff-map.json",
+  "stage": 0
+ },
+ "money/slack/support-escalations/rotating-community-contact-airport-case-handoff.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-escalations/rotating-community-contact-airport-case-handoff.json",
+  "stage": 0
+ },
+ "money/slack/support-escalations/runway-closure-accessibility-alert-handoff.json": {
+  "new": false,
+  "note": "dollar: $3,328",
+  "rel": "slack/support-escalations/runway-closure-accessibility-alert-handoff.json",
+  "stage": 0
+ },
+ "money/slack/support-escalations/satellite-call-verification-loop-at-island-partner-desk.json": {
+  "new": false,
+  "note": "dollar: $4,814",
+  "rel": "slack/support-escalations/satellite-call-verification-loop-at-island-partner-desk.json",
+  "stage": 0
+ },
+ "money/slack/support-escalations/shared-household-tablet-live-trip-ownership-review.json": {
+  "new": false,
+  "note": "dollar: $531.96",
+  "rel": "slack/support-escalations/shared-household-tablet-live-trip-ownership-review.json",
+  "stage": 0
+ },
+ "money/slack/support-escalations/tennessee-river-ferry-loop-and-the-peaceful-rectangle.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-escalations/tennessee-river-ferry-loop-and-the-peaceful-rectangle.json",
+  "stage": 0
+ },
+ "money/slack/support-escalations/traveling-observatory-coordinator-handoff.json": {
+  "new": false,
+  "note": "dollar: $147.18",
+  "rel": "slack/support-escalations/traveling-observatory-coordinator-handoff.json",
+  "stage": 0
+ },
+ "money/slack/support-escalations/written-contact-preference-station-readiness-check.json": {
+  "new": false,
+  "note": "dollar: $2,338",
+  "rel": "slack/support-escalations/written-contact-preference-station-readiness-check.json",
+  "stage": 0
+ },
+ "money/slack/support-policy-questions/accessibility-first-disruption-message-rehearsal.json": {
+  "new": false,
+  "note": "dollar: $2,470",
+  "rel": "slack/support-policy-questions/accessibility-first-disruption-message-rehearsal.json",
+  "stage": 0
+ },
+ "money/slack/support-policy-questions/accessibility-language-spot-check-assisted-travel.json": {
+  "new": false,
+  "note": "dollar: $241",
+  "rel": "slack/support-policy-questions/accessibility-language-spot-check-assisted-travel.json",
+  "stage": 0
+ },
+ "money/slack/support-policy-questions/agency-booking-activity-attestation-workflow.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-policy-questions/agency-booking-activity-attestation-workflow.json",
+  "stage": 0
+ },
+ "money/slack/support-policy-questions/boarding-document-privacy-request.json": {
+  "new": false,
+  "note": "dollar: $49",
+  "rel": "slack/support-policy-questions/boarding-document-privacy-request.json",
+  "stage": 0
+ },
+ "money/slack/support-policy-questions/conversation-language-switch-with-arranger-present.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-policy-questions/conversation-language-switch-with-arranger-present.json",
+  "stage": 0
+ },
+ "money/slack/support-policy-questions/counter-voice-mailbox-listening-trial.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-policy-questions/counter-voice-mailbox-listening-trial.json",
+  "stage": 0
+ },
+ "money/slack/support-policy-questions/customer-requested-communication-accommodation-note.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-policy-questions/customer-requested-communication-accommodation-note.json",
+  "stage": 0
+ },
+ "money/slack/support-policy-questions/destination-alert-unsubscribe-with-trip-notices-kept.json": {
+  "new": false,
+  "note": "dollar: $1,325",
+  "rel": "slack/support-policy-questions/destination-alert-unsubscribe-with-trip-notices-kept.json",
+  "stage": 0
+ },
+ "money/slack/support-policy-questions/former-traveller-case-copy-request.json": {
+  "new": false,
+  "note": "dollar: $4,533",
+  "rel": "slack/support-policy-questions/former-traveller-case-copy-request.json",
+  "stage": 0
+ },
+ "money/slack/support-policy-questions/invoice-qr-booking-authority-check.json": {
+  "new": false,
+  "note": "dollar: $3,409",
+  "rel": "slack/support-policy-questions/invoice-qr-booking-authority-check.json",
+  "stage": 0
+ },
+ "money/slack/support-policy-questions/metasearch-fare-display-escalation.json": {
+  "new": false,
+  "note": "dollar: $461",
+  "rel": "slack/support-policy-questions/metasearch-fare-display-escalation.json",
+  "stage": 0
+ },
+ "money/slack/support-policy-questions/open-jaw-itinerary-rendering-case.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-policy-questions/open-jaw-itinerary-rendering-case.json",
+  "stage": 0
+ },
+ "money/slack/support-policy-questions/partner-kiosk-voice-prompt-rehearsal.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-policy-questions/partner-kiosk-voice-prompt-rehearsal.json",
+  "stage": 0
+ },
+ "money/slack/support-policy-questions/profile-name-versus-partner-display-name-case-lab.json": {
+  "new": false,
+  "note": "dollar: $171",
+  "rel": "slack/support-policy-questions/profile-name-versus-partner-display-name-case-lab.json",
+  "stage": 0
+ },
+ "money/slack/support-policy-questions/quiet-desk-annotation-pilot-and-branch-intake.json": {
+  "new": false,
+  "note": "dollar: $913",
+  "rel": "slack/support-policy-questions/quiet-desk-annotation-pilot-and-branch-intake.json",
+  "stage": 0
+ },
+ "money/slack/support-policy-questions/refund-desk-signal-lights-for-monday-standup.json": {
+  "new": false,
+  "note": "dollar: $635",
+  "rel": "slack/support-policy-questions/refund-desk-signal-lights-for-monday-standup.json",
+  "stage": 0
+ },
+ "money/slack/support-policy-questions/refund-mailbox-subject-preservation-finance-handoffs.json": {
+  "new": false,
+  "note": "dollar: $194.58",
+  "rel": "slack/support-policy-questions/refund-mailbox-subject-preservation-finance-handoffs.json",
+  "stage": 0
+ },
+ "money/slack/support-policy-questions/sandbox-access-trail-guidance-bulletin.json": {
+  "new": false,
+  "note": "dollar: $413.22",
+  "rel": "slack/support-policy-questions/sandbox-access-trail-guidance-bulletin.json",
+  "stage": 0
+ },
+ "money/slack/support-policy-questions/seat-map-preview-without-committed-selection.json": {
+  "new": false,
+  "note": "dollar: $3,255",
+  "rel": "slack/support-policy-questions/seat-map-preview-without-committed-selection.json",
+  "stage": 0
+ },
+ "money/slack/support-policy-questions/shared-household-calendar-trip-reminder-scope.json": {
+  "new": false,
+  "note": "dollar: $877",
+  "rel": "slack/support-policy-questions/shared-household-calendar-trip-reminder-scope.json",
+  "stage": 0
+ },
+ "money/slack/support-policy-questions/shared-reservation-survey-identity-mismatch.json": {
+  "new": false,
+  "note": "dollar: $1,627",
+  "rel": "slack/support-policy-questions/shared-reservation-survey-identity-mismatch.json",
+  "stage": 0
+ },
+ "money/slack/support-policy-questions/three-door-refund-contact-thread-weave.json": {
+  "new": false,
+  "note": "dollar: $4,308",
+  "rel": "slack/support-policy-questions/three-door-refund-contact-thread-weave.json",
+  "stage": 0
+ },
+ "money/slack/support-policy-questions/unrecognized-itinerary-account-security-route.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-policy-questions/unrecognized-itinerary-account-security-route.json",
+  "stage": 0
+ },
+ "money/slack/support-policy-questions/voicemail-receipt-crosscheck-before-refund-case-link.json": {
+  "new": false,
+  "note": "dollar: $677.52",
+  "rel": "slack/support-policy-questions/voicemail-receipt-crosscheck-before-refund-case-link.json",
+  "stage": 0
+ },
+ "money/slack/support-team/braided-desk-watch-for-transfer-heavy-morning.json": {
+  "new": false,
+  "note": "dollar: $34.15",
+  "rel": "slack/support-team/braided-desk-watch-for-transfer-heavy-morning.json",
+  "stage": 0
+ },
+ "money/slack/support-team/calendar-status-mismatch-inbound-pod.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/calendar-status-mismatch-inbound-pod.json",
+  "stage": 0
+ },
+ "money/slack/support-team/callback-lane-dry-run-harborline-partners.json": {
+  "new": false,
+  "note": "dollar: $266.74",
+  "rel": "slack/support-team/callback-lane-dry-run-harborline-partners.json",
+  "stage": 0
+ },
+ "money/slack/support-team/callback-shelf-ownership-gap-watch.json": {
+  "new": false,
+  "note": "dollar: $291.73",
+  "rel": "slack/support-team/callback-shelf-ownership-gap-watch.json",
+  "stage": 0
+ },
+ "money/slack/support-team/callback-view-constellation-practice.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/callback-view-constellation-practice.json",
+  "stage": 0
+ },
+ "money/slack/support-team/case-owner-pulse-check-before-midnight.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/case-owner-pulse-check-before-midnight.json",
+  "stage": 0
+ },
+ "money/slack/support-team/crm-profile-provisioning-after-name-change.json": {
+  "new": false,
+  "note": "dollar: $219",
+  "rel": "slack/support-team/crm-profile-provisioning-after-name-change.json",
+  "stage": 0
+ },
+ "money/slack/support-team/cross-queue-conversation-gym-pilot.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/cross-queue-conversation-gym-pilot.json",
+  "stage": 0
+ },
+ "money/slack/support-team/customer-wording-to-search-terms.json": {
+  "new": false,
+  "note": "dollar: $178",
+  "rel": "slack/support-team/customer-wording-to-search-terms.json",
+  "stage": 0
+ },
+ "money/slack/support-team/desk-4-role-cleanup-thursday-ramp.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/desk-4-role-cleanup-thursday-ramp.json",
+  "stage": 0
+ },
+ "money/slack/support-team/desktop-redirect-empty-workspace.json": {
+  "new": false,
+  "note": "dollar: $2,741",
+  "rel": "slack/support-team/desktop-redirect-empty-workspace.json",
+  "stage": 0
+ },
+ "money/slack/support-team/feedback-to-weekly-experiment.json": {
+  "new": false,
+  "note": "dollar: $4,129",
+  "rel": "slack/support-team/feedback-to-weekly-experiment.json",
+  "stage": 0
+ },
+ "money/slack/support-team/gate-captain-relay-departure-services-interruption.json": {
+  "new": false,
+  "note": "dollar: $356",
+  "rel": "slack/support-team/gate-captain-relay-departure-services-interruption.json",
+  "stage": 0
+ },
+ "money/slack/support-team/handoff-beacon-drill-split-channel-ownership.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/handoff-beacon-drill-split-channel-ownership.json",
+  "stage": 0
+ },
+ "money/slack/support-team/knowledge-base-annotation-role-calibration-workshop.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/knowledge-base-annotation-role-calibration-workshop.json",
+  "stage": 0
+ },
+ "money/slack/support-team/listening-lab-debrief-for-maya.json": {
+  "new": false,
+  "note": "dollar: $115.37",
+  "rel": "slack/support-team/listening-lab-debrief-for-maya.json",
+  "stage": 0
+ },
+ "money/slack/support-team/lunch-hour-contact-wave-and-backlog-triage.json": {
+  "new": false,
+  "note": "dollar: $46.34",
+  "rel": "slack/support-team/lunch-hour-contact-wave-and-backlog-triage.json",
+  "stage": 0
+ },
+ "money/slack/support-team/lunchtime-dumpling-folding-relay-and-sauce-bracket.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/lunchtime-dumpling-folding-relay-and-sauce-bracket.json",
+  "stage": 0
+ },
+ "money/slack/support-team/manual-intake-stamp-for-cross-station-recovery-queue.json": {
+  "new": false,
+  "note": "dollar: $149.06",
+  "rel": "slack/support-team/manual-intake-stamp-for-cross-station-recovery-queue.json",
+  "stage": 0
+ },
+ "money/slack/support-team/map-room-coaching-check-in-for-tessas-first-escalation-rotation.json": {
+  "new": false,
+  "note": "dollar: $2,437",
+  "rel": "slack/support-team/map-room-coaching-check-in-for-tessas-first-escalation-rotation.json",
+  "stage": 0
+ },
+ "money/slack/support-team/member-contact-preference-loopback-during-tier-wave.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/member-contact-preference-loopback-during-tier-wave.json",
+  "stage": 0
+ },
+ "money/slack/support-team/miles-member-call-notes-from-the-saturday-surge.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/miles-member-call-notes-from-the-saturday-surge.json",
+  "stage": 0
+ },
+ "money/slack/support-team/morning-huddle-account-recovery-desk.json": {
+  "new": false,
+  "note": "dollar: $173.98",
+  "rel": "slack/support-team/morning-huddle-account-recovery-desk.json",
+  "stage": 0
+ },
+ "money/slack/support-team/nashville-postcard-print-swap-and-the-unexpected-lighthouse.json": {
+  "new": false,
+  "note": "dollar: $533",
+  "rel": "slack/support-team/nashville-postcard-print-swap-and-the-unexpected-lighthouse.json",
+  "stage": 0
+ },
+ "money/slack/support-team/new-hire-nesting-observation-roster.json": {
+  "new": false,
+  "note": "dollar: $383.87",
+  "rel": "slack/support-team/new-hire-nesting-observation-roster.json",
+  "stage": 0
+ },
+ "money/slack/support-team/pastry-box-inquiry-handoff.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/pastry-box-inquiry-handoff.json",
+  "stage": 0
+ },
+ "money/slack/support-team/queue-cartography-clinic-reconstructing-a-busy-morning.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/queue-cartography-clinic-reconstructing-a-busy-morning.json",
+  "stage": 0
+ },
+ "money/slack/support-team/queue-compass-mixed-intent-workshop.json": {
+  "new": false,
+  "note": "dollar: $2,347",
+  "rel": "slack/support-team/queue-compass-mixed-intent-workshop.json",
+  "stage": 0
+ },
+ "money/slack/support-team/quiet-desk-reentry-lane.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/quiet-desk-reentry-lane.json",
+  "stage": 0
+ },
+ "money/slack/support-team/quiet-room-equipment-handoff-coverage.json": {
+  "new": false,
+  "note": "dollar: $549",
+  "rel": "slack/support-team/quiet-room-equipment-handoff-coverage.json",
+  "stage": 0
+ },
+ "money/slack/support-team/raleigh-roller-derby-bout-and-the-neon-lace-decision.json": {
+  "new": false,
+  "note": "dollar: $4,796",
+  "rel": "slack/support-team/raleigh-roller-derby-bout-and-the-neon-lace-decision.json",
+  "stage": 0
+ },
+ "money/slack/support-team/refund-desk-quiet-room-acoustics-check-for-callback-coaching.json": {
+  "new": false,
+  "note": "dollar: $2,369",
+  "rel": "slack/support-team/refund-desk-quiet-room-acoustics-check-for-callback-coaching.json",
+  "stage": 0
+ },
+ "money/slack/support-team/refund-window-seat-listening-format.json": {
+  "new": false,
+  "note": "dollar: $689",
+  "rel": "slack/support-team/refund-window-seat-listening-format.json",
+  "stage": 0
+ },
+ "money/slack/support-team/screen-capture-permission-coaching-replay.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/screen-capture-permission-coaching-replay.json",
+  "stage": 0
+ },
+ "money/slack/support-team/shadow-board-messy-customer-timelines.json": {
+  "new": false,
+  "note": "dollar: $1,522",
+  "rel": "slack/support-team/shadow-board-messy-customer-timelines.json",
+  "stage": 0
+ },
+ "money/slack/support-team/shadowing-the-escalation-desk-through-a-full-morning.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/shadowing-the-escalation-desk-through-a-full-morning.json",
+  "stage": 0
+ },
+ "money/slack/support-team/stitching-the-blueprint-for-friday-follow-ups.json": {
+  "new": false,
+  "note": "dollar: $489.67",
+  "rel": "slack/support-team/stitching-the-blueprint-for-friday-follow-ups.json",
+  "stage": 0
+ },
+ "money/slack/support-team/storm-day-split-shift-volunteer-board.json": {
+  "new": false,
+  "note": "dollar: $628",
+  "rel": "slack/support-team/storm-day-split-shift-volunteer-board.json",
+  "stage": 0
+ },
+ "money/slack/support-team/the-ticket-postcard-exchange.json": {
+  "new": false,
+  "note": "dollar: $2,688",
+  "rel": "slack/support-team/the-ticket-postcard-exchange.json",
+  "stage": 0
+ },
+ "money/slack/support-team/three-channel-handoff-coaching-sample.json": {
+  "new": false,
+  "note": "dollar: $535.16",
+  "rel": "slack/support-team/three-channel-handoff-coaching-sample.json",
+  "stage": 0
+ },
+ "money/slack/support-team/thursday-callback-garden-and-split-shift-coverage-check.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/thursday-callback-garden-and-split-shift-coverage-check.json",
+  "stage": 0
+ },
+ "money/slack/support-team/thursday-case-weaving-room-for-stale-handoffs.json": {
+  "new": false,
+  "note": "dollar: $141",
+  "rel": "slack/support-team/thursday-case-weaving-room-for-stale-handoffs.json",
+  "stage": 0
+ },
+ "money/slack/support-team/thursday-certification-workshop-coverage-puzzle.json": {
+  "new": false,
+  "note": "dollar: $143",
+  "rel": "slack/support-team/thursday-certification-workshop-coverage-puzzle.json",
+  "stage": 0
+ },
+ "money/slack/support-team/thursday-compass-for-pending-customer-replies.json": {
+  "new": false,
+  "note": "dollar: $105.82",
+  "rel": "slack/support-team/thursday-compass-for-pending-customer-replies.json",
+  "stage": 0
+ },
+ "money/slack/support-team/thursday-follow-up-runway-live-queue.json": {
+  "new": false,
+  "note": "dollar: $153.81",
+  "rel": "slack/support-team/thursday-follow-up-runway-live-queue.json",
+  "stage": 0
+ },
+ "money/slack/support-team/thursday-service-desk-relay-rehearsal.json": {
+  "new": false,
+  "note": "dollar: $661",
+  "rel": "slack/support-team/thursday-service-desk-relay-rehearsal.json",
+  "stage": 0
+ },
+ "money/slack/support-team/timeline-reconstruction-coaching-circle.json": {
+  "new": false,
+  "note": "dollar: $1,120",
+  "rel": "slack/support-team/timeline-reconstruction-coaching-circle.json",
+  "stage": 0
+ },
+ "money/slack/support-team/two-minute-voice-note-drill-ownership-sweep.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/two-minute-voice-note-drill-ownership-sweep.json",
+  "stage": 0
+ },
+ "money/slack/support-team/voice-transcript-panel-stalls-mid-call.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/voice-transcript-panel-stalls-mid-call.json",
+  "stage": 0
+ },
+ "money/slack/support-team/weekend-callback-queue-view.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/weekend-callback-queue-view.json",
+  "stage": 0
+ },
+ "money/slack/support-team/weekly-friction-log-coaching-checkin.json": {
+  "new": false,
+  "note": "dollar: $56",
+  "rel": "slack/support-team/weekly-friction-log-coaching-checkin.json",
+  "stage": 0
+ },
+ "refunds/0": {
+  "new": true,
+  "note": "refunds thread, 3343 characters",
+  "rel": "slack/refunds-desk/morning-queue-split-and-finance-holds.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/1": {
+  "new": true,
+  "note": "refunds thread, 3095 characters",
+  "rel": "slack/refunds-desk/duplicate-booking-case-cleanup.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/10": {
+  "new": true,
+  "note": "refunds thread, 3347 characters",
+  "rel": "slack/refunds-desk/reading-a-customer-bank-statement-screenshot.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/100": {
+  "new": true,
+  "note": "refunds thread, 2246 characters",
+  "rel": "slack/refunds-desk/morning-queue-ownership.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/101": {
+  "new": true,
+  "note": "refunds thread, 3734 characters",
+  "rel": "slack/refunds-desk/duplicate-booking-case-cleanup-notes.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/102": {
+  "new": true,
+  "note": "refunds thread, 2062 characters",
+  "rel": "slack/refunds-desk/late-processor-batch-tracking-follow-up.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/103": {
+  "new": true,
+  "note": "refunds thread, 3701 characters",
+  "rel": "slack/refunds-desk/card-team-paperwork-for-case-history.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/104": {
+  "new": true,
+  "note": "refunds thread, 6968 characters",
+  "rel": "slack/refunds-desk/three-same-day-contacts-under-separate-cases.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/105": {
+  "new": true,
+  "note": "refunds thread, 3950 characters",
+  "rel": "slack/refunds-desk/new-hire-case-tool-shadow-questions.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/106": {
+  "new": true,
+  "note": "refunds thread, 3203 characters",
+  "rel": "slack/refunds-desk/weekly-audit-notes-gaps.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/107": {
+  "new": true,
+  "note": "refunds thread, 3948 characters",
+  "rel": "slack/refunds-desk/name-field-pulling-from-prior-case-in-closure-macro.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/108": {
+  "new": true,
+  "note": "refunds thread, 2464 characters",
+  "rel": "slack/refunds-desk/long-weekend-inbox-handoff-follow-up.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/109": {
+  "new": true,
+  "note": "refunds thread, 3988 characters",
+  "rel": "slack/refunds-desk/different-email-identity-check-on-case-rfd.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/11": {
+  "new": true,
+  "note": "refunds thread, 3804 characters",
+  "rel": "slack/refunds-desk/case-tags-drift-and-cleanup.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/110": {
+  "new": true,
+  "note": "refunds thread, 2463 characters",
+  "rel": "slack/refunds-desk/reading-the-customer-bank-statement-lines.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/111": {
+  "new": true,
+  "note": "refunds thread, 3587 characters",
+  "rel": "slack/refunds-desk/tag-drift-cleanup-notes.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/112": {
+  "new": true,
+  "note": "refunds thread, 2649 characters",
+  "rel": "slack/refunds-desk/callback-board-for-phone-preference-cases.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/113": {
+  "new": true,
+  "note": "refunds thread, 3979 characters",
+  "rel": "slack/refunds-desk/portuguese-translation-check-on-case-notes.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/114": {
+  "new": true,
+  "note": "refunds thread, 2435 characters",
+  "rel": "slack/refunds-desk/month-end-finance-references-question.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/115": {
+  "new": true,
+  "note": "refunds thread, 4816 characters",
+  "rel": "slack/refunds-desk/group-organiser-asks-for-one-status-note.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/116": {
+  "new": true,
+  "note": "refunds thread, 4413 characters",
+  "rel": "slack/refunds-desk/receipt-date-mismatch-on-case-sr.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/117": {
+  "new": true,
+  "note": "refunds thread, 3285 characters",
+  "rel": "slack/refunds-desk/ageing-dashboard-colours.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/118": {
+  "new": true,
+  "note": "refunds thread, 3080 characters",
+  "rel": "slack/refunds-desk/summarising-long-customer-emails.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/119": {
+  "new": true,
+  "note": "refunds thread, 3250 characters",
+  "rel": "slack/refunds-desk/phone-contact-with-no-reference-follow-up.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/12": {
+  "new": true,
+  "note": "refunds thread, 3366 characters",
+  "rel": "slack/refunds-desk/call-back-board-for-phone-requested-contacts.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/120": {
+  "new": true,
+  "note": "refunds thread, 3224 characters",
+  "rel": "slack/refunds-desk/morning-queue-ownership-and-finance-holds.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/121": {
+  "new": true,
+  "note": "refunds thread, 3725 characters",
+  "rel": "slack/refunds-desk/duplicate-booking-case-cleanup-question.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/122": {
+  "new": true,
+  "note": "refunds thread, 1175 characters",
+  "rel": "slack/refunds-desk/late-processor-batch-tracking-check.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/123": {
+  "new": true,
+  "note": "refunds thread, 1912 characters",
+  "rel": "slack/refunds-desk/card-team-paperwork-case-history.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/124": {
+  "new": true,
+  "note": "refunds thread, 3587 characters",
+  "rel": "slack/refunds-desk/merging-repeat-contacts-into-one-case.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/125": {
+  "new": true,
+  "note": "refunds thread, 3835 characters",
+  "rel": "slack/refunds-desk/shadow-questions-on-the-case-tool-notes.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/126": {
+  "new": true,
+  "note": "refunds thread, 2875 characters",
+  "rel": "slack/refunds-desk/weekly-audit-note-gaps.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/127": {
+  "new": true,
+  "note": "refunds thread, 3106 characters",
+  "rel": "slack/refunds-desk/wrong-name-macro-workaround.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/128": {
+  "new": true,
+  "note": "refunds thread, 3526 characters",
+  "rel": "slack/refunds-desk/long-weekend-inbox-handoff-update.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/129": {
+  "new": true,
+  "note": "refunds thread, 2067 characters",
+  "rel": "slack/refunds-desk/email-mismatch-identity-check.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/13": {
+  "new": true,
+  "note": "refunds thread, 3927 characters",
+  "rel": "slack/refunds-desk/portuguese-customer-translation-check.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/130": {
+  "new": true,
+  "note": "refunds thread, 2517 characters",
+  "rel": "slack/refunds-desk/reading-issuer-labels-on-statement-screenshots.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/131": {
+  "new": true,
+  "note": "refunds thread, 4186 characters",
+  "rel": "slack/refunds-desk/tag-list-tidy-up.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/132": {
+  "new": true,
+  "note": "refunds thread, 6493 characters",
+  "rel": "slack/refunds-desk/callback-board-for-phone-request-cases.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/133": {
+  "new": true,
+  "note": "refunds thread, 1820 characters",
+  "rel": "slack/refunds-desk/portuguese-translation-for-rf-notes.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/134": {
+  "new": true,
+  "note": "refunds thread, 4050 characters",
+  "rel": "slack/refunds-desk/month-end-reference-check-question.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/135": {
+  "new": true,
+  "note": "refunds thread, 5660 characters",
+  "rel": "slack/refunds-desk/group-organiser-wants-one-status-note.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/136": {
+  "new": true,
+  "note": "refunds thread, 2848 characters",
+  "rel": "slack/refunds-desk/receipt-date-mismatch-locating-the-source-record.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/137": {
+  "new": true,
+  "note": "refunds thread, 3764 characters",
+  "rel": "slack/refunds-desk/ageing-board-colour-key.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/138": {
+  "new": true,
+  "note": "refunds thread, 3222 characters",
+  "rel": "slack/refunds-desk/summarizing-a-long-group-booking-email.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/139": {
+  "new": true,
+  "note": "refunds thread, 3831 characters",
+  "rel": "slack/refunds-desk/phone-note-without-a-reference-number.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/14": {
+  "new": true,
+  "note": "refunds thread, 4516 characters",
+  "rel": "slack/refunds-desk/month-end-reference-check.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/140": {
+  "new": true,
+  "note": "refunds thread, 3446 characters",
+  "rel": "slack/refunds-desk/morning-queue-split-and-finance-holds-notes.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/141": {
+  "new": true,
+  "note": "refunds thread, 3294 characters",
+  "rel": "slack/refunds-desk/duplicate-booking-case-cleanup-follow-up.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/142": {
+  "new": true,
+  "note": "refunds thread, 6895 characters",
+  "rel": "slack/refunds-desk/late-processor-batch-tracking-update.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/143": {
+  "new": true,
+  "note": "refunds thread, 1778 characters",
+  "rel": "slack/refunds-desk/cb-case-history-split.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/144": {
+  "new": true,
+  "note": "refunds thread, 6089 characters",
+  "rel": "slack/refunds-desk/triple-contact-merge-on-payment-status-case.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/145": {
+  "new": true,
+  "note": "refunds thread, 2249 characters",
+  "rel": "slack/refunds-desk/case-tool-shadow-questions.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/146": {
+  "new": true,
+  "note": "refunds thread, 2801 characters",
+  "rel": "slack/refunds-desk/audit-notes-on-closed-cases.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/147": {
+  "new": true,
+  "note": "refunds thread, 2383 characters",
+  "rel": "slack/refunds-desk/wrong-name-macro-in-payment-event-replies.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/148": {
+  "new": true,
+  "note": "refunds thread, 6723 characters",
+  "rel": "slack/refunds-desk/long-weekend-inbox-handoff-review.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/149": {
+  "new": true,
+  "note": "refunds thread, 3284 characters",
+  "rel": "slack/refunds-desk/different-email-on-identity-check.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/15": {
+  "new": true,
+  "note": "refunds thread, 3236 characters",
+  "rel": "slack/refunds-desk/group-organiser-combined-update.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/16": {
+  "new": true,
+  "note": "refunds thread, 3795 characters",
+  "rel": "slack/refunds-desk/receipt-date-trace-for-case.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/17": {
+  "new": true,
+  "note": "refunds thread, 3442 characters",
+  "rel": "slack/refunds-desk/ageing-dashboard-colour-key.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/18": {
+  "new": true,
+  "note": "refunds thread, 3530 characters",
+  "rel": "slack/refunds-desk/summarizing-long-customer-emails.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/19": {
+  "new": true,
+  "note": "refunds thread, 3081 characters",
+  "rel": "slack/refunds-desk/phone-contact-with-no-reference.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/2": {
+  "new": true,
+  "note": "refunds thread, 2682 characters",
+  "rel": "slack/refunds-desk/late-processor-batch-tracking.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/20": {
+  "new": true,
+  "note": "refunds thread, 3422 characters",
+  "rel": "slack/refunds-desk/morning-queue-split-and-finance-holds.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/21": {
+  "new": true,
+  "note": "refunds thread, 3733 characters",
+  "rel": "slack/refunds-desk/duplicate-booking-cases-in-the-refund-queue.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/22": {
+  "new": true,
+  "note": "refunds thread, 3727 characters",
+  "rel": "slack/refunds-desk/late-processor-batch-tracking.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/23": {
+  "new": true,
+  "note": "refunds thread, 1148 characters",
+  "rel": "slack/refunds-desk/card-team-paperwork-and-case-history.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/24": {
+  "new": true,
+  "note": "refunds thread, 3681 characters",
+  "rel": "slack/refunds-desk/duplicate-contacts-on-payment-event.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/25": {
+  "new": true,
+  "note": "refunds thread, 4110 characters",
+  "rel": "slack/refunds-desk/shadow-questions-on-the-case-tool.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/26": {
+  "new": true,
+  "note": "refunds thread, 3905 characters",
+  "rel": "slack/refunds-desk/audit-notes-in-closed-cases-notes.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/27": {
+  "new": true,
+  "note": "refunds thread, 3538 characters",
+  "rel": "slack/refunds-desk/macro-name-field-mismatch.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/28": {
+  "new": true,
+  "note": "refunds thread, 1262 characters",
+  "rel": "slack/refunds-desk/long-weekend-handoff-notes-and-shared-inbox.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/29": {
+  "new": true,
+  "note": "refunds thread, 3439 characters",
+  "rel": "slack/refunds-desk/alternate-email-identity-check.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/3": {
+  "new": true,
+  "note": "refunds thread, 1932 characters",
+  "rel": "slack/refunds-desk/card-team-paperwork-and-case-history-notes.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/30": {
+  "new": true,
+  "note": "refunds thread, 5719 characters",
+  "rel": "slack/refunds-desk/reading-a-bank-statement-attachment.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/31": {
+  "new": true,
+  "note": "refunds thread, 4042 characters",
+  "rel": "slack/refunds-desk/case-tag-tidy-up.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/32": {
+  "new": true,
+  "note": "refunds thread, 4327 characters",
+  "rel": "slack/refunds-desk/call-back-board-for-phone-requested-contacts-notes.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/33": {
+  "new": true,
+  "note": "refunds thread, 1118 characters",
+  "rel": "slack/refunds-desk/portuguese-translation-for-rf.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/34": {
+  "new": true,
+  "note": "refunds thread, 3085 characters",
+  "rel": "slack/refunds-desk/month-end-reference-check-notes.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/35": {
+  "new": true,
+  "note": "refunds thread, 1137 characters",
+  "rel": "slack/refunds-desk/group-organiser-requesting-one-status-update.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/36": {
+  "new": true,
+  "note": "refunds thread, 2400 characters",
+  "rel": "slack/refunds-desk/receipt-date-trace.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/37": {
+  "new": true,
+  "note": "refunds thread, 4225 characters",
+  "rel": "slack/refunds-desk/ageing-dashboard-colour-guide.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/38": {
+  "new": true,
+  "note": "refunds thread, 1935 characters",
+  "rel": "slack/refunds-desk/summarising-a-long-customer-email.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/39": {
+  "new": true,
+  "note": "refunds thread, 6824 characters",
+  "rel": "slack/refunds-desk/phone-contact-with-no-reference-notes.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/4": {
+  "new": true,
+  "note": "refunds thread, 1254 characters",
+  "rel": "slack/refunds-desk/duplicate-contacts-for-one-booking.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/40": {
+  "new": true,
+  "note": "refunds thread, 3017 characters",
+  "rel": "slack/refunds-desk/morning-queue-split.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/41": {
+  "new": true,
+  "note": "refunds thread, 4244 characters",
+  "rel": "slack/refunds-desk/duplicate-booking-case-cleanup.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/42": {
+  "new": true,
+  "note": "refunds thread, 3343 characters",
+  "rel": "slack/refunds-desk/late-processor-batch-tracking-notes.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/43": {
+  "new": true,
+  "note": "refunds thread, 4515 characters",
+  "rel": "slack/refunds-desk/chargeback-case-history-packet.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/44": {
+  "new": true,
+  "note": "refunds thread, 4653 characters",
+  "rel": "slack/refunds-desk/merge-check-for-repeat-contacts.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/45": {
+  "new": true,
+  "note": "refunds thread, 1850 characters",
+  "rel": "slack/refunds-desk/shadow-questions-on-case-fields.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/46": {
+  "new": true,
+  "note": "refunds thread, 5225 characters",
+  "rel": "slack/refunds-desk/weekly-audit-note-flags.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/47": {
+  "new": true,
+  "note": "refunds thread, 3681 characters",
+  "rel": "slack/refunds-desk/name-merge-issue-in-refund-reply-macro.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/48": {
+  "new": true,
+  "note": "refunds thread, 4457 characters",
+  "rel": "slack/refunds-desk/long-weekend-inbox-handoff-notes.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/49": {
+  "new": true,
+  "note": "refunds thread, 2381 characters",
+  "rel": "slack/refunds-desk/different-contact-email-check.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/5": {
+  "new": true,
+  "note": "refunds thread, 1314 characters",
+  "rel": "slack/refunds-desk/shadowing-questions-from-the-desk.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/50": {
+  "new": true,
+  "note": "refunds thread, 3730 characters",
+  "rel": "slack/refunds-desk/reading-the-bank-statement-lines.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/51": {
+  "new": true,
+  "note": "refunds thread, 3844 characters",
+  "rel": "slack/refunds-desk/tag-drift-cleanup.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/52": {
+  "new": true,
+  "note": "refunds thread, 6197 characters",
+  "rel": "slack/refunds-desk/callback-queue-handoff.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/53": {
+  "new": true,
+  "note": "refunds thread, 4520 characters",
+  "rel": "slack/refunds-desk/portuguese-translation-request-on-itinerary-case.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/54": {
+  "new": true,
+  "note": "refunds thread, 3280 characters",
+  "rel": "slack/refunds-desk/month-end-finance-references.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/55": {
+  "new": true,
+  "note": "refunds thread, 1203 characters",
+  "rel": "slack/refunds-desk/group-organiser-status-request.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/56": {
+  "new": true,
+  "note": "refunds thread, 4252 characters",
+  "rel": "slack/refunds-desk/receipt-date-mismatch-on-case-search.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/57": {
+  "new": true,
+  "note": "refunds thread, 2759 characters",
+  "rel": "slack/refunds-desk/ageing-dashboard-colour-key-notes.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/58": {
+  "new": true,
+  "note": "refunds thread, 3139 characters",
+  "rel": "slack/refunds-desk/summarising-a-long-customer-email-notes.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/59": {
+  "new": true,
+  "note": "refunds thread, 3059 characters",
+  "rel": "slack/refunds-desk/phone-note-with-no-reference-number.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/6": {
+  "new": true,
+  "note": "refunds thread, 4047 characters",
+  "rel": "slack/refunds-desk/audit-notes-in-closed-cases.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/60": {
+  "new": true,
+  "note": "refunds thread, 4469 characters",
+  "rel": "slack/refunds-desk/morning-refund-queue-split.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/61": {
+  "new": true,
+  "note": "refunds thread, 3409 characters",
+  "rel": "slack/refunds-desk/duplicate-case-cleanup-for-bk7m2q.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/62": {
+  "new": true,
+  "note": "refunds thread, 3139 characters",
+  "rel": "slack/refunds-desk/late-processor-batch-tracking-question.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/63": {
+  "new": true,
+  "note": "refunds thread, 2484 characters",
+  "rel": "slack/refunds-desk/chargeback-paperwork-case-history.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/64": {
+  "new": true,
+  "note": "refunds thread, 6506 characters",
+  "rel": "slack/refunds-desk/same-customer-contacts-split-across-cases.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/65": {
+  "new": true,
+  "note": "refunds thread, 3906 characters",
+  "rel": "slack/refunds-desk/shadow-questions-on-case-tool-views.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/66": {
+  "new": true,
+  "note": "refunds thread, 3789 characters",
+  "rel": "slack/refunds-desk/weekly-audit-note-flags-notes.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/67": {
+  "new": true,
+  "note": "refunds thread, 5433 characters",
+  "rel": "slack/refunds-desk/name-token-in-refund-macro.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/68": {
+  "new": true,
+  "note": "refunds thread, 1684 characters",
+  "rel": "slack/refunds-desk/long-weekend-inbox-handoff-question.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/69": {
+  "new": true,
+  "note": "refunds thread, 3835 characters",
+  "rel": "slack/refunds-desk/email-mismatch-on-skw.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/7": {
+  "new": true,
+  "note": "refunds thread, 2796 characters",
+  "rel": "slack/refunds-desk/wrong-name-in-refund-status-macro.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/70": {
+  "new": true,
+  "note": "refunds thread, 4299 characters",
+  "rel": "slack/refunds-desk/reading-the-bank-view-line-items-on-a-confusing-attachment.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/71": {
+  "new": true,
+  "note": "refunds thread, 2956 characters",
+  "rel": "slack/refunds-desk/case-tag-drift-and-desk-list-cleanup.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/72": {
+  "new": true,
+  "note": "refunds thread, 3234 characters",
+  "rel": "slack/refunds-desk/call-back-schedule-for-phone-request-cases.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/73": {
+  "new": true,
+  "note": "refunds thread, 3985 characters",
+  "rel": "slack/refunds-desk/portuguese-translation-on-itinerary-change-case.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/74": {
+  "new": true,
+  "note": "refunds thread, 4382 characters",
+  "rel": "slack/refunds-desk/month-end-finance-references-notes.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/75": {
+  "new": true,
+  "note": "refunds thread, 3036 characters",
+  "rel": "slack/refunds-desk/group-organiser-status-request-notes.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/76": {
+  "new": true,
+  "note": "refunds thread, 4218 characters",
+  "rel": "slack/refunds-desk/receipt-date-mismatch-on-case.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/77": {
+  "new": true,
+  "note": "refunds thread, 3294 characters",
+  "rel": "slack/refunds-desk/ageing-dashboard-colour-guide-notes.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/78": {
+  "new": true,
+  "note": "refunds thread, 4738 characters",
+  "rel": "slack/refunds-desk/summarising-the-long-email-without-losing-the-trail.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/79": {
+  "new": true,
+  "note": "refunds thread, 3730 characters",
+  "rel": "slack/refunds-desk/phone-contact-with-no-reference-number.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/8": {
+  "new": true,
+  "note": "refunds thread, 1894 characters",
+  "rel": "slack/refunds-desk/long-weekend-inbox-handoff.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/80": {
+  "new": true,
+  "note": "refunds thread, 4044 characters",
+  "rel": "slack/refunds-desk/morning-queue-split-desk-work-and-finance-holds.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/81": {
+  "new": true,
+  "note": "refunds thread, 2506 characters",
+  "rel": "slack/refunds-desk/duplicate-booking-cases-cleanup-and-case-home.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/82": {
+  "new": true,
+  "note": "refunds thread, 3670 characters",
+  "rel": "slack/refunds-desk/processor-batch-arrival-tracking.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/83": {
+  "new": true,
+  "note": "refunds thread, 4759 characters",
+  "rel": "slack/refunds-desk/card-team-paperwork-and-case-history-owner.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/84": {
+  "new": true,
+  "note": "refunds thread, 3003 characters",
+  "rel": "slack/refunds-desk/merge-three-contacts-on-one-group-booking.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/85": {
+  "new": true,
+  "note": "refunds thread, 4532 characters",
+  "rel": "slack/refunds-desk/shadow-questions-on-case-tool-handoffs.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/86": {
+  "new": true,
+  "note": "refunds thread, 1669 characters",
+  "rel": "slack/refunds-desk/weekly-audit-notes-on-closed-cases.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/87": {
+  "new": true,
+  "note": "refunds thread, 2322 characters",
+  "rel": "slack/refunds-desk/macro-greeting-name-mismatch.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/88": {
+  "new": true,
+  "note": "refunds thread, 2963 characters",
+  "rel": "slack/refunds-desk/long-weekend-inbox-handoff-check.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/89": {
+  "new": true,
+  "note": "refunds thread, 3251 characters",
+  "rel": "slack/refunds-desk/different-email-on-case.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/9": {
+  "new": true,
+  "note": "refunds thread, 4746 characters",
+  "rel": "slack/refunds-desk/different-email-identity-check.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/90": {
+  "new": true,
+  "note": "refunds thread, 1117 characters",
+  "rel": "slack/refunds-desk/reading-the-customer-bank-screenshot.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/91": {
+  "new": true,
+  "note": "refunds thread, 3724 characters",
+  "rel": "slack/refunds-desk/case-tag-tidy-up-notes.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/92": {
+  "new": true,
+  "note": "refunds thread, 3540 characters",
+  "rel": "slack/refunds-desk/call-back-schedule-for-phone-request-cases-notes.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/93": {
+  "new": true,
+  "note": "refunds thread, 1732 characters",
+  "rel": "slack/refunds-desk/portuguese-wording-check-for-rfd.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/94": {
+  "new": true,
+  "note": "refunds thread, 5705 characters",
+  "rel": "slack/refunds-desk/month-end-reference-sweep.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/95": {
+  "new": true,
+  "note": "refunds thread, 1100 characters",
+  "rel": "slack/refunds-desk/combined-group-status-request.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/96": {
+  "new": true,
+  "note": "refunds thread, 5487 characters",
+  "rel": "slack/refunds-desk/receipt-date-mismatch-on-br-7kq2.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/97": {
+  "new": true,
+  "note": "refunds thread, 3777 characters",
+  "rel": "slack/refunds-desk/ageing-dashboard-colour-key-question.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/98": {
+  "new": true,
+  "note": "refunds thread, 4997 characters",
+  "rel": "slack/refunds-desk/summarising-the-long-customer-email-before-handoff.json",
+  "rule": null,
+  "stage": 0
+ },
+ "refunds/99": {
+  "new": true,
+  "note": "refunds thread, 2217 characters",
+  "rel": "slack/refunds-desk/phone-contact-with-no-reference-question.json",
+  "rule": null,
+  "stage": 0
+ }
+}

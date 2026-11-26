@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about compensation for disruptions.",
+  "files": [
+    {
+      "path": "sources/confluence/customer-policies/delays-and-disruptions/compensation.json",
+      "description": "A Confluence page in the customer-policies space for support agents about compensation for disruptions, last updated between 2026-01-12 and 2026-05-15. It must contain these sentences word for word: \"$150 travel credit per passenger who travelled\"; \"arrive 4 or more hours late\"; \"less than 72 hours' notice\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention battery, batteries, lithium, power bank, watt-hour."
+    }
+  ],
+  "people": [
+    {
+      "name": "Keisha Bryant",
+      "project_role": "Support Supervisor, Disruption Care"
+    },
+    {
+      "name": "Mei Lin",
+      "project_role": "Support Team Lead, Digital Care"
+    },
+    {
+      "name": "Jorge Salinas",
+      "project_role": "Customer Support Agent"
+    }
+  ]
+}

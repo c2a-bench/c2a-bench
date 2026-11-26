@@ -1,0 +1,2072 @@
+{
+ "credit/confluence/airport-operations/airport-operations-learning-signal-catalogue.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/airport-operations/airport-operations-learning-signal-catalogue.json",
+  "stage": 0
+ },
+ "credit/confluence/airport-operations/airport-operations-situational-sketching-workshop.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/airport-operations/airport-operations-situational-sketching-workshop.json",
+  "stage": 0
+ },
+ "credit/confluence/airport-operations/airport-service-arc-workcard.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/airport-operations/airport-service-arc-workcard.json",
+  "stage": 0
+ },
+ "credit/confluence/airport-operations/airside-access-credential-reconciliation-checklist.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/airport-operations/airside-access-credential-reconciliation-checklist.json",
+  "stage": 0
+ },
+ "credit/confluence/airport-operations/baggage-handoff-inbox-intake-sweep.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/airport-operations/baggage-handoff-inbox-intake-sweep.json",
+  "stage": 0
+ },
+ "credit/confluence/airport-operations/baggage-information-board-message-composition-standard.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/airport-operations/baggage-information-board-message-composition-standard.json",
+  "stage": 0
+ },
+ "credit/confluence/airport-operations/baggage-radio-dead-zone-survey-and-escalation-routine.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/airport-operations/baggage-radio-dead-zone-survey-and-escalation-routine.json",
+  "stage": 0
+ },
+ "credit/confluence/airport-operations/baggage-trace-signal-coding-studio.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/airport-operations/baggage-trace-signal-coding-studio.json",
+  "stage": 0
+ },
+ "credit/confluence/airport-operations/departure-readiness-role-swap-drill.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/airport-operations/departure-readiness-role-swap-drill.json",
+  "stage": 0
+ },
+ "credit/confluence/airport-operations/departure-readiness-token-trail-gate-teams.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/airport-operations/departure-readiness-token-trail-gate-teams.json",
+  "stage": 0
+ },
+ "credit/confluence/airport-operations/gate-release-weak-signal-observation-guide.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/airport-operations/gate-release-weak-signal-observation-guide.json",
+  "stage": 0
+ },
+ "credit/confluence/airport-operations/irregular-operations-recovery-assumption-register.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/airport-operations/irregular-operations-recovery-assumption-register.json",
+  "stage": 0
+ },
+ "credit/confluence/airport-operations/passenger-processing-zone-reset-and-release-card.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/airport-operations/passenger-processing-zone-reset-and-release-card.json",
+  "stage": 0
+ },
+ "credit/confluence/airport-operations/shared-service-liaison-disruption-playbook.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/airport-operations/shared-service-liaison-disruption-playbook.json",
+  "stage": 0
+ },
+ "credit/confluence/airport-operations/stand-and-gate-reconciliation-workcard.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/airport-operations/stand-and-gate-reconciliation-workcard.json",
+  "stage": 0
+ },
+ "credit/confluence/airport-operations/station-baggage-handoff-briefing.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/airport-operations/station-baggage-handoff-briefing.json",
+  "stage": 0
+ },
+ "credit/confluence/airport-operations/station-readiness-triage-canvas.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/airport-operations/station-readiness-triage-canvas.json",
+  "stage": 0
+ },
+ "credit/confluence/airport-operations/terminal-incident-intake-desk-shift-card.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/airport-operations/terminal-incident-intake-desk-shift-card.json",
+  "stage": 0
+ },
+ "credit/confluence/company-handbook/customer-operations-readiness-conversation-kit.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/company-handbook/customer-operations-readiness-conversation-kit.json",
+  "stage": 0
+ },
+ "credit/confluence/company-handbook/internal-voice-note-and-transcription-practice-guide.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/company-handbook/internal-voice-note-and-transcription-practice-guide.json",
+  "stage": 0
+ },
+ "credit/confluence/company-handbook/manager-assumption-audit-workbook.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/company-handbook/manager-assumption-audit-workbook.json",
+  "stage": 0
+ },
+ "credit/confluence/company-handbook/manager-peer-calibration-circle-handbook.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/company-handbook/manager-peer-calibration-circle-handbook.json",
+  "stage": 0
+ },
+ "credit/confluence/company-handbook/manager-role-clarity-charter-guide.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/company-handbook/manager-role-clarity-charter-guide.json",
+  "stage": 0
+ },
+ "credit/confluence/company-handbook/people-practice-signal-to-action-log.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/company-handbook/people-practice-signal-to-action-log.json",
+  "stage": 0
+ },
+ "credit/confluence/company-handbook/shared-decision-log-etiquette.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/company-handbook/shared-decision-log-etiquette.json",
+  "stage": 0
+ },
+ "credit/confluence/company-handbook/workplace-procedure-evidence-packet-assembly-guide.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/company-handbook/workplace-procedure-evidence-packet-assembly-guide.json",
+  "stage": 0
+ },
+ "credit/confluence/customer-policies/fares-and-changes/passenger-level-extras-in-shared-reservations.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/customer-policies/fares-and-changes/passenger-level-extras-in-shared-reservations.json",
+  "stage": 0
+ },
+ "credit/confluence/customer-policies/special-assistance/wheelchair-assistance-arrival-service-recovery-worksheet.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/customer-policies/special-assistance/wheelchair-assistance-arrival-service-recovery-worksheet.json",
+  "stage": 0
+ },
+ "credit/confluence/digital/baggage-case-learning-loop-product-plan.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/digital/baggage-case-learning-loop-product-plan.json",
+  "stage": 0
+ },
+ "credit/confluence/digital/baggage-claim-arrival-cartography-pilot-plan.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/digital/baggage-claim-arrival-cartography-pilot-plan.json",
+  "stage": 0
+ },
+ "credit/confluence/digital/channel-parity-atelier-guide.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/digital/channel-parity-atelier-guide.json",
+  "stage": 0
+ },
+ "credit/confluence/digital/configuring-operations-kiosk-qr-scanner.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/digital/configuring-operations-kiosk-qr-scanner.json",
+  "stage": 0
+ },
+ "credit/confluence/digital/digital-friction-review-workshop-guide.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/digital/digital-friction-review-workshop-guide.json",
+  "stage": 0
+ },
+ "credit/confluence/digital/digital-support-shadowing-rotation-handbook.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/digital/digital-support-shadowing-rotation-handbook.json",
+  "stage": 0
+ },
+ "credit/confluence/digital/event-stream-privacy-anomaly-triage.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/digital/event-stream-privacy-anomaly-triage.json",
+  "stage": 0
+ },
+ "credit/confluence/digital/exporting-clean-support-queue-view.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/digital/exporting-clean-support-queue-view.json",
+  "stage": 0
+ },
+ "credit/confluence/digital/passenger-service-account-ownership-rotation-practice.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/digital/passenger-service-account-ownership-rotation-practice.json",
+  "stage": 0
+ },
+ "credit/confluence/digital/restoring-workplace-certificate-store.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/digital/restoring-workplace-certificate-store.json",
+  "stage": 0
+ },
+ "credit/confluence/digital/seasonal-route-launch-service-readiness-review.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/digital/seasonal-route-launch-service-readiness-review.json",
+  "stage": 0
+ },
+ "credit/confluence/digital/validating-sso-claims-new-internal-app.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/digital/validating-sso-claims-new-internal-app.json",
+  "stage": 0
+ },
+ "credit/confluence/finance/ancillary-revenue-data-lineage-walkthrough.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/finance/ancillary-revenue-data-lineage-walkthrough.json",
+  "stage": 0
+ },
+ "credit/confluence/finance/ancillary-revenue-finance-coverage-handover-handbook.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/finance/ancillary-revenue-finance-coverage-handover-handbook.json",
+  "stage": 0
+ },
+ "credit/confluence/finance/non-labor-driver-library-maintenance-guide.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/finance/non-labor-driver-library-maintenance-guide.json",
+  "stage": 0
+ },
+ "credit/confluence/finance/quarter-end-ancillary-revenue-disclosure-pack.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/finance/quarter-end-ancillary-revenue-disclosure-pack.json",
+  "stage": 0
+ },
+ "credit/confluence/finance/travel-partner-remittance-file-stewardship.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/finance/travel-partner-remittance-file-stewardship.json",
+  "stage": 0
+ },
+ "credit/confluence/loyalty-programme/benefit-artifact-troubleshooting-guide.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/loyalty-programme/benefit-artifact-troubleshooting-guide.json",
+  "stage": 0
+ },
+ "credit/confluence/loyalty-programme/co-brand-calendar-translation-notebook.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/loyalty-programme/co-brand-calendar-translation-notebook.json",
+  "stage": 0
+ },
+ "credit/confluence/loyalty-programme/co-brand-escalation-signal-map.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/loyalty-programme/co-brand-escalation-signal-map.json",
+  "stage": 0
+ },
+ "credit/confluence/loyalty-programme/member-identity-stewardship-roundtable-notes.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/loyalty-programme/member-identity-stewardship-roundtable-notes.json",
+  "stage": 0
+ },
+ "credit/confluence/loyalty-programme/member-timeline-evidence-mapping-workshop.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/loyalty-programme/member-timeline-evidence-mapping-workshop.json",
+  "stage": 0
+ },
+ "credit/confluence/loyalty-programme/miles-platform-release-smoke-test-checklist.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/loyalty-programme/miles-platform-release-smoke-test-checklist.json",
+  "stage": 0
+ },
+ "credit/confluence/policy-and-compliance/change-log/content-change-four-corners-workshop.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/policy-and-compliance/change-log/content-change-four-corners-workshop.json",
+  "stage": 0
+ },
+ "credit/confluence/policy-and-compliance/change-log/fare-language-release-room-debrief.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/policy-and-compliance/change-log/fare-language-release-room-debrief.json",
+  "stage": 0
+ },
+ "credit/confluence/policy-and-compliance/change-log/policy-workspace-signalboard-facilitation-notes.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/policy-and-compliance/change-log/policy-workspace-signalboard-facilitation-notes.json",
+  "stage": 0
+ },
+ "credit/confluence/policy-and-compliance/regulatory/bilateral-permit-recordkeeping-workbench.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/policy-and-compliance/regulatory/bilateral-permit-recordkeeping-workbench.json",
+  "stage": 0
+ },
+ "credit/confluence/policy-and-compliance/regulatory/control-evidence-handoff-clinic.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/policy-and-compliance/regulatory/control-evidence-handoff-clinic.json",
+  "stage": 0
+ },
+ "credit/confluence/policy-and-compliance/regulatory/international-service-requirement-working-board.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/policy-and-compliance/regulatory/international-service-requirement-working-board.json",
+  "stage": 0
+ },
+ "credit/confluence/policy-and-compliance/regulatory/international-station-compliance-attestation-guide.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/policy-and-compliance/regulatory/international-station-compliance-attestation-guide.json",
+  "stage": 0
+ },
+ "credit/confluence/policy-and-compliance/regulatory/regulatory-text-annotation-clinic.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/policy-and-compliance/regulatory/regulatory-text-annotation-clinic.json",
+  "stage": 0
+ },
+ "credit/confluence/support-playbooks/approvals-and-limits/supervisor-review-capacity-forecasting-routine.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "confluence/support-playbooks/approvals-and-limits/supervisor-review-capacity-forecasting-routine.json",
+  "stage": 0
+ },
+ "credit/slack/airport-ops/b-pier-three-person-desk-loop.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/b-pier-three-person-desk-loop.json",
+  "stage": 0
+ },
+ "credit/slack/airport-ops/blue-lanyard-wayfinding-relay-bna-morning-turns.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/blue-lanyard-wayfinding-relay-bna-morning-turns.json",
+  "stage": 0
+ },
+ "credit/slack/airport-ops/bna-gate-agent-late-callout-and-remote-stand-rotation.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/bna-gate-agent-late-callout-and-remote-stand-rotation.json",
+  "stage": 0
+ },
+ "credit/slack/airport-ops/bna-gate-coach-shadow-notes.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/bna-gate-coach-shadow-notes.json",
+  "stage": 0
+ },
+ "credit/slack/airport-ops/bna-international-arrivals-gate-pod-rebalance.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/bna-international-arrivals-gate-pod-rebalance.json",
+  "stage": 0
+ },
+ "credit/slack/airport-ops/bna-t3-gate-reader-stops-after-manual-boarding-switch.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/bna-t3-gate-reader-stops-after-manual-boarding-switch.json",
+  "stage": 0
+ },
+ "credit/slack/airport-ops/c28-multi-city-service-island-chain.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/c28-multi-city-service-island-chain.json",
+  "stage": 0
+ },
+ "credit/slack/airport-ops/cabin-crew-tablet-miles-status-display-check.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/cabin-crew-tablet-miles-status-display-check.json",
+  "stage": 0
+ },
+ "credit/slack/airport-ops/forecast-weekend-station-kit-audit-and-runway-change-drill.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/forecast-weekend-station-kit-audit-and-runway-change-drill.json",
+  "stage": 0
+ },
+ "credit/slack/airport-ops/gate-b22-glare-screen-and-cabin-count-voice-bridge.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/gate-b22-glare-screen-and-cabin-count-voice-bridge.json",
+  "stage": 0
+ },
+ "credit/slack/airport-ops/gate-c7-manifest-pulse-check-before-pushback.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/gate-c7-manifest-pulse-check-before-pushback.json",
+  "stage": 0
+ },
+ "credit/slack/airport-ops/gate-l5-podium-scanner-test-mode-after-restart.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/gate-l5-podium-scanner-test-mode-after-restart.json",
+  "stage": 0
+ },
+ "credit/slack/airport-ops/jetbridge-key-cabinet-opening-count.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/jetbridge-key-cabinet-opening-count.json",
+  "stage": 0
+ },
+ "credit/slack/airport-ops/oversize-art-tube-passenger-identification.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/oversize-art-tube-passenger-identification.json",
+  "stage": 0
+ },
+ "credit/slack/airport-ops/quiet-side-boarding-count-reconciliation-bna-c18.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/quiet-side-boarding-count-reconciliation-bna-c18.json",
+  "stage": 0
+ },
+ "credit/slack/airport-ops/rdu-bagroom-to-gate-service-chain-for-reaccommodated-traveler.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/rdu-bagroom-to-gate-service-chain-for-reaccommodated-traveler.json",
+  "stage": 0
+ },
+ "credit/slack/airport-ops/rdu-east-pier-gate-kit-case-latch-scanner-cradle-handoff.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/rdu-east-pier-gate-kit-case-latch-scanner-cradle-handoff.json",
+  "stage": 0
+ },
+ "credit/slack/airport-ops/rdu-west-check-in-lane-reassignment-during-concourse-floor-work.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/rdu-west-check-in-lane-reassignment-during-concourse-floor-work.json",
+  "stage": 0
+ },
+ "credit/slack/airport-ops/rdu-west-curbside-bag-tag-printer-reassignment.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/rdu-west-curbside-bag-tag-printer-reassignment.json",
+  "stage": 0
+ },
+ "credit/slack/airport-ops/west-satellite-readiness-walk-noon-window.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/west-satellite-readiness-walk-noon-window.json",
+  "stage": 0
+ },
+ "credit/slack/announcements/bna-savannah-commuter-morning-pilot-huddle.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/announcements/bna-savannah-commuter-morning-pilot-huddle.json",
+  "stage": 0
+ },
+ "credit/slack/announcements/change-window-register-cross-team-planning-launch.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/announcements/change-window-register-cross-team-planning-launch.json",
+  "stage": 0
+ },
+ "credit/slack/announcements/nashville-library-flight-path-reading-pop-up.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/announcements/nashville-library-flight-path-reading-pop-up.json",
+  "stage": 0
+ },
+ "credit/slack/baggage-desk/accessible-intake-focus-and-audio-handoff-rehearsal.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/baggage-desk/accessible-intake-focus-and-audio-handoff-rehearsal.json",
+  "stage": 0
+ },
+ "credit/slack/baggage-desk/belt-manifest-initials-trace-reconciliation.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/baggage-desk/belt-manifest-initials-trace-reconciliation.json",
+  "stage": 0
+ },
+ "credit/slack/baggage-desk/boarding-pass-scan-damage-note-submit.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/baggage-desk/boarding-pass-scan-damage-note-submit.json",
+  "stage": 0
+ },
+ "credit/slack/baggage-desk/claim-app-draft-lock-and-counter-queue-observations.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/baggage-desk/claim-app-draft-lock-and-counter-queue-observations.json",
+  "stage": 0
+ },
+ "credit/slack/baggage-desk/claim-pad-handoff-pilot-field-notes.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/baggage-desk/claim-pad-handoff-pilot-field-notes.json",
+  "stage": 0
+ },
+ "credit/slack/baggage-desk/linked-case-attachment-state-crate-review.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/baggage-desk/linked-case-attachment-state-crate-review.json",
+  "stage": 0
+ },
+ "credit/slack/baggage-desk/loaner-tablet-voice-note-state-check.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/baggage-desk/loaner-tablet-voice-note-state-check.json",
+  "stage": 0
+ },
+ "credit/slack/baggage-desk/pen-input-draft-visibility-field-notes.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/baggage-desk/pen-input-draft-visibility-field-notes.json",
+  "stage": 0
+ },
+ "credit/slack/baggage-desk/portable-scan-sled-west-belt-relay.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/baggage-desk/portable-scan-sled-west-belt-relay.json",
+  "stage": 0
+ },
+ "credit/slack/baggage-desk/purple-tape-clamshell-inspection-rollout-notes.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/baggage-desk/purple-tape-clamshell-inspection-rollout-notes.json",
+  "stage": 0
+ },
+ "credit/slack/baggage-desk/south-counter-case-board-listening-session.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/baggage-desk/south-counter-case-board-listening-session.json",
+  "stage": 0
+ },
+ "credit/slack/baggage-desk/theatre-mask-case-arrival-review-and-app-note.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/baggage-desk/theatre-mask-case-arrival-review-and-app-note.json",
+  "stage": 0
+ },
+ "credit/slack/baggage-desk/voice-capture-claim-desk-accessibility-pilot.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/baggage-desk/voice-capture-claim-desk-accessibility-pilot.json",
+  "stage": 0
+ },
+ "credit/slack/digital-team/android-seat-map-state-reconciliation.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/digital-team/android-seat-map-state-reconciliation.json",
+  "stage": 0
+ },
+ "credit/slack/digital-team/campaign-arrival-context-handoff-check.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/digital-team/campaign-arrival-context-handoff-check.json",
+  "stage": 0
+ },
+ "credit/slack/digital-team/fare-card-information-density-holdout.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/digital-team/fare-card-information-density-holdout.json",
+  "stage": 0
+ },
+ "credit/slack/digital-team/handoff-harbor-callback-context-pilot.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/digital-team/handoff-harbor-callback-context-pilot.json",
+  "stage": 0
+ },
+ "credit/slack/digital-team/journey-beacon-anomaly-triage.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/digital-team/journey-beacon-anomaly-triage.json",
+  "stage": 0
+ },
+ "credit/slack/digital-team/notification-settings-stale-device-alerts.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/digital-team/notification-settings-stale-device-alerts.json",
+  "stage": 0
+ },
+ "credit/slack/digital-team/passenger-name-refresh-canary.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/digital-team/passenger-name-refresh-canary.json",
+  "stage": 0
+ },
+ "credit/slack/digital-team/push-preference-events-after-settings-redesign.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/digital-team/push-preference-events-after-settings-redesign.json",
+  "stage": 0
+ },
+ "credit/slack/digital-team/release-room-customer-message-fallback-fonts.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/digital-team/release-room-customer-message-fallback-fonts.json",
+  "stage": 0
+ },
+ "credit/slack/digital-team/safari-autofill-contact-drift-booking-review.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/digital-team/safari-autofill-contact-drift-booking-review.json",
+  "stage": 0
+ },
+ "credit/slack/digital-team/screen-reader-pass-on-trip-timeline.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/digital-team/screen-reader-pass-on-trip-timeline.json",
+  "stage": 0
+ },
+ "credit/slack/digital-team/tablet-seatmap-announcer-rotation.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/digital-team/tablet-seatmap-announcer-rotation.json",
+  "stage": 0
+ },
+ "credit/slack/finance-ops/airport-connectivity-invoice-approval-trail-review.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/finance-ops/airport-connectivity-invoice-approval-trail-review.json",
+  "stage": 0
+ },
+ "credit/slack/finance-ops/airport-reader-health-marker-in-settlement-import.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/finance-ops/airport-reader-health-marker-in-settlement-import.json",
+  "stage": 0
+ },
+ "credit/slack/finance-ops/app-add-on-session-missing-from-revenue-export.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/finance-ops/app-add-on-session-missing-from-revenue-export.json",
+  "stage": 0
+ },
+ "credit/slack/finance-ops/control-owner-photo-board-for-quarterly-close.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/finance-ops/control-owner-photo-board-for-quarterly-close.json",
+  "stage": 0
+ },
+ "credit/slack/finance-ops/counter-sale-lineage-clinic-for-contact-joins.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/finance-ops/counter-sale-lineage-clinic-for-contact-joins.json",
+  "stage": 0
+ },
+ "credit/slack/finance-ops/coupon-state-weather-vane-review.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/finance-ops/coupon-state-weather-vane-review.json",
+  "stage": 0
+ },
+ "credit/slack/finance-ops/mobile-wallet-event-taxonomy-roundtable.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/finance-ops/mobile-wallet-event-taxonomy-roundtable.json",
+  "stage": 0
+ },
+ "credit/slack/finance-ops/orientation-bus-tour-signup-for-new-hq-starters.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/finance-ops/orientation-bus-tour-signup-for-new-hq-starters.json",
+  "stage": 0
+ },
+ "credit/slack/finance-ops/quiet-room-control-handoff-rehearsal-with-airport-and-support.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/finance-ops/quiet-room-control-handoff-rehearsal-with-airport-and-support.json",
+  "stage": 0
+ },
+ "credit/slack/finance-ops/refund-case-cockpit-column-mapping-workshop.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/finance-ops/refund-case-cockpit-column-mapping-workshop.json",
+  "stage": 0
+ },
+ "credit/slack/finance-ops/refund-desk-case-postcards-for-finance-walkthrough.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/finance-ops/refund-desk-case-postcards-for-finance-walkthrough.json",
+  "stage": 0
+ },
+ "credit/slack/finance-ops/refund-lockbox-match-call-rehearsal.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/finance-ops/refund-lockbox-match-call-rehearsal.json",
+  "stage": 0
+ },
+ "credit/slack/finance-ops/the-borrowed-bicycle-origami-route-and-the-folding-map-challenge.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/finance-ops/the-borrowed-bicycle-origami-route-and-the-folding-map-challenge.json",
+  "stage": 0
+ },
+ "credit/slack/finance-ops/unmatched-settlement-echoes-in-self-service-payment-events.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/finance-ops/unmatched-settlement-echoes-in-self-service-payment-events.json",
+  "stage": 0
+ },
+ "credit/slack/finance-ops/wall-monitor-saved-view-mismatch.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/finance-ops/wall-monitor-saved-view-mismatch.json",
+  "stage": 0
+ },
+ "credit/slack/general/companywide-slide-template-owner.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/general/companywide-slide-template-owner.json",
+  "stage": 0
+ },
+ "credit/slack/general/montreal-market-weekend-and-the-best-bagel-argument.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/general/montreal-market-weekend-and-the-best-bagel-argument.json",
+  "stage": 0
+ },
+ "credit/slack/general/pocket-mentor-pairing-first-month-questions.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/general/pocket-mentor-pairing-first-month-questions.json",
+  "stage": 0
+ },
+ "credit/slack/general/rdu-pittsburgh-newsroom-launch-week.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/general/rdu-pittsburgh-newsroom-launch-week.json",
+  "stage": 0
+ },
+ "credit/slack/general/six-stop-public-art-audio-tour-orange-bench-photo.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/general/six-stop-public-art-audio-tour-orange-bench-photo.json",
+  "stage": 0
+ },
+ "credit/slack/irregular-ops/cun-rdu-connection-corridor-watch.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/irregular-ops/cun-rdu-connection-corridor-watch.json",
+  "stage": 0
+ },
+ "credit/slack/irregular-ops/misconnect-basket-ownership-for-the-sunday-network-reset.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/irregular-ops/misconnect-basket-ownership-for-the-sunday-network-reset.json",
+  "stage": 0
+ },
+ "credit/slack/irregular-ops/pre-dawn-weather-readiness-huddle.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/irregular-ops/pre-dawn-weather-readiness-huddle.json",
+  "stage": 0
+ },
+ "credit/slack/irregular-ops/rdu-concourse-coverage-evening-weather-bank.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/irregular-ops/rdu-concourse-coverage-evening-weather-bank.json",
+  "stage": 0
+ },
+ "credit/slack/irregular-ops/segment-aware-notification-release.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/irregular-ops/segment-aware-notification-release.json",
+  "stage": 0
+ },
+ "credit/slack/irregular-ops/weather-window-station-liaison-role-cards.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/irregular-ops/weather-window-station-liaison-role-cards.json",
+  "stage": 0
+ },
+ "credit/slack/loyalty-team/partner-desk-readback-language-pilot.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/loyalty-team/partner-desk-readback-language-pilot.json",
+  "stage": 0
+ },
+ "credit/slack/loyalty-team/partner-escalation-rota-spring-tier-rollout.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/loyalty-team/partner-escalation-rota-spring-tier-rollout.json",
+  "stage": 0
+ },
+ "credit/slack/loyalty-team/sunday-station-vocabulary-replay.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/loyalty-team/sunday-station-vocabulary-replay.json",
+  "stage": 0
+ },
+ "credit/slack/loyalty-team/tactile-status-card-welcome-table-observations.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/loyalty-team/tactile-status-card-welcome-table-observations.json",
+  "stage": 0
+ },
+ "credit/slack/policy-updates/training-roster-reconciliation-after-guidance-publish.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/policy-updates/training-roster-reconciliation-after-guidance-publish.json",
+  "stage": 0
+ },
+ "credit/slack/refunds-desk/finance-visitor-whiteboard-relay.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/refunds-desk/finance-visitor-whiteboard-relay.json",
+  "stage": 0
+ },
+ "credit/slack/refunds-desk/quiet-hours-callback-trail-unsettled-reversals.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/refunds-desk/quiet-hours-callback-trail-unsettled-reversals.json",
+  "stage": 0
+ },
+ "credit/slack/support-escalations/aircraft-change-coupon-visibility-escalation.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-escalations/aircraft-change-coupon-visibility-escalation.json",
+  "stage": 0
+ },
+ "credit/slack/support-escalations/charity-intake-profile-airport-recognition-review.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-escalations/charity-intake-profile-airport-recognition-review.json",
+  "stage": 0
+ },
+ "credit/slack/support-escalations/community-seed-library-cabinet-arrival-recovery.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-escalations/community-seed-library-cabinet-arrival-recovery.json",
+  "stage": 0
+ },
+ "credit/slack/support-escalations/contest-sponsor-itinerary-authorization-review.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-escalations/contest-sponsor-itinerary-authorization-review.json",
+  "stage": 0
+ },
+ "credit/slack/support-escalations/dashboard-lag-morning-triage-huddle.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-escalations/dashboard-lag-morning-triage-huddle.json",
+  "stage": 0
+ },
+ "credit/slack/support-escalations/duplicate-contact-thread-merging-during-flight-pull.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-escalations/duplicate-contact-thread-merging-during-flight-pull.json",
+  "stage": 0
+ },
+ "credit/slack/support-escalations/durham-bulls-night-shift-section-and-the-seven-inning-prediction-pool.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-escalations/durham-bulls-night-shift-section-and-the-seven-inning-prediction-pool.json",
+  "stage": 0
+ },
+ "credit/slack/support-escalations/foster-care-travel-record-needs-station-side-release-decision.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-escalations/foster-care-travel-record-needs-station-side-release-decision.json",
+  "stage": 0
+ },
+ "credit/slack/support-escalations/gate-recording-attachment-misfiled-case-review.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-escalations/gate-recording-attachment-misfiled-case-review.json",
+  "stage": 0
+ },
+ "credit/slack/support-escalations/newsletter-exposure-quiet-arrival-coordination.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-escalations/newsletter-exposure-quiet-arrival-coordination.json",
+  "stage": 0
+ },
+ "credit/slack/support-escalations/observatory-case-supervised-release-followup.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-escalations/observatory-case-supervised-release-followup.json",
+  "stage": 0
+ },
+ "credit/slack/support-escalations/open-coupon-after-hand-built-reroute-needs-one-owner.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-escalations/open-coupon-after-hand-built-reroute-needs-one-owner.json",
+  "stage": 0
+ },
+ "credit/slack/support-escalations/outbound-disruption-message-rehearsal.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-escalations/outbound-disruption-message-rehearsal.json",
+  "stage": 0
+ },
+ "credit/slack/support-escalations/overnight-trip-record-reconciliation.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-escalations/overnight-trip-record-reconciliation.json",
+  "stage": 0
+ },
+ "credit/slack/support-escalations/privacy-review-after-unintended-passenger-announcement.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-escalations/privacy-review-after-unintended-passenger-announcement.json",
+  "stage": 0
+ },
+ "credit/slack/support-escalations/refund-queue-lighthouse-rehearsal.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-escalations/refund-queue-lighthouse-rehearsal.json",
+  "stage": 0
+ },
+ "credit/slack/support-escalations/unclaimed-field-notebook-arrival-watch.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-escalations/unclaimed-field-notebook-arrival-watch.json",
+  "stage": 0
+ },
+ "credit/slack/support-escalations/university-travel-office-lost-domain-access-case.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-escalations/university-travel-office-lost-domain-access-case.json",
+  "stage": 0
+ },
+ "credit/slack/support-policy-questions/airport-announcement-language-preference-boundary.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-policy-questions/airport-announcement-language-preference-boundary.json",
+  "stage": 0
+ },
+ "credit/slack/support-policy-questions/annual-statement-tier-label-question-spring-rollout.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-policy-questions/annual-statement-tier-label-question-spring-rollout.json",
+  "stage": 0
+ },
+ "credit/slack/support-policy-questions/companion-interpreter-call-consent-handling.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-policy-questions/companion-interpreter-call-consent-handling.json",
+  "stage": 0
+ },
+ "credit/slack/support-policy-questions/connection-time-preview-before-schedule-lock.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-policy-questions/connection-time-preview-before-schedule-lock.json",
+  "stage": 0
+ },
+ "credit/slack/support-policy-questions/handwritten-airport-note-after-phone-rebooking.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-policy-questions/handwritten-airport-note-after-phone-rebooking.json",
+  "stage": 0
+ },
+ "credit/slack/support-policy-questions/lost-and-found-chat-ownership-branch.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-policy-questions/lost-and-found-chat-ownership-branch.json",
+  "stage": 0
+ },
+ "credit/slack/support-policy-questions/mismatched-pages-in-customer-confirmation-pdf.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-policy-questions/mismatched-pages-in-customer-confirmation-pdf.json",
+  "stage": 0
+ },
+ "credit/slack/support-policy-questions/prebooking-chat-to-new-reservation-linking.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-policy-questions/prebooking-chat-to-new-reservation-linking.json",
+  "stage": 0
+ },
+ "credit/slack/support-policy-questions/public-boarding-announcement-name-preference.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-policy-questions/public-boarding-announcement-name-preference.json",
+  "stage": 0
+ },
+ "credit/slack/support-policy-questions/repeated-flight-number-segment-selection-check.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-policy-questions/repeated-flight-number-segment-selection-check.json",
+  "stage": 0
+ },
+ "credit/slack/support-policy-questions/separate-booking-trails-shared-customer-inbox.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-policy-questions/separate-booking-trails-shared-customer-inbox.json",
+  "stage": 0
+ },
+ "credit/slack/support-policy-questions/terminal-concourse-label-mismatch-case.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-policy-questions/terminal-concourse-label-mismatch-case.json",
+  "stage": 0
+ },
+ "credit/slack/support-policy-questions/thursday-refund-listening-booth-case-language.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-policy-questions/thursday-refund-listening-booth-case-language.json",
+  "stage": 0
+ },
+ "credit/slack/support-policy-questions/tier-label-language-listening-huddle.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-policy-questions/tier-label-language-listening-huddle.json",
+  "stage": 0
+ },
+ "credit/slack/support-policy-questions/travel-insurance-purchaser-traveler-name-separation.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-policy-questions/travel-insurance-purchaser-traveler-name-separation.json",
+  "stage": 0
+ },
+ "credit/slack/support-policy-questions/trip-only-seating-preference-separation.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-policy-questions/trip-only-seating-preference-separation.json",
+  "stage": 0
+ },
+ "credit/slack/support-team/blue-mug-unclaimed-email-pass.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/blue-mug-unclaimed-email-pass.json",
+  "stage": 0
+ },
+ "credit/slack/support-team/bus-stop-poetry-placard-commute-club.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/bus-stop-poetry-placard-commute-club.json",
+  "stage": 0
+ },
+ "credit/slack/support-team/callback-transcription-drill-and-quiet-inbox-coverage.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/callback-transcription-drill-and-quiet-inbox-coverage.json",
+  "stage": 0
+ },
+ "credit/slack/support-team/chat-lane-pairing-drill-before-evening-handoff.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/chat-lane-pairing-drill-before-evening-handoff.json",
+  "stage": 0
+ },
+ "credit/slack/support-team/east-hall-flex-counter-midday-recovery.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/east-hall-flex-counter-midday-recovery.json",
+  "stage": 0
+ },
+ "credit/slack/support-team/four-point-queue-listening-post-saturday-desk.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/four-point-queue-listening-post-saturday-desk.json",
+  "stage": 0
+ },
+ "credit/slack/support-team/handoff-freeze-and-backlog-shelving-for-the-lunch-rush.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/handoff-freeze-and-backlog-shelving-for-the-lunch-rush.json",
+  "stage": 0
+ },
+ "credit/slack/support-team/handoff-map-walk-with-anika-after-the-bilingual-queue-rotation.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/handoff-map-walk-with-anika-after-the-bilingual-queue-rotation.json",
+  "stage": 0
+ },
+ "credit/slack/support-team/incoming-chat-alerts-silent-in-focus-mode.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/incoming-chat-alerts-silent-in-focus-mode.json",
+  "stage": 0
+ },
+ "credit/slack/support-team/intraday-arrival-curve-classroom-release-check.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/intraday-arrival-curve-classroom-release-check.json",
+  "stage": 0
+ },
+ "credit/slack/support-team/linked-record-family-call-back-lane.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/linked-record-family-call-back-lane.json",
+  "stage": 0
+ },
+ "credit/slack/support-team/lunch-lane-puzzle-piece-reassignment.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/lunch-lane-puzzle-piece-reassignment.json",
+  "stage": 0
+ },
+ "credit/slack/support-team/qa-reviewer-lottery-for-monday-phone-cohort.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/qa-reviewer-lottery-for-monday-phone-cohort.json",
+  "stage": 0
+ },
+ "credit/slack/support-team/shadowing-lab-seat-release-check.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/shadowing-lab-seat-release-check.json",
+  "stage": 0
+ },
+ "credit/slack/support-team/side-by-side-signal-detection-practice.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/side-by-side-signal-detection-practice.json",
+  "stage": 0
+ },
+ "credit/slack/support-team/signal-tags-for-the-last-ten-minutes-of-a-shift.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/signal-tags-for-the-last-ten-minutes-of-a-shift.json",
+  "stage": 0
+ },
+ "credit/slack/support-team/the-empty-chair-coverage-lab.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/the-empty-chair-coverage-lab.json",
+  "stage": 0
+ },
+ "credit/slack/support-team/three-desk-relay-for-misfiled-follow-ups.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/three-desk-relay-for-misfiled-follow-ups.json",
+  "stage": 0
+ },
+ "credit/slack/support-team/thursday-service-window-coverage-notebook.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/thursday-service-window-coverage-notebook.json",
+  "stage": 0
+ },
+ "credit/slack/support-team/thursday-split-channel-radio-check.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/thursday-split-channel-radio-check.json",
+  "stage": 0
+ },
+ "credit/slack/support-team/thursday-status-lantern-break-relay.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/thursday-status-lantern-break-relay.json",
+  "stage": 0
+ },
+ "credit/slack/support-team/wednesday-triage-lab-three-queue-case.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/wednesday-triage-lab-three-queue-case.json",
+  "stage": 0
+ },
+ "credit/slack/support-team/weekend-campaign-comment-triage.json": {
+  "job": "credit",
+  "note": "credit: travel credit",
+  "rel": "slack/support-team/weekend-campaign-comment-triage.json",
+  "stage": 0
+ },
+ "longer/0/slack/airport-ops/cracked-suitcase-at-bna-arrivals.json": {
+  "job": "longer",
+  "note": "11 -> 9 messages, median 259 characters",
+  "rel": "slack/airport-ops/cracked-suitcase-at-bna-arrivals.json",
+  "stage": 0
+ },
+ "longer/0/slack/baggage-desk/customer-asking-about-a-damaged-checked-bag.json": {
+  "job": "longer",
+  "note": "10 -> 10 messages, median 324 characters",
+  "rel": "slack/baggage-desk/customer-asking-about-a-damaged-checked-bag.json",
+  "stage": 0
+ },
+ "longer/0/slack/baggage-desk/damaged-bag-photo-review-notes.json": {
+  "job": "longer",
+  "note": "13 -> 8 messages, median 273 characters",
+  "rel": "slack/baggage-desk/damaged-bag-photo-review-notes.json",
+  "stage": 0
+ },
+ "longer/0/slack/baggage-desk/damaged-bag-photo-review.json": {
+  "job": "longer",
+  "note": "12 -> 10 messages, median 247 characters",
+  "rel": "slack/baggage-desk/damaged-bag-photo-review.json",
+  "stage": 0
+ },
+ "longer/0/slack/baggage-desk/late-baggage-claim-handling.json": {
+  "job": "longer",
+  "note": "12 -> 10 messages, median 310 characters",
+  "rel": "slack/baggage-desk/late-baggage-claim-handling.json",
+  "stage": 0
+ },
+ "longer/0/slack/baggage-desk/question-on-damaged-bag-report.json": {
+  "job": "longer",
+  "note": "13 -> 9 messages, median 267 characters",
+  "rel": "slack/baggage-desk/question-on-damaged-bag-report.json",
+  "stage": 0
+ },
+ "longer/0/slack/baggage-desk/timing-question-on-delayed-bag-costs.json": {
+  "job": "longer",
+  "note": "14 -> 13 messages, median 241 characters",
+  "rel": "slack/baggage-desk/timing-question-on-delayed-bag-costs.json",
+  "stage": 0
+ },
+ "longer/0/slack/irregular-ops/cause-labels-for-today-s-disruption-notes.json": {
+  "job": "longer",
+  "note": "17 -> 11 messages, median 283 characters",
+  "rel": "slack/irregular-ops/cause-labels-for-today-s-disruption-notes.json",
+  "stage": 0
+ },
+ "longer/0/slack/irregular-ops/cause-wording-for-disruption-notes.json": {
+  "job": "longer",
+  "note": "18 -> 11 messages, median 251 characters",
+  "rel": "slack/irregular-ops/cause-wording-for-disruption-notes.json",
+  "stage": 0
+ },
+ "longer/0/slack/irregular-ops/clarifying-controllable-disruption-language-notes.json": {
+  "job": "longer",
+  "note": "15 -> 11 messages, median 271 characters",
+  "rel": "slack/irregular-ops/clarifying-controllable-disruption-language-notes.json",
+  "stage": 0
+ },
+ "longer/0/slack/irregular-ops/clarifying-controllable-disruption-language.json": {
+  "job": "longer",
+  "note": "15 -> 12 messages, median 296 characters",
+  "rel": "slack/irregular-ops/clarifying-controllable-disruption-language.json",
+  "stage": 0
+ },
+ "longer/0/slack/irregular-ops/compensation-question-for-disrupted-connection.json": {
+  "job": "longer",
+  "note": "17 -> 12 messages, median 283 characters",
+  "rel": "slack/irregular-ops/compensation-question-for-disrupted-connection.json",
+  "stage": 0
+ },
+ "longer/0/slack/irregular-ops/customer-asking-for-cash-after-disruption.json": {
+  "job": "longer",
+  "note": "14 -> 12 messages, median 264 characters",
+  "rel": "slack/irregular-ops/customer-asking-for-cash-after-disruption.json",
+  "stage": 0
+ },
+ "longer/0/slack/irregular-ops/customer-question-on-short-notice-disruption-compensation.json": {
+  "job": "longer",
+  "note": "14 -> 12 messages, median 339 characters",
+  "rel": "slack/irregular-ops/customer-question-on-short-notice-disruption-compensation.json",
+  "stage": 0
+ },
+ "longer/0/slack/irregular-ops/hotel-question-for-delayed-rdu-connection.json": {
+  "job": "longer",
+  "note": "19 -> 12 messages, median 277 characters",
+  "rel": "slack/irregular-ops/hotel-question-for-delayed-rdu-connection.json",
+  "stage": 0
+ },
+ "longer/0/slack/irregular-ops/hotel-question-for-diverted-passengers.json": {
+  "job": "longer",
+  "note": "22 -> 11 messages, median 285 characters",
+  "rel": "slack/irregular-ops/hotel-question-for-diverted-passengers.json",
+  "stage": 0
+ },
+ "longer/0/slack/irregular-ops/meal-support-question-during-extended-delay.json": {
+  "job": "longer",
+  "note": "15 -> 11 messages, median 298 characters",
+  "rel": "slack/irregular-ops/meal-support-question-during-extended-delay.json",
+  "stage": 0
+ },
+ "longer/0/slack/loyalty-team/question-on-status-benefit-wording-for-a-basic.json": {
+  "job": "longer",
+  "note": "11 -> 9 messages, median 425 characters",
+  "rel": "slack/loyalty-team/question-on-status-benefit-wording-for-a-basic.json",
+  "stage": 0
+ },
+ "longer/0/slack/loyalty-team/silver-change-fee-question.json": {
+  "job": "longer",
+  "note": "13 -> 10 messages, median 265 characters",
+  "rel": "slack/loyalty-team/silver-change-fee-question.json",
+  "stage": 0
+ },
+ "longer/0/slack/refunds-desk/booking-contact-check-before-refund-review.json": {
+  "job": "longer",
+  "note": "15 -> 13 messages, median 303 characters",
+  "rel": "slack/refunds-desk/booking-contact-check-before-refund-review.json",
+  "stage": 0
+ },
+ "longer/0/slack/refunds-desk/booking-contact-check-before-refund.json": {
+  "job": "longer",
+  "note": "15 -> 11 messages, median 262 characters",
+  "rel": "slack/refunds-desk/booking-contact-check-before-refund.json",
+  "stage": 0
+ },
+ "longer/0/slack/refunds-desk/card-refund-question-after-canceled-trip.json": {
+  "job": "longer",
+  "note": "15 -> 13 messages, median 316 characters",
+  "rel": "slack/refunds-desk/card-refund-question-after-canceled-trip.json",
+  "stage": 0
+ },
+ "longer/0/slack/refunds-desk/checking-prior-action-on-a-refund-case.json": {
+  "job": "longer",
+  "note": "14 -> 12 messages, median 237 characters",
+  "rel": "slack/refunds-desk/checking-prior-action-on-a-refund-case.json",
+  "stage": 0
+ },
+ "longer/0/slack/refunds-desk/credit-bonus-question.json": {
+  "job": "longer",
+  "note": "15 -> 9 messages, median 232 characters",
+  "rel": "slack/refunds-desk/credit-bonus-question.json",
+  "stage": 0
+ },
+ "longer/0/slack/refunds-desk/customer-asked-about-credit-instead-of-refund.json": {
+  "job": "longer",
+  "note": "15 -> 10 messages, median 360 characters",
+  "rel": "slack/refunds-desk/customer-asked-about-credit-instead-of-refund.json",
+  "stage": 0
+ },
+ "longer/0/slack/refunds-desk/customer-initiated-cancellation-question.json": {
+  "job": "longer",
+  "note": "15 -> 10 messages, median 270 characters",
+  "rel": "slack/refunds-desk/customer-initiated-cancellation-question.json",
+  "stage": 0
+ },
+ "longer/0/slack/refunds-desk/customer-self-cancellation-refund-review.json": {
+  "job": "longer",
+  "note": "15 -> 10 messages, median 253 characters",
+  "rel": "slack/refunds-desk/customer-self-cancellation-refund-review.json",
+  "stage": 0
+ },
+ "longer/0/slack/refunds-desk/declined-rebooking-refunds.json": {
+  "job": "longer",
+  "note": "13 -> 10 messages, median 411 characters",
+  "rel": "slack/refunds-desk/declined-rebooking-refunds.json",
+  "stage": 0
+ },
+ "longer/0/slack/refunds-desk/pet-fee-on-airline-cancelled-booking.json": {
+  "job": "longer",
+  "note": "15 -> 10 messages, median 236 characters",
+  "rel": "slack/refunds-desk/pet-fee-on-airline-cancelled-booking.json",
+  "stage": 0
+ },
+ "longer/0/slack/refunds-desk/pet-fee-on-cancelled-flight.json": {
+  "job": "longer",
+  "note": "15 -> 12 messages, median 264 characters",
+  "rel": "slack/refunds-desk/pet-fee-on-cancelled-flight.json",
+  "stage": 0
+ },
+ "longer/0/slack/refunds-desk/pet-fee-on-cancelled-itinerary.json": {
+  "job": "longer",
+  "note": "15 -> 10 messages, median 232 characters",
+  "rel": "slack/refunds-desk/pet-fee-on-cancelled-itinerary.json",
+  "stage": 0
+ },
+ "longer/0/slack/refunds-desk/pet-fee-on-cancelled-leg.json": {
+  "job": "longer",
+  "note": "12 -> 12 messages, median 233 characters",
+  "rel": "slack/refunds-desk/pet-fee-on-cancelled-leg.json",
+  "stage": 0
+ },
+ "longer/0/slack/refunds-desk/receipt-missing-from-hotel-reimbursement-case.json": {
+  "job": "longer",
+  "note": "15 -> 13 messages, median 320 characters",
+  "rel": "slack/refunds-desk/receipt-missing-from-hotel-reimbursement-case.json",
+  "stage": 0
+ },
+ "longer/0/slack/refunds-desk/receipt-needed-before-reimbursement.json": {
+  "job": "longer",
+  "note": "15 -> 11 messages, median 266 characters",
+  "rel": "slack/refunds-desk/receipt-needed-before-reimbursement.json",
+  "stage": 0
+ },
+ "longer/0/slack/refunds-desk/refund-destination-question-from-chat.json": {
+  "job": "longer",
+  "note": "15 -> 14 messages, median 293 characters",
+  "rel": "slack/refunds-desk/refund-destination-question-from-chat.json",
+  "stage": 0
+ },
+ "longer/0/slack/refunds-desk/travel-agency-booking-refund-handling.json": {
+  "job": "longer",
+  "note": "12 -> 11 messages, median 349 characters",
+  "rel": "slack/refunds-desk/travel-agency-booking-refund-handling.json",
+  "stage": 0
+ },
+ "longer/0/slack/refunds-desk/travel-agency-cancellation-question.json": {
+  "job": "longer",
+  "note": "15 -> 11 messages, median 247 characters",
+  "rel": "slack/refunds-desk/travel-agency-cancellation-question.json",
+  "stage": 0
+ },
+ "longer/0/slack/refunds-desk/travel-agency-refund-request-in-the-queue.json": {
+  "job": "longer",
+  "note": "15 -> 11 messages, median 249 characters",
+  "rel": "slack/refunds-desk/travel-agency-refund-request-in-the-queue.json",
+  "stage": 0
+ },
+ "longer/0/slack/support-escalations/asks-for-a-human.json": {
+  "job": "longer",
+  "note": "13 -> 10 messages, median 375 characters",
+  "rel": "slack/support-escalations/asks-for-a-human.json",
+  "stage": 0
+ },
+ "longer/0/slack/support-escalations/hotel-approval-check-during-disruption.json": {
+  "job": "longer",
+  "note": "14 -> 12 messages, median 333 characters",
+  "rel": "slack/support-escalations/hotel-approval-check-during-disruption.json",
+  "stage": 0
+ },
+ "longer/0/slack/support-escalations/hotel-approval-question-during-overnight-disruption.json": {
+  "job": "longer",
+  "note": "14 -> 7 messages, median 339 characters",
+  "rel": "slack/support-escalations/hotel-approval-question-during-overnight-disruption.json",
+  "stage": 0
+ },
+ "longer/0/slack/support-escalations/hotel-authorization-for-delayed-rdu-travelers.json": {
+  "job": "longer",
+  "note": "12 -> 10 messages, median 315 characters",
+  "rel": "slack/support-escalations/hotel-authorization-for-delayed-rdu-travelers.json",
+  "stage": 0
+ },
+ "longer/0/slack/support-escalations/instructions-included-in-booking-notes-notes.json": {
+  "job": "longer",
+  "note": "14 -> 10 messages, median 282 characters",
+  "rel": "slack/support-escalations/instructions-included-in-booking-notes-notes.json",
+  "stage": 0
+ },
+ "longer/0/slack/support-escalations/message-text-copied-into-booking-notes.json": {
+  "job": "longer",
+  "note": "13 -> 9 messages, median 342 characters",
+  "rel": "slack/support-escalations/message-text-copied-into-booking-notes.json",
+  "stage": 0
+ },
+ "longer/0/slack/support-escalations/seat-selection-issue-after-aircraft-swap.json": {
+  "job": "longer",
+  "note": "12 -> 10 messages, median 386 characters",
+  "rel": "slack/support-escalations/seat-selection-issue-after-aircraft-swap.json",
+  "stage": 0
+ },
+ "longer/0/slack/support-policy-questions/agency-booking-disruption-expenses.json": {
+  "job": "longer",
+  "note": "13 -> 12 messages, median 242 characters",
+  "rel": "slack/support-policy-questions/agency-booking-disruption-expenses.json",
+  "stage": 0
+ },
+ "longer/0/slack/support-policy-questions/baggage-claim-intake-question-notes.json": {
+  "job": "longer",
+  "note": "9 -> 9 messages, median 329 characters",
+  "rel": "slack/support-policy-questions/baggage-claim-intake-question-notes.json",
+  "stage": 0
+ },
+ "longer/0/slack/support-policy-questions/compensation-question-for-disrupted-itinerary.json": {
+  "job": "longer",
+  "note": "10 -> 8 messages, median 265 characters",
+  "rel": "slack/support-policy-questions/compensation-question-for-disrupted-itinerary.json",
+  "stage": 0
+ },
+ "longer/0/slack/support-policy-questions/customer-asking-to-move-a-basic-booking.json": {
+  "job": "longer",
+  "note": "10 -> 9 messages, median 344 characters",
+  "rel": "slack/support-policy-questions/customer-asking-to-move-a-basic-booking.json",
+  "stage": 0
+ },
+ "longer/0/slack/support-policy-questions/refund-question-after-replacement-flight-notes.json": {
+  "job": "longer",
+  "note": "10 -> 6 messages, median 268 characters",
+  "rel": "slack/support-policy-questions/refund-question-after-replacement-flight-notes.json",
+  "stage": 0
+ },
+ "longer/0/slack/support-policy-questions/ticket-category-for-completed-disruption-journeys.json": {
+  "job": "longer",
+  "note": "12 -> 9 messages, median 251 characters",
+  "rel": "slack/support-policy-questions/ticket-category-for-completed-disruption-journeys.json",
+  "stage": 0
+ },
+ "longer/0/slack/support-team/booking-note-with-customer-instructions.json": {
+  "job": "longer",
+  "note": "14 -> 11 messages, median 255 characters",
+  "rel": "slack/support-team/booking-note-with-customer-instructions.json",
+  "stage": 0
+ },
+ "longer/0/slack/support-team/checking-a-claim-before-replying.json": {
+  "job": "longer",
+  "note": "15 -> 12 messages, median 222 characters",
+  "rel": "slack/support-team/checking-a-claim-before-replying.json",
+  "stage": 0
+ },
+ "longer/0/slack/support-team/customer-asked-about-travel-credit-instead-of-refund.json": {
+  "job": "longer",
+  "note": "14 -> 9 messages, median 249 characters",
+  "rel": "slack/support-team/customer-asked-about-travel-credit-instead-of-refund.json",
+  "stage": 0
+ },
+ "longer/0/slack/support-team/delay-credit-note.json": {
+  "job": "longer",
+  "note": "14 -> 10 messages, median 261 characters",
+  "rel": "slack/support-team/delay-credit-note.json",
+  "stage": 0
+ },
+ "longer/0/slack/support-team/delayed-bag-expense-documentation-question.json": {
+  "job": "longer",
+  "note": "18 -> 12 messages, median 226 characters",
+  "rel": "slack/support-team/delayed-bag-expense-documentation-question.json",
+  "stage": 0
+ },
+ "longer/0/slack/support-team/pet-fee-on-cancelled-flight.json": {
+  "job": "longer",
+  "note": "15 -> 11 messages, median 261 characters",
+  "rel": "slack/support-team/pet-fee-on-cancelled-flight.json",
+  "stage": 0
+ },
+ "longer/0/slack/support-team/question-about-instructions-in-booking-notes.json": {
+  "job": "longer",
+  "note": "14 -> 10 messages, median 277 characters",
+  "rel": "slack/support-team/question-about-instructions-in-booking-notes.json",
+  "stage": 0
+ },
+ "longer/0/slack/support-team/quick-check-on-controllable-disruption-wording.json": {
+  "job": "longer",
+  "note": "14 -> 13 messages, median 252 characters",
+  "rel": "slack/support-team/quick-check-on-controllable-disruption-wording.json",
+  "stage": 0
+ },
+ "longer/0/slack/support-team/receipt-review-for-disrupted-trip-claim.json": {
+  "job": "longer",
+  "note": "16 -> 11 messages, median 306 characters",
+  "rel": "slack/support-team/receipt-review-for-disrupted-trip-claim.json",
+  "stage": 0
+ },
+ "longer/0/slack/support-team/receipts-attached-to-reimbursement-case.json": {
+  "job": "longer",
+  "note": "12 -> 10 messages, median 239 characters",
+  "rel": "slack/support-team/receipts-attached-to-reimbursement-case.json",
+  "stage": 0
+ },
+ "longer/0/slack/support-team/receipts-check-for-reimbursement-case.json": {
+  "job": "longer",
+  "note": "13 -> 9 messages, median 309 characters",
+  "rel": "slack/support-team/receipts-check-for-reimbursement-case.json",
+  "stage": 0
+ },
+ "longer/0/slack/support-team/ticket-category-for-a-mixed-customer-case.json": {
+  "job": "longer",
+  "note": "13 -> 10 messages, median 229 characters",
+  "rel": "slack/support-team/ticket-category-for-a-mixed-customer-case.json",
+  "stage": 0
+ },
+ "longer/0/slack/support-team/travel-credit-request-in-cancellation-chat.json": {
+  "job": "longer",
+  "note": "14 -> 12 messages, median 219 characters",
+  "rel": "slack/support-team/travel-credit-request-in-cancellation-chat.json",
+  "stage": 0
+ },
+ "longer/0/slack/support-team/when-a-customer-asks-for-a-manager.json": {
+  "job": "longer",
+  "note": "15 -> 12 messages, median 219 characters",
+  "rel": "slack/support-team/when-a-customer-asks-for-a-manager.json",
+  "stage": 0
+ },
+ "longer/0/slack/support-team/when-to-hand-off-a-chat.json": {
+  "job": "longer",
+  "note": "12 -> 10 messages, median 242 characters",
+  "rel": "slack/support-team/when-to-hand-off-a-chat.json",
+  "stage": 0
+ },
+ "longer/1/slack/policy-updates/delayed-bag-rate-july.json": {
+  "job": "longer",
+  "note": "15 -> 10 messages, median 250 characters",
+  "rel": "slack/policy-updates/delayed-bag-rate-july.json",
+  "stage": 1
+ },
+ "longer/1/slack/policy-updates/hotel-handling-update-for-july.json": {
+  "job": "longer",
+  "note": "18 -> 13 messages, median 226 characters",
+  "rel": "slack/policy-updates/hotel-handling-update-for-july.json",
+  "stage": 1
+ },
+ "longer/1/slack/refunds-desk/booked-airport-assistance-not-provided.json": {
+  "job": "longer",
+  "note": "15 -> 11 messages, median 323 characters",
+  "rel": "slack/refunds-desk/booked-airport-assistance-not-provided.json",
+  "stage": 1
+ },
+ "longer/1/slack/refunds-desk/receipt-images-on-delayed-bag-case.json": {
+  "job": "longer",
+  "note": "15 -> 14 messages, median 297 characters",
+  "rel": "slack/refunds-desk/receipt-images-on-delayed-bag-case.json",
+  "stage": 1
+ },
+ "longer/1/slack/refunds-desk/receipts-label-rename-for-reimbursement-requests.json": {
+  "job": "longer",
+  "note": "15 -> 11 messages, median 239 characters",
+  "rel": "slack/refunds-desk/receipts-label-rename-for-reimbursement-requests.json",
+  "stage": 1
+ },
+ "longer/1/slack/refunds-desk/schedule-change-refunds.json": {
+  "job": "longer",
+  "note": "10 -> 10 messages, median 365 characters",
+  "rel": "slack/refunds-desk/schedule-change-refunds.json",
+  "stage": 1
+ },
+ "longer/1/slack/support-policy-questions/question-on-hotel-room-cost-approval.json": {
+  "job": "longer",
+  "note": "11 -> 9 messages, median 315 characters",
+  "rel": "slack/support-policy-questions/question-on-hotel-room-cost-approval.json",
+  "stage": 1
+ },
+ "longer/1/slack/support-team/customer-asking-about-travel-credit.json": {
+  "job": "longer",
+  "note": "17 -> 12 messages, median 221 characters",
+  "rel": "slack/support-team/customer-asking-about-travel-credit.json",
+  "stage": 1
+ },
+ "longer/1/slack/support-team/quick-question-on-hotel-approval.json": {
+  "job": "longer",
+  "note": "14 -> 10 messages, median 244 characters",
+  "rel": "slack/support-team/quick-question-on-hotel-approval.json",
+  "stage": 1
+ },
+ "longer/1/slack/support-team/receipt-amount-field-question.json": {
+  "job": "longer",
+  "note": "13 -> 13 messages, median 270 characters",
+  "rel": "slack/support-team/receipt-amount-field-question.json",
+  "stage": 1
+ },
+ "longer/1/slack/support-team/schedule-change-wording-for-today-s-contacts.json": {
+  "job": "longer",
+  "note": "12 -> 7 messages, median 298 characters",
+  "rel": "slack/support-team/schedule-change-wording-for-today-s-contacts.json",
+  "stage": 1
+ },
+ "longer/2/slack/irregular-ops/ground-transport-receipt-question.json": {
+  "job": "longer",
+  "note": "17 -> 12 messages, median 291 characters",
+  "rel": "slack/irregular-ops/ground-transport-receipt-question.json",
+  "stage": 2
+ },
+ "longer/2/slack/policy-updates/compensation-correction.json": {
+  "job": "longer",
+  "note": "16 -> 12 messages, median 258 characters",
+  "rel": "slack/policy-updates/compensation-correction.json",
+  "stage": 2
+ },
+ "longer/2/slack/policy-updates/pet-fee-own-cancellations.json": {
+  "job": "longer",
+  "note": "13 -> 10 messages, median 287 characters",
+  "rel": "slack/policy-updates/pet-fee-own-cancellations.json",
+  "stage": 2
+ },
+ "longer/2/slack/refunds-desk/disruption-case-wording-check.json": {
+  "job": "longer",
+  "note": "15 -> 11 messages, median 279 characters",
+  "rel": "slack/refunds-desk/disruption-case-wording-check.json",
+  "stage": 2
+ },
+ "longer/2/slack/refunds-desk/hotel-request-handling-date-question.json": {
+  "job": "longer",
+  "note": "15 -> 12 messages, median 337 characters",
+  "rel": "slack/refunds-desk/hotel-request-handling-date-question.json",
+  "stage": 2
+ },
+ "longer/2/slack/refunds-desk/missed-connection-handling-question.json": {
+  "job": "longer",
+  "note": "15 -> 10 messages, median 240 characters",
+  "rel": "slack/refunds-desk/missed-connection-handling-question.json",
+  "stage": 2
+ },
+ "longer/2/slack/support-policy-questions/ground-transport-wording-for-disruption-cases.json": {
+  "job": "longer",
+  "note": "9 -> 8 messages, median 345 characters",
+  "rel": "slack/support-policy-questions/ground-transport-wording-for-disruption-cases.json",
+  "stage": 2
+ },
+ "longer/2/slack/support-policy-questions/passenger-count-wording-for-disruption-case.json": {
+  "job": "longer",
+  "note": "12 -> 9 messages, median 346 characters",
+  "rel": "slack/support-policy-questions/passenger-count-wording-for-disruption-case.json",
+  "stage": 2
+ },
+ "longer/2/slack/support-team/hotel-approval-question-during-disruption.json": {
+  "job": "longer",
+  "note": "13 -> 10 messages, median 347 characters",
+  "rel": "slack/support-team/hotel-approval-question-during-disruption.json",
+  "stage": 2
+ },
+ "longer/3/slack/loyalty-team/september-tiers.json": {
+  "job": "longer",
+  "note": "13 -> 10 messages, median 318 characters",
+  "rel": "slack/loyalty-team/september-tiers.json",
+  "stage": 3
+ },
+ "longer/3/slack/refunds-desk/child-seat-fee-question.json": {
+  "job": "longer",
+  "note": "9 -> 8 messages, median 203 characters",
+  "rel": "slack/refunds-desk/child-seat-fee-question.json",
+  "stage": 3
+ },
+ "longer/3/slack/refunds-desk/family-seating-booking-check.json": {
+  "job": "longer",
+  "note": "15 -> 13 messages, median 222 characters",
+  "rel": "slack/refunds-desk/family-seating-booking-check.json",
+  "stage": 3
+ },
+ "longer/3/slack/refunds-desk/payment-retry-notes-question.json": {
+  "job": "longer",
+  "note": "15 -> 12 messages, median 232 characters",
+  "rel": "slack/refunds-desk/payment-retry-notes-question.json",
+  "stage": 3
+ },
+ "longer/3/slack/support-policy-questions/family-seating-case-wording.json": {
+  "job": "longer",
+  "note": "10 -> 8 messages, median 297 characters",
+  "rel": "slack/support-policy-questions/family-seating-case-wording.json",
+  "stage": 3
+ },
+ "longer/3/slack/support-policy-questions/payment-retry-after-processing-error.json": {
+  "job": "longer",
+  "note": "13 -> 11 messages, median 263 characters",
+  "rel": "slack/support-policy-questions/payment-retry-after-processing-error.json",
+  "stage": 3
+ },
+ "longer/3/slack/support-team/duplicate-refund-incident.json": {
+  "job": "longer",
+  "note": "10 -> 10 messages, median 304 characters",
+  "rel": "slack/support-team/duplicate-refund-incident.json",
+  "stage": 3
+ },
+ "longer/3/slack/support-team/family-seating-wording-for-chats.json": {
+  "job": "longer",
+  "note": "14 -> 9 messages, median 260 characters",
+  "rel": "slack/support-team/family-seating-wording-for-chats.json",
+  "stage": 3
+ },
+ "longer/3/slack/support-team/payment-retry-after-processing-timeout.json": {
+  "job": "longer",
+  "note": "15 -> 11 messages, median 249 characters",
+  "rel": "slack/support-team/payment-retry-after-processing-timeout.json",
+  "stage": 3
+ },
+ "longer/3/slack/support-team/question-on-delayed-bag-follow-up.json": {
+  "job": "longer",
+  "note": "14 -> 10 messages, median 232 characters",
+  "rel": "slack/support-team/question-on-delayed-bag-follow-up.json",
+  "stage": 3
+ },
+ "longer/4/slack/refunds-desk/cancelled-trip-and-unaccompanied-minor-fee.json": {
+  "job": "longer",
+  "note": "15 -> 13 messages, median 299 characters",
+  "rel": "slack/refunds-desk/cancelled-trip-and-unaccompanied-minor-fee.json",
+  "stage": 4
+ },
+ "longer/4/slack/refunds-desk/um-fee-refund-handling-question.json": {
+  "job": "longer",
+  "note": "9 -> 9 messages, median 274 characters",
+  "rel": "slack/refunds-desk/um-fee-refund-handling-question.json",
+  "stage": 4
+ },
+ "longer/5/slack/policy-updates/refund-handling-language-for-cancellations-and-long-delays.json": {
+  "job": "longer",
+  "note": "15 -> 10 messages, median 266 characters",
+  "rel": "slack/policy-updates/refund-handling-language-for-cancellations-and-long-delays.json",
+  "stage": 5
+ },
+ "longer/5/slack/support-policy-questions/arrival-delay-compensation-question.json": {
+  "job": "longer",
+  "note": "14 -> 10 messages, median 303 characters",
+  "rel": "slack/support-policy-questions/arrival-delay-compensation-question.json",
+  "stage": 5
+ },
+ "longer/5/slack/support-policy-questions/question-on-unused-fare-handling-after-disruption.json": {
+  "job": "longer",
+  "note": "11 -> 10 messages, median 293 characters",
+  "rel": "slack/support-policy-questions/question-on-unused-fare-handling-after-disruption.json",
+  "stage": 5
+ },
+ "longer/5/slack/support-team/confirmation-number-in-support-responses.json": {
+  "job": "longer",
+  "note": "15 -> 13 messages, median 265 characters",
+  "rel": "slack/support-team/confirmation-number-in-support-responses.json",
+  "stage": 5
+ },
+ "longer/5/slack/support-team/question-on-refund-case-after-departure-delay.json": {
+  "job": "longer",
+  "note": "15 -> 11 messages, median 236 characters",
+  "rel": "slack/support-team/question-on-refund-case-after-departure-delay.json",
+  "stage": 5
+ },
+ "speakers/slack/refunds-desk/ageing-dashboard-colour-key-notes.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 6 messages",
+  "rel": "slack/refunds-desk/ageing-dashboard-colour-key-notes.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/audit-notes-in-closed-cases-notes.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 15 messages",
+  "rel": "slack/refunds-desk/audit-notes-in-closed-cases-notes.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/call-back-board-for-phone-requested-contacts.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 9 messages",
+  "rel": "slack/refunds-desk/call-back-board-for-phone-requested-contacts.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/call-back-schedule-for-phone-request-cases-notes.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 24 messages",
+  "rel": "slack/refunds-desk/call-back-schedule-for-phone-request-cases-notes.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/callback-board-for-phone-preference-cases.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 21 messages",
+  "rel": "slack/refunds-desk/callback-board-for-phone-preference-cases.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/card-team-paperwork-and-case-history.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 6 messages",
+  "rel": "slack/refunds-desk/card-team-paperwork-and-case-history.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/case-tags-drift-and-cleanup.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 6 messages",
+  "rel": "slack/refunds-desk/case-tags-drift-and-cleanup.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/case-tool-shadow-questions.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 11 messages",
+  "rel": "slack/refunds-desk/case-tool-shadow-questions.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/cb-case-history-split.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 16 messages",
+  "rel": "slack/refunds-desk/cb-case-history-split.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/chargeback-case-history-packet.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 16 messages",
+  "rel": "slack/refunds-desk/chargeback-case-history-packet.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/combined-group-status-request.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 20 messages",
+  "rel": "slack/refunds-desk/combined-group-status-request.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/different-email-identity-check-on-case-rfd.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 6 messages",
+  "rel": "slack/refunds-desk/different-email-identity-check-on-case-rfd.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/different-email-on-identity-check.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 14 messages",
+  "rel": "slack/refunds-desk/different-email-on-identity-check.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/duplicate-case-cleanup-for-bk7m2q.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 6 messages",
+  "rel": "slack/refunds-desk/duplicate-case-cleanup-for-bk7m2q.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/duplicate-contacts-on-payment-event.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 12 messages",
+  "rel": "slack/refunds-desk/duplicate-contacts-on-payment-event.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/group-organiser-requesting-one-status-update.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 16 messages",
+  "rel": "slack/refunds-desk/group-organiser-requesting-one-status-update.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/late-processor-batch-tracking-check.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 18 messages",
+  "rel": "slack/refunds-desk/late-processor-batch-tracking-check.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/late-processor-batch-tracking.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 21 messages",
+  "rel": "slack/refunds-desk/late-processor-batch-tracking.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/long-weekend-inbox-handoff-review.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 14 messages",
+  "rel": "slack/refunds-desk/long-weekend-inbox-handoff-review.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/long-weekend-inbox-handoff.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 16 messages",
+  "rel": "slack/refunds-desk/long-weekend-inbox-handoff.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/macro-name-field-mismatch.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 26 messages",
+  "rel": "slack/refunds-desk/macro-name-field-mismatch.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/merge-three-contacts-on-one-group-booking.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 14 messages",
+  "rel": "slack/refunds-desk/merge-three-contacts-on-one-group-booking.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/month-end-finance-references-notes.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 26 messages",
+  "rel": "slack/refunds-desk/month-end-finance-references-notes.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/month-end-finance-references.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 16 messages",
+  "rel": "slack/refunds-desk/month-end-finance-references.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/morning-queue-split.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 16 messages",
+  "rel": "slack/refunds-desk/morning-queue-split.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/new-hire-case-tool-shadow-questions.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 18 messages",
+  "rel": "slack/refunds-desk/new-hire-case-tool-shadow-questions.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/phone-contact-with-no-reference-question.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 12 messages",
+  "rel": "slack/refunds-desk/phone-contact-with-no-reference-question.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/portuguese-translation-for-rf-notes.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 12 messages",
+  "rel": "slack/refunds-desk/portuguese-translation-for-rf-notes.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/portuguese-wording-check-for-rfd.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 16 messages",
+  "rel": "slack/refunds-desk/portuguese-wording-check-for-rfd.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/reading-the-bank-statement-lines.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 20 messages",
+  "rel": "slack/refunds-desk/reading-the-bank-statement-lines.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/reading-the-bank-view-line-items-on-a-confusing-attachment.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 11 messages",
+  "rel": "slack/refunds-desk/reading-the-bank-view-line-items-on-a-confusing-attachment.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/receipt-date-mismatch-on-br-7kq2.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 13 messages",
+  "rel": "slack/refunds-desk/receipt-date-mismatch-on-br-7kq2.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/receipt-date-mismatch-on-case.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 16 messages",
+  "rel": "slack/refunds-desk/receipt-date-mismatch-on-case.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/shadow-questions-on-case-tool-views.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 10 messages",
+  "rel": "slack/refunds-desk/shadow-questions-on-case-tool-views.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/shadowing-questions-from-the-desk.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 6 messages",
+  "rel": "slack/refunds-desk/shadowing-questions-from-the-desk.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/summarising-a-long-customer-email-notes.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 16 messages",
+  "rel": "slack/refunds-desk/summarising-a-long-customer-email-notes.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/summarising-a-long-customer-email.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 11 messages",
+  "rel": "slack/refunds-desk/summarising-a-long-customer-email.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/summarising-long-customer-emails.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 12 messages",
+  "rel": "slack/refunds-desk/summarising-long-customer-emails.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/summarising-the-long-customer-email-before-handoff.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 6 messages",
+  "rel": "slack/refunds-desk/summarising-the-long-customer-email-before-handoff.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/three-same-day-contacts-under-separate-cases.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 12 messages",
+  "rel": "slack/refunds-desk/three-same-day-contacts-under-separate-cases.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/weekly-audit-notes-gaps.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 13 messages",
+  "rel": "slack/refunds-desk/weekly-audit-notes-gaps.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/weekly-audit-notes-on-closed-cases.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 13 messages",
+  "rel": "slack/refunds-desk/weekly-audit-notes-on-closed-cases.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/wrong-name-in-refund-status-macro.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 21 messages",
+  "rel": "slack/refunds-desk/wrong-name-in-refund-status-macro.json",
+  "stage": 0
+ },
+ "speakers/slack/refunds-desk/wrong-name-macro-in-payment-event-replies.json": {
+  "job": "speakers",
+  "note": "refunds thread with its own people, 13 messages",
+  "rel": "slack/refunds-desk/wrong-name-macro-in-payment-event-replies.json",
+  "stage": 0
+ }
+}

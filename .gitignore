@@ -27,3 +27,9 @@ tasks/*/tests/stages/*/facts.json
 tasks/*/tests/stages/*/seed/
 tasks/*/jobs/
 __pycache__/
+
+# Written by tasks/skyway-air/scripts when they run; only the scripts read them (the grader reads rule_keywords.json when present)
+tasks/skyway-air/tests/doc_plan.json
+tasks/skyway-air/tests/rule_parts.json
+tasks/skyway-air/tests/rule_keywords.json
+tasks/skyway-air/tests/stages/*/doc_plan.json

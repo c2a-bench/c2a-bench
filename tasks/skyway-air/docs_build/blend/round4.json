@@ -1,0 +1,779 @@
+{
+ "applies/1/slack/airport-ops/b11-jet-bridge-mat-reset-and-arrival-lane-check.json": {
+  "new": false,
+  "note": "process line: Effective immediately, add the \u201cBridge Threshold Check\u201d tag to the gate handover notes whenever a mat or bridge plate is reset before reopening the arrival lane.",
+  "rel": "slack/airport-ops/b11-jet-bridge-mat-reset-and-arrival-lane-check.json",
+  "rule": null,
+  "stage": 1
+ },
+ "applies/1/slack/airport-ops/msp-gate-folder-relay.json": {
+  "new": false,
+  "note": "process line: For future gate relays, add the folder hand-carry and receiving podium to the turn notes before the arrival handoff closes.",
+  "rel": "slack/airport-ops/msp-gate-folder-relay.json",
+  "rule": null,
+  "stage": 1
+ },
+ "applies/1/slack/digital-team/duplicate-itinerary-change-push-review.json": {
+  "new": false,
+  "note": "process line: Support will use the new `duplicate-alert` case tag and record both notification timestamps in the case notes before handoff.",
+  "rel": "slack/digital-team/duplicate-itinerary-change-push-review.json",
+  "rule": null,
+  "stage": 1
+ },
+ "applies/1/slack/digital-team/seat-map-confirmation-events-losing-session-join.json": {
+  "new": false,
+  "note": "process line: We are adding an `app_session_id` verification step to the mobile analytics handover checklist so bridge exceptions are flagged before warehouse review.",
+  "rel": "slack/digital-team/seat-map-confirmation-events-losing-session-join.json",
+  "rule": null,
+  "stage": 1
+ },
+ "applies/1/slack/general/library-recording-booth-in-reception.json": {
+  "new": false,
+  "note": "process line: I\u2019ve added an \u201cAlcove setup\u201d item to the reception handoff so the next desk lead sees the tablet, stanchion, and service-hallway routing notes.",
+  "rel": "slack/general/library-recording-booth-in-reception.json",
+  "rule": null,
+  "stage": 1
+ },
+ "applies/1/slack/general/onboarding-buddy-roster-owner.json": {
+  "new": false,
+  "note": "process line: Starting this week, add the new buddy roster status field to the onboarding tracker before sending any volunteer introductions so support leads can see the current handoff.",
+  "rel": "slack/general/onboarding-buddy-roster-owner.json",
+  "rule": null,
+  "stage": 1
+ },
+ "applies/1/slack/refunds-desk/duplicate-forms-with-a-cardholder-name-mismatch.json": {
+  "new": false,
+  "note": "process line: Effective immediately, add the new Payment Name Mismatch tag and link all related forms and chat IDs in the case note before handoff.",
+  "rel": "slack/refunds-desk/duplicate-forms-with-a-cardholder-name-mismatch.json",
+  "rule": null,
+  "stage": 1
+ },
+ "applies/1/slack/support-escalations/aus-inbound-tote-tag-match.json": {
+  "new": false,
+  "note": "process line: For inbound tote cases, add the bag markings and detached-tag sequence to the case narrative before routing the item from the station desk queue.",
+  "rel": "slack/support-escalations/aus-inbound-tote-tag-match.json",
+  "rule": null,
+  "stage": 1
+ },
+ "applies/1/slack/support-escalations/document-review-state-stuck-after-kiosk-check-in-at-iad.json": {
+  "new": false,
+  "note": "process line: Effective immediately, tag these cases as `DOC-VALIDATION-PROFILE-LINK` and note whether the airport workflow was used before handoff.",
+  "rel": "slack/support-escalations/document-review-state-stuck-after-kiosk-check-in-at-iad.json",
+  "rule": null,
+  "stage": 1
+ },
+ "applies/1/slack/support-escalations/seat-map-mismatch-after-itinerary-change.json": {
+  "new": false,
+  "note": "process line: We added a Current Segment ID field to the seat-assignment case form; complete it before routing any app-versus-record mismatch to the seat-assignment queue.",
+  "rel": "slack/support-escalations/seat-map-mismatch-after-itinerary-change.json",
+  "rule": null,
+  "stage": 1
+ },
+ "applies/1/slack/support-escalations/status-wording-for-duplicate-departure-alerts.json": {
+  "new": false,
+  "note": "process line: Effective immediately, tag these contacts with the new Duplicate Departure Alert case label and use the current operational record field when documenting the status summary.",
+  "rel": "slack/support-escalations/status-wording-for-duplicate-departure-alerts.json",
+  "rule": null,
+  "stage": 1
+ },
+ "applies/2/confluence/support-playbooks/templates/disrupted-itinerary-case-handoff-huddle-sheet.json": {
+  "new": false,
+  "note": "process line: Add the Huddle Next Owner field to the primary case and update it at each handoff with the accountable team and next review point.",
+  "rel": "confluence/support-playbooks/templates/disrupted-itinerary-case-handoff-huddle-sheet.json",
+  "rule": null,
+  "stage": 2
+ },
+ "applies/2/slack/airport-ops/b6-gate-check-bag-cart-handoff.json": {
+  "new": false,
+  "note": "process line: Effective today, add the active gate and original tag location to the station log before releasing any gate-check cart after a stand change.",
+  "rel": "slack/airport-ops/b6-gate-check-bag-cart-handoff.json",
+  "rule": null,
+  "stage": 2
+ },
+ "applies/2/slack/digital-team/kiosk-language-reset-after-document-scan-at-sea.json": {
+  "new": false,
+  "note": "process line: Digital Support intake now includes a Kiosk Language Reset tag and requires the kiosk identifier, browser, and whether the header language control was reselected in case notes.",
+  "rel": "slack/digital-team/kiosk-language-reset-after-document-scan-at-sea.json",
+  "rule": null,
+  "stage": 2
+ },
+ "applies/2/slack/digital-team/profile-contact-prefill-check-in.json": {
+  "new": false,
+  "note": "process line: Support will use the new Mobile Check-In / Contact Handoff tag and capture traveler-picker use plus app build in the case notes.",
+  "rel": "slack/digital-team/profile-contact-prefill-check-in.json",
+  "rule": null,
+  "stage": 2
+ },
+ "applies/2/slack/finance-ops/ancillary-clearing-exchanged-coupon-status.json": {
+  "new": false,
+  "note": "process line: The ancillary clearing reviewer panel now includes an Exchange Reference field and servicing timestamp for exchanged document rows.",
+  "rel": "slack/finance-ops/ancillary-clearing-exchanged-coupon-status.json",
+  "rule": null,
+  "stage": 2
+ },
+ "applies/2/slack/general/lobby-welcome-table-setup.json": {
+  "new": false,
+  "note": "process line: Please add the lobby setup check to the desk handover notes so the next lead can confirm the stand, cards, and blue tote are in place.",
+  "rel": "slack/general/lobby-welcome-table-setup.json",
+  "rule": null,
+  "stage": 2
+ },
+ "applies/2/slack/support-team/bag-trace-address-field-showing-a-second-contact-name.json": {
+  "new": false,
+  "note": "process line: Effective this handoff, use the renamed \u201cTrace Traveler\u201d field in the case tool and note the booking contact separately before sending a delayed-bag update.",
+  "rel": "slack/support-team/bag-trace-address-field-showing-a-second-contact-name.json",
+  "rule": null,
+  "stage": 2
+ },
+ "applies/3/confluence/airport-operations/station-opening-closing-diagnostic-cascade.json": {
+  "new": false,
+  "note": "process line: Add the opening condition and named watch owner to the station operations log before the readiness huddle is closed.",
+  "rel": "confluence/airport-operations/station-opening-closing-diagnostic-cascade.json",
+  "rule": null,
+  "stage": 3
+ },
+ "applies/3/confluence/company-handbook/station-service-update-distribution-map.json": {
+  "new": false,
+  "note": "process line: Station teams should record the current owner and next checkpoint in the new Operations Handover field before closing or transferring a case.",
+  "rel": "confluence/company-handbook/station-service-update-distribution-map.json",
+  "rule": null,
+  "stage": 3
+ },
+ "applies/3/slack/support-escalations/contact-number-collision-showing-unrelated-trip.json": {
+  "new": false,
+  "note": "process line: Use the new Contact Identifier Collision tag and record the profile-phone verification event in case notes before routing to Identity Review.",
+  "rel": "slack/support-escalations/contact-number-collision-showing-unrelated-trip.json",
+  "rule": null,
+  "stage": 3
+ },
+ "applies/3/slack/support-policy-questions/feedback-form-text-missing-after-submit.json": {
+  "new": false,
+  "note": "process line: Use the new \u201cReported missing form text\u201d case tag and include the web-event identifier and confirmation-screen timestamp in the feedback-intake handoff note.",
+  "rel": "slack/support-policy-questions/feedback-form-text-missing-after-submit.json",
+  "rule": null,
+  "stage": 3
+ },
+ "applies/4/confluence/airport-operations/gate-checked-bag-reconciliation-review.json": {
+  "new": false,
+  "note": "process line: Add the \"Physical Location Verified\" checklist step to the case notes before assigning the next operational owner.",
+  "rel": "confluence/airport-operations/gate-checked-bag-reconciliation-review.json",
+  "rule": null,
+  "stage": 4
+ },
+ "applies/4/slack/airport-ops/rdu-service-yard-compactor-replacement-escort.json": {
+  "new": false,
+  "note": "process line: Starting next shift, log vendor arrival, escort, facilities clearance, and departure in the new RDU Service Yard Access checklist in station case notes.",
+  "rel": "slack/airport-ops/rdu-service-yard-compactor-replacement-escort.json",
+  "rule": null,
+  "stage": 4
+ },
+ "applies/4/slack/airport-ops/south-terminal-service-lane-morning-puzzle.json": {
+  "new": false,
+  "note": "process line: Connor Blake \u2014 South service handoffs now need a curb, lobby, and radio status line in the case notes before the next shift takes the queue.",
+  "rel": "slack/airport-ops/south-terminal-service-lane-morning-puzzle.json",
+  "rule": null,
+  "stage": 4
+ },
+ "applies/5/confluence/support-playbooks/case-handling/refund-operations-rotating-chair-briefing-guide.json": {
+  "new": false,
+  "note": "process line: Rename the exception-review inbox to Case Evidence Review and update the handover note to record the evidence status before assignment.",
+  "rel": "confluence/support-playbooks/case-handling/refund-operations-rotating-chair-briefing-guide.json",
+  "rule": null,
+  "stage": 5
+ },
+ "applies/5/slack/general/break-room-puzzle-table.json": {
+  "new": false,
+  "note": "process line: Quick note for the break-room handoff: please add a \u201cPuzzle table needs clearing\u201d tag in the case tool if Facilities flags that corner for training.",
+  "rel": "slack/general/break-room-puzzle-table.json",
+  "rule": null,
+  "stage": 5
+ },
+ "changelog/1/0": {
+  "new": true,
+  "note": "change note, stage 1",
+  "rel": "confluence/policy-and-compliance/change-log/shared-support-inbox-queue-and-auto-reply-change-note.json",
+  "rule": null,
+  "stage": 1
+ },
+ "changelog/1/1": {
+  "new": true,
+  "note": "change note, stage 1",
+  "rel": "confluence/policy-and-compliance/change-log/case-form-change-note-contact-channel-field.json",
+  "rule": null,
+  "stage": 1
+ },
+ "changelog/1/2": {
+  "new": true,
+  "note": "change note, stage 1",
+  "rel": "confluence/policy-and-compliance/change-log/shift-handover-checklist-open-callback-step.json",
+  "rule": null,
+  "stage": 1
+ },
+ "changelog/1/3": {
+  "new": true,
+  "note": "change note, stage 1",
+  "rel": "confluence/policy-and-compliance/change-log/case-notes-template-change-note.json",
+  "rule": null,
+  "stage": 1
+ },
+ "changelog/1/4": {
+  "new": true,
+  "note": "change note, stage 1",
+  "rel": "confluence/policy-and-compliance/change-log/change-note-accessibility-contact-reporting-tag.json",
+  "rule": null,
+  "stage": 1
+ },
+ "changelog/1/5": {
+  "new": true,
+  "note": "change note, stage 1",
+  "rel": "confluence/policy-and-compliance/change-log/airport-desk-escalation-form-case-tool-submission.json",
+  "rule": null,
+  "stage": 1
+ },
+ "changelog/2/0": {
+  "new": true,
+  "note": "change note, stage 2",
+  "rel": "confluence/policy-and-compliance/change-log/screen-sharing-consent-note-change.json",
+  "rule": null,
+  "stage": 2
+ },
+ "changelog/2/1": {
+  "new": true,
+  "note": "change note, stage 2",
+  "rel": "confluence/policy-and-compliance/change-log/change-note-awaiting-team-input-status.json",
+  "rule": null,
+  "stage": 2
+ },
+ "changelog/2/2": {
+  "new": true,
+  "note": "change note, stage 2",
+  "rel": "confluence/policy-and-compliance/change-log/macro-library-reorganization-and-retired-macros.json",
+  "rule": null,
+  "stage": 2
+ },
+ "changelog/2/3": {
+  "new": true,
+  "note": "change note, stage 2",
+  "rel": "confluence/policy-and-compliance/change-log/weekly-quality-review-sample-case-tagging-change.json",
+  "rule": null,
+  "stage": 2
+ },
+ "changelog/3/0": {
+  "new": true,
+  "note": "change note, stage 3",
+  "rel": "confluence/policy-and-compliance/change-log/after-hours-on-call-rota-scheduling-tool-change-note.json",
+  "rule": null,
+  "stage": 3
+ },
+ "changelog/3/1": {
+  "new": true,
+  "note": "change note, stage 3",
+  "rel": "confluence/policy-and-compliance/change-log/case-transcript-attachment-change-note.json",
+  "rule": null,
+  "stage": 3
+ },
+ "changelog/4/0": {
+  "new": true,
+  "note": "change note, stage 4",
+  "rel": "confluence/policy-and-compliance/change-log/preferred-language-field-change-note.json",
+  "rule": null,
+  "stage": 4
+ },
+ "changelog/4/1": {
+  "new": true,
+  "note": "change note, stage 4",
+  "rel": "confluence/policy-and-compliance/change-log/duplicate-case-merge-control-and-reference-retention-change-note.json",
+  "rule": null,
+  "stage": 4
+ },
+ "changelog/5/0": {
+  "new": true,
+  "note": "change note, stage 5",
+  "rel": "confluence/policy-and-compliance/change-log/change-note-training-mode-case-prefix-for-reporting-exclusion.json",
+  "rule": null,
+  "stage": 5
+ },
+ "lookalike/R22/0": {
+  "new": true,
+  "note": "R22 lookalike, 4933 characters",
+  "rel": "confluence/customer-policies/special-assistance/booked-assistance-at-the-airport-case-recording-and-handoff-notes.json",
+  "rule": "R22",
+  "stage": 1
+ },
+ "lookalike/R22/1": {
+  "new": true,
+  "note": "R22 lookalike, 3678 characters",
+  "rel": "slack/support-escalations/booked-assistance-request-not-appearing-in-airport-view.json",
+  "rule": "R22",
+  "stage": 1
+ },
+ "lookalike/R22/2": {
+  "new": true,
+  "note": "R22 lookalike, 7953 characters",
+  "rel": "confluence/support-playbooks/case-handling/booked-assistance-at-the-airport-case-capture-and-handoff-notes.json",
+  "rule": "R22",
+  "stage": 1
+ },
+ "lookalike/R23/0": {
+  "new": true,
+  "note": "R23 lookalike, 4261 characters",
+  "rel": "confluence/customer-policies/fares-and-changes/schedule-changes-working-notes.json",
+  "rule": "R23",
+  "stage": 1
+ },
+ "lookalike/R23/1": {
+  "new": true,
+  "note": "R23 lookalike, 3239 characters",
+  "rel": "slack/refunds-desk/schedule-change-case-recording.json",
+  "rule": "R23",
+  "stage": 1
+ },
+ "lookalike/R23/2": {
+  "new": true,
+  "note": "R23 lookalike, 2230 characters",
+  "rel": "slack/support-policy-questions/schedule-change-case-notes.json",
+  "rule": "R23",
+  "stage": 1
+ },
+ "lookalike/R24/0": {
+  "new": true,
+  "note": "R24 lookalike, 2905 characters",
+  "rel": "slack/support-team/company-travel-manager-case-notes.json",
+  "rule": "R24",
+  "stage": 1
+ },
+ "lookalike/R24/1": {
+  "new": true,
+  "note": "R24 lookalike, 5962 characters",
+  "rel": "confluence/policy-and-compliance/change-log/company-travel-managers-case-recording-and-session-notes.json",
+  "rule": "R24",
+  "stage": 1
+ },
+ "lookalike/R24/2": {
+  "new": true,
+  "note": "R24 lookalike, 2407 characters",
+  "rel": "slack/support-policy-questions/company-travel-manager-contact-question.json",
+  "rule": "R24",
+  "stage": 1
+ },
+ "lookalike/R25/0": {
+  "new": true,
+  "note": "R25 lookalike, 7227 characters",
+  "rel": "confluence/policy-and-compliance/change-log/illness-cancellations-case-recording-and-review-notes.json",
+  "rule": "R25",
+  "stage": 1
+ },
+ "lookalike/R25/1": {
+  "new": true,
+  "note": "R25 lookalike, 3753 characters",
+  "rel": "slack/support-team/illness-cancellation-case-notes.json",
+  "rule": "R25",
+  "stage": 1
+ },
+ "lookalike/R25/2": {
+  "new": true,
+  "note": "R25 lookalike, 2457 characters",
+  "rel": "slack/support-policy-questions/illness-cancellation-case-notes.json",
+  "rule": "R25",
+  "stage": 1
+ },
+ "money/1/confluence/customer-policies/baggage/duplicate-booking-record-ownership-handoff-checklist.json": {
+  "new": false,
+  "note": "dollar: $141",
+  "rel": "confluence/customer-policies/baggage/duplicate-booking-record-ownership-handoff-checklist.json",
+  "rule": null,
+  "stage": 1
+ },
+ "money/1/confluence/digital/check-in-confirmation-and-mobile-boarding-pass-handoff-coding.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "confluence/digital/check-in-confirmation-and-mobile-boarding-pass-handoff-coding.json",
+  "rule": null,
+  "stage": 1
+ },
+ "money/1/confluence/finance/duplicate-card-authorization-casebook.json": {
+  "new": false,
+  "note": "dollar: $169.01",
+  "rel": "confluence/finance/duplicate-card-authorization-casebook.json",
+  "rule": null,
+  "stage": 1
+ },
+ "money/1/slack/airport-ops/concourse-d-transfer-desk-queue-after-rebooking-sync-lag.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/airport-ops/concourse-d-transfer-desk-queue-after-rebooking-sync-lag.json",
+  "rule": null,
+  "stage": 1
+ },
+ "money/1/slack/airport-ops/south-concourse-gate-move-handoff.json": {
+  "new": false,
+  "note": "dollar: $29.43",
+  "rel": "slack/airport-ops/south-concourse-gate-move-handoff.json",
+  "rule": null,
+  "stage": 1
+ },
+ "money/1/slack/announcements/gate-welcome-card-set-opens-for-weekend-turns.json": {
+  "new": false,
+  "note": "dollar: $433",
+  "rel": "slack/announcements/gate-welcome-card-set-opens-for-weekend-turns.json",
+  "rule": null,
+  "stage": 1
+ },
+ "money/1/slack/baggage-desk/bos-bag-room-scan-missing-after-counter-handoff.json": {
+  "new": false,
+  "note": "dollar: $885.35",
+  "rel": "slack/baggage-desk/bos-bag-room-scan-missing-after-counter-handoff.json",
+  "rule": null,
+  "stage": 1
+ },
+ "money/1/slack/baggage-desk/den-cage-card-photo-handoff.json": {
+  "new": false,
+  "note": "dollar: $1,989",
+  "rel": "slack/baggage-desk/den-cage-card-photo-handoff.json",
+  "rule": null,
+  "stage": 1
+ },
+ "money/1/slack/baggage-desk/evening-claim-attachment-review-before-desk-close.json": {
+  "new": false,
+  "note": "dollar: $1,206",
+  "rel": "slack/baggage-desk/evening-claim-attachment-review-before-desk-close.json",
+  "rule": null,
+  "stage": 1
+ },
+ "money/1/slack/digital-team/android-intake-summary-keeps-prior-flight-selection.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/digital-team/android-intake-summary-keeps-prior-flight-selection.json",
+  "rule": null,
+  "stage": 1
+ },
+ "money/1/slack/digital-team/seat-map-return-state-check-for-itinerary-change-flow.json": {
+  "new": false,
+  "note": "dollar: $79.56",
+  "rel": "slack/digital-team/seat-map-return-state-check-for-itinerary-change-flow.json",
+  "rule": null,
+  "stage": 1
+ },
+ "money/1/slack/digital-team/trip-header-refresh-after-seat-change.json": {
+  "new": false,
+  "note": "dollar: $306",
+  "rel": "slack/digital-team/trip-header-refresh-after-seat-change.json",
+  "rule": null,
+  "stage": 1
+ },
+ "money/1/slack/finance-ops/airport-reissue-attachment-routing.json": {
+  "new": false,
+  "note": "dollar: $220",
+  "rel": "slack/finance-ops/airport-reissue-attachment-routing.json",
+  "rule": null,
+  "stage": 1
+ },
+ "money/1/slack/finance-ops/station-upload-match-exceptions.json": {
+  "new": false,
+  "note": "dollar: $1,705",
+  "rel": "slack/finance-ops/station-upload-match-exceptions.json",
+  "rule": null,
+  "stage": 1
+ },
+ "money/1/slack/irregular-ops/late-tail-swap-seat-map-and-boarding-sync-check.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/irregular-ops/late-tail-swap-seat-map-and-boarding-sync-check.json",
+  "rule": null,
+  "stage": 1
+ },
+ "money/1/slack/loyalty-team/desk-side-walkthrough-for-split-activity-profiles.json": {
+  "new": false,
+  "note": "dollar: $465",
+  "rel": "slack/loyalty-team/desk-side-walkthrough-for-split-activity-profiles.json",
+  "rule": null,
+  "stage": 1
+ },
+ "money/1/slack/support-escalations/gate-scan-audit-for-no-show-record.json": {
+  "new": false,
+  "note": "dollar: $355",
+  "rel": "slack/support-escalations/gate-scan-audit-for-no-show-record.json",
+  "rule": null,
+  "stage": 1
+ },
+ "money/1/slack/support-policy-questions/loyalty-profile-name-mismatch-without-travel-case.json": {
+  "new": false,
+  "note": "dollar: $1,455",
+  "rel": "slack/support-policy-questions/loyalty-profile-name-mismatch-without-travel-case.json",
+  "rule": null,
+  "stage": 1
+ },
+ "money/1/slack/support-team/callback-note-context-clinic.json": {
+  "new": false,
+  "note": "dollar: $4,401",
+  "rel": "slack/support-team/callback-note-context-clinic.json",
+  "rule": null,
+  "stage": 1
+ },
+ "money/1/slack/support-team/member-profile-lookup-notes-board.json": {
+  "new": false,
+  "note": "dollar: $772.67",
+  "rel": "slack/support-team/member-profile-lookup-notes-board.json",
+  "rule": null,
+  "stage": 1
+ },
+ "money/1/slack/support-team/schedule-change-note-calibration.json": {
+  "new": false,
+  "note": "dollar: $3,752",
+  "rel": "slack/support-team/schedule-change-note-calibration.json",
+  "rule": null,
+  "stage": 1
+ },
+ "money/1/slack/support-team/transferred-cases-losing-queue-notes.json": {
+  "new": false,
+  "note": "dollar: $397",
+  "rel": "slack/support-team/transferred-cases-losing-queue-notes.json",
+  "rule": null,
+  "stage": 1
+ },
+ "money/2/confluence/airport-operations/gate-change-and-stand-reassignment-turn-rhythm.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "confluence/airport-operations/gate-change-and-stand-reassignment-turn-rhythm.json",
+  "rule": null,
+  "stage": 2
+ },
+ "money/2/confluence/company-handbook/operational-case-ownership-and-handoff-commitments.json": {
+  "new": false,
+  "note": "dollar: $463",
+  "rel": "confluence/company-handbook/operational-case-ownership-and-handoff-commitments.json",
+  "rule": null,
+  "stage": 2
+ },
+ "money/2/confluence/customer-policies/cancellations-and-refunds/schedule-change-contact-record-board.json": {
+  "new": false,
+  "note": "dollar: $141",
+  "rel": "confluence/customer-policies/cancellations-and-refunds/schedule-change-contact-record-board.json",
+  "rule": null,
+  "stage": 2
+ },
+ "money/2/confluence/finance/agency-remittance-reference-mapping-review.json": {
+  "new": false,
+  "note": "dollar: $2,657",
+  "rel": "confluence/finance/agency-remittance-reference-mapping-review.json",
+  "rule": null,
+  "stage": 2
+ },
+ "money/2/slack/airport-ops/c8-valet-tag-printer-routing-to-c10.json": {
+  "new": false,
+  "note": "dollar: $140.26",
+  "rel": "slack/airport-ops/c8-valet-tag-printer-routing-to-c10.json",
+  "rule": null,
+  "stage": 2
+ },
+ "money/2/slack/airport-ops/inbound-bag-claim-display-relay.json": {
+  "new": false,
+  "note": "dollar: $3,286",
+  "rel": "slack/airport-ops/inbound-bag-claim-display-relay.json",
+  "rule": null,
+  "stage": 2
+ },
+ "money/2/slack/digital-team/manage-trip-airport-details-empty-state.json": {
+  "new": false,
+  "note": "dollar: $2,431",
+  "rel": "slack/digital-team/manage-trip-airport-details-empty-state.json",
+  "rule": null,
+  "stage": 2
+ },
+ "money/2/slack/digital-team/mobile-wallet-handoff-review.json": {
+  "new": false,
+  "note": "dollar: $2,073",
+  "rel": "slack/digital-team/mobile-wallet-handoff-review.json",
+  "rule": null,
+  "stage": 2
+ },
+ "money/2/slack/finance-ops/ancillary-tax-label-reconciliation-listening-session.json": {
+  "new": false,
+  "note": "dollar: $4,347",
+  "rel": "slack/finance-ops/ancillary-tax-label-reconciliation-listening-session.json",
+  "rule": null,
+  "stage": 2
+ },
+ "money/2/slack/general/frontline-listening-session-topics.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/general/frontline-listening-session-topics.json",
+  "rule": null,
+  "stage": 2
+ },
+ "money/2/slack/policy-updates/station-desk-script-signal-check.json": {
+  "new": false,
+  "note": "dollar: $163.85",
+  "rel": "slack/policy-updates/station-desk-script-signal-check.json",
+  "rule": null,
+  "stage": 2
+ },
+ "money/2/slack/support-policy-questions/youth-team-contact-visibility-question.json": {
+  "new": false,
+  "note": "dollar: $2,883",
+  "rel": "slack/support-policy-questions/youth-team-contact-visibility-question.json",
+  "rule": null,
+  "stage": 2
+ },
+ "money/2/slack/support-team/coaching-notes-for-priya-s-complex-chat-practice.json": {
+  "new": false,
+  "note": "dollar: $110",
+  "rel": "slack/support-team/coaching-notes-for-priya-s-complex-chat-practice.json",
+  "rule": null,
+  "stage": 2
+ },
+ "money/2/slack/support-team/profile-merge-handoff-wording-for-airport-desks.json": {
+  "new": false,
+  "note": "dollar: $2,787",
+  "rel": "slack/support-team/profile-merge-handoff-wording-for-airport-desks.json",
+  "rule": null,
+  "stage": 2
+ },
+ "money/3/confluence/airport-operations/gate-readiness-and-turn-handoff-log.json": {
+  "new": false,
+  "note": "dollar: $52",
+  "rel": "confluence/airport-operations/gate-readiness-and-turn-handoff-log.json",
+  "rule": null,
+  "stage": 3
+ },
+ "money/3/confluence/policy-and-compliance/regulatory/contact-preference-surface-rendering-verification-workshop.json": {
+  "new": false,
+  "note": "dollar: $122",
+  "rel": "confluence/policy-and-compliance/regulatory/contact-preference-surface-rendering-verification-workshop.json",
+  "rule": null,
+  "stage": 3
+ },
+ "money/3/slack/airport-ops/arrivals-carousel-display-mismatch.json": {
+  "new": false,
+  "note": "dollar: $2,534",
+  "rel": "slack/airport-ops/arrivals-carousel-display-mismatch.json",
+  "rule": null,
+  "stage": 3
+ },
+ "money/3/slack/announcements/customer-journey-map-table.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/announcements/customer-journey-map-table.json",
+  "rule": null,
+  "stage": 3
+ },
+ "money/3/slack/announcements/station-signal-board-opens-for-handoff-notes.json": {
+  "new": false,
+  "note": "dollar: $688.89",
+  "rel": "slack/announcements/station-signal-board-opens-for-handoff-notes.json",
+  "rule": null,
+  "stage": 3
+ },
+ "money/3/slack/finance-ops/duplicate-lounge-scans-in-corporate-travel-settlement-feed.json": {
+  "new": false,
+  "note": "dollar: $112",
+  "rel": "slack/finance-ops/duplicate-lounge-scans-in-corporate-travel-settlement-feed.json",
+  "rule": null,
+  "stage": 3
+ },
+ "money/3/slack/irregular-ops/seat-map-mismatch-watch-after-equipment-change-at-pdx.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/irregular-ops/seat-map-mismatch-watch-after-equipment-change-at-pdx.json",
+  "rule": null,
+  "stage": 3
+ },
+ "money/3/slack/support-team/locale-switchboard-for-multilingual-reply-snippets.json": {
+  "new": false,
+  "note": "dollar: $138",
+  "rel": "slack/support-team/locale-switchboard-for-multilingual-reply-snippets.json",
+  "rule": null,
+  "stage": 3
+ },
+ "money/4/confluence/finance/chargeback-counterfactual-review-workshop.json": {
+  "new": false,
+  "note": "dollar: $3,780",
+  "rel": "confluence/finance/chargeback-counterfactual-review-workshop.json",
+  "rule": null,
+  "stage": 4
+ },
+ "money/4/confluence/loyalty-programme/status-change-analytics-query-cookbook.json": {
+  "new": false,
+  "note": "dollar: $591.31",
+  "rel": "confluence/loyalty-programme/status-change-analytics-query-cookbook.json",
+  "rule": null,
+  "stage": 4
+ },
+ "money/4/confluence/support-playbooks/templates/support-guidance-migration-storyboard.json": {
+  "new": false,
+  "note": "dollar: $4,053",
+  "rel": "confluence/support-playbooks/templates/support-guidance-migration-storyboard.json",
+  "rule": null,
+  "stage": 4
+ },
+ "money/4/slack/announcements/station-handoff-note-library.json": {
+  "new": false,
+  "note": "dollar: $2,546",
+  "rel": "slack/announcements/station-handoff-note-library.json",
+  "rule": null,
+  "stage": 4
+ },
+ "money/4/slack/digital-team/manage-trip-seat-map-focus-return-on-mobile.json": {
+  "new": false,
+  "note": "dollar: $184",
+  "rel": "slack/digital-team/manage-trip-seat-map-focus-return-on-mobile.json",
+  "rule": null,
+  "stage": 4
+ },
+ "money/4/slack/digital-team/promo-code-entry-keeps-the-search-session-alive.json": {
+  "new": false,
+  "note": "dollar: $3,763",
+  "rel": "slack/digital-team/promo-code-entry-keeps-the-search-session-alive.json",
+  "rule": null,
+  "stage": 4
+ },
+ "money/4/slack/digital-team/trip-details-tab-focus-review.json": {
+  "new": false,
+  "note": "credit: travel credit",
+  "rel": "slack/digital-team/trip-details-tab-focus-review.json",
+  "rule": null,
+  "stage": 4
+ },
+ "money/4/slack/support-team/overnight-origami-airport-gallery.json": {
+  "new": false,
+  "note": "dollar: $326",
+  "rel": "slack/support-team/overnight-origami-airport-gallery.json",
+  "rule": null,
+  "stage": 4
+ },
+ "money/5/slack/airport-ops/rdu-south-checkpoint-podium-to-gate-announcer-handoff.json": {
+  "new": false,
+  "note": "dollar: $176",
+  "rel": "slack/airport-ops/rdu-south-checkpoint-podium-to-gate-announcer-handoff.json",
+  "rule": null,
+  "stage": 5
+ },
+ "money/5/slack/digital-team/notification-link-context-preservation-check.json": {
+  "new": false,
+  "note": "dollar: $163.24",
+  "rel": "slack/digital-team/notification-link-context-preservation-check.json",
+  "rule": null,
+  "stage": 5
+ },
+ "money/5/slack/irregular-ops/northbound-push-readiness-ledger.json": {
+  "new": false,
+  "note": "dollar: $4,072",
+  "rel": "slack/irregular-ops/northbound-push-readiness-ledger.json",
+  "rule": null,
+  "stage": 5
+ },
+ "money/5/slack/policy-updates/overnight-cohort-ownership-map-and-question-intake.json": {
+  "new": false,
+  "note": "dollar: $3,720",
+  "rel": "slack/policy-updates/overnight-cohort-ownership-map-and-question-intake.json",
+  "rule": null,
+  "stage": 5
+ },
+ "money/5/slack/support-team/late-shift-seat-map-follow-up-handoff.json": {
+  "new": false,
+  "note": "dollar: $2,742",
+  "rel": "slack/support-team/late-shift-seat-map-follow-up-handoff.json",
+  "rule": null,
+  "stage": 5
+ }
+}

@@ -1,0 +1,43 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about damaged bags.",
+  "files": [
+    {
+      "path": "sources/slack/airport-ops/cracked-suitcase-at-bna-arrivals.json",
+      "description": "A Slack thread in #airport-ops between Skyway staff about damaged bags, dated between 2026-01-12 and 2026-05-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"a cracked shell is covered against a repair quote\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    },
+    {
+      "path": "sources/slack/airport-ops/cracked-suitcase-at-rdu-baggage-service.json",
+      "description": "A Slack thread in #airport-ops between Skyway staff about damaged bags, dated between 2026-01-12 and 2026-05-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"a cracked shell is covered against a repair quote\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    },
+    {
+      "path": "sources/slack/airport-ops/damaged-bag-at-bna-arrivals-desk.json",
+      "description": "A Slack thread in #airport-ops between Skyway staff about damaged bags, dated between 2026-01-12 and 2026-05-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"a cracked shell is covered against a repair quote\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    },
+    {
+      "path": "sources/slack/baggage-desk/clarifying-a-suitcase-damage-report.json",
+      "description": "A Slack thread in #baggage-desk between Skyway staff about damaged bags, dated between 2026-01-12 and 2026-05-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"wheels, handles, straps and scratches are normal wear\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    },
+    {
+      "path": "sources/slack/baggage-desk/damaged-bag-photo-review-notes.json",
+      "description": "A Slack thread in #baggage-desk between Skyway staff about damaged bags, dated between 2026-01-12 and 2026-05-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"wheels, handles, straps and scratches are normal wear\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    },
+    {
+      "path": "sources/slack/baggage-desk/damaged-bag-photo-review.json",
+      "description": "A Slack thread in #baggage-desk between Skyway staff about damaged bags, dated between 2026-01-12 and 2026-05-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"wheels, handles, straps and scratches are normal wear\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    }
+  ],
+  "people": [
+    {
+      "name": "Marisol Vega",
+      "project_role": "Head of Customer Support"
+    },
+    {
+      "name": "Malcolm Reed",
+      "project_role": "Manager, Support Quality"
+    },
+    {
+      "name": "Keisha Bryant",
+      "project_role": "Support Supervisor, Disruption Care"
+    }
+  ]
+}

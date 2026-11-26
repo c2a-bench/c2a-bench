@@ -1,0 +1,462 @@
+{
+  "stage": 1,
+  "docs": {
+    "sources/confluence/policy-and-compliance/change-log/hotel-cost-approval-update-for-july-requests.json": {
+      "plan_doc": "docs/confluence/policy-and-compliance/change-log/hotel-cost-approval-update-for-july-requests.json",
+      "must_contain": [
+        "Agents may pay hotels up to $200 without approval.",
+        "This applies to every request handled from July 1, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s1-r10-log-1"
+    },
+    "sources/slack/policy-updates/hotel-handling-update-for-july.json": {
+      "plan_doc": "docs/slack/policy-updates/hotel-handling-update-for-july.json",
+      "must_contain": [
+        "From July 1 agents can pay hotels up to $200 a room without approval.",
+        "Up to $200 a night needs no approval.",
+        "Above $200, ask a supervisor to approve the room cost, up to $250.",
+        "This applies to every request handled from July 1, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s1-r10-slack-1"
+    },
+    "sources/slack/refunds-desk/handling-date-question-for-disruption-hotel-requests.json": {
+      "plan_doc": "docs/slack/refunds-desk/handling-date-question-for-disruption-hotel-requests.json",
+      "must_contain": [
+        "This applies to every request handled from July 1, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s1-r10-slack-1"
+    },
+    "sources/slack/support-policy-questions/question-on-hotel-room-cost-approval.json": {
+      "plan_doc": "docs/slack/support-policy-questions/question-on-hotel-room-cost-approval.json",
+      "must_contain": [
+        "Above $200, ask a supervisor to approve the room cost, up to $250."
+      ],
+      "trap": null,
+      "project": "skyway-s1-r10-slack-1"
+    },
+    "sources/slack/support-team/quick-question-on-hotel-approval.json": {
+      "plan_doc": "docs/slack/support-team/quick-question-on-hotel-approval.json",
+      "must_contain": [
+        "Up to $200 a night needs no approval."
+      ],
+      "trap": null,
+      "project": "skyway-s1-r10-slack-1"
+    },
+    "sources/confluence/policy-and-compliance/change-log/receipts-label-renamed.json": {
+      "plan_doc": "docs/confluence/policy-and-compliance/change-log/receipts-label-renamed.json",
+      "must_contain": [
+        "The label receipts-needed is now awaiting-receipts.",
+        "This applies to every request handled from July 1, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s1-r11-log-1"
+    },
+    "sources/slack/refunds-desk/receipts-label-rename-for-reimbursement-requests.json": {
+      "plan_doc": "docs/slack/refunds-desk/receipts-label-rename-for-reimbursement-requests.json",
+      "must_contain": [
+        "This applies to every request handled from July 1, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s1-r11-slack-1"
+    },
+    "sources/slack/support-policy-questions/receipts-label-in-reimbursement-cases.json": {
+      "plan_doc": "docs/slack/support-policy-questions/receipts-label-in-reimbursement-cases.json",
+      "must_contain": [
+        "label it awaiting-receipts"
+      ],
+      "trap": null,
+      "project": "skyway-s1-r11-slack-1"
+    },
+    "sources/slack/support-team/receipt-amount-field-question.json": {
+      "plan_doc": "docs/slack/support-team/receipt-amount-field-question.json",
+      "must_contain": [
+        "the lower of the receipts and the limit"
+      ],
+      "trap": null,
+      "project": "skyway-s1-r11-slack-1"
+    },
+    "sources/confluence/policy-and-compliance/change-log/delayed-bag-allowance-update.json": {
+      "plan_doc": "docs/confluence/policy-and-compliance/change-log/delayed-bag-allowance-update.json",
+      "must_contain": [
+        "Delayed-bag allowance rises to $90 a day, capped at $450.",
+        "This applies to every request handled from July 1, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s1-r13-log-1"
+    },
+    "sources/slack/policy-updates/delayed-bag-rate-july.json": {
+      "plan_doc": "docs/slack/policy-updates/delayed-bag-rate-july.json",
+      "must_contain": [
+        "From July 1 the delayed-bag allowance is $90 a day, up to $450.",
+        "$90 for each full 24 hours",
+        "up to $450 per bag",
+        "This applies to every request handled from July 1, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s1-r13-slack-1"
+    },
+    "sources/slack/refunds-desk/receipt-images-on-delayed-bag-case.json": {
+      "plan_doc": "docs/slack/refunds-desk/receipt-images-on-delayed-bag-case.json",
+      "must_contain": [
+        "paid against receipts"
+      ],
+      "trap": null,
+      "project": "skyway-s1-r13-slack-1"
+    },
+    "sources/slack/support-policy-questions/delayed-bag-case-note-wording.json": {
+      "plan_doc": "docs/slack/support-policy-questions/delayed-bag-case-note-wording.json",
+      "must_contain": [
+        "up to $450 per bag"
+      ],
+      "trap": null,
+      "project": "skyway-s1-r13-slack-1"
+    },
+    "sources/slack/support-team/delayed-bag-case-wording.json": {
+      "plan_doc": "docs/slack/support-team/delayed-bag-case-wording.json",
+      "must_contain": [
+        "$90 for each full 24 hours"
+      ],
+      "trap": null,
+      "project": "skyway-s1-r13-slack-1"
+    },
+    "sources/confluence/support-playbooks/case-handling/travel-managers.json": {
+      "plan_doc": "docs/confluence/support-playbooks/case-handling/travel-managers.json",
+      "must_contain": [
+        "Travel managers listed on a company account may act on its bookings.",
+        "travel managers listed on the company account",
+        "This applies to every request handled from July 1, whatever the date of the flight.",
+        "only the booking contact",
+        "listed travel managers may act for the company's travellers"
+      ],
+      "trap": null,
+      "project": "skyway-s1-r17-confluence-1"
+    },
+    "sources/confluence/policy-and-compliance/change-log/travel-managers-on-company-bookings.json": {
+      "plan_doc": "docs/confluence/policy-and-compliance/change-log/travel-managers-on-company-bookings.json",
+      "must_contain": [
+        "New: listed travel managers may act on their company's bookings.",
+        "This applies to every request handled from July 1, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s1-r17-log-1"
+    },
+    "sources/confluence/customer-policies/special-assistance/assistance-not-provided.json": {
+      "plan_doc": "docs/confluence/customer-policies/special-assistance/assistance-not-provided.json",
+      "must_contain": [
+        "When assistance booked on the reservation is not provided, the customer is owed travel credit.",
+        "assistance that was booked and not provided",
+        "assistance that was not booked is not covered",
+        "help that came late or was rude is a goodwill case"
+      ],
+      "trap": null,
+      "project": "skyway-s1-r22-confluence-assistance-not-provided-1"
+    },
+    "sources/confluence/support-playbooks/case-handling/ticket-labels.json": {
+      "plan_doc": "docs/confluence/support-playbooks/case-handling/ticket-labels.json",
+      "must_contain": [
+        "assistance-failure: booked assistance was not provided.",
+        "label assistance-failure"
+      ],
+      "trap": null,
+      "project": "skyway-s1-r22-confluence-ticket-labels-1"
+    },
+    "sources/confluence/policy-and-compliance/change-log/booked-assistance-not-provided-policy-change.json": {
+      "plan_doc": "docs/confluence/policy-and-compliance/change-log/booked-assistance-not-provided-policy-change.json",
+      "must_contain": [
+        "New policy for booked assistance that was not provided.",
+        "This applies to every request handled from July 1, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s1-r22-log-booked-assistance-not-provided-policy-change-1"
+    },
+    "sources/slack/refunds-desk/booked-airport-assistance-not-provided.json": {
+      "plan_doc": "docs/slack/refunds-desk/booked-airport-assistance-not-provided.json",
+      "must_contain": [
+        "help that came late or was rude is a goodwill case"
+      ],
+      "trap": null,
+      "project": "skyway-s1-r22-slack-booked-airport-assistance-not-provided-1"
+    },
+    "sources/slack/support-policy-questions/question-on-assistance-request-not-shown-in-booking.json": {
+      "plan_doc": "docs/slack/support-policy-questions/question-on-assistance-request-not-shown-in-booking.json",
+      "must_contain": [
+        "assistance that was not booked is not covered"
+      ],
+      "trap": null,
+      "project": "skyway-s1-r22-slack-question-on-assistance-request-not-shown-in-booking-1"
+    },
+    "sources/slack/support-team/assistance-not-provided-credit-question.json": {
+      "plan_doc": "docs/slack/support-team/assistance-not-provided-credit-question.json",
+      "must_contain": [
+        "When booked assistance isn't provided, give $50 goodwill credit."
+      ],
+      "trap": {
+        "for": "R22",
+        "why": "an older team note or FAQ; the policy docs are newer and win"
+      },
+      "project": "skyway-s1-r22-slack-assistance-not-provided-credit-question-1"
+    },
+    "sources/slack/support-team/booked-airport-assistance-follow-up.json": {
+      "plan_doc": "docs/slack/support-team/booked-airport-assistance-follow-up.json",
+      "must_contain": [
+        "assistance that was booked and not provided"
+      ],
+      "trap": null,
+      "project": "skyway-s1-r22-slack-booked-airport-assistance-follow-up-1"
+    },
+    "sources/confluence/customer-policies/fares-and-changes/schedule-changes.json": {
+      "plan_doc": "docs/confluence/customer-policies/fares-and-changes/schedule-changes.json",
+      "must_contain": [
+        "Schedule changes of 2 hours or more: a full refund or a free move.",
+        "moved by 2 hours or more before the trip",
+        "a full refund of the fare and add-ons to the original payment",
+        "any fare, Basic included"
+      ],
+      "trap": null,
+      "project": "skyway-s1-r23-confluence-1"
+    },
+    "sources/confluence/customer-policies/fares-and-changes/schedule-changes-notes.json": {
+      "plan_doc": "docs/confluence/customer-policies/fares-and-changes/schedule-changes-notes.json",
+      "must_contain": [
+        "DRAFT 2025: schedule changes of 3 hours or more."
+      ],
+      "trap": {
+        "for": "R23",
+        "why": "an outdated draft"
+      },
+      "project": "skyway-s1-r23-confluence-schedule-changes-notes-1"
+    },
+    "sources/confluence/policy-and-compliance/change-log/schedule-change-rights.json": {
+      "plan_doc": "docs/confluence/policy-and-compliance/change-log/schedule-change-rights.json",
+      "must_contain": [
+        "New: a departure moved 2+ hours gives a full refund or a free move.",
+        "This applies to every request handled from July 1, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s1-r23-log-1"
+    },
+    "sources/slack/refunds-desk/schedule-change-refunds.json": {
+      "plan_doc": "docs/slack/refunds-desk/schedule-change-refunds.json",
+      "must_contain": [
+        "A Basic customer whose flight moved 2h gets a full refund.",
+        "move free to another Skyway flight on the same route",
+        "within 3 days of the original departure",
+        "a move of less than 2 hours changes nothing: the normal cancel and change rules apply"
+      ],
+      "trap": null,
+      "project": "skyway-s1-r23-slack-1"
+    },
+    "sources/slack/refunds-desk/schedule-change-wording-for-basic-fares.json": {
+      "plan_doc": "docs/slack/refunds-desk/schedule-change-wording-for-basic-fares.json",
+      "must_contain": [
+        "any fare, Basic included"
+      ],
+      "trap": null,
+      "project": "skyway-s1-r23-slack-1"
+    },
+    "sources/slack/support-policy-questions/schedule-change-wording-for-a-customer-case.json": {
+      "plan_doc": "docs/slack/support-policy-questions/schedule-change-wording-for-a-customer-case.json",
+      "must_contain": [
+        "a full refund of the fare and add-ons to the original payment"
+      ],
+      "trap": null,
+      "project": "skyway-s1-r23-slack-1"
+    },
+    "sources/slack/support-team/schedule-change-wording-for-today-s-contacts.json": {
+      "plan_doc": "docs/slack/support-team/schedule-change-wording-for-today-s-contacts.json",
+      "must_contain": [
+        "moved by 2 hours or more before the trip"
+      ],
+      "trap": null,
+      "project": "skyway-s1-r23-slack-1"
+    },
+    "sources/slack/refunds-desk/schedule-change-refund-threshold.json": {
+      "plan_doc": "docs/slack/refunds-desk/schedule-change-refund-threshold.json",
+      "must_contain": [
+        "Customers can cancel for a full refund if the flight moves by 4 hours or more."
+      ],
+      "trap": {
+        "for": "R23",
+        "why": "an older team note or FAQ; the policy docs are newer and win"
+      },
+      "project": "skyway-s1-r23-slack-schedule-change-refund-threshold-1"
+    },
+    "sources/slack/refunds-desk/travel-manager-request-handling-date.json": {
+      "plan_doc": "docs/slack/refunds-desk/travel-manager-request-handling-date.json",
+      "must_contain": [
+        "This applies to every request handled from July 1, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s1-r24-slack-1"
+    },
+    "sources/slack/support-policy-questions/travel-manager-access-question.json": {
+      "plan_doc": "docs/slack/support-policy-questions/travel-manager-access-question.json",
+      "must_contain": [
+        "only on bookings that belong to that account"
+      ],
+      "trap": null,
+      "project": "skyway-s1-r24-slack-1"
+    },
+    "sources/slack/support-team/company-travel-manager-access-question.json": {
+      "plan_doc": "docs/slack/support-team/company-travel-manager-access-question.json",
+      "must_contain": [
+        "listed travel managers may act for the company's travellers"
+      ],
+      "trap": null,
+      "project": "skyway-s1-r24-slack-1"
+    },
+    "sources/slack/support-team/travel-manager-authority-question.json": {
+      "plan_doc": "docs/slack/support-team/travel-manager-authority-question.json",
+      "must_contain": [
+        "Yes, the listed travel manager can cancel for their traveller.",
+        "only on bookings that belong to that account"
+      ],
+      "trap": null,
+      "project": "skyway-s1-r24-slack-1"
+    },
+    "sources/slack/support-policy-questions/travel-manager-booking-requests.json": {
+      "plan_doc": "docs/slack/support-policy-questions/travel-manager-booking-requests.json",
+      "must_contain": [
+        "Travel managers can only ask about bookings they made themselves."
+      ],
+      "trap": {
+        "for": "R24",
+        "why": "an older team note or FAQ; the policy docs are newer and win"
+      },
+      "project": "skyway-s1-r24-slack-travel-manager-booking-requests-1"
+    },
+    "sources/confluence/policy-and-compliance/change-log/july-illness-cancellation-announcement.json": {
+      "plan_doc": "docs/confluence/policy-and-compliance/change-log/july-illness-cancellation-announcement.json",
+      "must_contain": [
+        "Illness cancellations with a doctor's note will get full travel credit; details to follow.",
+        "This applies to every request handled from July 1, whatever the date of the flight.",
+        "full travel credit with a doctor's note",
+        "details to follow"
+      ],
+      "trap": null,
+      "project": "skyway-s1-r25-log-1"
+    },
+    "sources/slack/announcements/illness-cancellations.json": {
+      "plan_doc": "docs/slack/announcements/illness-cancellations.json",
+      "must_contain": [
+        "Illness cancellations with a doctor's note will get full credit. Details to follow.",
+        "full travel credit with a doctor's note",
+        "details to follow",
+        "This applies to every request handled from July 1, whatever the date of the flight.",
+        "until the process is published, an illness cancellation is not a safety case: hand it off as not_covered",
+        "a full refund under another rule, a Flex fare or a Skyway cancellation, replaces the handoff"
+      ],
+      "trap": null,
+      "project": "skyway-s1-r25-slack-1"
+    },
+    "sources/slack/support-team/illness-cancellation-refund-question.json": {
+      "plan_doc": "docs/slack/support-team/illness-cancellation-refund-question.json",
+      "must_contain": [
+        "Illness cancellations get a full refund with a doctor's note."
+      ],
+      "trap": {
+        "for": "R25",
+        "why": "an older team note or FAQ; the policy docs are newer and win"
+      },
+      "project": "skyway-s1-r25-slack-illness-cancellation-refund-question-1"
+    },
+    "sources/confluence/customer-policies/loyalty/gift-credit-promotion.json": {
+      "plan_doc": "docs/confluence/customer-policies/loyalty/gift-credit-promotion.json",
+      "must_contain": [
+        "Buy Skyway gift credit this summer and get 10% extra."
+      ],
+      "trap": {
+        "for": "R3",
+        "why": "a lookalike page: same words, a different situation"
+      },
+      "project": "skyway-s1-r3-confluence-gift-credit-promotion-1"
+    },
+    "sources/confluence/policy-and-compliance/change-log/july-credit-bonus-change.json": {
+      "plan_doc": "docs/confluence/policy-and-compliance/change-log/july-credit-bonus-change.json",
+      "must_contain": [
+        "The 10% bonus on credit taken instead of a refund is withdrawn.",
+        "This applies to every request handled from July 1, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s1-r3-log-1"
+    },
+    "sources/slack/policy-updates/credit-bonus-ends.json": {
+      "plan_doc": "docs/slack/policy-updates/credit-bonus-ends.json",
+      "must_contain": [
+        "The 10% bonus on credit instead of a refund ends June 30.",
+        "credit for the same amount as the refund",
+        "This applies to every request handled from July 1, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s1-r3-slack-1"
+    },
+    "sources/slack/refunds-desk/july-handling-date-question.json": {
+      "plan_doc": "docs/slack/refunds-desk/july-handling-date-question.json",
+      "must_contain": [
+        "This applies to every request handled from July 1, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s1-r3-slack-1"
+    },
+    "sources/slack/support-policy-questions/customer-wording-for-travel-credit-requests.json": {
+      "plan_doc": "docs/slack/support-policy-questions/customer-wording-for-travel-credit-requests.json",
+      "must_contain": [
+        "only when the customer asks for credit"
+      ],
+      "trap": null,
+      "project": "skyway-s1-r3-slack-1"
+    },
+    "sources/slack/support-team/customer-asking-about-travel-credit.json": {
+      "plan_doc": "docs/slack/support-team/customer-asking-about-travel-credit.json",
+      "must_contain": [
+        "credit for the same amount as the refund"
+      ],
+      "trap": null,
+      "project": "skyway-s1-r3-slack-1"
+    },
+    "sources/confluence/support-playbooks/case-handling/ticket-labels-change-log.json": {
+      "plan_doc": "docs/confluence/support-playbooks/case-handling/ticket-labels-change-log.json",
+      "must_contain": [
+        "receipts-needed was renamed awaiting-receipts on July 1."
+      ],
+      "trap": null,
+      "project": "skyway-s1-misc-confluence-1"
+    }
+  },
+  "edits": [
+    {
+      "doc": "docs/confluence/customer-policies/baggage/delayed-bags.json",
+      "find": "$75 for each full 24 hours",
+      "replace": "$90 for each full 24 hours"
+    },
+    {
+      "doc": "docs/confluence/customer-policies/baggage/delayed-bags.json",
+      "find": "up to $375 per bag",
+      "replace": "up to $450 per bag"
+    },
+    {
+      "doc": "docs/confluence/support-playbooks/approvals-and-limits/approval-limits.json",
+      "find": "Above $175 a night, ask a supervisor to approve the room cost, up to $250.",
+      "replace": "Up to $200 a night needs no approval. Above $200, ask a supervisor to approve the room cost, up to $250."
+    },
+    {
+      "doc": "docs/slack/refunds-desk/receipt-attached-after-reimbursement-request.json",
+      "find": "receipts-needed",
+      "replace": "awaiting-receipts"
+    },
+    {
+      "doc": "docs/confluence/customer-policies/cancellations-and-refunds/travel-credit-instead-of-refund.json",
+      "find": "credit worth 110% of the refund",
+      "replace": "credit for the same amount as the refund"
+    },
+    {
+      "doc": "docs/slack/support-escalations/goodwill-limits.json",
+      "find": "one goodwill credit per booking",
+      "replace": "one goodwill credit per booking. Booked assistance that was not provided: $100 per affected passenger, no approval needed; this is not goodwill, so the one-goodwill limit does not apply"
+    }
+  ],
+  "written_by_us": []
+}

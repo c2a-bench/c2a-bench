@@ -1,0 +1,42 @@
+[
+ {
+  "stage": 0,
+  "rel": "slack/refunds-desk/receipt-attached-after-reimbursement-request.json",
+  "remove": [],
+  "add": [
+   "No receipt, no payment: label it receipts-needed."
+  ],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 0,
+  "rel": "slack/support-team/receipt-review-for-disrupted-trip-claim.json",
+  "remove": [
+   "No receipt, no payment: label it receipts-needed."
+  ],
+  "add": [],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 1,
+  "rel": "confluence/support-playbooks/case-handling/travel-managers.json",
+  "remove": [],
+  "add": [
+   "only the booking contact"
+  ],
+  "new_doc": false,
+  "gone": false
+ },
+ {
+  "stage": 4,
+  "rel": "slack/policy-updates/delay-meal-wording-for-support-teams.json",
+  "remove": [],
+  "add": [
+   "a cancellation counts like a 3-hour delay"
+  ],
+  "new_doc": false,
+  "gone": false
+ }
+]

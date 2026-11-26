@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about travel credit instead of a refund.",
+  "files": [
+    {
+      "path": "sources/confluence/support-playbooks/case-handling/travel-credit-offers-quick-guide.json",
+      "description": "A Confluence page in the support-playbooks space for support agents about travel credit instead of a refund, last updated between 2025-05-01 and 2025-12-15. It must contain these sentences word for word: \"Travel credit is worth 120% of the refund.\". Write it plainly as a normal, current doc of its time. Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    }
+  ],
+  "people": [
+    {
+      "name": "Danielle Price",
+      "project_role": "Support Supervisor, Refunds"
+    },
+    {
+      "name": "Sofia Ramirez",
+      "project_role": "Support Team Lead, Disruption Care"
+    },
+    {
+      "name": "Marcus Bell",
+      "project_role": "Customer Support Agent"
+    }
+  ]
+}

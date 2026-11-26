@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about compensation for disruptions.",
+  "files": [
+    {
+      "path": "sources/slack/irregular-ops/72-hour-notice-question.json",
+      "description": "A Slack thread in #irregular-ops between Skyway staff about compensation for disruptions, dated between 2026-01-12 and 2026-05-15: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"less than 72 hours' notice\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention battery, batteries, lithium, power bank, watt-hour."
+    }
+  ],
+  "people": [
+    {
+      "name": "Tyrell Jackson",
+      "project_role": "Support Team Lead, Disruption Care"
+    },
+    {
+      "name": "Erin McKay",
+      "project_role": "Customer Support Agent"
+    },
+    {
+      "name": "Samir Patel",
+      "project_role": "Customer Support Agent"
+    }
+  ]
+}

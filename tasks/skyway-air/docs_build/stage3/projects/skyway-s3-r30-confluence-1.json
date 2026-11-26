@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about family seating.",
+  "files": [
+    {
+      "path": "sources/confluence/customer-policies/special-assistance/family-seating.json",
+      "description": "A Confluence page in the customer-policies space for support agents about family seating, last updated between 2026-08-20 and 2026-09-01. It must contain these sentences word for word: \"Children under 12 sit next to their adult free; refund any seat fee.\"; \"children under 12 sit with their adult for free\"; \"refund the child's seat fee\"; \"only when the child and the adult are on the same booking\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    }
+  ],
+  "people": [
+    {
+      "name": "Janelle Ortiz",
+      "project_role": "Senior Manager, Customer Escalations"
+    },
+    {
+      "name": "Noah Feldman",
+      "project_role": "Support Supervisor, Disruption Care"
+    },
+    {
+      "name": "Tyrell Jackson",
+      "project_role": "Support Team Lead, Disruption Care"
+    }
+  ]
+}

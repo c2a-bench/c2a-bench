@@ -1,0 +1,35 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about payments that fail.",
+  "files": [
+    {
+      "path": "sources/slack/refunds-desk/payment-retry-notes-question.json",
+      "description": "A Slack thread in #refunds-desk between Skyway staff about payments that fail, dated between 2026-08-20 and 2026-09-01: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"If the notes you keep cannot be read, hand off with reason not_covered\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    },
+    {
+      "path": "sources/slack/support-policy-questions/payment-retry-after-processing-error.json",
+      "description": "A Slack thread in #support-policy-questions between Skyway staff about payments that fail, dated between 2026-08-20 and 2026-09-01: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"never send the same payment twice\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    },
+    {
+      "path": "sources/slack/support-team/duplicate-refund-incident.json",
+      "description": "A Slack thread in #support-team between Skyway staff about payments that fail, dated between 2026-08-20 and 2026-09-01: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"Last week a refund was sent twice after a timeout. Check first.\"; \"If the notes you keep cannot be read, hand off with reason not_covered\"; \"do not guess\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    },
+    {
+      "path": "sources/slack/support-team/payment-retry-after-processing-timeout.json",
+      "description": "A Slack thread in #support-team between Skyway staff about payments that fail, dated between 2026-08-20 and 2026-09-01: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"check the records, then send it again once\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    }
+  ],
+  "people": [
+    {
+      "name": "Nia Foster",
+      "project_role": "Senior Customer Support Specialist"
+    },
+    {
+      "name": "Hassan Moore",
+      "project_role": "Customer Support Agent"
+    },
+    {
+      "name": "Marisol Vega",
+      "project_role": "Head of Customer Support"
+    }
+  ]
+}

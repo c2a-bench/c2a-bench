@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about unaccompanied minors.",
+  "files": [
+    {
+      "path": "sources/confluence/support-playbooks/case-handling/um-handover-checklist.json",
+      "description": "A Confluence page in the support-playbooks space for support agents about unaccompanied minors, last updated between 2026-09-08 and 2026-11-03. It must contain these sentences word for word: \"Once the child has been handed to the escort at the airport, the fee is not refunded if the family takes the child home.\". Keep it about its own topic; do not connect it to any other policy. Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    }
+  ],
+  "people": [
+    {
+      "name": "Derek Holloway",
+      "project_role": "Senior Director, Support Operations"
+    },
+    {
+      "name": "Heather Kim",
+      "project_role": "Manager, Knowledge and Policy Enablement"
+    },
+    {
+      "name": "Evan Wallace",
+      "project_role": "Support Supervisor, Digital Care"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about company travel managers.",
+  "files": [
+    {
+      "path": "sources/slack/support-policy-questions/travel-manager-booking-requests.json",
+      "description": "A Slack thread in #support-policy-questions between Skyway staff about company travel managers, dated between 2026-05-26 and 2026-06-30: a normal working conversation; one message may carry each sentence below. It must contain these sentences word for word: \"Travel managers can only ask about bookings they made themselves.\". Write it plainly as a normal, current doc of its time. Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not end the thread with a summary of the answer. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    }
+  ],
+  "people": [
+    {
+      "name": "Nia Foster",
+      "project_role": "Senior Customer Support Specialist"
+    },
+    {
+      "name": "Hassan Moore",
+      "project_role": "Customer Support Agent"
+    },
+    {
+      "name": "Marisol Vega",
+      "project_role": "Head of Customer Support"
+    }
+  ]
+}

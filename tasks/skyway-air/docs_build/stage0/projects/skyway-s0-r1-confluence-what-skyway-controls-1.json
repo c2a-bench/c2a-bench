@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about what counts as a disruption Skyway controls.",
+  "files": [
+    {
+      "path": "sources/confluence/customer-policies/delays-and-disruptions/what-skyway-controls.json",
+      "description": "A Confluence page in the customer-policies space for support agents about what counts as a disruption Skyway controls, last updated between 2026-01-12 and 2026-05-15. It must contain these sentences word for word: \"Crew, mechanical and operations causes are on us\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    }
+  ],
+  "people": [
+    {
+      "name": "Tyrell Jackson",
+      "project_role": "Support Team Lead, Disruption Care"
+    },
+    {
+      "name": "Erin McKay",
+      "project_role": "Customer Support Agent"
+    },
+    {
+      "name": "Samir Patel",
+      "project_role": "Customer Support Agent"
+    }
+  ]
+}

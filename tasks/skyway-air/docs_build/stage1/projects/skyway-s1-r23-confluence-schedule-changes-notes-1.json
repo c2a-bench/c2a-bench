@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about schedule changes.",
+  "files": [
+    {
+      "path": "sources/confluence/customer-policies/fares-and-changes/schedule-changes-notes.json",
+      "description": "A Confluence page in the customer-policies space for support agents about schedule changes, last updated between 2026-05-26 and 2026-06-30. It must contain these sentences word for word: \"DRAFT 2025: schedule changes of 3 hours or more.\". Write it plainly as a normal, current doc of its time. Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    }
+  ],
+  "people": [
+    {
+      "name": "Grace Duffy",
+      "project_role": "Support Team Lead, Refunds"
+    },
+    {
+      "name": "Peter Lawson",
+      "project_role": "Senior Customer Support Specialist"
+    },
+    {
+      "name": "Lydia Chen",
+      "project_role": "Customer Support Agent"
+    }
+  ]
+}

@@ -1,0 +1,182 @@
+{
+  "stage": 4,
+  "docs": {
+    "sources/confluence/policy-and-compliance/change-log/goodwill-update.json": {
+      "plan_doc": "docs/confluence/policy-and-compliance/change-log/goodwill-update.json",
+      "must_contain": [
+        "Goodwill rises to $60 for one problem and $120 (with approval) for two or more.",
+        "This applies to every request handled from November 1, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s4-r16-log-1"
+    },
+    "sources/slack/policy-updates/goodwill-wording-for-service-failures.json": {
+      "plan_doc": "docs/slack/policy-updates/goodwill-wording-for-service-failures.json",
+      "must_contain": [
+        "From November 1 goodwill is $60, or $120 with approval for two problems.",
+        "$60 travel credit",
+        "two or more problems on the same trip: $120 with supervisor approval",
+        "This applies to every request handled from November 1, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s4-r16-slack-1"
+    },
+    "sources/slack/refunds-desk/case-note-wording-for-service-failure.json": {
+      "plan_doc": "docs/slack/refunds-desk/case-note-wording-for-service-failure.json",
+      "must_contain": [
+        "$60 travel credit"
+      ],
+      "trap": null,
+      "project": "skyway-s4-r16-slack-1"
+    },
+    "sources/slack/support-policy-questions/how-to-log-a-service-failure-case.json": {
+      "plan_doc": "docs/slack/support-policy-questions/how-to-log-a-service-failure-case.json",
+      "must_contain": [
+        "a failure with no fee, such as a missing special meal, a broken screen or rude service"
+      ],
+      "trap": null,
+      "project": "skyway-s4-r16-slack-1"
+    },
+    "sources/slack/support-team/question-on-unused-paid-extra-after-service-issue.json": {
+      "plan_doc": "docs/slack/support-team/question-on-unused-paid-extra-after-service-issue.json",
+      "must_contain": [
+        "a paid extra they could not use is refunded to the original payment"
+      ],
+      "trap": null,
+      "project": "skyway-s4-r16-slack-1"
+    },
+    "sources/confluence/customer-policies/special-assistance/unaccompanied-minors-operations-manual.json": {
+      "plan_doc": "docs/confluence/customer-policies/special-assistance/unaccompanied-minors-operations-manual.json",
+      "must_contain": [
+        "A long manual (check-in, handover, escorts, delays); its last paragraph states the fee refund rule.",
+        "required for ages 5 to 14",
+        "$150 per flight",
+        "refund the unaccompanied-minor fee when the trip is cancelled, whatever the reason"
+      ],
+      "trap": null,
+      "project": "skyway-s4-r31-confluence-1"
+    },
+    "sources/confluence/support-playbooks/case-handling/um-handover-checklist.json": {
+      "plan_doc": "docs/confluence/support-playbooks/case-handling/um-handover-checklist.json",
+      "must_contain": [
+        "Once the child has been handed to the escort at the airport, the fee is not refunded if the family takes the child home."
+      ],
+      "trap": {
+        "for": "R31",
+        "why": "a lookalike page: same words, a different situation"
+      },
+      "project": "skyway-s4-r31-confluence-um-handover-checklist-1"
+    },
+    "sources/confluence/support-playbooks/case-handling/unaccompanied-minor-fee-quick-guide.json": {
+      "plan_doc": "docs/confluence/support-playbooks/case-handling/unaccompanied-minor-fee-quick-guide.json",
+      "must_contain": [
+        "The unaccompanied-minor service costs $125 per flight."
+      ],
+      "trap": {
+        "for": "R31",
+        "why": "an older team note or FAQ; the policy docs are newer and win"
+      },
+      "project": "skyway-s4-r31-confluence-unaccompanied-minor-fee-quick-guide-1"
+    },
+    "sources/confluence/policy-and-compliance/change-log/unaccompanied-minor-update.json": {
+      "plan_doc": "docs/confluence/policy-and-compliance/change-log/unaccompanied-minor-update.json",
+      "must_contain": [
+        "New: unaccompanied-minor fees.",
+        "This applies to every request handled from November 1, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s4-r31-log-1"
+    },
+    "sources/slack/refunds-desk/cancelled-trip-and-unaccompanied-minor-fee.json": {
+      "plan_doc": "docs/slack/refunds-desk/cancelled-trip-and-unaccompanied-minor-fee.json",
+      "must_contain": [
+        "refund the unaccompanied-minor fee when the trip is cancelled, whatever the reason"
+      ],
+      "trap": null,
+      "project": "skyway-s4-r31-slack-1"
+    },
+    "sources/slack/refunds-desk/um-fee-refund-handling-question.json": {
+      "plan_doc": "docs/slack/refunds-desk/um-fee-refund-handling-question.json",
+      "must_contain": [
+        "Yes, the UM fee goes back when a 9-year-old's trip is cancelled.",
+        "optional for 15 to 17",
+        "an optional escort fee is refunded only when Skyway cancels the flight"
+      ],
+      "trap": null,
+      "project": "skyway-s4-r31-slack-1"
+    },
+    "sources/slack/support-policy-questions/question-on-um-charge-display.json": {
+      "plan_doc": "docs/slack/support-policy-questions/question-on-um-charge-display.json",
+      "must_contain": [
+        "$150 per flight"
+      ],
+      "trap": null,
+      "project": "skyway-s4-r31-slack-1"
+    },
+    "sources/slack/support-team/question-on-unaccompanied-minor-booking.json": {
+      "plan_doc": "docs/slack/support-team/question-on-unaccompanied-minor-booking.json",
+      "must_contain": [
+        "required for ages 5 to 14"
+      ],
+      "trap": null,
+      "project": "skyway-s4-r31-slack-1"
+    },
+    "sources/confluence/policy-and-compliance/change-log/delay-meal-allowance-update.json": {
+      "plan_doc": "docs/confluence/policy-and-compliance/change-log/delay-meal-allowance-update.json",
+      "must_contain": [
+        "The delay meal allowance rises from $15 to $20.",
+        "This applies to every request handled from November 1, whatever the date of the flight."
+      ],
+      "trap": null,
+      "project": "skyway-s4-r9-log-1"
+    },
+    "sources/slack/policy-updates/delay-meal-wording-for-support-teams.json": {
+      "plan_doc": "docs/slack/policy-updates/delay-meal-wording-for-support-teams.json",
+      "must_contain": [
+        "From November 1 the delay meal allowance is $20 per passenger.",
+        "$20 per passenger for a delay of 3 hours or more",
+        "This applies to every request handled from November 1, whatever the date of the flight.",
+        "a cancellation counts like a 3-hour delay"
+      ],
+      "trap": null,
+      "project": "skyway-s4-r9-slack-1"
+    },
+    "sources/slack/refunds-desk/overnight-delay-case-note.json": {
+      "plan_doc": "docs/slack/refunds-desk/overnight-delay-case-note.json",
+      "must_contain": [
+        "$35 per passenger if they had to stay overnight"
+      ],
+      "trap": null,
+      "project": "skyway-s4-r9-slack-1"
+    },
+    "sources/slack/support-policy-questions/cancellation-handling-question.json": {
+      "plan_doc": "docs/slack/support-policy-questions/cancellation-handling-question.json",
+      "must_contain": [
+        "a cancellation counts like a 3-hour delay"
+      ],
+      "trap": null,
+      "project": "skyway-s4-r9-slack-1"
+    },
+    "sources/slack/support-team/meal-question-for-delayed-flight-cases.json": {
+      "plan_doc": "docs/slack/support-team/meal-question-for-delayed-flight-cases.json",
+      "must_contain": [
+        "$20 per passenger for a delay of 3 hours or more"
+      ],
+      "trap": null,
+      "project": "skyway-s4-r9-slack-1"
+    }
+  },
+  "edits": [
+    {
+      "doc": "docs/confluence/support-playbooks/approvals-and-limits/goodwill.json",
+      "find": "$50 travel credit",
+      "replace": "$60 travel credit"
+    },
+    {
+      "doc": "docs/slack/support-escalations/goodwill-limits.json",
+      "find": "$100 with supervisor approval",
+      "replace": "$120 with supervisor approval"
+    }
+  ],
+  "written_by_us": []
+}

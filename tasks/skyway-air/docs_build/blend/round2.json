@@ -1,0 +1,4226 @@
+{
+ "invoice/confluence/customer-policies/cancellations-and-refunds/reservation-intent-matrix-for-cancellation-questions.json": {
+  "applied": true,
+  "job": "invoice",
+  "new": false,
+  "note": "invoice -> the cost of the courier who took the sig",
+  "rel": "confluence/customer-policies/cancellations-and-refunds/reservation-intent-matrix-for-cancellation-questions.json",
+  "stage": 0
+ },
+ "invoice/confluence/customer-policies/special-assistance/accessible-service-debrief-canvas.json": {
+  "applied": true,
+  "job": "invoice",
+  "new": false,
+  "note": "invoice -> the renewal cost of the screen-recording",
+  "rel": "confluence/customer-policies/special-assistance/accessible-service-debrief-canvas.json",
+  "stage": 0
+ },
+ "invoice/confluence/support-playbooks/case-handling/support-knowledge-replay-room-procedure.json": {
+  "applied": true,
+  "job": "invoice",
+  "new": false,
+  "note": "invoice -> the deposit for next quarter's training ",
+  "rel": "confluence/support-playbooks/case-handling/support-knowledge-replay-room-procedure.json",
+  "stage": 0
+ },
+ "invoice/slack/airport-ops/rdu-concourse-wayfinding-loop-after-flight-pull.json": {
+  "applied": true,
+  "job": "invoice",
+  "new": false,
+  "note": "invoice -> the price of the replacement badge print",
+  "rel": "slack/airport-ops/rdu-concourse-wayfinding-loop-after-flight-pull.json",
+  "stage": 0
+ },
+ "invoice/slack/airport-ops/rdu-weather-shelter-transfer-north-curb.json": {
+  "applied": true,
+  "job": "invoice",
+  "new": false,
+  "note": "invoice -> the cost of the courier who took the sig",
+  "rel": "slack/airport-ops/rdu-weather-shelter-transfer-north-curb.json",
+  "stage": 0
+ },
+ "invoice/slack/baggage-desk/east-cart-handwritten-routing-note.json": {
+  "applied": true,
+  "job": "invoice",
+  "new": false,
+  "note": "invoice -> the catering invoice for the quarterly a",
+  "rel": "slack/baggage-desk/east-cart-handwritten-routing-note.json",
+  "stage": 0
+ },
+ "invoice/slack/baggage-desk/paper-route-map-for-claim-folder-movements.json": {
+  "applied": true,
+  "job": "invoice",
+  "new": false,
+  "note": "invoice -> the catering invoice for the quarterly a",
+  "rel": "slack/baggage-desk/paper-route-map-for-claim-folder-movements.json",
+  "stage": 0
+ },
+ "invoice/slack/irregular-ops/jfk-turnback-dual-path-readiness-thread.json": {
+  "applied": true,
+  "job": "invoice",
+  "new": false,
+  "note": "invoice -> a vendor quote for new monitor arms for ",
+  "rel": "slack/irregular-ops/jfk-turnback-dual-path-readiness-thread.json",
+  "stage": 0
+ },
+ "invoice/slack/refunds-desk/refund-desk-radio-rehearsal-for-split-settlement-clues.json": {
+  "applied": true,
+  "job": "invoice",
+  "new": false,
+  "note": "invoice -> a parking reimbursement form for a train",
+  "rel": "slack/refunds-desk/refund-desk-radio-rehearsal-for-split-settlement-clues.json",
+  "stage": 0
+ },
+ "invoice/slack/support-escalations/nonprofit-coordinator-shared-inbox-handoff.json": {
+  "applied": true,
+  "job": "invoice",
+  "new": false,
+  "note": "invoice -> an invoice for the call recording storag",
+  "rel": "slack/support-escalations/nonprofit-coordinator-shared-inbox-handoff.json",
+  "stage": 0
+ },
+ "invoice/slack/support-escalations/observatory-dome-group-handoff-review.json": {
+  "applied": true,
+  "job": "invoice",
+  "new": false,
+  "note": "invoice -> the deposit for next quarter's training ",
+  "rel": "slack/support-escalations/observatory-dome-group-handoff-review.json",
+  "stage": 0
+ },
+ "invoice/slack/support-escalations/quiet-payment-holds-handoff-map.json": {
+  "applied": true,
+  "job": "invoice",
+  "new": false,
+  "note": "invoice -> the price of the replacement badge print",
+  "rel": "slack/support-escalations/quiet-payment-holds-handoff-map.json",
+  "stage": 0
+ },
+ "invoice/slack/support-escalations/written-contact-preference-station-readiness-check.json": {
+  "applied": true,
+  "job": "invoice",
+  "new": false,
+  "note": "invoice -> the price of the replacement badge print",
+  "rel": "slack/support-escalations/written-contact-preference-station-readiness-check.json",
+  "stage": 0
+ },
+ "invoice/slack/support-policy-questions/destination-alert-unsubscribe-with-trip-notices-kept.json": {
+  "applied": true,
+  "job": "invoice",
+  "new": false,
+  "note": "invoice -> the cost of the ergonomic chairs ordered",
+  "rel": "slack/support-policy-questions/destination-alert-unsubscribe-with-trip-notices-kept.json",
+  "stage": 0
+ },
+ "invoice/slack/support-policy-questions/metasearch-fare-display-escalation.json": {
+  "applied": true,
+  "job": "invoice",
+  "new": false,
+  "note": "invoice -> the catering invoice for the quarterly a",
+  "rel": "slack/support-policy-questions/metasearch-fare-display-escalation.json",
+  "stage": 0
+ },
+ "invoice/slack/support-policy-questions/quiet-desk-annotation-pilot-and-branch-intake.json": {
+  "applied": true,
+  "job": "invoice",
+  "new": false,
+  "note": "invoice -> the cost of the ergonomic chairs ordered",
+  "rel": "slack/support-policy-questions/quiet-desk-annotation-pilot-and-branch-intake.json",
+  "stage": 0
+ },
+ "invoice/slack/support-policy-questions/voicemail-receipt-crosscheck-before-refund-case-link.json": {
+  "applied": true,
+  "job": "invoice",
+  "new": false,
+  "note": "invoice -> the cost of the courier who took the sig",
+  "rel": "slack/support-policy-questions/voicemail-receipt-crosscheck-before-refund-case-link.json",
+  "stage": 0
+ },
+ "invoice/slack/support-team/callback-lane-dry-run-harborline-partners.json": {
+  "applied": true,
+  "job": "invoice",
+  "new": false,
+  "note": "invoice -> the renewal cost of the screen-recording",
+  "rel": "slack/support-team/callback-lane-dry-run-harborline-partners.json",
+  "stage": 0
+ },
+ "invoice/slack/support-team/quiet-room-equipment-handoff-coverage.json": {
+  "applied": true,
+  "job": "invoice",
+  "new": false,
+  "note": "invoice -> the renewal cost of the screen-recording",
+  "rel": "slack/support-team/quiet-room-equipment-handoff-coverage.json",
+  "stage": 0
+ },
+ "invoice/slack/support-team/refund-window-seat-listening-format.json": {
+  "applied": true,
+  "job": "invoice",
+  "new": false,
+  "note": "invoice -> a vendor quote for new monitor arms for ",
+  "rel": "slack/support-team/refund-window-seat-listening-format.json",
+  "stage": 0
+ },
+ "invoice/slack/support-team/shadow-board-messy-customer-timelines.json": {
+  "applied": true,
+  "job": "invoice",
+  "new": false,
+  "note": "invoice -> an invoice for the call recording storag",
+  "rel": "slack/support-team/shadow-board-messy-customer-timelines.json",
+  "stage": 0
+ },
+ "invoice/slack/support-team/stitching-the-blueprint-for-friday-follow-ups.json": {
+  "applied": true,
+  "job": "invoice",
+  "new": false,
+  "note": "invoice -> an invoice for the call recording storag",
+  "rel": "slack/support-team/stitching-the-blueprint-for-friday-follow-ups.json",
+  "stage": 0
+ },
+ "invoice/slack/support-team/thursday-service-desk-relay-rehearsal.json": {
+  "applied": true,
+  "job": "invoice",
+  "new": false,
+  "note": "invoice -> the renewal cost of the screen-recording",
+  "rel": "slack/support-team/thursday-service-desk-relay-rehearsal.json",
+  "stage": 0
+ },
+ "limits/confluence/airport-operations/airport-safety-assurance-briefing-board-checklist.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $35",
+  "rel": "confluence/airport-operations/airport-safety-assurance-briefing-board-checklist.json",
+  "stage": 0
+ },
+ "limits/confluence/airport-operations/baggage-cart-load-pattern-observation-session.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $175",
+  "rel": "confluence/airport-operations/baggage-cart-load-pattern-observation-session.json",
+  "stage": 0
+ },
+ "limits/confluence/airport-operations/baggage-claim-floor-observation-protocol.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $1,000",
+  "rel": "confluence/airport-operations/baggage-claim-floor-observation-protocol.json",
+  "stage": 0
+ },
+ "limits/confluence/airport-operations/baggage-claim-handoff-silent-review-circle.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $150",
+  "rel": "confluence/airport-operations/baggage-claim-handoff-silent-review-circle.json",
+  "stage": 0
+ },
+ "limits/confluence/airport-operations/baggage-desk-signal-to-action-workshop-guide.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $2,500",
+  "rel": "confluence/airport-operations/baggage-desk-signal-to-action-workshop-guide.json",
+  "stage": 0
+ },
+ "limits/confluence/airport-operations/departure-control-transaction-reconciliation-irregular-operations.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $60",
+  "rel": "confluence/airport-operations/departure-control-transaction-reconciliation-irregular-operations.json",
+  "stage": 0
+ },
+ "limits/confluence/airport-operations/departure-readiness-quiet-equipment-observation-sketchbook.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $150",
+  "rel": "confluence/airport-operations/departure-readiness-quiet-equipment-observation-sketchbook.json",
+  "stage": 0
+ },
+ "limits/confluence/airport-operations/departure-snapshot-wall-shift-transitions.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $5,000",
+  "rel": "confluence/airport-operations/departure-snapshot-wall-shift-transitions.json",
+  "stage": 0
+ },
+ "limits/confluence/airport-operations/departure-sort-lane-restart-card.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $750",
+  "rel": "confluence/airport-operations/departure-sort-lane-restart-card.json",
+  "stage": 0
+ },
+ "limits/confluence/airport-operations/gate-desk-five-question-radio-check.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $20",
+  "rel": "confluence/airport-operations/gate-desk-five-question-radio-check.json",
+  "stage": 0
+ },
+ "limits/confluence/airport-operations/irregular-operations-recovery-question-set.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $1,000",
+  "rel": "confluence/airport-operations/irregular-operations-recovery-question-set.json",
+  "stage": 0
+ },
+ "limits/confluence/airport-operations/station-return-to-normal-release-brief.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $150",
+  "rel": "confluence/airport-operations/station-return-to-normal-release-brief.json",
+  "stage": 0
+ },
+ "limits/confluence/airport-operations/terminal-attention-map-workshop.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $175",
+  "rel": "confluence/airport-operations/terminal-attention-map-workshop.json",
+  "stage": 0
+ },
+ "limits/confluence/airport-operations/transfer-bag-reconciliation-desk-procedure.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $200",
+  "rel": "confluence/airport-operations/transfer-bag-reconciliation-desk-procedure.json",
+  "stage": 0
+ },
+ "limits/confluence/customer-policies/baggage/bag-tag-trail-conversation-explainer.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $400",
+  "rel": "confluence/customer-policies/baggage/bag-tag-trail-conversation-explainer.json",
+  "stage": 0
+ },
+ "limits/confluence/customer-policies/baggage/baggage-status-labels-quick-reference.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $1,000",
+  "rel": "confluence/customer-policies/baggage/baggage-status-labels-quick-reference.json",
+  "stage": 0
+ },
+ "limits/confluence/customer-policies/cancellations-and-refunds/cancellation-evidence-packet-assembly.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $120",
+  "rel": "confluence/customer-policies/cancellations-and-refunds/cancellation-evidence-packet-assembly.json",
+  "stage": 0
+ },
+ "limits/confluence/customer-policies/fares-and-changes/booking-receipt-component-map.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $600",
+  "rel": "confluence/customer-policies/fares-and-changes/booking-receipt-component-map.json",
+  "stage": 0
+ },
+ "limits/confluence/customer-policies/loyalty/award-search-support-guide.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $150",
+  "rel": "confluence/customer-policies/loyalty/award-search-support-guide.json",
+  "stage": 0
+ },
+ "limits/confluence/customer-policies/special-assistance/accessible-assistance-quiet-period-coverage-plan.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $100",
+  "rel": "confluence/customer-policies/special-assistance/accessible-assistance-quiet-period-coverage-plan.json",
+  "stage": 0
+ },
+ "limits/confluence/customer-policies/special-assistance/accessible-assistance-service-observation-coding-guide.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $2,500",
+  "rel": "confluence/customer-policies/special-assistance/accessible-assistance-service-observation-coding-guide.json",
+  "stage": 0
+ },
+ "limits/confluence/customer-policies/special-assistance/accessible-assistance-workstation-reset-procedure.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $5,000",
+  "rel": "confluence/customer-policies/special-assistance/accessible-assistance-workstation-reset-procedure.json",
+  "stage": 0
+ },
+ "limits/confluence/customer-policies/special-assistance/three-lane-service-intake-board.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $35",
+  "rel": "confluence/customer-policies/special-assistance/three-lane-service-intake-board.json",
+  "stage": 0
+ },
+ "limits/confluence/customer-policies/special-assistance/wheelchair-service-record-reconciliation.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $40",
+  "rel": "confluence/customer-policies/special-assistance/wheelchair-service-record-reconciliation.json",
+  "stage": 0
+ },
+ "limits/confluence/support-playbooks/case-handling/disruption-cutover-readiness.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $200",
+  "rel": "confluence/support-playbooks/case-handling/disruption-cutover-readiness.json",
+  "stage": 0
+ },
+ "limits/confluence/support-playbooks/case-handling/disruption-desk-replay-clinic.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $225",
+  "rel": "confluence/support-playbooks/case-handling/disruption-desk-replay-clinic.json",
+  "stage": 0
+ },
+ "limits/confluence/support-playbooks/case-handling/refund-operations-signal-board.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $400",
+  "rel": "confluence/support-playbooks/case-handling/refund-operations-signal-board.json",
+  "stage": 0
+ },
+ "limits/confluence/support-playbooks/templates/cross-channel-thread-stitching-notebook.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $500",
+  "rel": "confluence/support-playbooks/templates/cross-channel-thread-stitching-notebook.json",
+  "stage": 0
+ },
+ "limits/confluence/support-playbooks/templates/settlement-intake-language-linter.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $225",
+  "rel": "confluence/support-playbooks/templates/settlement-intake-language-linter.json",
+  "stage": 0
+ },
+ "limits/slack/airport-ops/aftershock-workbench-early-departure-cancellations.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $300",
+  "rel": "slack/airport-ops/aftershock-workbench-early-departure-cancellations.json",
+  "stage": 0
+ },
+ "limits/slack/airport-ops/airport-receipt-sleeve-intake-chain.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $225",
+  "rel": "slack/airport-ops/airport-receipt-sleeve-intake-chain.json",
+  "stage": 0
+ },
+ "limits/slack/airport-ops/blue-cart-radio-check-before-first-push.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $2,500",
+  "rel": "slack/airport-ops/blue-cart-radio-check-before-first-push.json",
+  "stage": 0
+ },
+ "limits/slack/airport-ops/bna-f6-to-f2-passenger-route-marshalling.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $35",
+  "rel": "slack/airport-ops/bna-f6-to-f2-passenger-route-marshalling.json",
+  "stage": 0
+ },
+ "limits/slack/airport-ops/bna-k8-reader-audio-cradle-swap-during-boarding.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $250",
+  "rel": "slack/airport-ops/bna-k8-reader-audio-cradle-swap-during-boarding.json",
+  "stage": 0
+ },
+ "limits/slack/airport-ops/bna-mezzanine-counter-reopening-after-floor-work.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $175",
+  "rel": "slack/airport-ops/bna-mezzanine-counter-reopening-after-floor-work.json",
+  "stage": 0
+ },
+ "limits/slack/airport-ops/bna-mobility-device-staging-split-gate-departures.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $250",
+  "rel": "slack/airport-ops/bna-mobility-device-staging-split-gate-departures.json",
+  "stage": 0
+ },
+ "limits/slack/airport-ops/concourse-c-onward-travel-whiteboard-midday-wave.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $250",
+  "rel": "slack/airport-ops/concourse-c-onward-travel-whiteboard-midday-wave.json",
+  "stage": 0
+ },
+ "limits/slack/airport-ops/concourse-d-tactile-reader-boarding-workaround.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $1,500",
+  "rel": "slack/airport-ops/concourse-d-tactile-reader-boarding-workaround.json",
+  "stage": 0
+ },
+ "limits/slack/airport-ops/dcs-stand-event-feed-gap.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $600",
+  "rel": "slack/airport-ops/dcs-stand-event-feed-gap.json",
+  "stage": 0
+ },
+ "limits/slack/airport-ops/gate-g6-boarding-podium-ethernet-dock-loose.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $250",
+  "rel": "slack/airport-ops/gate-g6-boarding-podium-ethernet-dock-loose.json",
+  "stage": 0
+ },
+ "limits/slack/airport-ops/north-pier-service-point-rover-relay.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $15",
+  "rel": "slack/airport-ops/north-pier-service-point-rover-relay.json",
+  "stage": 0
+ },
+ "limits/slack/airport-ops/quiet-zone-gate-desk-cross-training-cover.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $15",
+  "rel": "slack/airport-ops/quiet-zone-gate-desk-cross-training-cover.json",
+  "stage": 0
+ },
+ "limits/slack/airport-ops/rdu-accessible-jetbridge-doorway-clearance-check-before-evening-arrivals.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $300",
+  "rel": "slack/airport-ops/rdu-accessible-jetbridge-doorway-clearance-check-before-evening-arrivals.json",
+  "stage": 0
+ },
+ "limits/slack/airport-ops/rdu-arrivals-loop-lost-and-found-intake-coaching.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $250",
+  "rel": "slack/airport-ops/rdu-arrivals-loop-lost-and-found-intake-coaching.json",
+  "stage": 0
+ },
+ "limits/slack/airport-ops/rdu-counter-team-manual-sort-during-app-login-loop.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $1,500",
+  "rel": "slack/airport-ops/rdu-counter-team-manual-sort-during-app-login-loop.json",
+  "stage": 0
+ },
+ "limits/slack/airport-ops/rdu-gate-16-cabin-signoff-and-assist-desk-relay.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $2,000",
+  "rel": "slack/airport-ops/rdu-gate-16-cabin-signoff-and-assist-desk-relay.json",
+  "stage": 0
+ },
+ "limits/slack/airport-ops/rdu-remote-boarding-relief-roster-help-point.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $600",
+  "rel": "slack/airport-ops/rdu-remote-boarding-relief-roster-help-point.json",
+  "stage": 0
+ },
+ "limits/slack/airport-ops/rdu-satellite-gate-boarding-cart-labeler-misaligned.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $250",
+  "rel": "slack/airport-ops/rdu-satellite-gate-boarding-cart-labeler-misaligned.json",
+  "stage": 0
+ },
+ "limits/slack/airport-ops/rdu-south-terminal-display-blackout-departure-callout.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $750",
+  "rel": "slack/airport-ops/rdu-south-terminal-display-blackout-departure-callout.json",
+  "stage": 0
+ },
+ "limits/slack/airport-ops/rental-car-shuttle-notebook-recovery.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $200",
+  "rel": "slack/airport-ops/rental-car-shuttle-notebook-recovery.json",
+  "stage": 0
+ },
+ "limits/slack/airport-ops/west-jetbridge-signage-pack-boardwalk-routing.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $100",
+  "rel": "slack/airport-ops/west-jetbridge-signage-pack-boardwalk-routing.json",
+  "stage": 0
+ },
+ "limits/slack/airport-ops/west-lobby-desk-coverage-gate-shuffle.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $2,500",
+  "rel": "slack/airport-ops/west-lobby-desk-coverage-gate-shuffle.json",
+  "stage": 0
+ },
+ "limits/slack/baggage-desk/braided-handle-seam-timeline-replay.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $125",
+  "rel": "slack/baggage-desk/braided-handle-seam-timeline-replay.json",
+  "stage": 0
+ },
+ "limits/slack/baggage-desk/carousel-audio-transition-case-handoff-feedback.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $2,000",
+  "rel": "slack/baggage-desk/carousel-audio-transition-case-handoff-feedback.json",
+  "stage": 0
+ },
+ "limits/slack/baggage-desk/claim-intake-ocr-misread-on-signed-condition-form.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $1,000",
+  "rel": "slack/baggage-desk/claim-intake-ocr-misread-on-signed-condition-form.json",
+  "stage": 0
+ },
+ "limits/slack/baggage-desk/claims-app-narrative-export-for-morning-briefing.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $600",
+  "rel": "slack/baggage-desk/claims-app-narrative-export-for-morning-briefing.json",
+  "stage": 0
+ },
+ "limits/slack/baggage-desk/evening-carton-no-tag-identity-check.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $40",
+  "rel": "slack/baggage-desk/evening-carton-no-tag-identity-check.json",
+  "stage": 0
+ },
+ "limits/slack/baggage-desk/hand-painted-map-tube-destination-desk-pickup.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $150",
+  "rel": "slack/baggage-desk/hand-painted-map-tube-destination-desk-pickup.json",
+  "stage": 0
+ },
+ "limits/slack/baggage-desk/hard-shell-cello-case-intake-station-handoff.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $300",
+  "rel": "slack/baggage-desk/hard-shell-cello-case-intake-station-handoff.json",
+  "stage": 0
+ },
+ "limits/slack/baggage-desk/interstation-alert-context-tablet-demo.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $100",
+  "rel": "slack/baggage-desk/interstation-alert-context-tablet-demo.json",
+  "stage": 0
+ },
+ "limits/slack/baggage-desk/quiet-room-audio-note-rollout-check.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $500",
+  "rel": "slack/baggage-desk/quiet-room-audio-note-rollout-check.json",
+  "stage": 0
+ },
+ "limits/slack/baggage-desk/rdu-central-checkin-mixed-media-rolls.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $25",
+  "rel": "slack/baggage-desk/rdu-central-checkin-mixed-media-rolls.json",
+  "stage": 0
+ },
+ "limits/slack/baggage-desk/weekend-trace-board-carousel-relabeling.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $1,500",
+  "rel": "slack/baggage-desk/weekend-trace-board-carousel-relabeling.json",
+  "stage": 0
+ },
+ "limits/slack/baggage-desk/winter-coat-claim-audio-timeline-rehearsal.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $50",
+  "rel": "slack/baggage-desk/winter-coat-claim-audio-timeline-rehearsal.json",
+  "stage": 0
+ },
+ "limits/slack/digital-team/account-route-session-refresh-after-verification.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $12",
+  "rel": "slack/digital-team/account-route-session-refresh-after-verification.json",
+  "stage": 0
+ },
+ "limits/slack/digital-team/agent-note-composer-keyboard-shortcut-pilot.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $400",
+  "rel": "slack/digital-team/agent-note-composer-keyboard-shortcut-pilot.json",
+  "stage": 0
+ },
+ "limits/slack/digital-team/airport-alias-index-rebuild-watch.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $250",
+  "rel": "slack/digital-team/airport-alias-index-rebuild-watch.json",
+  "stage": 0
+ },
+ "limits/slack/digital-team/anonymous-session-handoff-cart-loss.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $750",
+  "rel": "slack/digital-team/anonymous-session-handoff-cart-loss.json",
+  "stage": 0
+ },
+ "limits/slack/digital-team/app-clips-flight-status-pilot-intake.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $35",
+  "rel": "slack/digital-team/app-clips-flight-status-pilot-intake.json",
+  "stage": 0
+ },
+ "limits/slack/digital-team/back-forward-cache-purchase-signal-investigation.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $200",
+  "rel": "slack/digital-team/back-forward-cache-purchase-signal-investigation.json",
+  "stage": 0
+ },
+ "limits/slack/digital-team/checkout-attempt-identity-insurance-quote-race.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $1,500",
+  "rel": "slack/digital-team/checkout-attempt-identity-insurance-quote-race.json",
+  "stage": 0
+ },
+ "limits/slack/digital-team/checkout-recovery-beacon-missing-after-consent-refresh.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $60",
+  "rel": "slack/digital-team/checkout-recovery-beacon-missing-after-consent-refresh.json",
+  "stage": 0
+ },
+ "limits/slack/digital-team/claim-attachment-review-callback-order.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $100",
+  "rel": "slack/digital-team/claim-attachment-review-callback-order.json",
+  "stage": 0
+ },
+ "limits/slack/digital-team/claim-event-clock-skew-after-midnight.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $2,000",
+  "rel": "slack/digital-team/claim-event-clock-skew-after-midnight.json",
+  "stage": 0
+ },
+ "limits/slack/digital-team/claim-lifecycle-entry-point-canary-checklist.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $75",
+  "rel": "slack/digital-team/claim-lifecycle-entry-point-canary-checklist.json",
+  "stage": 0
+ },
+ "limits/slack/digital-team/claim-status-handoff-rehearsal.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $150",
+  "rel": "slack/digital-team/claim-status-handoff-rehearsal.json",
+  "stage": 0
+ },
+ "limits/slack/digital-team/departure-board-csv-export-keeps-local-time-labels.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $2,000",
+  "rel": "slack/digital-team/departure-board-csv-export-keeps-local-time-labels.json",
+  "stage": 0
+ },
+ "limits/slack/digital-team/itinerary-timeline-semantic-landmarks-review.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $150",
+  "rel": "slack/digital-team/itinerary-timeline-semantic-landmarks-review.json",
+  "stage": 0
+ },
+ "limits/slack/digital-team/message-composer-preview-snapshot-drift.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $2,000",
+  "rel": "slack/digital-team/message-composer-preview-snapshot-drift.json",
+  "stage": 0
+ },
+ "limits/slack/digital-team/multi-city-breadcrumb-release-room.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $300",
+  "rel": "slack/digital-team/multi-city-breadcrumb-release-room.json",
+  "stage": 0
+ },
+ "limits/slack/digital-team/outlook-flight-email-preheader-clipping.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $750",
+  "rel": "slack/digital-team/outlook-flight-email-preheader-clipping.json",
+  "stage": 0
+ },
+ "limits/slack/digital-team/route-picker-resume-attribution-guard.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $2,500",
+  "rel": "slack/digital-team/route-picker-resume-attribution-guard.json",
+  "stage": 0
+ },
+ "limits/slack/digital-team/safari-camera-return-baggage-claim.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $2,000",
+  "rel": "slack/digital-team/safari-camera-return-baggage-claim.json",
+  "stage": 0
+ },
+ "limits/slack/digital-team/sandbox-reservation-webhook-rehearsal.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $150",
+  "rel": "slack/digital-team/sandbox-reservation-webhook-rehearsal.json",
+  "stage": 0
+ },
+ "limits/slack/digital-team/tablet-rotation-seat-picker-toolbar-jump.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $5,000",
+  "rel": "slack/digital-team/tablet-rotation-seat-picker-toolbar-jump.json",
+  "stage": 0
+ },
+ "limits/slack/digital-team/trip-management-pool-wait-alarm.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $2,500",
+  "rel": "slack/digital-team/trip-management-pool-wait-alarm.json",
+  "stage": 0
+ },
+ "limits/slack/finance-ops/agency-settlement-calendar-dry-run-for-new-travel-agent-feed.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $100",
+  "rel": "slack/finance-ops/agency-settlement-calendar-dry-run-for-new-travel-agent-feed.json",
+  "stage": 0
+ },
+ "limits/slack/finance-ops/cedar-pier-local-time-visit-file-review.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $200",
+  "rel": "slack/finance-ops/cedar-pier-local-time-visit-file-review.json",
+  "stage": 0
+ },
+ "limits/slack/finance-ops/daylight-saving-cockpit-handoff-notes.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $300",
+  "rel": "slack/finance-ops/daylight-saving-cockpit-handoff-notes.json",
+  "stage": 0
+ },
+ "limits/slack/finance-ops/monday-kiosk-closeout-handwriting-clinic.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $12",
+  "rel": "slack/finance-ops/monday-kiosk-closeout-handwriting-clinic.json",
+  "stage": 0
+ },
+ "limits/slack/finance-ops/negative-zero-display-in-monthly-close-export.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $1,500",
+  "rel": "slack/finance-ops/negative-zero-display-in-monthly-close-export.json",
+  "stage": 0
+ },
+ "limits/slack/finance-ops/overnight-cancellation-casework-soundcheck.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $100",
+  "rel": "slack/finance-ops/overnight-cancellation-casework-soundcheck.json",
+  "stage": 0
+ },
+ "limits/slack/finance-ops/processor-event-evidence-packet-pilot.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $35",
+  "rel": "slack/finance-ops/processor-event-evidence-packet-pilot.json",
+  "stage": 0
+ },
+ "limits/slack/finance-ops/reconciliation-rehearsal-using-the-mystery-basket.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $75",
+  "rel": "slack/finance-ops/reconciliation-rehearsal-using-the-mystery-basket.json",
+  "stage": 0
+ },
+ "limits/slack/finance-ops/refund-constellation-mapping-session.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $1,000",
+  "rel": "slack/finance-ops/refund-constellation-mapping-session.json",
+  "stage": 0
+ },
+ "limits/slack/finance-ops/settlement-file-column-drift-airport-layout.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $12",
+  "rel": "slack/finance-ops/settlement-file-column-drift-airport-layout.json",
+  "stage": 0
+ },
+ "limits/slack/finance-ops/station-close-paper-scan-handoff-gap.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $75",
+  "rel": "slack/finance-ops/station-close-paper-scan-handoff-gap.json",
+  "stage": 0
+ },
+ "limits/slack/finance-ops/thursday-queue-archaeology-payment-case-walkthrough.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $250",
+  "rel": "slack/finance-ops/thursday-queue-archaeology-payment-case-walkthrough.json",
+  "stage": 0
+ },
+ "limits/slack/irregular-ops/cun-yhz-station-readiness-check.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $2,000",
+  "rel": "slack/irregular-ops/cun-yhz-station-readiness-check.json",
+  "stage": 0
+ },
+ "limits/slack/irregular-ops/forecast-day-accessibility-desk-comms-rehearsal.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $60",
+  "rel": "slack/irregular-ops/forecast-day-accessibility-desk-comms-rehearsal.json",
+  "stage": 0
+ },
+ "limits/slack/irregular-ops/overnight-disruption-desk-briefing-dry-run.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $100",
+  "rel": "slack/irregular-ops/overnight-disruption-desk-briefing-dry-run.json",
+  "stage": 0
+ },
+ "limits/slack/irregular-ops/ozark-tornado-watch-station-status-board.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $150",
+  "rel": "slack/irregular-ops/ozark-tornado-watch-station-status-board.json",
+  "stage": 0
+ },
+ "limits/slack/irregular-ops/rdu-blue-team-split-concourse-coverage.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $375",
+  "rel": "slack/irregular-ops/rdu-blue-team-split-concourse-coverage.json",
+  "stage": 0
+ },
+ "limits/slack/irregular-ops/relay-desk-for-scattered-departures.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $1,000",
+  "rel": "slack/irregular-ops/relay-desk-for-scattered-departures.json",
+  "stage": 0
+ },
+ "limits/slack/irregular-ops/station-pulse-before-the-first-alert.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $175",
+  "rel": "slack/irregular-ops/station-pulse-before-the-first-alert.json",
+  "stage": 0
+ },
+ "limits/slack/loyalty-team/airport-card-printer-payload-reconciliation.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $1,500",
+  "rel": "slack/loyalty-team/airport-card-printer-payload-reconciliation.json",
+  "stage": 0
+ },
+ "limits/slack/loyalty-team/harbor-museum-offline-turnstile-batch-handoff.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $150",
+  "rel": "slack/loyalty-team/harbor-museum-offline-turnstile-batch-handoff.json",
+  "stage": 0
+ },
+ "limits/slack/loyalty-team/linked-party-recognition-handoff.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $100",
+  "rel": "slack/loyalty-team/linked-party-recognition-handoff.json",
+  "stage": 0
+ },
+ "limits/slack/loyalty-team/manual-name-card-intake-for-the-spring-street-fair-desk.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $375",
+  "rel": "slack/loyalty-team/manual-name-card-intake-for-the-spring-street-fair-desk.json",
+  "stage": 0
+ },
+ "limits/slack/loyalty-team/museum-partner-wall-scan-feedback-loop.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $600",
+  "rel": "slack/loyalty-team/museum-partner-wall-scan-feedback-loop.json",
+  "stage": 0
+ },
+ "limits/slack/loyalty-team/quiet-mode-recognition-trial-airport-hearing-loop-users.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $600",
+  "rel": "slack/loyalty-team/quiet-mode-recognition-trial-airport-hearing-loop-users.json",
+  "stage": 0
+ },
+ "limits/slack/loyalty-team/tuesday-callback-clinic-rollover-visibility.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $300",
+  "rel": "slack/loyalty-team/tuesday-callback-clinic-rollover-visibility.json",
+  "stage": 0
+ },
+ "limits/slack/loyalty-team/weekend-voice-of-member-playback-tier-rollout.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $100",
+  "rel": "slack/loyalty-team/weekend-voice-of-member-playback-tier-rollout.json",
+  "stage": 0
+ },
+ "limits/slack/support-escalations/aquatic-research-team-itinerary-with-split-contact-owners.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $2,500",
+  "rel": "slack/support-escalations/aquatic-research-team-itinerary-with-split-contact-owners.json",
+  "stage": 0
+ },
+ "limits/slack/support-escalations/closed-travel-club-access-active-trip-bridge.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $175",
+  "rel": "slack/support-escalations/closed-travel-club-access-active-trip-bridge.json",
+  "stage": 0
+ },
+ "limits/slack/support-escalations/family-boarding-records-gate-transition.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $40",
+  "rel": "slack/support-escalations/family-boarding-records-gate-transition.json",
+  "stage": 0
+ },
+ "limits/slack/support-escalations/infant-and-guardian-records-diverge-after-route-change.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $2,000",
+  "rel": "slack/support-escalations/infant-and-guardian-records-diverge-after-route-change.json",
+  "stage": 0
+ },
+ "limits/slack/support-escalations/kiosk-language-preference-display-mismatch.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $150",
+  "rel": "slack/support-escalations/kiosk-language-preference-display-mismatch.json",
+  "stage": 0
+ },
+ "limits/slack/support-escalations/same-day-standby-pass-duplicated-after-app-recovery.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $200",
+  "rel": "slack/support-escalations/same-day-standby-pass-duplicated-after-app-recovery.json",
+  "stage": 0
+ },
+ "limits/slack/support-escalations/unmatched-conference-registration-traveler-needs-one-case-owner.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $75",
+  "rel": "slack/support-escalations/unmatched-conference-registration-traveler-needs-one-case-owner.json",
+  "stage": 0
+ },
+ "limits/slack/support-escalations/voiceprint-notes-and-social-tone-calibration.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $25",
+  "rel": "slack/support-escalations/voiceprint-notes-and-social-tone-calibration.json",
+  "stage": 0
+ },
+ "limits/slack/support-policy-questions/callback-transcript-reference-gap-review.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $300",
+  "rel": "slack/support-policy-questions/callback-transcript-reference-gap-review.json",
+  "stage": 0
+ },
+ "limits/slack/support-policy-questions/checked-in-traveler-removal-request.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $250",
+  "rel": "slack/support-policy-questions/checked-in-traveler-removal-request.json",
+  "stage": 0
+ },
+ "limits/slack/support-policy-questions/customer-asks-about-connecting-flight-under-different-last-name.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $400",
+  "rel": "slack/support-policy-questions/customer-asks-about-connecting-flight-under-different-last-name.json",
+  "stage": 0
+ },
+ "limits/slack/support-policy-questions/customer-created-trip-label-airport-visibility.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $120",
+  "rel": "slack/support-policy-questions/customer-created-trip-label-airport-visibility.json",
+  "stage": 0
+ },
+ "limits/slack/support-policy-questions/customer-wording-glossary-for-ambiguous-trip-requests.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $5,000",
+  "rel": "slack/support-policy-questions/customer-wording-glossary-for-ambiguous-trip-requests.json",
+  "stage": 0
+ },
+ "limits/slack/support-policy-questions/family-pass-display-order-audit-question.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $75",
+  "rel": "slack/support-policy-questions/family-pass-display-order-audit-question.json",
+  "stage": 0
+ },
+ "limits/slack/support-policy-questions/overnight-disruption-queue-handoff-map.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $100",
+  "rel": "slack/support-policy-questions/overnight-disruption-queue-handoff-map.json",
+  "stage": 0
+ },
+ "limits/slack/support-policy-questions/passenger-title-display-correction-in-itinerary.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $60",
+  "rel": "slack/support-policy-questions/passenger-title-display-correction-in-itinerary.json",
+  "stage": 0
+ },
+ "limits/slack/support-policy-questions/quiet-room-callback-relay-finance-watch.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $1,000",
+  "rel": "slack/support-policy-questions/quiet-room-callback-relay-finance-watch.json",
+  "stage": 0
+ },
+ "limits/slack/support-policy-questions/refund-contact-history-join-and-bank-label-handoff.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $300",
+  "rel": "slack/support-policy-questions/refund-contact-history-join-and-bank-label-handoff.json",
+  "stage": 0
+ },
+ "limits/slack/support-policy-questions/third-party-parking-code-trip-attachment-question.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $2,000",
+  "rel": "slack/support-policy-questions/third-party-parking-code-trip-attachment-question.json",
+  "stage": 0
+ },
+ "limits/slack/support-team/after-hours-learning-loop-coaching.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $300",
+  "rel": "slack/support-team/after-hours-learning-loop-coaching.json",
+  "stage": 0
+ },
+ "limits/slack/support-team/bookmarkless-composer-navigation-pilot.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $5,000",
+  "rel": "slack/support-team/bookmarkless-composer-navigation-pilot.json",
+  "stage": 0
+ },
+ "limits/slack/support-team/calendar-block-collision-triage.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $100",
+  "rel": "slack/support-team/calendar-block-collision-triage.json",
+  "stage": 0
+ },
+ "limits/slack/support-team/case-bookmarks-for-the-four-way-desk-change.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $125",
+  "rel": "slack/support-team/case-bookmarks-for-the-four-way-desk-change.json",
+  "stage": 0
+ },
+ "limits/slack/support-team/case-note-calibration-cards-for-the-april-intake.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $175",
+  "rel": "slack/support-team/case-note-calibration-cards-for-the-april-intake.json",
+  "stage": 0
+ },
+ "limits/slack/support-team/desk-bell-relay-new-hire-calibration-morning.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $375",
+  "rel": "slack/support-team/desk-bell-relay-new-hire-calibration-morning.json",
+  "stage": 0
+ },
+ "limits/slack/support-team/handoff-lane-coaching-observation-pairing.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $250",
+  "rel": "slack/support-team/handoff-lane-coaching-observation-pairing.json",
+  "stage": 0
+ },
+ "limits/slack/support-team/last-known-fact-notes-for-repeated-irregular-ops-contacts.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $120",
+  "rel": "slack/support-team/last-known-fact-notes-for-repeated-irregular-ops-contacts.json",
+  "stage": 0
+ },
+ "limits/slack/support-team/loose-ends-before-the-lanterns-come-on.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $50",
+  "rel": "slack/support-team/loose-ends-before-the-lanterns-come-on.json",
+  "stage": 0
+ },
+ "limits/slack/support-team/mentoring-rhythm-for-evening-rotation.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $120",
+  "rel": "slack/support-team/mentoring-rhythm-for-evening-rotation.json",
+  "stage": 0
+ },
+ "limits/slack/support-team/overnight-inbox-ownership-and-coach-listenback.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $120",
+  "rel": "slack/support-team/overnight-inbox-ownership-and-coach-listenback.json",
+  "stage": 0
+ },
+ "limits/slack/support-team/standby-paper-flow-volunteers-afternoon-interruption.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $250",
+  "rel": "slack/support-team/standby-paper-flow-volunteers-afternoon-interruption.json",
+  "stage": 0
+ },
+ "limits/slack/support-team/the-broken-bookmark-drill.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $35",
+  "rel": "slack/support-team/the-broken-bookmark-drill.json",
+  "stage": 0
+ },
+ "limits/slack/support-team/thursday-language-lane-rehearsal-and-coach-swap.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $200",
+  "rel": "slack/support-team/thursday-language-lane-rehearsal-and-coach-swap.json",
+  "stage": 0
+ },
+ "limits/slack/support-team/thursday-vendor-console-seat-exchange.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $400",
+  "rel": "slack/support-team/thursday-vendor-console-seat-exchange.json",
+  "stage": 0
+ },
+ "limits/slack/support-team/tuesday-contact-shape-weekend-roster-experiment.json": {
+  "applied": true,
+  "job": "limits",
+  "new": false,
+  "note": "limit $750",
+  "rel": "slack/support-team/tuesday-contact-shape-weekend-roster-experiment.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/ageing-board-colour-key.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 9 -> 13 messages",
+  "rel": "slack/refunds-desk/ageing-board-colour-key.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/ageing-dashboard-colour-guide-notes.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 6 -> 17 messages",
+  "rel": "slack/refunds-desk/ageing-dashboard-colour-guide-notes.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/ageing-dashboard-colour-guide.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 9 -> 24 messages",
+  "rel": "slack/refunds-desk/ageing-dashboard-colour-guide.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/ageing-dashboard-colour-key-notes.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 6 -> 14 messages",
+  "rel": "slack/refunds-desk/ageing-dashboard-colour-key-notes.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/ageing-dashboard-colour-key-question.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 12 -> 19 messages",
+  "rel": "slack/refunds-desk/ageing-dashboard-colour-key-question.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/ageing-dashboard-colour-key.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 14 messages",
+  "rel": "slack/refunds-desk/ageing-dashboard-colour-key.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/ageing-dashboard-colours.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 11 -> 10 messages",
+  "rel": "slack/refunds-desk/ageing-dashboard-colours.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/alternate-email-identity-check.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 17 messages",
+  "rel": "slack/refunds-desk/alternate-email-identity-check.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/audit-notes-in-closed-cases-notes.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 11 -> 22 messages",
+  "rel": "slack/refunds-desk/audit-notes-in-closed-cases-notes.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/audit-notes-in-closed-cases.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 9 -> 17 messages",
+  "rel": "slack/refunds-desk/audit-notes-in-closed-cases.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/audit-notes-on-closed-cases.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 9 -> 14 messages",
+  "rel": "slack/refunds-desk/audit-notes-on-closed-cases.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/call-back-board-for-phone-requested-contacts-notes.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 7 -> 22 messages",
+  "rel": "slack/refunds-desk/call-back-board-for-phone-requested-contacts-notes.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/call-back-board-for-phone-requested-contacts.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 9 -> 12 messages",
+  "rel": "slack/refunds-desk/call-back-board-for-phone-requested-contacts.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/call-back-schedule-for-phone-request-cases-notes.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 9 -> 13 messages",
+  "rel": "slack/refunds-desk/call-back-schedule-for-phone-request-cases-notes.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/call-back-schedule-for-phone-request-cases.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 14 messages",
+  "rel": "slack/refunds-desk/call-back-schedule-for-phone-request-cases.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/callback-board-for-phone-preference-cases.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 9 -> 22 messages",
+  "rel": "slack/refunds-desk/callback-board-for-phone-preference-cases.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/callback-board-for-phone-request-cases.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 12 -> 14 messages",
+  "rel": "slack/refunds-desk/callback-board-for-phone-request-cases.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/callback-queue-handoff.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 10 -> 17 messages",
+  "rel": "slack/refunds-desk/callback-queue-handoff.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/card-team-paperwork-and-case-history-notes.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 20 messages",
+  "rel": "slack/refunds-desk/card-team-paperwork-and-case-history-notes.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/card-team-paperwork-and-case-history-owner.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 9 -> 26 messages",
+  "rel": "slack/refunds-desk/card-team-paperwork-and-case-history-owner.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/card-team-paperwork-and-case-history.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 5 -> 11 messages",
+  "rel": "slack/refunds-desk/card-team-paperwork-and-case-history.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/card-team-paperwork-case-history.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 6 -> 15 messages",
+  "rel": "slack/refunds-desk/card-team-paperwork-case-history.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/card-team-paperwork-for-case-history.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 17 messages",
+  "rel": "slack/refunds-desk/card-team-paperwork-for-case-history.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/case-tag-drift-and-desk-list-cleanup.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 9 -> 10 messages",
+  "rel": "slack/refunds-desk/case-tag-drift-and-desk-list-cleanup.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/case-tag-tidy-up-notes.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 20 messages",
+  "rel": "slack/refunds-desk/case-tag-tidy-up-notes.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/case-tag-tidy-up.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 9 -> 16 messages",
+  "rel": "slack/refunds-desk/case-tag-tidy-up.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/case-tags-drift-and-cleanup.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 11 -> 12 messages",
+  "rel": "slack/refunds-desk/case-tags-drift-and-cleanup.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/case-tool-shadow-questions.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 7 -> 26 messages",
+  "rel": "slack/refunds-desk/case-tool-shadow-questions.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/cb-case-history-split.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 5 -> 19 messages",
+  "rel": "slack/refunds-desk/cb-case-history-split.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/chargeback-case-history-packet.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 12 -> 10 messages",
+  "rel": "slack/refunds-desk/chargeback-case-history-packet.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/chargeback-paperwork-case-history.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 7 -> 19 messages",
+  "rel": "slack/refunds-desk/chargeback-paperwork-case-history.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/combined-group-status-request.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 5 -> 18 messages",
+  "rel": "slack/refunds-desk/combined-group-status-request.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/different-contact-email-check.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 7 -> 6 messages",
+  "rel": "slack/refunds-desk/different-contact-email-check.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/different-email-identity-check-on-case-rfd.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 10 messages",
+  "rel": "slack/refunds-desk/different-email-identity-check-on-case-rfd.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/different-email-identity-check.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 12 -> 11 messages",
+  "rel": "slack/refunds-desk/different-email-identity-check.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/different-email-on-case.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 12 messages",
+  "rel": "slack/refunds-desk/different-email-on-case.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/different-email-on-identity-check.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 7 -> 14 messages",
+  "rel": "slack/refunds-desk/different-email-on-identity-check.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/duplicate-booking-case-cleanup-follow-up.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 9 -> 15 messages",
+  "rel": "slack/refunds-desk/duplicate-booking-case-cleanup-follow-up.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/duplicate-booking-case-cleanup-notes.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 7 -> 26 messages",
+  "rel": "slack/refunds-desk/duplicate-booking-case-cleanup-notes.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/duplicate-booking-case-cleanup-question.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 9 -> 22 messages",
+  "rel": "slack/refunds-desk/duplicate-booking-case-cleanup-question.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/duplicate-booking-case-cleanup.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 19 messages",
+  "rel": "slack/refunds-desk/duplicate-booking-case-cleanup.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/duplicate-booking-cases-cleanup-and-case-home.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 16 messages",
+  "rel": "slack/refunds-desk/duplicate-booking-cases-cleanup-and-case-home.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/duplicate-booking-cases-in-the-refund-queue.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 20 messages",
+  "rel": "slack/refunds-desk/duplicate-booking-cases-in-the-refund-queue.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/duplicate-case-cleanup-for-bk7m2q.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 11 messages",
+  "rel": "slack/refunds-desk/duplicate-case-cleanup-for-bk7m2q.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/duplicate-contacts-for-one-booking.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 6 -> 22 messages",
+  "rel": "slack/refunds-desk/duplicate-contacts-for-one-booking.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/duplicate-contacts-on-payment-event.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 9 messages",
+  "rel": "slack/refunds-desk/duplicate-contacts-on-payment-event.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/email-mismatch-identity-check.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 5 -> 14 messages",
+  "rel": "slack/refunds-desk/email-mismatch-identity-check.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/email-mismatch-on-skw.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 9 -> 15 messages",
+  "rel": "slack/refunds-desk/email-mismatch-on-skw.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/group-organiser-asks-for-one-status-note.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 10 -> 17 messages",
+  "rel": "slack/refunds-desk/group-organiser-asks-for-one-status-note.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/group-organiser-combined-update.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 7 -> 15 messages",
+  "rel": "slack/refunds-desk/group-organiser-combined-update.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/group-organiser-requesting-one-status-update.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 4 -> 26 messages",
+  "rel": "slack/refunds-desk/group-organiser-requesting-one-status-update.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/group-organiser-status-request-notes.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 10 -> 18 messages",
+  "rel": "slack/refunds-desk/group-organiser-status-request-notes.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/group-organiser-status-request.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 5 -> 6 messages",
+  "rel": "slack/refunds-desk/group-organiser-status-request.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/group-organiser-wants-one-status-note.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 10 -> 22 messages",
+  "rel": "slack/refunds-desk/group-organiser-wants-one-status-note.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/late-processor-batch-tracking-check.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 5 -> 26 messages",
+  "rel": "slack/refunds-desk/late-processor-batch-tracking-check.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/late-processor-batch-tracking-follow-up.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 10 -> 24 messages",
+  "rel": "slack/refunds-desk/late-processor-batch-tracking-follow-up.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/late-processor-batch-tracking-notes.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 6 messages",
+  "rel": "slack/refunds-desk/late-processor-batch-tracking-notes.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/late-processor-batch-tracking-question.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 20 messages",
+  "rel": "slack/refunds-desk/late-processor-batch-tracking-question.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/late-processor-batch-tracking-update.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 9 -> 12 messages",
+  "rel": "slack/refunds-desk/late-processor-batch-tracking-update.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/late-processor-batch-tracking.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 9 -> 13 messages",
+  "rel": "slack/refunds-desk/late-processor-batch-tracking.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/long-weekend-handoff-notes-and-shared-inbox.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 5 -> 13 messages",
+  "rel": "slack/refunds-desk/long-weekend-handoff-notes-and-shared-inbox.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/long-weekend-inbox-handoff-check.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 14 messages",
+  "rel": "slack/refunds-desk/long-weekend-inbox-handoff-check.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/long-weekend-inbox-handoff-follow-up.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 10 -> 12 messages",
+  "rel": "slack/refunds-desk/long-weekend-inbox-handoff-follow-up.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/long-weekend-inbox-handoff-notes.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 9 -> 17 messages",
+  "rel": "slack/refunds-desk/long-weekend-inbox-handoff-notes.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/long-weekend-inbox-handoff-question.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 6 -> 17 messages",
+  "rel": "slack/refunds-desk/long-weekend-inbox-handoff-question.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/long-weekend-inbox-handoff-review.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 19 -> 20 messages",
+  "rel": "slack/refunds-desk/long-weekend-inbox-handoff-review.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/long-weekend-inbox-handoff-update.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 10 -> 16 messages",
+  "rel": "slack/refunds-desk/long-weekend-inbox-handoff-update.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/long-weekend-inbox-handoff.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 6 -> 18 messages",
+  "rel": "slack/refunds-desk/long-weekend-inbox-handoff.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/macro-greeting-name-mismatch.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 14 messages",
+  "rel": "slack/refunds-desk/macro-greeting-name-mismatch.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/macro-name-field-mismatch.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 14 messages",
+  "rel": "slack/refunds-desk/macro-name-field-mismatch.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/merge-check-for-repeat-contacts.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 10 -> 18 messages",
+  "rel": "slack/refunds-desk/merge-check-for-repeat-contacts.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/merge-three-contacts-on-one-group-booking.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 11 messages",
+  "rel": "slack/refunds-desk/merge-three-contacts-on-one-group-booking.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/merging-repeat-contacts-into-one-case.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 10 -> 14 messages",
+  "rel": "slack/refunds-desk/merging-repeat-contacts-into-one-case.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/month-end-finance-references-notes.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 19 messages",
+  "rel": "slack/refunds-desk/month-end-finance-references-notes.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/month-end-finance-references-question.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 7 -> 21 messages",
+  "rel": "slack/refunds-desk/month-end-finance-references-question.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/month-end-finance-references.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 9 -> 17 messages",
+  "rel": "slack/refunds-desk/month-end-finance-references.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/month-end-reference-check-notes.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 16 messages",
+  "rel": "slack/refunds-desk/month-end-reference-check-notes.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/month-end-reference-check-question.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 11 -> 17 messages",
+  "rel": "slack/refunds-desk/month-end-reference-check-question.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/month-end-reference-check.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 10 -> 9 messages",
+  "rel": "slack/refunds-desk/month-end-reference-check.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/month-end-reference-sweep.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 11 -> 12 messages",
+  "rel": "slack/refunds-desk/month-end-reference-sweep.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/morning-queue-ownership-and-finance-holds.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 12 messages",
+  "rel": "slack/refunds-desk/morning-queue-ownership-and-finance-holds.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/morning-queue-ownership.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 11 messages",
+  "rel": "slack/refunds-desk/morning-queue-ownership.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/morning-queue-split-and-finance-holds-notes.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 9 -> 24 messages",
+  "rel": "slack/refunds-desk/morning-queue-split-and-finance-holds-notes.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/morning-queue-split-and-finance-holds.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 10 -> 16 messages",
+  "rel": "slack/refunds-desk/morning-queue-split-and-finance-holds.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/morning-queue-split-desk-work-and-finance-holds.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 10 -> 14 messages",
+  "rel": "slack/refunds-desk/morning-queue-split-desk-work-and-finance-holds.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/morning-queue-split.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 16 messages",
+  "rel": "slack/refunds-desk/morning-queue-split.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/morning-refund-queue-split.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 11 -> 26 messages",
+  "rel": "slack/refunds-desk/morning-refund-queue-split.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/name-field-pulling-from-prior-case-in-closure-macro.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 16 messages",
+  "rel": "slack/refunds-desk/name-field-pulling-from-prior-case-in-closure-macro.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/name-merge-issue-in-refund-reply-macro.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 10 -> 12 messages",
+  "rel": "slack/refunds-desk/name-merge-issue-in-refund-reply-macro.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/name-token-in-refund-macro.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 12 -> 14 messages",
+  "rel": "slack/refunds-desk/name-token-in-refund-macro.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/new-hire-case-tool-shadow-questions.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 9 -> 16 messages",
+  "rel": "slack/refunds-desk/new-hire-case-tool-shadow-questions.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/phone-contact-with-no-reference-follow-up.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 9 -> 20 messages",
+  "rel": "slack/refunds-desk/phone-contact-with-no-reference-follow-up.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/phone-contact-with-no-reference-notes.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 11 -> 6 messages",
+  "rel": "slack/refunds-desk/phone-contact-with-no-reference-notes.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/phone-contact-with-no-reference-number.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 10 -> 10 messages",
+  "rel": "slack/refunds-desk/phone-contact-with-no-reference-number.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/phone-contact-with-no-reference-question.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 7 -> 12 messages",
+  "rel": "slack/refunds-desk/phone-contact-with-no-reference-question.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/phone-contact-with-no-reference.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 7 -> 16 messages",
+  "rel": "slack/refunds-desk/phone-contact-with-no-reference.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/phone-note-with-no-reference-number.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 16 messages",
+  "rel": "slack/refunds-desk/phone-note-with-no-reference-number.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/phone-note-without-a-reference-number.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 9 -> 16 messages",
+  "rel": "slack/refunds-desk/phone-note-without-a-reference-number.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/portuguese-customer-translation-check.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 9 -> 9 messages",
+  "rel": "slack/refunds-desk/portuguese-customer-translation-check.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/portuguese-translation-check-on-case-notes.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 10 -> 19 messages",
+  "rel": "slack/refunds-desk/portuguese-translation-check-on-case-notes.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/portuguese-translation-for-rf-notes.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 10 messages",
+  "rel": "slack/refunds-desk/portuguese-translation-for-rf-notes.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/portuguese-translation-for-rf.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 5 -> 20 messages",
+  "rel": "slack/refunds-desk/portuguese-translation-for-rf.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/portuguese-translation-on-itinerary-change-case.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 15 messages",
+  "rel": "slack/refunds-desk/portuguese-translation-on-itinerary-change-case.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/portuguese-translation-request-on-itinerary-case.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 10 -> 20 messages",
+  "rel": "slack/refunds-desk/portuguese-translation-request-on-itinerary-case.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/portuguese-wording-check-for-rfd.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 5 -> 12 messages",
+  "rel": "slack/refunds-desk/portuguese-wording-check-for-rfd.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/processor-batch-arrival-tracking.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 9 -> 6 messages",
+  "rel": "slack/refunds-desk/processor-batch-arrival-tracking.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/reading-a-bank-statement-attachment.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 11 -> 24 messages",
+  "rel": "slack/refunds-desk/reading-a-bank-statement-attachment.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/reading-a-customer-bank-statement-screenshot.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 10 -> 18 messages",
+  "rel": "slack/refunds-desk/reading-a-customer-bank-statement-screenshot.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/reading-issuer-labels-on-statement-screenshots.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 22 messages",
+  "rel": "slack/refunds-desk/reading-issuer-labels-on-statement-screenshots.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/reading-the-bank-statement-lines.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 6 -> 13 messages",
+  "rel": "slack/refunds-desk/reading-the-bank-statement-lines.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/reading-the-bank-view-line-items-on-a-confusing-attachment.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 6 -> 16 messages",
+  "rel": "slack/refunds-desk/reading-the-bank-view-line-items-on-a-confusing-attachment.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/reading-the-customer-bank-screenshot.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 4 -> 22 messages",
+  "rel": "slack/refunds-desk/reading-the-customer-bank-screenshot.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/reading-the-customer-bank-statement-lines.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 6 -> 20 messages",
+  "rel": "slack/refunds-desk/reading-the-customer-bank-statement-lines.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/receipt-date-mismatch-locating-the-source-record.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 7 -> 12 messages",
+  "rel": "slack/refunds-desk/receipt-date-mismatch-locating-the-source-record.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/receipt-date-mismatch-on-br-7kq2.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 11 -> 14 messages",
+  "rel": "slack/refunds-desk/receipt-date-mismatch-on-br-7kq2.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/receipt-date-mismatch-on-case-search.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 10 -> 12 messages",
+  "rel": "slack/refunds-desk/receipt-date-mismatch-on-case-search.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/receipt-date-mismatch-on-case-sr.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 26 messages",
+  "rel": "slack/refunds-desk/receipt-date-mismatch-on-case-sr.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/receipt-date-mismatch-on-case.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 10 -> 26 messages",
+  "rel": "slack/refunds-desk/receipt-date-mismatch-on-case.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/receipt-date-trace-for-case.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 9 -> 16 messages",
+  "rel": "slack/refunds-desk/receipt-date-trace-for-case.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/receipt-date-trace.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 9 -> 16 messages",
+  "rel": "slack/refunds-desk/receipt-date-trace.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/same-customer-contacts-split-across-cases.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 12 -> 12 messages",
+  "rel": "slack/refunds-desk/same-customer-contacts-split-across-cases.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/shadow-questions-on-case-fields.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 19 messages",
+  "rel": "slack/refunds-desk/shadow-questions-on-case-fields.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/shadow-questions-on-case-tool-handoffs.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 11 -> 13 messages",
+  "rel": "slack/refunds-desk/shadow-questions-on-case-tool-handoffs.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/shadow-questions-on-case-tool-views.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 11 -> 16 messages",
+  "rel": "slack/refunds-desk/shadow-questions-on-case-tool-views.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/shadow-questions-on-the-case-tool-notes.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 9 -> 14 messages",
+  "rel": "slack/refunds-desk/shadow-questions-on-the-case-tool-notes.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/shadow-questions-on-the-case-tool.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 11 -> 12 messages",
+  "rel": "slack/refunds-desk/shadow-questions-on-the-case-tool.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/shadowing-questions-from-the-desk.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 6 -> 6 messages",
+  "rel": "slack/refunds-desk/shadowing-questions-from-the-desk.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/summarising-a-long-customer-email-notes.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 19 messages",
+  "rel": "slack/refunds-desk/summarising-a-long-customer-email-notes.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/summarising-a-long-customer-email.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 6 -> 14 messages",
+  "rel": "slack/refunds-desk/summarising-a-long-customer-email.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/summarising-long-customer-emails.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 16 messages",
+  "rel": "slack/refunds-desk/summarising-long-customer-emails.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/summarising-the-long-customer-email-before-handoff.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 13 messages",
+  "rel": "slack/refunds-desk/summarising-the-long-customer-email-before-handoff.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/summarising-the-long-email-without-losing-the-trail.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 10 -> 14 messages",
+  "rel": "slack/refunds-desk/summarising-the-long-email-without-losing-the-trail.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/summarizing-a-long-group-booking-email.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 16 messages",
+  "rel": "slack/refunds-desk/summarizing-a-long-group-booking-email.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/summarizing-long-customer-emails.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 12 -> 11 messages",
+  "rel": "slack/refunds-desk/summarizing-long-customer-emails.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/tag-drift-cleanup-notes.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 11 -> 6 messages",
+  "rel": "slack/refunds-desk/tag-drift-cleanup-notes.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/tag-drift-cleanup.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 10 -> 6 messages",
+  "rel": "slack/refunds-desk/tag-drift-cleanup.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/tag-list-tidy-up.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 12 -> 16 messages",
+  "rel": "slack/refunds-desk/tag-list-tidy-up.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/three-same-day-contacts-under-separate-cases.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 13 -> 22 messages",
+  "rel": "slack/refunds-desk/three-same-day-contacts-under-separate-cases.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/triple-contact-merge-on-payment-status-case.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 12 -> 10 messages",
+  "rel": "slack/refunds-desk/triple-contact-merge-on-payment-status-case.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/weekly-audit-note-flags-notes.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 10 -> 6 messages",
+  "rel": "slack/refunds-desk/weekly-audit-note-flags-notes.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/weekly-audit-note-flags.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 9 -> 21 messages",
+  "rel": "slack/refunds-desk/weekly-audit-note-flags.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/weekly-audit-note-gaps.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 10 -> 12 messages",
+  "rel": "slack/refunds-desk/weekly-audit-note-gaps.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/weekly-audit-notes-gaps.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 8 -> 6 messages",
+  "rel": "slack/refunds-desk/weekly-audit-notes-gaps.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/weekly-audit-notes-on-closed-cases.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 6 -> 18 messages",
+  "rel": "slack/refunds-desk/weekly-audit-notes-on-closed-cases.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/wrong-name-in-refund-status-macro.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 7 -> 18 messages",
+  "rel": "slack/refunds-desk/wrong-name-in-refund-status-macro.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/wrong-name-macro-in-payment-event-replies.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 7 -> 14 messages",
+  "rel": "slack/refunds-desk/wrong-name-macro-in-payment-event-replies.json",
+  "stage": 0
+ },
+ "refunds/slack/refunds-desk/wrong-name-macro-workaround.json": {
+  "applied": true,
+  "job": "refunds",
+  "new": false,
+  "note": "refunds thread, 11 -> 13 messages",
+  "rel": "slack/refunds-desk/wrong-name-macro-workaround.json",
+  "stage": 0
+ },
+ "topup/1/0": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 4233 characters",
+  "rel": "slack/digital-team/android-intake-summary-keeps-prior-flight-selection.json",
+  "stage": 1
+ },
+ "topup/1/1": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 9160 characters",
+  "rel": "confluence/support-playbooks/case-handling/contact-channel-and-conversation-continuity-recording-how-the-customer-reached-u.json",
+  "stage": 1
+ },
+ "topup/1/10": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 9361 characters",
+  "rel": "confluence/finance/corporate-card-receipt-metadata-reconciliation-coordination-sheet.json",
+  "stage": 1
+ },
+ "topup/1/11": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 4976 characters",
+  "rel": "slack/refunds-desk/timeline-order-on-payment-exception-handoff.json",
+  "stage": 1
+ },
+ "topup/1/12": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 3166 characters",
+  "rel": "slack/support-team/unclaimed-chat-handoff-tags.json",
+  "stage": 1
+ },
+ "topup/1/13": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 5307 characters",
+  "rel": "confluence/airport-operations/gate-podium-overflow-desk-activation-and-stand-down-guide.json",
+  "stage": 1
+ },
+ "topup/1/14": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 6509 characters",
+  "rel": "confluence/company-handbook/peer-learning-exchange-charter.json",
+  "stage": 1
+ },
+ "topup/1/15": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 2703 characters",
+  "rel": "slack/support-team/member-profile-lookup-notes-board.json",
+  "stage": 1
+ },
+ "topup/1/16": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 3657 characters",
+  "rel": "slack/airport-ops/concourse-d-transfer-desk-queue-after-rebooking-sync-lag.json",
+  "stage": 1
+ },
+ "topup/1/17": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 3189 characters",
+  "rel": "slack/general/employee-community-calendar-question.json",
+  "stage": 1
+ },
+ "topup/1/18": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 4061 characters",
+  "rel": "slack/support-escalations/aus-inbound-tote-tag-match.json",
+  "stage": 1
+ },
+ "topup/1/19": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 1210 characters",
+  "rel": "slack/announcements/gate-change-handoff-lab-opens.json",
+  "stage": 1
+ },
+ "topup/1/2": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 1385 characters",
+  "rel": "slack/airport-ops/msp-gate-folder-relay.json",
+  "stage": 1
+ },
+ "topup/1/20": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 3732 characters",
+  "rel": "slack/support-escalations/the-concourse-string-quartet-and-the-missed-gate-call.json",
+  "stage": 1
+ },
+ "topup/1/21": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 3833 characters",
+  "rel": "slack/support-team/transferred-cases-losing-queue-notes.json",
+  "stage": 1
+ },
+ "topup/1/22": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 2927 characters",
+  "rel": "slack/airport-ops/south-concourse-gate-move-handoff.json",
+  "stage": 1
+ },
+ "topup/1/23": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 4248 characters",
+  "rel": "slack/airport-ops/c-concourse-headset-check-before-the-turn.json",
+  "stage": 1
+ },
+ "topup/1/24": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 1662 characters",
+  "rel": "slack/airport-ops/a7-gate-check-cart-handoff-point.json",
+  "stage": 1
+ },
+ "topup/1/25": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 3380 characters",
+  "rel": "slack/digital-team/seat-map-confirmation-events-losing-session-join.json",
+  "stage": 1
+ },
+ "topup/1/26": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 2352 characters",
+  "rel": "slack/baggage-desk/evening-handoff-for-unlinked-gate-check-items.json",
+  "stage": 1
+ },
+ "topup/1/27": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 1307 characters",
+  "rel": "slack/announcements/customer-care-case-note-calibration-series.json",
+  "stage": 1
+ },
+ "topup/1/28": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 3039 characters",
+  "rel": "slack/support-team/profile-contact-edit-notes.json",
+  "stage": 1
+ },
+ "topup/1/29": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 2812 characters",
+  "rel": "slack/support-policy-questions/duplicate-special-service-markers-after-aircraft-swap.json",
+  "stage": 1
+ },
+ "topup/1/3": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 2481 characters",
+  "rel": "slack/finance-ops/airport-reissue-attachment-routing.json",
+  "stage": 1
+ },
+ "topup/1/30": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 3154 characters",
+  "rel": "slack/loyalty-team/partner-kiosk-drops-leading-characters-from-member-ids.json",
+  "stage": 1
+ },
+ "topup/1/31": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 5576 characters",
+  "rel": "confluence/airport-operations/concourse-b-gate-change-and-turnaround-coordination-board.json",
+  "stage": 1
+ },
+ "topup/1/32": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 5085 characters",
+  "rel": "confluence/customer-policies/special-assistance/baggage-update-listening-circle-facilitator-guide.json",
+  "stage": 1
+ },
+ "topup/1/33": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 4036 characters",
+  "rel": "slack/digital-team/change-link-handoff-from-chat-sessions.json",
+  "stage": 1
+ },
+ "topup/1/34": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 4551 characters",
+  "rel": "slack/general/onboarding-buddy-roster-owner.json",
+  "stage": 1
+ },
+ "topup/1/35": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 5186 characters",
+  "rel": "confluence/company-handbook/employee-handbook-aligning-team-workflow-after-a-queue-routing-change.json",
+  "stage": 1
+ },
+ "topup/1/36": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 2807 characters",
+  "rel": "slack/airport-ops/b11-jet-bridge-mat-reset-and-arrival-lane-check.json",
+  "stage": 1
+ },
+ "topup/1/37": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 2204 characters",
+  "rel": "slack/finance-ops/authorization-reversal-matching-huddle.json",
+  "stage": 1
+ },
+ "topup/1/38": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 3043 characters",
+  "rel": "slack/support-team/language-preference-on-transferred-chats.json",
+  "stage": 1
+ },
+ "topup/1/39": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 3079 characters",
+  "rel": "slack/support-escalations/corporate-bag-charge-record-needs-station-trace.json",
+  "stage": 1
+ },
+ "topup/1/4": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 7478 characters",
+  "rel": "slack/irregular-ops/den-tail-swap-board-state-handoff.json",
+  "stage": 1
+ },
+ "topup/1/40": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 6566 characters",
+  "rel": "slack/digital-team/gate-change-pass-cache-rehearsal.json",
+  "stage": 1
+ },
+ "topup/1/41": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 3649 characters",
+  "rel": "slack/baggage-desk/bos-bag-room-scan-missing-after-counter-handoff.json",
+  "stage": 1
+ },
+ "topup/1/42": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 2954 characters",
+  "rel": "slack/support-escalations/japanese-preference-dropped-from-baggage-follow-up.json",
+  "stage": 1
+ },
+ "topup/1/43": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 3810 characters",
+  "rel": "confluence/company-handbook/station-to-care-handoff-notes-and-pattern-capture-guide.json",
+  "stage": 1
+ },
+ "topup/1/44": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 5940 characters",
+  "rel": "confluence/company-handbook/station-team-shift-handoff-canvas.json",
+  "stage": 1
+ },
+ "topup/1/45": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 1316 characters",
+  "rel": "slack/finance-ops/network-code-callout-check.json",
+  "stage": 1
+ },
+ "topup/1/46": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 7299 characters",
+  "rel": "confluence/digital/check-in-confirmation-and-mobile-boarding-pass-handoff-coding.json",
+  "stage": 1
+ },
+ "topup/1/47": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 7540 characters",
+  "rel": "confluence/policy-and-compliance/regulatory/disruption-record-review-huddle-facilitation-guide.json",
+  "stage": 1
+ },
+ "topup/1/48": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 1195 characters",
+  "rel": "slack/irregular-ops/late-tail-swap-seat-map-and-boarding-sync-check.json",
+  "stage": 1
+ },
+ "topup/1/49": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 4972 characters",
+  "rel": "confluence/customer-policies/baggage/duplicate-booking-record-ownership-handoff-checklist.json",
+  "stage": 1
+ },
+ "topup/1/5": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 6592 characters",
+  "rel": "confluence/airport-operations/gate-change-coordination-keeping-the-turn-visible.json",
+  "stage": 1
+ },
+ "topup/1/50": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 2699 characters",
+  "rel": "slack/finance-ops/unmatched-ancillary-settlement-on-a-split-booking.json",
+  "stage": 1
+ },
+ "topup/1/51": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 3863 characters",
+  "rel": "confluence/company-handbook/employee-workstation-readiness-check-in-guide.json",
+  "stage": 1
+ },
+ "topup/1/52": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 3024 characters",
+  "rel": "slack/finance-ops/station-upload-match-exceptions.json",
+  "stage": 1
+ },
+ "topup/1/53": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 2293 characters",
+  "rel": "slack/airport-ops/msp-c14-printer-and-podium-handoff.json",
+  "stage": 1
+ },
+ "topup/1/54": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 2571 characters",
+  "rel": "slack/support-team/afternoon-contact-note-pass.json",
+  "stage": 1
+ },
+ "topup/1/55": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 5978 characters",
+  "rel": "confluence/airport-operations/gate-change-coordination-and-turn-readiness-handoff.json",
+  "stage": 1
+ },
+ "topup/1/56": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 3358 characters",
+  "rel": "slack/digital-team/seat-map-return-state-check-for-itinerary-change-flow.json",
+  "stage": 1
+ },
+ "topup/1/57": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 3917 characters",
+  "rel": "slack/support-policy-questions/former-household-account-showing-a-traveler-s-booking.json",
+  "stage": 1
+ },
+ "topup/1/58": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 3813 characters",
+  "rel": "slack/irregular-ops/the-gate-check-bag-relay-for-the-evening-bank.json",
+  "stage": 1
+ },
+ "topup/1/59": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 3408 characters",
+  "rel": "slack/support-escalations/seat-map-mismatch-after-itinerary-change.json",
+  "stage": 1
+ },
+ "topup/1/6": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 2956 characters",
+  "rel": "slack/support-team/split-contact-cases-with-attachment-gaps.json",
+  "stage": 1
+ },
+ "topup/1/60": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 1812 characters",
+  "rel": "slack/refunds-desk/duplicate-forms-with-a-cardholder-name-mismatch.json",
+  "stage": 1
+ },
+ "topup/1/61": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 2569 characters",
+  "rel": "slack/baggage-desk/baggage-desk-trace-note-practice-gate-check-to-claim.json",
+  "stage": 1
+ },
+ "topup/1/62": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 2455 characters",
+  "rel": "slack/support-team/baggage-desk-note-handoff-check.json",
+  "stage": 1
+ },
+ "topup/1/63": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 3117 characters",
+  "rel": "slack/support-policy-questions/profile-name-and-reservation-name-do-not-match.json",
+  "stage": 1
+ },
+ "topup/1/64": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 3351 characters",
+  "rel": "slack/support-team/callback-note-context-clinic.json",
+  "stage": 1
+ },
+ "topup/1/65": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 3134 characters",
+  "rel": "slack/digital-team/trip-header-refresh-after-seat-change.json",
+  "stage": 1
+ },
+ "topup/1/66": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 3183 characters",
+  "rel": "slack/digital-team/notification-settings-link-opens-saved-trips.json",
+  "stage": 1
+ },
+ "topup/1/67": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 3041 characters",
+  "rel": "slack/support-policy-questions/quiet-channel-roster-for-the-kiosk-check-in-mismatch.json",
+  "stage": 1
+ },
+ "topup/1/68": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 4110 characters",
+  "rel": "slack/digital-team/manage-trip-contact-refresh-trace.json",
+  "stage": 1
+ },
+ "topup/1/69": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 2416 characters",
+  "rel": "slack/baggage-desk/arrival-bag-tag-photo-mismatch-at-east-desk.json",
+  "stage": 1
+ },
+ "topup/1/7": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 1916 characters",
+  "rel": "slack/baggage-desk/den-cage-card-photo-handoff.json",
+  "stage": 1
+ },
+ "topup/1/70": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 3806 characters",
+  "rel": "slack/support-team/profile-merge-contacts-tagging-and-handoff-check.json",
+  "stage": 1
+ },
+ "topup/1/71": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 3536 characters",
+  "rel": "slack/support-team/practice-session-first-contact-on-schedule-change-cases.json",
+  "stage": 1
+ },
+ "topup/1/72": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 2416 characters",
+  "rel": "slack/baggage-desk/evening-claim-attachment-review-before-desk-close.json",
+  "stage": 1
+ },
+ "topup/1/73": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 4227 characters",
+  "rel": "slack/digital-team/duplicate-itinerary-change-push-review.json",
+  "stage": 1
+ },
+ "topup/1/74": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 4914 characters",
+  "rel": "slack/loyalty-team/desk-side-walkthrough-for-split-activity-profiles.json",
+  "stage": 1
+ },
+ "topup/1/75": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 6362 characters",
+  "rel": "slack/irregular-ops/phx-boarding-event-sync-review.json",
+  "stage": 1
+ },
+ "topup/1/76": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 6162 characters",
+  "rel": "slack/support-team/schedule-change-note-calibration.json",
+  "stage": 1
+ },
+ "topup/1/77": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 4411 characters",
+  "rel": "slack/support-escalations/document-review-state-stuck-after-kiosk-check-in-at-iad.json",
+  "stage": 1
+ },
+ "topup/1/78": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 1162 characters",
+  "rel": "slack/support-team/the-duplicated-name-on-the-mobile-boarding-pass.json",
+  "stage": 1
+ },
+ "topup/1/79": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 3394 characters",
+  "rel": "slack/support-escalations/status-wording-for-duplicate-departure-alerts.json",
+  "stage": 1
+ },
+ "topup/1/8": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 2742 characters",
+  "rel": "slack/baggage-desk/bna-arrivals-bag-description-changes-after-tag-scan.json",
+  "stage": 1
+ },
+ "topup/1/80": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 2155 characters",
+  "rel": "slack/support-team/the-afternoon-duplicate-contact-sweep.json",
+  "stage": 1
+ },
+ "topup/1/81": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 7557 characters",
+  "rel": "confluence/finance/duplicate-card-authorization-casebook.json",
+  "stage": 1
+ },
+ "topup/1/82": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 4544 characters",
+  "rel": "slack/finance-ops/counter-sale-reference-mismatch-in-card-inquiry-queue.json",
+  "stage": 1
+ },
+ "topup/1/83": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 1474 characters",
+  "rel": "slack/support-escalations/gate-scan-audit-for-no-show-record.json",
+  "stage": 1
+ },
+ "topup/1/84": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 1862 characters",
+  "rel": "slack/announcements/gate-welcome-card-set-opens-for-weekend-turns.json",
+  "stage": 1
+ },
+ "topup/1/85": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 6547 characters",
+  "rel": "slack/digital-team/wallet-pass-refresh-on-confirmed-change.json",
+  "stage": 1
+ },
+ "topup/1/86": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 2335 characters",
+  "rel": "slack/support-policy-questions/loyalty-profile-name-mismatch-without-travel-case.json",
+  "stage": 1
+ },
+ "topup/1/87": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 3580 characters",
+  "rel": "slack/airport-ops/dca-gate-boarding-lane-and-podium-display.json",
+  "stage": 1
+ },
+ "topup/1/9": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 1 top-up, 2849 characters",
+  "rel": "slack/general/library-recording-booth-in-reception.json",
+  "stage": 1
+ },
+ "topup/2/0": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 3118 characters",
+  "rel": "slack/support-team/callback-board-shuffle.json",
+  "stage": 2
+ },
+ "topup/2/1": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 4403 characters",
+  "rel": "slack/digital-team/profile-contact-prefill-check-in.json",
+  "stage": 2
+ },
+ "topup/2/10": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 2486 characters",
+  "rel": "slack/support-policy-questions/youth-team-contact-visibility-question.json",
+  "stage": 2
+ },
+ "topup/2/11": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 3370 characters",
+  "rel": "slack/support-team/profile-merge-handoff-wording-for-airport-desks.json",
+  "stage": 2
+ },
+ "topup/2/12": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 4220 characters",
+  "rel": "slack/baggage-desk/late-oversize-handoff-for-tan-garment-case.json",
+  "stage": 2
+ },
+ "topup/2/13": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 3336 characters",
+  "rel": "slack/policy-updates/station-desk-script-signal-check.json",
+  "stage": 2
+ },
+ "topup/2/14": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 1472 characters",
+  "rel": "slack/airport-ops/b-concourse-scanner-ownership-check.json",
+  "stage": 2
+ },
+ "topup/2/15": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 3899 characters",
+  "rel": "slack/digital-team/manage-trips-contact-preference-rehearsal.json",
+  "stage": 2
+ },
+ "topup/2/16": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 3722 characters",
+  "rel": "slack/finance-ops/ancillary-tax-label-reconciliation-listening-session.json",
+  "stage": 2
+ },
+ "topup/2/17": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 5149 characters",
+  "rel": "confluence/airport-operations/gate-pod-readiness-and-turnover-review.json",
+  "stage": 2
+ },
+ "topup/2/18": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 2584 characters",
+  "rel": "slack/digital-team/kiosk-language-reset-after-document-scan-at-sea.json",
+  "stage": 2
+ },
+ "topup/2/19": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 3089 characters",
+  "rel": "slack/finance-ops/agency-exchange-tax-rows-in-revenue-handoff.json",
+  "stage": 2
+ },
+ "topup/2/2": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 11266 characters",
+  "rel": "confluence/digital/reconnecting-the-journey-timeline-panel-in-chrome.json",
+  "stage": 2
+ },
+ "topup/2/20": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 8479 characters",
+  "rel": "confluence/finance/agency-settlement-traceboard-working-session.json",
+  "stage": 2
+ },
+ "topup/2/21": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 5297 characters",
+  "rel": "confluence/airport-operations/gate-reassignment-evidence-and-boarding-movement-recordkeeping.json",
+  "stage": 2
+ },
+ "topup/2/22": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 5123 characters",
+  "rel": "confluence/airport-operations/gate-change-and-stand-reassignment-turn-rhythm.json",
+  "stage": 2
+ },
+ "topup/2/23": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 1126 characters",
+  "rel": "slack/announcements/den-route-stories-display-opening.json",
+  "stage": 2
+ },
+ "topup/2/24": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 3960 characters",
+  "rel": "slack/finance-ops/seat-fee-posting-split.json",
+  "stage": 2
+ },
+ "topup/2/25": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 2463 characters",
+  "rel": "slack/digital-team/manage-trip-airport-details-empty-state.json",
+  "stage": 2
+ },
+ "topup/2/26": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 2494 characters",
+  "rel": "slack/support-policy-questions/preferred-name-for-gate-area-boarding-call.json",
+  "stage": 2
+ },
+ "topup/2/27": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 2814 characters",
+  "rel": "slack/support-team/the-summary-banner-is-not-the-email-handoff.json",
+  "stage": 2
+ },
+ "topup/2/28": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 3754 characters",
+  "rel": "slack/digital-team/change-flow-resume-request-review.json",
+  "stage": 2
+ },
+ "topup/2/29": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 1207 characters",
+  "rel": "slack/support-team/baggage-status-chat-handoff.json",
+  "stage": 2
+ },
+ "topup/2/3": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 1146 characters",
+  "rel": "slack/general/sonia-s-kitchen-table-rover.json",
+  "stage": 2
+ },
+ "topup/2/30": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 9229 characters",
+  "rel": "confluence/digital/mobile-app-itinerary-attention-state-and-airport-handoff.json",
+  "stage": 2
+ },
+ "topup/2/31": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 2881 characters",
+  "rel": "slack/support-escalations/pet-travel-alert-still-attached-after-itinerary-change.json",
+  "stage": 2
+ },
+ "topup/2/32": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 6057 characters",
+  "rel": "confluence/support-playbooks/templates/disrupted-itinerary-case-handoff-huddle-sheet.json",
+  "stage": 2
+ },
+ "topup/2/33": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 7213 characters",
+  "rel": "confluence/policy-and-compliance/regulatory/passenger-property-condition-record-facilitation-guide.json",
+  "stage": 2
+ },
+ "topup/2/34": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 2353 characters",
+  "rel": "slack/airport-ops/south-concourse-printer-routing-handoff.json",
+  "stage": 2
+ },
+ "topup/2/35": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 7770 characters",
+  "rel": "confluence/company-handbook/operational-case-ownership-and-handoff-commitments.json",
+  "stage": 2
+ },
+ "topup/2/36": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 3983 characters",
+  "rel": "slack/support-policy-questions/customer-requesting-copy-of-chat-qa-annotation.json",
+  "stage": 2
+ },
+ "topup/2/37": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 5362 characters",
+  "rel": "confluence/finance/agency-remittance-reference-mapping-review.json",
+  "stage": 2
+ },
+ "topup/2/38": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 2184 characters",
+  "rel": "slack/airport-ops/c8-valet-tag-printer-routing-to-c10.json",
+  "stage": 2
+ },
+ "topup/2/39": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 2779 characters",
+  "rel": "slack/support-team/coaching-notes-for-priya-s-complex-chat-practice.json",
+  "stage": 2
+ },
+ "topup/2/4": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 2951 characters",
+  "rel": "slack/digital-team/wallet-pass-opens-stale-trip-after-itinerary-change.json",
+  "stage": 2
+ },
+ "topup/2/40": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 3016 characters",
+  "rel": "slack/support-team/callback-note-sweep-before-afternoon-handoff.json",
+  "stage": 2
+ },
+ "topup/2/41": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 1358 characters",
+  "rel": "slack/announcements/turnaround-notes-board-open.json",
+  "stage": 2
+ },
+ "topup/2/42": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 2915 characters",
+  "rel": "slack/airport-ops/b6-gate-check-bag-cart-handoff.json",
+  "stage": 2
+ },
+ "topup/2/43": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 3066 characters",
+  "rel": "slack/digital-team/mobile-boarding-pass-link-check-in.json",
+  "stage": 2
+ },
+ "topup/2/44": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 3831 characters",
+  "rel": "slack/airport-ops/b7-gate-check-tag-reconciliation.json",
+  "stage": 2
+ },
+ "topup/2/45": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 2529 characters",
+  "rel": "slack/general/routing-for-library-career-event-inquiries.json",
+  "stage": 2
+ },
+ "topup/2/46": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 3583 characters",
+  "rel": "slack/finance-ops/concourse-seal-log-handwriting-cleanup.json",
+  "stage": 2
+ },
+ "topup/2/47": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 1497 characters",
+  "rel": "slack/general/frontline-listening-session-topics.json",
+  "stage": 2
+ },
+ "topup/2/48": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 3946 characters",
+  "rel": "slack/loyalty-team/partner-roster-names-with-suffixes.json",
+  "stage": 2
+ },
+ "topup/2/49": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 3198 characters",
+  "rel": "slack/support-team/requester-notes-on-seat-service-calls.json",
+  "stage": 2
+ },
+ "topup/2/5": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 1047 characters",
+  "rel": "slack/support-team/friday-huddle-name-mismatch-handoffs.json",
+  "stage": 2
+ },
+ "topup/2/50": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 1989 characters",
+  "rel": "slack/general/fall-timetable-data-dictionary-clinic-follow-through.json",
+  "stage": 2
+ },
+ "topup/2/51": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 2820 characters",
+  "rel": "slack/digital-team/manage-trip-contact-save-return-path-staging-check.json",
+  "stage": 2
+ },
+ "topup/2/52": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 3146 characters",
+  "rel": "slack/digital-team/mobile-wallet-handoff-review.json",
+  "stage": 2
+ },
+ "topup/2/53": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 7661 characters",
+  "rel": "confluence/airport-operations/cabin-turn-service-status-reconciliation.json",
+  "stage": 2
+ },
+ "topup/2/54": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 2024 characters",
+  "rel": "slack/loyalty-team/dining-check-in-tablet-keeps-prior-email-alias-after-contact-update.json",
+  "stage": 2
+ },
+ "topup/2/55": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 1861 characters",
+  "rel": "slack/general/document-print-counter-near-hq-at-lunch.json",
+  "stage": 2
+ },
+ "topup/2/56": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 3301 characters",
+  "rel": "slack/irregular-ops/bos-gate-return-connection-board.json",
+  "stage": 2
+ },
+ "topup/2/57": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 7982 characters",
+  "rel": "confluence/digital/digital-check-in-exception-decision-journal.json",
+  "stage": 2
+ },
+ "topup/2/58": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 1129 characters",
+  "rel": "slack/general/lobby-welcome-table-setup.json",
+  "stage": 2
+ },
+ "topup/2/59": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 7776 characters",
+  "rel": "confluence/digital/mobile-airport-map-pin-and-walking-route-observation-guide.json",
+  "stage": 2
+ },
+ "topup/2/6": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 3003 characters",
+  "rel": "slack/support-team/segment-order-check-for-live-itinerary-changes.json",
+  "stage": 2
+ },
+ "topup/2/60": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 2031 characters",
+  "rel": "slack/airport-ops/inbound-bag-claim-display-relay.json",
+  "stage": 2
+ },
+ "topup/2/61": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 6152 characters",
+  "rel": "confluence/customer-policies/cancellations-and-refunds/schedule-change-contact-record-board.json",
+  "stage": 2
+ },
+ "topup/2/7": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 9041 characters",
+  "rel": "confluence/loyalty-programme/profile-merge-recognition-review-loyalty-support-operations-playbook.json",
+  "stage": 2
+ },
+ "topup/2/8": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 3149 characters",
+  "rel": "slack/finance-ops/ancillary-clearing-exchanged-coupon-status.json",
+  "stage": 2
+ },
+ "topup/2/9": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 2 top-up, 4886 characters",
+  "rel": "slack/support-team/bag-trace-address-field-showing-a-second-contact-name.json",
+  "stage": 2
+ },
+ "topup/3/0": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 4839 characters",
+  "rel": "slack/airport-ops/b4-arrival-door-staging-for-the-midday-bank.json",
+  "stage": 3
+ },
+ "topup/3/1": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 4530 characters",
+  "rel": "slack/irregular-ops/seat-map-mismatch-watch-after-equipment-change-at-pdx.json",
+  "stage": 3
+ },
+ "topup/3/10": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 7336 characters",
+  "rel": "confluence/company-handbook/gate-area-service-change-conversation-facilitation-guide.json",
+  "stage": 3
+ },
+ "topup/3/11": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 2966 characters",
+  "rel": "slack/support-team/evening-gate-alert-cleanup.json",
+  "stage": 3
+ },
+ "topup/3/12": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 3488 characters",
+  "rel": "slack/support-escalations/contact-number-collision-showing-unrelated-trip.json",
+  "stage": 3
+ },
+ "topup/3/13": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 9596 characters",
+  "rel": "confluence/digital/mobile-check-in-status-reconciliation-runbook.json",
+  "stage": 3
+ },
+ "topup/3/14": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 2502 characters",
+  "rel": "slack/baggage-desk/similar-bag-swap-at-carousel-b.json",
+  "stage": 3
+ },
+ "topup/3/15": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 1713 characters",
+  "rel": "slack/airport-ops/arrivals-carousel-display-mismatch.json",
+  "stage": 3
+ },
+ "topup/3/16": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 3076 characters",
+  "rel": "slack/airport-ops/gate-handoff-for-duplicate-boarding-pass-scan-at-mci.json",
+  "stage": 3
+ },
+ "topup/3/17": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 2767 characters",
+  "rel": "slack/digital-team/desk-assist-handoff-rehearsal.json",
+  "stage": 3
+ },
+ "topup/3/18": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 2444 characters",
+  "rel": "slack/general/bna-shared-gate-support-cart-follow-through.json",
+  "stage": 3
+ },
+ "topup/3/19": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 2761 characters",
+  "rel": "slack/support-policy-questions/feedback-form-text-missing-after-submit.json",
+  "stage": 3
+ },
+ "topup/3/2": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 2607 characters",
+  "rel": "slack/airport-ops/c18-scanner-reset-and-podium-coverage.json",
+  "stage": 3
+ },
+ "topup/3/20": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 1641 characters",
+  "rel": "slack/announcements/station-signal-board-opens-for-handoff-notes.json",
+  "stage": 3
+ },
+ "topup/3/21": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 1951 characters",
+  "rel": "slack/support-team/crm-contact-history-missing-after-callback-handoff.json",
+  "stage": 3
+ },
+ "topup/3/22": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 4235 characters",
+  "rel": "confluence/company-handbook/new-joiner-station-systems-practice-record.json",
+  "stage": 3
+ },
+ "topup/3/23": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 3690 characters",
+  "rel": "slack/support-team/duplicate-contact-record-handoff-check.json",
+  "stage": 3
+ },
+ "topup/3/24": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 2854 characters",
+  "rel": "slack/baggage-desk/green-spinner-tied-to-the-wrong-description.json",
+  "stage": 3
+ },
+ "topup/3/25": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 4465 characters",
+  "rel": "slack/support-team/community-garden-group-booking-notes.json",
+  "stage": 3
+ },
+ "topup/3/26": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 2756 characters",
+  "rel": "slack/baggage-desk/smudged-transfer-tag-at-east-claim.json",
+  "stage": 3
+ },
+ "topup/3/27": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 2660 characters",
+  "rel": "slack/airport-ops/concourse-c-arrival-meet-and-assist-staging.json",
+  "stage": 3
+ },
+ "topup/3/28": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 6967 characters",
+  "rel": "confluence/policy-and-compliance/change-log/contact-detail-merge-exception-case-record-and-handling-notes.json",
+  "stage": 3
+ },
+ "topup/3/29": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 3108 characters",
+  "rel": "slack/support-team/callback-queue-labels-after-inbound-replies.json",
+  "stage": 3
+ },
+ "topup/3/3": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 7012 characters",
+  "rel": "confluence/finance/supplier-invoice-coding-exception-routing-guide.json",
+  "stage": 3
+ },
+ "topup/3/30": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 4649 characters",
+  "rel": "slack/finance-ops/duplicate-lounge-scans-in-corporate-travel-settlement-feed.json",
+  "stage": 3
+ },
+ "topup/3/31": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 1419 characters",
+  "rel": "slack/announcements/customer-journey-map-table.json",
+  "stage": 3
+ },
+ "topup/3/32": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 4998 characters",
+  "rel": "slack/support-team/duplicate-profile-notes-and-identity-routing.json",
+  "stage": 3
+ },
+ "topup/3/33": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 1706 characters",
+  "rel": "slack/support-team/green-notebook-labels-after-gate-map-practice.json",
+  "stage": 3
+ },
+ "topup/3/34": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 4419 characters",
+  "rel": "confluence/company-handbook/station-service-update-distribution-map.json",
+  "stage": 3
+ },
+ "topup/3/4": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 8239 characters",
+  "rel": "confluence/airport-operations/transfer-bag-sort-lane-mismatch-capture-at-hub-stations.json",
+  "stage": 3
+ },
+ "topup/3/5": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 3482 characters",
+  "rel": "slack/loyalty-team/conference-qr-import-is-duplicating-member-attendance-records.json",
+  "stage": 3
+ },
+ "topup/3/6": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 2785 characters",
+  "rel": "slack/finance-ops/gate-seat-sale-ledger-mapping-check.json",
+  "stage": 3
+ },
+ "topup/3/7": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 13004 characters",
+  "rel": "confluence/policy-and-compliance/regulatory/contact-preference-surface-rendering-verification-workshop.json",
+  "stage": 3
+ },
+ "topup/3/8": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 2867 characters",
+  "rel": "slack/loyalty-team/dining-upload-name-suffix-matches.json",
+  "stage": 3
+ },
+ "topup/3/9": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 3 top-up, 6661 characters",
+  "rel": "confluence/airport-operations/gate-readiness-and-turn-handoff-log.json",
+  "stage": 3
+ },
+ "topup/4/0": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 4 top-up, 2928 characters",
+  "rel": "slack/airport-ops/overnight-gate-podium-alert-tones-at-b12-b16.json",
+  "stage": 4
+ },
+ "topup/4/1": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 4 top-up, 4241 characters",
+  "rel": "slack/finance-ops/station-document-link-review.json",
+  "stage": 4
+ },
+ "topup/4/10": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 4 top-up, 8548 characters",
+  "rel": "confluence/airport-operations/arrival-gate-change-passenger-movement-coordination.json",
+  "stage": 4
+ },
+ "topup/4/11": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 4 top-up, 3880 characters",
+  "rel": "confluence/company-handbook/independent-case-packet-same-day-schedule-change-coordination.json",
+  "stage": 4
+ },
+ "topup/4/12": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 4 top-up, 1079 characters",
+  "rel": "slack/general/lobby-headset-bin-tray.json",
+  "stage": 4
+ },
+ "topup/4/13": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 4 top-up, 4651 characters",
+  "rel": "slack/support-team/email-lane-attachment-routing-check.json",
+  "stage": 4
+ },
+ "topup/4/2": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 4 top-up, 1799 characters",
+  "rel": "slack/announcements/customer-care-week-spotlight-denver-baggage-resolution.json",
+  "stage": 4
+ },
+ "topup/4/3": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 4 top-up, 1643 characters",
+  "rel": "slack/announcements/station-lead-huddle-opens-monday.json",
+  "stage": 4
+ },
+ "topup/4/4": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 4 top-up, 3365 characters",
+  "rel": "slack/digital-team/manage-trip-seat-map-focus-return-on-mobile.json",
+  "stage": 4
+ },
+ "topup/4/5": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 4 top-up, 3767 characters",
+  "rel": "slack/loyalty-team/wallet-pass-shows-a-different-member-identifier-label.json",
+  "stage": 4
+ },
+ "topup/4/6": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 4 top-up, 5685 characters",
+  "rel": "slack/digital-team/trip-details-tab-focus-review.json",
+  "stage": 4
+ },
+ "topup/4/7": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 4 top-up, 2156 characters",
+  "rel": "slack/announcements/station-handoff-note-library.json",
+  "stage": 4
+ },
+ "topup/4/8": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 4 top-up, 1752 characters",
+  "rel": "slack/general/terminal-walk-through-field-notes.json",
+  "stage": 4
+ },
+ "topup/4/9": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 4 top-up, 9661 characters",
+  "rel": "confluence/airport-operations/gate-checked-bag-reconciliation-review.json",
+  "stage": 4
+ },
+ "topup/5/0": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 5 top-up, 2646 characters",
+  "rel": "slack/support-team/late-shift-seat-map-follow-up-handoff.json",
+  "stage": 5
+ },
+ "topup/5/1": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 5 top-up, 4681 characters",
+  "rel": "slack/loyalty-team/spanish-copy-review-for-kiosk-account-link-prompt.json",
+  "stage": 5
+ },
+ "topup/5/10": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 5 top-up, 3303 characters",
+  "rel": "slack/support-escalations/case-bag-tag-and-itinerary-out-of-step.json",
+  "stage": 5
+ },
+ "topup/5/2": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 5 top-up, 6063 characters",
+  "rel": "confluence/finance/ancillary-document-reconciliation-learning-lab-split-service-rebooking-case.json",
+  "stage": 5
+ },
+ "topup/5/3": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 5 top-up, 3444 characters",
+  "rel": "slack/digital-team/ios-document-scan-review-clears-issuing-country-after-camera-return.json",
+  "stage": 5
+ },
+ "topup/5/4": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 5 top-up, 5514 characters",
+  "rel": "confluence/airport-operations/gate-to-ramp-departure-readiness-coaching-card.json",
+  "stage": 5
+ },
+ "topup/5/5": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 5 top-up, 3971 characters",
+  "rel": "slack/digital-team/saved-traveler-suffix-mapping-release-room.json",
+  "stage": 5
+ },
+ "topup/5/6": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 5 top-up, 2716 characters",
+  "rel": "slack/support-team/merged-case-active-channel-markers.json",
+  "stage": 5
+ },
+ "topup/5/7": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 5 top-up, 2078 characters",
+  "rel": "slack/general/break-room-puzzle-table.json",
+  "stage": 5
+ },
+ "topup/5/8": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 5 top-up, 6857 characters",
+  "rel": "confluence/company-handbook/station-to-care-handoff-constellation-guide.json",
+  "stage": 5
+ },
+ "topup/5/9": {
+  "applied": true,
+  "job": "topup",
+  "new": true,
+  "note": "stage 5 top-up, 3007 characters",
+  "rel": "slack/airport-ops/concourse-b-mobility-cart-return-and-lane-clearance.json",
+  "stage": 5
+ }
+}

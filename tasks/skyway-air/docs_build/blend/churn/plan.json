@@ -1,0 +1,2468 @@
+{
+ "1": {
+  "docs_before": 9999,
+  "docs_after": 10196,
+  "rule_docs": 258,
+  "base": 0.02530404080031385,
+  "rule_edits": [
+   "confluence/customer-policies/baggage/delayed-bags.json",
+   "confluence/customer-policies/cancellations-and-refunds/travel-credit-instead-of-refund.json",
+   "confluence/support-playbooks/approvals-and-limits/approval-limits.json",
+   "slack/refunds-desk/receipt-attached-after-reimbursement-request.json",
+   "slack/support-escalations/goodwill-limits.json"
+  ],
+  "edits": [
+   {
+    "rel": "confluence/customer-policies/special-assistance/three-lane-service-intake-board.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "confluence/customer-policies/delays-and-disruptions/disruption-callout-board-annotation-guide.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessibility-handoff-cue-card-procedure.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/wheelchair-service-record-reconciliation.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessible-assistance-workstation-reset-procedure.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessible-assistance-quiet-period-coverage-plan.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "confluence/customer-policies/cancellations-and-refunds/cancellation-evidence-packet-assembly.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessible-assistance-service-observation-coding-guide.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "confluence/customer-policies/baggage/baggage-event-interpretation-explainer.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "confluence/customer-policies/baggage/bag-tag-trail-conversation-explainer.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "confluence/customer-policies/delays-and-disruptions/disrupted-journey-conversation-guide.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessible-service-debrief-canvas.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "confluence/customer-policies/fares-and-changes/booking-receipt-component-map.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessibility-service-handoff-field-guide.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/customer-policies/loyalty/award-search-support-guide.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/customer-policies/loyalty/statement-labels-reading-guide.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/baggage/baggage-status-labels-quick-reference.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/wheelchair-assistance-listening-handoff-guide.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/fares-and-changes/passenger-level-extras-in-shared-reservations.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/support-playbooks/templates/agent-guidance-editorial-standup-facilitation-kit.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/support-playbooks/escalation/disruption-desk-observation-passport.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/support-playbooks/case-handling/disruption-cutover-readiness.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/support-playbooks/escalation/specialist-routing-compass.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/support-playbooks/templates/settlement-intake-language-linter.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/support-playbooks/templates/refund-case-replay-lab.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/support-playbooks/templates/disruption-rehearsal-studio-guide.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/support-playbooks/case-handling/refund-operations-signal-board.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/support-playbooks/case-handling/refund-clarity-coaching-rounds.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/support-playbooks/case-handling/live-conversation-exception-capture.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/refunds-desk/call-back-schedule-for-phone-request-cases-notes.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/refunds-desk/card-team-paperwork-case-history.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/refunds-desk/combined-group-status-request.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/refunds-desk/duplicate-card-capture-after-reissued-boarding-pass-review.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/refunds-desk/summarising-a-long-customer-email.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/refunds-desk/phone-note-without-a-reference-number.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/refunds-desk/new-hire-case-tool-shadow-questions.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/refunds-desk/group-organiser-combined-update.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/refunds-desk/triple-contact-merge-on-payment-status-case.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/refunds-desk/refund-desk-radio-rehearsal-for-split-settlement-clues.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-escalations/onboard-medical-report-request-with-cabin-operations-followup.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-escalations/sensitive-caller-handoff-refund-name-change.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-escalations/cabin-announcement-preference-station-bridge-followup.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-escalations/loyalty-household-name-collision-station-handoff.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-escalations/family-boarding-records-gate-transition.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-escalations/live-broadcast-wardrobe-case-needs-airport-custody-plan.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-escalations/callback-intent-pileup-and-handoff-lane-reset.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-escalations/customer-accessible-case-history-format-review.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-escalations/airport-agent-screen-shows-plain-blue-after-tier-promotion.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-escalations/courtyard-bocce-and-cardamom-knots.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/digital-team/airport-picker-locale-focus-race.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-team/three-channel-weather-vane-practice.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/airport-operations/baggage-case-attachment-indexing-standard.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/airport-ops/departure-desk-whiteboard-handoff-for-gate-swaps.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-team/contradictory-case-notes-calibration-circle.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/baggage-desk/quiet-room-split-arrival-pager-relay.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-escalations/gate-recording-attachment-misfiled-case-review.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/irregular-ops/savannah-marine-layer-station-watch.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/loyalty-programme/member-tier-transition-learning-review.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/airport-ops/concourse-c-kiosk-receipt-reference-handoff.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-team/monday-accessibility-demo-coverage-map.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/digital-team/departure-board-filter-resize-state.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/baggage-desk/night-sort-tag-mismatch-triage.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-escalations/metasearch-relay-contact-recovery-at-rdu.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/finance-ops/thursday-exception-atlas-dry-run.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-escalations/community-mediation-team-itinerary-access-needs-controlled-handoff.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/irregular-ops/tomorrow-morning-recovery-board.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/digital-team/web-checkin-passenger-count-reset-after-tab-suspension.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/digital-team/sandbox-reservation-webhook-rehearsal.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/irregular-ops/jfk-turnback-dual-path-readiness-thread.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/policy-and-compliance/regulatory/international-service-calendar-capacity-bridge.json",
+    "kind": "add"
+   },
+   {
+    "rel": "slack/airport-ops/bna-checkin-island-passport-reader-fallback-coordination.json",
+    "kind": "add"
+   },
+   {
+    "rel": "slack/support-team/support-floor-listening-lane-trial.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/airport-operations/disruption-observation-deck-field-notebook.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/digital-team/webview-return-locale-handoff.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-team/signal-tags-for-the-last-ten-minutes-of-a-shift.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "slack/airport-ops/concourse-c-aircraft-swap-release-check.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/airport-ops/boarding-podium-baton-pass-west-loop.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-policy-questions/travel-checklist-warning-after-mobile-pass-issue.json",
+    "kind": "add"
+   },
+   {
+    "rel": "slack/airport-ops/podium-cable-cradle-check-morning-open.json",
+    "kind": "add"
+   },
+   {
+    "rel": "slack/loyalty-team/community-theatre-guest-checkin-signal-gap.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-team/status-board-handoff-coaching-calibration.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-escalations/award-ticket-reinstatement-needs-loyalty-and-airport-handoff.json",
+    "kind": "add"
+   },
+   {
+    "rel": "slack/airport-ops/quiet-hours-mobility-dispatch-intake-pilot.json",
+    "kind": "add"
+   },
+   {
+    "rel": "slack/support-escalations/quiet-terminal-command-post-volunteer-pairing.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/baggage-desk/pottery-case-observer-mode-handoff.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/refunds-desk/same-customer-contacts-split-across-cases.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/airport-ops/bna-overnight-frost-contingency-walkthrough.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/baggage-desk/rdu-bna-handoff-view-refresh-check.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "slack/support-team/docked-laptop-device-trust-overflow-coverage.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "slack/finance-ops/refund-desk-margin-notes-finance-pairing.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/airport-ops/bna-shuttle-dispatcher-booth-condensation-inspection.json",
+    "kind": "add"
+   },
+   {
+    "rel": "slack/airport-ops/mco-overnight-support-call-tree-rehearsal.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-team/knowledge-garden-practice-lanes.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/digital/holdout-audience-assembly-notes.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "slack/support-policy-questions/quiet-case-listening-bench-refund-status-calls.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "slack/baggage-desk/gate-area-cabin-cleaning-bag-return.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/baggage-desk/cross-terminal-observation-commit-handoff-rehearsal.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/airport-operations/departure-desk-shadow-log-late-tail-substitutions.json",
+    "kind": "add"
+   },
+   {
+    "rel": "slack/support-team/phrase-bank-relay-airport-handoffs.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "slack/finance-ops/interline-invoice-image-trail-for-monthly-close.json",
+    "kind": "add"
+   },
+   {
+    "rel": "slack/support-team/case-orchard-intake-by-channel-and-coaching-pair-setup.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "slack/support-escalations/payment-exception-pinball-queue-split.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/support-playbooks/templates/irregular-operations-channel-practitioner-kit.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "slack/refunds-desk/second-contact-case-linking-workflow.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "slack/digital-team/baggage-funnel-entry-trace.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "slack/airport-ops/rdu-morning-bag-drop-relay-during-counter-opening.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/airport-ops/north-pier-audio-cart-handoff.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "slack/digital-team/message-delivery-metrics-naming-workshop.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "slack/support-team/quiet-desk-badge-check-before-forecast-freeze.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/support-playbooks/templates/refund-counterfactual-review-kit.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "slack/finance-ops/rdu-flea-market-lamp-rescue.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/policy-and-compliance/change-log/policy-stewardship-silent-handoff-exercise.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "slack/airport-ops/gate-f19-west-side-queue-weatherproofing-final-call.json",
+    "kind": "add"
+   },
+   {
+    "rel": "slack/support-team/first-contact-fingerprint-practice.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-policy-questions/passport-name-display-mismatch-intake.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "slack/support-escalations/former-employee-email-case-routing-anomaly.json",
+    "kind": "add"
+   },
+   {
+    "rel": "slack/support-team/console-presence-during-huddle-check.json",
+    "kind": "add"
+   },
+   {
+    "rel": "slack/support-team/accessibility-chat-shadowing-notes.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "slack/airport-ops/cabin-comfort-observation-card-trial.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/baggage-desk/coastal-turnback-cart-reconciliation.json",
+    "kind": "add"
+   }
+  ]
+ },
+ "2": {
+  "docs_before": 10115,
+  "docs_after": 10311,
+  "rule_docs": 295,
+  "base": 0.028610222092910483,
+  "rule_edits": [
+   "confluence/customer-policies/delays-and-disruptions/compensation.json",
+   "confluence/customer-policies/special-assistance/pets-in-cabin.json",
+   "confluence/support-playbooks/approvals-and-limits/approval-limits.json",
+   "slack/refunds-desk/declined-rebooking-refunds.json"
+  ],
+  "edits": [
+   {
+    "rel": "confluence/customer-policies/special-assistance/airport-assistance-supply-staging-and-return-sweep.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessible-service-route-sketching-workshop.json",
+    "kind": "wording_big"
+   },
+   {
+    "rel": "confluence/customer-policies/delays-and-disruptions/disruption-conversation-stoplight-guide.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/communication-aid-handoff-for-accessible-assistance.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/cancellations-and-refunds/cancellation-contact-language-routing-guide.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessible-corridor-congestion-mitigation-guide.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/special-assistance-request-language.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessible-assistance-acoustic-cue-landmark-procedure.json",
+    "kind": "wording_big"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessible-travel-disruption-coordination-notes.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessible-service-recovery-listening-circle-facilitator-guide.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/delays-and-disruptions/post-event-customer-journey-annotation-guide.json",
+    "kind": "wording_big"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/special-assistance-conversation-annotation-guide.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/baggage/duplicate-booking-record-ownership-handoff-checklist.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "confluence/customer-policies/loyalty/miles-account-and-passenger-record-guide.json",
+    "kind": "wording_big"
+   },
+   {
+    "rel": "confluence/customer-policies/loyalty/miles-account-recovery-conversation-map.json",
+    "kind": "wording_big"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/assistance-signal-to-record-guide.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/mobility-assistance-route-rehearsal-session.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/terminal-mobility-rest-point-coordination-guide.json",
+    "kind": "wording_big"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessibility-service-desk-whiteboard-coding-method.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessible-assistance-lost-contact-search-protocol.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/loyalty/miles-case-handoff-brief.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessible-assistance-request-signal-integrity-checklist.json",
+    "kind": "wording_big"
+   },
+   {
+    "rel": "confluence/customer-policies/cancellations-and-refunds/after-cancellation-request-status-explainer.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/support-playbooks/approvals-and-limits/exception-record-quality-calibration.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "confluence/support-playbooks/escalation/disruption-intent-routing-atlas.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/support-playbooks/case-handling/refund-dashboard-lineage-walkthrough.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "confluence/support-playbooks/case-handling/support-knowledge-replay-room-procedure.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "confluence/support-playbooks/templates/refund-service-measurement-annotation-kit.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/support-playbooks/case-handling/disruption-desk-replay-clinic.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "confluence/support-playbooks/approvals-and-limits/disruption-desk-readiness-huddle-review.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/support-playbooks/templates/content-custodian-pairing-session-kit.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/support-playbooks/templates/local-time-message-assembly-guide.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/support-playbooks/case-handling/refund-status-message-quality-review.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "confluence/support-playbooks/templates/cross-channel-thread-stitching-notebook.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "confluence/support-playbooks/escalation/loyalty-context-conversation-guide.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "slack/refunds-desk/three-same-day-contacts-under-separate-cases.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/refunds-desk/paper-strip-payment-trail-observation.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/refunds-desk/ageing-dashboard-colour-key-notes.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "slack/refunds-desk/refund-desk-whiteboard-tour-finance-visitors.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/refunds-desk/reading-the-customer-bank-screenshot.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "slack/refunds-desk/summarising-the-long-email-without-losing-the-trail.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "slack/refunds-desk/tag-drift-cleanup.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "slack/refunds-desk/summarizing-a-long-group-booking-email.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/refunds-desk/summarising-long-customer-emails.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/refunds-desk/receipt-date-mismatch-on-br-7kq2.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/refunds-desk/long-weekend-inbox-handoff-follow-up.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/refunds-desk/card-team-paperwork-and-case-history-notes.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/airport-operations/irregular-operations-workload-bookmarking-guide.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/refunds-desk/receipt-date-trace.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/finance-ops/one-purchase-four-windows-cross-team-trace.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/airport-operations/baggage-trace-record-field-annotation-standard.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/airport-ops/split-concourse-final-cabin-tally.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/digital-team/departure-window-timezone-mismatch-in-agent-console.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/customer-policies/delays-and-disruptions/information-confidence-notes-for-interrupted-trips.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "slack/digital-team/claim-retry-idempotency-recovery.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/airport-ops/quiet-zone-handoff-rehearsal-bna.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/digital-team/anonymous-session-handoff-cart-loss.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-team/wednesday-plain-language-skill-lab-and-email-relief.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/airport-ops/c21-paper-strip-callboard-and-arrival-desk-relay.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/airport-ops/rdu-e2-clipboard-roll-call-jetbridge-door-watch.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/loyalty-team/overnight-station-date-reconciliation.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/refunds-desk/portuguese-translation-for-rf.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/support-playbooks/case-handling/frontline-back-office-case-packet-assembly.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-policy-questions/checked-in-traveler-removal-request.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-team/handoff-map-workshop-split-channel-cases.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/finance-ops/refund-desk-observer-rehearsal-payment-trail.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/finance-ops/purple-notebook-payment-intake-experiment.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/finance-ops/morning-exception-cart-ledger-pairing.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-team/thursday-case-weaving-room-for-stale-handoffs.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/refunds-desk/portuguese-translation-for-rf-notes.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/finance-ops/saturday-payment-exception-desk-coverage-experiment.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-policy-questions/saturday-card-replacement-payment-trail-pairing.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/policy-updates/release-librarian-weekend-coverage-check.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/airport-operations/station-departure-milestone-ledger.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/airport-ops/overnight-station-kit-and-relief-roster-check.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/airport-operations/airport-safety-assurance-briefing-board-checklist.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/airport-ops/rdu-late-afternoon-stand-release-and-service-lane-check.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-team/tuesday-split-shift-relay-accessibility-callbacks.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/refunds-desk/phone-contact-with-no-reference-question.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-policy-questions/callback-window-time-zone-confusion.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/policy-and-compliance/change-log/policy-signal-triage-record.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-team/quiet-hour-calibration-callback-pod.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/airport-ops/bna-bridge-plate-sensor-and-aisle-chair-relay.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/airport-operations/station-shift-narrative-capture-guide.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-team/voice-to-text-coaching-clinic-sign-up.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/irregular-ops/river-valley-observation-gap-and-station-check-in.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/policy-updates/spanish-card-print-profile-check.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/digital/baggage-recovery-voice-menu-pilot-plan.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/airport-ops/terminal-two-curbside-escort-for-far-gate-departures.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/airport-ops/jetbridge-key-cabinet-opening-count.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-team/thursday-channel-passport-mentor-seats.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/baggage-desk/voice-transcript-condition-note-recognition-check.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/loyalty-team/rail-activity-header-quarantine-review.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/digital-team/qr-boarding-pass-share-sheet-release-room.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/airport-operations/operational-status-marking-standard.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/finance-ops/partner-remittance-attachment-callback-gap.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/digital/submitting-service-portal-diagnostic-bundle.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/airport-ops/document-desk-radio-handoff-gate-relocation.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/airport-ops/bna-afternoon-podium-relief-sequence.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/digital/checking-identity-synchronisation-team-transfer.json",
+    "kind": "wording_big"
+   },
+   {
+    "rel": "confluence/airport-operations/airport-safety-reporting-kiosk-content-integrity-routine.json",
+    "kind": "add"
+   },
+   {
+    "rel": "slack/baggage-desk/barcode-free-wheelchair-bag-relay-test.json",
+    "kind": "add"
+   },
+   {
+    "rel": "slack/support-policy-questions/quiet-desk-annotation-pilot-and-branch-intake.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/baggage-desk/aircraft-cleaning-cart-found-bag-owner-match-thread.json",
+    "kind": "add"
+   },
+   {
+    "rel": "slack/airport-ops/gate-18-podium-radio-shadow-arrival-desk-relay.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/finance-ops/airport-sale-to-support-trail-walkthrough.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/digital/reassigning-browser-certificate-replacement-terminal.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "slack/support-policy-questions/same-day-duplicate-reservation-decision-support.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/airport-ops/bna-aisle-chair-brake-and-transfer-board-inspection.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-team/two-week-case-note-experiment.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/finance/card-dispute-evidence-routing.json",
+    "kind": "add"
+   },
+   {
+    "rel": "slack/digital-team/conversion-dip-after-itinerary-edit-instrumentation-launch.json",
+    "kind": "wording_big"
+   },
+   {
+    "rel": "slack/support-policy-questions/partner-notification-subject-tier-privacy-review.json",
+    "kind": "wording_big"
+   },
+   {
+    "rel": "slack/baggage-desk/garment-sleeve-seam-photo-linkage-review.json",
+    "kind": "wording_big"
+   },
+   {
+    "rel": "slack/irregular-ops/aircraft-sequence-integrity-workbench.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/baggage-desk/south-arrivals-acoustic-cue-floor-drill.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/baggage-desk/concourse-b-claim-intake-pilot-notes.json",
+    "kind": "wording_big"
+   },
+   {
+    "rel": "slack/airport-ops/b6-overflow-lane-arrivals-desk-transfer.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/digital-team/baggage-claim-language-switcher-state-review.json",
+    "kind": "add"
+   },
+   {
+    "rel": "slack/finance-ops/sunday-reporting-handoff-arrival-window.json",
+    "kind": "wording"
+   }
+  ]
+ },
+ "3": {
+  "docs_before": 10190,
+  "docs_after": 10388,
+  "rule_docs": 320,
+  "base": 0.030804774740084712,
+  "rule_edits": [
+   "confluence/customer-policies/baggage/claim-deadlines.json",
+   "confluence/customer-policies/fares-and-changes/change-fees.json",
+   "confluence/customer-policies/loyalty/skyway-miles-benefits.json"
+  ],
+  "edits": [
+   {
+    "rel": "confluence/customer-policies/cancellations-and-refunds/schedule-change-contact-record-board.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "confluence/customer-policies/loyalty/member-death-account-contact.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/mobility-equipment-presentation-standards.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/assistance-intake-signal-map.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/three-party-assistance-desk-huddle-card.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/privacy-conscious-accessibility-request-verification-guide.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/baggage/reading-baggage-record-without-guessing.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/loyalty/partner-activity-matching-guide.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/delays-and-disruptions/disruption-feedback-coding-follow-up.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessible-service-desk-shift-briefing.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/baggage/baggage-case-note-quality-standard.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/loyalty/co-brand-card-activity-intake-guide.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/delays-and-disruptions/customer-rebooking-intent-capture-guide.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessible-boarding-pause-signal-procedure.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/baggage/baggage-irregularity-signal-dictionary.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/cancellations-and-refunds/accessible-cancellation-explanation-design.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessibility-shift-relief-continuity-card.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/fares-and-changes/reading-extras-and-fare-summary.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/cancellations-and-refunds/cancellation-event-timeline-reading-guide.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/baggage/baggage-claim-conversation-compass.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/loyalty/miles-account-identity-review.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/delays-and-disruptions/disruption-contact-log-handoff-guide.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/baggage/baggage-issue-conversation-framework.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/delays-and-disruptions/travelling-party-separation-desk-guide.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessible-assistance-arrival-packet-assembly-guide.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessible-service-point-sign-in-board-procedure.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/fares-and-changes/rebuilt-trip-record-explainer.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/delays-and-disruptions/customer-contact-preference-capture.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/baggage/baggage-record-linking-customer-narrative-guide.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessible-assistance-language-calibration-guide.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/delays-and-disruptions/accessibility-relay-guidance.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/delays-and-disruptions/connection-risk-triage.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/baggage/baggage-case-intake-recording-guide.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/loyalty/skyway-miles-conversation-accessibility-guide.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/cancellations-and-refunds/travel-intent-and-account-resolution-guide.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessible-assistance-voice-and-tone-workshop.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/travel-party-readiness-explainer.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/gate-staging-assisted-boarding-brief.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessible-assistance-feedback-signal-review.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/wheelchair-assistance-peak-arrival-staffing-simulation.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/fares-and-changes/seat-map-and-add-on-state-interpreter.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/loyalty/shared-travel-activity-conversation-guide.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/loyalty/activity-timeline-explainer.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/delays-and-disruptions/disruption-channel-sequencing-guide.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/fares-and-changes/optional-service-record-language.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/fares-and-changes/capturing-customer-intent-optional-services.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/fares-and-changes/separating-fare-quotes-from-confirmed-extras.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/baggage/baggage-claim-ownership-handoff-checklist.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessible-equipment-tag-reconciliation-procedure.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/delays-and-disruptions/customer-disruption-timeline-reconstruction.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "slack/airport-ops/bna-floating-gate-pair-split-boarding-waves.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/finance-ops/vendor-paperwork-routing-workshop.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-team/late-shift-nesting-desk-access-and-coach-check-ins.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-policy-questions/preferred-name-account-display-trip-record-separation.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/loyalty-programme/profile-merge-recognition-review-loyalty-support-operations-playbook.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/airport-operations/station-disruption-decision-ledger.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-policy-questions/refund-desk-signal-lights-for-monday-standup.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "slack/airport-ops/bna-bridge-window-staffing-puzzle.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/loyalty-team/partner-exception-desk-handoff-spring-rollout.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/baggage-desk/west-rack-cushion-bag-cart-record-reconcile.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "slack/airport-ops/lakeside-departure-quiet-zone-boarding-relay.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/airport-ops/concourse-d-escort-desk-radio-shadowing.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-escalations/carousel-intake-shadow-pile-sort.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/refunds-desk/tuesday-refund-queue-pairing-and-exception-ownership.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-team/bluebird-radio-room-chatter.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/finance-ops/refund-desk-case-postcards-for-finance-walkthrough.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-policy-questions/destination-alert-unsubscribe-with-trip-notices-kept.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "slack/loyalty-team/email-keyed-partner-checkout-recognition-dry-run.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/airport-operations/baggage-radio-dead-zone-survey-and-escalation-routine.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/digital-team/metadata-signing-window-for-quiet-cabin-widget.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/irregular-ops/rdu-low-ceiling-morning-bank-coordination.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-team/thursday-channel-chessboard-multilingual-callback-overflow.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/irregular-ops/kinston-dewpoint-trend-station-bridge.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "slack/airport-ops/apron-access-radio-loaner-handoff.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/digital-team/bna-lexington-student-travel-lab-preview.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-escalations/late-night-contact-ladder-sw218.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/airport-operations/baggage-desk-signal-to-action-workshop-guide.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "slack/support-escalations/outbound-disruption-message-rehearsal.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-policy-questions/shared-household-calendar-trip-reminder-scope.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "slack/airport-ops/bna-customs-hall-overflow-desk-staging.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/policy-and-compliance/change-log/screen-sharing-consent-note-change.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-policy-questions/customer-browser-translation-language-handoff.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/finance/payment-gateway-reference-constellation-review.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/support-playbooks/templates/disruption-message-calibration-workshop.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "confluence/loyalty-programme/skyway-miles-service-skills-workshop.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-team/courthouse-appearance-coverage-handoff.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/airport-operations/baggage-records-indexing-and-scan-folder-hygiene-guide.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/finance-ops/monday-receipt-constellation-finance-desk-sync.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/irregular-ops/rdu-evening-recovery-pod-gate-captain-roster.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/airport-ops/concourse-f19-visual-stairwell-queue-census.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-team/gate-captain-relay-departure-services-interruption.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "slack/airport-ops/f8-museum-group-window-lane-count-check.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/policy-and-compliance/regulatory/international-station-compliance-attestation-guide.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/support-playbooks/case-handling/refund-outcome-storytelling-workshop.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "confluence/digital/human-readable-incident-timeline-design.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/loyalty-team/thursday-taco-truck-loop-and-the-tiny-hot-sauce-trophy.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/loyalty-programme/skyway-miles-statement-explanation-studio.json",
+    "kind": "add"
+   },
+   {
+    "rel": "slack/loyalty-team/riverfront-museum-kiosk-confirmation-copy-session.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/airport-ops/rdu-west-pier-curbside-relay.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-team/post-training-floor-walk-listening-habit.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/digital/digital-analytics-evidence-annotation-studio.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/loyalty-team/desk-side-walkthrough-for-split-activity-profiles.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "confluence/digital/mobile-app-itinerary-attention-state-and-airport-handoff.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/loyalty-team/late-arrival-eligibility-export-repair.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-team/social-inbox-reply-window-pilot-and-evening-roster.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-policy-questions/notification-clock-language-review.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/irregular-ops/rdu-blue-team-split-concourse-coverage.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/loyalty-team/school-group-qr-batch-creates-duplicate-venue-events.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/airport-ops/b-pier-three-person-desk-loop.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/baggage-desk/partner-slip-handwriting-sort-for-miles-recognition.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-team/case-captain-rotation-saturday-queue.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/finance/duplicate-card-authorization-casebook.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "slack/baggage-desk/midnight-missed-connection-trace-diary.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/airport-ops/rdu-terminal-leak-response-gate-handoff.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-escalations/rdu-reclaim-belt-outage-search-lane.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/support-playbooks/escalation/disruption-quiet-period-review.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-policy-questions/station-feed-silent-noon-push.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/policy-and-compliance/regulatory/assurance-remediation-sprint-facilitation-guide.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/policy-and-compliance/change-log/policy-change-custody-journal.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/loyalty-team/harbor-museum-offline-turnstile-batch-handoff.json",
+    "kind": "number"
+   }
+  ]
+ },
+ "4": {
+  "docs_before": 10227,
+  "docs_after": 10444,
+  "rule_docs": 338,
+  "base": 0.03236307927996936,
+  "rule_edits": [
+   "confluence/support-playbooks/approvals-and-limits/goodwill.json",
+   "slack/support-escalations/goodwill-limits.json"
+  ],
+  "edits": [
+   {
+    "rel": "confluence/support-playbooks/templates/customer-commitment-language-review-cards.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/support-playbooks/escalation/support-situation-room-facilitation.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/support-playbooks/case-handling/refund-report-footnote-and-context-review.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/support-playbooks/escalation/refund-workbench-state-design-and-service-metrics.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/support-playbooks/templates/customer-contact-attempt-closeout-kit.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/support-playbooks/case-handling/case-replay-error-reproduction.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/support-playbooks/case-handling/refund-decision-log-hygiene-guide.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/support-playbooks/templates/clarification-request-message-pack.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/support-playbooks/templates/disruption-policy-listening-log.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/support-playbooks/templates/support-guidance-sandbox-passport.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/support-playbooks/case-handling/refund-case-reopen-prevention-routine.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/support-playbooks/case-handling/refund-case-metadata-clean-room-checklist.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/support-playbooks/case-handling/disruption-policy-relay-practicum-review.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/support-playbooks/case-handling/guided-self-service-session-handling.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/support-playbooks/templates/knowledge-lane-stewardship-rotation-kit.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/support-playbooks/case-handling/calendar-invitation-journey-reconciliation.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/support-playbooks/escalation/settlement-query-case-note-language-review.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/support-playbooks/approvals-and-limits/approval-lane-coverage-board.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/support-playbooks/case-handling/refund-recontact-patterns-field-guide.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/support-playbooks/templates/support-answer-trace-capture-sheet.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/support-playbooks/case-handling/agent-search-query-diary-facilitation-guide.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/support-playbooks/escalation/disruption-guidance-adoption-clinic.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/support-playbooks/case-handling/recurring-contact-pattern-capture.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/support-playbooks/templates/agent-guidance-instrumentation-field-map.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "slack/support-escalations/sealed-community-archive-transfer-needs-custody-coordination.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-escalations/private-arrival-safety-concern-station-briefing.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-escalations/voiceprint-notes-and-social-tone-calibration.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "slack/support-escalations/phonetic-name-note-leaks-into-cabin-view.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-escalations/bna-214-recovery-board-passenger-contact-sweep.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-escalations/aquatic-research-team-itinerary-with-split-contact-owners.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "slack/support-escalations/assistive-technology-case-with-split-department-follow-through.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-escalations/parade-puppet-transport-needs-station-decision.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-escalations/research-specimen-station-contact-bridge.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-escalations/kiosk-session-branch-record-recovery.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-escalations/overnight-connection-triage-grid.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-escalations/public-event-screenshot-account-containment-handoff.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-escalations/quiet-payment-holds-handoff-map.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "slack/support-escalations/contact-number-collision-showing-unrelated-trip.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-escalations/film-tray-handoff-review-after-counter-staging-gap.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-escalations/the-quiet-hero-blood-drive-signup-and-orange-juice-ranking.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-escalations/chat-transcript-attached-to-unrelated-case-review.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-escalations/unmatched-conference-registration-traveler-needs-one-case-owner.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "slack/support-escalations/cruise-air-desk-record-split-before-port-transfer.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-escalations/payment-confirmation-without-ticket-record.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-escalations/agency-remark-exposure-customer-document-review.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "slack/support-escalations/arrival-privacy-sealed-case-supervisor-bridge.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-escalations/the-concourse-string-quartet-and-the-missed-gate-call.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-escalations/priority-case-ownership-matrix.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-escalations/post-flight-medical-event-records-request-coordination.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/policy-updates/approval-queue-dry-run-regional-trainer-pairings.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/baggage-desk/art-sleeve-visual-checkpoint-handoff.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/support-playbooks/templates/disruption-guidance-phrasebook-curation-workbench.json",
+    "kind": "add"
+   },
+   {
+    "rel": "slack/airport-ops/north-ticketing-seat-map-sync-handoff.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/airport-ops/gateside-whiteboard-split-duty-handoffs.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/assistance-case-evidence-ledger.json",
+    "kind": "add"
+   },
+   {
+    "rel": "slack/finance-ops/monday-ledger-walkthrough-with-finance.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/digital-team/merchant-return-beacon-missing-after-app-switch.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/airport-operations/station-pulse-check-five-minute-shift-start-facilitation-card.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-policy-questions/punctuation-display-airport-case-routing.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/finance-ops/overnight-cancellation-casework-soundcheck.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "slack/support-team/customer-name-confidence-lab-registration.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/digital/dashboard-reading-clinic-for-frontline-leaders.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/digital-team/android-resume-confirmation-event-gap.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/digital-team/claim-lifecycle-entry-point-canary-checklist.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "confluence/digital/analytics-on-call-handover-notebook.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/loyalty-team/farmers-market-member-lookup-booth-debrief.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "confluence/digital/baggage-claim-queue-shape-forecasting-pilot-plan.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/digital-team/account-help-locale-handoff-loop.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-team/late-afternoon-availability-poll-for-customer-support-rebooking.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/digital-team/guest-checkout-seat-picker-screen-reader-repro.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-escalations/community-seed-exchange-crate-arrives-without-its-receiving-steward.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/airport-operations/micro-briefing-design-bench.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/support-playbooks/templates/refund-case-replay-theatre-guide.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/finance/cash-to-action-workshop-kit.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-policy-questions/corporate-card-billing-name-on-traveler-receipt-question.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/airport-ops/rdu-intercity-coach-bay-badge-reader-test.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/digital-team/email-itinerary-browser-handoff-recovery.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/baggage-desk/paint-splashed-trunk-east-arrivals-inspection.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/digital-team/screen-reader-return-path-and-event-stream-check.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/airport-ops/a2-window-side-queue-and-arrival-corridor-handoff.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/digital/metric-literacy-roadshow-facilitator-guide.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-team/spring-desk-census-callback-ownership-check.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-team/thursday-lunch-channel-mosaic-check-in.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-team/uncertainty-to-useful-questions-coaching.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-policy-questions/customer-reports-incorrect-trip-purpose-label-in-case-view.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/finance-ops/partner-invoice-privacy-blind-spot-review.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/loyalty-team/welcome-mailroom-glare-scan-drill.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "slack/airport-ops/windowed-callback-intake-north-concourse-gate-shuffle.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/baggage-desk/market-umbrella-bundle-checkin-to-ramp-release.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/airport-ops/rdu-hearing-loop-equipment-handoff-evening-bank.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/airport-ops/bna-east-cluster-movement-based-break-swaps.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/finance/agency-remittance-reference-mapping-review.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "slack/baggage-desk/conveyor-video-viewer-attachment-playback-check.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/finance/month-end-close-quiet-period-field-notes.json",
+    "kind": "add"
+   },
+   {
+    "rel": "slack/airport-ops/concourse-b-floor-polish-vendor-staging.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-policy-questions/private-conversation-interpreter-airport-handoff.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/digital-team/route-discovery-dashboard-midnight-rollover.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-policy-questions/customer-created-trip-label-airport-visibility.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "slack/airport-ops/rdu-east-counter-scanner-drift.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/policy-updates/translation-packet-courier-and-classroom-audio-check.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/baggage-desk/adhesive-residue-suitcase-review-and-claim-screen-refresh.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/refunds-desk/last-question-clinic-finance-observer-session.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/irregular-ops/rdu-concourse-coverage-evening-weather-bank.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-policy-questions/family-pass-display-order-audit-question.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "slack/airport-ops/north-pier-standboard-recovery-relay.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/airport-ops/terminal-loop-shadow-board-first-international-arrival.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/digital-team/claim-attachment-review-callback-order.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/policy-and-compliance/regulatory/bilateral-permit-recordkeeping-workbench.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/baggage-desk/convention-banners-manual-sort-window.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/policy-updates/quiet-corner-feedback-cart-launch-check.json",
+    "kind": "add"
+   },
+   {
+    "rel": "slack/loyalty-team/miles-anniversary-calendar-import-cleanup.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-policy-questions/single-name-passenger-record-creation-question.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/airport-operations/gate-desk-departure-readiness-storyboard.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/loyalty-programme/tier-change-member-note-annotation-guide.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "slack/support-policy-questions/external-transport-document-trip-record-boundary.json",
+    "kind": "add"
+   },
+   {
+    "rel": "slack/finance-ops/partner-settlement-header-drift-review.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/digital-team/baggage-case-photo-upload-pilot-handoff.json",
+    "kind": "add"
+   },
+   {
+    "rel": "slack/airport-ops/passport-scan-mismatch-rdu-document-desk.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/airport-operations/station-floor-coordination-pulse-sheet.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "slack/digital-team/receipt-callback-duplicate-timeline.json",
+    "kind": "add"
+   }
+  ]
+ },
+ "5": {
+  "docs_before": 10243,
+  "docs_after": 10496,
+  "rule_docs": 355,
+  "base": 0.033822408536585365,
+  "rule_edits": [
+   "confluence/customer-policies/cancellations-and-refunds/refunds-after-a-cancellation.json",
+   "confluence/customer-policies/delays-and-disruptions/compensation.json"
+  ],
+  "edits": [
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessible-assistance-service-map-annotation-guide.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/companion-presence-coordination-guide.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/delays-and-disruptions/disruption-chat-quality-calibration.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/cancellations-and-refunds/cancellation-message-annotation-workbench.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/delays-and-disruptions/rebooked-itinerary-reading-guide.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/baggage/baggage-case-evidence-map.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessible-route-obstruction-triage.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/delays-and-disruptions/airport-desk-reaccommodation-workboard.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/baggage/baggage-claim-language-access-notes.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessible-interaction-handoff-card.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/service-indicator-reading-guide.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/fares-and-changes/fare-total-screen-comparison-explainer.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/cancellations-and-refunds/cancellation-case-note-vocabulary-guide.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/loyalty/tier-progress-conversation-guide.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/special-assistance-ownership-boundaries.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/wheelchair-assistance-dignity-consent-conversation-guide.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/assisted-travel-observation-journal.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/wheelchair-assistance-arrival-service-recovery-worksheet.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessible-assistance-request-quality-review.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/cancellations-and-refunds/separating-itinerary-cancellation-from-payment-inquiry-types.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/fares-and-changes/customer-question-sorting-guide.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/fares-and-changes/journey-service-display-guide.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/service-desk-lens-mobility-youth-animal-travel.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/wheelchair-assistance-communication-preferences-guide.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/traveller-support-profile-explainer.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessible-connection-desk-intake-guide.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/delays-and-disruptions/quiet-queue-assist-routing.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/delays-and-disruptions/disruption-message-design.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/airport-accessibility-counter-layout-audit.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/cancellations-and-refunds/reservation-closure-payment-trace-orientation.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/mobility-assistance-station-readiness-log.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/cancellations-and-refunds/cancellation-intake-signals-and-response-patterns.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/wheelchair-assistance-arrival-signal-board.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/airport-assistance-visual-status-board-method.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessible-arrival-conversation-and-service-record.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/baggage/baggage-description-language-guide.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessible-travel-interpreter-relay-notes.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/mobility-equipment-custody-transfer-record.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/baggage/baggage-reference-number-anatomy.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/cancellations-and-refunds/cancellation-request-classification-canvas.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/fares-and-changes/fare-construction-notes-split-itineraries.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessible-quiet-zone-setup-procedure.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessibility-service-huddle-facilitation-guide.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/fares-and-changes/tracing-passenger-record-components.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessible-assistance-signage-interpretation-guide.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/accessible-service-communication-relay-board.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/customer-policies/special-assistance/assistance-counter-triage-three-traveller-profiles.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/finance/chargeback-counterfactual-review-workshop.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "confluence/loyalty-programme/status-change-analytics-query-cookbook.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "confluence/airport-operations/departure-sort-lane-restart-card.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "confluence/digital/customer-context-misrouting-rehearsal-kit.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-escalations/museum-crate-specialty-desk-supervisor-bridge.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/loyalty-programme/airport-partner-status-recognition-briefing.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "slack/support-escalations/county-fair-display-record-reconciliation.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/digital/passenger-journey-contract-fixture-workshop.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "slack/airport-ops/oversize-art-tube-passenger-identification.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/airport-ops/rdu-remote-stand-gate-kit-barcode-wand-dock-not-seeing-scans.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/digital-team/android-dark-mode-airport-name-contrast.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-team/career-ladder-notes-for-jordan-next-quarter.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-escalations/detached-community-tour-booking-bridge.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/finance/ancillary-revenue-journal-support-sampling-studio.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "slack/support-team/disruption-message-lab-plain-language-coaching.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/irregular-ops/tuesday-connection-inventory-handoff-between-bna-and-rdu.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/digital/baggage-claim-ops-shadowboard-pilot-plan.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "slack/support-team/composer-preview-check-for-linked-replies.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/irregular-ops/caribbean-rotation-escalation-log.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/airport-operations/passenger-facing-facility-continuity-irregular-operations.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-escalations/quiet-channel-licensing-arrival-handoff.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/baggage-desk/dock-four-camera-case-reunion.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-team/mystery-shopper-case-tagging-huddle.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/airport-ops/bna-ground-transportation-locker-key-handoff.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/airport-ops/bna-concourse-c-counter-swing-bagroom-handoff.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/digital-team/airport-mode-trip-recovery-dry-run.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/digital-team/receipt-screen-telemetry-and-store-submission-timing.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-team/marigold-watch-callback-spillover.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/baggage-desk/green-ribbon-garment-roller-claim-bridge.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/airport-operations/gate-reassignment-evidence-and-boarding-movement-recordkeeping.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/airport-operations/transfer-bag-reconciliation-desk-procedure.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "slack/loyalty-team/miles-statement-badge-accessibility-sweep.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-team/thursday-inbox-archaeology-and-relay-table-reset.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/baggage-desk/folded-kayak-case-missed-belt-cutover.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-team/thursday-call-notes-workshop-and-buddy-board-reset.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/policy-and-compliance/regulatory/contact-preference-surface-rendering-verification-workshop.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "slack/digital-team/airport-scan-sandbox-deep-link-revision.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/baggage-desk/paper-tag-audit-west-arrivals-overflow-shelf.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/baggage-desk/theater-prop-crate-source-grouping-rehearsal.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "slack/irregular-ops/north-star-case-lantern-roc-diversion.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/digital/shared-interface-component-contract-migration-guide.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/airport-operations/departure-readiness-quiet-equipment-observation-sketchbook.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "slack/irregular-ops/key-west-island-turn-station-readiness-check.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/loyalty-programme/tier-change-calendar-integration-guide.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "slack/baggage-desk/concourse-d-art-portfolio-evening-trace-relay.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-team/one-thread-owner-pilot-starts.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-team/late-morning-channel-balancing-and-shadow-block.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/support-playbooks/templates/support-guidance-migration-storyboard.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "slack/support-team/wednesday-desk-reset-callback-backlog-new-hire-questions.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/irregular-ops/late-arriving-family-connection-handback.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/loyalty-programme/partner-feed-observability-field-notebook.json",
+    "kind": "add"
+   },
+   {
+    "rel": "confluence/finance/conference-registration-intake-and-attendance-log.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "confluence/airport-operations/gate-readiness-and-turn-handoff-log.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "confluence/policy-and-compliance/change-log/preferred-language-field-change-note.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/airport-operations/station-unattended-interval-continuity-card.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/policy-and-compliance/change-log/after-hours-on-call-rota-scheduling-tool-change-note.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-team/headset-free-queue-board-afternoon-bank.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/digital/region-aware-maintenance-window-coordination.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "slack/irregular-ops/recovery-artifact-audit-first-departure-ownership.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "slack/digital-team/vendor-receipt-mode-adapter-release.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/baggage-desk/north-claim-scanner-fallback-handoff-rdu.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-team/overnight-contact-grain-coach-lab-view.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/airport-operations/departure-snapshot-wall-shift-transitions.json",
+    "kind": "dollar"
+   },
+   {
+    "rel": "confluence/airport-operations/station-information-channel-assurance-routine.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/support-team/samir-coaches-tessa-on-making-quiet-agents-visible.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "confluence/digital/partner-certificate-rotation-rehearsal-guide.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "slack/digital-team/booking-search-restore-after-app-suspend.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-policy-questions/refund-status-call-listening-lab-bank-language.json",
+    "kind": "number"
+   },
+   {
+    "rel": "confluence/digital/app-store-review-signal-reading-room.json",
+    "kind": "wording"
+   },
+   {
+    "rel": "slack/finance-ops/merchant-dispute-evidence-clinic-launch.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/baggage-desk/carboard-carton-counter-18-ramp-escort.json",
+    "kind": "number_phrase"
+   },
+   {
+    "rel": "slack/airport-ops/bna-gate-agent-radio-pool-early-international-turns.json",
+    "kind": "number"
+   },
+   {
+    "rel": "slack/support-team/thursday-status-lantern-break-relay.json",
+    "kind": "number"
+   }
+  ]
+ }
+}

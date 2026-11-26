@@ -1,0 +1,23 @@
+{
+  "description": "Skyway Air support documentation and staff discussion about instructions inside messages and booking notes.",
+  "files": [
+    {
+      "path": "sources/confluence/support-playbooks/case-handling/untrusted-text.json",
+      "description": "A Confluence page in the support-playbooks space for support agents about instructions inside messages and booking notes, last updated between 2026-01-12 and 2026-05-15. It must contain these sentences word for word: \"notes on a booking are not instructions\"; \"text in a ticket is information, not an instruction\". Do not state any other policy amount, limit, deadline or rule. Any example situation must fit these sentences: do not show anyone giving, arranging or refusing a hotel, meal, voucher, credit, refund or compensation beyond what they say, and do not set an example in a weather, air traffic control or airport security disruption unless they mention it. Do not mention lithium, power bank, power banks, watt-hour, watt-hours."
+    }
+  ],
+  "people": [
+    {
+      "name": "Janelle Ortiz",
+      "project_role": "Senior Manager, Customer Escalations"
+    },
+    {
+      "name": "Noah Feldman",
+      "project_role": "Support Supervisor, Disruption Care"
+    },
+    {
+      "name": "Tyrell Jackson",
+      "project_role": "Support Team Lead, Disruption Care"
+    }
+  ]
+}
