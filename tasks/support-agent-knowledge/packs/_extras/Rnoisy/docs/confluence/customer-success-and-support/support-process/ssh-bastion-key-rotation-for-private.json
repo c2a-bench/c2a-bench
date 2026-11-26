@@ -1,0 +1,20 @@
+{
+  "space": "customer-success-and-support",
+  "author": "Kai Moreno",
+  "owner_team": "customer-success",
+  "status": "published",
+  "confidentiality": "internal",
+  "title_field_name": "title",
+  "content_field_names": [
+    "content"
+  ],
+  "title": "SSH bastion key rotation for Private deployments",
+  "created_at": "2025-08-20",
+  "last_updated": "2026-05-16",
+  "labels": [
+    "support",
+    "private",
+    "ssh"
+  ],
+  "content": "# Purpose\nPrivate customers rotate the SSH keys that open their bastion to Redwood support. This is not a Hosted API key and it is never disabled from Console.\n\n# When to use\nThe customer mentions bastion, jump host, SSH, or 'the key we gave your on-call'. They are not talking about a Console API token named prod-web or prod-backend.\n\n# Steps\n1) Customer generates a new ed25519 key on their side.\n2) They add it to the bastion allow-list.\n3) They tell Private Deployments the new fingerprint.\n4) They remove the old fingerprint after we confirm login.\nSupport does not disable anything in Console.\n\n# Priority and routing\nPlanned bastion rotations are P4 and stay with Support. Broken bastion access that blocks a Sev0 is P1 and goes to Private Deployments. Never add security-incident for a planned bastion rotation.\n\n# Guardrails\nNever ask them to paste a private key. Never disable a Hosted API key because someone said 'rotate the key' on a Private ticket.\n\n# Related\nPrivate access runbook. This page does not cover Hosted API tokens."
+}

@@ -1,0 +1,19 @@
+{
+  "title": "[DRAFT] Deprecated model tickets (proposal)",
+  "space": "customer-success-and-support",
+  "author": "Naomi Park",
+  "owner_team": "customer-success",
+  "status": "draft",
+  "created_at": "2025-11-20",
+  "last_updated": "2025-11-20",
+  "labels": [
+    "draft",
+    "models"
+  ],
+  "confidentiality": "internal",
+  "content": "# Proposal (not adopted)\nIdea from the Q4 planning thread: label deprecated-model and send to Customer Success so the account team can talk about migration.\n\nOpen questions: who owns migration guidance? Needs a decision from Eng Platform.\n",
+  "title_field_name": "title",
+  "content_field_names": [
+    "content"
+  ]
+}

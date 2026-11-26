@@ -1,0 +1,19 @@
+{
+  "space": "customer-success-and-support",
+  "author": "Kai Moreno",
+  "owner_team": "customer-success",
+  "status": "published",
+  "confidentiality": "internal",
+  "title_field_name": "title",
+  "content_field_names": [
+    "content"
+  ],
+  "title": "Console SSO setup (SAML and OIDC)",
+  "created_at": "2026-01-15",
+  "last_updated": "2026-08-20",
+  "labels": [
+    "support",
+    "playbook"
+  ],
+  "content": "# Purpose\nHow Support helps a customer turn on SAML or OIDC for Console users. This is identity for people, not org API keys.\n\n# When to use\nHow Support helps a customer turn on SAML or OIDC for Console users. This is identity for people, not org API keys.\n\n# What Support does\nCollect IdP type, ACS URL they see in Console, and whether they want JIT. P4 to Support. Broken SSO that locks every admin out is P1 to Eng Platform. Never disable org API keys to 'fix SSO'.\n\n# Intake\nCollect the customer, the project or pool name, the region if they named one, and the outcome they want. Write those on the SUP ticket before you route.\n\n# Priority and routing\nCollect IdP type, ACS URL they see in Console, and whether they want JIT. P4 to Support. Broken SSO that locks every admin out is P1 to Eng Platform. Never disable org API keys to 'fix SSO'. If this page and a more specific SOP both apply, the more specific SOP wins.\n\n# Guardrails\nDo not issue credits. Do not disable an org API key from this page. Do not invent a label this page does not name.\n\n# Customer reply\nThanks, we have the request. We will follow the internal playbook for this kind of ticket and update you on the SUP thread.\n\n# Related\nSupport intake checklist. Severity matrix for anything that is actually down. This page is only for the purpose above."
+}

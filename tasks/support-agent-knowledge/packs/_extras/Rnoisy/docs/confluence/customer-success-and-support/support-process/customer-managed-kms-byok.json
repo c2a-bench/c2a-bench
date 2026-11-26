@@ -1,0 +1,20 @@
+{
+  "space": "customer-success-and-support",
+  "author": "Kai Moreno",
+  "owner_team": "customer-success",
+  "status": "published",
+  "confidentiality": "internal",
+  "title_field_name": "title",
+  "content_field_names": [
+    "content"
+  ],
+  "title": "Customer-managed KMS (bring your own key)",
+  "created_at": "2026-01-09",
+  "last_updated": "2026-07-01",
+  "labels": [
+    "support",
+    "kms",
+    "dedicated"
+  ],
+  "content": "# Purpose\nDedicated and Private customers may bring an AWS KMS or GCP KMS key for envelope encryption of stored blobs. Support intakes the request. This is not API-key rotation.\n\n# When to use\nThey mention CMK, BYOK, KMS, or 'our key encrypts data at rest'.\n\n# Intake\nCollect cloud, key ARN or resource name, region, and whether they want yearly rotation of the CMK. File as P3 to Eng Infra for Dedicated, Private Deployments for Private. Hosted cannot BYOK; tell Hosted customers this is not offered.\n\n# What Support does not do\nDo not disable Console API keys. Do not treat a CMK rotation as a leaked token. Do not assign Security unless they also report a leaked Console key.\n\n# Customer reply\nWe can enroll a customer-managed KMS key on Dedicated and Private. Hosted keeps platform-managed keys. Engineering will send the IAM policy to attach.\n\n# Related\nDedicated encryption FAQ. Not the Hosted API key playbook."
+}

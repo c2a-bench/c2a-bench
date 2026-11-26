@@ -1,0 +1,20 @@
+{
+  "title": "Retired model tickets",
+  "space": "customer-success-and-support",
+  "author": "Kai Moreno",
+  "owner_team": "customer-success",
+  "status": "published",
+  "created_at": "2026-09-10",
+  "last_updated": "2026-09-15",
+  "labels": [
+    "support",
+    "models",
+    "retirement"
+  ],
+  "confidentiality": "internal",
+  "content": "# Purpose\nHow Support handles tickets about models that Redwood has retired.\n\n# Retired models\n- `rw-chat-3` (retired 2026-08-01)\n- `rw-embed-1` (retired 2026-06-30)\n\nCalls to a retired model fail with HTTP 410 and error code `model_retired`.\n\n# What Support does\nWhen a customer reports errors from a retired model:\n- add the label **model-retirement**\n- set assigned_team to **Eng Platform** (the platform team owns migration guidance)\n\nDo not issue credits for retirement errors.\n",
+  "title_field_name": "title",
+  "content_field_names": [
+    "content"
+  ]
+}

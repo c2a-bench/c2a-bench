@@ -1,0 +1,16 @@
+{
+  "channel": "support-ops",
+  "thread_ts": "1761000000",
+  "first_message_ts": "1761000000",
+  "last_message_ts": "1761001320",
+  "participants": [
+    "avery",
+    "kai",
+    "naomi"
+  ],
+  "messages": "avery: quick q for the queue: what label are we putting on escalations right now? I've seen `sev-escalation`, `escalation`, and `esc` in the last week :sweat_smile:\n\nkai: I've just been doing `escalation` + the tier as a label, e.g. `enterprise` or `dedicated`. makes the dashboard filter easy\n\nnaomi: +1 to `escalation`. tier label is fine too, reporting only needs one of them\n\navery: ok let's go with `escalation` + tier label for now until the tagging page gets updated. I'll mention it in standup\n\nkai: :thumbsup:",
+  "title_field_name": "channel",
+  "content_field_names": [
+    "messages"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "space": "customer-success-and-support",
+  "author": "Kai Moreno",
+  "owner_team": "customer-success",
+  "status": "published",
+  "confidentiality": "internal",
+  "title_field_name": "title",
+  "content_field_names": [
+    "content"
+  ],
+  "title": "Opening a new multi-customer incident",
+  "created_at": "2026-01-05",
+  "last_updated": "2026-05-30",
+  "labels": [
+    "support",
+    "incidents"
+  ],
+  "content": "# Purpose\nWhen two or more customers report the same unlisted symptom, Support pages the incident commander and we post a new public banner. This page is only for opening a new event.\n\n# When to use\nNo public banner exists yet. Two or more customers, or our own monitors, show the same failure. Then page the commander and draft the first banner.\n\n# When not to use\nIf a banner already exists for this symptom and region, do not open a second event. Do not use this page to set P0 on a customer who is reporting an already-posted event.\n\n# Priority for the command ticket\nThe internal incident ticket is Sev0 or Sev1 per the severity matrix. Customer SUP tickets that arrive after the banner is up follow the already-posted page, not this page.\n\n# Related\nSeverity matrix. Public banner how-to. Already-posted incidents page."
+}

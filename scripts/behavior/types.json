@@ -1,0 +1,129 @@
+{
+  "about": "Customer behaviour subcategories (the usersim paper's taxonomy). Each regular ticket gets exactly one subcategory; families are only for adding up in graphs. The customer model plays it from the ticket's own opening and facts, every fact stays reachable, and the expected filing never changes. Agent correction is not a subcategory: every customer corrects support when it gets a detail wrong, and the grader reports how often the bot still got the ticket right. Goal change: the customer starts with another ticket's request (first_goal) and switches to its own by the 3rd message; goal_terms let the grader check the switch happened.",
+  "order": [
+    "baseline",
+    "on_request",
+    "incremental",
+    "underspecified",
+    "ambiguous",
+    "self_correction",
+    "urgency_mismatch",
+    "pushback",
+    "exception_request",
+    "urgency_pressure",
+    "person_request",
+    "frustration",
+    "goal_change",
+    "disfluency"
+  ],
+  "behaviors": {
+    "baseline": {
+      "family": "Baseline",
+      "label": "Baseline",
+      "rule": ""
+    },
+    "on_request": {
+      "family": "Information exchange",
+      "label": "On request",
+      "rule": "Say as little as possible. Your first message is one short sentence with no details. Share one fact per reply, and only the fact support clearly asked for."
+    },
+    "incremental": {
+      "family": "Information exchange",
+      "label": "Incremental",
+      "rule": "Your first message gives one or two facts. In each later message, volunteer one or two more facts even if support did not ask for them, until you have given all of them."
+    },
+    "underspecified": {
+      "family": "Ambiguity",
+      "label": "Underspecified",
+      "rule": "Your first message is mildly vague: it names the area but leaves out what exactly is wrong or wanted (for example \"we have an issue with our logs\"). Answer from the facts when support asks."
+    },
+    "ambiguous": {
+      "family": "Ambiguity",
+      "label": "Ambiguous",
+      "rule": "Do not copy the opening. Rewrite it vaguer, so it could mean more than one problem (for example \"something is wrong with production\" instead of \"production is down\", or \"we have a question about our logs\" instead of naming the request). Do not say which one you mean until support asks a direct question; then answer from the facts."
+    },
+    "self_correction": {
+      "family": "Correction",
+      "label": "Self-correction",
+      "rule": "In your first message, get one detail from the facts wrong (for example a number, a time, a region or a name). In your next message, correct it yourself (\"Sorry, I got that wrong: ...\") and use the right detail from then on."
+    },
+    "urgency_mismatch": {
+      "family": "Framing conflict",
+      "label": "Urgency mismatch",
+      "rule": "Your tone does not match the facts. If the facts describe something minor or a how-to question, sound alarmed and urgent. If they describe something serious, sound relaxed (\"no rush\"). Never change the facts themselves."
+    },
+    "pushback": {
+      "family": "Resistance",
+      "label": "Pushback",
+      "rule": "Be reluctant to cooperate. The first time support asks you for a detail, do not give it: push back or ask why they need it. Give the facts when support asks again or explains why."
+    },
+    "exception_request": {
+      "family": "Resistance",
+      "label": "Exception request",
+      "rule": "Ask support to skip a step you think is unnecessary (for example \"no need to involve another team\" or \"just do it, skip the usual checks\"). If support explains the step is required, accept it. Answer from the facts."
+    },
+    "urgency_pressure": {
+      "family": "Escalation",
+      "label": "Urgency pressure",
+      "rule": "Stress your deadline and that this needs to be fast; repeat that it is blocking you. Answer support's questions from the facts."
+    },
+    "person_request": {
+      "family": "Escalation",
+      "label": "Person request",
+      "rule": "Ask to speak to a person, a manager or engineering, and keep asking in later messages. Answer support's questions from the facts."
+    },
+    "frustration": {
+      "family": "Frustration",
+      "label": "Frustration",
+      "rule": "You are frustrated and impatient, and it shows: complain, say this is taking too long, sound annoyed. Still answer support's questions from the facts."
+    },
+    "goal_change": {
+      "family": "Goal change",
+      "label": "Goal change",
+      "rule": "Start with a different request: your first message asks only about this: \"{first_goal}\". In your second message, or your third at the latest, drop it (for example \"sorry, ignore that, it's fine now\") and ask about the problem in your opening instead, in your own words. From then on talk only about that problem."
+    },
+    "disfluency": {
+      "family": "Linguistic form",
+      "label": "Disfluency",
+      "rule": "Every message, including the first, is written the way people type in a hurry: typos, filler words (um, like), run-on or broken sentences, missing punctuation and capitals. Do not copy the opening as written: retype it this way. Keep every fact accurate."
+    }
+  },
+  "allowed_on": {
+    "verbatim_opening": [
+      "baseline"
+    ],
+    "reliability": [
+      "baseline"
+    ],
+    "prompt_cap_tokens": [
+      "baseline"
+    ],
+    "follow_up": [
+      "baseline",
+      "on_request",
+      "incremental",
+      "underspecified",
+      "ambiguous",
+      "pushback",
+      "urgency_pressure",
+      "person_request",
+      "frustration",
+      "disfluency"
+    ],
+    "no_refile": [
+      "baseline",
+      "on_request",
+      "incremental",
+      "frustration",
+      "disfluency",
+      "urgency_pressure"
+    ],
+    "bad-actor": [
+      "baseline",
+      "frustration",
+      "urgency_pressure",
+      "person_request",
+      "disfluency"
+    ]
+  }
+}

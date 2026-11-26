@@ -1,0 +1,20 @@
+{
+  "space": "customer-success-and-support",
+  "author": "Kai Moreno",
+  "owner_team": "customer-success",
+  "status": "published",
+  "confidentiality": "internal",
+  "title_field_name": "title",
+  "content_field_names": [
+    "content"
+  ],
+  "title": "SIEM connector for metrics and traces (not platform events)",
+  "created_at": "2026-01-18",
+  "last_updated": "2026-07-22",
+  "labels": [
+    "support",
+    "observability",
+    "siem"
+  ],
+  "content": "# Purpose\nCustomers sometimes want Prometheus remote-write, OTLP traces, or Grafana Cloud to see latency and error rates. That is a metrics and traces connector. It is not the same as copying platform event records.\n\n# When to use\nThe customer mentions dashboards, p95, span IDs, Grafana, Datadog, or 'our observability stack'. They are talking about signals, not a compliance archive.\n\n# Intake\nCollect sink type (Datadog / Grafana / OTLP), region of the sink, and whether they already have a Dedicated scrape endpoint. Hosted customers get a read-only metrics remote-write. Dedicated customers scrape from their own Prometheus.\n\n# Priority and routing\nTreat this as a how-to: priority P4, leave the ticket with Support, first response from the SLA table for P4. Do not escalate. Do not assign Eng Platform unless the Dedicated scrape endpoint is broken.\n\n# What Support does\nSend the public docs for metrics remote-write. Confirm they are not asking for a compliance archive. If they are, stop and use the customer-managed export SOP instead.\n\n# Guardrails\nNever promise that metrics include prompt text or request bodies. Metrics are counters, histograms, and resource attributes only.\n\n# Common mix-up\nA customer who says 'put the logs in our bucket for ISO' is not this page. This page is dashboards. The other request is a compliance archive and has its own SOP.\n\n# Related\nDedicated scrape endpoint runbook. Hosted metrics remote-write. Do not file these as security incidents."
+}

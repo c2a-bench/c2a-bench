@@ -1,0 +1,20 @@
+{
+  "space": "customer-success-and-support",
+  "author": "Kai Moreno",
+  "owner_team": "customer-success",
+  "status": "published",
+  "confidentiality": "internal",
+  "title_field_name": "title",
+  "content_field_names": [
+    "content"
+  ],
+  "title": "Internal control review of Redwood infrastructure",
+  "created_at": "2025-11-02",
+  "last_updated": "2026-04-09",
+  "labels": [
+    "support",
+    "security",
+    "internal"
+  ],
+  "content": "# Purpose\nOnce a year Security runs an internal control review of Redwood's own production accounts. Support should not file customer tickets against this page.\n\n# Scope\nRedwood AWS and GCP projects, on-call rotations, backup restore tests, and access reviews. Customer tenants are out of scope.\n\n# If a customer writes in\nIf a customer asks how we review our own infra, point them at the public security page and assign the ticket to Legal as a questionnaire. Priority P4. Do not start an internal review because a customer asked.\n\n# If an employee writes in\nEmployees use the Security intake form, not a SUP ticket. Close any SUP opened by an employee for this work and tell them to use the form.\n\n# Scheduling\nThe 2026 review window is October. Support does not book it. Security owns the calendar.\n\n# Outputs\nA private findings doc in the Security space. Not a customer-facing export. Not a bucket in the customer's cloud.\n\n# Related\nSecurity annual calendar. Employee intake form. Not the customer-managed export SOP."
+}

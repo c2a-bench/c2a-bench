@@ -1,0 +1,20 @@
+{
+  "space": "customer-success-and-support",
+  "author": "Kai Moreno",
+  "owner_team": "customer-success",
+  "status": "published",
+  "confidentiality": "internal",
+  "title_field_name": "title",
+  "content_field_names": [
+    "content"
+  ],
+  "title": "Console session and personal access token revocation",
+  "created_at": "2025-10-11",
+  "last_updated": "2026-03-28",
+  "labels": [
+    "support",
+    "console",
+    "sessions"
+  ],
+  "content": "# Purpose\nA user can revoke their own Console sessions and personal access tokens (PATs) used for git-style repo access to prompt templates. These are not org API keys.\n\n# When to use\nThey lost a laptop, saw a Console session they do not recognize, or want to revoke a PAT named after a person. They are not asking about org keys named prod-web or prod-backend.\n\n# Steps\nSettings \u2192 Security \u2192 Sessions \u2192 Revoke, or Settings \u2192 Personal tokens \u2192 Revoke. A PAT revoke does not disable org API keys. An org API key disable does not end Console sessions.\n\n# Priority and routing\nHow-to is P4, Support. A stolen laptop plus an org API key on that laptop is two jobs: this page for the session, the Hosted API key playbook for the org key.\n\n# Guardrails\nDo not disable every org key because someone lost a laptop. Ask which org keys were on the device.\n\n# Related\nConsole security settings. Hosted API key playbook for org keys only."
+}
