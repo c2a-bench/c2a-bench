@@ -8,7 +8,7 @@ Download the bench first, from the repo root: `python3 scripts/fetch_bench.py --
 work on the downloaded files.
 
 - **Docs.** Stage 0 is a small set of Redwood Inference's docs from EnterpriseRAG-Bench. Each later stage's update
-  (`steps/stageN/workdir/stageN_update`) is written by hand: `changes.json` lists each change to an existing page as a
+  (`steps/stageN/workdir/stageN_update`) has two parts: `changes.json` lists each change to an existing page as a
   find-and-replace patch (a renamed label, a changed number, a new step), and `new_docs/` holds the pages the stage
   adds.
 - **Rules and tickets, stage 0.** `scripts/build_stage0_tickets.py` writes the support API doc, the seed data, the
