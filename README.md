@@ -9,7 +9,7 @@ agent did. A **fact judge** then explains every failure.
 
 - Benchmark data (docs, changes, tickets, seed): [`observeai/c2a-bench`](https://huggingface.co/datasets/observeai/c2a-bench)
 - Results of every published run: [`observeai/c2a-bench-runs`](https://huggingface.co/datasets/observeai/c2a-bench-runs)
-- This repo: the code to run the benchmark (`tasks/`, `scripts/`) and the results viewer (`viewer/`)
+- This repo: the code to run the benchmark (`tasks/`, `scripts/`), the code that made its data, and the results viewer (`viewer/`)
 
 | Task | What it tests |
 |---|---|
@@ -113,6 +113,18 @@ python3 scripts/regrade.py --help                                           # re
 
 `regrade.py` re-tests only some tickets with the same agent (no rebuild), e.g. tickets lost on the harness's side
 (a model provider timing out). Then judge the run again with `--judge-only`.
+
+## How the data was made
+
+Each task's `SOURCE.md` says how its docs, rules and tickets were made, and how to run the scripts again:
+
+- [`tasks/redwood-inference/SOURCE.md`](tasks/redwood-inference/SOURCE.md): rules and tickets from
+  `tasks/redwood-inference/scripts`, on docs from EnterpriseRAG-Bench.
+- [`tasks/skyway-air/SOURCE.md`](tasks/skyway-air/SOURCE.md): rules and tickets from `tasks/skyway-air/scripts`, and
+  docs written from the rules with the doc generator in [`tools/doc-gen`](tools/doc-gen/C2A.md).
+
+Customer behaviours are listed in [`scripts/behavior/types.json`](scripts/behavior/types.json); the facts the judge
+checks come from `scripts/build_facts.py`.
 
 ## Viewer
 

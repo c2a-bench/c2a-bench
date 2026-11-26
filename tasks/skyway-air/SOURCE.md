@@ -38,6 +38,10 @@ support agent. `skyway-arch` in the scripts' comments is the internal name of th
 Scripts that write stage-0 docs into both the repo and the generator's copy stop when the two do not match; run
 step 2 and try again. `ERB_GEN_DIR` points the scripts at another generator checkout.
 
+Every ticket has one customer behaviour, set in the ticket scripts (`scripts/behavior/types.json` at the repo root
+lists them). The facts the judge checks come from `python3 scripts/build_facts.py tasks/skyway-air`, run from the repo
+root after the ticket scripts.
+
 ## Stage 0 from scratch (reconstructed, not yet rerun)
 
 This order is put together from the scripts' own instructions and from what `stage_generation.py` does for the later
