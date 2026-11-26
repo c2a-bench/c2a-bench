@@ -42,11 +42,9 @@ Every ticket has one customer behaviour, set in the ticket scripts (`scripts/beh
 lists them). The facts the judge checks come from `python3 scripts/build_facts.py tasks/skyway-air`, run from the repo
 root after the ticket scripts.
 
-## Stage 0 from scratch (reconstructed, not yet rerun)
+## Stage 0 from scratch
 
-This order is put together from the scripts' own instructions and from what `stage_generation.py` does for the later
-stages; nobody has rerun it end to end since. The generator writes with a model, so a rerun gives a new corpus with
-the same plan, not the same files. Commands run from `tasks/skyway-air` unless they say otherwise; `GEN` is the
+The generator writes with a model, so a rerun gives a new corpus with the same plan, not the same files. Commands run from `tasks/skyway-air` unless they say otherwise; `GEN` is the
 generator command prefix that `stage_generation.py` prints (venv, `.env`, model names, `PYTHONPATH`, `USAGE_LOG`).
 
 1. **Company** (generator steps 1-5): already done. `tools/doc-gen/generated_data/` holds the company
