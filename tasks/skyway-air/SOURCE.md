@@ -40,7 +40,8 @@ step 2 and try again. `ERB_GEN_DIR` points the scripts at another generator chec
 
 Every ticket has one customer behaviour, set in the ticket scripts (`scripts/behavior/types.json` at the repo root
 lists them). The facts the judge checks come from `python3 scripts/build_facts.py tasks/skyway-air`, run from the repo
-root after the ticket scripts.
+root after the ticket scripts. `tests/rule_parts.json` lists which parts of its rules each ticket needs (made by
+`scripts/label_rule_parts.py`); the ticket scripts and `build_facts.py` read it, one fact per needed part.
 
 ## Stage 0 from scratch
 
